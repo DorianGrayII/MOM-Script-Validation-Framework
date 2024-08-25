@@ -1,0 +1,45 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC0_PL Language="Polski">
+		<!-- DLC 0 descriptions -->
+
+		<!-- WIZARDS --> 
+
+        <Loc Key="DES_BLADUD" Value="Bladud" />
+		<Loc Key="DES_BLADUD_DES" Value="Bladud był kiedyś wielkim generałem orków, a potem legendarnym królem. Rządził swoim rodem wraz ze swoją srogą królową Belit przez stulecia, zanim ich drogi się rozeszły, a Bladud przejął płaszcz Czarodzieja. Sprzeciwiając się piętnu przeciętności, jakie nosił jego orkowy ród, Bladud był zdeterminowany udowodnić, że nie jest ono prawdziwe. Dzięki mrocznej sztuce magii Czarodziej zyskał wielką moc i postanowił wykorzystać ją wyłącznie w celu przemienienia swojego przyziemnego ludu w nieustraszoną armię Śmierci. Orkowie pod przywództwem Bladuda mogą żywić się siłą życiową swoich wrogów, a sam Czarodziej zyskuje siłę dzięki poległym armiom orków. Mając taką moc, orkowie z pewnością poprowadzą Bladuda do osiągnięcia mistrzostwa." />
+		<Loc Key="DES_BLADUD_QUOTE" Value="Przez wieki zwano mych rodaków słabeuszami, lecz teraz orkowie powstaną i poprzez Śmierć podbiją świat!" />	
+		<Loc Key="DES_BLADUD_GREETINGS" Value="Witaj, jestem Bladud. Czekam z niecierpliwością, by pokazać moją przewagę nad tobą, lecz na razie - porozmawiajmy."/>
+		
+		<Loc Key="DES_BLADUD_GREETINGS_BELIT_1" Value="I tak los zmusił cię do zmierzenia się ze mną, Belit. Nie mogę się doczekać, by udowodnić, że twoje przeklęte istnienie jest gorsze od prawdziwego orka!"/>
+        <Loc Key="DES_BLADUD_GREETINGS_BELIT_2" Value="Belit, podstępna diablico, mów."/>
+
+		<!-- TRAITS -->
+		<Loc Key="DES_ORCOMANCER" Value="Orkmanta" />
+		<Loc Key="DES_ORCOMANCER_DES" Value="Orkmanta jest mistrzem nekromancji, ale dostrojonym jedynie do siły życiowej orków. Za każdą figurę orka w armii, która zginie, Orkmanta otrzymuje +5 do Umiejętności Czarowania w walce (premia może przekroczyć maksimum). Każdy ork pod ich dowództwem otrzymuje także umiejętności Odporność na Śmierć i Pomniejszą Kradzież Życia.\n\n Orkmanta może rozpocząć grę wyłącznie rasą orków.\n\n- Ta umiejętność jest niedostępna wraz z innymi umiejętnościami ograniczającymi wybór rasy.\n\n- Czarodziej musi mieć wybraną co najmniej 1 książkę Śmierci\n\n- Orkmanta kosztuje 2 punkty." />
+		<Loc Key="DES_NECROMANCER" Value="Nekromanta" />
+		<Loc Key="DES_NECROMANCER_DES" Value="Nekromanta stara się przekroczyć zasłonę śmierci na swoją korzyść. Czarodziej rozpoczyna każdą bitwę w Ciemności i z zaklęciem Nieumarły Bohater. Za pomocą zaklęcia może przywołać poległego bohatera jako nieumarłego sługę (bohater powraca, ale zostaje zmieniony przez zaklęcie Czarne Pływy).\n\n- Czarodziej musi mieć wybrane co najmniej 3 książki Śmierci\n \n– Nekromanta kosztuje 1 punkt."/>
+		<Loc Key="DES_TRAIT_DEATH_EATER" Value="Śmierciożerca" />
+		<Loc Key="DES_TRAIT_DEATH_EATER_DES" Value="Śmierciożerca może wykorzystać swoje poległe wojska, aby nakarmić armie królestwa Śmierci. Po zwycięskiej bitwie wszystkie jednostki należące do domeny Śmierci odzyskują 50% zdrowia (nie wskrzesza to poległych jednostek).\n\n– Czarodziej musi mieć wybrane co najmniej 3 książki Śmierci\n\n– Śmierciożerca kosztuje 2 punkty." />
+		<!-- RACE --> 
+ 
+		
+        <!-- UNITS -->
+	
+		
+		<!-- SKILLS --> 
+		<Loc Key="DES_SKILL_DEATH_EATER" Value="Śmierciożerca" />
+		<Loc Key="DES_SKILL_DEATH_EATER_DES" Value="Jednostki należące do domeny Śmierci, pod kontrolą czarodzieja ze zdolnością Śmierciożerca, odzyskują 50% zdrowia po wygranej bitwie."/>
+		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2" Value="Pomniejsza Kradzież Życia 1" />
+  		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2_DES" Value="Za każdy punkt, o który nie udał się test na Odporność {ICON:ResistanceIconNormal} przeciwko atakowi kradnącemu życie (atakowana jednostka otrzymuje + Odporności równy poziomowi wykradania życia), broniący traci -1 punkt życia {ICON:HitIconNormal}, a atakujący otrzymuje +1 punkt życia {ICON:HitIconNormal}. Jednostki zabite głownie przez efekty kradzieży życia powracają jako nieumarli (Odporność na Śmierć może przed tym bronić). Kradzież życia jest rozliczana przed większością innych ataków." />
+      
+		<!-- BUILDINGS -->
+		
+		<!-- RES --> 
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_UNDEAD_HERO" Value="Nieumarły Bohater"/>
+		<Loc Key="DES_UNDEAD_HERO_DES" Value="Możesz przywołać poległego bohatera z powrotem do służby, lecz stanie się on nieumarłym i nie będzie już otrzymywać punktów doświadczenia. Bohater otrzyma umiejętność Pomniejsza Kradzież Życia. Zaklęcia Nieumarły Bohater można użyć na danego bohatera tylko raz." />
+
+		<!-- Other-->
+			
+	</LOCALIZATION-DLC0_PL>
+</DB_LOCALIZATION>

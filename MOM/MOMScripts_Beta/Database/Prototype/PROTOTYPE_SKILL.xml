@@ -1,0 +1,86 @@
+﻿<PROTOTYPE_SKILL>
+	<E_SKILL_DOMAIN Type="enum" Name="ESkillDomain">
+		<None/>
+		<Nature/>
+		<Sorcery/>
+		<Life/>
+		<Chaos/>
+		<Death/>
+		<Tech/>
+	</E_SKILL_DOMAIN>		
+	<E_SKILL_TYPE Type="enum" Name="ESkillType">
+		<None/>
+		<BattleAttack/>
+		<BattleRangedAttack/>
+		<BattleAttackAddon/>
+		<BattleAttackAddon2/>
+		<BattleStackModifier/>
+		
+		<AttributeChange/>
+		<IncomeChange/>
+		<FoodChange/>
+		<FameChange/>
+		<GroupChange/>
+		<PlaneShift/>
+		<Caster/>
+		
+		<BattleTurnStartEffect/>
+		<BattleTurnEndEffect/>
+		<BattleStartEffect/>
+		<BattleEndEffect/>
+		<EndTurnEffect/>
+		
+	</E_SKILL_TYPE>
+	<E_SKILL_DAMAGE_POOL Type="enum" Name="ESkillDamagePool">
+		<None/>
+		<Normal/>
+		<Undead/>
+		<Irreversible/>
+	</E_SKILL_DAMAGE_POOL>
+	<E_BATTLE_ATTACK_EFFECT Type="enum" Name="ESkillBattleAttackEffect">
+		<None/>
+		<Piercing/>
+		<Illusion/>
+		<FirstStrike/>
+		<AntiFirstStrike/>
+	</E_BATTLE_ATTACK_EFFECT>	
+	<!-- Activator script should handle progression of the IntParam based on the unit developmenti if necessary -->
+	<SKILL_SCRIPT Name="SkillScript">
+		<TriggerType Name="triggerType" Type="E_SKILL_TYPE" Required="TRUE"/>
+		<!-- -10 - afterAttack, 0 - attack, 10 - preAttack -->
+		<Priority Name="priority" Type="int" Required="TRUE"/>
+		<AllowMeleeVsFly Name="allowMeleeVsFly" Type="bool" Required="FALSE"/>
+		<TriggerScript Name="trigger" Type="string" Required="FALSE"/>		
+		<ActivatorMainScript Name="activatorMain" Type="string" Required="FALSE"/>
+		<ActivatorSecondaryScript Name="activatorSecondary" Type="string" Required="FALSE"/>
+		<DamagePool Name="damagePool" Type="E_SKILL_DAMAGE_POOL" Required="FALSE"/>
+		<FIntParam Name="fIntParam" Type="FInt" Required="FALSE"/>
+		<StringData Name="stringData" Type="string" Required="FALSE"/>
+		<BattleAttackEffect Name="battleAttackEffect" Type="E_BATTLE_ATTACK_EFFECT" Required="FALSE"/>
+		
+	</SKILL_SCRIPT>
+	
+	<SKILL Name="Skill">
+		<HideSkill Name="hideSkill" Type="bool" Required="FALSE"/>
+		<Domain Name="domain" Type="E_SKILL_DOMAIN" Required="FALSE"/>
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="TRUE"/>
+		<DescriptionScript Name="descriptionScript" Type="string" Required="FALSE"/>
+		<!-- Skill do not show on unit short (DefenderUnit i AttackerUnit) info in combat-->
+		<NonCombatDisplay Name="nonCombatDisplay" Type="bool" Required="FALSE"/>
+		<Script Name="script" Type="ArraySKILL_SCRIPT" Required="FALSE"/>
+		<SkillApplicationScript Name="applicationScript" Type="SKILL_SCRIPT" Required="FALSE"/>		
+		<SkillRemovalScript Name="removalScript" Type="SKILL_SCRIPT" Required="FALSE"/>	
+		<!--Script trigerred on other units when owner or another unit joins the group-->
+		<OnJoinWithUnit Name="onJoinWithUnit" Type="string" Required="FALSE"/>
+		<!--Script trigerred on other units when owner or another unit leaves the group-->
+		<OnLeaveFromUnit Name="onLeaveFromUnit" Type="string" Required="FALSE"/>	
+		<VersionSuper Name="versionSuper" Type="SKILL" Required="FALSE"/>
+		<RelatedEnchantment Name="relatedEnchantment" Type="ArrayENCHANTMENT" Required="FALSE"/>
+		<Stackable Name="stackable" Type="bool" Required="FALSE"/>
+		<Dlc Name="dlc" Type="string" Required="FALSE"/>
+	</SKILL>
+	
+	<SKILL_PACK Name="SkillPack">
+		<Skill Name="skills" Type="ArraySKILL" Required="FALSE"/>
+	</SKILL_PACK>
+</PROTOTYPE_SKILL>

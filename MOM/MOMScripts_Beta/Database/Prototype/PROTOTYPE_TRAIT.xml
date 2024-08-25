@@ -1,0 +1,13 @@
+﻿<PROTOTYPE_TRAIT>	
+	<TRAIT Name="Trait">				
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>		
+		<Cost Name="cost" Type="int" Required="FALSE"/>		
+		<PrerequisiteScript Name="prerequisiteScript" Type="string" Required="FALSE"/>
+		<RaceFilteringScript Name="raceFilteringScript" Type="string" Required="FALSE"/>
+		<InitialScript Name="initialScript" Type="string" Required="TRUE"/>
+		<StartingSpells Name="startingSpells" Type="Arraystring" Required="FALSE"/>
+		<Tags Name="tags" Type="ArrayCOUNTED_TAG" Required="FALSE"/>
+		<Dlc Name="dlc" Type="string" Required="FALSE"/>
+		<RewardExclusion Name="rewardExclusion" Type="bool" Required="FALSE"/>
+	</TRAIT>		
+</PROTOTYPE_TRAIT>

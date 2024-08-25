@@ -1,0 +1,90 @@
+﻿<PROTOTYPE_SPELL>
+	<E_SPELL_RARITY Type="enum" Name="ERarity">
+		<None/>
+		<Common/>	
+		<Uncommon/>
+		<Rare/>
+		<VeryRare/>
+	</E_SPELL_RARITY>
+	<E_SPELL_REALM Type="enum" Name="ERealm">
+		<None/>		
+		<Arcane/>
+		<Nature/>
+		<Chaos/>
+		<Life/>
+		<Death/>
+		<Sorcery/>
+		<Tech/>
+	</E_SPELL_REALM>
+	<E_TARGET_TYPE Type="enum" Name="ETargetType">	
+		<None/>
+		<TargetLocation/>
+		<!-- Target unit is a target in unit in Battle and World-->
+		<TargetUnit/>
+		<TargetGroup/>
+		<TargetWizard/>
+		<TargetHex/>
+		<TargetGlobal/>
+		<WorldSummon/>
+		<WorldHexBattleGlobal/>
+	</E_TARGET_TYPE>
+	
+	<TARGET_TYPE Name="TargetType">
+		<EnumType Name="enumType" Type="E_TARGET_TYPE" Required="FALSE"/>
+		<DesType Name="desType" Type="string" Required="FALSE"/>
+	</TARGET_TYPE>
+	
+	<CHANGEABLE_COST Name="ChangeableCost">
+		<!-- how much mana can be add to spell-->
+		<MaxMultipier Name="maxMultipier" Type="int" Required="TRUE"/>
+		<!-- how much extra mana is need per one point-->
+		<CostPerPoint Name="costPerPoint" Type="int" Required="TRUE"/>
+		<DesType Name="desType" Type="string" Required="TRUE"/>
+	</CHANGEABLE_COST>
+	
+	<SPELL Name="Spell">
+		<ChangeableCost Name="changeableCost" Type="CHANGEABLE_COST" Required="FALSE"/>	
+		<ResearchExclusion Name="researchExclusion" Type="bool" Required="FALSE"/>	
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>
+		<!-- Cost in mana-->
+		<WorldCost Name="worldCost" Type="int" Required="FALSE"/>
+		<!-- Cost in mana-->
+		<BattleCost Name="battleCost" Type="int" Required="FALSE"/>
+		<!-- Cost in mana-->
+		<UnitBattleCost Name="unitBattleCost" Type="int" Required="FALSE"/>
+		<CastEffect Name="castEffect" Type="string" Required="FALSE"/>
+		<BattleCastEffect Name="battleCastEffect" Type="string" Required="FALSE"/>
+		<!-- That is max of extra mana cost player can take to do extra dmg-->
+		<!-- <MaxCost Name="maxCost" Type="int" Required="FALSE"/>-->
+		<ResearchCost Name="researchCost" Type="int" Required="TRUE"/>
+		<UpkeepCost Name="upkeepCost" Type="int" Required="FALSE"/>
+		<Realm Name="realm" Type="E_SPELL_REALM" Required="TRUE"/>
+		<Rarity Name="rarity" Type="E_SPELL_RARITY" Required="TRUE"/>
+		<TargetType Name="targetType" Type="TARGET_TYPE" Required="TRUE"/>
+		
+		<TargetingScript Name="targetingScript" Type="string" Required="FALSE"/>
+		<BattleScript Name="battleScript" Type="string" Required="FALSE"/>
+		<WorldScript Name="worldScript" Type="string" Required="FALSE"/>
+		<AIBattleEvaluationScript Name="aiBattleEvaluationScript" Type="string" Required="FALSE"/>
+		<AIWorldEvaluationScript Name="aiWorldEvaluationScript" Type="string" Required="FALSE"/>
+		<StringData Name="stringData" Type="Arraystring" Required="FALSE"/>
+		<FIntData Name="fIntData" Type="ArrayFInt" Required="FALSE"/>
+		<EnchantmentData Name="enchantmentData" Type="ArrayENCHANTMENT" Required="FALSE"/>
+		<BuildingData Name="buildingData" Type="ArrayBUILDING" Required="FALSE"/>
+		<DamagePool Name="damagePool" Type="E_SKILL_DAMAGE_POOL" Required="FALSE"/>
+		<BattleAttackEffect Name="battleAttackEffect" Type="E_BATTLE_ATTACK_EFFECT" Required="FALSE"/>
+		<AdditionalGraphic Name="additionalGraphic" Type="string" Required="FALSE"/>
+		<AudioEffect Name="audioEffect" Type="string" Required="FALSE"/>
+		<HealingSpell Name="healingSpell" Type="bool" Required="FALSE"/>
+		<DispelingSpell Name="dispelingSpell" Type="bool" Required="FALSE"/>
+		<SummonFantasticUnitSpell Name="summonFantasticUnitSpell" Type="bool" Required="FALSE"/>
+		<ShowWizardsEnchantments Name="showWizardsEnchantments" Type="bool" Required="FALSE"/>
+		<TreasureExclude Name="treasureExclude" Type="bool" Required="FALSE"/>
+		<!-- That field is fielded when spell try to target invalid spell-->
+		<InvalidTarget Name="invalidTarget" Type="string" Required="FALSE"/>
+		<Dlc Name="dlc" Type="string" Required="FALSE"/>
+	</SPELL>
+	<SPELL_PACK Name="SpellPack">
+		<Spell Name="spells" Type="ArraySPELL" Required="FALSE"/>
+	</SPELL_PACK>
+</PROTOTYPE_SPELL>

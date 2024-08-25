@@ -1,0 +1,624 @@
+﻿<DB_BUILDING>
+
+	<BUILDING-TRADE_GOODS>
+		<DescriptionInfo Name="DES_TRADE_GOODS" Description="DES_TRADE_GOODS_DES" Graphic="BuildingTradeGoods"/>
+		<BuildCost VALUE="-1"/>
+		<UpkeepCost VALUE="0"/>		
+	</BUILDING-TRADE_GOODS>
+	<BUILDING-HOUSING>
+		<DescriptionInfo Name="DES_HOUSING" Description="DES_HOUSING_DES" Graphic="BuildingHousing"/>
+		<BuildCost VALUE="-1"/>
+		<UpkeepCost VALUE="0"/>		
+	</BUILDING-HOUSING>
+	
+	<BUILDING-FORTRESS>
+		<DescriptionInfo Name="DES_BUILDING_FORTRESS" Description="DES_BUILDING_FORTRESS_DES" Graphic="BuildingFortress"/>
+		<BuildCost VALUE="0"/>
+		<UpkeepCost VALUE="0"/>
+		<Enchantments VALUE="ENCH-FORTRESS_POWER"/>
+		<Enchantments VALUE="ENCH-FORTRESS_LIGHTNING_BOLT_NATURE"/>
+		<Enchantments VALUE="ENCH-FORTRESS_LIGHTNING_BOLT_SORCERY"/>
+		<Enchantments VALUE="ENCH-FORTRESS_LIGHTNING_BOLT_DEATH"/>
+		<Enchantments VALUE="ENCH-FORTRESS_LIGHTNING_BOLT_LIFE"/>
+		<Enchantments VALUE="ENCH-FORTRESS_LIGHTNING_BOLT_CHAOS"/>
+	</BUILDING-FORTRESS>
+
+	<BUILDING-BARRACKS>
+		<DescriptionInfo Name="DES_BUILDING_BARRACKS" Description="DES_BUILDING_BARRACKS_DES" Graphic="BuildingBarracks"/>
+		<BuildCost VALUE="30"/>
+		<UpkeepCost VALUE="0"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-BARRACKS>
+	<BUILDING-ARMORY>
+		<DescriptionInfo Name="DES_BUILDING_ARMORY" Description="DES_BUILDING_ARMORY_DES" Graphic="BuildingArmory"/>
+		<ParentBuildingRequired VALUE="BUILDING-BARRACKS"/>
+		<ParentBuildingRequired VALUE="BUILDING-SMITHY"/>
+		<BuildCost VALUE="80"/>
+		<UpkeepCost VALUE="2"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-ARMORY>
+	<BUILDING-FIGHTERS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_FIGHTERS_GUILD" Description="DES_BUILDING_FIGHTERS_GUILD_DES" Graphic="BuildingFightersGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-ARMORY"/>
+		<BuildCost VALUE="200"/>
+		<UpkeepCost VALUE="3"/>
+		<Enchantments VALUE="ENCH-FIGHTERS_GUILD"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-FIGHTERS_GUILD>
+	<BUILDING-ARMORERS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_ARMORERS_GUILD" Description="DES_BUILDING_ARMORERS_GUILD_DES" Graphic="BuildingArmorersGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<BuildCost VALUE="350"/>
+		<UpkeepCost VALUE="4"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-ARMORERS_GUILD>
+	<BUILDING-WAR_COLLEGE>
+		<DescriptionInfo Name="DES_BUILDING_WAR_COLLEGE" Description="DES_BUILDING_WAR_COLLEGE_DES" Graphic="BuildingWarCollege"/>
+		<ParentBuildingRequired VALUE="BUILDING-ARMORERS_GUILD"/>
+		<ParentBuildingRequired VALUE="BUILDING-UNIVERSITY"/>
+		<BuildCost VALUE="500"/>
+		<UpkeepCost VALUE="5"/>
+		<Enchantments VALUE="ENCH-WAR_COLLEGE"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-WAR_COLLEGE>
+	
+	
+	<BUILDING-SMITHY>
+		<DescriptionInfo Name="DES_BUILDING_SMITHY" Description="DES_BUILDING_SMITHY_DES" Graphic="BuildingSmithy"/>
+		<BuildCost VALUE="40"/>
+		<UpkeepCost VALUE="1"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-SMITHY>
+	<BUILDING-STABLES>
+		<DescriptionInfo Name="DES_BUILDING_STABLES" Description="DES_BUILDING_STABLES_DES" Graphic="BuildingStables"/>
+		<ParentBuildingRequired VALUE="BUILDING-SMITHY"/>
+		<BuildCost VALUE="80"/>
+		<UpkeepCost VALUE="2"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-STABLES>
+	<BUILDING-ANIMISTS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_ANIMISTS_GUILD" Description="DES_BUILDING_ANIMISTS_GUILD_DES" Graphic="BuildingAnimistsGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-STABLES"/>
+		<ParentBuildingRequired VALUE="BUILDING-TEMPLE"/>
+		<BuildCost VALUE="300"/>
+		<UpkeepCost VALUE="5"/>
+		<Enchantments VALUE="ENCH-ANIMISTS_GUILD"/>
+		<Tags VALUE="TAG-FOOD_PRODUCTION"/>
+		<Tags VALUE="TAG-UNREST"/>
+	</BUILDING-ANIMISTS_GUILD>
+	<BUILDING-FANTASTIC_STABLES>
+		<DescriptionInfo Name="DES_BUILDING_FANTASTIC_STABLES" Description="DES_BUILDING_FANTASTIC_STABLES_DES" Graphic="BuildingFantasticStables"/>
+		<ParentBuildingRequired VALUE="BUILDING-ARMORERS_GUILD"/>
+		<ParentBuildingRequired VALUE="BUILDING-ANIMISTS_GUILD"/>
+		<BuildCost VALUE="600"/>
+		<UpkeepCost VALUE="6"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-FANTASTIC_STABLES>
+	
+	<BUILDING-SHIPWRIGHTS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_SHIPWRIGHTS_GUILD" Description="DES_BUILDING_SHIPWRIGHTS_GUILD_DES" Graphic="BuildingShipwrightsGuild"/>
+		<BuildCost VALUE="100"/>
+		<UpkeepCost VALUE="1"/>
+		<Tags VALUE="TAG-MILITARY"/>
+		<MarineBuilding VALUE="TRUE"/>
+	</BUILDING-SHIPWRIGHTS_GUILD>
+	<BUILDING-SHIP_YARD>
+		<DescriptionInfo Name="DES_BUILDING_SHIPYARD" Description="DES_BUILDING_SHIPYARD_DES" Graphic="BuildingShipYard"/>
+		<ParentBuildingRequired VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+		<ParentBuildingRequired VALUE="BUILDING-SAWMILL"/>
+		<BuildCost VALUE="200"/>
+		<UpkeepCost VALUE="2"/>
+		<Tags VALUE="TAG-MILITARY"/>
+		<MarineBuilding VALUE="TRUE"/>
+	</BUILDING-SHIP_YARD>
+	<BUILDING-MARITIME_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_MARITIME_GUILD" Description="DES_BUILDING_MARITIME_GUILD_DES" Graphic="BuildingMaritimeGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-SHIP_YARD"/>
+		<ParentBuildingRequired VALUE="BUILDING-ARMORY"/>
+		<BuildCost VALUE="400"/>
+		<UpkeepCost VALUE="4"/>
+		<Tags VALUE="TAG-MILITARY"/>
+		<MarineBuilding VALUE="TRUE"/>
+	</BUILDING-MARITIME_GUILD>
+	
+	<BUILDING-SAWMILL>
+		<DescriptionInfo Name="DES_BUILDING_SAWMILL" Description="DES_BUILDING_SAWMILL_DES" Graphic="BuildingSawmill"/>
+		<BuildCost VALUE="100"/>
+		<UpkeepCost VALUE="2"/>
+		<Enchantments VALUE="ENCH-SAWMILL"/>
+		<Tags VALUE="TAG-INCREASE_PRODUCTION"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-SAWMILL>
+	<BUILDING-LIBRARY>
+		<DescriptionInfo Name="DES_BUILDING_LIBRARY" Description="DES_BUILDING_LIBRARY_DES" Graphic="BuildingLibrary"/>
+		<ParentBuildingRequired VALUE="BUILDING-BUILDERS_HALL"/>
+		<BuildCost VALUE="60"/>
+		<UpkeepCost VALUE="1"/>
+		<Enchantments VALUE="ENCH-LIBRARY"/>
+		<Tags VALUE="TAG-RESEARCH_PRODUCTION"/>
+	</BUILDING-LIBRARY>
+	<BUILDING-SAGES_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_SAGES_GUILD" Description="DES_BUILDING_SAGES_GUILD_DES" Graphic="BuildingSagesGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-LIBRARY"/>
+		<BuildCost VALUE="120"/>
+		<UpkeepCost VALUE="2"/>
+		<Enchantments VALUE="ENCH-SAGES_GUILD"/>
+		<Tags VALUE="TAG-RESEARCH_PRODUCTION"/>
+	</BUILDING-SAGES_GUILD>
+	<BUILDING-ALCHEMISTS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_ALCHEMISTS_GUILD" Description="DES_BUILDING_ALCHEMISTS_GUILD_DES" Graphic="BuildingAlchemistsGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-SAGES_GUILD"/>
+		<BuildCost VALUE="250"/>
+		<UpkeepCost VALUE="3"/>
+		<Enchantments VALUE="ENCH-ALCHEMISTS_GUILD"/>
+		<Tags VALUE="TAG-POWER_PRODUCTION"/>
+	</BUILDING-ALCHEMISTS_GUILD>
+	<BUILDING-UNIVERSITY>
+		<DescriptionInfo Name="DES_BUILDING_UNIVERSITY" Description="DES_BUILDING_UNIVERSITY_DES" Graphic="BuildingUniversity"/>
+		<ParentBuildingRequired VALUE="BUILDING-SAGES_GUILD"/>
+		<BuildCost VALUE="300"/>
+		<UpkeepCost VALUE="3"/>
+		<Enchantments VALUE="ENCH-UNIVERSITY"/>
+		<Tags VALUE="TAG-RESEARCH_PRODUCTION"/>
+	</BUILDING-UNIVERSITY>
+	<BUILDING-ORACLE>
+		<DescriptionInfo Name="DES_BUILDING_ORACLE" Description="DES_BUILDING_ORACLE_DES" Graphic="BuildingOracle"/>
+		<ParentBuildingRequired VALUE="BUILDING-PARTHENON"/>
+		<ParentBuildingRequired VALUE="BUILDING-UNIVERSITY"/>
+		<BuildCost VALUE="500"/>
+		<UpkeepCost VALUE="4"/>
+		<Enchantments VALUE="ENCH-ORACLE"/>
+		<Tags VALUE="TAG-UNREST"/>
+		<Tags VALUE="TAG-RELIGIOUS"/>
+	</BUILDING-ORACLE>
+	<BUILDING-WIZARDS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_WIZARDS_GUILD" Description="DES_BUILDING_WIZARDS_GUILD_DES" Graphic="BuildingWizardsGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+		<ParentBuildingRequired VALUE="BUILDING-UNIVERSITY"/>
+		<BuildCost VALUE="1000"/>
+		<UpkeepCost VALUE="5"/>
+		<UpkeepManaCost VALUE="3"/>
+		<Enchantments VALUE="ENCH-WIZARDS_GUILD"/>
+		<Tags VALUE="TAG-RESEARCH_PRODUCTION"/>
+		<Tags VALUE="TAG-MILITARY"/>
+		<Tags VALUE="TAG-MAGICAL"/>
+	</BUILDING-WIZARDS_GUILD>
+	
+	<BUILDING-SHRINE>
+		<DescriptionInfo Name="DES_BUILDING_SHRINE" Description="DES_BUILDING_SHRINE_DES" Graphic="BuildingShrine"/>
+		<ParentBuildingRequired VALUE="BUILDING-BUILDERS_HALL"/>
+		<BuildCost VALUE="100"/>
+		<UpkeepCost VALUE="1"/>
+		<Enchantments VALUE="ENCH-SHRINE"/>
+		<Tags VALUE="TAG-UNREST"/>
+		<Tags VALUE="TAG-POWER_PRODUCTION"/>
+		<Tags VALUE="TAG-RELIGIOUS"/>
+	</BUILDING-SHRINE>
+	<BUILDING-TEMPLE>
+		<DescriptionInfo Name="DES_BUILDING_TEMPLE" Description="DES_BUILDING_TEMPLE_DES" Graphic="BuildingTemple"/>
+		<ParentBuildingRequired VALUE="BUILDING-SHRINE"/>
+		<BuildCost VALUE="200"/>
+		<UpkeepCost VALUE="2"/>
+		<Enchantments VALUE="ENCH-TEMPLE"/>
+		<Tags VALUE="TAG-UNREST"/>
+		<Tags VALUE="TAG-POWER_PRODUCTION"/>
+		<Tags VALUE="TAG-RELIGIOUS"/>
+		<Tags VALUE="TAG-DIVINE_INFERNAL_BONUS"/>
+	</BUILDING-TEMPLE>
+	<BUILDING-PARTHENON>
+		<DescriptionInfo Name="DES_BUILDING_PARTHENON" Description="DES_BUILDING_PARTHENON_DES" Graphic="BuildingParthenon"/>
+		<ParentBuildingRequired VALUE="BUILDING-TEMPLE"/>
+		<BuildCost VALUE="400"/>
+		<UpkeepCost VALUE="3"/>
+		<Enchantments VALUE="ENCH-PARTHENON"/>
+		<Tags VALUE="TAG-UNREST"/>
+		<Tags VALUE="TAG-POWER_PRODUCTION"/>
+		<Tags VALUE="TAG-RELIGIOUS"/>
+		<Tags VALUE="TAG-DIVINE_INFERNAL_BONUS"/>
+	</BUILDING-PARTHENON>
+	<BUILDING-CATHEDRAL>
+		<DescriptionInfo Name="DES_BUILDING_CATHEDRAL" Description="DES_BUILDING_CATHEDRAL_DES" Graphic="BuildingCathedral"/>
+		<ParentBuildingRequired VALUE="BUILDING-PARTHENON"/>
+		<BuildCost VALUE="800"/>
+		<UpkeepCost VALUE="4"/>
+		<Enchantments VALUE="ENCH-CATHEDRAL"/>
+		<Tags VALUE="TAG-UNREST"/>
+		<Tags VALUE="TAG-POWER_PRODUCTION"/>
+		<Tags VALUE="TAG-RELIGIOUS"/>
+		<Tags VALUE="TAG-DIVINE_INFERNAL_BONUS"/>
+	</BUILDING-CATHEDRAL>
+	
+	<BUILDING-MARKETPLACE>
+		<DescriptionInfo Name="DES_BUILDING_MARKETPLACE" Description="DES_BUILDING_MARKETPLACE_DES" Graphic="BuildingMarketplace"/>
+		<ParentBuildingRequired VALUE="BUILDING-SMITHY"/>
+		<BuildCost VALUE="100"/>
+		<UpkeepCost VALUE="1"/>
+		<Enchantments VALUE="ENCH-MARKETPLACE"/>
+		<Tags VALUE="TAG-GOLD_PRODUCTION"/>
+	</BUILDING-MARKETPLACE>
+	<BUILDING-BANK>
+		<DescriptionInfo Name="DES_BUILDING_BANK" Description="DES_BUILDING_BANK_DES" Graphic="BuildingBank"/>
+		<ParentBuildingRequired VALUE="BUILDING-MARKETPLACE"/>
+		<ParentBuildingRequired VALUE="BUILDING-UNIVERSITY"/>
+		<BuildCost VALUE="250"/>
+		<UpkeepCost VALUE="3"/>
+		<Enchantments VALUE="ENCH-BANK"/>
+		<Tags VALUE="TAG-GOLD_PRODUCTION"/>
+	</BUILDING-BANK>
+	<BUILDING-MERCHANTS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_MERCHANTS_GUILD" Description="DES_BUILDING_MERCHANTS_GUILD_DES" Graphic="BuildingMerchantsGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-SHIP_YARD"/>
+		<ParentBuildingRequired VALUE="BUILDING-BANK"/>
+		<BuildCost VALUE="600"/>
+		<UpkeepCost VALUE="5"/>
+		<Enchantments VALUE="ENCH-MERCHANTS_GUILD"/>
+		<Tags VALUE="TAG-GOLD_PRODUCTION"/>
+	</BUILDING-MERCHANTS_GUILD>
+	
+	<BUILDING-GRANARY>
+		<DescriptionInfo Name="DES_BUILDING_GRANARY" Description="DES_BUILDING_GRANARY_DES" Graphic="BuildingGranary"/>
+		<ParentBuildingRequired VALUE="BUILDING-BUILDERS_HALL"/>
+		<BuildCost VALUE="40"/>
+		<UpkeepCost VALUE="1"/>
+		<Enchantments VALUE="ENCH-GRANARY"/>
+		<Tags VALUE="TAG-FOOD_PRODUCTION"/>
+	</BUILDING-GRANARY>
+	<BUILDING-FARMERS_MARKET>
+		<DescriptionInfo Name="DES_BUILDING_FARMERS_MARKET" Description="DES_BUILDING_FARMERS_MARKET_DES" Graphic="BuildingFarmersMarket"/>
+		<ParentBuildingRequired VALUE="BUILDING-GRANARY"/>
+		<ParentBuildingRequired VALUE="BUILDING-MARKETPLACE"/>
+		<BuildCost VALUE="100"/>
+		<UpkeepCost VALUE="2"/>
+		<Enchantments VALUE="ENCH-FARMERS_MARKET"/>
+		<Tags VALUE="TAG-FOOD_PRODUCTION"/>
+	</BUILDING-FARMERS_MARKET>
+	<BUILDING-FORESTERS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_FORESTERS_GUILD" Description="DES_BUILDING_FORESTERS_GUILD_DES" Graphic="BuildingForestersGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-SAWMILL"/>
+		<BuildCost VALUE="200"/>
+		<UpkeepCost VALUE="2"/>
+		<Enchantments VALUE="ENCH-FORESTERS_GUILD"/>
+		<Tags VALUE="TAG-FOOD_PRODUCTION"/>
+		<Tags VALUE="TAG-INCREASE_PRODUCTION"/>
+	</BUILDING-FORESTERS_GUILD>
+	
+	<BUILDING-BUILDERS_HALL>
+		<DescriptionInfo Name="DES_BUILDING_BUILDERS_HALL" Description="DES_BUILDING_BUILDERS_HALL_DES" Graphic="BuildingBuildersHall"/>
+		<BuildCost VALUE="60"/>
+		<UpkeepCost VALUE="1"/>
+	</BUILDING-BUILDERS_HALL>
+	<BUILDING-MINERS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_MINERS_GUILD" Description="DES_BUILDING_MINERS_GUILD_DES" Graphic="BuildingMinersGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-BUILDERS_HALL"/>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-SILVER_ORE"/>
+			<BonusTypes>
+				<Money VALUE="1"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-GOLD_ORE"/>
+			<BonusTypes>
+				<Money VALUE="2"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-IRON_ORE"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0.05"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-COAL"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0.1"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-GEMS"/>
+			<BonusTypes>
+				<Money VALUE="3"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-MITHRIL_ORE"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="1"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-ADAMANTINE_ORE"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="1"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-QUORK_CRYSTALS"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="2"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-CRYSX_CRYSTALS"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="3"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-ORICHALCUM"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="3"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0.05"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildCost VALUE="300"/>
+		<UpkeepCost VALUE="3"/>
+		<Enchantments VALUE="ENCH-MINERS_GUILD"/>
+		<Tags VALUE="TAG-INCREASE_PRODUCTION"/>
+	</BUILDING-MINERS_GUILD>
+	<BUILDING-DWARF_MINERS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_DWARF_MINERS_GUILD" Description="DES_BUILDING_DWARF_MINERS_GUILD_DES" Graphic="BuildingDwarfMinersGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-BUILDERS_HALL"/>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-SILVER_ORE"/>
+			<BonusTypes>
+				<Money VALUE="2"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-GOLD_ORE"/>
+			<BonusTypes>
+				<Money VALUE="3"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-IRON_ORE"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0.10"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-COAL"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0.20"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-GEMS"/>
+			<BonusTypes>
+				<Money VALUE="5"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-MITHRIL_ORE"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="1"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-ADAMANTINE_ORE"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="2"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-QUORK_CRYSTALS"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="3"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-CRYSX_CRYSTALS"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="5"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-ORICHALCUM"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="3"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0.1"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildCost VALUE="300"/>
+		<UpkeepCost VALUE="3"/>
+		<Enchantments VALUE="ENCH-MINERS_GUILD"/>
+		<Tags VALUE="TAG-INCREASE_PRODUCTION"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-DWARF_MINERS_GUILD>
+	<BUILDING-MECHANICIANS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_MECHANICIANS_GUILD" Description="DES_BUILDING_MECHANICIANS_GUILD_DES" Graphic="BuildingMechaniciansGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-MINERS_GUILD"/>
+		<ParentBuildingRequired VALUE="BUILDING-UNIVERSITY"/>
+		<BuildCost VALUE="600"/>
+		<UpkeepCost VALUE="5"/>
+		<Enchantments VALUE="ENCH-MECHANICIANS_GUILD"/>
+		<Tags VALUE="TAG-INCREASE_PRODUCTION"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-MECHANICIANS_GUILD>
+	<BUILDING-CITY_WALLS>
+		<DescriptionInfo Name="DES_BUILDING_CITY_WALLS" Description="DES_BUILDING_CITY_WALLS_DES" Graphic="BuildingCityWalls"/>
+		<ParentBuildingRequired VALUE="BUILDING-BUILDERS_HALL"/>
+		<BuildCost VALUE="150"/>
+		<UpkeepCost VALUE="2"/>
+		<Enchantments VALUE="ENCH-CITY_WALLS"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-CITY_WALLS>
+	<BUILDING-ASTRAL_GATE>
+		<DescriptionInfo Name="DES_ASTRAL_GATE" Description="DES_ASTRAL_GATE_DES2" Graphic="BuildingAstralGate"/>
+		<BuildCost VALUE="0"/>
+		<UpkeepCost VALUE="0"/>
+	</BUILDING-ASTRAL_GATE>
+	<BUILDING-EARTH_GATE>
+		<DescriptionInfo Name="DES_EARTH_GATE" Description="DES_EARTH_GATE_DES2" Graphic="BuildingEarthGate"/>
+		<BuildCost VALUE="0"/>
+		<UpkeepCost VALUE="0"/>
+	</BUILDING-EARTH_GATE>
+	<BUILDING-NATURES_EYE>
+		<DescriptionInfo Name="DES_NATURES_EYE" Description="DES_NATURES_EYE_DES2" Graphic="BuildingNaturesEye"/>
+		<BuildCost VALUE="0"/>
+		<UpkeepCost VALUE="0"/>
+	</BUILDING-NATURES_EYE>
+	<BUILDING-ALTAR_OF_BATTLE>
+		<DescriptionInfo Name="DES_ALTAR_OF_BATTLE" Description="DES_ALTAR_OF_BATTLE_DES2" Graphic="BuildingAltarOfBattle"/>
+		<BuildCost VALUE="0"/>
+		<UpkeepCost VALUE="0"/>
+	</BUILDING-ALTAR_OF_BATTLE>
+	<BUILDING-STREAM_OF_LIFE>
+		<DescriptionInfo Name="DES_STREAM_OF_LIFE" Description="DES_STREAM_OF_LIFE_DES2" Graphic="BuildingStreamOfLife"/>
+		<BuildCost VALUE="0"/>
+		<UpkeepCost VALUE="0"/>
+	</BUILDING-STREAM_OF_LIFE>
+	
+	<!-- DLC 2-->
+	<BUILDING-MAGIC_COLLECTOR>
+		<DescriptionInfo Name="DES_BUILDING_MAGIC_COLLECTOR" Description="DES_BUILDING_MAGIC_COLLECTOR_DES" Graphic="BuildingMagicCollector"/>
+		<ParentBuildingRequired VALUE="BUILDING-SMITHY"/>
+		<BuildCost VALUE="300"/>
+		<UpkeepCost VALUE="2"/>
+		<Enchantments VALUE="ENCH-MAGIC_COLLECTOR"/>
+		<Tags VALUE="TAG-POWER_PRODUCTION"/>
+	</BUILDING-MAGIC_COLLECTOR>
+	<BUILDING-SOUL_MECHANICIANS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_MECHANICIANS_GUILD" Description="DES_BUILDING_MECHANICIANS_GUILD_DES" Graphic="BuildingMechaniciansGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-MINERS_GUILD"/>
+		<ParentBuildingRequired VALUE="BUILDING-UNIVERSITY"/>
+		<BuildCost VALUE="600"/>
+		<UpkeepCost VALUE="5"/>
+		<Enchantments VALUE="ENCH-MECHANICIANS_GUILD"/>
+		<Tags VALUE="TAG-INCREASE_PRODUCTION"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-SOUL_MECHANICIANS_GUILD>
+	<BUILDING-SOUL_SHIPWRIGHTS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_SHIPWRIGHTS_GUILD" Description="DES_BUILDING_SHIPWRIGHTS_GUILD_DES" Graphic="BuildingShipwrightsGuild"/>
+		<BuildCost VALUE="100"/>
+		<UpkeepCost VALUE="1"/>
+		<Tags VALUE="TAG-MILITARY"/>
+		<MarineBuilding VALUE="TRUE"/>
+	</BUILDING-SOUL_SHIPWRIGHTS_GUILD>
+	<BUILDING-TECH_STABLES>
+		<DescriptionInfo Name="DES_BUILDING_STABLES" Description="DES_BUILDING_STABLES_DES" Graphic="BuildingTechStables"/>
+		<ParentBuildingRequired VALUE="BUILDING-SMITHY"/>
+		<BuildCost VALUE="80"/>
+		<UpkeepCost VALUE="2"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-TECH_STABLES>
+	
+	<!-- DLC 3-->
+	<BUILDING-BLUEORCS_GHOST_SHIPYARD>
+		<DescriptionInfo Name="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD" Description="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD_DES" Graphic="BuildingGhostShipyard"/>
+		<BuildCost VALUE="100"/>
+		<UpkeepCost VALUE="1"/>
+		<Tags VALUE="TAG-MILITARY"/>
+	</BUILDING-BLUEORCS_GHOST_SHIPYARD>
+	
+	<BUILDING-FISHERMAN_HUT>
+		<DescriptionInfo Name="DES_BUILDING_FISHERMAN_HUT" Description="DES_BUILDING_FISHERMAN_HUT_DES" Graphic="BuildingFishermansHut"/>
+		<ParentBuildingRequired VALUE="BUILDING-BUILDERS_HALL"/>
+		<BuildCost VALUE="60"/>
+		<UpkeepCost VALUE="1"/>
+		<Enchantments VALUE="ENCH-FISHERMAN_HUT"/>
+		<Tags VALUE="TAG-FOOD_PRODUCTION"/>
+		<MarineBuilding VALUE="TRUE"/>
+	</BUILDING-FISHERMAN_HUT>
+	
+	<BUILDING-BLUEORCS_RAIDERS_HUT>
+		<DescriptionInfo Name="DES_BUILDING_BLUEORCS_RAIDERS_HUT" Description="DES_BUILDING_BLUEORCS_RAIDERS_HUT_DES" Graphic="BuildingRaidersHut"/>
+		<ParentBuildingRequired VALUE="BUILDING-BUILDERS_HALL"/>
+		<BuildCost VALUE="60"/>
+		<UpkeepCost VALUE="1"/>
+		<Enchantments VALUE="ENCH-RAIDERS_HUT"/>
+		<Tags VALUE="TAG-FOOD_PRODUCTION"/>
+		<Tags VALUE="TAG-GOLD_PRODUCTION"/>
+		<MarineBuilding VALUE="TRUE"/>
+	</BUILDING-BLUEORCS_RAIDERS_HUT>
+		
+	<BUILDING-BLUEORCS_INDENTURED_WORKERS_GUILD>
+		<DescriptionInfo Name="DES_BUILDING_BLUEORCS_INDENTURED_WORKERS_GUILD" Description="DES_BUILDING_BLUEORCS_INDENTURED_WORKERS_GUILD_DES" Graphic="BuildingIndenturedWorkersGuild"/>
+		<ParentBuildingRequired VALUE="BUILDING-SMITHY"/>
+		<ParentBuildingRequired VALUE="BUILDING-BARRACKS"/>
+		<BuildCost VALUE="165"/>
+		<UpkeepCost VALUE="1"/>
+		<Enchantments VALUE="ENCH-INDENTURED_WORKERS_GUILD"/>
+		<Tags VALUE="TAG-INCREASE_PRODUCTION"/>		
+	</BUILDING-BLUEORCS_INDENTURED_WORKERS_GUILD>
+	
+</DB_BUILDING>

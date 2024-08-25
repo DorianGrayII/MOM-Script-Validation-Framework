@@ -1,0 +1,170 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC2_FR Language="Français">
+		<!-- DLC 2 descriptions -->
+
+		<!-- WIZARDS --> 
+		<Loc Key="DES_NINESEVEN" Value="Nineseven" />
+		<Loc Key="DES_NINESEVEN_DES" Value="Il serait difficile de le dire aujourd'hui, avec tous les remplacements mécaniques et les babioles techmagiques qui masquent la plupart des origines organiques, mais Nineseven était autrefois une archimage et une érudite elfique. Tout au long de sa vie éternelle, il s'est passionné pour le travail du métal des nains et les possibilités infinies de l'alchimie qui permet la transmutation. Certains disent qu'elle est à l'origine de la techmagie, d'autres prétendent qu'elle l'a simplement maîtrisée." />
+		<Loc Key="DES_NINESEVEN_QUOTE" Value="La chair ne me lie plus, la magie passe désormais par mes fils. Je suis le Techmaster et je le serai encore plus.!" />
+		<Loc Key="DES_MORIQUE" Value="Morique" />
+		<Loc Key="DES_MORIQUE_DES" Value="Morique l'âme de démon, ou la possédée, est une sorcière elfique noire dotée d'un grand mais dangereux pouvoir. Comme son surnom l'indique, elle partage son corps avec un puissant démon. On ne sait toujours pas s'il s'agit d'une entente mutuelle ou d'une infestation parasitaire. L'ambition de Morique ne s'arrête pas à l'apprivoisement de son démon. Avec la Mort et le Chaos au bout des doigts, elle cherche à prouver sa domination ultime sur tous les autres sorciers, en particulier sur son rival démoniaque, Tauron." />
+		<Loc Key="DES_MORIQUE_QUOTE" Value="J'ai maîtrisé l'infernal et nous sommes désormais plus puissants que n'importe quel sorcier ne peut espérer l'être!" />
+		<Loc Key="DES_GRENDEL" Value="Grendel" />
+		<Loc Key="DES_GRENDEL_DES" Value="Grendel est peut-être l'un des plus grands sorciers, certainement le meilleur de son espèce, mais il croit fermement que la force fait le droit. Il prétend souvent que tout peut être battu en soumission, même la magie elle-même. Grendel utilise bien sûr les bases des arts arcaniques et touche à la nature quand il le faut, mais il s'appuie surtout sur la puissance physique de ses troupes." />
+		<Loc Key="DES_GRENDEL_QUOTE" Value="Je ferai briller vos têtes sans magie et vous verrez qui est le maître!" />
+
+		<Loc Key="DES_NINESEVEN_GREETINGS" Value="L'usage habituel veut que je vous salue, mais je ne vois pas l'intérêt d'une telle civilité compte tenu de notre objectif final. Je suis Nineseven, nous pouvons parler maintenant."/>
+		<Loc Key="DES_MORIQUE_GREETINGS" Value="Nous vous saluons, Sorcier. Nous, non, je suis Morique et je suis ici pour dominer ce concours, mais en attendant, parlons."/>
+		<Loc Key="DES_GRENDEL_GREETINGS" Value="Oh, Sorcier. Pas d'amusement avec moi. Je suis Grendel, je te battrai."/>
+
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_1" Value="Je vous salue très gracieusement. Je suis Tauron... Mori, c'est toi. Tu as toujours dit que tu me défierais ici, mais j'ai toujours espéré que cela n'arriverait pas. Mais pour l'instant au moins, mon amour, nous pouvons parler sans méchanceté."/>
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_2" Value="Mori, mon cœur saigne pour ce que nous devons endurer... Parlons pour l'instant."/> 
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_1" Value="C'est nous, Morique, comme nous te l'avons dit lorsque nos chemins infernaux se sont séparés, nous, moi, sommes ici pour te montrer mon vrai pouvoir ! Bien que maintenant tu te tiens devant moi, mon diable rouge, je suis attristé qu'il doive en être ainsi..."/>
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_2" Value="Mon diable rouge, la bataille finale approche. Bientôt, il ne restera plus que le sang entre nous, et pas dans le bon sens du terme..."/>
+
+
+		<!-- TRAITS -->
+        <Loc Key="DES_TECHMASTER" Value="Techmaître" />
+		<Loc Key="DES_TECHMASTER_DES" Value="Permet au sorcier de maîtriser les arcanes de la techmagie, un art mystique qui anime les objets mécaniques grâce à la magie des runes, à l'alchimie et à l'utilisation interdite d'âmes vivantes. Le mage Techmaître commence avec une unité d'éclaireur Drona, ainsi qu'avec son sort d'invocation et le sort Assoifé de pouvoir. De plus, il bénéficie d'un bonus de +5% pour la Recherche.\n\n-Le sorcier doit posséder au moins 3 livres de sorts dans deux royaumes différents.\n\n-Techmâitre coûte 2 choix." />
+        <Loc Key="DES_DEMONOLOGIST" Value="Démonologue" />
+		<Loc Key="DES_DEMONOLOGIST_DES" Value="Le démonologue commence la partie avec l'unité d'un petit démon de l'ombre à sa disposition. Il gagne également un sort unique d'invocation de démon de l'ombre mineur et le sort de possession.\n\n- Le sorcier doit avoir le trait Conjureur.\n\n-Le sorcier doit avoir déjà sélectionné au moins 1 livre de sorts de mort et 1 livre de sorts de chaos.\n\n-Démonologue coûte 1 pioche." />
+		<Loc Key="DES_MYRRAN_REFUGEE" Value="Réfugié Myrran" />
+		<Loc Key="DES_MYRRAN_REFUGEE_DES" Value="Permet au sorcier de commencer le jeu avec une race Myrran sur Arcanus, ce qui lui donne un avantage significatif, car les races Myrrans sont généralement plus fortes.\n\n-Réfugié Myrran coûte 2 choix."/>
+		<Loc Key="DES_IMPROVED_WARLORD" Value="Seigneur de guerre vétéran" />
+		<Loc Key="DES_IMPROVED_WARLORD_DES" Value="Permet au sorcier de devenir un Seigneur de guerre vétéran, capable d'entraîner ses armées avec une plus grande efficacité. Le vétéran donne ainsi +1PX supplémentaire à chaque tour aux unités non fantastiques sous son commandement et commence avec une unité d'épéiste de la race de départ.\n\n- Le sorcier doit avoir la caractéristique de seigneur de la guerre.\n\n-Seigneur de guerre vétéran coûte 1 pioche."/>
+		<Loc Key="DES_ANTI_MAGIC" Value="La loi du plus fort!" />
+		<Loc Key="DES_ANTI_MAGIC_DES" Value="Le sorcier croit en la supériorité des prouesses physiques sur l'intelligence de la magie. Toutes les unités non fantastiques (y compris les héros non fantastiques) gagnent +3 à la résistance. Elles gagnent également Régénération au combat, une nouvelle compétence qui permet aux unités de guérir au combat de +2 HP par tour (la compétence s'empile avec Régénération).\n\n- Le sorcier ne doit pas avoir plus de 2 livres de sorts.\n\n-Loi du plus fort! coûte 5 choix."/>
+
+		<!-- RACE --> 
+        <Loc Key="DES_SOULTRAPPED" Value="Ame emprisonnée" />
+		<Loc Key="DES_SOULTRAPPED_DES" Value="Les âmes emprisonnées sont une race de constructions victimes de l'expérimentation naine de la magie des runes sombres, qui a lié des âmes sensibles à des corps mécaniques, alimentés par de la matière organique. C'est du moins la version officielle. Les âmes emprisonnées affirment que leur éveil provient d'une source divine et qu'ils ne sont pas le produit du jeu d'autrui. Dans un cas comme dans l'autre, les âmes emprisonnées combinent la machine et l'homme de manière troublante, mais ils constituent une race qui préfère la paix et la prospérité à la guerre." />
+		<Loc Key="DES_SOULTRAPPED_PRODUCTION" Value="Taux de croissance : très lent (taux de base de -30 personnes/tour) Restrictions de construction : ne peut pas construire la guilde des marchands, l'école de guerre, l'oracle, la guilde des animistes et le chantier naval Autres modificateurs : +4{ICON:ArmourIconNormal} capacité d'armure, -1{ICON:ResistanceIconNormal} de résistance, de destructeur de murs pour les unités.\nUnités coûtent x 2 de production{ICON:ProductionIcon}.\nLes villes aux âmes emprisonnées gagnent +5 de croissance de population par minéral dans la zone de chalandise de la ville.\nUnités raciales : {LINK:UNIT-SOUL_CANNON} Canon à âme{ICON:SoulCannon} {LINK:UNIT-SOUL_BOMBER} Lancer fort{ICON:Bomber}{END_LINK} {LINK:UNIT-SOUL_GOLEM} Sans âme{ICON:FleshGolem}{END_LINK} {LINK:UNIT-SOUL_SUB_TRIREME} Sous-trirème{ICON:Submarine}{END_LINK}" />
+		<Loc Key="DES_REALM_TECH" Value="Techmagie" />
+		<Loc Key="DES_REALM_TECH_DES" Value="Cette unité est au service de l'unique royaume de Techmagie." />
+
+        <!-- UNITS -->
+		<Loc Key="DES_TIMUR" Value="Timur le tireur d'élite" />
+		<Loc Key="DES_TIMUR1" Value="Fade le tireur d'élite" />
+		<Loc Key="DES_TIMUR2" Value="Albino le tireur d'élite" />
+		<Loc Key="DES_TIMUR3" Value="Pale le tireur d'élite" />
+		<Loc Key="DES_TIMUR4" Value="Floyd le tireur d'élite" />
+		<Loc Key="DES_TIMUR_DES" Value="Né albinos et aveugle, dépourvu du don des elfes noirs pour la magie noire, {0} a été rejeté et méprisé par son peuple. Mais cela n'a fait que renforcer sa détermination. Il a été recueilli par un père adoptif et, ensemble, ils ont entrepris un voyage périlleux pour prouver que {0} peut toujours être l'assassin le plus mortel. Grâce à la techmagie, son œil voit désormais au-delà des frontières mortelles et, même s'il ne peut toujours pas manier la magie noire, son tir de sniper techmagique est une force obscure à lui tout seul." />
+		<Loc Key="DES_BILLIE" Value="Billie le Flingueur" />
+		<Loc Key="DES_BILLIE1" Value="Tipi le Flingueur" />
+		<Loc Key="DES_BILLIE2" Value="Calamity le Flingueur" />
+		<Loc Key="DES_BILLIE3" Value="Annie le Flingueur" />
+		<Loc Key="DES_BILLIE4" Value="Jessi le Flingueur" />
+		<Loc Key="DES_BILLIE_DES" Value="{0}, est une jeune à moitié humaine joyeuse, appréciée de tous ceux qui la rencontrent. Après avoir atteint les plus hauts rangs parmi les frondeurs, et inspirée par sa sœur Teria, {0} s'est mise en quête de trouver sa propre voie. Cette quête l'a amenée à découvrir les merveilles de la Techmagie et elle est ainsi devenue la toute première flingueuse d'Arcanus. Montée sur son fidèle sanglier, Nibbles, elle est aujourd'hui l'une des meilleures armes à engager qu'un sorcier puisse souhaiter." />		
+		<Loc Key="DES_OLDMANE" Value="Oldmane Mâchoire de fer" />
+		<Loc Key="DES_OLDMANE1" Value="Hakuna Mâchoire de fer" />
+		<Loc Key="DES_OLDMANE2" Value="Snarl Mâchoire de fer" />
+		<Loc Key="DES_OLDMANE3" Value="Hidegnarl Mâchoire de fer" />
+		<Loc Key="DES_OLDMANE4" Value="Gnarlfang Mâchoire de fer" />
+		<Loc Key="DES_OLDMANE_DES" Value="{0}, était autrefois le plus grand et le plus âgé des généraux gnolls, jusqu'à ce qu'il soit capturé par les elfes noirs. Les elfes noirs ont torturé le guerrier pendant des années, épuisant son corps au point de le rendre méconnaissable. Pourtant, par chance ou par destin, les cris d'un jeune garçon ont redonné à {0} la volonté de se battre, il a échappé à ses ravisseurs, a sauvé son fils adoptif, Timur, et ensemble ils se sont embarqués pour un voyage de renaissance. C'est ainsi que, grâce à la techmagie, Oldmane est devenu la menace de chair et de métal que l'on connaît aujourd'hui." />
+		<Loc Key="DES_MOMA_ILDE" Value="Moma et Ilde" />
+		<Loc Key="DES_MOMA_ILDE1" Value="Mama et Kiddo"  />
+		<Loc Key="DES_MOMA_ILDE2" Value="Muti et Liebli"/>
+		<Loc Key="DES_MOMA_ILDE3" Value="Mumsie et Gir" />
+		<Loc Key="DES_MOMA_ILDE4" Value="Mere et Pettit" />
+		<Loc Key="DES_MOMA_ILDE_DES" Value="La jeune naine est une formidable gardienne des runes, mais son histoire est tragique. Elle a perdu sa mère dans un terrible accident de laboratoire impliquant de la techmagie. Peu après l'explosion qui a incinéré sa mère, la jeune fille a trouvé une âme emprisonnée errante, qui a semblé reconnaître la petite naine. La jeune fille est convaincue que l'âme emprisonnée est sa mère et a juré de trouver un moyen d'inverser ce qui lui est arrivé. En attendant, {0} répond à l'appel de ceux qui manient une puissante techmagie, espérant qu'en les servant, ils apprendront ce dont ils ont besoin." />
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS" Value="Petits démons de l'ombre"/>
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS_DES" Value="Les petits démons de l'ombre répondent à l'appel d'un démonologue et le servent fidèlement. Ils peuvent frapper depuis les airs{ICON:MovementFlyingIcon} avec des attaques à distance en mêlée{ICON:MeleeIconNormal} et magique{ICON:DeathIcon}{ICON:RangedIconNormal}."/>
+
+        <Loc Key="DES_SOUL_SETTLER" Value="Ame emprisonnée colon" />
+		<Loc Key="DES_SOUL_ENGINEERS" Value="Ames emprisonnées ingénieurs" />
+		<Loc Key="DES_SOUL_ENGINEERS_DES" Value="Les ingénieurs sont une unité non combattante. Ce sont des spécialistes formés à la construction de routes et qui peuvent également vous aider à renverser les murs ennemis. Les âmes emprisonnées ingénieurs peuvent également soigner les constructions grâce à la compétence Réparation." />
+		<Loc Key="DES_SOUL_SPEARMEN" Value="Ames emprisonnées Lanceurs"/>
+		<Loc Key="DES_SOUL_SWORDSMEN" Value="Ames emprisonnées sabres robots" />
+		<Loc Key="DES_SOUL_HALBERDIERS" Value="Ames emprisonnées lanciers" />
+		<Loc Key="DES_SOUL_CAVALRY" Value="Ames emprisonnées cavalerie" />
+		<Loc Key="DES_SOUL_PRIESTS" Value="Ames emprisonnées Techprêtres" />       
+		<Loc Key="DES_SOUL_PRIESTS_DES" Value="Unité d'attaque à portée magique dotée de capacités de guérison. Contrairement aux mages, qui étudient l'art des sorts, les prêtres tirent leur pouvoir de la prière et de leur dévotion à une divinité. Les techprêtres ont également la capacité de reconstruire les unités de construction tombées au combat."/>
+		<Loc Key="DES_SOUL_BOMBER" Value="Yeet"/>
+		<Loc Key="DES_SOUL_BOMBER_DES" Value="Le yeet est une âme emprisonnée particulière, qui a la forme d'une main humanoïde faite pour être lancée. Son seul but au combat est de libérer la magbombe et d'exterminer ainsi l'ennemi d'un seul coup.!" />
+		<Loc Key="DES_SOUL_BOMB" Value="Magbomb"/>
+		<Loc Key="DES_SOUL_BOMB_DES" Value="La magbombe est fusionnée avec une puissante magie technologique qui la fait exploser en plein visage de l'ennemi ! À moins qu'ils ne tirent les premiers, elle n'est alors qu'un morceau de métal animé...." />
+		<Loc Key="DES_SOUL_CANNON" Value="Canon à âme" />
+		<Loc Key="DES_SOUL_CANNON_DES" Value="Le canon à âme est un chef-d'œuvre de technologie et de magie lié par une synergie parfaite. Il s'agit d'une unité à distance puissante de l'âme emprisonnée." />
+		<Loc Key="DES_SOUL_GOLEM" Value="Sans âme" />
+		<Loc Key="DES_SOUL_GOLEM_DES" Value="Le golem de chair est un morceau de viande réanimée sans âme, animé par de mystérieuses forces techmagiques employées par les âmes emprisonnées ingénieurs et prêtres. Certains disent que le golem de chair est une réponse terrible aux golems asservis créés par les nains..." />
+		<Loc Key="DES_SOUL_SUB_TRIREME" Value="Sous-trirème" />
+		<Loc Key="DES_SOUL_SUB_TRIREME_DES" Value="Le sous-trirème peut parcourir de grandes distances sous la surface des mers. Il s'agit d'une unité autonome dont l'âme est emprisonnée, mais qui n'hésite pas à servir de transporteur." />
+		<Loc Key="DES_CYBER_SPRITE_DES" Value="Le techlutin est un amalgame étrange et inquiétant de merveilles techniques et d'infusions magiques. Alors qu'il s'agissait autrefois d'un lutin ordinaire, cette créature est devenue un serviteur à distance, volant et bourré de technologie, des sorciers de la techmagie." />
+		<Loc Key="DES_SCOUTING_PROBE_DES" Value="L'éclaireur drona, série 53N3X, est une pièce de métal et de verre animée par Techmagie. Sous la direction du sorcier, le drona peut voler haut et voir plus loin que la plupart des êtres biologiques ou même spectraux." />
+        <Loc Key="DES_ENGINEERING_PROBE_DES" Value="Drona polyvalent de la série 53N3X2, conçu pour une grande souplesse d'utilisation. Sa désignation principale est l'ingénierie, il peut donc construire des routes, mais il est aussi plus rapide que les unités normales et il peut se fondre dans les nœuds." />
+
+		
+		<!-- SKILLS --> 
+        <Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH" Value="Attaque à distance de Techmagie" />		
+		<Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH_DES" Value="Les attaques à distance de cette unité sont imprégnées de techmagie. Elles sont précises à n'importe quelle distance et ne souffrent d'aucune pénalité sur les chances de toucher{ICON:ToHitBonusIcon} en fonction de la distance. L'attaque contourne complètement l'immunité aux missiles et l'immunité à la magie de la cible et perce l'armure." /> 
+		<Loc Key="DES_DOUBLESHOT" Value="Double tir" />
+		<Loc Key="DES_DOUBLESHOT_DES" Value="Dans la plus pure tradition des flingueurs, le double tir permet au héros de tirer deux fois au cours de son tour, avec une attaque à distance normale." />
+		<Loc Key="DES_SUMMON_BOMB" Value="Lâcher la magbombe"/>
+		<Loc Key="DES_SUMMON_BOMB_DES" Value="Invoque le magbombe, une unité à un coup qui inflige des dégâts mortels, mais qui est très fragile." />
+		<Loc Key="DES_BOMBER_BOOM" Value="Techsplosion"/>
+		<Loc Key="DES_BOMBER_BOOM_DES" Value="Une puissante explosion de feu technologique qui endommage sa source. Provoque une attaque de feu magique d'une puissance de 20 qui touche chaque figurine de l'unité ciblée." />
+		<Loc Key="DES_PIERCING_BITE" Value="Morsure perforante {0}" />
+		<Loc Key="DES_PIERCING_BITE_DES" Value="Une morsure féroce en mêlée qui inflige des dégâts perforants après son tour d'attaque et après toute contre-attaque." />
+		<Loc Key="DES_GNOLL_GENERAL" Value="Cavalier à loup Alpha" />
+		<Loc Key="DES_GNOLL_GENERAL_DES" Value="Les généraux de l'armée gnoll dirigent les meutes de cavaliers à loups avec une grande unité. À ce titre, le héros bénéficie d'un bonus de +1{ICON:ArmourIconNormal} d'armure pour deux unités de cavaliers à loups dans leur armée. Les unités de cavaliers à loups bénéficient à leur tour d'une attaque de mêlée +1{ICON:MeleeIconNormal} en présence de l'alpha." />
+		<Loc Key="DES_GNOLL_GENERAL_BONUS_DES" Value="Cette unité est affectée par la compétence de cavaliers à loups Alpha. Le héros reçoit un bonus d'armure de +1{ICON:ArmourIconNormal} pour deux unités de cavaliers à loups dans son armée. Les unités de cavaliers à loups bénéficient à leur tour d'une attaque de mêlée +1{ICON:MeleeIconNormal} en présence de l'alpha." />
+		<Loc Key="DES_GNOLL_GENERAL_BONUS" Value="Cavaliers à loups Alpha" />
+		<Loc Key="DES_MECHANICIAN" Value="Réparation" />
+		<Loc Key="DES_MECHANICIAN_DES" Value="Cette compétence permet de réparer les constructions mécaniques et d'augmenter la guérison naturelle des unités de construction empilées à 50 % de leur santé maximale à chaque tour." />
+		<Loc Key="DES_LIGHTNING_WEAKNESS" Value="Vulnérabilité à la foudre" />
+		<Loc Key="DES_LIGHTNING_WEAKNESS_DES" Value="L'unité attire la foudre et est sujette à ses dégâts. Face à une attaque de type foudre, le possesseur de la faiblesse doit se défendre contre la quantité de dégâts générés par la source augmentée de 100%." />
+		<Loc Key="DES_MINOR_REGENERATION" Value="Régénération au combat" />
+		<Loc Key="DES_MINOR_REGENERATION_DES" Value="Accélère le processus naturel de guérison du corps, lui permettant de soigner 2 coups{ICON:HitIconNormal} par tour de combat. Cette compétence ne fonctionne pas en dehors des combats. (Cette compétence s'ajoute à Régénération)" />	
+		
+		<!-- RES --> 
+		<Loc Key="DES_RES_ORICHALCUM" Value="Orichalque" />
+		<Loc Key="DES_RES_ORICHALCUM_DES" Value="L'orichalque est une ressource rare, que l'on ne peut obtenir qu'après l'épuisement d'un tech-donjon ou en utilisant la techmagie. Réduit le coût de construction des bâtiments et des unités de 20 % et ajoute +3 de puissance." />
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_SCOUTING_PROBE" Value="Eclaireur drona" />
+		<Loc Key="DES_SCOUTING_PROBE_SUMMON_DES" Value="Invoque le drone éclaireur, série 53N3X, une petite construction bizarre alimentée par les âmes étincelantes d’élémentaires de l'air. Il s'agit d'une unité volante {ICON:MovementFlyingIcon} avec de très bonnes capacités d'éclaireur, mais une faible durabilité." />
+		<Loc Key="DES_CYBER_SPRITE" Value="Techlutin" />
+		<Loc Key="DES_CYBER_SPRITE_SUMMON_DES" Value="Invoque une unité de tech-lutins, des fées volantes {ICON:MovementFlyingIcon} bizarres fusionnées magiquement avec des éléments mécaniques et dotées d'une attaque à distance de type Techmagie. Les lutins vous serviront jusqu'à leur mort ou la fin de la bataille." />
+		<Loc Key="DES_POWER_SEEKER" Value="Chercheur de puissance" />
+		<Loc Key="DES_POWER_SEEKER_DES" Value="Le puissant sort Techmagique recherche tous les nœuds de pouvoir sur le plan choisi et les rend visibles sur votre carte. Une fois découverts, les nœuds seront également marqués comme explorés et leurs défenseurs pourront être inspectés avant d'y pénétrer." />
+		<Loc Key="DES_DETECT_MINERALS" Value="Extraires des minéraux" />
+		<Loc Key="DES_DETECT_MINERALS_DES" Value="Ce sort permet de trouver des minéraux cachés dans les profondeurs de la terre et de les ramener à la surface, permettant ainsi au sorcier d'ajouter une nouvelle ressource sur un hexagone choisi. Un nouveau mineral ne peut être créé que sur un hexagone situé à au moins une tuile d'une autre ressource." />
+		<Loc Key="DES_TECHCARNATION" Value="Techincarnation" />
+		<Loc Key="DES_TECHCARNATION_DES" Value="La puissance du sort de techincarnation fait appel à un champion hors du commun, Moma et Ilde. Ce double héros répond aux sorciers qui manient la Techmagie en échange d'un enrichissement de leurs connaissances de ce nouvel art des arcanes. Le double champion ne peut être ressuscité, mais seulement invoqué une fois perdu (il s'agit d'un héros fantastique, qui ne sera donc pas affecté par les sorts visant les unités et les héros normaux)." />
+		<Loc Key="DES_MASS_SHIELD" Value="Bouclier de masse" />
+		<Loc Key="DES_MASS_SHIELD_DES" Value="Le bouclier de masse donne à toutes les unités amies sur le champ de bataille la compétence Grand bouclier, à moins qu'elles ne la possèdent déjà. Cela donne +2{ICON:ArmourIconNormal} d'armure contre toutes les attaques à distance." />
+		<Loc Key="DES_AFINITY_FOR_MINERALS" Value="L'énergie minérale" />
+		<Loc Key="DES_AFINITY_FOR_MINERALS_DES" Value="Les âmes emprisonnées ont une affinité particulière pour les minéraux. Chaque ressource minérale à l'intérieur des frontières d'une ville d'âme emprisonnées augmente la croissance de la population de +5." />
+		<Loc Key="DES_RECONSTRUCT" Value="Reconstruction" />
+		<Loc Key="DES_RECONSTRUCT_DES" Value="Le sort Reconstruction répare les unités de construction tombées au combat et leur redonne toute leur santé. Mais l'unité reconstruite disparaît à la fin de la bataille, même si vous utilisez d'autres sorts pour ressusciter les morts." />
+		<Loc Key="DES_RECONSTRUCT_NAME_DES" Value="Unité temporairement reconstruite" />
+		<Loc Key="DES_MAGIC_BULLET" Value="Balle magique" />
+		<Loc Key="DES_MAGIC_BULLET_DES" Value="Munitions magiques ajoute +2 Munitions à une unité non-fantastique avec une attaque à portée normale et rend l'attaque insensible à l'immunité aux armes. Le bonus peut augmenter le maximum naturel de munitions de l'unité et peut reconstituer les munitions manquantes. Le bonus augmente à +3 pour les Constructions." />
+		<Loc Key="DES_HERO_TRAINING" Value="Entraînement du héros" />
+		<Loc Key="DES_HERO_TRAINING_DES" Value="Grâce à l'ingéniosité des Techmages, les héros comprennent mieux l'équipement qu'ils utilisent et sont ainsi instantanément formés. Tout héros au service du sorcier devient capitaine." />
+		<Loc Key="DES_TECH_DUNGEON_UNITS" Value="Techdonjon" />
+		<Loc Key="DES_TECH_DUNGEON_UNITS_DES" Value="Un techdonjon est le repaire des âmes emprisonnées sans scrupules. À l'intérieur du repaire, les âmes emprisonnées ennemies gagnent des bonus de combat." />
+        <Loc Key="DES_ENGINEERING_PROBE" Value="Déclencheur multiple"/>
+		<Loc Key="DES_ENGINEERING_PROBE_SUMMON_DES" Value="Invoque une construction à double usage, série 53N3X2. Désignation de l'unité principale : sonde d'ingénierie. Les fonctions secondaires comprennent : Fonction de fusion et augmentation des mouvements." />
+        <Loc Key="DES_MASS_PIERCING_SPELL" Value="Echange affûté"/>
+        <Loc Key="DES_MASS_PIERCING_SPELL_DES" Value="Echange affûté ajoute l'effet armure perforante (divise par deux l'efficacité de l'armure du défenseur) à toutes les unités amies sur le champ de bataille, mais le lanceur de sorts doit sacrifier 5{ICON:HitIconNormal} points de vie."/>
+        <Loc Key="DES_MASS_PIERCING" Value="Affûté"/>
+        <Loc Key="DES_MASS_PIERCING_DES" Value="Les unités affûtées bénéficient de l'effet de perforation d'armure (divise par deux l'efficacité de l'armure du défenseur)."/>
+        <Loc Key="DES_FAIR_EXCHANGE" Value="Echange équitable"/>
+        <Loc Key="DES_FAIR_EXCHANGE_DES" Value="Tout dans la vie a un prix, c'est donc une question d'équilibre. Ceux qui maîtrisent l'échange équitable accordent à leur assistant 5 points de compétence de lanceur de sorts pour chaque 2 points de dégâts reçus par l'unité."/>
+        <Loc Key="DES_ENCH_IMPROVED_WARLORD_DES" Value="Le seigneur de guerre vétéran améliore les unités non fantastiques sous son commandement, de sorte qu'elles gagnent +1PX par tour."/>
+        <Loc Key="DES_ENCH_ANTI_MAGIC_DES" Value="Cette unité refuse d'être touchée par la magie et bénéficie de la résistance à la magie (+3 de résistance) et de la régénération au combat (+2 de soins par tour en combat uniquement) de son magicien."/>
+        <Loc Key="DES_CASTING_BLOCK_SPELL" Value="Sacrifice du cœur"/>
+        <Loc Key="DES_CASTING_BLOCK_SPELL_DES" Value="En sacrifiant 2 points de vie, l'unité de lanceurs de sorts bloque la capacité de lancer des sorts au combat pour le sorcier adverse pendant 1 tour."/>
+        <Loc Key="DES_CASTING_BLOCK" Value="Jet (de sorts) bloqué"/>	  
+        <Loc Key="DES_CASTING_BLOCK_DES" Value="La capacité du sorcier à jeter (des sorts) est bloquée pour 1 tour."/>
+        <Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS" Value="Petits démons de l'ombre"/>	  
+        <Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS_DES" Value="Invoque une unité de démons infernaux, des petits démons de l'ombre volants {ICON:MovementFlyingIcon} à votre service. Ils possèdent des attaques de mêlée {ICON:MeleeIconNormal} et des attaques magiques à distance {ICON:DeathIcon}{ICON:RangedIconNormal}."/>
+
+
+		<!-- Other-->
+		<Loc Key="DES_HERO_TRAINING_TARGET" Value="Seulement les unités de héros."/>
+		<Loc Key="DES_NORMAL_UNIT_WITH_RANGE_MISSILE_ATTACK" Value="Unité normale avec attaque de missile à distance."/>
+		<Loc Key="DES_TECH_DUNGEON" Value="Techdonjon"/>
+	</LOCALIZATION-DLC2_FR>
+</DB_LOCALIZATION>

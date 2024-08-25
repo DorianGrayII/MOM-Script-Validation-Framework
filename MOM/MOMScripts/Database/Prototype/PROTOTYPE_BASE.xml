@@ -1,0 +1,34 @@
+﻿<PROTOTYPE_BASE>
+	
+	<!-- General purpose description format -->
+	<DESCRIPTION_INFO Name="DescriptionInfo" Partial="TRUE">
+		<Name Name="name" Type="string" Required="TRUE" Private="TRUE"/>
+		<Description Name="description" Type="string" Required="TRUE" Private="TRUE"/>
+		<Graphic Name="graphic" Type="string" Required="FALSE"/>
+		<Param Name="param" Type="string" Required="FALSE" Private="TRUE"/>
+	</DESCRIPTION_INFO>
+	
+	<!-- Floating value Range -->
+	<FLOATING_RANGE Name="FloatingRange">
+		<!-- inclusive -->
+		<MinimumCount Name="minimumCount" Type="float" Required="TRUE"/>
+		<!-- exclusive -->
+		<MaximumCount Name="maximumCount" Type="float" Required="TRUE"/>
+	</FLOATING_RANGE>
+	
+	<!-- Integer value Range -->
+	<INT_RANGE Name="IntRange">
+		<!-- inclusive -->
+		<MinimumCount Name="minimumCount" Type="int" Required="TRUE"/>
+		<!-- inclusive -->
+		<MaximumCount Name="maximumCount" Type="int" Required="TRUE"/>
+	</INT_RANGE>
+	
+	<!-- FInt value Range. FInt uses integer to store values where it is able to accept 1 decimal place -->
+	<FINT_RANGE Name="FIntRange">
+		<!-- inclusive -->
+		<MinimumCount Name="minimumCount" Type="FInt" Required="TRUE"/>
+		<!-- inclusive -->
+		<MaximumCount Name="maximumCount" Type="FInt" Required="TRUE"/>
+	</FINT_RANGE>
+</PROTOTYPE_BASE>

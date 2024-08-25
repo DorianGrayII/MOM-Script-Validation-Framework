@@ -1,0 +1,45 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC0_FR Language="Français">
+		<!-- DLC 0 descriptions -->
+
+		<!-- WIZARDS --> 
+
+        <Loc Key="DES_BLADUD" Value="Bladud" />
+		<Loc Key="DES_BLADUD_DES" Value="Bladud fût un grand général orc, puis un roi de légende. Il a régné pendant des siècles accompagné sa féroce reine Belit, avant que les deux ne se séparent et que Bladud ne s'approprie le manteau de sorcier. Défiant le stigmate de médiocrité porté par sa famille orc, Bladud était déterminé à prouver qu'il n'en était rien. Grâce aux arts sombres de l'orcmancie, le sorcier a acquis un grand pouvoir et a décidé de l'utiliser dans le seul but de transformer son humble peuple en une armée de Mort ne craignant rien. Les orques dirigés par Bladud peuvent se nourrir de la force vitale de leurs ennemis et le sorcier lui-même tire sa force des armées orcs tombées au combat. Avec un tel pouvoir, les orcs sont sûrs de mener Bladud à sa Maîtrise." />
+		<Loc Key="DES_BLADUD_QUOTE" Value="Ma famille a longtemps été qualifiée de faible, mais aujourd'hui, les orcs vont s'élever à travers la mort et conquérir tout le monde !" />	
+		<Loc Key="DES_BLADUD_GREETINGS" Value="Salutations, je suis Bladud. Je suis impatient de vous prouver ma domination, mais pour l'instant, nous pouvons nous parler. "/>
+		
+		<Loc Key="DES_BLADUD_GREETINGS_BELIT_1" Value="C'est ainsi que le destin t'a forcé à m'affronter, Belit. J'ai hâte de prouver que ta maudite existence ne vaut pas celle d'un véritable orc !"/>
+        <Loc Key="DES_BLADUD_GREETINGS_BELIT_2" Value="Belit, espèce de perfide, parle."/>
+
+		<!-- TRAITS -->
+		<Loc Key="DES_ORCOMANCER" Value="Orcmancien" />
+		<Loc Key="DES_ORCOMANCER_DES" Value="L'Orcmancien est un maître de la nécromancie, mais il ne s'accorde qu'avec la force vitale des orcs. Pour chaque figurine d'un orc de l'armée qui meurt, l'Orcmancien reçoit +5 de compétence de lanceur de sorts en combat. (Le bonus peut dépasser le maximum). Chaque orc sous leur commandement reçoit également les compétences Immunité à la mort et Vol de vie inférieur.\n\n L'Orcmancien ne peut commencer la partie qu'avec des Orques.\n\nIl ne peut pas être pris avec d'autres traits exclusifs à la race.\n\n- Le magicien doit avoir déjà sélectionné au moins 1 livre de sorts de mort.\n\n-Orcmancien coûte 2 choix." />
+		<Loc Key="DES_NECROMANCER" Value="Nécromancien" />
+		<Loc Key="DES_NECROMANCER_DES" Value="Le nécromancien cherche à traverser le voile de la mort à son avantage. Le sorcier commence chaque bataille avec Ténèbres et avec un nouveau sort Héros Mort-vivant. Grâce à ce sort, il peut rappeler un héros tombé au combat, sous la forme d'un serviteur mort-vivant (le héros revient, mais changé par le sort des canaux noirs).\n\n-Le sorcier doit avoir déjà sélectionné au moins 3 livres de sorts de mort\n\n-Nécromancien coûte 1 choix."/>
+		<Loc Key="DES_TRAIT_DEATH_EATER" Value="Mangemort" />
+		<Loc Key="DES_TRAIT_DEATH_EATER_DES" Value="Le mangemort peut recycler ses forces tombées au combat afin d'alimenter ses armées du royaume de la mort. Après une bataille gagnée, toutes les unités appartenant au royaume de la mort regagnent 50% de santé (cela ne ressuscite pas les unités tombées au combat).\n\n-Le sorcier doit avoir déjà sélectionné au moins 3 livres de sorts de mort.\n\n-Mangemort coûte 2 choix. " />
+		<!-- RACE --> 
+ 
+		
+        <!-- UNITS -->
+	
+		
+		<!-- SKILLS --> 
+		<Loc Key="DES_SKILL_DEATH_EATER" Value="Mangemort" />
+		<Loc Key="DES_SKILL_DEATH_EATER_DES" Value="Les unités du royaume de la mort sous le commandement du mangemort regagnent 50% de santé après une bataille gagnée."/>
+		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2" Value="Vol de vie mineur 1" />
+		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2_DES" Value="Pour chaque point de résistance raté{ICON:ResistanceIconNormal} contre l’attaque de vol de vie (l’unité attaquée obtient + resistance égale au niveau de vol de vie), le défenseur perd -1{ICON:HitIconNormal} de frappe alors que l’attaquant gagne +1{ICON:HitIconNormal}. Les unités tuées principalement par le vol de vie reviennent sous forme de morts-vivants (l'immunité à la mort protège contre ce phénomène). Le vol de vie est déclenché avant la plupart des autres attaques." />
+      
+		<!-- BUILDINGS -->
+		
+		<!-- RES --> 
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_UNDEAD_HERO" Value="Héros mort-vivant"/>
+		<Loc Key="DES_UNDEAD_HERO_DES" Value="Vous pouvez rappeler un héros tombé au combat à votre service, mais il sera alors mort-vivant et ne gagnera donc plus d'expérience. Il gagne également la compétence Vol de vie mineur. Vous ne pouvez utiliser ce sort qu'une seule fois par héros." />
+
+		<!-- Other-->
+			
+	</LOCALIZATION-DLC0_FR>
+</DB_LOCALIZATION>

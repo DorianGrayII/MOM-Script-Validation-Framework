@@ -1,0 +1,107 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC1_DE Language="Deutsch">
+		<!-- DLC 1 descriptions --> 
+		<Loc Key="DES_RAASS" Value="Raa'ss"/>
+		<Loc Key="DES_RAASS_DES" Value="Raa'ss ist ein mächtiger drakonianischer Zauberer. In ihm rumort ein unbändiger Zorn, den er in Kämpfen mit tödlicher Präzision einzusetzen weiß. Er beherrscht meisterhaft die Chaos- und die Todesmagie, und als Übernatürlicher Kriegsherr kann er mächtige Beschwörungen wirken. Er weigert sich, Kleidung der Menschen zu tragen, und verabscheut seinen angeblichen Zwillingsbruder Sss'ra. Man munkelt, dass Raa'ss als fleischgewordenes, dunkles Ebenbild von Sss'ra der Finsternis entsprungen ist ..."/>
+		<Loc Key="DES_RAASS_QUOTE" Value="Bezeichnet mich noch einmal als Ebenbild und Ihr könnt was erleben!"/>
+
+		<Loc Key="DES_BIANKA" Value="Bianka"/>
+		<Loc Key="DES_BIANKA_DES" Value="Mit ihrer unerschütterlichen Entschlossenheit und beispiellosen Beherrschung der Runenmagie gelang es Bianka, in den zwergischen Hochadel aufzusteigen. Als Steinmetzin bringt sie zudem ihre fast schon widernatürlich anmutende Affinität zu Stein zum Ausdruck. Die von Myrror stammende mächtige Zauberin ist bestrebt, ihr Geburtsrecht als Meisterin unter Beweis zu stellen, indem sie ihr Wissen über die Schulen der Hexerei-, Chaos- und Naturmagie zur Schau stellt - drei magische Disziplinen an der Zahl!"/>
+		<Loc Key="DES_BIANKA_QUOTE" Value="Meine Macht wurde mit inbrünstigem Feuer geschmiedet, mit der Kraft von Runen durchdrungen und in ewigen Stein gehauen. Niemand kann sie brechen!"/>
+
+		<Loc Key="DES_TLACHTGA" Value="Tlachtga"/>
+		<Loc Key="DES_TLACHTGA_DES" Value="Tlachtga beherrschte die Kunst der Naturmagie bereits als kleines Kind und konnte sich schließlich zu den mächtigsten Druiden ihrer dunklen Lande zählen. Sie war von der weniger lichtvollen Seite des Kreislaufs des Lebens fasziniert, und so zog es sie nach Myrror, um dort die dunklen Aspekte der Natur zu bändigen und zu kontrollieren. Da sie auch eine mächtige Naturbeschwörerin ist, kosten Naturbeschwörungen 50 % weniger und sie beginnt ihr Abenteuer mit einer Einheit aus Kriegsbären."/>
+		<Loc Key="DES_TLACHTGA_QUOTE" Value="Die dunkle Seite der Natur macht mich stärker, daher weicht zur Seite, oder Ihr werdet von ihr verschlungen!"/>
+
+		<Loc Key="DES_CORAX" Value="Corax"/>
+		<Loc Key="DES_CORAX_DES" Value="Corax Weißfeder wandelte in seiner Jugend auf dem Pfad der Finsternis und des Verbrechens, bis er - so behauptet er - von seinem erleuchteten Vater dazu inspiriert wurde, sein Schicksal zu ändern. Er wechselte buchstäblich sein Gefieder und entschied sich dazu, fortan der Sphäre des Lebens zu dienen. Corax ist stets bestrebt, Orte der Finsternis mit seiner Weisheit zu erhellen - zur Not auch mit Gewalt. Er beherrscht die Lebensmagie, und als Lebensbringer kann er Tote wieder zum Leben erwecken und ihnen Heilkräfte verleihen."/>
+		<Loc Key="DES_CORAX_QUOTE" Value="Strebe gemeinsam mit mir nach dem Licht, Kreatur der Finsternis, denn es wird dir zu innerem Frieden und Macht verhelfen."/>
+
+		<Loc Key="DES_RAASS_GREETINGS" Value="Auf die Knie, niedere Kreatur! Noch mögen wir uns zivilisiert verhalten, doch schon bald werden unruhige Zeiten anbrechen, und dann wird Blut fließen."/>
+		<Loc Key="DES_BIANKA_GREETINGS" Value="Seid gegrüßt! Ich bin Runenhüterin Bianka, die Älteste meines Volkes und Meisterin des Steins. Mögen wir gute Beziehungen pflegen, bis der Moment der letzten Prüfung gekommen ist."/>
+		<Loc Key="DES_TLACHTGA_GREETINGS" Value="Ich grüße Euch. Mein Name ist Tlachtga und ich liebe es, mit Magie herumzuspielen, haha. Ich hoffe, wir werden ein unterhaltsames Spiel erleben, und möge die bessere Grünhaut gewinnen!"/>
+		<Loc Key="DES_CORAX_GREETINGS" Value="Zum Gruße. Ich bin als Corax Weißfeder bekannt und nicht auf Gewalt aus - zumindest nicht so lange, bis Gewalt die einzige Lösung sein wird."/>
+
+		<Loc Key="DES_TOADSWORTH" Value="Unkrich der Wildschweinzähmer"/>
+		<Loc Key="DES_TOADSWORTH1" Value="Krötrich der Wildschweinzähmer"/>
+		<Loc Key="DES_TOADSWORTH2" Value="Grünling der Wildschweinzähmer"/>
+		<Loc Key="DES_TOADSWORTH3" Value="Froschko der Wildschweinzähmer"/>
+		<Loc Key="DES_TOADSWORTH4" Value="Quackan der Wildschweinzähmer"/>
+		<Loc Key="DES_TOADSWORTH_DES" Value="{0}, auch als Unko bekannt, ist gewissermaßen ein ungewöhnlicher Held, da er allen Widrigkeiten zum Trotz zu einer Legende wurde. Scheinbar ohne jede Begabung verdingte er sich viele Jahre lang als Knecht. Und doch wurde aus ihm ein meisterhafter Wildschweinzähmer, sei es durch schieres Glück, eiserne Entschlossenheit oder einen Pakt mit dunklen Mächten. Wer ihn in seine Dienste stellt und ihm Respekt entgegenbringt, kann sich stets seiner Loyalität gewiss sein."/>
+		<Loc Key="DES_JOTUN" Value="Kolga die Eistrollin"/>
+		<Loc Key="DES_JOTUN1" Value="Imora die Eistrollin"/>
+		<Loc Key="DES_JOTUN2" Value="Fala die Eistrollin"/>
+		<Loc Key="DES_JOTUN3" Value="Gryla die Eistrollin"/>
+		<Loc Key="DES_JOTUN4" Value="Mjolla die Eistrollin"/>
+		<Loc Key="DES_JOTUN_DES" Value="{0}, auch als 'die Verfluchte' bekannt, ist eine einsame Heldin, deren Körper hinter kaltem Eis isoliert ist. Manche sagen, sie wolle Zauberern dienen, da sie hofft, durch sie von ihrem Fluch befreit zu werden. Was auch immer der wahre Grund sein mag, nach Jahrzehnten der Isolation hat die Trollheldin gelernt, sich ihren Kältefluch zunutze zu machen. Und nun bietet sie ihre Dienste einem Meister an, der ihrer Fähigkeiten würdig ist."/>
+		<Loc Key="DES_BJORN" Value="Bjorn der Feuergezeichnete"/>
+		<Loc Key="DES_BJORN1" Value="Bäring der Feuergezeichnete"/>
+		<Loc Key="DES_BJORN2" Value="Tatzo der Feuergezeichnete"/>
+		<Loc Key="DES_BJORN3" Value="Teddon der Feuergezeichnete"/>
+		<Loc Key="DES_BJORN4" Value="Grizzo der Feuergezeichnete"/>
+		<Loc Key="DES_BJORN_DES" Value="{0} ist ein wilder Held der Tiermenschen, der einst mit Feuer spielte und sich dabei verbrannte. Die meisten hätten dieses Flammeninferno nicht überlebt, doch {0} ist nicht wie die meisten. Sein schierer Kampfeswille rettete ihm das Leben, wenngleich er zu einer Kreatur des Chaos wurde, die auf ewig mit brennenden Flammen verschmolzen sein wird. Und diese Flammen lechzen nun danach, seine Feinde zu verschlingen."/>
+		
+		<Loc Key="DES_GOBLINS" Value="Goblins"/>
+		<Loc Key="DES_GOBLINS_DES" Value="Goblins sind kleine, grünhäutige humanoide Wesen, die sich eng mit der Natur verbunden fühlen und Tiere meisterhaft zu bändigen wissen. Manch einer mag Goblins als primitiv bezeichnen, und tatsächlich sind sie in Stämmen organisiert und bevorzugen eine natürliche Lebensweise gegenüber Fortschritt und komplexen Zivilisationsstrukturen. Sie haben eine besondere Affinität zur heimischen Tierwelt und sind für das Praktizieren von Druidenmagie und Zähmen von Tieren bekannt."/>
+		<Loc Key="DES_GOBLINS_PRODUCTION" Value="Wachstumsrate: Sehr hoch (Basisrate von +20 Bevölkerung/Runde)\nBau-Einschränkungen: Können keine Weisengilden, Werften und Parthenons bauen.\nAndere Modifikatoren: -1 Rüstung{ICON:ArmourIconNormal} und Fertigkeit 'Erdläufer' für einfache Einheiten (außer für Konstrukte).\nSiedler und Bogenschützen kosten 0,8x Produktion{ICON:ProductionIcon}.\nSpezialeinheiten: {LINK:UNIT-GOB_BOAR_RIDER} Wildschweinreiter{ICON:BoarRider}{END_LINK}, {LINK:UNIT-GOB_DRUIDS}Druiden{ICON:Druid}{END_LINK},{LINK:UNIT-GOB_BEASTMASTER} Bestienzähmer{ICON:Beastmaster}{END_LINK}"/>
+
+		<Loc Key="DES_GOBLIN_SETTLERS" Value="Goblin-Siedler"/>
+		<Loc Key="DES_GOBLIN_SPEARMEN" Value="Goblin-Speerkämpfer"/>
+		<Loc Key="DES_GOBLIN_SWORDSMEN" Value="Goblin-Schwertkämpfer"/>
+		<Loc Key="DES_GOBLIN_BOWMEN" Value="Goblin-Bogenschützen"/>
+		<Loc Key="DES_GOBLIN_SHAMANS" Value="Goblin-Schamanen"/>
+		<Loc Key="DES_BOAR_RIDER" Value="Wildschweinreiter"/>
+		<Loc Key="DES_BOAR_RIDER_DES" Value="Die Elitekavallerie der Goblins, so heißt es zumindest. Außenstehende würden jedoch eher von einem zusammengewürfelten Haufen etwas tölpelhafter Goblins sprechen, die auf gut abgerichteten, blindwütigen Wildschweinen reiten."/>
+		<Loc Key="DES_DRUIDS" Value="Druiden"/>
+		<Loc Key="DES_DRUIDS_DES" Value="Eine besondere Zaubereinheit der Goblins mit magischem Fernkampfangriff. Druiden sind für ihre äußerst enge Verbundenheit zur Natur bekannt und können sogar Kriegsbären zur Unterstützung herbeirufen."/>
+		<Loc Key="DES_BEASTMASTER" Value="Bestienzähmer"/>
+		<Loc Key="DES_BEASTMASTER_DES" Value="Eine Eliteeinheit der Goblins mit einem starken Fernkampfangriff und der Fähigkeit zu fliegen. Der Bestienzähmer behauptet, selbst die stärksten Kreaturen bändigen zu können, doch tatsächlich hat er lediglich einen fettleibigen Schädling unter seiner Kontrolle ..."/>
+
+		<Loc Key="DES_FANTASTIC_WARLORD" Value="Übernatürlicher Kriegsherr"/>
+		<Loc Key="DES_TRAIT_FANTASTIC_WARLORD_DES" Value="Die Fähigkeit, übernatürliche Truppen zu kontrollieren, erhöht den Nahkampfangriff{ICON:MeleeIconNormal}, den Fernkampfangriff{ICON:RangedIconNormal}, die Rüstung{ICON:ArmourIconNormal}, die Resistenz{ICON:ResistanceIconNormal} und die Odemangriffe aller beschworenen Kreaturen unter der Kontrolle des Zauberers um +1.\n\n-'Übernatürlicher Kriegsherr' kostet 1 Punkt."/>
+		<Loc Key="DES_ENCH_FANTASTIC_WARLORD_DES" Value="Die Fähigkeit, übernatürliche Truppen zu kontrollieren, erhöht den Nahkampfangriff{ICON:MeleeIconNormal}, den Fernkampfangriff{ICON:RangedIconNormal}, die Rüstung{ICON:ArmourIconNormal}, die Resistenz{ICON:ResistanceIconNormal} und die Odemangriffe aller beschworenen Kreaturen unter der Kontrolle des Zauberers um +1."/>
+		<Loc Key="DES_STONEMASON" Value="Steinmetz"/>
+		<Loc Key="DES_STONEMASON_DES" Value="Dank der Beherrschung des Steinmetzhandwerks wird die Hauptstadt des Zauberers von Anfang an mit einer Steinmauer geschützt. Zudem erhält die Hauptstadt zusätzlich +10{ICON:ProductionIcon} Produktion und verfügen alle Einheiten des Volkes, mit dem der Zauberer das Spiel beginnt, über die Fertigkeit 'Baumeister', die es ihnen ermöglicht, Straßen zu bauen.\n\n-'Steinmetz' kostet 1 Punkt."/>
+		<Loc Key="DES_LIFEBRINGER" Value="Lebensbringer"/>
+		<Loc Key="DES_LIFEBRINGER_DES" Value="Als Beherrscher des Lebens beginnt der Zauberer das Spiel mit den mächtigen Zaubern 'Wiederbelebung' und 'Heilung'. Zudem sorgt 'Lebensbringer' dafür, dass die Kosten für das Sprechen der Zauber 'Wiederbelebung', 'Heilung' und 'Massenheilung' um 25 % verringert sind und alle Einheiten des Hauptstadt-Volkes unter der Kontrolle des Zauberers die Fertigkeit 'Heilung' erhalten.\n\n- Der Zauberer muss bereits mindestens 4 Zauberbücher der Lebenssphäre ausgewählt haben.\n\n- 'Lebensbringer' kostet 1 Punkt."/>
+		<Loc Key="DES_HERO_MAGNET" Value="Heldenbeschwörer"/>
+		<Loc Key="DES_HERO_MAGNET_DES" Value="Das Warten darauf, endlich einen Helden in den eigenen Reihen zu haben, hat ein Ende! Falls Ihr sofort einen Helden benötigt, ist das die richtige Spezialisierung für Euch. Ihr beginnt das Spiel mit den Zaubern 'Held beschwören' und 'Überheld beschwören', wobei die Kosten für das Sprechen dieser Zauber um 25 % verringert sind. Darüber hinaus habt Ihr dank dieser Spezialisierung eine zusätzliche Wahlmöglichkeit beim Beschwören und/oder Rekrutieren von Helden.\n\n- 'Heldenbeschwörer' kostet 1 Punkt."/>
+		<Loc Key="DES_NATURE_SUMMONER" Value="Naturbeschwörer"/>
+		<Loc Key="DES_NATURE_SUMMONER_DES" Value="Die Macht der Natur befähigt den Zauberer dazu, das Spiel mit einer Einheit aus Kriegsbären zu beginnen. Zudem verfügt er von Anfang an über alle Beschwörungszauber der Natur, und die Aufrechterhaltung aller Naturbeschwörungen ist 50% billiger.\n\n-Kann nicht mit der Spezialisierung 'Beschwörung' oder 'Übertragung' verbunden werden.\n\n-Der Zauberer muss bereits mindestens 4 Naturzauberbücher ausgewählt haben.\n\n-'Naturbeschwörer' kostet 2 Punkte."/>
+
+		<Loc Key="DES_SUMMON_BOAR" Value="Wildschwein"/>
+		<Loc Key="DES_SUMMON_BOAR_DES" Value="Beschwört ein blindwütiges Wildschwein für die Schlacht. Das Wildschwein ist eine ausgezeichnete Einheit für den Nahkampf{ICON:MeleeIconNormal} und kann den Gegner betäuben."/>
+		<Loc Key="DES_DLC_BOAR" Value="Wildschwein"/>
+		<Loc Key="DES_DLC_BOAR_DES" Value="Die fähigsten Wildschweinbändiger sind in der Lage, ein blindwütiges Wildschwein für die Schlacht zu beschwören. Es handelt sich dabei um eine ausgezeichnete Einheit für den Nahkampf{ICON:MeleeIconNormal}, die den Gegner 'Betäuben' kann."/>
+		<Loc Key="DES_SUMMON_FAT_RAT" Value="Fette Ratte"/>
+		<Loc Key="DES_SUMMON_FAT_RAT_DES" Value="Beschwört eine giftige, fette Ratte für die Schlacht. Ihr Biss verursacht 'Blutung' und ihre grässliche Fratze kann beim Gegner 'Furcht erzeugen'."/>
+		<Loc Key="DES_DLC_FAT_RAT" Value="Fette Ratte"/>
+		<Loc Key="DES_DLC_FAT_RAT_DES" Value="Fette Ratten sind unheimlich hinterlistige Kreaturen aus finsteren Gefilden, die selbst Myrror im wahrsten Sinne des Wortes in den Schatten stellen. Ihre Bisse verursachen 'Blutung' und ihre grässlichen Fratzen können beim Gegner 'Furcht erzeugen'."/>
+
+		<Loc Key="DES_CURSED" Value="Verflucht"/>
+		<Loc Key="DES_CURSED_DES" Value="Verringert die Resistenz{ICON:ResistanceIconNormal} der verfluchten Einheit sowie verbündeter Einheiten um 1 und die Resistenz{ICON:ResistanceIconNormal} feindlicher Einheiten (auf dem Schlachtfeld) um 2."/>
+		<Loc Key="DES_CURSED_UNIT" Value="Verflucht"/>
+		<Loc Key="DES_CURSED_UNIT_DES" Value="Diese Einheit steht unter dem Einfluss der Fähigkeit 'Verflucht'."/>
+		<Loc Key="DES_FOODIE" Value="Vielfraß"/>
+		<Loc Key="DES_FOODIE_DES" Value="Dieser Held schlägt sich gerne den Bauch voll und akzeptiert nur Nahrung als Unterhalt (3 pro Runde). Da er wohlgenährt ist, ist er stärker (+1 Angriff, +1 Rüstung, +1 Resistenz, +10 % Trefferchance - auf der höchsten Stufe wird dieser Bonus auf +2 erhöht)."/>
+		<Loc Key="DES_BLEEDING_2_OWNER" Value="Blutung 2"/>
+		<Loc Key="DES_BLEEDING_2_OWNER_DES" Value="Eine Einheit, die mit 'Blutung' angegriffen wird, erleidet Schaden in Höhe des Fertigkeitswerts, bis sie eine Resistenzprobe{ICON:ResistanceIconNormal} besteht."/>
+		<Loc Key="DES_BLEEDING_UNIT" Value="Blutung {0}"/>
+		<Loc Key="DES_BLEEDING_UNIT_DES" Value="Diese Einheit steht unter dem Einfluss der Fähigkeit 'Blutung'."/>
+		<Loc Key="DES_EARTH_WALKER" Value="Erdläufer"/>
+		<Loc Key="DES_EARTH_WALKER_DES" Value="Der Erdläufer ermöglicht es allen Einheiten, die sich auf demselben Feld befinden, Schlamm-, Wüsten- und Tundra-Gelände mit 1 Bewegungspunkt pro Hexfeld zu überqueren. Zudem macht er die Einheiten immun gegen den Zauber 'Schlammeruption'."/>
+
+		<Loc Key="DES_RES_MAMMOTH" Value="Mammuts"/>
+		<Loc Key="DES_RES_MAMMOTH_DES" Value="Große, haarige Mammuts mit wertvollen Stoßzähnen und viel Fleisch auf den Rippen. Diese Ressource gewährt der nahe gelegenen Stadt +1 Nahrung{ICON:FoodIcon} und +1 Gold{ICON:GoldIcon}.\nKann mit 'Umwandeln' in Wild umgewandelt werden."/>
+		<Loc Key="DES_STUN" Value="Betäuben"/>
+		<Loc Key="DES_STUN_DES" Value="Im Falle einer fehlgeschlagenen Resistenzprobe{ICON:ResistanceIconNormal} sind der Nahkampfangriff{ICON:MeleeIconNormal} und der Fernkampfangriff{ICON:RangedIconNormal} der feindlichen Zieleinheit für 1 Runde um die Hälfte verringert."/>
+
+		<Loc Key="DES_REALM_SYNERGY" Value="Synergie"/>
+		<Loc Key="DES_REALM_SYNERGY_DES" Value="Diese Einheit gehört keiner Sphäre an, sondern ist ein Resultat des Zusammenwirkens aller Sphären. Einheiten wie diese können für gewöhnlich nur mithilfe von Spezialfertigkeiten beschworen werden."/>
+
+		<Loc Key="DES_SUMMON_WAR_BEARS" Value="Kriegsbären"/>
+		<Loc Key="DES_SUMMON_WAR_BEARS_DES" Value="Beschwört furchterregende Kriegsbären für die Schlacht."/>
+		
+		<Loc Key="DES_STONEMASON_ENCH_DES" Value="Die Stadt steht unter der Obhut eines Steinmetzes, erhält daher eine kostenlose Steinmauer und erhält +10{ICON:ProductionIcon} Produktion." />
+	</LOCALIZATION-DLC1_DE>
+</DB_LOCALIZATION>

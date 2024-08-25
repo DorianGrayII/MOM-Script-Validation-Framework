@@ -1,0 +1,90 @@
+﻿<DB_SPELL>
+    <SPELL-COUNTER_MAGIC BattleCost="10">
+        <ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+        <DescriptionInfo Name="DES_COUNTER_MAGIC" Description="DES_COUNTER_MAGIC_DES" Graphic="SpellCounterMagic"/>
+        <ResearchCost VALUE="190"/>
+        <Realm VALUE="Sorcery"/>
+        <Rarity VALUE="Common"/>
+        <TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+        <TargetingScript VALUE="STAR_Battle"/>
+        <!-- Changed from <BattleScript VALUE="SBW_ApplyBattleEnchantment"/>  -->
+        <BattleScript VALUE="SBW_ApplyCounterMagic"/>
+        <EnchantmentData VALUE="ENCH-COUNTER_MAGIC"/>
+        <AIBattleEvaluationScript VALUE="SBAI_CounterMagic"/>
+        <DispelingSpell VALUE="TRUE"/>
+        <CastEffect VALUE="Effect_SorcerySpell"/>
+        <BattleCastEffect VALUE="GlobalSorcery"/>
+        <AudioEffect VALUE="SpellCounterMagic"/>
+        <InvalidTarget VALUE=""/>
+    </SPELL-COUNTER_MAGIC>
+    <SPELL-DISPEL_MAGIC BattleCost="10">
+        <ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+        <DescriptionInfo Name="DES_DISPEL_MAGIC" Description="DES_DISPEL_MAGIC_DES" Graphic="SpellDispelMagic"/>
+        <ResearchCost VALUE="100"/>
+        <Realm VALUE="Arcane"/>
+        <Rarity VALUE="Common"/>
+        <TargetType VALUE="TARGET_TYPE-UNIT"/>
+        <TargetingScript VALUE="STAR_Dispel_Any_Unit"/>
+        <!-- Changed from  <BattleScript VALUE="SBG_DispelMagic"/>  -->
+        <BattleScript VALUE="SBG_DispelMagic2"/>
+        <FIntData VALUE="10"/>
+        <AIBattleEvaluationScript VALUE="SBAI_DispelMagic"/>
+        <DispelingSpell VALUE="TRUE"/>
+        <CastEffect VALUE="Effect_DispelMagic"/>
+        <AudioEffect VALUE="SpellDispelMagic"/>
+        <InvalidTarget VALUE=""/>
+    </SPELL-DISPEL_MAGIC>
+    <SPELL-DISPEL_MAGIC_TRUE BattleCost="10">
+        <ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+        <DescriptionInfo Name="DES_DISPEL_MAGIC_TRUE" Description="DES_DISPEL_MAGIC_TRUE_DES" Graphic="SpellDispelMagicTrue"/>
+        <ResearchCost VALUE="40"/>
+        <Realm VALUE="Sorcery"/>
+        <Rarity VALUE="Common"/>
+        <TargetType VALUE="TARGET_TYPE-UNIT"/>
+        <TargetingScript VALUE="STAR_Dispel_Any_Unit"/>
+        <!-- Changed from  <BattleScript VALUE="SBG_DispelMagic"/>  -->
+        <BattleScript VALUE="SBG_DispelMagic2"/>
+        <FIntData VALUE="30"/>
+        <AIBattleEvaluationScript VALUE="SBAI_DispelMagic"/>
+        <DispelingSpell VALUE="TRUE"/>
+        <CastEffect VALUE="Effect_DispelMagic"/>
+        <AudioEffect VALUE="SpellDispelMagic"/>
+        <InvalidTarget VALUE=""/>
+    </SPELL-DISPEL_MAGIC_TRUE>
+    <SPELL-DISENCHANT_TRUE WorldCost="50" BattleCost="50" UnitBattleCost="33">
+        <ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+        <DescriptionInfo Name="DES_DISENCHANT_TRUE" Description="DES_DISENCHANT_TRUE_DES" Graphic="SpellDisenchantTrue"/>
+        <ResearchCost VALUE="350"/>
+        <Realm VALUE="Sorcery"/>
+        <Rarity VALUE="Uncommon"/>
+        <TargetType VALUE="TARGET_TYPE-HEX_BATTLE_GLOBAL"/>
+        <FIntData VALUE="150"/>
+        <BattleScript VALUE="SBG_DisenchantArea"/>
+        <WorldScript VALUE="SWG_DisenchantArea"/>
+        <AIBattleEvaluationScript VALUE="SBAI_DisenchantTrue"/>
+        <AIWorldEvaluationScript VALUE="SWAI_DisenchantTrue"/>
+        <DispelingSpell VALUE="TRUE"/>
+        <CastEffect VALUE="Effect_Disenchant"/>
+        <BattleCastEffect VALUE="GlobalSorcery"/>
+        <AudioEffect VALUE="SpellDisenchant"/>
+        <InvalidTarget VALUE=""/>
+    </SPELL-DISENCHANT_TRUE>
+    <SPELL-DISENCHANT_AREA WorldCost="50" BattleCost="50" UnitBattleCost="33">
+        <ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+        <DescriptionInfo Name="DES_DISENCHANT_AREA" Description="DES_DISENCHANT_AREA_DES" Graphic="SpellDisenchantArea"/>
+        <ResearchCost VALUE="300"/>
+        <Realm VALUE="Arcane"/>
+        <Rarity VALUE="Uncommon"/>
+        <TargetType VALUE="TARGET_TYPE-HEX_BATTLE_GLOBAL"/>
+        <FIntData VALUE="50"/>
+        <BattleScript VALUE="SBG_DisenchantArea"/>
+        <WorldScript VALUE="SWG_DisenchantArea"/>
+        <AIBattleEvaluationScript VALUE="SBAI_Placeholder"/>
+        <AIWorldEvaluationScript VALUE="SWAI_Disenchant"/>
+        <DispelingSpell VALUE="TRUE"/>
+        <CastEffect VALUE="Effect_DisenchantArea"/>
+        <BattleCastEffect VALUE="GlobalArcane"/>
+        <AudioEffect VALUE="SpellDisenchantArea"/>
+        <BattleCastEffect VALUE="Placeholder"/>
+    </SPELL-DISENCHANT_AREA>
+</DB_SPELL>

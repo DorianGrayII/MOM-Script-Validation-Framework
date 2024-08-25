@@ -1,0 +1,12 @@
+﻿<PROTOTYPE_SOUND>	
+	<SOUND Name="Sound">
+		<Name Name="name" Type="string" Required="TRUE"/>
+		<File Name="file" Type="string" Required="TRUE"/>
+    </SOUND>
+
+    <SOUND_LIST Name="SoundList">
+		<Sfx Name="IsSFX" Type="bool" Required="FALSE"/>
+		<Sound Name="sound" Type="ArraySOUND" Required="TRUE"/>
+		<Identifier Name="identifier" Type="string" Required="FALSE"/>
+    </SOUND_LIST>
+</PROTOTYPE_SOUND>

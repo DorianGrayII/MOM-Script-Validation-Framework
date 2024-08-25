@@ -1,0 +1,34 @@
+﻿<PROTOTYPE_TERRAIN_RESOURCE>
+		
+	<RESOURCE Name="Resource" Abbreviation="RES">	
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>
+		<!-- optional model name, variable allowing to decouple 2d art name stored in description infor from 3d model name for modding purposes -->
+		<OptionalModel3dName Name="model3d" Type="string" Required="FALSE"/>		
+		<TransmuteTo Name="transmuteTo" Type="RESOURCE" Required="FALSE"/>		
+		<BonusTypes Name="bonusTypes" Type="RESOURCE_BONUS_TYPE" Required="FALSE"/>
+		<OutpostGrowth Name="outpostGrowth" Type="int" Required="FALSE"/>
+		<Dlc Name="dlc" Type="string" Required="FALSE"/>
+		<Mineral Name="mineral" Type="bool" Required="FALSE"/>
+	</RESOURCE>
+	
+	<!--Definition of chance to spawn resources on terrain -->
+	<RESOURCE_CHANCE Name="ResourceChance">	
+		<Resource Name="resource" Type="RESOURCE" Required="TRUE"/>	
+		<Chance Name="chance" Type="float" Required="TRUE"/>
+	</RESOURCE_CHANCE>	
+	
+	<!--Definition of bonuses that can be applied by resource -->
+	<RESOURCE_BONUS_TYPE Name="ResourceBonusType">
+		<!-- flat bonus 2.00 increases town money income by 2 -->
+		<Money Name="money" Type="FInt" Required="TRUE"/>
+		<!-- flat bonus 2.00 increases town power income by 2 -->
+		<Power Name="power" Type="FInt" Required="TRUE"/>
+		<!-- flat bonus 2.00 increases town food income by 2 -->
+		<Food Name="food" Type="FInt" Required="TRUE"/>
+		<!-- in percent -0.10 decreases cost by 10% of unit production cost-->
+		<UnitProductionCost Name="unitProductionCost" Type="FInt" Required="TRUE"/>
+		<!-- in percent -0.10 decreases cost by 10% of building production cost-->
+		<BuildingProductionCost Name="buildingProductionCost" Type="FInt" Required="TRUE"/>
+	</RESOURCE_BONUS_TYPE>
+	
+</PROTOTYPE_TERRAIN_RESOURCE>

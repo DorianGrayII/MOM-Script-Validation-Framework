@@ -1,0 +1,172 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC2_CN Language="中文">
+		<!-- DLC 2 descriptions -->
+
+		<!-- WIZARDS --> 
+		<Loc Key="DES_NINESEVEN" Value="玖柒" />
+		<Loc Key="DES_NINESEVEN_DES" Value="鉴于神秘的机械肢体和科技魔法饰物掩盖住了绝大多数有机体的起源, 因此很难说清楚玖柒是否真的曾是一名精灵大法师和学者. 在她永恒的一生中, 她对矮人金属制品和能够能够创造出无限可能的炼金术极度痴迷. 有人说是她创造出了科技魔法, 但也有人说她只是掌握了而已." />
+		<Loc Key="DES_NINESEVEN_QUOTE" Value="肉体将不再束缚我, 魔法在我的全身涌动. 吾即是科技宗师, 吾将更加强大!" />		
+		<Loc Key="DES_MORIQUE" Value="莫里克" />
+		<Loc Key="DES_MORIQUE_DES" Value="魔魂者莫里克, 或者称被占据者, 是一名拥有强大但危险力量的黑暗精灵女巫. 正如她的绰号所暗示, 她的身体中蛰伏着一名强大的恶魔. 这种结合究竟是一种基于彼此的相互所需, 还是一种寄生关系, 目前尚不清楚. 莫里克的野心并不止于驯服她的恶魔, 死亡和混沌皆为她所擅长. 她力求证明自己拥有对所有巫师的终极统治地位, 尤其是她的恶魔对手, 托隆." />
+		<Loc Key="DES_MORIQUE_QUOTE" Value="我已经掌控了炼狱之火, 我们现在比任何人都更强大. 最强巫师是我的极致追求!" />
+		<Loc Key="DES_GRENDEL" Value="格伦德尔" />
+		<Loc Key="DES_GRENDEL_DES" Value="格伦德尔可能是最伟大的巫师之一, 至少在他的种族中是如此, 但他坚信只有力量才能带来公正. 他经常声称任何东西都可以被打败, 甚至是魔法本身. 格伦德尔当然掌握着奥术的基础知识并在需要时能够控制自然魔法, 但他主要还是依赖于部队本身的实力." />
+		<Loc Key="DES_GRENDEL_QUOTE" Value="我要让你们的脑袋忘却魔法, 然后看看究竟谁才是王者!" />
+
+		<Loc Key="DES_NINESEVEN_GREETINGS" Value="按照惯例我需要向你打招呼, 不过考虑到我们的最终对决, 我认为这种礼貌没有任何意义. 我是玖柒, 现在我们可以交谈了."/>
+		<Loc Key="DES_MORIQUE_GREETINGS" Value="我们向你致意, 巫师. 我们, 哦不, 我是莫里克, 我来这里是为了称霸一切. 但在那个时刻到来之前, 让我们先聊聊吧."/>
+		<Loc Key="DES_GRENDEL_GREETINGS" Value="噢, 巫师. 对我来说没有什么事情是有趣的. 我是格伦德尔, 我最终会打败你."/>
+
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_1" Value="向你致以最亲切的问候. 我是托隆...噢, 莫里, 原来是你. 你总说要在这里挑战我, 但我一直希望这一刻不要出现. 但至少现在, 亲爱的, 我们可以毫无恶意地交谈."/>
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_2" Value="莫里, 我的心正在为我们必须承受的一切而滴血... 现在让我们谈谈吧."/> 
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_1" Value="这就是我们, 莫里克, 正如我们在地狱之路分别时对你所说的那样, 我们, 抑或是我, 来到这里是为了向你展示我真正的力量! 现在是你站在我面前, 我的红色恶魔, 对此我感到无比难过..."/>
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_2" Value="我的红色恶魔, 最后的战斗即将来临. 很快我们之间就只剩下鲜血了, 而且会以一种非常惨烈的方式..."/>
+
+
+		<!-- TRAITS -->
+        <Loc Key="DES_TECHMASTER" Value="科技宗师" />
+		<Loc Key="DES_TECHMASTER_DES" Value="允许巫师掌握科技魔法, 这是一种通过符文蚀刻, 炼金术和献祭活体来赋予机械造物灵魂的禁忌神秘力量. 拥有科技宗师特质的巫师在起始时拥有德罗纳侦察兵单位及其召唤法术, 以及魔法寻觅者法术. 此外, 他们还将拥有+5%的研究加成.\n\n-巫师必须已经选择了至少3本来自两个不同领域的法术书.\n\n-科技宗师消耗2个选择." />
+        <Loc Key="DES_DEMONOLOGIST" Value="恶魔学家" />
+		<Loc Key="DES_DEMONOLOGIST_DES" Value="恶魔学家将率领次级暗影魔单位开始游戏. 他们还拥有独特的召唤次级暗影魔法术和占据法术.\n\n- 巫师必须拥有咒法师特质.\n\n- 巫师必须已经选择了至少1本死亡领域和1本混沌领域的法术书.\n\n-恶魔学家消耗1个选择." />
+		<Loc Key="DES_MYRRAN_REFUGEE" Value="迈罗尔难民" />
+		<Loc Key="DES_MYRRAN_REFUGEE_DES" Value="允许巫师在阿坎纳斯以迈罗尔种族开始游戏. 因为迈罗尔种族通常更加强大, 因此这毫无疑问带来了显着的优势.\n\n-迈罗尔难民消耗2个选择."/>
+		<Loc Key="DES_IMPROVED_WARLORD" Value="资深军阀" />
+		<Loc Key="DES_IMPROVED_WARLORD_DES" Value="允许巫师进阶为资深军阀, 能够更有效地训练他们的部队. 也正是因为此, 老兵等级每回合都能够为其麾下的非奇幻单位提供额外的+1经验值, 并在游戏开始时拥有剑士.\n\n- 巫师必须拥有军阀特质.\n\n-资深军阀消耗1个选择."/>
+		<Loc Key="DES_ANTI_MAGIC" Value="力量即正义!" />
+		<Loc Key="DES_ANTI_MAGIC_DES" Value="巫师相信肉体实力比魔法智慧更加可靠. 所有非奇幻单位(包括非奇幻英雄)获得+3抗性. 他们还将获得战斗再生, 一个全新的技能, 允许单位在战斗中每回合+2生命值(能够与再生技能叠加效果).\n\n- 巫师所拥有的法术书数量必须不超过2本.\n\n-力量即正义! 消耗5个选择."/>
+
+		<!-- RACE --> 
+        <Loc Key="DES_SOULTRAPPED" Value="魂锢者" />
+		<Loc Key="DES_SOULTRAPPED_DES" Value="魂锢者是矮人黑暗符文魔法试验的牺牲品, 这种禁忌魔法能够将拥有感知能力的灵魂束缚在以有机质为养料的机械体中. 至少, 这是来自官方的解释. 但魂锢者们声称他们的觉醒来自于神圣的力量, 并且坚持并不是什么他人游戏的副产品. 无论是哪种情况, 魂锢者都曾以令人不安的方式被机器结合, 但他们却是一个喜欢和平与繁荣而不是战争的种族." />
+		<Loc Key="DES_SOULTRAPPED_PRODUCTION" Value="增长率: 极慢 (基础速率-30人口/回合)\n建筑物限制: 无法修建商会, 战争学院, 神谕所, 通灵者行会以及船坞\n其他: +4{ICON:ArmourIconNormal}护甲, -1{ICON:ResistanceIconNormal}抗性, 单位拥有碎墙者技能.\n单位消耗x2.0生产{ICON:ProductionIcon}.\n魂锢者城市流域范围内每拥有一处矿藏则获得+5人口增长.\n种族单位: {LINK:UNIT-SOUL_CANNON} 魂炮{ICON:SoulCannon}{END_LINK}{LINK:UNIT-SOUL_BOMBER} 投掷者{ICON:Bomber}{END_LINK}{LINK:UNIT-SOUL_GOLEM} 无魂者{ICON:FleshGolem}{END_LINK}{LINK:UNIT-SOUL_SUB_TRIREME} 幽魂舟{ICON:Submarine}{END_LINK}" />
+		<Loc Key="DES_REALM_TECH" Value="科技魔法" />
+		<Loc Key="DES_REALM_TECH_DES" Value="这个单位效忠于独特的科技魔法领域." />
+		
+        <!-- UNITS -->
+		<Loc Key="DES_TIMUR" Value="死亡射击者提穆尔" />
+		<Loc Key="DES_TIMUR1" Value="死亡射击者费德" />
+		<Loc Key="DES_TIMUR2" Value="死亡射击者阿尔比诺" />
+		<Loc Key="DES_TIMUR3" Value="死亡射击者帕尔" />
+		<Loc Key="DES_TIMUR4" Value="死亡射击者弗洛伊德" />
+		<Loc Key="DES_TIMUR_DES" Value="{0}生来就是一个失明的白化病患者, 同时还被剥夺了黑暗精灵的黑暗魔法天赋, 进而饱受同族的鄙夷. 不过, 这一切只会让他更加坚定. 他被养父收留, 并一起踏上了危险的旅程, 以证明{0}仍然能够成为最致命的刺客. 通过科技魔法, 他的双眼已然超越了凡人的界限, 尽管仍然无法使用黑暗魔法, 但他的科技魔法本身就是黑暗力量的体现." />
+		<Loc Key="DES_BILLIE" Value="神枪手比利" />
+		<Loc Key="DES_BILLIE1" Value="神枪手提匹" />
+		<Loc Key="DES_BILLIE2" Value="神枪手卡拉米提" />
+		<Loc Key="DES_BILLIE3" Value="神枪手安妮" />
+		<Loc Key="DES_BILLIE4" Value="神枪手杰西" />
+		<Loc Key="DES_BILLIE_DES" Value="{0}, 是一名性格开朗的半身人青年, 几乎所有的人都对她喜爱有加. 在成为了最强投石手后, 在姐姐特瑞拉的启发下{0}开始寻找自己的新机遇. 在某次探索中她发现了科技魔法这一奇迹, 并因此成为了阿坎纳斯首位神枪手. 在忠实的野猪啃啃的陪伴下, 她现在是任何巫师都希望拥有的最强枪手之一." />		
+		<Loc Key="DES_OLDMANE" Value="铁颚者奥德曼恩" />
+		<Loc Key="DES_OLDMANE1" Value="铁颚者哈库纳" />
+		<Loc Key="DES_OLDMANE2" Value="铁颚者斯纳尔" />
+		<Loc Key="DES_OLDMANE3" Value="铁颚者海德纳尔" />
+		<Loc Key="DES_OLDMANE4" Value="铁颚者格纳尔凡" />
+		<Loc Key="DES_OLDMANE_DES" Value="{0}曾经是最伟大, 最年长的豺狼人将军, 直到有一天他被黑暗精灵所俘虏. 黑暗精灵折磨了这名战士数年, 把他的身体摧残得面目全非. 然而在一次偶然的机会, 抑或是冥冥之中, 一个小男孩的哭声让{0}重新获得了战斗意志. 他逃离了抓捕者, 救出了他的养子提穆尔, 并一起踏上了重生之旅. 通过使用科技魔法, 奥德曼恩获得了重塑并拥有了如今的金属之躯." />
+		<Loc Key="DES_MOMA_ILDE" Value="莫玛和伊尔德" />
+		<Loc Key="DES_MOMA_ILDE1" Value="玛玛和奇多"  />
+		<Loc Key="DES_MOMA_ILDE2" Value="姆提和利尔比利"/>
+		<Loc Key="DES_MOMA_ILDE3" Value="姆西和戈尔" />
+		<Loc Key="DES_MOMA_ILDE4" Value="梅尔和佩提特" />
+		<Loc Key="DES_MOMA_ILDE_DES" Value="这名矮人女孩虽然年轻, 但仍然是一位值得敬畏的符文守护者. 她的身后有着一段悲惨的故事: 在一场关于科技魔法的可怕事故中她失去了自己的母亲. 之后不久, 女孩发现了一个游荡的魂锢者, 它似乎认出了那个矮人. 女孩确信那名魂锢者就是自己的母亲, 并发誓要寻找一种方法来改变发生在她身上的一切. 不过在奇迹发生之前, {0}积极响应着那些拥有强大科技魔法能量之人, 希望通过为他们服务能够了解他们需要些什么." />
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS" Value="次级暗影魔"/>
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS_DES" Value="次级暗影魔响应恶魔学家的召唤并忠实地为其服务. 它们可以从空中{ICON:MovementFlyingIcon}进行近战{ICON:MeleeIconNormal}和魔法远程{ICON:DeathIcon}{ICON:RangedIconNormal}攻击."/>
+
+        <Loc Key="DES_SOUL_SETTLER" Value="魂锢者殖民者" />
+		<Loc Key="DES_SOUL_ENGINEERS" Value="魂锢者工程师" />
+		<Loc Key="DES_SOUL_ENGINEERS_DES" Value="工程师是非战斗单位. 他们是道路建造方面的专家, 同时还能帮助您推倒敌人的城墙. 魂锢者工程师还可以通过修复技能治疗构造体." />
+		<Loc Key="DES_SOUL_SPEARMEN" Value="魂锢者机械长矛手"/>
+		<Loc Key="DES_SOUL_SWORDSMEN" Value="魂锢者机械剑士" />
+		<Loc Key="DES_SOUL_HALBERDIERS" Value="魂锢者机械戟兵" />
+		<Loc Key="DES_SOUL_CAVALRY" Value="魂锢者骑兵" />
+		<Loc Key="DES_SOUL_PRIESTS" Value="魂锢者科技牧师" />       
+		<Loc Key="DES_SOUL_PRIESTS_DES" Value="拥有治疗能力的魔法远程攻击单位. 与研究施展魔法的法师不同, 科技牧师通过祈祷和对神灵的奉献来获得力量. 他们同时还拥有在战斗中重建构造体的能力."/>
+		<Loc Key="DES_SOUL_BOMBER" Value="投掷者"/>
+		<Loc Key="DES_SOUL_BOMBER_DES" Value="投掷者是一类奇特的魂锢者, 其形状像一只专门为投掷而生的手. 它们在战斗中的唯一目的就是释放魔法炸弹, 从而在瞬间消灭敌人!" />
+		<Loc Key="DES_SOUL_BOMB" Value="魔法炸弹"/>
+		<Loc Key="DES_SOUL_BOMB_DES" Value="魔法炸弹融合了强大的科技魔法, 并在敌人面前爆炸! 除非先进行射击, 否则它看上去只是一块涌动的圆形金属而已..." />
+		<Loc Key="DES_SOUL_CANNON" Value="魂炮" />
+		<Loc Key="DES_SOUL_CANNON_DES" Value="魂炮是科技与魔法完美融合的杰作. 它是魂锢者强大的远程单位." />
+		<Loc Key="DES_SOUL_GOLEM" Value="无魂者" />
+		<Loc Key="DES_SOUL_GOLEM_DES" Value="无魂者是一具没有灵魂的肉体, 由魂锢者工程师和牧师所使用的神秘科技魔法力量所驱动. 有人说无魂者是矮人造物中最糟糕的东西..." />
+		<Loc Key="DES_SOUL_SUB_TRIREME" Value="幽魂舟" />
+		<Loc Key="DES_SOUL_SUB_TRIREME_DES" Value="幽魂舟可以在海面以下航行很远的距离. 它是一个拥有自主意识的魂锢者单位, 但并不介意充当运输者的角色." />
+		<Loc Key="DES_CYBER_SPRITE_DES" Value="科技精灵是技术和魔法的融合, 令人震惊却又那么的完美无瑕. 它曾经是一个普通的精灵, 但现在已经成为了科技魔法巫师的飞行远程仆从." />
+		<Loc Key="DES_SCOUTING_PROBE_DES" Value="德罗纳侦察兵53N3X系列是被科技魔法赋予了生命的金属玻璃融合体. 在巫师的指导下, 德罗纳能够比大多数生物甚至灵魂生物飞得更高, 看得更远." />
+        <Loc Key="DES_ENGINEERING_PROBE_DES" Value="53N3X2系列多用途德罗纳, 其特点是灵活. 它主要用于工程项目, 因此可以用来修建道路. 同时它也比普通单位拥有更快的移动速度, 并且能够与节点融合." />
+
+		
+		<!-- SKILLS --> 
+        <Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH" Value="科技魔法远程攻击" />		
+		<Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH_DES" Value="该单位的远程攻击被灌注了科技魔法的力量. 该攻击在任何距离上必定命中, 且不会因距离而受到命中几率{ICON:ToHitBonusIcon}惩罚. 此外, 该攻击将完全无视目标的飞弹免疫和魔法免疫效果并且具有护甲穿透效果." /> 
+		<Loc Key="DES_DOUBLESHOT" Value="双重射击" />
+		<Loc Key="DES_DOUBLESHOT_DES" Value="对于真正的神枪手而言, 双重射击允许英雄在其回合中射击两次, 且均为普通远程攻击." />
+		<Loc Key="DES_SUMMON_BOMB" Value="释放魔法炸弹"/>
+		<Loc Key="DES_SUMMON_BOMB_DES" Value="召唤魔法炸弹. 它能够造成无比致命的伤害, 但同时也脆弱无比." />
+		<Loc Key="DES_BOMBER_BOOM" Value="科技爆炸"/>
+		<Loc Key="DES_BOMBER_BOOM_DES" Value="强大的科技烈焰爆炸会损坏其来源. 对目标单位的每个成员施展强度为20的魔法火焰攻击." />
+		<Loc Key="DES_PIERCING_BITE" Value="穿刺之咬{0}" />
+		<Loc Key="DES_PIERCING_BITE_DES" Value="凶猛的近战撕咬, 在攻击回合以及进行反击后造成穿刺伤害." />
+		<Loc Key="DES_GNOLL_GENERAL" Value="狼骑兵首领" />
+		<Loc Key="DES_GNOLL_GENERAL_DES" Value="豺狼人将军们团结的领导着狼骑兵部队. 因此, 英雄的部队中每拥有两个狼骑兵单位将获得+1{ICON:ArmourIconNormal}护甲. 同时在首领的存在下, 狼骑兵单位也将获得+1{ICON:MeleeIconNormal}近战攻击." />
+		<Loc Key="DES_GNOLL_GENERAL_BONUS_DES" Value="该单位受到狼骑兵首领技能的影响. 英雄的部队中每拥有两个狼骑兵单位将获得+1{ICON:ArmourIconNormal}护甲. 同时在首领的存在下, 狼骑兵单位也将获得+1{ICON:MeleeIconNormal}近战攻击." />
+		<Loc Key="DES_GNOLL_GENERAL_BONUS" Value="狼骑兵首领" />
+		<Loc Key="DES_MECHANICIAN" Value="修复" />
+		<Loc Key="DES_MECHANICIAN_DES" Value="该技能允许修复机械构造体, 每回合与其叠加的构造体单位的自然治疗效果提高到最大生命值的50%." />
+		<Loc Key="DES_LIGHTNING_WEAKNESS" Value="闪电易伤" />
+		<Loc Key="DES_LIGHTNING_WEAKNESS_DES" Value="该单位会引来雷电并极易遭到损坏. 面对闪电类型的攻击时, 该弱点将使得伤害提高100%." />
+		<Loc Key="DES_MINOR_REGENERATION" Value="战斗再生" />
+		<Loc Key="DES_MINOR_REGENERATION_DES" Value="加快身体的自然愈合, 允许在战斗回合治疗2点{ICON:HitIconNormal}生命值. 该技能无法在战斗之外生效. (技能效果能够与再生叠加)" />	
+		
+		
+		<!-- RES --> 
+		<Loc Key="DES_RES_ORICHALCUM" Value="山铜" />
+		<Loc Key="DES_RES_ORICHALCUM_DES" Value="山铜是一种稀有资源, 只能在耗尽科技地下城或使用科技魔法获得. 将建筑物和单位的建造成本降低 20%，并增加 +3 能量。" />
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_SCOUTING_PROBE" Value="德罗纳侦察兵" />
+		<Loc Key="DES_SCOUTING_PROBE_SUMMON_DES" Value="召唤53N3X系列德罗纳侦察兵, 这是一种飞行{ICON:MovementFlyingIcon}单位. 它拥有很好的侦察能力但耐用性不足." />
+		<Loc Key="DES_CYBER_SPRITE" Value="科技精灵" />
+		<Loc Key="DES_CYBER_SPRITE_SUMMON_DES" Value="召唤一个科技精灵, 拥有科技魔法远程攻击的飞行{ICON:MovementFlyingIcon}机械单位. 精灵会一直为你服务直至死亡, 或战斗结束." />
+		<Loc Key="DES_POWER_SEEKER" Value="魔法寻觅者" />
+		<Loc Key="DES_POWER_SEEKER_DES" Value="强大的科技魔法能够寻找所选位面上的所有能量节点, 并使之在地图上可见. 一旦发现后节点还将被标记为已探索, 因此可以在进入之前检查它们的防御者." />
+		<Loc Key="DES_DETECT_MINERALS" Value="矿物开采" />
+		<Loc Key="DES_DETECT_MINERALS_DES" Value="该法术能够发现隐藏在地下深处的矿藏并将其带到地表, 从而使巫师能够在选定的位置添加一个新的资源. 新矿藏只能在距离其他资源至少一格的位置上生成." />
+		<Loc Key="DES_TECHCARNATION" Value="科技化身" />
+		<Loc Key="DES_TECHCARNATION_DES" Value="强大的科技化身法术能够召唤莫玛和伊尔德. 这位双英雄响应那些使用科技魔法的巫师, 以换取他们对这种新奥术能量的学识. 双英雄无法复活, 只能在失去后再次进行召唤(他们是奇幻英雄, 因此不会受到针对普通单位和英雄的法术影响)." />
+		<Loc Key="DES_MASS_SHIELD" Value="大型护盾" />
+		<Loc Key="DES_MASS_SHIELD_DES" Value="大型护盾能够让战场上的所有友方单位获得巨盾技能, 除非他们已经拥有. 在应对所有远程攻击时获得+2{ICON:ArmourIconNormal}护甲." />
+		<Loc Key="DES_AFINITY_FOR_MINERALS" Value="矿物燃料" />
+		<Loc Key="DES_AFINITY_FOR_MINERALS_DES" Value="魂锢者对矿物拥有特殊的亲和力. 魂锢者城市边界内的每一种矿藏资源都将使人口增长+5." />
+		<Loc Key="DES_RECONSTRUCT" Value="重建" />
+		<Loc Key="DES_RECONSTRUCT_DES" Value="重建法术可以修复死亡的构造体单位, 使其恢复全部生命值. 不过, 重建后的单位将在战斗结束后消失, 即使使用了其他复活法术." />
+		<Loc Key="DES_RECONSTRUCT_NAME_DES" Value="临时重建单位" />
+		<Loc Key="DES_MAGIC_BULLET" Value="魔法子弹" />
+		<Loc Key="DES_MAGIC_BULLET_DES" Value="魔法子弹将使拥有普通远程攻击的非奇幻单位弹药+2并使攻击无视武器免疫效果. 该加成能够提高单位的自然最大弹药量并能够填充损失的弹药. 对构造体效果+3." />
+		<Loc Key="DES_HERO_TRAINING" Value="英雄训练" />
+		<Loc Key="DES_HERO_TRAINING_DES" Value="通过科技法师的聪明才智, 英雄能够立即接受训练. 每个为巫师效力的英雄都将晋升成为队长." />
+		<Loc Key="DES_TECH_DUNGEON_UNITS" Value="科技地下城" />
+		<Loc Key="DES_TECH_DUNGEON_UNITS_DES" Value="科技地下城是魂锢者盗贼们的老巢. 在内部, 魂锢者敌人将获得战斗加成效果." />
+        <Loc Key="DES_ENGINEERING_PROBE" Value="多用途德罗纳"/>
+		<Loc Key="DES_ENGINEERING_PROBE_SUMMON_DES" Value="召唤53N3X2系列多用途德罗纳. 主要用途: 工程探测. 次要功能包括: 融合以及快速移动." />
+        <Loc Key="DES_MASS_PIERCING_SPELL" Value="锐利交换"/>
+        <Loc Key="DES_MASS_PIERCING_SPELL_DES" Value="锐利交换能够让战场上所有友方单位提高护甲穿透效果(防御方护甲等级效果减半), 但需要施放者牺牲5{ICON:HitIconNormal}生命值."/>
+        <Loc Key="DES_MASS_PIERCING" Value="锐化"/>
+        <Loc Key="DES_MASS_PIERCING_DES" Value="锐化后的单位获得护甲穿透效果(防守方护甲等级效果减半)."/>
+        <Loc Key="DES_FAIR_EXCHANGE" Value="公平交换"/>
+        <Loc Key="DES_FAIR_EXCHANGE_DES" Value="生活中的一切都是有代价的, 因此这是一个需要仔细衡量的问题. 对于那些掌握了公平交换的人, 单位每受到2点伤害, 巫师将获得5点施法技能."/>
+        <Loc Key="DES_ENCH_IMPROVED_WARLORD_DES" Value="资深军阀强化其麾下的非奇幻单位, 使其每回合+1经验值."/>
+        <Loc Key="DES_ENCH_ANTI_MAGIC_DES" Value="该单位拒绝被魔法影响并从巫师处获得魔法抗性(+3抗性)和战斗再生(仅在战斗中每回合+2治疗)."/>
+        <Loc Key="DES_CASTING_BLOCK_SPELL" Value="心之牺牲"/>
+        <Loc Key="DES_CASTING_BLOCK_SPELL_DES" Value="牺牲2点生命值, 施法者单位将使敌方巫师无法在战斗中施展法术, 持续1回合."/>
+        <Loc Key="DES_CASTING_BLOCK" Value="施法阻碍"/>	  
+        <Loc Key="DES_CASTING_BLOCK_DES" Value="巫师在1回合内无法施放法术."/>
+        <Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS" Value="次级暗影魔"/>	  
+        <Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS_DES" Value="召唤来自炼狱的飞行{ICON:MovementFlyingIcon}次级暗影魔并听从您的号令. 它们同时拥有近战{ICON:MeleeIconNormal}和魔法远程{ICON:DeathIcon}{ICON:RangedIconNormal}攻击能力."/>
+
+
+		<!-- Other-->
+		<Loc Key="DES_HERO_TRAINING_TARGET" Value="仅英雄单位."/>
+		<Loc Key="DES_NORMAL_UNIT_WITH_RANGE_MISSILE_ATTACK" Value="拥有远程飞弹攻击的普通单位."/>
+		<Loc Key="DES_TECH_DUNGEON" Value="科技地下城"/>
+		
+	</LOCALIZATION-DLC2_CN>
+</DB_LOCALIZATION>

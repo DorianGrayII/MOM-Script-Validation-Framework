@@ -1,0 +1,161 @@
+<DB_BOOKS_ADVANTAGE>
+
+	<BOOKS_ADVANTAGE-BOOK1 BookCount="1">
+		<ResearchLimit Rarity="Common" Count="3"/>
+		<ResearchLimit Rarity="Uncommon" Count="1"/>
+		<RewardLimit VALUE="Uncommon"/>
+	</BOOKS_ADVANTAGE-BOOK1>
+	<BOOKS_ADVANTAGE-BOOK2 BookCount="2">
+		<ResearchLimit Rarity="Common" Count="3"/>
+		<ResearchLimit Rarity="Uncommon" Count="2"/>
+		<ResearchLimit Rarity="Rare" Count="1"/>
+		<StartingSpells Rarity="Common" Count="1"/>
+		<RewardLimit VALUE="Rare"/>
+	</BOOKS_ADVANTAGE-BOOK2>
+	<BOOKS_ADVANTAGE-BOOK3 BookCount="3">
+		<ResearchLimit Rarity="Common" Count="4"/>
+		<ResearchLimit Rarity="Uncommon" Count="3"/>
+		<ResearchLimit Rarity="Rare" Count="2"/>
+		<ResearchLimit Rarity="VeryRare" Count="1"/>
+		<StartingSpells Rarity="Common" Count="2"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK3>
+	<BOOKS_ADVANTAGE-BOOK4 BookCount="4">
+		<ResearchLimit Rarity="Common" Count="5"/>
+		<ResearchLimit Rarity="Uncommon" Count="4"/>
+		<ResearchLimit Rarity="Rare" Count="3"/>
+		<ResearchLimit Rarity="VeryRare" Count="2"/>
+		<StartingSpells Rarity="Common" Count="3"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK4>
+	<BOOKS_ADVANTAGE-BOOK5 BookCount="5">
+		<ResearchLimit Rarity="Common" Count="6"/>
+		<ResearchLimit Rarity="Uncommon" Count="5"/>
+		<ResearchLimit Rarity="Rare" Count="4"/>
+		<ResearchLimit Rarity="VeryRare" Count="3"/>
+		<StartingSpells Rarity="Common" Count="4"/>
+		<GuaranteedSpells Rarity="Common" Count="1"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK5>
+	<BOOKS_ADVANTAGE-BOOK6 BookCount="6">
+		<ResearchLimit Rarity="Common" Count="7"/>
+		<ResearchLimit Rarity="Uncommon" Count="6"/>
+		<ResearchLimit Rarity="Rare" Count="5"/>
+		<ResearchLimit Rarity="VeryRare" Count="4"/>
+		<StartingSpells Rarity="Common" Count="5"/>
+		<GuaranteedSpells Rarity="Common" Count="1"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK6>
+	<BOOKS_ADVANTAGE-BOOK7 BookCount="7">
+		<ResearchLimit Rarity="Common" Count="10"/>
+		<ResearchLimit Rarity="Uncommon" Count="7"/>
+		<ResearchLimit Rarity="Rare" Count="6"/>
+		<ResearchLimit Rarity="VeryRare" Count="5"/>
+		<StartingSpells Rarity="Common" Count="6"/>
+		<GuaranteedSpells Rarity="Common" Count="2"/>
+		<GuaranteedSpells Rarity="Uncommon" Count="1"/>
+		<Bonus CastingDiscount="0.05" ResearchDiscount="0.05"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK7>
+	<BOOKS_ADVANTAGE-BOOK8 BookCount="8">
+		<ResearchLimit Rarity="Common" Count="10"/>
+		<ResearchLimit Rarity="Uncommon" Count="10"/>
+		<ResearchLimit Rarity="Rare" Count="7"/>
+		<ResearchLimit Rarity="VeryRare" Count="6"/>
+		<StartingSpells Rarity="Common" Count="7"/>
+		<GuaranteedSpells Rarity="Common" Count="2"/>
+		<GuaranteedSpells Rarity="Uncommon" Count="1"/>
+		<Bonus CastingDiscount="0.10" ResearchDiscount="0.10"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK8>
+	<BOOKS_ADVANTAGE-BOOK9 BookCount="9">
+		<ResearchLimit Rarity="Common" Count="10"/>
+		<ResearchLimit Rarity="Uncommon" Count="10"/>
+		<ResearchLimit Rarity="Rare" Count="10"/>
+		<ResearchLimit Rarity="VeryRare" Count="7"/>
+		<StartingSpells Rarity="Common" Count="8"/>
+		<GuaranteedSpells Rarity="Common" Count="2"/>
+		<GuaranteedSpells Rarity="Uncommon" Count="1"/>
+		<Bonus CastingDiscount="0.15" ResearchDiscount="0.15"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK9>
+	<BOOKS_ADVANTAGE-BOOK10 BookCount="10">
+		<ResearchLimit Rarity="Common" Count="10"/>
+		<ResearchLimit Rarity="Uncommon" Count="10"/>
+		<ResearchLimit Rarity="Rare" Count="10"/>
+		<ResearchLimit Rarity="VeryRare" Count="10"/>
+		<StartingSpells Rarity="Common" Count="9"/>
+		<StartingSpells Rarity="Uncommon" Count="1"/>
+		<!--<StartingArcaneSpells Rarity="Common" Count="1"/>-->
+		<GuaranteedSpells Rarity="Common" Count="1"/>
+		<GuaranteedSpells Rarity="Uncommon" Count="1"/>
+		<Bonus CastingDiscount="0.20" ResearchDiscount="0.20"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK10>
+	<BOOKS_ADVANTAGE-BOOK11 BookCount="11">
+		<ResearchLimit Rarity="Common" Count="10"/>
+		<ResearchLimit Rarity="Uncommon" Count="10"/>
+		<ResearchLimit Rarity="Rare" Count="10"/>
+		<ResearchLimit Rarity="VeryRare" Count="10"/>
+		<StartingSpells Rarity="Common" Count="10"/>
+		<StartingSpells Rarity="Uncommon" Count="2"/>
+		<StartingSpells Rarity="Rare" Count="1"/>
+		<!--<StartingArcaneSpells Rarity="Common" Count="2"/>-->
+		<GuaranteedSpells Rarity="Uncommon" Count="1"/>
+		<Bonus CastingDiscount="0.25" ResearchDiscount="0.25"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK11>
+	<BOOKS_ADVANTAGE-BOOK12 BookCount="12">
+		<ResearchLimit Rarity="Common" Count="10"/>
+		<ResearchLimit Rarity="Uncommon" Count="10"/>
+		<ResearchLimit Rarity="Rare" Count="10"/>
+		<ResearchLimit Rarity="VeryRare" Count="10"/>
+		<StartingSpells Rarity="Common" Count="10"/>
+		<StartingSpells Rarity="Uncommon" Count="2"/>
+		<StartingSpells Rarity="Rare" Count="1"/>
+		<!--<StartingArcaneSpells Rarity="Common" Count="2"/>-->
+		<GuaranteedSpells Rarity="Uncommon" Count="1"/>
+		<Bonus CastingDiscount="0.30" ResearchDiscount="0.30"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK12>
+	<BOOKS_ADVANTAGE-BOOK13 BookCount="13">
+		<ResearchLimit Rarity="Common" Count="10"/>
+		<ResearchLimit Rarity="Uncommon" Count="10"/>
+		<ResearchLimit Rarity="Rare" Count="10"/>
+		<ResearchLimit Rarity="VeryRare" Count="10"/>
+		<StartingSpells Rarity="Common" Count="10"/>
+		<StartingSpells Rarity="Uncommon" Count="2"/>
+		<StartingSpells Rarity="Rare" Count="1"/>
+		<!--<StartingArcaneSpells Rarity="Common" Count="2"/>-->
+		<GuaranteedSpells Rarity="Uncommon" Count="1"/>
+		<Bonus CastingDiscount="0.35" ResearchDiscount="0.35"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK13>
+	<BOOKS_ADVANTAGE-BOOK14 BookCount="14">
+		<ResearchLimit Rarity="Common" Count="10"/>
+		<ResearchLimit Rarity="Uncommon" Count="10"/>
+		<ResearchLimit Rarity="Rare" Count="10"/>
+		<ResearchLimit Rarity="VeryRare" Count="10"/>
+		<StartingSpells Rarity="Common" Count="10"/>
+		<StartingSpells Rarity="Uncommon" Count="2"/>
+		<StartingSpells Rarity="Rare" Count="1"/>
+		<!--<StartingArcaneSpells Rarity="Common" Count="2"/>-->
+		<GuaranteedSpells Rarity="Uncommon" Count="1"/>
+		<Bonus CastingDiscount="0.40" ResearchDiscount="0.40"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK14>
+	<BOOKS_ADVANTAGE-BOOK15 BookCount="15">
+		<ResearchLimit Rarity="Common" Count="10"/>
+		<ResearchLimit Rarity="Uncommon" Count="10"/>
+		<ResearchLimit Rarity="Rare" Count="10"/>
+		<ResearchLimit Rarity="VeryRare" Count="10"/>
+		<StartingSpells Rarity="Common" Count="10"/>
+		<StartingSpells Rarity="Uncommon" Count="2"/>
+		<StartingSpells Rarity="Rare" Count="1"/>
+		<!--<StartingArcaneSpells Rarity="Common" Count="2"/>-->
+		<GuaranteedSpells Rarity="Uncommon" Count="1"/>
+		<Bonus CastingDiscount="0.45" ResearchDiscount="0.45"/>
+		<RewardLimit VALUE="VeryRare"/>
+	</BOOKS_ADVANTAGE-BOOK15>
+	
+</DB_BOOKS_ADVANTAGE>

@@ -1,0 +1,198 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC3_ES Language="Español">
+		<!-- DLC 3 descriptions -->
+		
+		<!-- WIZARDS -->		
+		<Loc Key="DES_BELIT" Value="Belit" />
+		<Loc Key="DES_BELIT_DES" Value="Belit, que alguna vez fue una poderosa gobernante de los orcos junto a Bladud, no aprobaba que sus parientes se volvieran más dóciles en nombre de la conducta civilizada. Por el contrario, buscó devolverlos a las épocas de sangre y conquista. Por desgracia, la traición de su línea de sangre real o tal vez un maleficio de un amor despreciado, provocó la gran maldición que convirtió a Belit y a sus parientes piratas en azotadores. Pero para Belit, ser la condenada no fue un obstáculo. Ha aceptado su nuevo estado y desafiará a cualquiera que lo considere una debilidad. La reina pirata favorece la construcción de ciudades y otorga grandes beneficios por hacerlo. ¡Ha dominado la Muerte y la Hechicería y busca mostrar a todos los demás Magos el poder de su destino maldito! " />
+		<Loc Key="DES_BELIT_QUOTE" Value="Me llaman la Portamaldiciones, la condenada, la traidora. ¡Soy todo eso, soy la reina de los mares y pronto seré la Maestra de todos! " />
+		
+		<Loc Key="DES_BELIT_GREETINGS" Value="Saludos, Mago, soy la reina de los mares, Belit. Di lo que piensas antes de que fallen las palabras."/>
+		<Loc Key="DES_BELIT_GREETINGS_BLADUD_1" Value="Bladud, tienes buen aspecto, al igual que yo, a pesar de tu rencorosa maldición. Aun así, hablemos antes de que te arranque las tripas y se las dé de comer a los peces..."/>
+		<Loc Key="DES_BELIT_GREETINGS_BLADUD_2" Value="Esposo... Habla."/>
+
+		<Loc Key="DES_HORATIO" Value="Señor Horatio" />
+		<Loc Key="DES_HORATIO_DES" Value="Sir Horatio es un renombrado comandante naval que se elevó muy por encima de su posición y de las expectativas de sus pueblos menos civilizados. Feliz de ser soldado, Horatio pronto se dio cuenta de que las partidas que jugaban otros magos lo dejaban en desventaja, amenazando su deber y su tripulación. Así que decidió reclamar el dominio de la magia superior, lo que le permitió domar los mares y convertirse él mismo en un mago. A medida que ascendió al rango de Domador del Mar, ahora se enorgullece de sentirse un Señor de los Mares y un Táctico del mar, capaz de tender emboscadas a sus enemigos y comandar sus poderosas flotas marítimas. Horatio está decidido a demostrar que la disciplina y su entrenamiento como soldado lo elevarán al rango de maestro. " />
+		<Loc Key="DES_HORATIO_QUOTE" Value="¡Por el honor y la gloria, tomaré el mando y conduciré a todos hacia una gran victoria!" />
+
+		<Loc Key="DES_HORATIO_GREETINGS" Value="¡Te saludo, Mago! Soy Sir Horatio, a tu servicio, por ahora."/>
+		<Loc Key="DES_HORATIO_GREETINGS_GAYN_1" Value="¡Gayn, hermano! Ha llegado el momento de convertirnos en rivales, pero sé que ambos seguiremos siendo honorables en todo momento. Hasta que llegue la batalla final, hablemos."/>
+		<Loc Key="DES_HORATIO_GREETINGS_GAYN_2" Value="Gayn, hablemos con sinceridad el uno con el otro."/>
+		
+		<Loc Key="DES_QUEEN_XARXLA" Value="Reina Xar’xla"/>
+		<Loc Key="DES_QUEEN_XARXLA_DES" Value="Como reina suprema de la colmena, Xarl'xla gobernaría a millones de klackons, pero su destino era aún mayor. Al descubrir su talento en la magia y observar el poder que tenían los que la dominaban, la reina se propuso convertirse en una maga suprema. Con el poder de la colmena maestra alimentando su esfuerzo, Xar'xla pronto se unió a la gran prueba y se propuso que otros arcanos se unieran a su colmena real. Los inútiles esfuerzos por resistir a la reina son vistos por ella como una mera molestia. " />
+		<Loc Key="DES_QUEEN_XARXLA_QUOTE" Value="Somos uno, tú también lo serás cuando salgamos victoriosos." />
+		
+		<Loc Key="DES_QUEEN_XARXLA_GREETINGS" Value="Te felicitamos, Mago, somos uno y muchos, el nombre que puedes pronunciar es Xar'xla."/>
+
+		<Loc Key="DES_GAYN" Value="Gayn" />
+		<Loc Key="DES_GAYN_DES" Value="Como orgulloso hombre lagarto, Gayn siempre se ha visto a sí mismo como un guardián de los mares. En su juventud sirvió como mercenario en muchos barcos y, junto a Horatio, libró muchas batallas navales. Pero un llegó el día en el que se enfrentó a la verdadera amenaza de los Magos y supo que necesitaba progresar en ese campo para defender de verdad las aguas que amaba. Con la Muerte y la Naturaleza ahora de su lado, Gayn protege las aguas y surca los mares a su voluntad. Es conocido por disfrutar cazando piratas y criaturas marinas peligrosas, lo que le valió el título de Cazador del Mar. Sus años de experiencia como marinero benefician a aquellos bajo su mando con una mayor velocidad en el agua y con ventajas en el combate marítimo. " />
+		<Loc Key="DES_GAYN_QUOTE" Value="Muchos buscan reclamar mis mares como suyos. Es hora de que les muestre mi poder, es hora de que me convierta en el señor de todo." />
+		
+		<Loc Key="DES_GAYN_GREETINGS" Value="Bienvenido, soy Gayn. Aunque pronto seremos enemigos, hoy toca que hablemos como caballeros."/>
+		<Loc Key="DES_GAYN_GREETINGS_HORATIO_1" Value="Sir Horatio, finalmente nos encontramos así. Los hermanos están en armas y en breve serán enemigos. Pero enfrentemos este conocido destino con alegría y honor."/>
+		<Loc Key="DES_GAYN_GREETINGS_HORATIO_2" Value="Sir Horatio, es un placer hablar contigo, incluso ahora."/>
+
+		
+		<!-- TRAIT --> 
+		<Loc Key="DES_KLACKON_SUPREMACY" Value="Maestro de la Colmena"/>
+		<Loc Key="DES_KLACKON_SUPREMACY_DES" Value="El Maestro de la Colmena se conecta con el colectivo klackon para aumentar la eficiencia. El mago obtiene +5 en habilidad de lanzamiento por cada unidad klackon amiga en la batalla. Además, los klackon bajo el gobierno del mago son más del agrado de otras razas y el héroe klackon Ph'ym the Philomath se une al comienzo de la partida.\n\n-El rasgo solo funciona con la raza klackon.\n\n-Maestro de la Colmena cuesta 2 selecciones."/>
+		<Loc Key="DES_SWIFT_SEALEGS" Value="Señor de los Mares"/>
+		<Loc Key="DES_SWIFT_SEALEGS_DES" Value="El Señor de los Mares proporciona a todas las unidades que ya tienen la capacidad de nadar (incluidas las unidades no corpóreas y fantásticas) bajo el mando del Mago un +1 a los puntos de movimiento, en el mapa terrestre. Además, los barcos construidos o adquiridos bajo la atenta mirada del Señor de los Mares comienzan su viaje acuático con un nivel mejorado (+3 niveles) y su construcción es un 20% más barata.\n\n-Señor de los Mares cuesta 2 selecciones."/>
+		<Loc Key="DES_POWER_PEOPLE" Value="El Poder del Pueblo"/>
+		<Loc Key="DES_POWER_PEOPLE_DES" Value="Tus súbditos leales están excepcionalmente en sintonía con la magia. Con el Poder del Pueblo, la carrera por la capital del Mago otorga +1 de Poder por población.\n\n- El Poder del Pueblo cuesta 2 selecciones."/>
+		<Loc Key="DES_THE_PIRATE" Value="Pirata"/>
+		<Loc Key="DES_THE_PIRATE_DES" Value="El Mago Pirata prospera con las conquistas y las incursiones. Cuando eligen arrasar una ciudad enemiga, obtienen oro y una recompensa adicional basada en el tamaño de la ciudad. Además, el Mago gana una unidad de los Atados de la incursión. También ganan Fama por arrasar la ciudad, pero perderán Fama si al final se quedan con una.\n¡CUIDADO, el rasgo Pirata también desencadena un evento de Rebelión Pirata en tus ciudades cuando posees más de 6 ciudades!\n \n- Pirata cuesta 3 selecciones."/>
+		<Loc Key="DES_TACTITIAN" Value="Táctico"/>
+		<Loc Key="DES_TACTITIAN_DES" Value="Como Táctico supremo, el Mago es capaz de planificar bien sus batallas y sumar +1 a los puntos de movimiento en combate de todas las unidades bajo su mando. Además, el Mago da una ventaja a sus tropas en la batalla y les permite comenzar siempre el combate primero, sin importar si son el defensor o el atacante (La defensa de la torre del Mago está exenta de esto y seguirá disparando primero).\n\n- Táctico cuesta 2 selecciones."/>
+		<Loc Key="DES_ADMIRAL" Value="Maestre de navío"/>
+		<Loc Key="DES_ADMIRAL_DES" Value="Los barcos construidos o adquiridos bajo la atenta mirada del maestre de navío comienzan su viaje acuático con un nivel aumentado (+3 niveles)."/>
+		<Loc Key="DES_SEA_HUNTER" Value="Cazador Marino"/>
+        <Loc Key="DES_SEA_HUNTER_DES" Value="Los Magos Cazadores Marinos otorgan grandes bonificaciones a sus tropas cuando participan en combates acuáticos. Todas las unidades bajo el mando del Mago en una batalla obtienen +2 en todas las estadísticas (excepto los puntos hiy) y la habilidad de nadar.\n\n-Cazador Marino cuesta 1 elección."/>
+        <Loc Key="DES_WATER_BOSS_1" Value="Corazón de Kraken'"/>
+        <Loc Key="DES_WATER_BOSS_1_DES" Value="El Corazón del Kraken es un órgano mágico y poderoso. El Mago que lo posee obtiene +25% de descuento en el coste de Investigación para todos los hechizos Arcanos."/>
+        <Loc Key="DES_WATER_BOSS_2" Value="Ojo de Kraken"/>
+        <Loc Key="DES_WATER_BOSS_2_DES" Value="El Ojo del Kraken es un potente componente mágico. Permite al Mago reducir el coste de lanzamiento de todos los hechizos arcanos (excepto Encantar objeto y Crear artefacto) en un 25%."/>
+		
+		<!-- RACE --> 
+		<Loc Key="DES_BLUEORCS" Value="Azotadores" />
+		<Loc Key="DES_BLUEORCS_DES" Value="Los azotadores fueron parte de los clanes orcos, pero no querían abandonar su naturaleza guerrera. Los renegados se lanzaron a los mares para saquear, saquear y encadenar a sus enemigos. convirtiéndose en algunos de los piratas más temibles conocidos en los dos reinos. ¡Ay, este no fue el final de su historia, ya que un día, una maldición oscura e implacable condenó a todos los piratas a la no muerte eterna! Así, los azotadores llegaron a ser : seres espectrales impulsados por la codicia y la envidia de los vivos. Los celos son tan profundos que incluso insisten en producir grandes cantidades de comida que no pueden devorar."/>
+		<Loc Key="DES_BLUEORCS_PRODUCTION" Value="Tasa de crecimiento: rápida (tasa base de +15 personas/turno)\nRestricciones de construcción: no se pueden construir astilleros, establos fantásticos, catedrales ni universidades.\nOtros modificadores: +1{ICON:MeleeIconNormal} ataque cuerpo a cuerpo para unidades (excepto unidades no raciales), no corpóreas (excepto unidades no raciales) y Manto del Miedo (excepto Atados, Rusalka, El Capitán, Barco Fantasma).\nUnidades raciales: {LINK:UNIT-B_ORC_RUSALKA} Rusalka {ICON:Rusalka}{END_LINK} {LINK:UNIT-B_ORC_BLACKSPARROW} El Capitán {ICON:Blacksparrow}{END_LINK} {LINK:UNIT-B_ORC_SEA_CREATURE} Criatura marina {ICON:SeaCreature}{END_LINK} {LINK:UNIT-B_ORC_GHOSTSHIP } Barco fantasma Paragon{ICON:Ghostship}{END_LINK}"/>
+        <Loc Key="DES_PIRATE_DUNG" Value="Piratas" />
+		<Loc Key="DES_PIRATE_DUNG_DES" Value="La unidad es parte del azote pirata que ha infestado los mares. Se sabe que los piratas atesoran grandes tesoros y los protegen ferozmente en sus guaridas." />
+		
+		
+		<!-- BUILDINGS -->
+		<Loc Key="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD" Value="Astillero maldito"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD_DES" Value="El astillero maldito, atendido por los espíritus de los estibadores que ahora construyen barcos fantasma, incluso en tierra."/>
+		<Loc Key="DES_BUILDING_BLUEORCS_RAIDERS_HUT" Value="La Cabaña de los Saqueadores"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_RAIDERS_HUT_DES" Value="La Cabaña de los Saqueadores permite a los piratas aprovechar la riqueza de los mares para su ciudad.\n\nEfectos: obtiene +3{ICON:FoodIcon} de comida y +3{ICON:GoldIcon} de Oro.\n\nREQUIERE LÍNEA DE COSTA "/>
+		
+		
+		<!-- UNITS -->		
+		<Loc Key="DES_BLUEORCS_SETTLER_SETTLERS" Value="Colonos azotadores"/>
+		<Loc Key="DES_BLUEORCS_TRIREME" Value="Trireme fantasmal"/>
+		<Loc Key="DES_BLUEORCS_TRIREME_DES" Value="El barco fantasmal es inmaterial, lo que permite a los piratas malditos atacar tanto por tierra como por mar."/>
+		<Loc Key="DES_BLUEORCS_SWORDSMEN" Value="Espadachines azotadores"/>
+		<Loc Key="DES_BLUEORCS_CAVALRY" Value="Caballería de los azotadores"/>
+		<Loc Key="DES_BLUEORCS_BOWMEN" Value="Arqueros azotadores"/>
+		<Loc Key="DES_BLUEORCS_SHAMANS" Value="Chamanes azotadores"/>
+		<Loc Key="DES_BLUEORCS_RUSALKA" Value="Rusalka"/>
+		<Loc Key="DES_BLUEORCS_RUSALKA_DES" Value="La rusalka es una exótica ninfa acuática, capturada por los bucaneros fantasma y obligada a bailar para ellos por siempre. Es una poderosa hechicera que puede deslumbrar en el campo de batalla."/>
+		<Loc Key="DES_BLUEORCS_SEA_CREATURE" Value="Criatura marina"/>
+		<Loc Key="DES_BLUEORCS_SEA_CREATURE_DES" Value="La criatura marina es una bestia mutada de las profundidades del océano, destinada a servir a los capitanes de la flota pirata con sus fuertes ataques cuerpo a cuerpo y su mirada lapidaria. Puede invocar un ciclón de tiburones."/>
+		<Loc Key="DES_BLUEORCS_BLACK_SPARROW" Value="El Capitán"/>
+		<Loc Key="DES_BLUEORCS_BLACK_SPARROW_DES" Value="No puede haber barco pirata sin su temible Capitán. Atrapados en su forma espectral y maldita, mutados por las profundidades del mar, conducen a sus tripulaciones mortales al pillaje y el saqueo. El Capitán sostiene los grilletes que obligan a los ilimitados prisioneros a servir a los piratas."/>
+		<Loc Key="DES_BLUEORCS_GHOSTSHIP" Value="Nave fantasma Paragon"/>
+		<Loc Key="DES_BLUEORCS_GHOSTSHIP_DES" Value="El Barco Fantasma Paragon es la mismísima maldición de la encarnación de los azotadores . Un navío vivo e infernal que surge de las mismísimas profundidades de los océanos, respondiendo a la llamada de sus hermanos condenados para reclamar las almas de los caídos." />
+		<Loc Key="DES_BLUEORCS_LEASHED" Value="Los Atados"/>
+		<Loc Key="DES_BLUEORCS_LEASHED_DES" Value="Los Atados son aquellas almas desafortunadas que fueron capturadas por los piratas malditos y convertidas en una nueva criatura de las profundidades del océano. Los desdichados son una amalgama de los muchos que una vez habitaron la ciudad, y como tales, poseen habilidades sorprendentes, como ingeniería y exploración."/>
+		<Loc Key="DES_SOR_WATER_ELEMENTAL" Value="Ciclón Tiburón"/>
+		<Loc Key="DES_SOR_WATER_ELEMENTAL_DES" Value="El Ciclón Tiburón es una fuerza aterradora de las profundidades marinas, invocada para causar estragos en el campo de batalla."/>
+		<Loc Key="DES_TENTACLE" Value="Tentáculo del Kraken"/>
+		<Loc Key="DES_TENTACLE_DES" Value="El kraken es una bestia marina legendaria, tan grande y tan amenazante que sólo luchas contra sus tentáculos con la esperanza de que te deje en paz una vez que los derrotes!"/>
+		
+	    <!-- HERO -->
+		<Loc Key="DES_PHYM" Value="Ph'ym el Philomath"/>
+		<Loc Key="DES_PHYM1" Value="Ant'man el Philomath"/>
+		<Loc Key="DES_PHYM2" Value="La'ng el Philomath"/>
+		<Loc Key="DES_PHYM3" Value="Og'rad el Philomath"/>
+		<Loc Key="DES_PHYM4" Value="Za'yn el Philomath"/>
+		<Loc Key="DES_PHYM_DES" Value="{0} solía ser simplemente otro miembro leal de la colmena que se esforzaba por servir a su reina diligentemente buscando siempre ampliar su sabiduría. Pero al lograr su objetivo de excelencia, se convirtió en la rareza entre sus parientes. Al ver la fuerza creciente y la determinación inquebrantable del héroe, su reina ha dado a {0} su libertad. Después de todo, la colmena sólo puede fortalecerse a partir de la experiencia aportada por dichas unidades. Si bien {0} prefiere trabajar para su reina, prestará sus servicios a cualquier mago capaz de ampliar sus experiencias."/>
+		<Loc Key="DES_SLITHERS" Value="Slithers la Azotadora Marina"/>
+		<Loc Key="DES_SLITHERS1" Value="Scales la Azotadora Marina"/>
+		<Loc Key="DES_SLITHERS2" Value="Slicer la Azotadora Marina"/>
+		<Loc Key="DES_SLITHERS3" Value="Syrin la Azotadora Marina"/>
+		<Loc Key="DES_SLITHERS4" Value="Shells la Azotadora Marina"/>		
+		<Loc Key="DES_SLITHERS_DES" Value="{0} es un habilidosa guerrera lagarto con doble empuñadura, especialmente entrenada para cazar enemigos que temen al mar. Su montura está encantada con antigua magia oceánica, lo que le permite a {0} llevar todo su ejército al agua para perseguir a los piratas y a cualquier otro que se atreva a interponerse en su camino, ganándose así el título de Azotadora Marina. La heroína se convertirá en una mercenaria leal para cualquier mago que considere digno o que pague su tarifa. "/>
+		<Loc Key="DES_BIG_BERTA" Value="Berta la Grande"/>
+		<Loc Key="DES_BIG_BERTA1" Value="Marta la Poderosa"/>
+		<Loc Key="DES_BIG_BERTA2" Value="Bonnie rompebolas"/>
+		<Loc Key="DES_BIG_BERTA3" Value="La Pequeña Tina"/>
+		<Loc Key="DES_BIG_BERTA4" Value="Browny Beatrice"/>
+		<Loc Key="DES_BIG_BERTA_DES" Value="{0} siempre fue una orca corpulenta con  brazos fuertes y parecida a las balas... a las balas de cañón. {0} ve la maldición de los azotadores como un regalo, ya que le ha otorgado un poder aún mayor. {0} ha impresionado a muchas tripulaciones de barcos en su pasado, lo que le valió el título de capitana muchas veces. Pero en estos días, la famosa cañonera marina anda buscando un nuevo desafío como mercenaria y algo de diversión. Servirá a cualquier mago que pague bien y mantenga su interés."/>
+		<Loc Key="DES_WUSP" Value="Wu'sp"/>
+		<Loc Key="DES_WUSP_DES" Value="Wu'sp es una sirvienta feroz y leal de la gran colmena klackon. Nunca servirá como heroína individual, pero intenta cazar a Ph'ym y traerlo de regreso a la colmena."/>
+		
+		<!-- ENCHANTMENTS --> 
+		<Loc Key="DES_POWER_PEOPLE_ENCH_DES" Value="La ciudad produce +1 de Poder por población gracias al Poder del Pueblo."/>
+        <Loc Key="DES_TACTITIAN_ENCH_DES" Value="Bajo la mirada del táctico, la unidad gana +1 MP en combate."/>
+        <Loc Key="DES_WATER_SPEED" Value="Velocidad en agua"/>
+        <Loc Key="DES_WATER_SPEED_DES" Value="La velocidad en agua otorga +1 MP a las unidades con la capacidad de nadar, en el mapa terrestre."/>
+        <Loc Key="DES_ADMIRAL_ENCH_DES" Value="Todos los barcos bajo el mando del Shipmaster obtienen +3 niveles."/>
+        <Loc Key="DES_WATER_SPEED_ENCH_DES" Value="El Señor de los Mares otorga +1 MP a las unidades con la capacidad de nadar, en el mapa terrestre."/>
+		<Loc Key="DES_AMBUSH" Value="Emboscada táctica"/>
+        <Loc Key="DES_AMBUSH_ENCH_DES" Value="El Táctico permite que el ejército siempre comience el combate primero."/>
+        <Loc Key="DES_SHALLOW_WATER" Value="Aguas poco profundas"/>
+        <Loc Key="DES_SHALLOW_WATER_DES" Value="Este campo de batalla está en aguas poco profundas, por lo que todas las unidades que aún no tienen Nadar o Volar, pueden caminar en el agua y, por lo tanto, pueden moverse en combate."/>
+        <Loc Key="DES_SEA_HUNTER_ENCH_DES" Value="Todas las unidades bajo el mando del Cazador Marino en una batalla, obtienen +2 en todas las estadísticas (Puntos de vida aparte) y en la capacidad de nadar."/>
+		<Loc Key="DES_WIND_CAVE_ENCH" Value="Viento de Muerte"/>
+		<Loc Key="DES_WIND_CAVE_ENCH_DES" Value="El Viento de la Muerte sopla con el poder helador de los mares malditos causando el constante desprendimiento de rocas del techo de la cueva. Cada turno hay un 5% de probabilidad de que las rocas quiten el 50% de la salud actual de la unidad, redondeado arriba (máximo 2 unidades por turno) y el viento es tan fuerte que todos los tipos de Ataque a Distancia obtienen -10%{ICON:ToHitBonusIcon} en ataque. Los vientos también son tan fuertes que Volar {ICON:MovementFlyingIcon} no funcionará en ninguna unidad."/>
+		<Loc Key="DES_PIRATE_CURSE_ENCH" Value="Maldición pirata"/>
+		<Loc Key="DES_PIRATE_CURSE_ENCH_DES" Value="La Maldición Pirata se cierne sobre el campo de batalla. La fuerza atacante obtiene -1{ICON:ResistanceIconNormal} a la resistencia y -1 MP para todas las unidades. La maldición también hace que la batalla dure sólo 20 turnos."/>
+		<Loc Key="DES_IMMOVABLE_OBJECTS" Value="Terreno inaccesible"/>
+		<Loc Key="DES_IMMOVABLE_OBJECTS_DES" Value="Algunos objetos en este mapa están tan profundamente impregnados de poder antiguo que no pueden ser atravesados ni influenciados de ninguna manera, ya sea mágica o mundanamente."/>
+		<Loc Key="DES_MASS_WATER_WALKING_UNIT" Value="Ola transportada"/>
+		<Loc Key="DES_MASS_WATER_WALKING_UNIT_DES" Value="La unidad es transportada en el agua por una que posea la habilidad Montaolas. Mientras las unidades estén apiladas juntas, obtienen la habilidad Nadar."/>
+		<Loc Key="DES_KLACKON_SUPREMACY_ENCH" Value="Maestro de la Colmena"/>
+		<Loc Key="DES_KLACKON_SUPREMACY_ENCH_DES" Value="El Mago Maestro de la Colmena obtiene +5 en Habilidad de Lanzamiento por cada unidad klackon amiga en batalla."/>
+		
+		<!-- SKILLS --> 
+		<Loc Key="DES_GHOSTSHIP_TERROR" Value="Terror Espectral"/>
+		<Loc Key="DES_GHOSTSHIP_TERROR_DES" Value="El Terror Espectral hace que cada unidad enemiga en batalla resista (+1 en resistencia{ICON:ResistanceIconNormal}) cada turno o queden aterrorizados durante ese turno y no puedan realizar ninguna acción."/>
+		<Loc Key="DES_MUD_ATTACK" Value="Encantamiento fangoso"/>
+		<Loc Key="DES_MUD_ATTACK_DES" Value="Una unidad encantada siente que debería bailar, no luchar. En realidad, con cada ataque (cuerpo a cuerpo o a distancia) si la unidad atacada falla en una resistencia {ICON:ResistanceIconNormal}) el terreno bajo sus pies se convierte en barro y pierde 1 MP durante 1 turno (los ataques adicionales y las tiradas de resistencia fallidas aumentan la duración)."/>
+        <Loc Key="DES_MUD_DES" Value="Esta unidad está encantada con el barro y siente que debería bailar, no luchar. Cada vez que falla una prueba de resistencia {ICON:ResistanceIconNormal}), pierde 1 MP durante 1 turno (ataques adicionales y las tiradas de resistencia fallidas aumentan la duración)."/>
+		<Loc Key="DES_MASS_WATER_WALKING" Value="Montaolas"/>
+        <Loc Key="DES_MASS_WATER_WALKING_DES" Value="La unidad se transporta en el agua mediante su habilidad Montaolas. La unidad y todos los apilados con ella obtienen la habilidad Nadar."/>
+        <Loc Key="DES_MASS_WATER_WALKING_SKILL_DES" Value="El Río de Olas se mueve sobre el agua con facilidad y puede llevarse a otros con él. La unidad y todos los apilados con ella adquieren la habilidad Nadar."/>
+		<Loc Key="DES_HIVEMIND" Value="Mente Colmena"/>
+		<Loc Key="DES_HIVEMIND_DES" Value="El héroe está conectado a la Mente Colmena klackon. Como tal, obtiene bonificaciones por cada unidad klackon apilada con él."/>
+		<Loc Key="DES_SHACKLE_MASTER" Value="Señor de las Cadenas"/>
+		<Loc Key="DES_SHACKLE_MASTER_DES" Value="El Señor de las Cadenas tiene control sobre sus tropas capturadas. Los capturados, Criatura Marina, Rusalka y los Atados ganan +10% {ICON:ToHitBonusIcon} para impactar."/>
+		<Loc Key="DES_SHACKLED" Value="Unidad encadenada"/>
+		<Loc Key="DES_SHACKLED_DES" Value="El Maestro de las Cadenas tiene control sobre sus tropas capturadas. Esta unidad es una de los Encadenados y gana +10% {ICON:ToHitBonusIcon} para impactar."/>
+		
+		<!-- RES --> 
+		<Loc Key="DES_RES_FISH" Value="Pescado"/>
+		<Loc Key="DES_RES_FISH_DES" Value="Proporciona +2{ICON:FoodIcon} de comida y reduce el coste de producción unitaria en un 10%.\nNo se puede modificar con el hechizo Transmutar, pero puede usar Cosecha del Mar para obtener recursos."/>
+		<Loc Key="DES_RES_PEARLS" Value="Perlas del Océano"/>
+		<Loc Key="DES_RES_PEARLS_DES" Value="Proporciona +3{ICON:PowerIcon} de poder y +3{ICON:GoldIcon} de oro a la ciudad más cercana.\nNo se puede modificar con el hechizo Transmutar, pero puede usar Cosecha del Mar para obtener recursos."/>
+		<Loc Key="DES_RES_REEF" Value="Arrecife"/>
+		<Loc Key="DES_RES_REEF_DES" Value="Proporciona +2({ICON:GoldIcon}) de oro y reduce el coste de producción de los edificios en un 20% en la ciudad más cercana.\nNo se puede modificar con el hechizo Transmutar, pero puede usar Cosecha del Mar para ganar recursos."/>
+				
+		<!-- SPELLS ADN ENCH -->
+		<Loc Key="DES_WATER_ELEMENTAL" Value="Tiburón Ciclón"/>
+		<Loc Key="DES_WATER_ELEMENTAL_DES" Value="Invoca una fuerza aterradora de las profundidades marinas, el Tiburón Ciclón, creado para causar estragos en el campo de batalla."/>
+		<Loc Key="DES_BARRAGE" Value="Andanada"/>
+		<Loc Key="DES_BARRAGE_DES" Value="La unidad dispara una andanada mortal contra su enemigo. Todas las unidades enemigas en combate son alcanzadas por un ataque de fuego mágico de fuerza 5."/>
+		<Loc Key="DES_CONSTANTSTORM" Value="Tormenta Infinita"/>
+		<Loc Key="DES_CONSTANTSTORM_DES" Value="La Tormenta Infinita hace estragos en el campo de batalla. Cada turno, una unidad atacante aleatoria es golpeada con un ataque relámpago de fuerza 10."/>
+		<Loc Key="DES_SEA_HARVEST" Value="Cosecha del Mar"/>
+		<Loc Key="DES_SEA_HARVEST_DES" Value="La Cosecha del Mar transmuta un recurso marino para proporcionar +10{ICON:CastingSkillIcon} al progreso de la habilidad de lanzamiento, +0-50 {ICON:ManaIcon} de maná y +50-100 {ICON:GoldIcon} de Oro. \nNota: El recurso recolectado se destruye y apuntar a recursos en el rango de la ciudad de un oponente tiene un 20% de probabilidad de tener éxito."/>
+		<Loc Key="DES_SEA_HARVEST_TARGET" Value="Apunta a una casilla de agua con peces, perlas oceánicas o recursos de arrecife."/>
+		<Loc Key="DES_SHIP_DISCOUNT" Value="Señor de los Mares"/>
+		<Loc Key="DES_SHIP_DISCOUNT_DES" Value="Como Señor de los Mares, el mago puede inspirar a grandes artesanos y capitanes de barcos que pueden construir navíos en ciudades con un 20% de descuento en la producción."/>
+		<Loc Key="DES_HIVEMIND_UNIT" Value="Conexión con la colmena"/>
+		<Loc Key="DES_HIVEMIND_UNIT_DES" Value="La unidad está conectada a la colmena y gana +10% de probabilidad de defenderse."/>
+		
+		<!--LAIRS -->
+		<Loc Key="DES_WIND_CAVE" Value="Cuevas del Viento"/>
+		<Loc Key="DES_REEF_TREASURE_ISLAND" Value="Isla del Tesoro"/>
+		<Loc Key="DES_WATER_BOSS_LAIR_1" Value="Guarida Kraken"/>
+		<Loc Key="DES_WATER_BOSS_LAIR_2" Value="Guarida Kraken"/>
+		
+		<!--LAIR UNITS -->
+        <Loc Key="DES_PIR_GIANT_SPIDERS" Value="Arañas Piratas" />
+		<Loc Key="DES_PIR_GIANT_SPIDERS_DES" Value="Defensores de la Naturaleza de ocho patas comandados por los Piratas. Las arañas dependen de su peligroso veneno y su hechizo de telaraña para llevar a cabo sus rápidos ataques cuerpo a cuerpo {ICON:MeleeIconNormal}. Su debilidad radica en su mala defensa, por lo que lo mejor es intentar golpearlas primero."/>
+	    <Loc Key="DES_PIR_PHANTOM_WARRIORS" Value="Piratas Fantasmas" />
+		<Loc Key="DES_PIR_PHANTOM_WARRIORS_DES" Value="Invocados en batalla por los piratas, los guerreros fantasma son una unidad de combate cuerpo a cuerpo básica {ICON:MeleeIconNormal}, que golpea al enemigo con un poder traicionero e ilusorio que omite la defensa."/>
+		<Loc Key="DES_PIR_NAGAS" Value="Pirata Nagas" />
+		<Loc Key="DES_PIR_NAGAS_DES" Value="Creados por los piratas, los nagas tienen un toque venenoso que les ayuda en su rápido ataque cuerpo a cuerpo {ICON:MeleeIconNormal}." />
+		<Loc Key="DES_PIR_ZOMBIES" Value="Piratas Zombis" />
+		<Loc Key="DES_PIR_ZOMBIES_DES" Value="A través del poder del azote pirata, los zombis cumplen su propósito. Estos demonios no-muertos son luchadores cuerpo a cuerpo {ICON:MeleeIconNormal} de escasa fuerza, pero buenos escudos de carne." />
+		<Loc Key="DES_PIR_WRAITHS" Value="Espectros pirata" />
+		<Loc Key="DES_PIR_WRAITHS_DES" Value="Llamados a la servidumbre por los piratas, los espectros son luchadores cuerpo a cuerpo no corpóreos {ICON:MeleeIconNormal} con la capacidad de robar vida y así también crear sirvientes no-muertos." />
+
+	</LOCALIZATION-DLC3_ES>
+</DB_LOCALIZATION>

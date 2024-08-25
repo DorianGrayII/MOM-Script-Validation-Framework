@@ -1,0 +1,198 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC3_IT Language="Italiano">
+		<!-- DLC 3 descriptions -->
+		
+		<!-- WIZARDS -->
+		<Loc Key="DES_BELIT" Value="Belit" />
+		<Loc Key="DES_BELIT_DES" Value="Un tempo una grande sovrana chiamata a governare assieme a Bladud, Belit prese le distanze da quest'ultimo quando egli spinse la sua stirpe verso una condotta più civile. Belit tentò di riportarla ad una cultura di sangue e conquiste, ma il tradimento del suo consorte reale (o forse una maledizione lanciata da un vecchio amante) trasformò l'orchessa e i suoi pirati in flagelli. Belit non si lasciò scoraggiare dalla propria dannazione, anzi: ha fatto tesoro del potenziale del suo nuovo stato e sfiderà chinque oserà giudicarla debole. La regina dei pirati si concentra sulle sue città e gode di vari bonus atti ad agevolarne la crescita. Conosce le arti magiche di Morte ed Illusioni e ambisce a dimostrare agli altri Stregoni il potere della sua sorte maledetta! " />
+		<Loc Key="DES_BELIT_QUOTE" Value="Mi chiamano dannata, traditrice, portatrice di sventure. Sono tutte queste cose, sono la regina dei mari... e presto sarò la Signora di ogni cosa! " />
+
+		<Loc Key="DES_BELIT_GREETINGS" Value="Salve, Stregone, io sono la regina dei mari Belit. Parliamo pure, finché ci è consentito."/>
+		<Loc Key="DES_BELIT_GREETINGS_BLADUD_1" Value="Ti trovo bene, Bladud. Anch'io non mi lamento, nonostante la maledizione che mi hai lanciato. Parliamo pure, prima che io ti strappi le viscere per darle in pasto ai pesci..."/>
+		<Loc Key="DES_BELIT_GREETINGS_BLADUD_2" Value="Marito mio... parla."/>
+
+		<Loc Key="DES_HORATIO" Value="Sir Horatio" />
+		<Loc Key="DES_HORATIO_DES" Value="Sir Horatio è un rinomato comandante navale ertosi ben al di sopra delle aspettative del suo popolo barbarico. Felice di essere un soldato, Horatio scoprì subito che i sotterfugi impiegati dagli altri Stregoni rappresentavano una minaccia al suo dovere e alla sua ciurma, dunque studiò la magia per imparare a domare i mari e cingersi a sua volta del titolo di Stregone.  Ora vanta i titoli di mastro Stratega e Signore dei Mari, nonché la capacità di tendere imboscate e comandare potenti flotte. Horatio è convinto che la disciplina e il suo rigore di soldato lo porteranno a trionfare sugli altri Stregoni. " />
+		<Loc Key="DES_HORATIO_QUOTE" Value="Lotterò per il mio popolo fino alla vittoria. Per l'onore e la gloria!" />
+
+		<Loc Key="DES_HORATIO_GREETINGS" Value="I miei saluti, Stregone! Sono Sir Horatio, al tuo servizio... per ora."/>
+		<Loc Key="DES_HORATIO_GREETINGS_GAYN_1" Value="Gayn, fratello mio! Oggi il fato ci mette l'uno contro l'altro, ma so che lotteremo con onore. Ma prima della battaglia, parliamo."/>
+		<Loc Key="DES_HORATIO_GREETINGS_GAYN_2" Value="Gayn, fratello mio, parliamoci con franchezza."/>
+
+		<Loc Key="DES_QUEEN_XARXLA" Value="Regina Xar’xla"/>
+		<Loc Key="DES_QUEEN_XARXLA_DES" Value="In quanto suprema regina dell'alveare, Xarl’xla era destinata a regnare su milioni di klackon, ma la sorte le riservò un futuro ancor più grande. Quando scoprì il suo talento nelle arti magiche e il potenziale che poteva derivarne, la regina giurò di diventare la più potente degli Stregoni. Supportata dal suo alveare, Xar’xla si unì a questa competizione con l'obiettivo di integrare altri conoscitori dell'arcano nella sua corte reale. Qualsiasi opposizione o resistenza viene percepita dalla regina come una mera seccatura. " />
+		<Loc Key="DES_QUEEN_XARXLA_QUOTE" Value="Noi siamo un tutt'uno, e presto anche tu ti unirai al nostro sciame." />
+
+		<Loc Key="DES_QUEEN_XARXLA_GREETINGS" Value="Ti salutiamo, Wizard. Siamo legione e un tutt'uno, puoi chiamarci con nome di Xar'xla."/>
+
+		<Loc Key="DES_GAYN" Value="Gayn" />
+		<Loc Key="DES_GAYN_DES" Value="Un prode e fiero uomo lucertola, Gayn ha sempre assunto il ruolo di guardiano dei mari. In gioventù servì come mercenario a bordo di molte navi e, assieme ad Horatio, partecipò a diverse battaglie navali. Ma venne il giorno in cui conobbe la minaccia rappresentata dagli Stregoni e capì di doverli eguagliare per difendere le sue amate acque dalle loro grinfie. Divenuto affine alle scuole di Morte e Natura, oggi Gayn ha imparato a piegare i mari alla propria volontà. Pare sia solito cacciare pirati e pericolosi mostri marini, il che gli ha procurato il titolo di Cacciatore Marino. Anni di esperienza come marinaio gli conferiscono inoltre grandi bonus di velocità e combattimento in mare. " />
+		<Loc Key="DES_GAYN_QUOTE" Value="In molti sognano di rivendicare il dominio dei miei mari. È tempo che io gli mostri il mio potere e che divenga sovrano di ogni cosa." />
+
+		<Loc Key="DES_GAYN_GREETINGS" Value="Buongiorno. Io sono Gayn. Presto saremo nemici, ma oggi discuteremo in pace."/>
+		<Loc Key="DES_GAYN_GREETINGS_HORATIO_1" Value="Sir Horatio... chi l'avrebbe mai detto: un tempo fummo compagni d'armi, presto saremo nemici. Orsù, accettiamo questa sorte con spirito d'onore."/>
+		<Loc Key="DES_GAYN_GREETINGS_HORATIO_2" Value="Sir Horatio, è un piacere parlare con te, anche in queste circostanze."/>
+
+		
+		<!-- TRAIT --> 
+		<Loc Key="DES_KLACKON_SUPREMACY" Value="Mente Alveare"/>
+		<Loc Key="DES_KLACKON_SUPREMACY_DES" Value="La mente alveare collega tutti i klackon per aumentarne l'efficienza. Lo Stregone ottiene +5 Capacità di Lancio per ogni unità klackon alleata presente in battaglia. Inoltre, i klackon governati dallo Stregone non sono più detestati dalle altre razze. L'eroe Ph'ym il Filomata si unisce allo Stregone all'inizio della partita.\n\n-Questo tratto funziona soltanto per la razza dei klackon.\n\n-Il tratto 'Mente Alveare' costa 2 punti."/>
+        <Loc Key="DES_SWIFT_SEALEGS" Value="Signore dei Mari"/>
+        <Loc Key="DES_SWIFT_SEALEGS_DES" Value="Il Signore dei Mari conferisce +1 punto movimento sulla mappa globale a tutte le unità alleate capaci di nuotare, incluse quelle incorporee e fantastiche. Inoltre, le navi costruite o ottenute sotto lo sguardo vigile del Signore dei Mari ricevono subito +3 livelli e costano -20% risorse.\n\n-Il tratto 'Signore dei Mari' costa 2 punti."/>
+        <Loc Key="DES_POWER_PEOPLE" Value="Potere del Popolo"/>
+        <Loc Key="DES_POWER_PEOPLE_DES" Value="I tuoi fedeli sudditi sono esperti conoscitori delle arti arcane. Con questo tratto, la razza principale dello Stregone conferisce +1 Potere per ogni unità di popolazione.\n\n-Il tratto 'Potere del Popolo' costa 2 punti."/>	
+        <Loc Key="DES_THE_PIRATE" Value="Pirata"/>
+        <Loc Key="DES_THE_PIRATE_DES" Value="Lo Stregone Pirata si arricchisce attraverso conquiste ed incursioni. Ottiene oro extra quando rade al suolo una città nemica, più un'ulteriore ricompensa determinata dalle dimensioni della città. Inoltre, lo Stregone ottiene un'unità di Vincolati dall'incursione. Ottiene Fama radendo al suolo una città, ma ne perde se decide di tenerla.\nATTENZIONE: il tratto 'Pirata' determina anche l'evento 'Ribellione Pirata' nelle tue città quando possiedi più di 6 città!\n\n-Il tratto 'Pirata' costa 3 punti."/>	
+        <Loc Key="DES_TACTITIAN" Value="Stratega"/>
+        <Loc Key="DES_TACTITIAN_DES" Value="In quanto supremo Stratega, lo Stregone è un abile pianificatore di battaglie: tutte le sue unità ottengono +1 punto movimento in battaglia. Inoltre, lo Stregone consente ai suoi soldati di muoversi sempre per primi in battaglia, sia da difensori che da attaccanti (ma non prima di eventuali torri difensive).\n\n- Il tratto 'Stratega' costa 2 punti."/>	
+        <Loc Key="DES_ADMIRAL" Value="Ammiraglio"/>
+        <Loc Key="DES_ADMIRAL_DES" Value="Le navi costruite o ottenute sotto lo sguardo vigile dell'ammiraglio ricevono subito +3 livelli."/>	
+		<Loc Key="DES_SEA_HUNTER" Value="Cacciatore Marino"/>
+        <Loc Key="DES_SEA_HUNTER_DES" Value="Il Cacciatore Marino conferisce grandi bonus alle truppe alleate impegnate in uno scontro navale. Tutte le unità comandate dallo Stregone in battaglia ottengono +2 a tutte le statistiche (tranne i punti salute) e la capacità di nuotare.\n\n-Il tratto 'Cacciatore Marino' costa 1 tratto."/>	
+        <Loc Key="DES_WATER_BOSS_1" Value="Cuore di Kraken"/>
+        <Loc Key="DES_WATER_BOSS_1_DES" Value="Il Cuore di Kraken è un potente organo magico. Lo Stregone che lo possiede riduce i costi di ricerca di tutti gli incantesimi Arcani del -25%."/>
+        <Loc Key="DES_WATER_BOSS_2" Value="Occhio di Kraken"/>
+        <Loc Key="DES_WATER_BOSS_2_DES" Value="L'Occhio di Kraken è un potente componente magico. Riduce il costo di lancio di tutti gli incantesimi Arcani (eccetto Incanta Oggetto e Crea Artefatto) del 25%."/>
+		
+		<!-- RACE --> 
+		<Loc Key="DES_BLUEORCS" Value="Flagelli" />
+		<Loc Key="DES_BLUEORCS_DES" Value="Un tempo i Flagelli erano membri dei clan orcheschi che non vollero rinunciare alla propria natura guerriera. Questi rinnegati salparono alla ricerca di razzie, bottino e nemici da rapire, divenendo i più temibili pirati dei due regni. Ma questa non fu la fine della loro storia: un giorno, un'oscura maledizione condannò tutti i pirati ad un'eternità di non morte! Nacquero così i Flagelli: esseri spettrali guidati da avidità, invidia ed odio verso i viventi. La loro gelosia è così forte che essi insistono a produrre cibi prelibati di cui non possono saziarsi." />
+		<Loc Key="DES_BLUEORCS_PRODUCTION" Value="Tasso di crescita: veloce (tasso base di +15 cittadini/turno)\nEdifici vietati: Cantiere Navale, Stalle Fantastiche, Cattedrale, Università.\nAltri modificatori: conferisce +1{ICON:MeleeIconNormal} attacco in mischia ed incorporeità alle unità (solo razziali). Conferisce inoltre Cappa di Paura (ma non a Vincolati, Rusalka, Capitano e Nave Fantasma).\nUnità Razziali: {LINK:UNIT-B_ORC_RUSALKA} Rusalka {ICON:Rusalka}{END_LINK} {LINK:UNIT-B_ORC_BLACKSPARROW} Capitano {ICON:Blacksparrow}{END_LINK} {LINK:UNIT-B_ORC_SEA_CREATURE} Creatura Marina {ICON:SeaCreature}{END_LINK} {LINK:UNIT-B_ORC_GHOSTSHIP} Nave Fantasma {ICON:Ghostship}{END_LINK}"/>
+        <Loc Key="DES_PIRATE_DUNG" Value="Pirati" />
+		<Loc Key="DES_PIRATE_DUNG_DES" Value="L'unità è parte del flagello dei pirati che infestano i mari. I pirati accumulano grandi tesori e li custodiscono gelosamente nei loro covi." />
+		
+		
+		<!-- BUILDINGS -->
+		<Loc Key="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD" Value="Cantiere Navale Maledetto"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD_DES" Value="Un cantiere navale popolato dagli spiriti di mozzi e marinai che costruiscono navi fantasma senza sosta, anche sulla terraferma."/>
+		<Loc Key="DES_BUILDING_BLUEORCS_RAIDERS_HUT" Value="Capanna dei Razziatori"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_RAIDERS_HUT_DES" Value="La capanna dei razziatori costituisce una base da cui i pirati partono per le loro scorribande in alto mare.\n\nEffetti: Conferisce +3{ICON:FoodIcon} Cibo e +3{ICON:GoldIcon} Oro.\n\nSI DEVE COSTRUIRE SULLA COSTA "/>
+
+		
+		<!-- UNITS -->
+		<Loc Key="DES_BLUEORCS_SETTLER_SETTLERS" Value="Coloni - Flagelli"/>
+		<Loc Key="DES_BLUEORCS_TRIREME" Value="Trimere Spettrale"/>
+		<Loc Key="DES_BLUEORCS_TRIREME_DES" Value="Questa nave è immateriale e può spostarsi sia sul mare che sulla terraferma."/>
+		<Loc Key="DES_BLUEORCS_SWORDSMEN" Value="Corsari - Flagelli"/>
+		<Loc Key="DES_BLUEORCS_CAVALRY" Value="Cavalieri - Flagelli"/>
+		<Loc Key="DES_BLUEORCS_BOWMEN" Value="Arcieri - Flagelli"/>
+		<Loc Key="DES_BLUEORCS_SHAMANS" Value="Sciamani - Flagelli"/>
+		<Loc Key="DES_BLUEORCS_RUSALKA" Value="Rusalka"/>
+		<Loc Key="DES_BLUEORCS_RUSALKA_DES" Value="La rusalka è un'esotica ninfa d'acqua catturata dai corsari spettrali e costretta a danzare per loro in eterno. È un'abile incantatrice sul campo di battaglia."/>
+		<Loc Key="DES_BLUEORCS_SEA_CREATURE" Value="Creatura Marina"/>
+		<Loc Key="DES_BLUEORCS_SEA_CREATURE_DES" Value="La creatura marina è un possente mutante oceanico costretto a servire i capitani della flotta pirata con la sua immane forza fisica e l'abilità di scatenare cicloni di squali."/>
+		<Loc Key="DES_BLUEORCS_BLACK_SPARROW" Value="Capitano"/>
+		<Loc Key="DES_BLUEORCS_BLACK_SPARROW_DES" Value="Nessuna nave pirata può dirsi completa senza il suo temibile capitano. Intrappolato nella sua deforme esistenza di spettro, stravolto dal fondale oceanico, egli guida la sua ciurma verso il prossimo saccheggio. Il capitano impugna le catene che vincolano orde di prigionieri alla servitù dei pirati."/>
+		<Loc Key="DES_BLUEORCS_GHOSTSHIP" Value="Nave Fantasma"/>
+		<Loc Key="DES_BLUEORCS_GHOSTSHIP_DES" Value="La nave fantasma è la manifestazione della maledizione dei Flagelli. È un infernale vascello vivente emerso dal fondale dell'oceano per rispondere alla chiamata dei dannati e rivendicare le anime dei caduti."/>
+		<Loc Key="DES_BLUEORCS_LEASHED" Value="Vincolati"/>
+		<Loc Key="DES_BLUEORCS_LEASHED_DES" Value="I vincolati sono anime cadute vittime dei pirati e trasformate in abomini dagli oceani. Il risultato è un'amalgama di coloro che un tempo abitavano la città, di cui ha ereditato le capacità di ingegneria ed esplorazione."/>
+		<Loc Key="DES_SOR_WATER_ELEMENTAL" Value="Ciclone di Squali"/>
+		<Loc Key="DES_SOR_WATER_ELEMENTAL_DES" Value="Il ciclone di squali è una terrificante manifestazione del potere del mare, invocato per seminare distruzione sul campo di battaglia."/>
+		<Loc Key="DES_TENTACLE" Value="Tentacolo di Kraken"/>
+		<Loc Key="DES_TENTACLE_DES" Value="Il kraken è un leggendario mostro marino talmente grande e pericoloso che puoi soltanto affrontarne i tentacoli e sperare di salvare la pelle!"/>
+		
+	    <!-- HERO -->
+		<Loc Key="DES_PHYM" Value="Ph'ym il Filomata"/>
+		<Loc Key="DES_PHYM1" Value="Ant'man il Filomata"/>
+		<Loc Key="DES_PHYM2" Value="La'ng il Filomata"/>
+		<Loc Key="DES_PHYM3" Value="Og'rad il Filomata"/>
+		<Loc Key="DES_PHYM4" Value="Za'yn il Filomata"/>
+		<Loc Key="DES_PHYM_DES" Value="{0} era un semplice membro dell'alveare impegnato a servire la sua regina e ad accumulare conoscenze sempre maggiori. Ma questa ambizione lo rese anche un individuo autonomo, un'anomalia della stirpe. Accortasi della determinazione dell'eroe, la regina ha deciso di concedere a {0} la sua libertà. Dopotutto, l'alveare può soltanto beneficiare dall'esperienza di individui del genere. Nonostante {0} preferisca lavorare per la sua regina, è altresì pronto a prestare i suoi servizi agli Stregoni che prometteranno di ampliare le sue esperienze."/>
+		<Loc Key="DES_SLITHERS" Value="Slithers il Terrore dei Mari"/>
+		<Loc Key="DES_SLITHERS1" Value="Scales il Terrore dei Mari"/>
+		<Loc Key="DES_SLITHERS2" Value="Slicer il Terrore dei Mari"/>
+		<Loc Key="DES_SLITHERS3" Value="Syrin il Terrore dei Mari"/>
+		<Loc Key="DES_SLITHERS4" Value="Shells il Terrore dei Mari"/>
+		<Loc Key="DES_SLITHERS_DES" Value="{0} è un'abile guerriera degli uomini lucertola specializzata nella caccia marina. La sua cavalcatura è permeata dalla magia oceanica, che permette a {0} di spostare il suo intero esercito in mare per inseguire pirati e chiunque altro osi ostacolarla... ecco perché è conosciuta come il Terrore dei Mari. Questo eroe presterà i suoi servizi a qualunque Stregone riterrà degno del suo tempo... o della sua borsa. "/>
+		<Loc Key="DES_BIG_BERTA" Value="Big Berta"/>
+		<Loc Key="DES_BIG_BERTA1" Value="Mighty Martha"/>
+		<Loc Key="DES_BIG_BERTA2" Value="Ball-breaker Bonnie"/>
+		<Loc Key="DES_BIG_BERTA3" Value="Tiny Tina"/>
+		<Loc Key="DES_BIG_BERTA4" Value="Browny Beatrice"/>
+		<Loc Key="DES_BIG_BERTA_DES" Value="{0} è sempre stata un'orchessa assai corpulenta con un gran debole per le palle di cannone. {0} vede la maledizione dei Flagelli come un dono, poiché le ha conferito un potere superiore a quello di cui godeva in passato. {0} ha saputo stupire molte ciurme nella sua vita, tanto da conquistare più e più volte il titolo di capitano... ma in questi giorni, la cannoniera ha deciso di cercare nuove sfide e svaghi vestendo i panni del mercenario. Servirà uno Stregone che la paghi bene e capace di offrirle missioni degne del suo contributo."/>
+		<Loc Key="DES_WUSP" Value="Wu'sp"/>
+		<Loc Key="DES_WUSP_DES" Value="Wu'sp è una feroce e devota servitrice del grande alveare klackon. Non servirà mai come eroe individuale, ma darà la caccia a Ph'ym per sottoporlo alla giustizia dell'alveare!"/>
+		
+		<!-- ENCHANTMENTS --> 
+		<Loc Key="DES_POWER_PEOPLE_ENCH_DES" Value="La città produce +1 Potere per ogni unità di popolazione grazie a 'Potere del Popolo'."/>
+        <Loc Key="DES_TACTITIAN_ENCH_DES" Value="L'unità ottiene +1 PM in battaglia grazie alla guida dello Stratega."/>	
+        <Loc Key="DES_WATER_SPEED" Value="Celerità Navale"/>	
+        <Loc Key="DES_WATER_SPEED_DES" Value="'Celerità Navale' conferisce +1 PM sulla mappa globale alle unità capaci di nuotare."/>	
+        <Loc Key="DES_ADMIRAL_ENCH_DES" Value="Tutte le navi controllate dall'Ammiraglio ottengono +3 livelli."/>	
+        <Loc Key="DES_WATER_SPEED_ENCH_DES" Value="Il Signore dei Mari conferisce +1 PM sulla mappa globale alle unità capaci di nuotare."/>	
+		<Loc Key="DES_AMBUSH" Value="Imboscata Tattica"/>
+        <Loc Key="DES_AMBUSH_ENCH_DES" Value="Lo Stratega consente al proprio esercito di agire sempre per primo in battaglia."/>	
+        <Loc Key="DES_SHALLOW_WATER" Value="Acqua Bassa"/>	
+        <Loc Key="DES_SHALLOW_WATER_DES" Value="Questo campo di battaglia è sommerso dall'acqua: tutte le unità non dotate di Nuoto o Volo ottengono Solcacque, che gli permette di muoversi in battaglia."/>	
+        <Loc Key="DES_SEA_HUNTER_ENCH_DES" Value="In battaglia, tutte le unità controllate dal Cacciatore Marino ottengono +2 a tutte le statistiche (tranne i punti saluti) e la capacità di nuotare."/>
+		<Loc Key="DES_WIND_CAVE_ENCH" Value="Vento di Morte"/>
+		<Loc Key="DES_WIND_CAVE_ENCH_DES" Value="Il vento di morte soffia con la furia dei mari maledetti, causando la caduta di rocce dal soffitto della grotta. Ad ogni turno, prob. pari al 5% che una roccia sottragga il 50% della salute attuale di un'unità (max 2 unità per turno). Il vento è così forte che tutti gli attacchi a distanza ottengono -10%{ICON:ToHitBonusIcon} prob. di colpire. Inoltre, nessuna unità può volare {ICON:MovementFlyingIcon} in questa battaglia."/>	
+		<Loc Key="DES_PIRATE_CURSE_ENCH" Value="Maledizione Pirata"/>
+		<Loc Key="DES_PIRATE_CURSE_ENCH_DES" Value="L'aria è pregna dell'influenza della Maledizione Pirata. Tutte le unità dello schieramento attaccante sono affette da -1{ICON:ResistanceIconNormal} resistenza e -1 PM. Inoltre, la battaglia durerà soltanto 20 turni!"/>	
+		<Loc Key="DES_IMMOVABLE_OBJECTS" Value="Terreno Inamovibile"/>
+		<Loc Key="DES_IMMOVABLE_OBJECTS_DES" Value="Alcuni oggetti di questa mappa sono così pregni di un antico potere da risultare invalicabili ed immuni ad influenze magiche o mondane."/>	
+		<Loc Key="DES_MASS_WATER_WALKING_UNIT" Value="Trasporto delle Onde"/>
+		<Loc Key="DES_MASS_WATER_WALKING_UNIT_DES" Value="L'unità è trasportata in mare grazie ad un alleato dotato dell'abilità 'Domatore delle Onde'. Finché le unità rimarranno unite, questa disporrà dell'abilità di Nuoto."/>
+		<Loc Key="DES_KLACKON_SUPREMACY_ENCH" Value="Mente Alveare"/>
+		<Loc Key="DES_KLACKON_SUPREMACY_ENCH_DES" Value="Uno Stregone dotato di 'Mente Alveare' ottiene +5 Capacità di Lancio per ogni unità klackon alleata presente in battaglia."/>
+		
+		<!-- SKILLS --> 
+		<Loc Key="DES_GHOSTSHIP_TERROR" Value="Terrore Spettrale"/>
+		<Loc Key="DES_GHOSTSHIP_TERROR_DES" Value="Il Terrore Spettrale costringe ogni unità presente in battaglia a superare un tiro resistenza (+1 resistenza{ICON:ResistanceIconNormal}) ad ogni turno o soccombere al terrore per il resto del turno stesso."/>
+		<Loc Key="DES_MUD_ATTACK" Value="Torbido Incanto"/>
+		<Loc Key="DES_MUD_ATTACK_DES" Value="Un'unità incantata è più spinta a danzare che a battersi. In realtà, dopo ogni attacco (in mischia/a distanza), se l'unità non supera un tiro di resistenza ({ICON:ResistanceIconNormal}) la terra sotto i suoi piedi sprofonda e perde 1 PM per 1 turno (ulteriori attacchi e tiri non superati aumentano la durata dell'effetto)."/>	
+        <Loc Key="DES_MUD_DES" Value="Questa unità è incantata e si sente in vena di danzare, non combattere. Ogni volta che fallisce un tiro di resistenza {ICON:ResistanceIconNormal}), perde 1 PM per 1 turno (ulteriori attacchi e tiri non superati aumentano la durata dell'effettod)."/>		
+		<Loc Key="DES_MASS_WATER_WALKING" Value="Domatore delle Onde"/>
+        <Loc Key="DES_MASS_WATER_WALKING_DES" Value="L'unità è trasportata in mare dalla sua capacità di domare le onde. Conferisce l'abilità Nuoto a tutte le unità nello stesso esercito."/>		
+        <Loc Key="DES_MASS_WATER_WALKING_SKILL_DES" Value="Il Domatore delle Onde si muove in mare con disinvoltura e può portare altre truppe con sé. Conferisce l'abilità Nuoto a tutte le unità nello stesso esercito."/>
+		<Loc Key="DES_HIVEMIND" Value="Mente Alveare"/>
+		<Loc Key="DES_HIVEMIND_DES" Value="Questo eroe è collegato alla mente alveare klackon. Ottiene bonus per ogni unità klackon alleata presente nel suo stesso esercito."/>
+		<Loc Key="DES_SHACKLE_MASTER" Value="Mastro dei Ceppi"/>
+		<Loc Key="DES_SHACKLE_MASTER_DES" Value="Il Mastro dei Ceppi esercita controllo sulle unità catturate. Unità catturate, Creature Marine, Rusalka e Vincolati ottengono +10% {ICON:ToHitBonusIcon} prob. di colpire."/>
+		<Loc Key="DES_SHACKLED" Value="Unità in Ceppi"/>
+		<Loc Key="DES_SHACKLED_DES" Value="Il Mastro dei Ceppi esercita controllo sulle unità catturate. This unit is one of the Shackled and gains +10% {ICON:ToHitBonusIcon} prob. di colpire."/>
+		
+		<!-- RES --> 
+		<Loc Key="DES_RES_FISH" Value="Pesce"/>
+		<Loc Key="DES_RES_FISH_DES" Value="Fornisce +2{ICON:FoodIcon} Cibo e riduce del 10% i costi di produzione delle unità.\nNon si può convertire usando l'incantesimo 'Trasmutazione', ma è possibile usare 'Raccolto Marino' per ricavarne delle risorse."/>
+		<Loc Key="DES_RES_PEARLS" Value="Perle Oceaniche"/>
+		<Loc Key="DES_RES_PEARLS_DES" Value="Fornisce +3{ICON:PowerIcon} Potere e +3{ICON:GoldIcon} Oro alla città vicina.\nNon si può convertire usando l'incantesimo 'Trasmutazione', ma è possibile usare 'Raccolto Marino' per ricavarne delle risorse."/>
+		<Loc Key="DES_RES_REEF" Value="Coralli"/>
+		<Loc Key="DES_RES_REEF_DES" Value="Fornisce +2({ICON:GoldIcon}) Oro e riduce del 20% i costi di produzione degli edifici nella città vicina.\nNon si può convertire usando l'incantesimo 'Trasmutazione', ma è possibile usare 'Raccolto Marino' per ricavarne delle risorse."/>
+				
+		<!-- SPELLS ADN ENCH -->
+		<Loc Key="DES_WATER_ELEMENTAL" Value="Ciclone di Squali"/>
+		<Loc Key="DES_WATER_ELEMENTAL_DES" Value="Invoca una terrificante forza delle profondità oceaniche per seminare distruzione sul campo di battaglia."/>
+		<Loc Key="DES_BARRAGE" Value="Sbarramento"/>
+		<Loc Key="DES_BARRAGE_DES" Value="L'unità effettua un potente sbarramento contro il nemico. Tutte le unità nemiche in battaglia sono colpite da un attacco magico di fuoco di forza 5."/>
+		<Loc Key="DES_CONSTANTSTORM" Value="Tempesta Infinita"/>
+		<Loc Key="DES_CONSTANTSTORM_DES" Value="La Tempesta Infinita infuria sul campo di battaglia. Ad ogni turno, un'unità casuale dello schieramento attaccante viene colpita da un attacco elettrico di forza 10."/>
+		<Loc Key="DES_SEA_HARVEST" Value="Raccolto Marino"/>
+		<Loc Key="DES_SEA_HARVEST_DES" Value="Il Raccolto Marino trasmuta una risorsa acquatica per conferire +10{ICON:CastingSkillIcon} Capacità di Lancio, + 0-50 {ICON:ManaIcon} Mana e + 50-100 {ICON:GoldIcon} Oro. \nNota: La risorsa bersagliata viene distrutta. L'incantesimo ha 20% prob. di successo se la risorsa bersagliata si trova entro il dominio di una città nemica."/>
+		<Loc Key="DES_SEA_HARVEST_TARGET" Value="Bersaglia una casella marina dotata di una risorsa tra Pesce, Perle o Coralli."/>
+		<Loc Key="DES_SHIP_DISCOUNT" Value="Signore dei Mari"/>
+		<Loc Key="DES_SHIP_DISCOUNT_DES" Value="In quanto Signore dei Mari, lo Stregone ispira artigiani e carpentieri a costruire navi con una riduzione del 20% ai costi di produzione."/>
+		<Loc Key="DES_HIVEMIND_UNIT" Value="Connessione all’Alveare"/>
+		<Loc Key="DES_HIVEMIND_UNIT_DES" Value="Questa unità è connessa all’alveare e ne ricava +10% Prob. di Difesa."/>
+
+		<!--LAIRS -->
+		<Loc Key="DES_WIND_CAVE" Value="Grotte dei Venti"/>
+		<Loc Key="DES_REEF_TREASURE_ISLAND" Value="Isola del Tesoro"/>
+		<Loc Key="DES_WATER_BOSS_LAIR_1" Value="Antro del Kraken"/>
+		<Loc Key="DES_WATER_BOSS_LAIR_2" Value="Antro del Kraken"/>
+		
+		<!--LAIR UNITS -->
+		<Loc Key="DES_PIR_GIANT_SPIDERS" Value="Ragni Pirata" />
+		<Loc Key="DES_PIR_GIANT_SPIDERS_DES" Value="Difensori ad otto zampe della Natura comandati dai Pirati. I ragni usano il loro tocco venefico e la loro tela per supportare gli attacchi ravvicinati {ICON:MeleeIconNormal}. La loro difesa è piuttosto scarsa, debolezza di cui i loro avversari dovrebbero sempre approfittare." />
+		<Loc Key="DES_PIR_PHANTOM_WARRIORS" Value="Fantasmi Pirata" />
+		<Loc Key="DES_PIR_PHANTOM_WARRIORS_DES" Value="Evocati in battaglia dai Pirati, i fantasmi pirata sono unità basilari da mischia {ICON:MeleeIconNormal} che colpiscono gli avversari con colpi illusori capaci di eludere le difese fisiche."/>
+		<Loc Key="DES_PIR_NAGAS" Value="Naga Pirati" />
+		<Loc Key="DES_PIR_NAGAS_DES" Value="Richiamati dai Pirati, i naga dispongono di un tocco venefico che ne rafforza i rapidi attacchi ravvicinati {ICON:MeleeIconNormal}." />
+		<Loc Key="DES_PIR_ZOMBIES" Value="Zombi Pirati" />
+		<Loc Key="DES_PIR_ZOMBIES_DES" Value="Il flagello dei Pirati costringe gli zombi a servire la loro causa. Questi abomini non morti sono guerrieri da mischia {ICON:MeleeIconNormal} piuttosto deboli, ma utili scudi di carne." />
+		<Loc Key="DES_PIR_WRAITHS" Value="Furie Pirata" />
+		<Loc Key="DES_PIR_WRAITHS_DES" Value="Chiamate a galla dai Pirati, queste furie sono guerrieri da mischia {ICON:MeleeIconNormal} incorporei capaci di prosciugare la vita degli avversari e usarla per generare altri non morti." />
+
+	</LOCALIZATION-DLC3_IT>
+</DB_LOCALIZATION>

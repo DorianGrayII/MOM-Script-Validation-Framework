@@ -1,0 +1,107 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC1_PL Language="Polski">
+		<!-- DLC 1 descriptions --> 
+		<Loc Key="DES_RAASS" Value="Raa'ss" />
+		<Loc Key="DES_RAASS_DES" Value="Raa’ss to potężny smoczy czarodziej pełen wściekłości i zamieszania, którego można skierować do podboju ze śmiertelną precyzją. Jest mistrzem magii Chaosu i Śmierci oraz Fantastycznym Wodzem, którego wezwania mają wielką moc. Odmawia paradowania w ubraniach dla humanoidów i brzydzi się swoim rzekomym bliźniakiem, Sss'ra. Mówi się, że prawdziwe pochodzenie Raa'ss jest przesiąknięte złośliwością, że w rzeczywistości jest on mrocznym, ożywionym odbiciem Sss’ra…" />
+		<Loc Key="DES_RAASS_QUOTE" Value="Jeszcze raz nazwij mnie zwykłym odbiciem, śmiało!" />
+		
+		<Loc Key="DES_BIANKA" Value="Bianka" />
+		<Loc Key="DES_BIANKA_DES" Value="Bianka wspięła się w najwyższe stopnie krasnoludzkiego szlachectwa dzięki niezłomnej, nieustępliwej determinacji i niekwestionowanemu mistrzostwu w magii runicznej. Jako Kamieniarz, Bianka również wykazuje swoje niemal nienaturalne upodobanie do kamienia. Pochodząca z Myrror, wielka czarodziejka stara się udowodnić, że jest mistrzynią z urodzenia, posługując się trzema odrębnymi szkołami magii: Magią, Chaosem i Naturą." />
+		<Loc Key="DES_BIANKA_QUOTE" Value="Moja moc jest wykuta z zamieszania, nasycona siłą runiczną i osadzona w wiecznym kamieniu. Nikt nie jest w stanie jej złamać!" />
+		
+		<Loc Key="DES_TLACHTGA" Value="Tlachtga" />
+		<Loc Key="DES_TLACHTGA_DES" Value="Tlachtga opanowała sztukę magii Natury jako niemowlę i wyrosła na jednego z największych druidów jej mrocznych krain. Mistrzostwo Tlachtgi w mniej łagodnym obliczu kręgu życia przyciągnęło ją do Myrror, gdzie złośliwość natury można okiełznać i kontrolować. Jest także potężnym przywoływaczem Natury - przywołuje stworzenia Natury o 50% taniej i rozpoczyna swoją podróż z jednostką Niedźwiedzi Bojowych." />
+		<Loc Key="DES_TLACHTGA_QUOTE" Value="Ciemniejsza strona natury karmi moją moc, więc odsuń się lub zostaniesz pożarty!" />
+		
+		<Loc Key="DES_CORAX" Value="Corax" />
+		<Loc Key="DES_CORAX_DES" Value="Corax Białopióry w młodości kroczył ścieżką ciemności i zbrodni, ale twierdzi, że jego oświecony ojciec zainspirował go do zmiany swojego losu. W ten sposób dosłownie zmienił swoje pióra i przyjął Życie jako swoją domenę. Corax zamierza zanieść swoją mądrość do mrocznych miejsc, używając siły, jeśli będzie to konieczne. Włada magią Życia i jako Dawca Życia może wskrzesić poległych i obdarzyć ich umiejętnościami uzdrawiania." />
+		<Loc Key="DES_CORAX_QUOTE" Value="Szukaj ze mną światła, ciemna istoto, bo ono przyniesie ci pokój i moc." />
+
+		<Loc Key="DES_RAASS_GREETINGS" Value="Klęknij przede mną, słabsza istoto! Możemy być teraz uprzejmi, ale zgiełk tego świata wkrótce to zmieni i poleje się krew."/>
+		<Loc Key="DES_BIANKA_GREETINGS" Value="Witam cię! Jestem Bianka, strażniczka run, starsza z mojego rodu, mistrzyni kamienia. Niech nasze stosunki pozostaną niezłomne aż do godziny ostatecznej próby."/>
+		<Loc Key="DES_TLACHTGA_GREETINGS" Value="Cześć, Tlachtga imię me, w magię bawię się, haha. Grajmy uczciwie, czarodzieju, i niech lepszy zielonoskóry wygra!"/>
+		<Loc Key="DES_CORAX_GREETINGS" Value="Pozdrawiam cię, czarodzieju. Jestem znany jako Corax Białopióry i nie szukam przemocy, dopóki przemoc nie stanie się jedynym rozwiązaniem."/>
+
+	    <Loc Key="DES_TOADSWORTH" Value="Toadsworth, Poskramiacz Dzików" />
+		<Loc Key="DES_TOADSWORTH1" Value="Frogsworth, Poskramiacz Dzików" />
+		<Loc Key="DES_TOADSWORTH2" Value="Greenface, Poskramiacz Dzików" />
+		<Loc Key="DES_TOADSWORTH3" Value="Big Gobbo, Poskramiacz Dzików" />
+		<Loc Key="DES_TOADSWORTH4" Value="Furlover, Poskramiacz Dzików" />
+		<Loc Key="DES_TOADSWORTH_DES" Value="{0} jest nieco nieprawdopodobnym bohaterem, który doszedł do rangi mistrza pomimo wszelkich dowodów wskazujących na odmienny los. Znany również jako Towdi, spędził on lata w niewoli, pozornie pozbawiony jakiegokolwiek talentu. A jednak, czy to dzięki szczęściu, determinacji, czy diabelskiej umowie, jest teraz mistrzem poskramiania dzików, który pozostaje lojalny wobec pana, który okazuje mu szacunek." />
+		<Loc Key="DES_JOTUN" Value="Kolga, Troll Lodowy" />
+		<Loc Key="DES_JOTUN1" Value="Imor, Troll Lodowy" />
+		<Loc Key="DES_JOTUN2" Value="Fala, Troll Lodowy" />
+		<Loc Key="DES_JOTUN3" Value="Gryla, Troll Lodowy" />
+		<Loc Key="DES_JOTUN4" Value="Mjoll, Troll Lodowy" />
+		<Loc Key="DES_JOTUN_DES" Value="{0}, znana również jako Przeklęta, jest samotną bohaterką, na zawsze odizolowaną przez zimny lód, który uwięził jej ciało. Niektórzy mówią, że stara się służyć czarodziejom w nadziei, że zdejmą z niej klątwę. Bez względu na prawdziwy powód, po dziesięcioleciach izolacji nauczyła się ona ujarzmiać swoją klątwę zimna i teraz udziela pomocy godnemu panu." />
+		<Loc Key="DES_BJORN" Value="Bjorn, Zrodzony z Ognia" />
+		<Loc Key="DES_BJORN1" Value="Bear, Zrodzony z Ognia" />
+		<Loc Key="DES_BJORN2" Value="Niedzwiedz, Zrodzony z Ognia" />
+		<Loc Key="DES_BJORN3" Value="Teddy, Zrodzony z Ognia" />
+		<Loc Key="DES_BJORN4" Value="Grizzly, Zrodzony z Ognia" />
+		<Loc Key="DES_BJORN_DES" Value="{0} to zaciekły bohater-zwierzoludź, który igrał z ogniem i się poparzył. Pożerające wszystko płomienie zabiłyby większość, ale {0} nie jest jak większość. Jego czysta wola walki sprawiła, że przeżył i wyłonił się jako stworzenie Chaosu, na zawsze połączone z gorejącymi płomieniami, które teraz łakną jego wrogów." />
+
+		<Loc Key="DES_GOBLINS" Value="Gobliny" />
+		<Loc Key="DES_GOBLINS_DES" Value="Gobliny to małe, zielone humanoidy z wielkim powiązaniem z Naturą i zdolnościami opanowania bestii. Niektórzy mogą opisywać je jako prymitywne i faktycznie Gobliny preferują struktury plemienne i naturalne siedliska w miejsce postępu cywilizacyjnego. Mają szczególny związek z fauną tej krainy i są znane z oswajania bestii i magii druidów." />
+        <Loc Key="DES_GOBLINS_PRODUCTION" Value="Przyrost populacji: bardzo szybki (podstawowo +20 ludzi/turę)\nOgraniczenia dotyczące budynków: nie mogą budować Gildii Mędrców, Stoczni oraz Partenonów.\nInne modyfikatory: -1 pancerza{ICON:ArmourIconNormal} oraz zdolność Wędrowiec dla podstawowych jednostek (z wyłączeniem machin).\nKoszt Osadników i Łuczników jest obniżony do 80% produkcji{ICON:ProductionIcon}.\nJednostki rasowe: {LINK:UNIT-GOB_BOAR_RIDER} Jeźdźcy Dzików {ICON:BoarRider}{END_LINK}, {LINK:UNIT-GOB_DRUIDS} Druidzi {ICON:Druid}{END_LINK}, {LINK:UNIT-GOB_BEASTMASTER} Pogromcy Bestii {ICON:Beastmaster}{END_LINK}" />		
+
+		<Loc Key="DES_GOBLIN_SETTLERS" Value="Goblińscy Osadnicy" />
+		<Loc Key="DES_GOBLIN_SPEARMEN" Value="Goblińscy Włócznicy" />
+		<Loc Key="DES_GOBLIN_SWORDSMEN" Value="Goblińscy Szermierze" />		
+		<Loc Key="DES_GOBLIN_BOWMEN" Value="Goblińscy Łucznicy" />
+		<Loc Key="DES_GOBLIN_SHAMANS" Value="Goblińscy Szamani" />
+		<Loc Key="DES_BOAR_RIDER" Value="Jeźdźcy Dzików" />
+		<Loc Key="DES_BOAR_RIDER_DES" Value="Elitarna kawaleria goblinów, a przynajmniej tak mówią. Osoby z zewnątrz opisują ich jako zbieraninę nieco obłąkanych goblinów, które jeżdżą na dobrze wytresowanych, dzikich knurach." />
+		<Loc Key="DES_DRUIDS" Value="Druidzi" />
+		<Loc Key="DES_DRUIDS_DES" Value="Specjalna goblińska jednostka z magicznym atakiem dystansowym. Druidzi są znani ze swojego wyjątkowego związku z Naturą i potrafią wezwać na pomoc Niedźwiedzie Wojenne." />
+		<Loc Key="DES_BEASTMASTER" Value="Pogromcy Bestii" />
+		<Loc Key="DES_BEASTMASTER_DES" Value="Elitarna jednostka goblinów z silnym atakiem dystansowym i lataniem. Pogromcy bestii twierdzą, że potrafią okiełznać nawet najsilniejsze bestie, choć mają do dyspozycji tylko otyłe gryzonie..." />
+
+		<Loc Key="DES_FANTASTIC_WARLORD" Value="Fantastyczny Wódz"/>
+		<Loc Key="DES_TRAIT_FANTASTIC_WARLORD_DES" Value="Mistrzowska wiedza o fantastycznych oddziałach pozwala Czarodziejowi zwiększać atak wręcz {ICON:MeleeIconNormal}, dystansowy {ICON:RangedIconNormal}, pancerz {ICON:ArmourIconNormal}, odporność {ICON:ResistanceIconNormal} oraz ataki oddechem wszystkich przyzwanych stworzeń pod swoją kontrolą o +1.\n\n-Fantastyczny Wódz kosztuje 1 punkt."/>
+		<Loc Key="DES_ENCH_FANTASTIC_WARLORD_DES" Value="Mistrzowska wiedza o fantastycznych oddziałach pozwala Czarodziejowi zwiększać atak wręcz {ICON:MeleeIconNormal}, dystansowy {ICON:RangedIconNormal}, pancerz {ICON:ArmourIconNormal}, odporność {ICON:ResistanceIconNormal} oraz ataki oddechem wszystkich przyzwanych stworzeń pod swoją kontrolą o +1."/>
+		<Loc Key="DES_STONEMASON" Value="Kamieniarz"/>
+		<Loc Key="DES_STONEMASON_DES" Value="Opanowanie sztuki kamieniarskiej pozwala na rozpoczęcie rozgrywki z murami w stolicy Czarodzieja. Dodatkowo, stolica dostaje +10 punktów produkcji {ICON:ProductionIcon}  i wszystkie jednostki rasy stolicy będą posiadać umiejętność Inżynier, która pozwala na budowę dróg.\n\n-Kamieniarz kosztuje 1 punkt."/>
+		<Loc Key="DES_LIFEBRINGER" Value="Dawca Życia"/>
+		<Loc Key="DES_LIFEBRINGER_DES" Value="Mistrzostwo magii Życia pozwala Czarodziejowi rozpocząć rozgrywkę z potężnym zaklęciem Wskrzeszenie oraz rzucać zaklęcia Wskrzeszenie, Leczenie oraz Masowe Leczenie 25% taniej. Dodatkowo, wszystkie jednostki rasy stolicy będą posiadać umiejętność leczenia.\n\n-Czarodziej musi mieć wybrane co najmniej 4 książki Życia.\n\n-Dawca Życia kosztuje 1 punkt."/>
+		<Loc Key="DES_HERO_MAGNET" Value="Bohatera Mi Trza!"/>
+		<Loc Key="DES_HERO_MAGNET_DES" Value="Koniec z oczekiwaniem na bohatera nim skończy się noc. Jeśli potrzebujesz go teraz, ta zdolność jest dla ciebie. Rozpoczniesz rozgrywkę z zaklęciami Przywołaj Bohatera i Przywołaj Czempiona, rzucanie tych zaklęć będzie też 25% tańsze. Dodatkowo pozwala na wybieranie spośród 1 dodatkowego bohatera, gdy pojawia się opcja przyłączenia bohatera.\n\n-Bohatera Mi Trza kosztuje 1 punkty."/>
+		<Loc Key="DES_NATURE_SUMMONER" Value="Przyzywacz Natury"/>
+		<Loc Key="DES_NATURE_SUMMONER_DES" Value="Siły Natury pozwalają temu czarodziejowi rozpocząć grę z jednostką Niedźwiedzi Bojowych. Dodatkowo, the Wizard begins the game with all of Nature's summoning spells and all the Nature summons are 50% cheaper to upkeep.\n\n-Cannot take Conjurer or Channeler trait at the same time.\n\n-The Wizard must have already selected at least 4 Nature Spellbooks.\n\n-Nature Summoner costs 2 picks."/>
+
+		<Loc Key="DES_SUMMON_BOAR" Value="Dzik"/>
+		<Loc Key="DES_SUMMON_BOAR_DES" Value="Przyzywa wściekłego dzika do walki. Dzik jest potężnym wojownikiem w walce w zwarciu{ICON:MeleeIconNormal} i może też ogłuszyć wroga."/>
+		<Loc Key="DES_DLC_BOAR" Value="Dzik" />
+		<Loc Key="DES_DLC_BOAR_DES" Value="Dzik jest dziki, dzik jest zły, dzik ma bardzo ostre kły! Dzik jest potężnym wojownikiem w walce w zwarciu{ICON:MeleeIconNormal} i może też ogłuszyć wroga." />		
+		<Loc Key="DES_SUMMON_FAT_RAT" Value="Tłusty Szczur"/>
+		<Loc Key="DES_SUMMON_FAT_RAT_DES" Value="Wzywa do walki tłustego szczura dysponującego trującym ugryzieniem. Jego ugryzienie spowoduje krwawienie, a paskudny wygląd może wywołać strach u wroga."/>
+		<Loc Key="DES_DLC_FAT_RAT" Value="Tłusty Szczur" />
+		<Loc Key="DES_DLC_FAT_RAT_DES" Value="Gruby szczur to niepozorne, przebiegłe stworzenie pochodzące z mroczniejszych krain niż nawet Myrror. Jego ugryzienie spowoduje krwawienie, a paskudny wygląd może wywołać strach u wroga." />
+
+		<Loc Key="DES_CURSED" Value="Przeklęty"/>
+		<Loc Key="DES_CURSED_DES" Value="Przeklęty obniża odporność {ICON:ResistanceIconNormal} przyjaznych jednostek, wliczając w to samego siebie, o -1, ale również i wrogich jednostek (na polu bitwy) o -2."/>
+		<Loc Key="DES_CURSED_UNIT" Value="Przeklęty"/>
+		<Loc Key="DES_CURSED_UNIT_DES" Value="Ta jednostka jest pod wpływem umiejętności Przeklęty."/>
+		<Loc Key="DES_FOODIE" Value="Żarłok"/>
+		<Loc Key="DES_FOODIE_DES" Value="Ten bohater uwielbia jedzenie i przyjmie jedynie Żywność jako opłatę za utrzymanie (3 na turę), ale ta dieta czyni go silniejszym (+1 ataku, +1 pancerza + 1 odporności, +10% do trafienia (na ostatnim poziomie bonusy wzrastają do +2)."/>
+		<Loc Key="DES_BLEEDING_2_OWNER" Value="Krwawienie 2"/>
+		<Loc Key="DES_BLEEDING_2_OWNER_DES" Value="Jednostka zaatakowana Krwawieniem otrzymuje obrażenia równe poziomowi Krwawienia aż pomyślnie zda test na odporność {ICON:ResistanceIconNormal}."/>
+		<Loc Key="DES_BLEEDING_UNIT" Value="Krwawienie {0}"/>
+		<Loc Key="DES_BLEEDING_UNIT_DES" Value="Ta jednostka jest pod wpływem umiejętności Krwawienie."/>
+		<Loc Key="DES_EARTH_WALKER" Value="Wędrowiec"/>
+		<Loc Key="DES_EARTH_WALKER_DES" Value="Wędrowiec pozwala wszystkim jednostkom poruszającym się w armii przechodzić przez błoto, pustynię oraz tundrę za koszt 1 punktu ruchu za pole. Dodatkowo zapewnia odporność na efekty zaklęcia Ziemia w Błoto."/>
+
+		<Loc Key="DES_RES_MAMMOTH" Value="Mamuty"/>
+		<Loc Key="DES_RES_MAMMOTH_DES" Value="Wielkie futrzaste ssaki składające się z drogocennych kłów i fury mięsa. Zapewniają +1 Żywności ({ICON:FoodIcon}) i +1 Złota ({ICON:GoldIcon}) w najbliższym mieście.\nMogą zostać przemienione w Dziczyznę za pomocą zaklęcia Przeobrażenie."/>
+		<Loc Key="DES_STUN" Value="Ogłuszenie"/>
+		<Loc Key="DES_STUN_DES" Value="Przy nieudanym rzucie na odporność {ICON:ResistanceIconNormal}, wroga jednostka straci połowę swego ataku w zwarciu {ICON:MeleeIconNormal} oraz dystansowego {ICON:RangedIconNormal} na jedną turę."/>
+	
+		<Loc Key="DES_REALM_SYNERGY" Value="Synergia" />
+		<Loc Key="DES_REALM_SYNERGY_DES" Value="Ta jednostka nie należy do żadnej domeny, ale jest utkana z Synergii wszystkich. Zazwyczaj takie jednostki są przyzywane jedynie za pomocą specjalnych umiejętności." />
+		
+		<Loc Key="DES_SUMMON_WAR_BEARS" Value="Niedźwiedzie Bojowe"/>
+		<Loc Key="DES_SUMMON_WAR_BEARS_DES" Value="Przyzywa grupę dzikich niedźwiedzi bojowych na pole bitwy."/>
+		
+		<Loc Key="DES_STONEMASON_ENCH_DES" Value="To miasto znajduje się pod opieką Kamieniarza i otrzymuje darmowe kamienne mury oraz +10 punktów produkcji {ICON:ProductionIcon}." />
+	</LOCALIZATION-DLC1_PL>
+</DB_LOCALIZATION>

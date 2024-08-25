@@ -1,0 +1,966 @@
+﻿<DB_TOWN>
+
+	<TOWN-BARBARIANS>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-BARBARIANS"/>
+
+		<Farmer Farmer="2" Production="0.5"/>
+		<Worker Farmer="0" Production="2"/>
+		<Rebel Farmer="0" Production="0"/>
+
+		<PopulationGrowth VALUE="20"/>
+		<OutpostGrowth VALUE="15"/>
+		<TaxMultiplier VALUE="1"/>
+
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+		<PossibleBuildings VALUE="BUILDING-PARTHENON"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+		<PossibleBuildings VALUE="BUILDING-SAGES_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-SHIP_YARD"/>
+		<PossibleBuildings VALUE="BUILDING-MARITIME_GUILD"/>
+
+	</TOWN-BARBARIANS>
+	<TOWN-GNOLLS>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-GNOLLS"/>
+
+		<Farmer Farmer="2" Production="0.5"/>
+		<Worker Farmer="0" Production="2"/>
+		<Rebel Farmer="0" Production="0"/>
+
+		<PopulationGrowth VALUE="-10"/>
+		<OutpostGrowth VALUE="5"/>
+		<TaxMultiplier VALUE="1"/>
+
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-SHIP_YARD"/>
+
+	</TOWN-GNOLLS>
+	<TOWN-HALFLINGS>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-HALFLINGS"/>
+
+		<Farmer Farmer="3" Production="0.5"/>
+		<Worker Farmer="0" Production="2"/>
+		<Rebel Farmer="0" Production="0"/>
+
+		<PopulationGrowth VALUE="0"/>
+		<OutpostGrowth VALUE="15"/>
+		<TaxMultiplier VALUE="1"/>
+
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+		<PossibleBuildings VALUE="BUILDING-PARTHENON"/>
+		<PossibleBuildings VALUE="BUILDING-CATHEDRAL"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+		<PossibleBuildings VALUE="BUILDING-SAGES_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+
+	</TOWN-HALFLINGS>
+	<TOWN-HIGH_ELVES>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-HIGH_ELVES"/>
+
+		<Farmer Farmer="2" Production="0.5" PowerProduction="0.5"/>
+		<Worker Farmer="0" Production="2" PowerProduction="0.5"/>
+		<Rebel Farmer="0" Production="0" PowerProduction="0.5"/>
+
+		<PopulationGrowth VALUE="-20"/>
+		<OutpostGrowth VALUE="5"/>
+		<TaxMultiplier VALUE="1"/>
+
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MECHANICIANS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+		<PossibleBuildings VALUE="BUILDING-BANK"/>
+		<PossibleBuildings VALUE="BUILDING-MERCHANTS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-WAR_COLLEGE"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+		<PossibleBuildings VALUE="BUILDING-SAGES_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-UNIVERSITY"/>
+		<PossibleBuildings VALUE="BUILDING-WIZARDS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+		<PossibleBuildings VALUE="BUILDING-ANIMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-FANTASTIC_STABLES"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-SHIP_YARD"/>
+
+	</TOWN-HIGH_ELVES>
+	<TOWN-HIGH_MEN>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-HIGH_MEN"/>
+
+		<Farmer Farmer="2" Production="0.5"/>
+		<Worker Farmer="0" Production="2"/>
+		<Rebel Farmer="0" Production="0"/>
+
+		<PopulationGrowth VALUE="0"/>
+		<OutpostGrowth VALUE="10"/>
+		<TaxMultiplier VALUE="1"/>
+	
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MECHANICIANS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+		<PossibleBuildings VALUE="BUILDING-BANK"/>
+		<PossibleBuildings VALUE="BUILDING-MERCHANTS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-WAR_COLLEGE"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+		<PossibleBuildings VALUE="BUILDING-PARTHENON"/>
+		<PossibleBuildings VALUE="BUILDING-CATHEDRAL"/>
+		<PossibleBuildings VALUE="BUILDING-ORACLE"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+		<PossibleBuildings VALUE="BUILDING-SAGES_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-UNIVERSITY"/>
+		<PossibleBuildings VALUE="BUILDING-WIZARDS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+		<PossibleBuildings VALUE="BUILDING-ANIMISTS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-SHIP_YARD"/>
+		<PossibleBuildings VALUE="BUILDING-MARITIME_GUILD"/>
+
+	</TOWN-HIGH_MEN>
+	<TOWN-KLACKONS>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-KLACKONS"/>
+
+		<Farmer Farmer="2" Production="0.5"/>
+		<Worker Farmer="0" Production="3"/>
+		<Rebel Farmer="0" Production="0"/>
+
+		<PopulationGrowth VALUE="-10"/>
+		<OutpostGrowth VALUE="5"/>
+		<TaxMultiplier VALUE="1"/>
+		
+	
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+
+	</TOWN-KLACKONS>
+	<TOWN-LIZARDMEN>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-LIZARDMEN"/>
+
+		<Farmer Farmer="2" Production="0.5"/>
+		<Worker Farmer="0" Production="2"/>
+		<Rebel Farmer="0" Production="0"/>
+
+		<PopulationGrowth VALUE="10"/>
+		<OutpostGrowth VALUE="10"/>
+		<TaxMultiplier VALUE="1"/>
+
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+		
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+
+	</TOWN-LIZARDMEN>
+	<TOWN-NOMADS>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-NOMADS"/>
+
+		<Farmer Farmer="2" Production="0.5"/>
+		<Worker Farmer="0" Production="2"/>
+		<Rebel Farmer="0" Production="0"/>
+
+		<PopulationGrowth VALUE="-10"/>
+		<OutpostGrowth VALUE="10"/>
+		<TaxMultiplier VALUE="1"/>
+	
+
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MECHANICIANS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+		<PossibleBuildings VALUE="BUILDING-BANK"/>
+		<PossibleBuildings VALUE="BUILDING-MERCHANTS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-WAR_COLLEGE"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+		<PossibleBuildings VALUE="BUILDING-PARTHENON"/>
+		<PossibleBuildings VALUE="BUILDING-CATHEDRAL"/>
+		<PossibleBuildings VALUE="BUILDING-ORACLE"/>
+		
+        <PossibleBuildings VALUE="BUILDING-STABLES"/>
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+		<PossibleBuildings VALUE="BUILDING-SAGES_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-UNIVERSITY"/>
+		<PossibleBuildings VALUE="BUILDING-ANIMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-FANTASTIC_STABLES"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-SHIP_YARD"/>
+
+	</TOWN-NOMADS>
+	<TOWN-ORCS>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-ORCS"/>
+
+		<Farmer Farmer="2" Production="0.5"/>
+		<Worker Farmer="0" Production="2"/>
+		<Rebel Farmer="0" Production="0"/>
+
+		<PopulationGrowth VALUE="0"/>
+		<OutpostGrowth VALUE="10"/>
+		<TaxMultiplier VALUE="1"/>
+		
+
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MECHANICIANS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+		<PossibleBuildings VALUE="BUILDING-BANK"/>
+		<PossibleBuildings VALUE="BUILDING-MERCHANTS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-WAR_COLLEGE"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+		<PossibleBuildings VALUE="BUILDING-PARTHENON"/>
+		<PossibleBuildings VALUE="BUILDING-CATHEDRAL"/>
+		<PossibleBuildings VALUE="BUILDING-ORACLE"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+		<PossibleBuildings VALUE="BUILDING-SAGES_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-UNIVERSITY"/>
+		<PossibleBuildings VALUE="BUILDING-WIZARDS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+		<PossibleBuildings VALUE="BUILDING-ANIMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-FANTASTIC_STABLES"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-SHIP_YARD"/>
+		<PossibleBuildings VALUE="BUILDING-MARITIME_GUILD"/>
+		
+		<PossibleBuildings VALUE="BUILDING-MAGIC_COLLECTOR"/>
+		<PossibleBuildings VALUE="BUILDING-BLUEORCS_INDENTURED_WORKERS_GUILD"/>
+
+	</TOWN-ORCS>
+	<TOWN-BEASTMEN>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-BEASTMEN"/>
+
+		<Farmer Farmer="2" Production="0.5" PowerProduction="0.5"/>
+		<Worker Farmer="0" Production="2" PowerProduction="0.5"/>
+		<Rebel Farmer="0" Production="0" PowerProduction="0.5"/>
+
+		<PopulationGrowth VALUE="0"/>
+		<OutpostGrowth VALUE="5"/>
+		<TaxMultiplier VALUE="1"/>
+
+		
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MECHANICIANS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+		<PossibleBuildings VALUE="BUILDING-BANK"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-WAR_COLLEGE"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+		<PossibleBuildings VALUE="BUILDING-PARTHENON"/>
+		<PossibleBuildings VALUE="BUILDING-CATHEDRAL"/>
+		<PossibleBuildings VALUE="BUILDING-ORACLE"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+		<PossibleBuildings VALUE="BUILDING-SAGES_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-UNIVERSITY"/>
+		<PossibleBuildings VALUE="BUILDING-WIZARDS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+		<PossibleBuildings VALUE="BUILDING-ANIMISTS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+
+	</TOWN-BEASTMEN>
+	<TOWN-DARK_ELVES>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-DARK_ELVES"/>
+
+		<Farmer Farmer="2" Production="0.5" PowerProduction="1"/>
+		<Worker Farmer="0" Production="2" PowerProduction="1"/>
+		<Rebel Farmer="0" Production="0" PowerProduction="1"/>
+
+		<PopulationGrowth VALUE="-20"/>
+		<OutpostGrowth VALUE="2"/>
+		<TaxMultiplier VALUE="1"/>
+		
+
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MECHANICIANS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+		<PossibleBuildings VALUE="BUILDING-BANK"/>
+		<PossibleBuildings VALUE="BUILDING-MERCHANTS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-WAR_COLLEGE"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+		<PossibleBuildings VALUE="BUILDING-PARTHENON"/>
+		<PossibleBuildings VALUE="BUILDING-ORACLE"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+		<PossibleBuildings VALUE="BUILDING-SAGES_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-UNIVERSITY"/>
+		<PossibleBuildings VALUE="BUILDING-WIZARDS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+		<PossibleBuildings VALUE="BUILDING-ANIMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-FANTASTIC_STABLES"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-SHIP_YARD"/>
+
+	</TOWN-DARK_ELVES>
+	<TOWN-DRACONIANS>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-DRACONIANS"/>
+
+		<Farmer Farmer="2" Production="0.5" PowerProduction="0.5"/>
+		<Worker Farmer="0" Production="2" PowerProduction="0.5"/>
+		<Rebel Farmer="0" Production="0" PowerProduction="0.5"/>
+
+		<PopulationGrowth VALUE="-10"/>
+		<OutpostGrowth VALUE="5"/>
+		<TaxMultiplier VALUE="1"/>
+
+		
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MERCHANTS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+		<PossibleBuildings VALUE="BUILDING-BANK"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-WAR_COLLEGE"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+		<PossibleBuildings VALUE="BUILDING-PARTHENON"/>
+		<PossibleBuildings VALUE="BUILDING-CATHEDRAL"/>
+		<PossibleBuildings VALUE="BUILDING-ORACLE"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+		<PossibleBuildings VALUE="BUILDING-SAGES_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-UNIVERSITY"/>
+		<PossibleBuildings VALUE="BUILDING-WIZARDS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+		<PossibleBuildings VALUE="BUILDING-ANIMISTS_GUILD"/>
+		
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-SHIP_YARD"/>
+
+	</TOWN-DRACONIANS>
+	<TOWN-DWARVES>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-DWARVES"/>
+
+		<Farmer Farmer="2" Production="0.5"/>
+		<Worker Farmer="0" Production="3"/>
+		<Rebel Farmer="0" Production="0"/>
+
+		<PopulationGrowth VALUE="-20"/>
+		<OutpostGrowth VALUE="7"/>
+		<TaxMultiplier VALUE="2"/>
+		
+
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-DWARF_MINERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+		<PossibleBuildings VALUE="BUILDING-SAGES_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+		
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-SILVER_ORE"/>
+			<BonusTypes>
+				<Money VALUE="2"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-GOLD_ORE"/>
+			<BonusTypes>
+				<Money VALUE="3"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-IRON_ORE"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0.05"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-COAL"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0.10"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-GEMS"/>
+			<BonusTypes>
+				<Money VALUE="5"/>
+				<Power VALUE="0"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-MITHRIL_ORE"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="1"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-ADAMANTINE_ORE"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="2"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-QUORK_CRYSTALS"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="3"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+		<BuildingResourceBonus>
+			<Resource VALUE="RESOURCE-CRYSX_CRYSTALS"/>
+			<BonusTypes>
+				<Money VALUE="0"/>
+				<Power VALUE="5"/>
+				<Food VALUE="0"/>
+				<UnitProductionCost VALUE="0"/>
+				<BuildingProductionCost VALUE="0"/>
+			</BonusTypes>
+		</BuildingResourceBonus>
+
+	</TOWN-DWARVES>
+	<TOWN-TROLLS>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-TROLLS"/>
+
+		<Farmer Farmer="2" Production="0.5"/>
+		<Worker Farmer="0" Production="2"/>
+		<Rebel Farmer="0" Production="0"/>
+
+		<PopulationGrowth VALUE="-20"/>
+		<OutpostGrowth VALUE="3"/>
+		<TaxMultiplier VALUE="1"/>
+
+		
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+		<PossibleBuildings VALUE="BUILDING-PARTHENON"/>
+		<PossibleBuildings VALUE="BUILDING-CATHEDRAL"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+		<PossibleBuildings VALUE="BUILDING-ANIMISTS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+		
+	</TOWN-TROLLS>
+	<TOWN-GOBLINS Dlc="Dlc1" >
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-GOBLINS"/>
+		
+		<Farmer Farmer="2" Production="0.5"/>
+		<Worker Farmer="0" Production="3"/>
+		<Rebel Farmer="0" Production="0"/>
+
+		<PopulationGrowth VALUE="20"/>
+		<OutpostGrowth VALUE="10"/>
+		<TaxMultiplier VALUE="1"/>
+
+		
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+		<PossibleBuildings VALUE="BUILDING-ANIMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-FANTASTIC_STABLES"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SHIPWRIGHTS_GUILD"/>
+		
+	</TOWN-GOBLINS>
+	<TOWN-SOULTRAPPED Dlc="Dlc2" >
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-SOULTRAPPED"/>
+
+		<Farmer Farmer="2" Production="0.5"/>
+		<Worker Farmer="0" Production="2"/>
+		<Rebel Farmer="0" Production="0.5"/>
+
+		<PopulationGrowth VALUE="-30"/>
+		<OutpostGrowth VALUE="4"/>
+		<TaxMultiplier VALUE="1"/>
+		
+		<EnchantmentData VALUE="ENCH-AFINITY_FOR_MINERALS"/>
+
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-SOUL_MECHANICIANS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+		<PossibleBuildings VALUE="BUILDING-BANK"/>
+
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+		<PossibleBuildings VALUE="BUILDING-PARTHENON"/>
+		<PossibleBuildings VALUE="BUILDING-CATHEDRAL"/>
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+		<PossibleBuildings VALUE="BUILDING-SAGES_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-UNIVERSITY"/>
+		<PossibleBuildings VALUE="BUILDING-WIZARDS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-TECH_STABLES"/>
+
+		<PossibleBuildings VALUE="BUILDING-FISHERMAN_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-SOUL_SHIPWRIGHTS_GUILD"/>
+				
+		<PossibleBuildings VALUE="BUILDING-MAGIC_COLLECTOR"/>
+
+	</TOWN-SOULTRAPPED>
+	
+	<TOWN-BLUEORCS Dlc="Dlc3">
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>
+		<Graphic Outpost="Outpost" Settlement="Settlement" Hamlet="Hamlet" Village="Village" Town="Town" City="City"/>
+		<Race VALUE="RACE-BLUEORCS"/>
+
+		<Farmer Farmer="2" Production="0.5"/>
+		<Worker Farmer="0" Production="1.5"/>
+		<Rebel Farmer="0" Production="0"/>
+
+		<PopulationGrowth VALUE="15"/>
+		<OutpostGrowth VALUE="15"/>
+		<TaxMultiplier VALUE="1"/>
+		
+		<PossibleBuildings VALUE="BUILDING-TRADE_GOODS"/>
+		<PossibleBuildings VALUE="BUILDING-HOUSING"/>
+
+		<PossibleBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+		<PossibleBuildings VALUE="BUILDING-GRANARY"/>
+		<PossibleBuildings VALUE="BUILDING-FARMERS_MARKET"/>
+		<PossibleBuildings VALUE="BUILDING-CITY_WALLS"/>
+
+		<PossibleBuildings VALUE="BUILDING-SAWMILL"/>
+		<PossibleBuildings VALUE="BUILDING-FORESTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-MINERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-BLUEORCS_INDENTURED_WORKERS_GUILD"/>
+		
+		<PossibleBuildings VALUE="BUILDING-SMITHY"/>
+		<PossibleBuildings VALUE="BUILDING-MARKETPLACE"/>
+		
+		<PossibleBuildings VALUE="BUILDING-BARRACKS"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORY"/>
+		<PossibleBuildings VALUE="BUILDING-FIGHTERS_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ARMORERS_GUILD"/>
+
+		<PossibleBuildings VALUE="BUILDING-SHRINE"/>
+		<PossibleBuildings VALUE="BUILDING-TEMPLE"/>
+		<PossibleBuildings VALUE="BUILDING-PARTHENON"/>
+		
+
+		<PossibleBuildings VALUE="BUILDING-LIBRARY"/>
+		<PossibleBuildings VALUE="BUILDING-SAGES_GUILD"/>
+		<PossibleBuildings VALUE="BUILDING-ALCHEMISTS_GUILD"/>
+		
+		<PossibleBuildings VALUE="BUILDING-STABLES"/>
+		<PossibleBuildings VALUE="BUILDING-ANIMISTS_GUILD"/>
+				
+		<PossibleBuildings VALUE="BUILDING-BLUEORCS_RAIDERS_HUT"/>
+		<PossibleBuildings VALUE="BUILDING-BLUEORCS_GHOST_SHIPYARD"/>
+
+		<PossibleBuildings VALUE="BUILDING-MAGIC_COLLECTOR"/>
+
+				
+	</TOWN-BLUEORCS>
+
+</DB_TOWN>

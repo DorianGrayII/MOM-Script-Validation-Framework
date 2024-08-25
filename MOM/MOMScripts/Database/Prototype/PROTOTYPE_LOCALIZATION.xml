@@ -1,0 +1,12 @@
+﻿<PROTOTYPE_LOCALIZATION>	
+	<LOC  Name="Loc">
+		<Key Name="key" Type="string" Required="TRUE"/>
+		<Value Name="value" Type="string" Required="TRUE"/>
+	</LOC>
+	
+	<LOCALIZATION  Name="Localization">
+		<Language Name="language" Type="string" Required="TRUE"/>
+		<Loc Name="loc" Type="ArrayLOC" Required="TRUE"/>
+	</LOCALIZATION>
+	
+</PROTOTYPE_LOCALIZATION>

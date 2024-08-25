@@ -1,0 +1,108 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC1_EN Language="English">
+		<!-- DLC 1 descriptions --> 
+		<Loc Key="DES_RAASS" Value="Raa'ss" />
+		<Loc Key="DES_RAASS_DES" Value="Raa’ss is a powerful draconian Wizard filled with rage and turmoil that can be channelled into conquest with deathly precision. He is master of Chaos and Death magic and a Fantastic Warlord whose summons are of great power. He refuses to parade in humanoid clothes and he abhors his supposed twin, Sss’ra. It is said that Raa’ss’ true origin is steeped in malice, that he is in fact a dark reflection of Sss’ra come to life..." />
+		<Loc Key="DES_RAASS_QUOTE" Value="Call me a mere reflection once more, I dare you!" />
+		
+		<Loc Key="DES_BIANKA" Value="Bianka" />
+		<Loc Key="DES_BIANKA_DES" Value="Bianka rose to the highest ranks of dwarven nobility through her steadfast, unyielding determination and unchallenged mastery of rune magic. As Stonemason, Bianka also shows her almost unnatural affinity to stone. Native to Myrror, the great Wizard seeks to prove her birthright as the Master by wielding three separate magic schools, Sorcery, Chaos and Nature. " />
+		<Loc Key="DES_BIANKA_QUOTE" Value="My power is forged with turmoil, infused with runic force and set in eternal stone. None can crumble it!" />
+		
+		<Loc Key="DES_TLACHTGA" Value="Tlachtga" />
+		<Loc Key="DES_TLACHTGA_DES" Value="Tlachtga mastered the arts of Nature magic as a mere babe and grew to become one of the greatest druids of her dark lands. Tlachtga’s mastery of the less benign face of the circle of life has drawn her to Myrror where nature’s malice can be tamed and controlled. She is also a powerful Nature summoner, making Nature summons 50% cheaper and beginning her journey with a unit of War Bears." />
+		<Loc Key="DES_TLACHTGA_QUOTE" Value="Nature’s darker side feeds my power, so stand aside or be devoured by it!" />
+		
+		<Loc Key="DES_CORAX" Value="Corax" />
+		<Loc Key="DES_CORAX_DES" Value="Corax Whitefeather used to walk the path of darkness and crime in his youth, but he claims to have been inspired by his enlightened father to change his fate. He thus literally changed his feathers and claimed Life as his domain. Corax seeks to bring his wisdom to darkened places, by force if they refuse. He commands Life magic and as the Lifebringer, he can resurrect his fallen and give them healing skills." />
+		<Loc Key="DES_CORAX_QUOTE" Value="Seek the light with me, dark creature, for it will bring you peace and Power." />
+
+        <Loc Key="DES_RAASS_GREETINGS" Value="Kneel before me, lesser creature! We may be civil now, but turmoil will soon change this and blood will flow."/>
+		<Loc Key="DES_BIANKA_GREETINGS" Value="Well met! I am runekeeper Bianka, elder of my kin, master of stone. May our relations remain steadfast until the hour of the final test."/>
+		
+		<Loc Key="DES_TLACHTGA_GREETINGS" Value="Hi there, Tlachtga is the name, magic is my game, haha. May we play well, wizard, and may the better greenskin win."/>
+		<Loc Key="DES_CORAX_GREETINGS" Value="Salutations, Wizard. I am known as Corax Whitefeather and I seek no violence, until violence becomes the only way."/>
+
+	    <Loc Key="DES_TOADSWORTH" Value="Toadsworth the Boartamer" />
+		<Loc Key="DES_TOADSWORTH1" Value="Frogsworth the Boartamer" />
+		<Loc Key="DES_TOADSWORTH2" Value="Greenface the Boartamer" />
+		<Loc Key="DES_TOADSWORTH3" Value="Big Gobbo the Boartamer" />
+		<Loc Key="DES_TOADSWORTH4" Value="Furlover the Boartamer" />
+		<Loc Key="DES_TOADSWORTH_DES" Value="{0} is a somewhat unlikely hero, who rose to the ranks of champion despite all evidence pointing to a contrary fate. Also known as Towdi, he spent years in menial servitude, seemingly devoid of any talent. And yet, be it through sheer luck, determination or a devilish deal, he is now a master boar tamer that remains loyal to a master that gives him respect." />
+		<Loc Key="DES_JOTUN" Value="Jotun the Ice Troll" />
+		<Loc Key="DES_JOTUN1" Value="Imor the Ice Troll" />
+		<Loc Key="DES_JOTUN2" Value="Fala the Ice Troll" />
+		<Loc Key="DES_JOTUN3" Value="Gryla the Ice Troll" />
+		<Loc Key="DES_JOTUN4" Value="Mjoll the Ice Troll" />
+		<Loc Key="DES_JOTUN_DES" Value="{0}, also known as the Cursed, is a solitary hero, forever isolated by the cold ice that traps her body. Some say she seeks to serve Wizards in hopes of them lifting her curse. Whatever the true reason, after decades of isolation, the troll hero learnt to harness her cold curse and she now lends her aid to a worthy master." />
+	    <Loc Key="DES_BJORN" Value="Bjorn the Fireborn" />
+		<Loc Key="DES_BJORN1" Value="Bear the Fireborn" />
+		<Loc Key="DES_BJORN2" Value="Niedzwiedz the Fireborn" />
+		<Loc Key="DES_BJORN3" Value="Teddy the Fireborn" />
+		<Loc Key="DES_BJORN4" Value="Grizzly the Fireborn" />
+		<Loc Key="DES_BJORN_DES" Value="{0} is a fierce beastman hero who played with fire and got burned. The all devouring inferno would have killed most, but {0} is not like most. His sheer will to fight made him survive and emerge a creature of Chaos, forever merged with burning flames that now hunger for his enemies." />
+				
+		<Loc Key="DES_GOBLINS" Value="Goblins" />
+		<Loc Key="DES_GOBLINS_DES" Value="Goblins are small, green humanoids with great affinity to Nature and beast mastery. Some may describe them as primitive, and indeed Goblins favour tribal structures and natural habitats rather than civilisational advancements. They have a particular affinity to the fauna of the land, and are known for beast taming and druidic magic." />
+        <Loc Key="DES_GOBLINS_PRODUCTION" Value="Growth rate: very fast (base rate of +20 people/turn)\nBuilding restrictions: cannot build Sage's Guilds, Shipyard, or Parthenons.\nOther modifiers: -1 Armour{ICON:ArmourIconNormal} and Earthwalker skill for basic units (except constructs).\nSettler units cost x 1.5 production{ICON:ProductionIcon}.\nRacial units: {LINK:UNIT-GOB_BOAR_RIDER} Boar Riders {ICON:BoarRider}{END_LINK},{LINK:UNIT-GOB_DRUIDS} Druids {ICON:Druid}{END_LINK},{LINK:UNIT-GOB_BEASTMASTER} \nBeastmaster {ICON:Beastmaster}{END_LINK}" />		
+
+		<Loc Key="DES_GOBLIN_SETTLERS" Value="Goblin Settlers" />
+		<Loc Key="DES_GOBLIN_SPEARMEN" Value="Goblin Spearmen" />
+		<Loc Key="DES_GOBLIN_SWORDSMEN" Value="Goblin Swordsmen" />		
+		<Loc Key="DES_GOBLIN_BOWMEN" Value="Goblin Bowmen" />
+		<Loc Key="DES_GOBLIN_SHAMANS" Value="Goblin Shamans" />
+		<Loc Key="DES_BOAR_RIDER" Value="Boar Riders" />
+		<Loc Key="DES_BOAR_RIDER_DES" Value="An elite goblin cavalry, or so they say. Outsiders will describe them as a motley group of slightly deranged gobbos riding well trained, ferocious boars." />
+		<Loc Key="DES_DRUIDS" Value="Druids" />
+		<Loc Key="DES_DRUIDS_DES" Value="Special goblin caster unit with magical ranged attack. The druids are known for their superior affinity to Nature and can even call upon War Bears for aid." />
+		<Loc Key="DES_BEASTMASTER" Value="The Beastmaster" />
+		<Loc Key="DES_BEASTMASTER_DES" Value="An elite goblin unit with strong ranged attack and flying. The beastmaster claims they can tame even the strongest of beasts, yet all he has at his command is an obese vermin..." />
+
+		<Loc Key="DES_FANTASTIC_WARLORD" Value="Fantastic Warlord"/>
+		<Loc Key="DES_TRAIT_FANTASTIC_WARLORD_DES" Value="Mastery of the fantastic troops allows the Wizard to increase {ICON:MeleeIconNormal}, {ICON:RangedIconNormal}, {ICON:ArmourIconNormal}, {ICON:ResistanceIconNormal} and breath attacks of all summoned creatures under their control by +1.\n\n-Fantastic Warlord costs 1 pick."/>
+		<Loc Key="DES_ENCH_FANTASTIC_WARLORD_DES" Value="Mastery of the fantastic troops allows the Wizard to increase {ICON:MeleeIconNormal}, {ICON:RangedIconNormal}, {ICON:ArmourIconNormal}, {ICON:ResistanceIconNormal} and breath attacks of all summoned creatures under their control by +1."/>
+		<Loc Key="DES_STONEMASON" Value="Stonemason"/>
+		<Loc Key="DES_STONEMASON_DES" Value="Mastery of the art of stonemasonry allows the Wizard’s capitol and all newly built settlements to begin with a stone wall. In addition, the capital gains +10{ICON:ProductionIcon} production, and all units of the Wizard’s capitol race have the skill engineer, allowing them to build roads.\n\n-Stonemason costs 1 pick."/>
+		<Loc Key="DES_LIFEBRINGER" Value="Lifebringer"/>
+		<Loc Key="DES_LIFEBRINGER_DES" Value="Mastery of Life allows the Wizard to begin the game with the powerful Resurrect and Heal spells. The Lifebringer also gives a 25% discount to cast Resurrect, Heal and Mass Healing. In addition, all capitol race units under the Wizard’s control gain the healing skill.\n\n-The Wizard must have already selected at least 4 Life Spellbooks.\n\n-Lifebringer costs 1 pick."/>
+		<Loc Key="DES_HERO_MAGNET" Value="I Need a Hero!"/>
+		<Loc Key="DES_HERO_MAGNET_DES" Value="No more holding out for a hero til the end of the night. If you need a hero now, this is the trait for you. Begin the game with the Summon Hero and Summon Champion spell and gain a 25% discount to cast them. Additionally, the trait allows for one extra choice when heroes are summoned and/or recruited.\n\n-I Need a Hero! costs 1 pick."/>
+		<Loc Key="DES_NATURE_SUMMONER" Value="Nature Summoner"/>
+		<Loc Key="DES_NATURE_SUMMONER_DES" Value="The power of Nature allows the Wizard to begin the game with a unit of War Bears. In addition, the Wizard begins the game with uncommon and common Nature's summoning spells and all the Nature summons are 50% cheaper to upkeep.\n\n-Cannot take Conjurer or Channeler trait at the same time.\n\n-The Wizard must have already selected at least 4 Nature Spellbooks.\n\n-Nature Summoner costs 1 pick."/>
+
+		<Loc Key="DES_SUMMON_BOAR" Value="The Boar"/>
+		<Loc Key="DES_SUMMON_BOAR_DES" Value="Summons a raging boar into battle. The boar is a formidable melee{ICON:MeleeIconNormal} fighter and can also Stun its enemy."/>
+		<Loc Key="DES_DLC_BOAR" Value="The Boar" />
+		<Loc Key="DES_DLC_BOAR_DES" Value="A rampaging boar called upon into combat by the most skillful boar tamers. The boar is a formidable melee{ICON:MeleeIconNormal} fighter and can also Stun its enemy." />		
+		<Loc Key="DES_SUMMON_FAT_RAT" Value="A Fat Rat"/>
+		<Loc Key="DES_SUMMON_FAT_RAT_DES" Value="Summons a poison dealing, fat rat into battle. Their bite will cause Bleeding and their ugly visage can Cause Fear in the enemy."/>
+		<Loc Key="DES_DLC_FAT_RAT" Value="A Fat Rat" />
+		<Loc Key="DES_DLC_FAT_RAT_DES" Value="A fat rat is an unseemingly devious creature hailing from darker lands than even Myrror. Their bite will cause Bleeding and their ugly visage can Cause Fear in the enemy. " />
+
+		<Loc Key="DES_CURSED" Value="Curse"/>
+		<Loc Key="DES_CURSED_DES" Value="Curse lowers Resistance{ICON:ResistanceIconNormal} of enemy units (on the battlefield) by -1. "/>
+		<Loc Key="DES_CURSED_UNIT" Value="Cursed"/>
+		<Loc Key="DES_CURSED_UNIT_DES" Value="This unit is affected by the Curse ability."/>
+		<Loc Key="DES_FOODIE" Value="Foodie"/>
+		<Loc Key="DES_FOODIE_DES" Value="The hero loves to eat and will only accept Food as upkeep (3 per turn), this makes them stronger (+1 attack, +1 armour + 1 resistance on lvl 1 and then extra +1 every 3rd level gained)."/>
+		<Loc Key="DES_BLEEDING_2_OWNER" Value="Bleeding 2"/>
+		<Loc Key="DES_BLEEDING_2_OWNER_DES" Value="Unit attacked with Bleeding receives damage equal to the skill value until they pass a Resistance{ICON:ResistanceIconNormal}test."/>
+		<Loc Key="DES_BLEEDING_UNIT" Value="Bleeding {0}"/>
+		<Loc Key="DES_BLEEDING_UNIT_DES" Value="This unit is affected by the Bleeding ability."/>
+		<Loc Key="DES_EARTH_WALKER" Value="Earthwalker"/>
+		<Loc Key="DES_EARTH_WALKER_DES" Value="Earthwalker allows all units stacked with them to pass through swamp, desert and tundra at a cost of 1 movement point per hex. It also makes units immune to the Earth to Mud spell."/>
+
+		<Loc Key="DES_RES_MAMMOTH" Value="Mammoth"/>
+		<Loc Key="DES_RES_MAMMOTH_DES" Value="Large, furry mammals with expensive tusks and lots of meat. Provides +1 Food ({ICON:FoodIcon}) +1 Gold ({ICON:GoldIcon}) to the nearby town.\nCan be changed into Wild Game using the Transmute spell."/>
+		<Loc Key="DES_STUN" Value="Stun"/>
+		<Loc Key="DES_STUN_DES" Value="On a failed Resistance {ICON:ResistanceIconNormal} roll, the target enemy unit's melee {ICON:MeleeIconNormal} and ranged {ICON:RangedIconNormal} attacks are halved for one turn."/>
+	
+		<Loc Key="DES_REALM_SYNERGY" Value="Synergy" />
+		<Loc Key="DES_REALM_SYNERGY_DES" Value="This unit belongs to no one realm, but is weaved from the Synergy of all. The units will typically be summoned by special skills only." />
+
+		<Loc Key="DES_SUMMON_WAR_BEARS" Value="War Bear"/>
+		<Loc Key="DES_SUMMON_WAR_BEARS_DES" Value="Summons the fearsome war bear onto the battlefield."/>
+
+		<Loc Key="DES_STONEMASON_ENCH_DES" Value="The city is under the care of a Stonemason, thus it receives a free wall of stone and gains +10{ICON:ProductionIcon} production." />
+	</LOCALIZATION-DLC1_EN>
+</DB_LOCALIZATION>

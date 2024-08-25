@@ -1,0 +1,23 @@
+﻿<DB_SKILL>
+
+    <SKILL-FORCE_OF_NATURE1 Domain="Nature">
+        <DescriptionInfo Name="DES_FORCE_OF_NATURE" Description="DES_FORCE_OF_NATURE1_DES" Graphic="skillFonIronSkin"/>
+        <Script TriggerType="AttributeChange" Priority="0"
+                ActivatorMainScript="ACTPass_ForceOfNature1"/>
+    </SKILL-FORCE_OF_NATURE1>
+
+    <SKILL-FORCE_OF_NATURE2 Domain="Nature">
+        <DescriptionInfo Name="DES_FORCE_OF_NATURE" Description="DES_FORCE_OF_NATURE2_DES" Graphic="skillFonPathfinding"/>
+        <Script TriggerType="AttributeChange" Priority="0"
+                ActivatorMainScript="ACTPass_ForceOfNature2"/>
+        <SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_UnitUpdateMove"/>
+        <SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_UnitUpdateMove"/>
+    </SKILL-FORCE_OF_NATURE2>
+
+    <SKILL-FORCE_OF_NATURE3 Domain="Nature">
+        <DescriptionInfo Name="DES_FORCE_OF_NATURE" Description="DES_FORCE_OF_NATURE3_DES" Graphic="skillForceOfNature"/>
+        <Script TriggerType="AttributeChange" Priority="0"
+                ActivatorMainScript="ACTPass_ForceOfNature3"/>
+    </SKILL-FORCE_OF_NATURE3>
+
+</DB_SKILL>

@@ -1,0 +1,198 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC3_EN Language="English">
+		<!-- DLC 3 descriptions -->
+		
+		<!-- WIZARDS -->
+		<Loc Key="DES_BELIT" Value="Belit" />
+		<Loc Key="DES_BELIT_DES" Value="Once a mighty ruler of the orcs alongside Bladud, Belit did not approve of her kin becoming more docile in the name of civilised conduct. Instead, she sought to return them to a time of blood and conquest. Alas, the betrayal of her royal bloodline or perhaps a hex from a scorned love, brought about the great curse that turned Belit and her pirate kin into scourgers. But for Belit, being the damned was no obstacle. She has embraced her new state and will challenge anyone who thinks it a weakness. The pirate queen favours razing cities and gives great boons for doing so. She has mastered Death and Sorcery and seeks to show all the other Wizards the power of her cursed destiny! " />
+		<Loc Key="DES_BELIT_QUOTE" Value="They call me the Cursebringer, the doomed, the traitor. I am all of those, I am the queen of the seas and shall be the Master of all soon enough! " />
+
+		<Loc Key="DES_BELIT_GREETINGS" Value="Greetings, Wizard, I am the queen of the seas, Belit. Speak your mind, before words fail us."/>
+		<Loc Key="DES_BELIT_GREETINGS_BLADUD_1" Value="Bladud, you look well and as you can see, I do as well, despite your spiteful curse. Still, let us speak now, before I can tear your guts out and feed them to the fish..."/>
+		<Loc Key="DES_BELIT_GREETINGS_BLADUD_2" Value="Husband... Speak."/>
+
+		<Loc Key="DES_HORATIO" Value="Sir Horatio" />
+		<Loc Key="DES_HORATIO_DES" Value="Sir Horatio is a renowned naval commander who rose far above his station and far above the expectations of his rather less civilised peoples. Happy to be a soldier, Horatio soon realised that the games other Wizards play leave him at a disadvantage and threaten his duty and his crew. He then claimed the mastery of higher magic, which allowed him to truly tame the seas and become a Wizard himself. As he rose to the rank of the Sea Tamer, he now prides himself as a master Tactician and a Sea Master able to ambush his enemies and command his powerful sea fleets. Horatio is determined to prove that his soldier’s discipline and training will raise him to the rank of Master. " />
+		<Loc Key="DES_HORATIO_QUOTE" Value="For honour and glory, I shall take charge and lead all to a great victory!" />
+
+		<Loc Key="DES_HORATIO_GREETINGS" Value="I salute you, Wizard! I am Lord Horatio, at your service, for now."/>
+		<Loc Key="DES_HORATIO_GREETINGS_GAYN_1" Value="Gayn, brother! The time has come for us to be rivals, but I know we will both remain honourable throughout. Until the final battle, let us speak."/>
+		<Loc Key="DES_HORATIO_GREETINGS_GAYN_2" Value="Gayn, let us speak frankly with one another."/>
+
+		<Loc Key="DES_QUEEN_XARXLA" Value="Queen Xar’xla"/>
+		<Loc Key="DES_QUEEN_XARXLA_DES" Value="As a supreme hive queen, Xar’xla was destined to rule over millions of klackons, but her destiny was even greater. Upon discovering her talent in magic and observing the power held by those who wield it, the queen set her sights on becoming a supreme Wizard. With the power of the master hive fuelling her endeavour, Xar’xla soon joined the great contest and set her sights on having other arcane users join as her royal hive. Futile efforts to resist the queen are seen by her as a mere nuisance. " />
+		<Loc Key="DES_QUEEN_XARXLA_QUOTE" Value="We are one and so shall you be, once we are victorious." />
+
+		<Loc Key="DES_QUEEN_XARXLA_GREETINGS" Value="We greet you, Wizard, we are one and many, the name you may speak is Xar'xla."/>
+
+		<Loc Key="DES_GAYN" Value="Gayn" />
+		<Loc Key="DES_GAYN_DES" Value="As a proud lizardman, Gayn has always seen himself as guardian of the seas. In his youth he served as a mercenary on many ships, and together with Horatio, fought many sea battles. But a day came when he faced the true threat of the Wizards and he knew then that he needed to rise above to truly defend the waters he loved. With Death and Nature now on his side, Gayn protects the waters and bends the seas to his will. He is known to enjoy hunting pirates and dangerous sea creatures, thus earning him the title Sea Hunter. Years of experience as a sailor now benefit those under his command with greater water speed as well as advantages in sea combat. " />
+		<Loc Key="DES_GAYN_QUOTE" Value="So many seek to claim my seas as theirs. It is time I show them my power, it is time I become master of all." />
+
+		<Loc Key="DES_GAYN_GREETINGS" Value="Welcome, I am Gayn. Tho we may be enemies soon, let us speak well today."/>
+		<Loc Key="DES_GAYN_GREETINGS_HORATIO_1" Value="Lord Horatio, so we finally meet like this.Brothers at arms, soon to be enemies. But let us meet this known fate with cheer and honour."/>
+		<Loc Key="DES_GAYN_GREETINGS_HORATIO_2" Value="Lord Horatio, a pleasure to speak to you, even now."/>
+
+		
+		<!-- TRAIT --> 
+		<Loc Key="DES_KLACKON_SUPREMACY" Value="Hive Master"/>
+		<Loc Key="DES_KLACKON_SUPREMACY_DES" Value="The hive master connects to the klackon collective to increase efficiency. The Wizard gains +5 Casting Skill for every klackon unit in battle. In addition, the klackons under the Wizard's rule are no longer as disliked by other races and the klackon hero Ph'ym the Philomath joins at the start of the game.\n\n-The trait only works with the klackon race.\n\nCannot be taken with other race-exclusive traits.\n\n-Hive Master costs 2 picks."/>
+        <Loc Key="DES_SWIFT_SEALEGS" Value="Sea Master"/>
+        <Loc Key="DES_SWIFT_SEALEGS_DES" Value="The Sea Master provides all units that already have the ability to swim (including non-corporeal and fantastic units) under the command of the Wizard with +1 to movement points, on the overland map. Additionally, ships built or gained under the watchful eye of the ship master begin their water journey with boosted level (+3 levels) and are cheaper to build -20%. \n\n-Sea Master costs 2 picks."/>		
+        <Loc Key="DES_POWER_PEOPLE" Value="Power of the People"/>
+        <Loc Key="DES_POWER_PEOPLE_DES" Value="Your loyal subjects are exceptionally attuned to magic. With the Power of the People the Wizard's capitol race gives +1 Power per population.\n\n- Power of the People costs 2 picks."/>	
+        <Loc Key="DES_THE_PIRATE" Value="Pirate"/>
+        <Loc Key="DES_THE_PIRATE_DES" Value="The Pirate Wizard thrives on conquest and raids. When they choose to raze an enemy city, they gain extra Gold, and an additional reward based on the size of the city. Additionally, the Wizard gains a unit of the Leashed from the raid. They also gain Fame for razing the city but will lose Fame for keeping one.\nBEWARE, the Pirate trait also triggers a Pirate Rebellion event in your cities when you own more than 6 towns!\n\n- Pirate costs 3 picks."/>	
+        <Loc Key="DES_TACTITIAN" Value="Tactician"/>
+        <Loc Key="DES_TACTITIAN_DES" Value="As a supreme Tactician, the Wizard is able to plan their battles well and thus add +1 to movement points in combat to all units under their command. In addition, the Wizard gives an advantage to their troops in battle and allows them to always begin the combat first, no matter if they are the defender or the attacker (The Wizard tower defense is exempt from this, and will still shoot first).\n\n- Tactician costs 2 picks."/>	
+        <Loc Key="DES_ADMIRAL" Value="Shipmaster"/>
+        <Loc Key="DES_ADMIRAL_DES" Value="Ships built or gained under the watchful eye of the shipmaster begin their water journey with boosted level (+3 levels)."/>	
+		<Loc Key="DES_SEA_HUNTER" Value="Sea Hunter"/>
+        <Loc Key="DES_SEA_HUNTER_DES" Value="Sea Hunter Wizards give great bonuses to their troops when engaged in water based combat. All units under the command of the Wizard in a battle, gain +2 to all stats apart from HP and the ability to Swim.\n\n-Sea Hunter costs 1 pick."/>	
+        <Loc Key="DES_WATER_BOSS_1" Value="Kraken's Heart"/>
+        <Loc Key="DES_WATER_BOSS_1_DES" Value="The Kraken's Heart is a powerful, magical organ. The Wizard who possesses it gains + 25% discount on Research cost for all Arcane spells."/>
+        <Loc Key="DES_WATER_BOSS_2" Value="Kraken's Eye"/>
+        <Loc Key="DES_WATER_BOSS_2_DES" Value="The Kraken's Eye is a potent magical component. It allows the Wizard to lower the casting cost of all Arcane spells (Except Enchant Item and Create Artefact) by 25%."/>
+		
+		<!-- RACE --> 
+		<Loc Key="DES_BLUEORCS" Value="Scourgers" />
+		<Loc Key="DES_BLUEORCS_DES" Value="The scourgers were once part of the orc clans, but they did not want to let go of their war-like nature. The renegades took to the seas for pillage, plunder and shackle their enemies, becoming some of the most fearsome pirates known in the two realms. Alas, this was not the end of their tale, as one day, a dark, unrelenting curse doomed all the pirates to eternal un-death! Thus, the scourgers came to be: spectral beings driven by greed and envy of the living. The jealousy runs so deep that they even insist on producing lavish amounts of food that they cannot devour." />
+		<Loc Key="DES_BLUEORCS_PRODUCTION" Value="Growth rate: fast (base rate of +15 people/turn)\nBuilding restrictions: cannot build Ship Yard, Fantastic Stables, Cathedrals, or Universities.\nOther modifiers: +1{ICON:MeleeIconNormal} melee attack for units (except non-racial units), Non-Corporeal (except non-racial units) and Cloak of Fear (except Leashed, Rusalka, The Captain, Ghostship).\nRacial units: {LINK:UNIT-B_ORC_RUSALKA} Rusalka {ICON:Rusalka}{END_LINK} {LINK:UNIT-B_ORC_BLACKSPARROW} The Captain {ICON:Blacksparrow}{END_LINK} {LINK:UNIT-B_ORC_SEA_CREATURE} Sea Creature {ICON:SeaCreature}{END_LINK} {LINK:UNIT-B_ORC_GHOSTSHIP} Paragon Ghostship {ICON:Ghostship}{END_LINK}"/>
+        <Loc Key="DES_PIRATE_DUNG" Value="Pirates" />
+		<Loc Key="DES_PIRATE_DUNG_DES" Value="The unit is part of the pirate scourge that has infested the seas. The pirates are known to hoard great treasures and protect them fiercely in their lairs." />
+		
+		
+		<!-- BUILDINGS -->
+		<Loc Key="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD" Value="Cursed Shipyard"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD_DES" Value="The cursed shipyard, staffed by the spirits of dockhands who now craft ghostly ships, even on land."/>
+		<Loc Key="DES_BUILDING_BLUEORCS_RAIDERS_HUT" Value="Raider's Hut'"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_RAIDERS_HUT_DES" Value="The raider's hut allows the pirates to raid the bounty of the seas for their city.\n\nEffects: Gain +3{ICON:FoodIcon} Food and +3{ICON:GoldIcon} Gold.\n\nREQUIRES SHORELINE "/>
+
+		
+		<!-- UNITS -->
+		<Loc Key="DES_BLUEORCS_SETTLER_SETTLERS" Value="Scourger settlers"/>
+		<Loc Key="DES_BLUEORCS_TRIREME" Value="Ghostly Trireme"/>
+		<Loc Key="DES_BLUEORCS_TRIREME_DES" Value="The ghostly ship is immaterial, allowing the cursed pirates to raid both land and sea."/>
+		<Loc Key="DES_BLUEORCS_SWORDSMEN" Value="Scourger swashbucklers"/>
+		<Loc Key="DES_BLUEORCS_CAVALRY" Value="Scourger cavalry"/>
+		<Loc Key="DES_BLUEORCS_BOWMEN" Value="Scourger bowmen"/>
+		<Loc Key="DES_BLUEORCS_SHAMANS" Value="Scourger shamans"/>
+		<Loc Key="DES_BLUEORCS_RUSALKA" Value="Rusalka"/>
+		<Loc Key="DES_BLUEORCS_RUSALKA_DES" Value="The rusalka is an exotic water nymph, captured by the ghostly buccaneers and forced to dance for them forever. She is a powerful caster that can dazzle the battlefield."/>
+		<Loc Key="DES_BLUEORCS_SEA_CREATURE" Value="Sea Creature"/>
+		<Loc Key="DES_BLUEORCS_SEA_CREATURE_DES" Value="The sea creature is mutated deep ocean beast, bound to serve the captains of the pirate fleet with its strong melee strikes and stoning gaze and can summon a shark cyclone."/>
+		<Loc Key="DES_BLUEORCS_BLACK_SPARROW" Value="The Captain"/>
+		<Loc Key="DES_BLUEORCS_BLACK_SPARROW_DES" Value="There can be no pirate ship without its fearsome Captain. Trapped in their cursed, spectral form, mutated by the deep sea they lead their deadly crews to pillage and plunder. The Captain hold the shackles that bind boundless prisoners into servitude for the pirates."/>
+		<Loc Key="DES_BLUEORCS_GHOSTSHIP" Value="Paragon Ghostship"/>
+		<Loc Key="DES_BLUEORCS_GHOSTSHIP_DES" Value="Paragon Ghostship is the very curse of the scourgers incarnate. An infernal live-vessel from the very depths of the oceans, answering the call of its doomed brethren to claim the souls of the fallen."/>
+		<Loc Key="DES_BLUEORCS_LEASHED" Value="The Leashed"/>
+		<Loc Key="DES_BLUEORCS_LEASHED_DES" Value="The leashed are those unfortunate souls who were captured by the cursed pirates and twisted into a new creature of the ocean depths. The wretched are an amalgamation of the many who once dwelled the city, and as such, they possess surprising skills, like engineering and scouting."/>
+		<Loc Key="DES_SOR_WATER_ELEMENTAL" Value="Shark Cyclone"/>
+		<Loc Key="DES_SOR_WATER_ELEMENTAL_DES" Value="The shark cyclone is a terrifying force of the deep seas, summoned to cause havoc on the battlefield."/>
+		<Loc Key="DES_TENTACLE" Value="Kraken's' Tentacle"/>
+		<Loc Key="DES_TENTACLE_DES" Value="The kraken is a legendary sea beast, so large and so menacing, you only ever fight with its tentacles in the hope it will leave you be once you defeat them!"/>
+		
+	    <!-- HERO -->
+		<Loc Key="DES_PHYM" Value="Ph'ym the Philomath"/>
+		<Loc Key="DES_PHYM1" Value="Ant'man the Philomath"/>
+		<Loc Key="DES_PHYM2" Value="La'ng the Philomath "/>
+		<Loc Key="DES_PHYM3" Value="Og'rad the Philomath"/>
+		<Loc Key="DES_PHYM4" Value="Za'yn the Philomath"/>
+		<Loc Key="DES_PHYM_DES" Value="{0} used to be just another loyal member of the hive striving to serve his queen dutifully and ever searching for more wisdom. But in achieving his goal of excellence, he also became an individual, on oddity amongst his kin. Seeing the hero's growing strength and unwavering resolve, his queen has allowed {0} his freedom. After all, the hive can only become stronger from the experience brought in by such units. While {0} does prefer to work for his queen, he will lend his services to any Wizard able to expand his experiences."/>
+		<Loc Key="DES_SLITHERS" Value="Slithers the Sea Scourge"/>
+		<Loc Key="DES_SLITHERS1" Value="Scales the Sea Scourge"/>
+		<Loc Key="DES_SLITHERS2" Value="Slicer the Sea Scourge"/>
+		<Loc Key="DES_SLITHERS3" Value="Syrin the Sea Scourge"/>
+		<Loc Key="DES_SLITHERS4" Value="Shells the Sea Scourge"/>
+		<Loc Key="DES_SLITHERS_DES" Value="{0} is a skilled, dual wielding, lizardmen warrior, especially trained to hunt down seafaring enemies. Her mount is enchanted by ancient oceanic magic, allowing {0} to carry her entire army onto water to chase down pirates and any other who would dare to stand in her way, thus earning the title of the Sea Scourge. The hero will become a loyal mercenary to any Wizard who she deems worthy, or who pays her fee. "/>
+		<Loc Key="DES_BIG_BERTA" Value="Big Berta"/>
+		<Loc Key="DES_BIG_BERTA1" Value="Mighty Martha"/>
+		<Loc Key="DES_BIG_BERTA2" Value="Ball-breaker Bonnie"/>
+		<Loc Key="DES_BIG_BERTA3" Value="Tiny Tina"/>
+		<Loc Key="DES_BIG_BERTA4" Value="Browny Beatrice"/>
+		<Loc Key="DES_BIG_BERTA_DES" Value="{0} was always a hefty orc woman with a strong arm and likeness for balls, cannon balls that is. {0} sees the curse of the scourgers as a gift, for it has bestowed on her even greater power. {0} has impressed many ship crews in her past, earning her the title of captain many times over. But these days, the sea worthy cannoneer is out searching for a new challenge and some fun, as a mercenary. She will serve any Wizard that pays well and keeps things interesting."/>
+		<Loc Key="DES_WUSP" Value="Wu'sp"/>
+		<Loc Key="DES_WUSP_DES" Value="Wu'sp is a fierce and loyal servant of the great klackon hive. She will never serve as an individual hero, but she does try to hunt down Ph'ym and bring him back to hive justice!"/>
+		
+		<!-- ENCHANTMENTS --> 
+		<Loc Key="DES_POWER_PEOPLE_ENCH_DES" Value="The city produces +1 Power per population thanks to the Power of the People."/>
+        <Loc Key="DES_TACTITIAN_ENCH_DES" Value="Under the Tactician's eye, the unit gains +1 MP in combat."/>	
+        <Loc Key="DES_WATER_SPEED" Value="Water Speed"/>	
+        <Loc Key="DES_WATER_SPEED_DES" Value="Water speed gives +1 MP to units with the ability to swim, on the overland map."/>	
+        <Loc Key="DES_ADMIRAL_ENCH_DES" Value="All ships under the command of the Shipmaster gain +3 levels."/>	
+        <Loc Key="DES_WATER_SPEED_ENCH_DES" Value="The Sea Master gives +1 MP to units with the ability to swim, on the overland map."/>	
+		<Loc Key="DES_AMBUSH" Value="Tactical ambush"/>
+        <Loc Key="DES_AMBUSH_ENCH_DES" Value="The Tactician allows the army to always begin combat first."/>	
+        <Loc Key="DES_SHALLOW_WATER" Value="Shallow Water"/>	
+        <Loc Key="DES_SHALLOW_WATER_DES" Value="This battlefield is on shallow waters so all units that do not already have Swim or Fly, gain water walking and, so are able to move in combat."/>	
+        <Loc Key="DES_SEA_HUNTER_ENCH_DES" Value="All units under the command of the Sea Hunter, in a battle, gain +2 to all stats apart from HP and the ability to swim."/>
+		<Loc Key="DES_WIND_CAVE_ENCH" Value="Deathwind"/>
+		<Loc Key="DES_WIND_CAVE_ENCH_DES" Value="The deathwind blows with the chilling power of the cursed seas causing the constant rockfall from the cave's ceiling. Every turn there's a 5% chance the rocks will take 50% current health of the unit, rounded up (max 2 units per turn) and the wind is so strong, that all types of Ranged Attack get -10%{ICON:ToHitBonusIcon} To Hit. The winds are also so strong that Flight {ICON:MovementFlyingIcon} will not work on any unit."/>	
+		<Loc Key="DES_PIRATE_CURSE_ENCH" Value="Pirate Curse"/>
+		<Loc Key="DES_PIRATE_CURSE_ENCH_DES" Value="The Pirate Curse looms over the battlefield. The attacking force gets -1{ICON:ResistanceIconNormal} to resistance and -1 MP for all units. The curse also causes the battle to last only 20 turns! "/>	
+		<Loc Key="DES_IMMOVABLE_OBJECTS" Value="Immovable Terrain"/>
+		<Loc Key="DES_IMMOVABLE_OBJECTS_DES" Value="Some objects on this map are steeped so deeply in an ancient power, that they cannot be traversed, or influenced in any way, magical or mundane."/>	
+		<Loc Key="DES_MASS_WATER_WALKING_UNIT" Value="Wave Carried"/>
+		<Loc Key="DES_MASS_WATER_WALKING_UNIT_DES" Value="The unit is carried on water by one possessing the Wave Rider skill. Until the units are stacked together, they gain the Swim ability."/>
+		<Loc Key="DES_KLACKON_SUPREMACY_ENCH" Value="Hive Master"/>
+		<Loc Key="DES_KLACKON_SUPREMACY_ENCH_DES" Value="The Hive Master Wizard gains +5 Casting Skill for every klackon unit in battle."/>
+		
+		<!-- SKILLS --> 
+		<Loc Key="DES_GHOSTSHIP_TERROR" Value="Spectral Terror"/>
+		<Loc Key="DES_GHOSTSHIP_TERROR_DES" Value="The Spectral Terror causes every enemy unit in battle to resist (+1 resistance{ICON:ResistanceIconNormal}) each turn or they become terrified for that turn and unable to perform any action."/>
+		<Loc Key="DES_MUD_ATTACK" Value="Muddy Charm"/>
+		<Loc Key="DES_MUD_ATTACK_DES" Value="A charmed unit feels like they should dance, not fight. In reality, with every attack (melee/ranged) if the attacked unit fails a resist {ICON:ResistanceIconNormal}) check the land beneath their feet turns to mud and they lose 1 MP for 1 turn (additional attacks and failed resist rolls increase the duration)."/>	
+        <Loc Key="DES_MUD_DES" Value="This unit is mud-charmed and feels like they should dance, not fight. Every time they fail a resistance {ICON:ResistanceIconNormal} check, they lose 1 MP for 1 turn (additional attacks and failed resist rolls increase the duration)."/>		
+		<Loc Key="DES_MASS_WATER_WALKING" Value="Wave Rider"/>
+        <Loc Key="DES_MASS_WATER_WALKING_DES" Value="The unit is carried on water by their Wave Rider skill. The unit and all stacked with it gain the Swim skill."/>		
+        <Loc Key="DES_MASS_WATER_WALKING_SKILL_DES" Value="The Wave River moves on water with ease and can take others with them. The unit and all stacked with it gain Swim."/>
+		<Loc Key="DES_HIVEMIND" Value="Hivemind"/>
+		<Loc Key="DES_HIVEMIND_DES" Value="The hero is connected to the klackon hivemind. As such, they gain bonuses for each klackon unit stacked with them."/>
+		<Loc Key="DES_SHACKLE_MASTER" Value="Shackle Master"/>
+		<Loc Key="DES_SHACKLE_MASTER_DES" Value="The Shackle Master reigns control over their captured troops. The captured: Sea Creature, Rusalka and Leashed gain +10% {ICON:ToHitBonusIcon} To Hit."/>
+		<Loc Key="DES_SHACKLED" Value="Shackled Unit"/>
+		<Loc Key="DES_SHACKLED_DES" Value="The Shackle Master reigns control over their captured troops. This unit is one of the Shackled and gains +10% {ICON:ToHitBonusIcon} To Hit."/>
+		
+		<!-- RES --> 
+		<Loc Key="DES_RES_FISH" Value="Fish"/>
+		<Loc Key="DES_RES_FISH_DES" Value="Provides +2{ICON:FoodIcon} Food and reduces the cost of unit production by 10%.\nCannot be altered with the Transmute spell, but can use Sea Harvest to gain resources."/>
+		<Loc Key="DES_RES_PEARLS" Value="Ocean Pearls"/>
+		<Loc Key="DES_RES_PEARLS_DES" Value="Provides +3{ICON:PowerIcon} Power and +3{ICON:GoldIcon} Gold to the nearby town.\nCannot be altered with the Transmute spell, but can use Sea Harvest to gain resources."/>
+		<Loc Key="DES_RES_REEF" Value="Reef"/>
+		<Loc Key="DES_RES_REEF_DES" Value="Provides +2{ICON:GoldIcon} Gold and reduces the production cost of buildings by 20% in the nearby town.\nCannot be altered with the Transmute spell, but can use Sea Harvest to gain resources."/>
+				
+		<!-- SPELLS ADN ENCH -->
+		<Loc Key="DES_WATER_ELEMENTAL" Value="Shark Cyclone"/>
+		<Loc Key="DES_WATER_ELEMENTAL_DES" Value="Summons a terrifying force of the deep seas, the Shark Cyclone, made to cause havoc on the battlefield."/>
+		<Loc Key="DES_BARRAGE" Value="Barrage"/>
+		<Loc Key="DES_BARRAGE_DES" Value="The unit fires a deadly barrage against its enemy. All enemy units in combat are hit by a 5 strength, magical fire attack."/>
+		<Loc Key="DES_CONSTANTSTORM" Value="Endless Storm"/>
+		<Loc Key="DES_CONSTANTSTORM_DES" Value="The Endless Storm rages on the battlefield. Every turn, one random attacker unit is striken with a strength 10 lightning attack."/>
+		<Loc Key="DES_SEA_HARVEST" Value="Sea Harvest"/>
+		<Loc Key="DES_SEA_HARVEST_DES" Value="The Sea Harvest transmutes a sea resource to provide +10{ICON:CastingSkillIcon} to Casting Skill progress, + 0-50 {ICON:ManaIcon} Mana and + 50-100 {ICON:GoldIcon} Gold.\nNote: The harvested resource is destroyed and targeting resources in an opponent's city range has 20% chance to be successful."/>
+		<Loc Key="DES_SEA_HARVEST_TARGET" Value="Target a water tile with Fish, Ocean Pearls or Reef resource."/>
+		<Loc Key="DES_SHIP_DISCOUNT" Value="Ship Master"/>
+		<Loc Key="DES_SHIP_DISCOUNT_DES" Value="As a Sea Master, the Wizard is able to inspire great craftsmen and ship masters who can build ships in towns with 20% production discount."/>
+		<Loc Key="DES_HIVEMIND_UNIT" Value="Hive connected"/>
+		<Loc Key="DES_HIVEMIND_UNIT_DES" Value="The unit is hive connected and gains +10% Chance to Defend."/>
+
+		<!--LAIRS -->
+		<Loc Key="DES_WIND_CAVE" Value="Wind Caves"/>
+		<Loc Key="DES_REEF_TREASURE_ISLAND" Value="Treasure Island"/>
+		<Loc Key="DES_WATER_BOSS_LAIR_1" Value="Kraken Lair"/>
+		<Loc Key="DES_WATER_BOSS_LAIR_2" Value="Kraken Lair"/>
+
+        <!--LAIR UNITS -->
+        <Loc Key="DES_PIR_GIANT_SPIDERS" Value="Pirate Spiders" />
+		<Loc Key="DES_PIR_GIANT_SPIDERS_DES" Value="Nature's eight legged defenders commandeered by the Pirates. The spiders rely on their poisonous touch and web spell, to support their swift melee {ICON:MeleeIconNormal} attacks. Their weakness lies in poor defences, so it is best to try and hit them first." />
+	    <Loc Key="DES_PIR_PHANTOM_WARRIORS" Value="Pirate Phantoms" />
+		<Loc Key="DES_PIR_PHANTOM_WARRIORS_DES" Value="Summoned in battle by Pirates, the phantom warriors are a basic melee {ICON:MeleeIconNormal} unit, which strikes the enemy with a treacherous, illusionary power that omits defence."/>
+		<Loc Key="DES_PIR_NAGAS" Value="Pirate Nagas" />
+		<Loc Key="DES_PIR_NAGAS_DES" Value="Brought forth by Pirates, the nagas have a poisonous touch that aids their fast melee {ICON:MeleeIconNormal} attack." />
+		<Loc Key="DES_PIR_ZOMBIES" Value="Pirate Zombies" />
+		<Loc Key="DES_PIR_ZOMBIES_DES" Value="Through the Power of Pirate scourge, zombies serve their purpose. These undead fiends are melee {ICON:MeleeIconNormal} fighters of meagre strength, but good meat shields." />
+		<Loc Key="DES_PIR_WRAITHS" Value="Pirate Wraiths" />
+		<Loc Key="DES_PIR_WRAITHS_DES" Value="Called into servitude by the Pirates, the wraiths are non-corporeal melee {ICON:MeleeIconNormal} fighters with the ability to steal life and thus also create undead servants." />
+
+	</LOCALIZATION-DLC3_EN>
+</DB_LOCALIZATION>

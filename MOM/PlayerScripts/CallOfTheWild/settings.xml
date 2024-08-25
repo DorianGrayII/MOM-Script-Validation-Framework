@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>cotw</prefix>
+    <name>Call of the Wild</name>
+    <title>[Spell] Call of the Wild</title>
+
+    <description>
+Inspired by DLC1, this is a lower level battle-cast summoning that the Nature realm otherwise lacked.
+
+Summons one of the following random creatures onto the battlefield for use by the caster:
+- Two War Bears
+- A Boar
+- A Fat Rat
+
+The overall intent was to give the Nature realm with a little more early-game play options.
+
+    </description>
+
+    <author>DorianGray</author>
+    <version>1.0.7</version>
+    <icon>cotw:cow_256.jpg</icon>
+
+</ModSettings>

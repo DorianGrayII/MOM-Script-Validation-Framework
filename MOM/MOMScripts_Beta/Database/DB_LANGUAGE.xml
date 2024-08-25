@@ -1,0 +1,39 @@
+﻿<DB_LANGUAGE>
+
+	<LANGUAGE-EN>
+		<DescriptionInfo Name="English" Description="" Graphic="FlagEN"/>	
+		<NameSuffix VALUE="_EN"/>
+		<LanguageID VALUE="English"/>
+	</LANGUAGE-EN>
+	<LANGUAGE-ES>
+		<DescriptionInfo Name="Español" Description="" Graphic="FlagES"/>	
+		<NameSuffix VALUE="_ES"/>
+		<LanguageID VALUE="Español"/>
+	</LANGUAGE-ES>
+	<LANGUAGE-FR>
+		<DescriptionInfo Name="Français" Description="" Graphic="FlagFR"/>	
+		<NameSuffix VALUE="_FR"/>
+		<LanguageID VALUE="Français"/>
+	</LANGUAGE-FR>
+	<LANGUAGE-DE>
+		<DescriptionInfo Name="Deutsch" Description="" Graphic="FlagDE"/>	
+		<NameSuffix VALUE="_DE"/>
+		<LanguageID VALUE="Deutsch"/>
+	</LANGUAGE-DE>
+	<LANGUAGE-CN>
+		<DescriptionInfo Name="中文" Description="" Graphic="FlagCN"/>	
+		<NameSuffix VALUE="_CN"/>
+		<LanguageID VALUE="中文"/>
+	</LANGUAGE-CN>
+	<LANGUAGE-PL>
+		<DescriptionInfo Name="Polski" Description="" Graphic="FlagPL"/>	
+		<NameSuffix VALUE="_PL"/>
+		<LanguageID VALUE="Polski"/>
+	</LANGUAGE-PL>
+	<LANGUAGE-IT>
+		<DescriptionInfo Name="Italiano (non ufficiale)" Description="" Graphic="FlagIT"/>	
+		<NameSuffix VALUE="_IT"/>
+		<LanguageID VALUE="Italiano"/>
+	</LANGUAGE-IT>
+	
+</DB_LANGUAGE>

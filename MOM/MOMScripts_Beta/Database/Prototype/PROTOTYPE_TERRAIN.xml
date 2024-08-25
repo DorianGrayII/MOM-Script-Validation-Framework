@@ -1,0 +1,121 @@
+﻿<PROTOTYPE_TERRAIN>
+	<!-- Types of terrain and their identification flags -->
+	<E_TERRAIN_TYPE Type="enum" Name="ETerrainType">
+		<!-- 0000 -->
+		<None value = "0"/>		
+		
+		<!-- -=Range  8 4 2 1 =- -->		
+		<!-- 0001 -->
+		<Sea value = "1"/>  
+		<!-- 0010 -->
+        <Hill value = "2"/>  
+		<!-- 0100 -->
+		<Mountain value = "4"/>  
+		<!-- 1000 -->
+		<GrassLand value = "8"/>  
+	
+		<!-- -=Range 128 64 32 16 =- -->
+		<!-- 0001 0000 -->
+		<Forest	value="16"/> 
+		<!-- 0010 0000 -->				
+        <Tundra	value="32"/>  
+		<!-- 0100 0000 -->		
+		<Desert value="64"/>
+		<!-- 1000 0000 -->		
+		<Swamp value="128"/>
+			
+		<!-- -=Range 2048 1024 512 256 =- -->
+		
+		
+		<!-- Automarked during generation, do not use -->
+		<!-- -=Range NaN 16384 8192 4096 =- -->
+		<!-- 0001 0000 0000 0000-->
+		<Coast	value="4096"/>  
+		<!-- 0010 0000 0000 0000-->
+        <RiverBank value="8192"/>  		
+	</E_TERRAIN_TYPE>
+	
+	<TERRAIN Name="Terrain">
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>	
+
+		<TerrainGraphic Name="terrainGraphic" Type="TERRAIN_GRAPHIC" Required="TRUE"/>
+
+		<TerrainType Name="terrainType" Type="E_TERRAIN_TYPE" Required="TRUE"/>	
+		<!-- Plane that terrain can appear on -->
+		<Plane Name="plane" Type="PLANE" Required="FALSE"/>
+		<!-- limites spawn of this terrain during world creation. 0 - normal spawn, 0.5 - terrain is ignored in 50% cases, 1 - terrain does not spawn during world creation -->
+		<SpawnLimitation Name="spawnLimitation" Type="FInt" Required="FALSE"/>
+		
+
+		<MovementCost Name="movementCost" Type="int" Required="FALSE"/>
+		<!-- Road building cost; -1 represents terrains that road cannot be build on-->
+		<RoadCost Name="roadCost" Type="int" Required="FALSE"/>
+		<!-- Percent bonus for city production aka "hammers" -->
+		<!-- 0.03 increases town production by 3% -->
+		<Production Name="production" Type="FInt" Required="FALSE"/>
+		<!-- Flat bonus for food city production aka "bread" -->
+		<!-- 2.0 increases town food production by 2 -->
+		<FoodProduction Name="foodProduction" Type="FInt" Required="FALSE"/>
+		<!--Percent bonus for city gold production aka "coin" -->
+		<!-- 0.03 increases town production by 3% -->
+		<GoldProduction Name="goldProduction" Type="FInt" Required="FALSE"/>
+
+		<ResourcesSpawnChance Name="resourcesSpawnChance" Type="ArrayRESOURCE_CHANCE" Required="FALSE"/>
+		
+		<DecorSpawnChance Name="decorSpawnChance" Type="ArrayDECOR" Required="FALSE"/>
+		
+		<Tag Name="tags" Type="ArrayTAG" Required="FALSE"/>
+		<!-- Decorative object on terrain, like trees, bushes, rocks etc. -->
+		<Foliage Name="foliage" Type="ArrayFOLIAGE_SET" Required="FALSE"/>
+		<!-- Terrain Transmutation effect result will change this terrain into specified type (None if not possible) -->
+		<TransmuteTo Name="transmuteTo" Type="TERRAIN" Required="FALSE"/>
+		<!-- Color that is show for on minimap-->
+		<MinimapColor Name="minimapColor" Type="string" Required="FALSE"/>
+	</TERRAIN>
+	<!-- Its a definition of decorative objects-->
+	<FOLIAGE_SET Name="FoliageSet">
+
+		<SetName Name="setName" Type="string" Required="TRUE"/>
+
+		<Foliage Name="foliage" Type="ArrayFOLIAGE" Required="TRUE"/>
+	</FOLIAGE_SET>
+
+	<FOLIAGE Name="Foliage">		
+	
+		<BattleOnly Name="battleOnly" Type="bool" Required="FALSE"/>
+		<WorldOnly Name="worldOnly" Type="bool" Required="FALSE"/>
+		<AllowRotation Name="allowRotation" Type="bool" Required="FALSE"/>
+		
+		<!-- name of the model in the model bundle -->
+		<TreeName Name="treeName" Type="string" Required="TRUE"/>
+		
+		<!-- Make this pack to appear only in forests -->
+		<Forest Name="forest" Type="bool" Required="FALSE"/>
+		<!-- probability of the pack to be applied -->
+		<Chance Name="chance" Type="FInt" Required="FALSE"/>
+		<!-- number of the instances to spawn -->
+		<Count Name="count" Type="int" Required="TRUE"/>
+		<!-- set of colors creating color triangle in which tree produces randomized tint color-->
+		<Color1 Name="color1" Type="Color" Required="TRUE"/>
+		<Color2 Name="color2" Type="Color" Required="TRUE"/>
+		<Color3 Name="color3" Type="Color" Required="TRUE"/>		
+	</FOLIAGE>
+	
+	<DECOR Name="Decor">
+		<Name Name="name" Type="string" Required="TRUE" />
+		<Chance Name="chance" Type="FInt" Required="TRUE" />
+		<BillboardingRotation Name="billboardingRotation" Type="bool" Required="FALSE" />
+	</DECOR>
+	<!-- Settings of terrain graphics and textures. New textures for specific type ie: Diffuse, require asset rebuild and would produce errors without rebuild-->
+	<TERRAIN_GRAPHIC Name="TerrainGraphic"  Abbreviation="TG">
+		<Diffuse 	Name="diffuse" 	Type="string" Required="TRUE"/>
+		<Normal 	Name="normal" 	Type="string" Required="FALSE"/>
+		<Specular 	Name="specular" Type="string" Required="FALSE"/>
+		<Height 	Name="height" 	Type="string" Required="FALSE"/>
+		<Mixer 		Name="mixer" 	Type="string" Required="FALSE"/>
+		<!-- Allows to block rotation on specific terains ie: to ensure dunes are aligned-->
+		<BlockRotation Name="blockRotation" Type="bool" Required="FALSE"/>
+		<!-- Allows to override mesh density.Usually Grass is 0, Mountain 12, River Border is 16-->
+		<MeshDensity Name="meshDensity" Type="int" Required="FALSE"/>
+	</TERRAIN_GRAPHIC>
+</PROTOTYPE_TERRAIN>

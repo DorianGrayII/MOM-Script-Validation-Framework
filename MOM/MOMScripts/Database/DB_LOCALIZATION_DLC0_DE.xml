@@ -1,0 +1,45 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC0_DE Language="Deutsch">
+		<!-- DLC 0 descriptions -->
+
+		<!-- WIZARDS --> 
+
+        <Loc Key="DES_BLADUD" Value="Bladud" />
+		<Loc Key="DES_BLADUD_DES" Value="Bladud war einst ein schillernder Ork-General und anschließend legendärer König. Jahrhundertelang herrschte er gemeinsam mit der rabiaten Königin Belit über seine Artgenossen, bis sich die Wege der beiden trennten und Bladud zum Zaubererumhang griff. Als Ork haftete Bladud das Stigma der Mittelmäßigkeit an, weswegen er fest entschlossen war, die Welt eines Besseren zu belehren. Der Zauberer erlangte mit den dunklen Künsten der Orkomantie große Macht und schwor sich, diese Macht allein zu dem Zweck zu nutzen, seine als stumpfsinnig geltenden Horden in furchtlose Armeen des Todes zu verwandeln. Orks unter Bladuds Führung können sich an der Lebenskraft ihrer Gegner laben, und der Zauberer selbst gewinnt Kraft aus seinen gefallenen Ork-Kriegern. Diese Macht wird Bladud gewiss dazu verhelfen, zum Meister aller Zauberer zu werden." />
+		<Loc Key="DES_BLADUD_QUOTE" Value="Lange wurde mein Volk als schwach bezeichnet, doch nun werden sich die Orks unter dem Banner des Todes erheben und die Welt erobern!" />	
+		<Loc Key="DES_BLADUD_GREETINGS" Value="Seid gegrüßt, ich bin Bladud. Ich freue mich schon darauf, Euch meine Überlegenheit zu beweisen, doch bis es so weit ist, können wir reden."/>
+		
+		<Loc Key="DES_BLADUD_GREETINGS_BELIT_1" Value="Das Schicksal wollte wohl, dass wir uns wieder begegnen, Belit. Ich kann es gar nicht erwarten zu beweisen, dass deine verfluchte Existenz einem wahren Ork wie mir nichts entgegenzusetzen hat!"/>
+        <Loc Key="DES_BLADUD_GREETINGS_BELIT_2" Value="Belit, du heimtückisches Weib, sprich."/>
+
+		<!-- TRAITS -->
+		<Loc Key="DES_ORCOMANCER" Value="Orkomant" />
+		<Loc Key="DES_ORCOMANCER_DES" Value="Der Orkomant beherrscht meisterhaft die Kunst der Nekromantie, hat sich jedoch ausschließlich auf die Lebensenergie der Orks spezialisiert. Für jede gefallene Untereinheit einer Ork-Einheit in der Armee erhält der Orkomant +5 Zauberfertigkeitspunkte im Kampf, wobei mit diesem Bonus sogar das Maximum überschritten werden darf. Zudem erhält jeder Ork unter dem Kommando des Orkomanten die Fertigkeiten 'Todesimmunität' und 'Geringer Lebenskraftraub'.\n\n- Der Orkomant kann das Spiel nur mit Orks beginnen.\n\n- Kann nicht zusammen mit anderen exklusiven Spezialisierungen dieses Volkes ausgewählt werden.\n\n- Der Zauberer muss bereits mindestens 1 Zauberbuch der Todessphäre ausgewählt haben.\n\n- 'Orkomant' kostet 2 Punkte." />
+		<Loc Key="DES_NECROMANCER" Value="Nekromant" />
+		<Loc Key="DES_NECROMANCER_DES" Value="Der Nekromant strebt danach, den Tod zu überlisten und einen Vorteil daraus zu ziehen. Der Zauberer beginnt jede Schlacht in der Dunkelheit sowie mit einem neuen 'Untoter Held'-Zauber, der es ihm ermöglicht, einen gefallenen Helden als untoten Lakaien zurück unter die Lebenden zu bringen. (Der Held kehrt unter dem Einfluss des Zaubers 'Finster-Kanalisierung' zurück.)\n\n- Der Zauberer muss bereits mindestens 3 Zauberbücher der Todessphäre ausgewählt haben.\n\n- 'Nekromant' kostet 1 Punkt."/>
+		<Loc Key="DES_TRAIT_DEATH_EATER" Value="Totenfresser" />
+		<Loc Key="DES_TRAIT_DEATH_EATER_DES" Value="Der Totenfresser kann mit seinen gefallenen Truppen seine Armeen der Todessphäre nähren. Nach einer siegreichen Schlacht werden 50 % der Trefferpunkte aller Einheiten der Todessphäre wiederhergestellt. (Gefallene Einheiten werden dadurch jedoch nicht wiederbelebt.)\n\n- Der Zauberer muss bereits mindestens 3 Zauberbücher der Todessphäre ausgewählt haben.\n\n- 'Totenfresser' kostet 2 Punkte." />
+		<!-- RACE --> 
+ 
+		
+        <!-- UNITS -->
+	
+		
+		<!-- SKILLS --> 
+		<Loc Key="DES_SKILL_DEATH_EATER" Value="Totenfresser" />
+		<Loc Key="DES_SKILL_DEATH_EATER_DES" Value="Nach einer siegreichen Schlacht werden 50 % der Trefferpunkte aller Einheiten der Todessphäre, die unter dem Kommando des Totenfressers stehen, wiederhergestellt."/>
+		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2" Value="Geringer Lebenskraftraub 1" />
+		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2_DES" Value="Für jeden Punkt fehlgeschlagene Resistenz{ICON:ResistanceIconNormal} gegen den Lebenskraftraub-Angriff (die angegriffene Einheit erhält Resistenzpunkte entsprechend der Lebenskraftraub-Stufe) verliert der Verteidiger 1 Trefferpunkt{ICON:HitIconNormal}, während der Angreifer 1 Trefferpunkt{ICON:HitIconNormal} erhält. Einheiten, die vornehmlich durch den Lebenskraftraub sterben, kehren als Untote zurück (Todesimmunität verhindert dies jedoch). Der Lebenskraftraub wird vor den meisten anderen Angriffen ausgelöst." />
+      
+		<!-- BUILDINGS -->
+		
+		<!-- RES --> 
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_UNDEAD_HERO" Value="Untoter Held"/>
+		<Loc Key="DES_UNDEAD_HERO_DES" Value="Ihr könnt einen gefallenen Helden zurück unter die Lebenden bringen, auf dass er Euch dient. Als untoter Lakai verfügt er über die Fertigkeit 'Geringer Lebenskraftraub', erhält jedoch keine Erfahrungspunkte mehr. Ihr könnt den Zauber pro Held nur ein Mal wirken." />
+
+		<!-- Other-->
+			
+	</LOCALIZATION-DLC0_DE>
+</DB_LOCALIZATION>

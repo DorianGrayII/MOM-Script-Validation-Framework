@@ -1,0 +1,1512 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-UI_IT Language="Italiano">	
+		<Loc Key="UI_LOADING" Value="Caricamento..." />
+		<Loc Key="UI_CONTINUE" Value="Continua"/>
+		<Loc Key="UI_NEW_GAME" Value="Nuova Partita"/>
+		<Loc Key="UI_EDITOR" Value="Editor"/>
+		<Loc Key="UI_SETTINGS" Value="Impostazioni"/>
+		<Loc Key="UI_EXIT" Value="Esci"/>
+		<Loc Key="UI_CLOSE" Value="Chiudi"/>
+		<Loc Key="UI_CANCEL" Value="Indietro"/>
+		<Loc Key="UI_CONFIRM" Value="Conferma"/>
+		<Loc Key="UI_VERSION" Value="VERSIONE"/>
+		<Loc Key="UI_ENTER_NAME" Value="Inserisci Nome"/>
+		<Loc Key="UI_ENTER_NAME2" Value="Inserisci un nuovo nome:"/>
+		<Loc Key="UI_ENTER_TEXT" Value="Inserisci testo..."/>
+		<Loc Key="UI_COMBAT" Value="Combattimento"/>
+		<Loc Key="UI_ATTACKERS" Value="Attaccanti"/>
+		<Loc Key="UI_DEFENDERS" Value="Difensori"/>
+		<Loc Key="UI_DONT_ENGAGE" Value="Ritirata"/>
+		<Loc Key="UI_AUTO_COMBAT" Value="Ris. Automatica"/>
+		<Loc Key="UI_MANUAL_COMBAT" Value="Ris. Manuale"/>
+		<Loc Key="UI_OKAY" Value="Ok"/>
+		<Loc Key="UI_OK" Value="OK"/>
+		<Loc Key="UI_DETAILS" Value="Dettagli"/>
+		<Loc Key="UI_TURN" Value="Turno"/>
+		<Loc Key="UI_OF_50" Value="di 50"/>
+		<Loc Key="UI_ADJUST_DIFFICULTY" Value="Regola Difficoltà"/>
+		<Loc Key="UI_PRESETS" Value="Modalità"/>
+		<Loc Key="UI_SCORE_MULTIPLIER" Value="Moltiplicatore:"/>
+		<Loc Key="UI_EASY_50" Value="Facile (100%)"/>
+		<Loc Key="UI_NORMAL_100" Value="Normale (150%)"/>
+		<Loc Key="UI_HARD_150" Value="Difficile (200%)"/>
+		<Loc Key="UI_CUSTOM" Value="Personalizzata"/>
+		<Loc Key="UI_MAKE_A_SELECTION" Value="Fai una selezione..."/>
+		<Loc Key="UI_SELECT_AN_ADVENTURE" Value="Seleziona un'Avventura"/>
+		<Loc Key="UI_SEARCH" Value="Cerca..."/>
+		<Loc Key="UI_BACK_TO_MODULES" Value="Torna ai Moduli"/>
+		<Loc Key="UI_EDIT_ADVENTURE" Value="Modifica Avventura"/>
+		<Loc Key="UI_CLONE_TO_MODULE" Value="Seleziona un modulo per clonare:"/>
+		<Loc Key="UI_CLONE_ADVENTURE" Value="Clona Avventura"/>
+		<Loc Key="UI_LEAVE" Value="Abbandona"/>
+		<Loc Key="UI_ADVENTURE" Value="Avventura"/>
+		<Loc Key="UI_BATTLE" Value="Battaglia"/>
+		<Loc Key="UI_TRADE" Value="Scambia"/>
+		<Loc Key="UI_ENCHANTMENT" Value="Incantamento"/>
+		<Loc Key="UI_SPAWN_LOCATION" Value="Punto di Generazione"/>
+		<Loc Key="UI_RELAY" Value="Relay"/>
+		<Loc Key="UI_END" Value="Fine"/>
+		<Loc Key="UI_NODE_SEARCH" Value="Ricerca Nodo"/>
+		<Loc Key="UI_SELECT_AN_IMAGE" Value="Seleziona un'Immagine"/>
+		<Loc Key="UI_IMAGE_INSTRUCTIONS" Value="Nota: le dimensioni ottimali dell'immagine sono 1250x1500px. Dimensioni con un rapporto immagine inferiore sono accettate. L'utilizzo di immagini con rapporti immagine diversi ne provocherà la distorsione.\n\nPer aggiungere altre immagini in questa lista, posizionale su \ExternalAssets\AdventureGraphics, nella cartella di gioco.\n\nUsa solo i formati .png o .jpg!"/>
+		<Loc Key="UI_LOGIC_EDITOR" Value="Logic Editor"/>
+		<Loc Key="UI_FILTERS" Value="Filtri"/>
+		<Loc Key="UI_PROCESSING" Value="Elaborazione"/>
+		<Loc Key="UI_RESULTS" Value="Risultati"/>
+		<Loc Key="UI_EXIT_LOGIC" Value="Esci da Logic"/>
+		<Loc Key="UI_SELECT_MODULE" Value="Seleziona Modulo"/>
+		<Loc Key="UI_EXIT_AND_SAVE" Value="Salva ed Esci"/>
+		<Loc Key="UI_EDIT_MODULE" Value="Mod. Modulo"/>
+		<Loc Key="UI_END_TURN" Value="Termina Turno"/>
+		<Loc Key="UI_PATCH_NOTES" Value="Patchlog"/>		
+		<Loc Key="UI_CHANGE_PROFILE" Value="Cambia Profilo"/>		
+		<Loc Key="UI_HELLO_PLAYERNAME" Value="Salve, {0}"/>
+		<Loc Key="UI_PROFILES" Value="Profili"/>
+		<Loc Key="UI_SELECT" Value="Seleziona"/>
+		<Loc Key="UI_NEW_PROFILE" Value="Nuovo Profilo"/>
+		<Loc Key="UI_RENAME" Value="Rinomina"/>
+		<Loc Key="UI_DELETE" Value="Elimina"/>
+		<Loc Key="UI_SELECT_WIZARD" Value="Seleziona Stregone"/>
+		<Loc Key="UI_MAGIC_AND_TRAITS" Value="Magia e Tratti"/>
+		<Loc Key="UI_WORLD_QUALITY" Value="Mondo"/>
+		<Loc Key="UI_BATTLE_SUMMARY" Value="Resoconto"/>
+		<Loc Key="UI_VICTORY" Value="Vittoria!"/>
+		<Loc Key="UI_DEFEAT" Value="Sconfitta!"/>
+		<Loc Key="UI_YOUR_TURN" Value="Turno del Giocatore!"/>
+		<Loc Key="UI_ENEMY_TURN" Value="Turno del Nemico!"/>
+		<Loc Key="UI_MELEE" Value="Mischia:"/>
+		<Loc Key="UI_RANGED" Value="Tiro:"/>
+		<Loc Key="UI_ARMOUR" Value="Armatura:"/>
+		<Loc Key="UI_RESISTANCE" Value="Resistenza:"/>
+		<Loc Key="UI_FIGURES" Value="Componenti:"/>
+		<Loc Key="UI_HITS" Value="Punti Salute:"/>
+		<Loc Key="UI_MOVEMENT" Value="Movimento:"/>
+		<Loc Key="UI_UPKEEP" Value="Mantenimento:"/>
+		<Loc Key="UI_DISMISS" Value="Chiudi"/>
+		<Loc Key="UI_ADD_A_NODE" Value="Aggiungi Nodo"/>
+		<Loc Key="UI_ACTIVE_GLOBAL_ENCHANTMENTS" Value="Incantamenti Globali Attivi"/>
+		<Loc Key="UI_MAGIC" Value="Magia"/>
+		<Loc Key="UI_ALCHEMY" Value="Alchimia"/>
+		<Loc Key="UI_ALCHEMY_DES" Value="L'alchimia è l'arte della trasformazione dell'Oro in Mana e viceversa. Gli Stregoni dotati del Tratto 'Alchimista' effettuano la conversione ad un tasso 1:1, mentre quelli sprovvisti ricavano una quantità di risorse dimezzata rispetto all'originale. "/>
+		<Loc Key="UI_TRANSMUTE_GOLD_TO_MANA" Value="Trasmuta Oro in Mana"/>
+		<Loc Key="UI_TRANSMUTE_MANA_TO_GOLD" Value="Trasmuta Mana in Oro"/>
+		<Loc Key="UI_TRANSMUTE" Value="Trasmuta"/>
+		<Loc Key="UI_POWER" Value="Potere"/>
+		<Loc Key="UI_POWER_DES" Value="Il Potere deriva da Fortezza, Tomi, nodi energetici, edifici religiosi e dalla popolazione di alcune razze. Viene usato per generare mana, sbloccare nuovi incantesimi ed aumentare la propria Capacità di Lancio.\n\nPuoi regolare la quantità di Potere assegnata ad ogni funzione cliccando sulle fiale."/>
+		<Loc Key="UI_POWER2_DES" Value="Usato per generare Mana, sbloccare incantesimi ed aumentare la Capacità di Lancio."/>
+		<Loc Key="UI_MANA" Value="Mana:"/>
+		<Loc Key="UI_RESEARCH" Value="Ricerca"/>
+		<Loc Key="UI_RESEARCH_DES" Value="Determina la velocità di apprendimento di nuovi incantesimi. Si può aumentare assegnando più Potere alla fiala verde, costruendo edifici come Biblioteche, Gilde dei Saggi, Università e Gilde dei Maghi, o reclutando Eroi dotati dall'abilità Saggio."/>
+		<Loc Key="UI_SKILL" Value="Abilità"/>
+		<Loc Key="UI_CASTING_SKILL" Value="Capacità di Lancio:"/>
+		<Loc Key="UI_CASTING_SKILL2" Value="Capacità di Lancio"/>
+		<Loc Key="UI_MANA_RESERVE" Value="Riserva di Mana:"/>
+		<Loc Key="UI_MANA_RESERVE2" Value="Riserva di Mana"/>
+		<Loc Key="UI_MANA_RESERVE_DES" Value="Punti Mana disponibili per il lancio di incantesimi. Si possono aumentare assegnando più Potere al Mana (fiala gialla)."/>
+		<Loc Key="UI_POWER_BASE" Value="Potere di Base:"/>
+		<Loc Key="UI_CASTING" Value="Lancio:"/>
+		<Loc Key="UI_RESEARCHING" Value="Ricerca:"/>
+		<Loc Key="UI_SUMMON_TO" Value="Evoca presso:"/>
+		<Loc Key="UI_GLOBAL_TAXES_AND_UNREST" Value="Tasse ed Instabilità Globali"/>
+		<Loc Key="UI_TOWNS" Value="Città"/>
+		<Loc Key="UI_UNITS" Value="Unità"/>
+		<Loc Key="UI_CITIZENS" Value="Cittadini"/>
+		<Loc Key="UI_ALL_CITIZENS" Value="Cittadini totali:"/>
+		<Loc Key="UI_FARMERS" Value="Contadini"/>
+        <Loc Key="UI_FARMERS_DES" Value="I contadini sfamano la popolazione.\nConsumi -1 Cibo {ICON:FoodIcon} per nutrire ogni cittadino.\nOgni 2 unità di Cibo di surplus vengono trasformate in 1 Oro {ICON:GoldIcon} alla fine del turno.\nOgni contadino conferisce anche 0,5 produzione {ICON:ProductionIcon} alla sua città.\n\n-Ricorda: Solo i contadini che producono Cibo di surplus possono diventare operai.\n-La carenza di Cibo in città provoca {COLOR:#42C100}inedia {END_COLOR} ed un calo della popolazione."/>
+		<Loc Key="UI_FARMERS_MIN" Value="Impossibile ridurre il numero di contadini al di sotto del minimo necessario per sfamare la popolazione della città."/>
+		<Loc Key="UI_WORKERS" Value="Operai"/>
+		<Loc Key="UI_WORKERS_DES" Value="Il compito degli operai è fornire punti produzione, che la città impiega per costruire edifici e produrre unità.\n\n-Ricorda: Solo i contadini che producono Cibo di surplus possono diventare operai."/>		
+		<Loc Key="UI_REBELS" Value="Ribelli"/>
+		<Loc Key="UI_REBELS_DES" Value="I ribelli non generano Cibo o Produzione, ma consumano comunque il Cibo della città in cui si trovano. Il loro numero sale parallelamente all'aumento dell'instabilità.\n\nL'instabilità può essere contenuta costruendo edifici religiosi, abbassando le tasse o usando certi incantesimi. Infine, una guarnigione di unità non fantastiche riduce l'instabilità di -1 Ribelle ogni 2 unità."/>
+		<Loc Key="UI_RESOURCES" Value="Risorse"/>
+		<Loc Key="UI_CONSTRUCTION_QUEUE" Value="Coda di Produzione"/>
+		<Loc Key="UI_BUY" Value="Compra"/>
+		<Loc Key="UI_NEXT_IN_QUEUE" Value="Successivo:"/>
+		<Loc Key="UI_BUILD" Value="Produci"/>
+		<Loc Key="UI_CONSTRUCTION_MANAGER" Value="Manager di Costruzione"/>
+		<Loc Key="UI_BUILDINGS" Value="Edifici"/>
+		<Loc Key="UI_REQUIRES" Value="Richiede:"/>
+		<Loc Key="UI_ALLOWS" Value="Sblocca:"/>
+		<Loc Key="UI_EQUIP_ITEMS" Value="Equipaggia Oggetti"/>
+		<Loc Key="UI_FORTRESS_VAULT" Value="Cripta della Fortezza"/>
+		<Loc Key="UI_RESEARCH_SPELLS" Value="Ricerca Incantesimi"/>
+		<Loc Key="UI_RESEARCH_SPELLS2" Value="Ricerca Incantesimi ({0})"/>
+		<Loc Key="UI_WORLD_SPELL" Value="Inc. Globale"/>
+		<Loc Key="UI_COMBAT_SPELL" Value="Inc. di Battaglia"/>
+		<Loc Key="UI_SPELL_TYPE" Value="Tipo di Incantesimo:"/>
+		<Loc Key="UI_TARGET" Value="Bersaglio:"/>
+		<Loc Key="UI_SUMMON" Value="Evoca"/>
+		<Loc Key="UI_UNIT_ENCHANTMENT" Value="Inc. su Unità"/>
+		<Loc Key="UI_UNIT_CURSE" Value="Maledizione (Unità)"/>
+		<Loc Key="UI_TOWN_ENCHANTMENT" Value="Inc. su Città"/>
+		<Loc Key="UI_TOWN_CURSE" Value="Maledizione (Città)"/>
+		<Loc Key="UI_INSTANT" Value="Instantaneo"/>
+		<Loc Key="UI_CASTING_COST" Value="Costo di Lancio:"/>
+		<Loc Key="UI_UPKEEP_COST2" Value="Mantenimento:"/>
+		<Loc Key="UI_SELECT_A_SPELL" Value="Seleziona un incantesimo"/>
+		<Loc Key="UI_YOUR_PROPERTY" Value="Tue Proprietà"/>
+		<Loc Key="UI_YOUR_OFFER" Value="Stai offrendo"/>
+		<Loc Key="UI_THEIR_PROPERTY" Value="Loro Proprietà"/>
+		<Loc Key="UI_THEIR_OFFER" Value="Ti si offre"/>
+		<Loc Key="UI_MAINTENANCE" Value="Mantenimento:"/>
+		<Loc Key="UI_ACCEPT" Value="Accetta"/>
+		<Loc Key="UI_CHOICES" Value="Scelte"/>
+		<Loc Key="UI_VIDEO" Value="Grafica"/>
+		<Loc Key="UI_VIDEO_SETTINGS" Value="Impostazioni Grafiche"/>
+		<Loc Key="UI_AUDIO" Value="Audio"/>
+		<Loc Key="UI_AUDIO_SETTINGS" Value="Impostazioni Audio"/>
+		<Loc Key="UI_OTHER" Value="Varie"/>
+		<Loc Key="UI_OTHER_SETTINGS" Value="Altre Impostazioni"/>
+		<Loc Key="UI_CREDITS" Value="Riconoscimenti"/>
+		<Loc Key="UI_RESOLUTION_OPTIONS" Value="Risoluzione"/>
+		<Loc Key="UI_REFRESH_RATE" Value="Limite FPS"/>
+		<Loc Key="UI_REFRESH_CAP_NONE" Value="Nessuno"/>
+		<Loc Key="UI_REFRESH_CAP_30" Value="30 FPS"/>
+		<Loc Key="UI_REFRESH_CAP_60" Value="60 FPS"/>
+		<Loc Key="UI_MUSIC_VOLUME" Value="Volume Musica"/>
+		<Loc Key="UI_SFX_VOLUME" Value="Volume Effetti Sonori"/>
+		<Loc Key="UI_SELECT_RACE_AND_BANNER" Value="Seleziona una Razza e uno Stendardo"/>
+		<Loc Key="UI_ARCANIAN_RACES" Value="Razze di Arcanus"/>
+		<Loc Key="UI_MYRRAN_RACES" Value="Razze di Myrror"/>
+		<Loc Key="UI_PRODUCTION_PER_FARMER" Value="Risorse create da 1 Contadino:"/>
+		<Loc Key="UI_PRODUCTION_PER_WORKER" Value="Risorse create da 1 Operaio:"/>
+		<Loc Key="UI_PRODUCTION_PER_REBEL" Value="Risorse create da 1 Ribelle:"/>
+		<Loc Key="UI_APPLIES_ENCHANTMENTS" Value="Applica Incantamenti:"/>
+		<Loc Key="UI_SHOW_ON_HUD" Value="Mostra su IU"/>
+		<Loc Key="UI_CAST_SPELLS" Value="Lancia\nIncantesimi"/>
+		<Loc Key="UI_CAST_SPELLS2" Value="Lancia Incantesimi ({0})"/>
+		<Loc Key="UI_WARNING" Value="Attenzione!"/>
+		<Loc Key="UI_FOOD_UPKEEP_FAILING" Value="Maestà, le tue città non producono abbastanza Cibo per sfamare tutte le tue unità. Forse dovresti assegnare alcuni Operai al ruolo di Contadini?\n\nSe non rimedierai subito al problema, alcune unità ti abbandoneranno!"/>
+		<Loc Key="UI_MANA_UPKEEP_FAILING" Value="Maestà, le tue città non producono abbastanza Mana per sostentare tutte le tue unità. Forse dovresti dedicare più Potere alla produzione di Mana?\n\nSe non rimedierai subito al problema, alcune unità ti abbandoneranno!"/>
+		<Loc Key="UI_CAST" Value="Lancia"/>
+		<Loc Key="UI_CASTING_TIME" Value="Tempo di Lancio:"/>
+		<Loc Key="UI_NEUTRAL_UNITS" Value="Unità Neutrali"/>
+		<Loc Key="UI_SELECT_TARGET" Value="Seleziona bersaglio"/>
+		<Loc Key="UI_ARTEFACTS" Value="Artefatti"/>
+		<Loc Key="UI_TOTAL_UPKEEP" Value="Mantenimento Totale"/>
+		<Loc Key="UI_HEROES" Value="Eroi"/>
+		<Loc Key="UI_ARMIES" Value="Eserciti"/>
+		<Loc Key="UI_SELECT_TARGET2" Value="Seleziona bersaglio:"/>
+		<Loc Key="UI_CASTINGS_SPELL" Value="Lancio Inc."/>
+		<Loc Key="UI_UNUSED_ARTEFACTS" Value="Artefatti non usati"/>
+		<Loc Key="UI_MANAGE_ARTEFACTS" Value="Gestione Artefatti"/>
+		<Loc Key="UI_LOCATION_AWARD" Value="Ricompensa"/>
+		<Loc Key="UI_SELECT_A_SPELL_WARD_TO_CAST" Value="Seleziona quale Custode lanciare"/>
+		<Loc Key="UI_NATURE_WARD" Value="Custode Naturale"/>
+		<Loc Key="UI_SORCERY_WARD" Value="Custode Illusorio"/>
+		<Loc Key="UI_CHAOS_WARD" Value="Custode Caotico"/>
+		<Loc Key="UI_LIFE_WARD" Value="Custode Vitale"/>
+		<Loc Key="UI_DEATH_WARD" Value="Custode Mortale"/>
+		<Loc Key="UI_SELECT_AN_ENCHANTMENT_TO_DISJUNCT" Value="Seleziona un incantamento da dissipare"/>
+		<Loc Key="UI_SELECT_TARGET_FOR_DRAIN_POWER" Value="Seleziona bersaglio per Fuga di Potere"/>
+		<Loc Key="UI_SELECT_TARGET_FOR" Value="Seleziona bersaglio per "/>
+		<Loc Key="UI_LOSES" Value="perde"/>
+		<Loc Key="UI_POINTS_OF_MANA" Value="punto(i) di Mana."/>
+		<Loc Key="UI_POINTS_OF_CASTING_SKILL" Value="punto(i) di Capacità di Lancio."/>
+		<Loc Key="UI_CREATE_ARTEFACT" Value="Crea Artefatto"/>
+		<Loc Key="UI_ENCHANT_ITEM" Value="Incanta Oggetto"/>
+		<Loc Key="UI_SWORD" Value="Spada"/>
+		<Loc Key="UI_WAND" Value="Bacchetta"/>
+		<Loc Key="UI_MACE" Value="Mazza"/>
+		<Loc Key="UI_MISC" Value="Varie"/>
+		<Loc Key="UI_AXE" Value="Ascia"/>
+		<Loc Key="UI_SHIELD" Value="Scudo"/>
+		<Loc Key="UI_BOW" Value="Arco"/>
+		<Loc Key="UI_CHAIN" Value="Cotta di Maglia"/>
+		<Loc Key="UI_STAFF" Value="Bastone"/>
+		<Loc Key="UI_PLATE" Value="Arm. a Piastre"/>
+		<Loc Key="UI_COST" Value="Costo:"/>
+		<Loc Key="UI_ONLY_FOUR_POWERS_MAY_BE_ENCHANTED_INTO_AN_ITEM" Value="Puoi infondere fino a 4 poteri in un oggetto!"/>		
+		<Loc Key="UI_SHIFT_FAILED" Value="Scambio Fallito"/>
+		<Loc Key="UI_DESTINATION_INVALID" Value="Destinazione Non Valida"/>
+		<Loc Key="UI_DESTINATION_OCCUPIED" Value="Destinazione Occupata"/>
+		<Loc Key="UI_DESTINATION_UNAVAILABLE" Value="Destinazione Non Disponibile"/>
+		<Loc Key="UI_TARGETING_FAILED" Value="Bersagliamento Fallito"/>
+		<Loc Key="UI_TARGET_UNAVAILABLE" Value="Bersaglio non Disponibile"/>
+		<Loc Key="UI_LOADING_BATTLE" Value="Caricamento..."/>
+		<Loc Key="UI_OPT_EN_ADVANCED" Value="Superiore"/>
+		<Loc Key="UI_OPT_EN_BEGINNER" Value="Neofita"/>
+		<Loc Key="UI_OPT_EN_SKILLED" Value="Abile"/>
+		<Loc Key="UI_OPT_EN_MASTER" Value="Specialista"/>
+		<Loc Key="UI_OPT_EN_WEAK" Value="Debole - 0,5"/>
+		<Loc Key="UI_OPT_EN_NORMAL" Value="Normale - 1,0"/>
+		<Loc Key="UI_OPT_EN_POWERFUL" Value="Forte - 1,5"/>
+		<Loc Key="UI_OPT_EN_MIGHTY" Value="Potente - 2,0"/>
+		<Loc Key="UI_OPT_EN_OVERPOWERING" Value="Soverchiante - 2,5"/>
+		<Loc Key="UI_BACK" Value="Indietro"/>
+		<Loc Key="UI_NEW_OUTPOST_FOUNDED" Value="Nuovo Avamposto Fondato"/>
+		<Loc Key="UI_ALL_TOWNS" Value="Tutte le Città"/>
+		<Loc Key="UI_AMMO" Value="Munizioni:"/>
+		<Loc Key="UI_CASTS" Value="lancia"/>
+		<Loc Key="UI_MELEE2" Value="Attacco Ravvicinato"/>
+		<Loc Key="UI_MELEE2_DES" Value="Indica il numero di tiri d'attacco effettuati da ogni componente dell'unità con un singolo attacco ravvicinato.\n\n{ICON:MeleeIconAdded} indica un bonus derivato da incantesimi o abilità speciali.\n\n {ICON:MeleeIconMissing} indica un malus."/>
+		<Loc Key="UI_MELEE3_DES" Value="Indica il numero di tiri d'attacco effettuati da ogni componente dell'unità con un singolo attacco ravvicinato."/>
+		<Loc Key="UI_RANGED2" Value="Attacco a Distanza"/>
+		<Loc Key="UI_RANGED2_DES" Value="Indica il numero di tiri d'attacco effettuati da ogni componente dell'unità con un singolo attacco a distanza.\n\n{ICON:RangedIconAdded} indica un bonus derivato da incantesimi o abilità speciali.\n\n{ICON:RangedIconMissing} indica un malus."/>
+		<Loc Key="UI_RANGED3_DES" Value="Indica il numero di tiri d'attacco effettuati da ogni componente dell'unità con un singolo attacco a distanza."/>
+		<Loc Key="UI_ARMOUR2" Value="Armatura"/>
+		<Loc Key="UI_ARMOUR2_DES" Value="Indica il numero di tiri di difesa effettuati da ogni componente durante una singola azione difensiva. I tiri di difesa possono ridurre i danni subiti da attacchi ravvicinati e a distanza, come pure da alcuni incantesimi offensivi.\n\n{ICON:ArmourIconAdded} indica un bonus derivato da incantesimi o abilità speciali.\n\n {ICON:ArmourIconMissing} indica un malus."/>
+		<Loc Key="UI_ARMOUR3_DES" Value="Indica il numero di tiri di difesa effettuati da ogni componente durante una singola azione difensiva. I tiri di difesa possono ridurre i danni subiti da attacchi ravvicinati e a distanza, come pure da alcuni incantesimi offensivi."/>
+		<Loc Key="UI_RESIST2" Value="Resistenza"/>
+		<Loc Key="UI_RESIST2_DES" Value="Indica la capacità di eludere gli effetti nocivi di attacchi ed incantesimi nemici. Ogni punto aumenta del 10% le prob. di resistere a tali effetti.\n\n{ICON:ResistanceIconAdded} indica un bonus derivato da incantesimi o abilità speciali.\n\n {ICON:ResistanceIconMissing} indica un malus."/>
+		<Loc Key="UI_RESIST3_DES" Value="Indica la capacità di eludere gli effetti nocivi di attacchi ed incantesimi nemici. Ogni punto aumenta del 10% le prob. di resistere a tali effetti."/>
+		<Loc Key="UI_FIGURES2" Value="Componenti"/>
+		<Loc Key="UI_FIGURES2_DES" Value="Indica la quantità di personaggi o entità che formano l'unità. La mancanza di uno o più componenti riduce l'efficienza dell'unità.\n\n{ICON:FigureIconMissing} indica i componenti mancanti.\n\nNuovi componenti verranno progressivamente reintegrati tra un turno e l'altro sulla mappa globale."/>
+		<Loc Key="UI_FIGURES3_DES" Value="Indica la quantità di personaggi o entità che formano l'unità. La mancanza di uno o più componenti riduce l'efficienza dell'unità."/>
+		<Loc Key="UI_HITS2" Value="Punti Salute"/>
+		<Loc Key="UI_HITS2_DES" Value="Indica la quantità di danni che ogni componente dell'unità può sostenere prima della morte. Il danno è inflitto al componente d'avanguardia.\n\n{ICON:HitIconAdded} indica un bonus derivato da incantesimi o abilità speciali: aumenta i Punti Salute di tutti i componenti.\n\n{ICON:HitIconMissing} indica un punto di danno sostenuto dall'avanguardia.\n\nLa maggior parte delle unità ripristina progressivamente i propri Punti Salute tra un turno e l'altro sulla mappa globale, altrimenti può essere curata tramite incantesimi ed altri effetti."/>
+		<Loc Key="UI_HITS3_DES" Value="Indica la quantità di danni che ogni componente dell'unità può sostenere prima della morte. "/>
+		<Loc Key="UI_AMMO2" Value="Munizioni"/>
+		<Loc Key="UI_AMMO2_DES" Value="Indica quanti proiettili possono essere lanciati dall'unità (si applica anche alle unità dotate di attacchi a distanza magici).\nUna volta esaurite le Munizioni, un'unità può effettuare soltanto attacchi ravvicinati."/>
+		<Loc Key="UI_MANA2" Value="Mana"/>
+		<Loc Key="UI_MANA2_DES" Value="Il tuo Mana attuale. Ricorda che la tua Capacità di Lancio{ICON:CastingSkillIcon} potrebbe limitare la quantità di Mana utilizzabile in battaglia."/>
+		<Loc Key="UI_MOVEMENT2" Value="Movimento"/>
+		<Loc Key="UI_MOVEMENT2_DES" Value="La quantità di punti movimento utilizzabili ad ogni turno per percorrere caselle della mappa globale, ma anche il numero di punti azione disponibili in battaglia.\n\n{ICON:MovementWalkingIcon} Movimento Terrestre\n\n{ICON:MovementSwimmingIcon} Movimento Marino \n\n{ICON:MovementFlyingIcon} Movimento Aereo"/>
+		<Loc Key="UI_MOVEMENT3_DES" Value="La quantità di punti movimento utilizzabili ad ogni turno per percorrere caselle della mappa globale, ma anche il numero di punti azione disponibili in battaglia."/>
+		<Loc Key="UI_UPKEEP2" Value="Mantenimento"/>
+		<Loc Key="UI_UPKEEP2_DES" Value="Indica i costi di mantenimento in Oro {ICON:GoldIcon}, Cibo {ICON:FoodIcon} e/o Mana {ICON:ManaIcon} da sostenere ad ogni turno. In caso di mancato pagamento, l'unità viene congedata."/>
+		<Loc Key="UI_TOTAL_HEALTH" Value="Salute Totale"/>
+		<Loc Key="UI_TOTAL_HEALTH_DES" Value="Mostra la percentuale di salute dell'intera unità."/>
+		<Loc Key="UI_CASTING_SKILL2_DES" Value="Indica il costo massimo di incantesimi che puoi lanciare durante una battaglia. Influisce anche sulla quantità di Mana{ICON:ManaIcon} che puoi sommare al potere di un incantesimo potenziabile."/>
+		<Loc Key="UI_CASTING_SKILL3_DES" Value="Sulla mappa globale, la Capacità di Lancio indica quanto Mana puoi usare per lanciare incantesimi ad ogni turno.\n\nIn battaglia, determina il costo di lancio massimo e la riserva di Mana a tua disposizione fino a fine scontro."/>
+		<Loc Key="UI_CASTING_SKILL_PROGRESS" Value="Aumento Capacità di Lancio"/>
+		<Loc Key="UI_CASTING_SKILL_PROGRESS_DES" Value="Ogni nuovo punto di Capacità di Lancio costa il doppio della tua attuale Capacità di Lancio.\n\nQuando la barra sarà piena, otterrai +1 Capacità di Lancio.\n\nPer migliorare la tua Capacità di Lancio, investi dei punti Potere nella fiala rossa."/>
+		<Loc Key="UI_CASTING_RANGE" Value="Portata dello Stregone"/>
+		<Loc Key="UI_CASTING_RANGE_DES" Value="Un moltiplicatore che influisce sui costi in Mana dei tuoi incantesimi in battaglia. Quanto più lontana è la Fortezza dello Stregone dal luogo dello scontro, tanto maggiore è il moltiplicatore."/>
+		<Loc Key="UI_SAVE_GAME" Value="Salva Partita"/>
+		<Loc Key="UI_LOAD_GAME" Value="Carica Partita"/>
+		<Loc Key="UI_QUIT_TO_MENU" Value="Torna al Menu"/>
+		<Loc Key="UI_QUIT_GAME" Value="Abbandona Partita"/>
+		<Loc Key="UI_THE_ARMIES_OF" Value="Gli Eserciti di "/>
+		<Loc Key="UI_BASE_VALUE" Value="Valore Base"/>
+		<Loc Key="UI_TOTAL_VALUE" Value="Valore Totale"/>
+		<Loc Key="UI_A_MERCHANT_ARRIVES" Value="Giunge un mercante per offrirti {0}. Il prezzo proposto è di {1} pezzi d'Oro."/>
+		<Loc Key="UI_GOLD_INCOME" Value="Oro"/>
+		<Loc Key="UI_GOLD_INCOME_DES" Value="Mostra le tue attuali riserve ed entrate di Oro. Se le riserve di Oro scenderanno sotto lo 0, alcune unità verranno congedate per ridurre il denaro in uscita."/>
+		<Loc Key="UI_MANA_INCOME" Value="Mana"/>
+		<Loc Key="UI_MANA_INCOME_DES" Value="Mostra le tue attuali riserve ed entrate di Mana. Se le riserve di Mana scenderanno sotto lo 0, alcune unità verranno congedate per ridurre il mana in uscita."/>
+		<Loc Key="UI_FOOD" Value="Cibo"/>
+		<Loc Key="UI_FOOD_DES" Value="Consente di nutrire i cittadini e le unità non fantastiche."/>
+		<Loc Key="UI_FOOD_INCOME" Value="Cibo prodotto/consumato"/>
+		<Loc Key="UI_FOOD_INCOME_DES" Value="Usato per sfamare gli eserciti. Se le riserve di Cibo scendono sotto lo 0, alcune unità saranno congedate. Le eccedenze di Cibo non vengono accumulate: ogni 2 unità di surplus vengono convertite in 1 Oro a fine turno."/>
+		<Loc Key="UI_FOOD_INCOME2_DES" Value="Il cibo viene usato per nutrire la popolazione delle città e gli eserciti. Non è possibile accumulare le eccedenze prodotte.\n\nSe le riserve di cibo non soddisfano la richiesta, le città soffriranno la fame e la loro popolazione diminuirà.\nA fine turno, ogni 2 unità di Cibo di surplus vengono sempre convertite in 1 Oro {ICON:GoldIcon}"/>
+		<Loc Key="UI_FAME" Value="Fama"/>
+		<Loc Key="UI_FAME_DES" Value="La fama rappresenta la tua reputazione. Molti eroi sono portati a schierarsi al fianco degli Stregoni più celebri, e i mercanti preferiscono offrire artefatti proprio a loro. Ogni punto di Fama riduce anche i costi di mantenimento delle truppe di 1 Oro."/>
+		<Loc Key="UI_GOLD" Value="Oro"/>
+		<Loc Key="UI_GOLD_DES" Value="Usato per pagare i costi di mantenimento delle truppe, produrre nuove unità o edifici e reclutare eroi. La fama riduce i costi di mantenimento delle unità."/>
+		<Loc Key="UI_GOLD_PER_TURN" Value="Oro per turno"/>
+		<Loc Key="UI_GOLD_DETAILS_FOOD" Value="Cibo - Oro"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_RESOURCES" Value="Città - Risorse"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_TAXES" Value="Città - Tasse"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_UPKEEP" Value="Città - Mantenimento"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_PRODUCTION" Value="Città - Produzione"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_INCOME" Value="Città - Altre Entrate"/>
+		<Loc Key="UI_GOLD_DETAILS_UNITS_UPKEEP" Value="Unità - Mantenimento"/>
+		<Loc Key="UI_GOLD_DETAILS_UNITS_UPKEEP_FAME" Value="Fame - Mantenimento Unità"/>
+		<Loc Key="UI_GOLD_DETAILS_UNITS_INCOME" Value="Unità - Entrate"/>
+		<Loc Key="UI_GOLD_DETAILS_ROAD_NETWORK" Value="Rete Stradale - Entrate"/>
+		<Loc Key="UI_FOOD_DETAILS_TOWN_INCOME" Value="Città - Altre Entrate"/>		
+		<Loc Key="UI_FOOD_DETAILS_UNITS_INCOME" Value="Unità - Entrate"/>
+		<Loc Key="UI_FOOD_DETAILS_UNITS_UPKEEP" Value="Mantenimento"/>
+		<Loc Key="UI_FOOD_DETAILS_CHEAT" Value="Trucco"/>
+		<Loc Key="UI_MANA_DETAILS_POWER" Value="Da Potere"/>
+		<Loc Key="UI_MANA_DETAILS_INCOME_BONUS" Value="Bonus"/>
+		<Loc Key="UI_MANA_DETAILS_TOWN_UPKEEP" Value="Città - Mantenimento"/>
+		<Loc Key="UI_MANA_DETAILS_TOWN_INCOME" Value="Città - Entrate"/>
+		<Loc Key="UI_MANA_DETAILS_UNITS_UPKEEP" Value="Unità - Mantenimento"/>		
+		<Loc Key="UI_MANA_DETAILS_UNITS_INCOME" Value="Unità - Entrate"/>
+		<Loc Key="UI_MANA_CHANNELER_DISCOUNT" Value="Sconto (Incanalatore)"/>
+		<Loc Key="UI_MANA_CONJUER_DISCOUNT" Value="Sconto (Invocatore)"/>
+		<Loc Key="UI_MANA_NATURE_SUMMONER_DISCOUNT" Value="Sconto (Evocatore di Natura)"/>
+		<Loc Key="UI_MANA_DETAILS_ENCHANTMENTS" Value="Incantamenti"/>
+		<Loc Key="UI_MANA_DETAILS_CHEAT" Value="Trucco"/>
+		<Loc Key="UI_MANA_DETAILS_ENCHANTMENTS_DISCOUNT" Value="Sconto (Incantamenti)"/>
+		<Loc Key="UI_POWER_DETAILS_TOWN_INCOME" Value="Città - Entrate"/>
+		<Loc Key="UI_POWER_DETAILS_NODE_INCOME" Value="Nodi - Entrate"/>
+		<Loc Key="UI_POWER_DETAILS_VOLCANO_INCOME" Value="Vulcano - Entrate"/>
+		<Loc Key="UI_POWER_DETAILS_CHEAT" Value="Trucco"/>
+		<Loc Key="UI_RESEARCH_DETAILS_POWER" Value="Potere"/>
+		<Loc Key="UI_RESEARCH_DETAILS_SAGE_MASTERY" Value="Erudizione - Entrate"/>
+		<Loc Key="UI_RESEARCH_DETAILS_TOWN_INCOME" Value="Città - Entrate"/>
+		<Loc Key="UI_RESEARCH_DETAILS_UNITS_INCOME" Value="Unità - Entrate"/>
+		<Loc Key="UI_RESEARCH_DETAILS_CHEAT" Value="Trucco"/>
+		<Loc Key="UI_PRODUCTION" Value="Produzione"/>
+		<Loc Key="UI_PRODUCTION_DES" Value="I punti Produzione sono usati per costruire edifici ed addestrare unità. Quanta più Produzione hai, tanto più rapidamente completerai i tuoi progetti di produzione."/>
+		<Loc Key="UI_PRODUCTION2_DES" Value="Usata per erigere edifici ed addestrare unità."/>
+		<Loc Key="UI_PRODUCTION_PER_TURN" Value="Produzione per turno"/>
+		<Loc Key="UI_SUMMONING_LOCATION" Value="Punto di Evocazione"/>
+		<Loc Key="UI_SUMMONING_LOCATION_DES" Value="Indica la posizione del tuo Circolo Evocativo, ovvero il luogo dove compariranno le unità da te evocate.\n\nLa posizione del Circolo Evocativo può essere modificata lanciando un incantesimo apposito."/>
+		<Loc Key="UI_CURRENTLY_CASTING" Value="In Fase di Lancio"/>
+		<Loc Key="UI_CURRENTLY_CASTING_DES" Value="Mostra l'incantesimo attualmente in fase di lancio. In base alla tua Capacità di Lancio e al costo in Mana dell'incantesimo scelto, il lancio potrebbe richiedere più di 1 turno. Riceverai una notifica quando l'incantesimo sarà pronto."/>
+		<Loc Key="UI_CURRENTLY_RESEARCHING" Value="In Fase di Ricerca"/>
+		<Loc Key="UI_CURRENTLY_RESEARCHING_DES" Value="Mostra l'attuale oggetto della tua ricerca. La velocità di ricerca dipende dai tuoi Punti Ricerca, che puoi generare assegnando punti Potere alla Ricerca (fiala verde)."/>
+		<Loc Key="UI_VALUE" Value="Valore:"/>
+		<Loc Key="UI_SET_AMOUNT" Value="Q.tà"/>
+		<Loc Key="UI_SELECT_A_UNIT_OR_BUILDING" Value="Seleziona un edificio dalla colonna di sinistra o un'unità da quella di destra per visualizzarne i dettagli."/>
+		<Loc Key="UI_POPULATION" Value="Popolazione"/>
+		<Loc Key="UI_POPULATION_DES" Value="La quantità di cittadini che abitano questa città, e il suo tasso di crescita ad ogni turno.\n\nOgni gruppo di 1000 cittadini può essere assegnato al ruolo di contadino o operaio nel pannello 'Cittadini'.\n\nLa Popolazione Massima raggiungibile può essere modificata da diversi fattori, come incantesimi ed edifici."/>
+		<Loc Key="UI_UNREST" Value="Instabilità"/>
+		<Loc Key="UI_UNREST_DES" Value="La percentuale di instabilità di questa città: tiene conto dell'instabilità globale e di eventuali altri modificatori.\n\nL'instabilità è modificata da tassazione, tensioni razziali (che dipendono dalla posizione della tua Fortezza), edifici, incantamenti ed eserciti di stanza (escluse le unità fantastiche)."/>
+		<Loc Key="UI_CITIZENS_DES" Value="Il numero di cittadini residenti in città dipende dalla popolazione locale (1 pop. corrisponde a 1000 cittadini). I cittadini sono preassegnati al ruolo di contadini che producono Cibo {ICON:FoodIcon}, ma possono essere convertiti in operai per aumentare la produzione {ICON:ProductionIcon}. L'instabilità può convertire i cittadini in ribelli, che non lavorano e non producono risorse."/>
+		<Loc Key="UI_INCOME_FROM_TAXES" Value="Entrate da Tasse"/>
+		<Loc Key="UI_INCOME_FROM_TAXES_DES" Value="{COLOR:#910D0D}Il livello delle Tasse è uguale per TUTTE le tue città.{END_COLOR}\n\nQuesta è la quantità di Oro che ricevi ad ogni turno dalla tassazione di tutte le tue città.\nQueste entrate dipendono dal livello di tassazione e dal numero dei cittadini. Un livello di tassazione più alto provoca l'aumento dell'instabilità globale."/>
+		<Loc Key="UI_GLOBAL_UNREST" Value="Instabilità Globale"/>
+		<Loc Key="UI_GLOBAL_UNREST_DES" Value="Indica la percentuale di cittadini insoddisfatti dall'attuale livello di tassazione (questo valore è sommato all'instabilità della città individuale)."/>
+		<Loc Key="UI_ON" Value="su"/>
+		<Loc Key="UI_BELONGING_TO" Value="appartenente a"/>
+		<Loc Key="UI_ITEM_PAY_TO_TRANSFER" Value="Per inviare questo oggetto all'eroe scelto, dovrai usare i tuoi poteri magici.\nCosto:"/>
+		<Loc Key="UI_YOUR_MANA_RESERVE_IS" Value="Riserva di Mana:"/>
+		<Loc Key="UI_YOU_DO_NOT_HAVE_ENOUGH_MANA" Value="Mana insufficiente!"/>
+		<Loc Key="UI_CASTING_SPELL_BLAST_INFO" Value="Per respingere questo incantesimo, dovrai pagare tanto mana quanto ne ha già investito il suo autore."/>
+		<Loc Key="UI_EQUIP_ARTEFACTS" Value="Equipaggia Artefatti"/>
+		<Loc Key="UI_QUIT_WITH_SAVE" Value="Salva &amp; Esci"/>
+		<Loc Key="UI_QUIT_WITHOUT_SAVE" Value="Esci senza salvare"/>
+		<Loc Key="UI_QUIT_GAME_DESCRIPTION" Value="Vuoi salvare la partita?"/>
+		<Loc Key="UI_SAVE" Value="Salva"/>
+		<Loc Key="UI_ENTER_SAVE_NAME" Value="Inserisci nome del salvataggio"/>
+		<Loc Key="UI_LOAD" Value="Carica"/>
+		<Loc Key="UI_UNKNOWN_COST" Value="???"/>
+		<Loc Key="UI_SPECIAL" Value="???"/>
+		<Loc Key="UI_BONUSES" Value="Bonus"/>
+		<Loc Key="UI_SPELLS" Value="Incantesimi"/>
+		<Loc Key="UI_LIFE" Value="Vita"/>
+		<Loc Key="UI_DEATH" Value="Morte"/>
+		<Loc Key="UI_NATURE" Value="Natura"/>
+		<Loc Key="UI_SORCERY" Value="Illusioni"/>
+		<Loc Key="UI_CHAOS" Value="Caos"/>
+		<Loc Key="UI_REQUIRED" Value="Richiesto"/>
+		<Loc Key="UI_ENTER_NAME_ERROR" Value="Inserisci il nome dello Stregone."/>
+		<Loc Key="UI_NAME_AND_PORTRAIT" Value="Ritratto e Nome"/>
+		<Loc Key="UI_NAME" Value="Nome:"/>
+		<Loc Key="UI_NEXT" Value="Pros."/>
+		<Loc Key="UI_TRAITS_AND_MAGIC" Value="Tratti e Tomi Magici"/>
+		<Loc Key="UI_PICKS" Value="Punti:"/>
+		<Loc Key="UI_SPELLS_TO_PICK" Value="Inc. da scegliere:"/>
+		<Loc Key="UI_COMMON" Value="Comune:"/>
+		<Loc Key="UI_COMMON2" Value="Comune"/>
+		<Loc Key="UI_UNCOMMON" Value="Non Comune:"/>
+		<Loc Key="UI_UNCOMMON2" Value="Non Comune"/>
+		<Loc Key="UI_RARE" Value="Raro:"/>
+		<Loc Key="UI_RARE2" Value="Raro"/>
+		<Loc Key="UI_VERYRARE" Value="Molto Raro"/>
+		<Loc Key="UI_ENCHANTMENTS_YOU_CONTROL" Value="I Tuoi Incantamenti"/>
+		<Loc Key="UI_NO_INFORMATION_AVAILABLE" Value="Nessuna Info Disponibile"/>
+		<Loc Key="UI_UNITS_DISBANDED" Value="Unità Congedate"/>
+		<Loc Key="UI_UNITS_DISBANDED_DES" Value="Maestà, porto cattive notizie! Alcune tue unità hanno disertato gli eserciti a causa di una carenza di Oro, Cibo o Mana!"/>
+		<Loc Key="UI_THE_CITIES_OF" Value="Le Città di {0}"/>
+		<Loc Key="UI_GO_TO_CITY" Value="Vedi Città"/>
+		<Loc Key="UI_START_EVENT" Value="Avvia Evento"/>
+		<Loc Key="UI_START_SCRIPT" Value="Avvia Script"/>
+		<Loc Key="UI_INVALID_TARGET" Value="Bersaglio Non Valido"/>
+		<Loc Key="UI_USE_PICKS_ERROR" Value="Devi usare tutti i tuoi punti per procedere"/>		
+		<Loc Key="UI_LIFE_AND_DEATH_ERROR" Value="Non puoi selezionare le magie di Vita e Morte contemporaneamente"/>
+		<Loc Key="UI_SELECT_MORE_SPELLS" Value="Devi selezionare più incantesimi di questo regno."/>
+		<Loc Key="UI_HISTORY" Value="Cronologia"/>
+		<Loc Key="UI_MIRROR" Value="Specchio"/>
+		<Loc Key="UI_TRAITS" Value="Tratti"/>
+		<Loc Key="UI_TRAITS_DES" Value="Le abilità speciali di uno Stregone. Si possono acquisire liberando località particolarmente ben sorvegliate.\n\nIl numero massimo di tratti possedibili da uno Stregone è 6."/>
+		<Loc Key="UI_WEALTH" Value="Ricchezza"/>
+		<Loc Key="UI_ARMY_STAT" Value="Forza Esercito"/>
+		<Loc Key="UI_RESEARCH_STAT" Value="Ricerca"/>
+		<Loc Key="UI_MAGIC_STAT" Value="Potere magico"/>
+		<Loc Key="UI_TOWNS_STAT" Value="Numero di Città"/>
+		<Loc Key="UI_TIME" Value="Tempo"/>
+		<Loc Key="UI_HISTORY_OF_WIZARDS_POWER" Value="Cronologia del potere"/>
+		<Loc Key="UI_HELP_MYRRAN_RACES" Value="Razze di Myrror"/>
+		<Loc Key="UI_HELP_MYRRAN_RACES_DES" Value="Le razze di Myrror possono essere selezionate soltanto dagli Stregoni che possiedono il tratto 'Myrran'."/>
+		<Loc Key="UI_VERSUS" Value="VS."/>
+		<Loc Key="UI_SEND_FAMILIAR" Value="Invia Famiglio"/>
+		<Loc Key="UI_COMMAND_PERSONALLY" Value="Battaglia Manuale"/>
+		<Loc Key="UI_COMBAT_TEXT1" Value="Il Famiglio dice: &quot;Maestà, se mi permetterai di comandare le truppe, prevedo questi esiti:&quot;"/>
+		<Loc Key="UI_COMBAT_TEXT2" Value="Vuoi controllare personalmente le truppe, affidare il compito al tuo famiglio o battere in ritirata?"/>
+		<Loc Key="UI_COMBAT_TEXT3" Value="Consenti al famiglio di usare Mana {ICON:ManaIcon} per aumentare le tue prob. di vittoria."/>
+		<Loc Key="UI_DRAW" Value="Pareggio!"/>
+		<Loc Key="UI_RETREAT" Value="Ritirata!"/>
+		<Loc Key="UI_INDEPENDENT" Value="Independente"/>
+		<Loc Key="UI_ENCHANTMENTS" Value="Incantamenti"/>
+		<Loc Key="UI_YES" Value="Sì"/>
+		<Loc Key="UI_NO" Value="No"/>
+		<Loc Key="UI_CAN_BE_DISPELLED" Value="Dissipabile"/>
+		<Loc Key="UI_DURATION" Value="Durata"/>
+		<Loc Key="UI_CONTROLLER" Value="Controllore"/>
+		<Loc Key="UI_UPKEEP_COST" Value="Costo di mantenimento"/>
+		<Loc Key="UI_GLOBAL" Value="Globale"/>
+		<Loc Key="UI_NORMAL_WEAPON" Value="Arma Normale"/>
+		<Loc Key="UI_NORMAL_WEAPON_DES" Value="Questa unità è equipaggiata con un'arma normale che non fornisce bonus aggiuntivi."/>
+		<Loc Key="UI_ENCHANTED_WEAPON" Value="Arma Incantata"/>
+		<Loc Key="UI_ENCHANTED_WEAPON_DES" Value="L'arma di questa unità è potenziata da un incantesimo o da un'abilità."/>
+		<Loc Key="UI_SKILLS" Value="Abilità"/>
+		<Loc Key="UI_SKILLS_DES" Value="Le abilità conferiscono alle unità determinati vantaggi in contesti specifici."/>
+		<Loc Key="UI_ENCHANTMENTS_DES" Value="Gli incantamenti sono effetti positivi o negativi conferiti da incantesimi. Non tutti gli incantamenti possono essere dissipati!"/>
+		<Loc Key="UI_BUILDING_CONSTRUCTED_IN" Value = "Edificio costruito - {0}"/>
+		<Loc Key="UI_BUILDING_DEMOLISHED_IN" Value = "Edificio demolito - {0}"/>
+		<Loc Key="UI_TURNS" Value = "{0} Turni"/>
+		<Loc Key="UI_FOOD_PRODUCTION_INCREASED_IN" Value = "Produzione di Cibo aumentata presso {0}"/>
+		<Loc Key="UI_FOOD_PRODUCTION_DECREASED_IN" Value = "Produzione di Cibo diminuita presso {0}"/>
+		<Loc Key="UI_CITY_ACQUIRED" Value = "Città acquisita"/>
+		<Loc Key="UI_CITY_LOST" Value = "Città perduta"/>
+		<Loc Key="UI_FAME_INCREASED" Value = "Fama aumentata"/>
+		<Loc Key="UI_FAME_DECREASED" Value = "Fama diminuita"/>
+		<Loc Key="UI_GOLD_GAINED" Value = "Oro ottenuto"/>
+		<Loc Key="UI_GOLD_LOST" Value = "Oro perso"/>
+		<Loc Key="UI_MANA_GAINED" Value = "Mana ottenuto"/>
+		<Loc Key="UI_MANA_LOST" Value = "Mana perso"/>
+		<Loc Key="UI_POPULATION_GAINED_IN" Value = "Popolazione aumentata - {0}"/>
+		<Loc Key="UI_POPULATION_LOST_IN" Value = "Popolazione diminuita - {0}"/>
+		<Loc Key="UI_POWER_INCREASED" Value = "Potere aumentato - {0}"/>
+		<Loc Key="UI_POWER_DECREASED" Value = "Potere diminuito - {0}"/>
+		<Loc Key="UI_PRODUCTION_BOOST_IN " Value = "Aumento di produzione - {0}"/>
+		<Loc Key="UI_PRODUCTION_SETBACK_IN" Value = "Calo di produzione - {0}"/>
+		<Loc Key="UI_UNREST_INCREASED_IN" Value="Aumento di instabilità - {0}"/>
+		<Loc Key="UI_UNREST_DECREASED_IN" Value="Calo di instabilità - {0}"/>
+		<Loc Key="UI_RESEARCH_BOOST" Value = "Aumento di ricerca"/>
+		<Loc Key="UI_RESEARCH_SETBACK" Value = "Calo di ricerca"/>
+		<Loc Key="UI_ENCHANTMENT_APPLIED" Value = "Incantamento applicato"/>
+		<Loc Key="UI_ENCHANTMENT_REMOVED" Value = "Incantamento rimosso"/>
+		<Loc Key="UI_SPELL_LEARNED" Value = "Incantesimo appreso"/>
+		<Loc Key="UI_SPELLBOOK_ACQUIRED" Value = "Tomo acquisito"/>
+		<Loc Key="UI_HERO_JOINED" Value = "Eroe reclutato"/>
+		<Loc Key="UI_HERO_LEFT" Value = "Eroe perso"/>
+		<Loc Key="UI_ITEM_GAINED" Value = "Oggetto ottenuto"/>
+		<Loc Key="UI_ITEM_LOST" Value = "Oggetto perso"/>
+		<Loc Key="UI_A_RESOURCE_HAS_BEEN_DISCOVERED_NEAR" Value = "Scoperta presso {0}"/>
+		<Loc Key="UI_A_RESOURCE_HAS_BEEN_DESTROYED_NEAR" Value = "Distrutta presso {0}"/>
+		<Loc Key="UI_UNIT_RECRUITED" Value = "Unità reclutata"/>
+		<Loc Key="UI_UNIT_DISBANDED" Value = "Unità congedata"/>
+		<Loc Key="UI_TRAIT_GAINED" Value = "Tratto ottenuto"/>
+		<Loc Key="UI_HERO_ABILITIES_IMPROVED" Value = "Abilità eroiche potenziate"/>
+		<Loc Key="UI_HERO_ABILITIES_IMPAIRED" Value = "Abilità eroiche compromesse"/>
+		<Loc Key="UI_UNIT_ABILITIES_IMPROVED" Value = "Abilità delle unità potenziate"/>
+		<Loc Key="UI_UNIT_ABILITIES_IMPAIRED" Value = "Abilità delle unità compromesse"/>
+		<Loc Key="UI_UNIT_DIED" Value = "Unità perduta"/>
+		<Loc Key="UI_HERO_DIED" Value = "Eroe perduto"/>
+		<Loc Key="UI_SAVE_OR_DISCARD" Value="Stai per uscire dall'editor. Desideri salvare le modifiche fatte o scartarle?"/>
+		<Loc Key="UI_DISCARD_AND_EXIT" Value="Scarta ed Esci"/>
+		<Loc Key="UI_SAVE_AND_EXIT" Value="Salva ed Esci"/>
+		<Loc Key="UI_STAY_AND_EDIT" Value="Resta nell'Editor"/>
+		<Loc Key="UI_GLOBAL_ENCHANTMENTS" Value="Inc. Globali"/>
+		<Loc Key="UI_CHANCE_TO_HIT" Value="Prob. di Colpire"/>
+		<Loc Key="UI_CHANCE_TO_HIT_MELEE" Value="Prob. di Colpire - Mischia"/>
+		<Loc Key="UI_CHANCE_TO_HIT_MELEE_DES" Value="Indica le probabilità di successo di un singolo attacco ravvicinato."/>
+		<Loc Key="UI_CHANCE_TO_HIT_RANGED" Value="Prob. di Colpire - Tiro"/>
+		<Loc Key="UI_CHANCE_TO_HIT_RANGED_DES" Value="Indica le probabilità di successo di un singolo attacco a distanza."/>
+		<Loc Key="UI_CHANCE_TO_DEFEND" Value="Prob. di Difesa"/>
+		<Loc Key="UI_CHANCE_TO_DEFEND_DES" Value="Indica le probabilità di successo di un tiro difensivo atto a prevenire un singolo punto danni di un attacco convenzionale."/>
+		<Loc Key="UI_CHANCE_TO_RESIST" Value="Prob. di Resistenza"/>
+		<Loc Key="UI_CHANCE_TO_RESIST_DES" Value="Indica le probabilità di resistere agli effetti negativi di attacci ed incantesimi nemici."/>
+		<Loc Key="UI_REJECT" Value="Rifiuta"/>
+		<Loc Key="UI_HIRE" Value="Recluta"/>
+		<Loc Key="UI_INVALID_NEW_TOWN_LOCATION" Value="La posizione che hai scelto per la tua nuova città non è valida.\n\n- La distanza minima tra le città deve essere di {0} caselle, e\n\n- Le città non possono essere fondate sull'acqua."/>
+		<Loc Key="UI_MONEY_UPKEEP_FAILING" Value="Sei a corto di Oro. Per mantenere il bilancio in positivo, potresti alzare le tasse, riorganizzare i tuoi operai e/o vendere edifici ed unità.\n\nSe continuerai, sarai costretto a vendere unità e/o edifici. "/>
+		<Loc Key="UI_COMBAT_OUTCOMES" Value="Esiti di Battaglia"/>
+		<Loc Key="UI_COMBAT_OUTCOMES_DES" Value="Elenca i possibili esiti di battaglia e le rispettive probabilità, dalla sconfitta decisiva alla vittoria schiacciante. L'esito finale sarà determinato dal tiro di un dado."/>
+		<Loc Key="UI_SUMMONS_UNITS" Value="Evoca Unità:"/>
+		<Loc Key="UI_SAVE_SUCCESSFUL" Value = "Salvataggio riuscito"/>
+		<Loc Key="UI_ERROR" Value = "Errore"/>
+		<Loc Key="UI_SET_SAVE_NAME" Value = "Inserisci un nome per il salvataggio"/>
+		<Loc Key="UI_SPELLBOOKS" Value = "Tomi"/>
+		<Loc Key="UI_LIFE_SPELLBOOKS" Value = "Tomi della Vita"/>
+		<Loc Key="UI_DEATH_SPELLBOOKS" Value = "Tomi della Morte"/>
+		<Loc Key="UI_NATURE_SPELLBOOKS" Value = "Tomi della Natura"/>
+		<Loc Key="UI_SORCERY_SPELLBOOKS" Value = "Tomi delle Illusioni"/>
+		<Loc Key="UI_CHAOS_SPELLBOOKS" Value = "Tomi del Caos"/>
+		<Loc Key="UI_ALL_SPELLBOOKS" Value = "Tutti i Tomi"/>
+		<Loc Key="UI_SETTLEMENT_CONQUERED" Value = "Maestà, hai conquistato questo insediamento. Ora devi decidere la sua sorte!"/>
+		<Loc Key="UI_HAMLET_CONQUERED" Value = "Maestà, hai conquistato questo borgo. Ora devi decidere la sua sorte!"/>
+		<Loc Key="UI_VILLAGE_CONQUERED" Value = "Maestà, hai conquistato questo villaggio. Ora devi decidere la sua sorte!"/>
+		<Loc Key="UI_TOWN_CONQUERED" Value = "Maestà, hai conquistato questa cittadina. Ora devi decidere la sua sorte!"/>
+		<Loc Key="UI_CITY_CONQUERED" Value = "Maestà, hai conquistato questa città. Ora devi decidere la sua sorte!"/>		
+		<Loc Key="UI_TOWN_CONQUERED2" Value = "Quali sono i tuoi ordini?"/>
+		<Loc Key="UI_RAZE_OUTCOME" Value = "Hai raso al suolo {0}."/>
+		<Loc Key="UI_KEEP_OUTCOME" Value = "{0} è ora sotto il tuo controllo."/>
+		<Loc Key="UI_RAZE_TOWN" Value = "Radi al suolo {0}"/>
+		<Loc Key="UI_KEEP_TOWN" Value = "Occupa {0}"/>
+		<Loc Key="UI_RAZE" Value = "Radi al suolo"/>
+		<Loc Key="UI_KEEP" Value = "Occupa"/>
+		<Loc Key="UI_NEARBY_RESOURCES" Value = "Risorse vicine:"/>
+		<Loc Key="UI_OUTPOST_CONQUERED" Value = "Maestà, hai conquistato questo avamposto... ma ahimè, esso è andato distrutto durante la battaglia."/>
+		<Loc Key="UI_HAS_LEVELED_UP" Value = "Nuovo livello: {0}"/>
+		<Loc Key="UI_CANNOT_BUILD_CITY_WATER" Value = "Le città non possono essere fondate sull'acqua."/>
+		<Loc Key="UI_CANNOT_BUILD_CITY_LOCATION" Value = "Fondazione impossibile - casella già occupata da un altro luogo."/>
+		<Loc Key="UI_CANNOT_BUILD_CITY_PROXIMITY" Value = "Fondazione impossibile - c'è già un'altra città entro {0} caselle di distanza."/>
+		<Loc Key="UI_MAXIMUM_POPULATION" Value = "Popolazione Massima:"/>
+		<Loc Key="UI_MAX" Value = "Max:"/>
+		<Loc Key="UI_PRODUCTION_BONUS" Value = "Bonus di Produzione:"/>
+		<Loc Key="UI_CHOOSE_SPELL_COST" Value = "Scegli Costo Incant."/>
+		<Loc Key="UI_CONFIRM_DISBAND" Value = "Vuoi davvero congedare questa unità?"/>
+		<Loc Key="UI_DISBAND" Value = "Congeda"/>
+		<Loc Key="UI_FAME_AWARDED" Value = "La tua Fama è aumentata di"/>
+		<Loc Key="UI_FAME_LOST" Value = "La tua Fama è calata di"/>
+		<Loc Key="UI_COUNTER_MAGIC" Value = "Inc. Deviato"/>
+		<Loc Key="UI_SPELL_COUNTERED" Value = "Il tuo incantesimo è stato deviato da un incantamento già attivo."/>
+		<Loc Key="UI_UHH" Value = "Uhh..."/>
+		<Loc Key="UI_GAME_SAVED" Value = "Partita Salvata"/>
+		<Loc Key="UI_DISCARD" Value = "Scarta"/>
+		<Loc Key="UI_DISCARD_SPELL_SURE" Value = "Vuoi davvero scartare questo incantesimo? Il Mana già investito andrà perduto."/>
+		<Loc Key="UI_NOTIFICATION_CONSTRUCTION_COMPLETE" Value = "Costruzione Completata"/>
+		<Loc Key="UI_NOTIFICATION_CONSTRUCTION_COMPLETE_DES" Value = "La costruzione di {0} è terminata.\n{ICON:LMB} Mostra città.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_SUMMON_COMPLETE" Value = "Evocazione Completata"/>
+		<Loc Key="UI_NOTIFICATION_SUMMON_COMPLETE_DES" Value = "Hai evocato con successo {0}.\n{ICON:LMB} Mostra {0}.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_TOWN_LOST" Value = "Città Perduta"/>
+		<Loc Key="UI_NOTIFICATION_TOWN_LOST_DES" Value = "Hai perduto {0}.\n{ICON:LMB} Mostra città.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_BLOCKED" Value = "Inc. Bloccato"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_BLOCKED_DES" Value = "Uno dei tuoi avversari ha provato a colpirti con un incantesimo, ma il tuo incantamento protettivo ha neutralizzato l'attacco.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_TOWN" Value = "Città Colpita"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_TOWN_DES" Value = "Un avversario ha lanciato un incantesimo su {0}.\n{ICON:LMB} Mostra città.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_UNIT" Value = "Unità Colpita"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_UNIT_DES" Value = "Un avversario ha lanciato un incantesimo contro una delle tue unità.\n{ICON:LMB} Mostra unità.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_RESEARCH_AVAILABLE" Value = "Ricerca Disponibile"/>
+		<Loc Key="UI_NOTIFICATION_RESEARCH_AVAILABLE_DES" Value = "Puoi avviare la ricerca di un nuovo incantesimo.\n{ICON:LMB} Mostra Ricerca.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_OUTPOST_TO_TOWN" Value = "Avamposto in Crescita"/>
+		<Loc Key="UI_NOTIFICATION_OUTPOST_TO_TOWN_DES" Value = "L'Avamposto {0} è cresciuto al livello di Borgo. Ora potrai gestirne la produzione.\n{ICON:LMB} Mostra città.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_CASTING_COMPLETE_DES" Value = "Il tuo incantesimo è pronto.\n{ICON:LMB} Lancia incantesimo.\n{ICON:RMB} Chiudi."/>		
+		<Loc Key="UI_NOTIFICATION_CRAFTING_COMPLETE_DES" Value = "Il tuo artefatto è pronto.\n{ICON:LMB} Mostra.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_UNIT_LEVEL_UP_DES" Value = "Unità salita di livello: {0}.\n{ICON:LMB} Mostra.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_STARVATION" Value = "Inedia"/>
+		<Loc Key="UI_NOTIFICATION_STARVATION_DES" Value = "{0} non produce abbastanza Cibo, e la sua popolazione sta calando.\n{ICON:LMB} Mostra.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_RAISED_UNDEAD" Value = "Non-Morto Riesumato"/>
+		<Loc Key="UI_NOTIFICATION_RAISED_UNDEAD_DES" Value = "Hai richiamato {0} dalla morte, e ora fa parte del tuo esercito!\n{ICON:LMB} Mostra.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_QUEUE_COMPLETE" Value = "Coda Completata"/>
+		<Loc Key="UI_NOTIFICATION_QUEUE_COMPLETE_DES" Value = "La coda di produzione di {0} è vuota, ora la città costruirà Alloggi.\n{ICON:LMB} Mostra città.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_BUTTON_GAME" Value = "Opzioni di Gioco ({0})"/>
+		<Loc Key="UI_BUTTON_GAME2" Value = "Opzioni di Gioco"/>
+		<Loc Key="UI_BUTTON_DIPLOMACY" Value = "Diplomazia ({0})"/>
+		<Loc Key="UI_BUTTON_DIPLOMACY2" Value = "Diplomazia"/>
+		<Loc Key="UI_BUTTON_MAGIC" Value = "Magia ({0})"/>
+		<Loc Key="UI_BUTTON_MAGIC2" Value = "Magia"/>
+		<Loc Key="UI_BUTTON_ARMIES" Value = "Eserciti ({0})"/>
+		<Loc Key="UI_BUTTON_ARMIES2" Value = "Eserciti"/>
+		<Loc Key="UI_BUTTON_CITIES" Value = "Città ({0})"/>
+		<Loc Key="UI_BUTTON_CITIES2" Value = "Città"/>
+		<Loc Key="UI_BUTTON_INFO" Value = "Info Stregone ({0})"/>
+		<Loc Key="UI_BUTTON_INFO2" Value = "Info Stregone"/>
+		<Loc Key="UI_BUTTON_ARCANUS" Value = "Mostra Arcanus ({0})"/>
+		<Loc Key="UI_BUTTON_MYRROR" Value = "Mostra Myrror ({0})"/>
+		<Loc Key="UI_BUTTON_SURVEYOR" Value = "Mod. Geologo ({0})"/>
+		<Loc Key="UI_SELL" Value = "Vendi"/>
+		<Loc Key="UI_SELL_BUILDING_SURE" Value = "Vuoi davvero vendere questo edificio per {ICON:GoldIcon}{0}?"/>
+		<Loc Key="UI_SELL_BUILDING_STOP_CRAFT" Value="Se venderai questo edificio, cesserà la produzione di {0}."/>
+		<Loc Key="UI_WELCOME" Value="Salve, {0}"/>
+		<Loc Key="UI_WELCOME_DES" Value="I miei omaggi, o grande {0}!\nSe vorrai concedere pochi istanti di tempo al tuo umile servitore, sarò lieto di illustrarti i manipolatori globali che ho preparato in vista del tuo arrivo.\n\n(ATTIVA TUTORIAL)"/>
+		<Loc Key="UI_CAN_NOT_SELL" Value="Non puoi vendere: {0}."/>
+		<Loc Key="UI_CAN_NOT_SELL_DEPENDENCY" Value="Impossibile vendere questo edificio, perché {0} ne dipende."/>
+		<Loc Key="UI_CAN_NOT_SELL_ENCHANTMENT" Value="Impossibile vendere questo edificio, in quanto è il risultato di un incantamento attivo."/>
+		<Loc Key="UI_CONFIRM_RAZE_FAME_COST" Value="Vuoi davvero radere al suolo questa città? Ti costerà {0} Fama."/>
+		<Loc Key="UI_CONFIRM_RAZE_OUTPOST" Value="Vuoi davvero radere al suolo questo insediamento? Non recupererai il colono utilizzato per crearlo."/>
+		<Loc Key="UI_RELATIONS" Value="Rapporti"/>
+		<Loc Key="UI_TREATIES" Value="Trattati"/>
+		<Loc Key="UI_PERSONALITY" Value="Personalità"/>
+		<Loc Key="UI_OBJECTIVE" Value="Obiettivo"/>		
+		<Loc Key="UI_NO_UNKNOW_LOCATIONS" Value="Non esistono località sconosciute entro il raggio dell'incantesimo."/>		
+		<Loc Key="UI_INVALID_SPELL_TARGET" Value="Questa unità non è un bersaglio valido per l'incantesimo\n(Il bersaglio potrebbe essere immune al tipo di incantesimo lanciato, o già colpito da un effetto analogo)."/>
+		<Loc Key="UI_ENCH_INVALID_SPELL_TARGET_" Value="È possibile lanciare soltanto un'istanza di questo incantamento sul bersaglio."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_BATTLE" Value="Nessun bersaglio disponibile per questo incantesimo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_WIZARD" Value="Nessuno Stregone bersagliabile con questo incantesimo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_RAISE_DEAD" Value="Non sono presenti unità resuscitabili con questo incantesimo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_ANIMATE_DEAD" Value="Non sono presenti unità resuscitabili con questo incantesimo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_GLOBAL" Value="Non sono presenti unità bersagliabili da questo incantesimo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_HEX" Value="Questa non è una località valida per questo incantesimo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_HEX_OR_GLOBAL" Value="Non è presente un bersaglio valido per questo incantesimo, oppure la località selezionata non è valida."/>
+		<Loc Key="UI_HERO_LIMIT" Value="Limite eroi raggiunto."/>
+		<Loc Key="UI_INFO" Value = "Info"/>
+		
+		<Loc Key="UI_SPECIAL_ACTIONS" Value="Azioni Speciali"/>
+		<Loc Key="UI_BUILD_OUTPOST" Value="Crea Avamposto ({KEY_ACTION:UI_BUILD_OUTPOST2})"/>
+		<Loc Key="UI_BUILD_OUTPOST_DES" Value="Costruisci un Avamposto, che diventerà un Borgo dopo alcuni turni. Questa azione necessita di un'unità dotata dell'abilità Colono."/>
+		<Loc Key="UI_BUILD_ROAD" Value="Crea Strada ({KEY_ACTION:UI_BUILD_ROAD2})"/>
+		<Loc Key="UI_BUILD_ROAD_DES" Value="Le strade riducono i costi di movimento e aumentano le entrate delle città che collegano. Questa azione necessita di un'unità dotata dell'abilità Ingegnere."/>
+		<Loc Key="UI_INSTANT2" Value="(Istantaneo)"/>
+		<Loc Key="UI_MELD_WITH_NODE" Value="Fusione ({KEY_ACTION:UI_MELD_WITH_NODE2})"/>
+		<Loc Key="UI_MELD_WITH_NODE_DES" Value="Tenta di ottenere il controllo del nodo energetico. L'unità sarà distrutta, a prescindere dall'esito del processo. Questa azione necessita di un'unità dotata dell'abilità Fusione."/>
+		<Loc Key="UI_UPGRADE_NODE" Value="Upgrade Node ({KEY_ACTION:UI_MELD_WITH_NODE2})"/>
+		<Loc Key="UI_CHANCE" Value="Prob.:"/>
+		<Loc Key="UI_PURIFY" Value="Purifica ({KEY_ACTION:UI_PURIFY2})"/>
+		<Loc Key="UI_PURIFY_DES" Value="Elimina la corruzione di una casella, riportandola al suo stato originale. Questa azione necessita di un'unità dotata dell'abilità Purificatore."/>
+		<Loc Key="UI_HELD_BY" Value="Controllo: {0}"/>
+		
+		<Loc Key="UI_TOGGLE_GUARD" Value="Guardia ({0})"/>
+		<Loc Key="UI_TOGGLE_GUARD_DES" Value="Ordina a questo esercito di mantenere la posizione. Non ti verrà chiesto di assegnargli altri ordini finché non revocherai questo, o finché un nemico non entrerà nel suo campo visivo."/>
+		<Loc Key="UI_TOGGLE_SKIP" Value="Attendi ({0})"/>
+		<Loc Key="UI_TOGGLE_SKIP_DES" Value="Ordina all'esercito di rimanere in attesa di ordini fino al prossimo turno."/>
+		<Loc Key="UI_BUTTON_BUILD" Value="Azioni Speciali"/>
+		<Loc Key="UI_BUTTON_BUILD_DES" Value="Permette di compiere un'azione speciale (creazione di un avamposto o di una strada, fusione con nodo, purificazione del terreno), a patto che l'esercito disponga di un'unità capace di tale azione."/>
+		<Loc Key="UI_BUTTON_TRAVEL" Value="Viaggia"/>
+		<Loc Key="UI_BUTTON_TRAVEL_DES" Value="Permette all'esercito di spostarsi su un altro piano di gioco, a patto che disponga della relativa abilità."/>
+		<Loc Key="UI_TOOLTIP_CAPITAL" Value="Città Capitale"/>
+		<Loc Key="UI_TOOLTIP_CAPITAL_DES" Value="La tua fortezza è situata in questa città. Se la perderai, andrai incontro all'esilio o alla sconfitta."/>
+		<Loc Key="UI_UNEXPLORED" Value="Inesplorato/a"/>
+		<Loc Key="UI_FIGURES_DIED" Value="componente/i morto/i"/>
+		<Loc Key="UI_RECEIVED" Value="riceve"/>
+		<Loc Key="UI_UNIT_DESTROYED" Value="unità distrutta"/>
+		<Loc Key="UI_BUTTON_COMBAT_LOG" Value="Diaro di battaglia ({0})"/>
+		<Loc Key="UI_COMBAT_LOG_DMG" Value="({0} dmg)"/>
+		<Loc Key="UI_COMBAT_LOG_NO_FIGURES" Value="(riceve {0})"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURE" Value="1 componente morto (riceve {0})"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURES" Value="{1} componenti morti (riceve {0})"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURE_RESURRECTED" Value="{1} riceve {0} (1 componente resuscitato)"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURES_RESURRECTED" Value="{2} riceve {0} ({1} componenti resuscitati)"/>
+		<Loc Key="UI_HP_GAINED" Value="{ICON:HitIconNormal}{0}"/>
+		<Loc Key="UI_HP_LOST" Value="{ICON:HitIconMissing}{0}"/>
+		<Loc Key="UI_VS" Value="VS"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT" Value="&lt;#{3}&gt;{0}&lt;/color&gt; lancia {1} su &lt;#{4}&gt;{2}&lt;/color&gt; {5}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_BATTLEFIELD" Value="&lt;#{2}&gt;{0}&lt;/color&gt; lancia {1} sul campo di battaglia"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST" Value="&lt;#{2}&gt;{0}&lt;/color&gt; lancia {1}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT2_VS" Value="&lt;#{3}&gt;{0}&lt;/color&gt; vs &lt;#{4}&gt;{2}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT2_FRIENDLY" Value="&lt;#{3}&gt;{0}&lt;/color&gt; aiuta &lt;#{4}&gt;{2}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT2" Value="&lt;#{3}&gt;{0}&lt;/color&gt; lancia {1} su &lt;#{4}&gt;{2}'s &lt;/color&gt;units"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_BATTLEFIELD2" Value="&lt;#{2}&gt;{0}&lt;/color&gt; lancia {1} sul campo di battaglia"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST2" Value="&lt;#{2}&gt;{0}&lt;/color&gt; lancia {1}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_COUNTERED" Value ="{0} deviato"/>
+		<Loc Key="UI_COMBAT_LOG_TURN" Value="&lt;#{1}&gt;{0}'s&lt;/color&gt; turno/i"/>
+		<Loc Key="UI_COMBAT_LOG_WALL_DESTROYED" Value="Una sezione delle mura è stata abbattuta"/>
+		<Loc Key="UI_COMBAT_LOG_WALL_ATTACK" Value="&lt;#{1}&gt;{0}'s&lt;/color&gt; attacca le mura cittadine"/>
+		<Loc Key="UI_COMBAT_LOG_DESTROYED" Value="&lt;#{1}&gt;{0}'s&lt;/color&gt; distrutto/a"/>
+		<Loc Key="UI_WIZARD_CASTS" Value="{0} lancia"/>
+		<Loc Key="UI_BUTTON_RETREAT" Value="Fuga"/>
+		<Loc Key="UI_BUTTON_AUTO_COMBAT" Value="Autocombat."/>
+		<Loc Key="UI_POWER_INCOME" Value="Entrate - Potere"/>
+		<Loc Key="UI_POWER_INCOME_DES" Value="Mostra la produzione di Potere di questa città.\n\nIl Potere è usato per generare Mana, ricercare incantesimi ed aumentare la Capacità di Lancio.\n\nPuoi decidere quanto Potere dedicare ad ogni funzione dalla schermata Magia."/>
+		<Loc Key="UI_RESEARCH_INCOME" Value="Entrate - Ricerca"/>
+		<Loc Key="UI_RESEARCH_INCOME_DES" Value="Mostra la produzione di Ricerca in questa città."/>
+		<Loc Key="UI_GOLD_INCOME2" Value="Entrate - Oro"/>
+		<Loc Key="UI_GOLD_INCOME2_DES" Value="La produzione di Oro in città deriva soprattutto dalle tasse (ed è dunque proporzionale alla popolazione locale).\n\nLe entrate possono essere aumentate anche da merci di scambio, risorse (minerali), edifici e certi tipi di terreno (coste e fiumi)."/>
+		<Loc Key="UI_NO_RESOURCES" Value="Nessuna risorsa preziosa nei paraggi."/>
+		<Loc Key="UI_ENCHANTMENTS_ON_WORLD" Value="Incantamenti sul Mondo"/>
+		<Loc Key="UI_ENCHANTMENTS_ON_YOU" Value="Incantamenti su di Te"/>
+		<Loc Key="UI_ON_WORLD" Value="Sul Mondo"/>
+		<Loc Key="UI_ON_YOU" Value="Su di Te"/>
+		<Loc Key="UI_YOU_CONTROL" Value="Controlli"/>
+		<Loc Key="UI_ALL_SPELLS" Value="Tutti gli Inc."/>
+		<Loc Key="UI_LIFE_SPELLS" Value="Inc. Vitali"/>
+		<Loc Key="UI_NATURE_SPELLS" Value="Inc. Naturali"/>
+		<Loc Key="UI_CHAOS_SPELLS" Value="Inc. Caotici"/>
+		<Loc Key="UI_DEATH_SPELLS" Value="Inc. Mortali"/>
+		<Loc Key="UI_SORCERY_SPELLS" Value="Inc. Illusori"/>
+		<Loc Key="UI_ARCANE_SPELLS" Value="Inc. Arcani"/>
+		<Loc Key="UI_WORLD_SPELLS" Value="Inc. Globali"/>
+		<Loc Key="UI_COMBAT_SPELLS" Value="Inc. di Battaglia"/>
+		<Loc Key="UI_HERO_RECRUIT" Value="Questo eroe è pronto ad unirsi a te al prezzo di 100 {ICON:GoldIcon}"/>
+		<Loc Key="UI_HERO_JOIN" Value="Grazie per avermi liberato. Sarò felice di unirmi alla tua causa, se lo desideri."/>
+		<Loc Key="UI_JOIN" Value="Recluta"/>
+		<Loc Key="UI_RIVAL_WIZARD" Value="Stregone Rivale"/>
+		<Loc Key="UI_CITY_RESOURCES" Value="Risorse Cittadine"/>
+		<Loc Key="UI_SURVEYOR" Value="Geologo"/>
+		<Loc Key="UI_BEGIN" Value="Avvia"/>
+		<Loc Key="UI_DEFENDERS_NEEDED" Value="Difensori Richiesti"/>
+		<Loc Key="UI_RESET_TUTORIALS" Value="Ripristina Tutorial"/>
+		<Loc Key="UI_DISABLE_TUTORIALS" Value="Disattiva Tutorial"/>
+		<Loc Key="UI_DELETE_SAVE" Value="Elimina Salvataggio"/>
+		<Loc Key="UI_DELETE_SAVE_DESCRIPTION" Value="Vuoi davvero eliminare questo salvataggio?"/>
+		<Loc Key="UI_UNKNOWN_TOWN_UNITS" Value="Difensori Sconosciuti"/>
+		<Loc Key="UI_UNKNOWN_WIZARD" Value="Sconosciuto"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT" Value="Lanciare Incantesimi"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE1" Value="Questo libro contiene tutti gli incantesimi da te appresi finora, o Maestà."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE2" Value="Potresti dover voltare un sacco di pagine prima di trovare l'incantesimo che cerchi... ma puoi usare questi segnalibri per limitare la ricerca ad un regno specifico."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE3" Value="Per lanciare un incantesimo, devi prima selezionarlo dalla pagina a sinistra. Se il lancio è realizzabile, vedrai il pulsante 'Lancia' qui."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE4" Value="Alcuni incantesimi possono essere lanciati esclusivamente sulla mappa globale, altri solo in battaglia. Ciò viene indicato qui:"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE5" Value="Lanciare incantesimi comporta il consumo dell'energia chiamata Mana {ICON:ManaIcon}. Ogni lancio costa Mana, e alcuni effetti richiedono Mana per essere mantenuti tra un turno e l'altro."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE6" Value="Sulla mappa globale, i tempi di lancio dipendono dalla tua Capacità di Lancio {ICON:CastingSkillIcon}: quanto più è alta, tanto più Mana puoi usare ad ogni turno. Se la tua Capacità è abbastanza alta, puoi persino lanciare alcuni incantesimi globali all'istante!"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE7" Value="In battaglia, la tua Capacità di Lancio limita la quantità di Mana che puoi utilizzare fino al termine dello scontro."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT" Value="Controlli della Mappa"/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE1A" Value="Grazie, o Magnificenza! Ci metterò soltanto un momento."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE1B" Value="Scorri la mappa con"/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE1C" Value="o {ICON:MMB}"/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE2A" Value="Fai Clic Sx per selezionare un'unità o località."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE2B" Value="Fai Clic Dx per spostare un esercito selezionato lungo la mappa."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE3" Value="Ogni esercito si aspetterà di ricevere ordini ad ogni turno. Se vuoi che rimangano dove sono, ordinagli di attendere o di mantenere la posizione."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE4A" Value="Fai doppio clic sulla tua città per visualizzarne i dettagli e gestirne la produzione."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE4B" Value="Facciamolo subito, Maestà."/>
+		<Loc Key="UI_MAGIC_TUT" Value="Magia"/>
+		<Loc Key="UI_MAGIC_TUT_PAGE1" Value="Questa sezione ti permette di gestire i tuoi punti Potere, visualizzare gli incantamenti attivi e usare l'Alchimia per trasformare il Mana in Oro e viceversa."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE2" Value="Queste fiale, Maestà, mostrano quali proporzioni del tuo Potere {ICON:PowerIcon} sono impiegate in ognuna delle seguenti funzioni: aumento delle riserve di Mana {ICON:ManaIcon}, ricerca di incantesimi {ICON:ResearchIcon} o aumento della Capacità di Lancio {ICON:CastingSkillIcon}."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE3" Value="Puoi regolare queste proporzioni in qualsiasi momento cliccando sulle fiale. Clicca sul lucchetto per bloccare il valore impostato."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE4" Value="Tu e i tuoi rivali lancerete vari incantamenti su unità, città, sul mondo e voi stessi. Potrai vederli elencati qui."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE5" Value="Molti incantamenti hanno un costo di mantenimento in Mana da pagare ad ogni turno, ma è possibile revocarli usando il pulsante {ICON:ButtonCancel}."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE6" Value="Se ti ritrovi con un surplus d'Oro o Mana, l'Alchimia ti permette di convertire una risorsa nell'altra."/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT" Value="Difesa delle Città"/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT_PAGE1" Value="Eccellenza, in qualità di tuo consigliere ho il dovere di informarti che una o più delle tue città sono prive di difese."/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT_PAGE2" Value="Anche in tempo di pace, il mondo rimane pieno di banditi e razziatori. Se un altro esercito dovesse entrare in una città indifesa, questa andrà subito perduta!"/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT_PAGE3" Value="Addestra delle unità o evoca creature magiche per fornire difesa alle tue città. A volte basta anche una sola unità assistita dai tuoi potenti incantesimi per prevenire un disastro."/>
+		<Loc Key="UI_OUTPOSTS_TUT" Value="Avamposti"/>
+		<Loc Key="UI_OUTPOSTS_TUT_PAGE1" Value="Tutti gli insediamenti di nuova fondazione sono considerati avamposti, e necessitano di tempo per evolversi in città. Fino ad allora, non è possibile assegnargli ordini di produzione."/>
+		<Loc Key="UI_OUTPOSTS_TUT_PAGE2" Value="La velocità di trasformazione da avamposto a città dipende da terreno, risorse vicine e fortuna... lo stato di avanzamento del processo è mostrato qui."/>
+		<Loc Key="UI_OUTPOSTS_TUT_PAGE3" Value="Dovresti sempre avvalerti di alcuni difensori: le città indifese sono prede facili per banditi e Stregoni rivali!"/>
+		<Loc Key="UI_PREBATTLE_TUT" Value="Battaglia"/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE1" Value="Vedo che stai valutando la possibilità di uno scontro, Maestà... eccellente! Lascia che ti spieghi cosa t'attende."/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE2" Value="Le tue forze e quelle del tuo avversario sono mostrate qui: puoi visualizzare la forza di ogni unità spostando il cursore su di essa."/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE3" Value="Qui puoi vedere quelle che, secondo il mio umile parere, sono le tue probabilità di vincere questo scontro, o Grande."/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE4" Value="Considera le tue opzioni e decidi come procedere: puoi condurre le tue truppe personalmente, lasciare che lo faccia io (combatt. automatico) o ritirarti."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT" Value="Ricerca di Incantesimi"/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE1" Value="Gli incantesimi sono un elemento fondamentale nella tua lotta per la supremazia arcana... dopotutto, devi diventare Maestro della Magia!"/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE2" Value="Per espandere la tua selezione di incantesimi, dovrai svolgere delle ricerche. Al momento la selezione è limitata ad 8 incantesimi, ma ne otterrai di nuovi man mano che avanzerai. "/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE3" Value="Ricorda, l'Incantesimo di Dominio rappresenta il tuo obiettivo finale, e diverrà disponibile soltanto dopo che avrai sbloccato la maggior parte degli altri tuoi incantesimi. Acquisisci nuovi Tomi per espandere la selezione di incantesimi da ricercare."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE4" Value="La ricerca richiede tempo, determinato dalla quantità di punti Ricerca {ICON:ResearchIcon} che produci e dalla complessità dell'incantesimo ricercato. Di norma, la ricerca degli incantesimi più forti richiede più tempo."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE5" Value="Ora seleziona un incantesimo dalla pagina sinistra per vederne i dettagli sulla destra. Clicca sul pulsante Ricerca per confermare. Riceverai una notifica quando la ricerca sarà conclusa."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT" Value="Gestione Città"/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE1" Value="Questa, Eccellenza, è la tua gloriosa città. Permettimi di mostrarti come opera."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE2" Value="La sezione di Tasse Globali ed Instabilità ti permette di decidere quale livello di tassazione imporre a tutte le città. La tasse alte forniscono più Oro {ICON:GoldIcon}, ma provocano anche maggior Instabilità {ICON:UnrestIcon}. I cittadini insoddisfatti diventano ribelli e si rifiutano di lavorare."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE3" Value="Questa seziona elenca tutte le tue città, mostrando anche la relativa produzione, le entrate di Oro {ICON:GoldIcon}, popolazione {ICON:PopulationIcon} ed instabilità {ICON:UnrestIcon}."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE4" Value="Qui puoi visualizzare le unità attualmente stazionate in questa città. Mantenere alcuni difensori in zona è sempre una buona idea: se la tua capitale dovesse venire conquistata, potresti perdere tutto!"/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE5" Value="Il pannello Cittadini ti consente di assegnare mansioni specifiche ai membri della popolazione locale. Ogni cittadino non ribelle e non operaio lavorerà automaticamente come contadino."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE6" Value="Questa sezione mostra le risorse situate entro l'area di sfruttamento della città. Queste risorse forniscono bonus di varie entità, ma sempre positivi."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE7" Value="Questo pannello mostra la coda di produzione della città. La velocità di produzione dipende dalla quantità di punti produzione {ICON:ProductionIcon} generati dai tuoi cittadini. Puoi anche investire dell'Oro per accelerare il completamento di un progetto."/>
+		<Loc Key="UI_CONSTRUCTION_TUT" Value="Costruzione"/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE1" Value="Qui puoi impostare una coda di produzione per questa città: ti basta scegliere qualche edificio (sulla sinistra) o unità (sulla destra)."/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE2A" Value="Sposta il cursore su un edificio o un'unità per conoscerne il ruolo e le caratteristiche."/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE2B" Value="Clicca per aggiungere un elemento alla coda di produzione."/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE3" Value="Gli edifici e le unità oscurati hanno dei prerequisiti. Dovrai costruire altri edifici nella stessa città prima di poter avviare questi progetti."/>
+		<Loc Key="UI_OPT_ULTRALOW" Value="Molto basso"/>
+		<Loc Key="UI_OPT_HIGH" Value="Alto"/>
+		<Loc Key="UI_OPT_MEDIUM" Value="Medio"/>
+		<Loc Key="UI_OPT_LOW" Value="Basso"/>
+		<Loc Key="UI_STOP_CASTING_TITLE" Value="Interrompi lancio"/>
+		<Loc Key="UI_STOP_CASTING_DESC" Value="Vuoi davvero interrompere il lancio di {0} e perdere il Mana investito({1})?"/>
+		<Loc Key="UI_STOP_CASTING" Value="Interrompi lancio"/>
+		<Loc Key="UI_TILE_CORRUPTED" Value="Casella corrotta"/>
+		<Loc Key="UI_ROOM_ENEMYDEFEATED" Value="Nemico sconfitto!"/>
+		<Loc Key="UI_ROOM_UNITSUMMONED" Value="Evocazione: {0}"/>
+		<Loc Key="UI_ROOM_SPELLRESEARCHED" Value="Incant. ricercato:"/>
+		<Loc Key="UI_ROOM_SPELLRESEARCHED2" Value="{0}"/>
+		<Loc Key="UI_ROOM_DEFEATBYWIZARD" Value = "Sconfitto/a da {0}"/>
+		<Loc Key="UI_ROOM_DEFEATBYNEUTRALS" Value = "Sconfitto/a da neutrali"/>
+		<Loc Key="UI_UNIT_MOVEMENT_PROMPT" Value = "Le unità attendono ordini!"/>
+		<Loc Key="UI_SPELL_CAST_PROMPT" Value = "Hai un incantesimo pronto!"/>
+		<Loc Key="UI_GROUND_MOVEMENT" Value = "Movimento Terrestre"/>
+		<Loc Key="UI_GROUND_MOVEMENT_DES" Value = "Permette alle unità di spostarsi su caselle terrestri."/>
+		<Loc Key="UI_GROUND_ONLY_MOVEMENT" Value = "Solo Mov. Terrestre"/>
+		<Loc Key="UI_GROUND_ONLY_MOVEMENT_DES" Value = "Questa unità non può spostarsi su caselle acquatiche."/>
+		<Loc Key="UI_WATER_MOVEMENT" Value = "Movimento Marino"/>
+		<Loc Key="UI_WATER_MOVEMENT_DES" Value = "Permette alle unità di spostarsi su caselle acquatiche."/>
+		<Loc Key="UI_WATER_ONLY_MOVEMENT" Value = "Solo Mov. Marino"/>
+		<Loc Key="UI_WATER_ONLY_MOVEMENT_DES" Value = "Questa unità non può spostarsi su caselle terrestri."/>
+		<Loc Key="UI_FLYING_MOVEMENT" Value = "Volo"/>
+		<Loc Key="UI_FLYING_MOVEMENT_DES" Value = "Le unità volanti ignorano i costi di movimento del terreno e non possono essere attaccate in mischia, se non da altre unità volanti o dotate di Soffi, Sguardi o Lanci. Le unità terrestri possono comunque reagire agli attacchi di quelle volanti, quando aggredite."/>
+		<Loc Key="UI_CITY_MANAGER_TUT" Value = "Panoramica Città"/>
+		<Loc Key="UI_CITY_MANAGER_TUT_PAGE1" Value = "Qui puoi vedere un elenco di tutte le città soggette al tuo controllo, Maestà."/>
+		<Loc Key="UI_CITY_MANAGER_TUT_PAGE2" Value = "Clicca su una città per vedere la sua posizione nel mondo e tutti gli incantamenti a cui è soggetta."/>
+		<Loc Key="UI_HERO_EQUIP_TUT" Value = "Equipaggiamento di Artefatti"/>
+		<Loc Key="UI_HERO_EQUIP_TUT_PAGE1" Value = "Ogni artefatto (oggetto magico) creato, acquisito presso antri e rovine, o comprato, viene conservato qui, nelle stanze della tua Fortezza."/>
+		<Loc Key="UI_HERO_EQUIP_TUT_PAGE2" Value = "Gli artefatti possono essere equipaggiati dagli eroi, a patto che questi dispongano di uno slot compatibile con la tipologia dell'oggetto selezionato. Trascina un oggetto su di un dato eroe per equipaggiarlo."/>
+		<Loc Key="UI_HERO_EQUIP_TUT_PAGE3" Value = "Se ritieni che alcuni oggetti in tuo possesso non ti servano, puoi distruggerli per ricavarne Mana o scambiarli con gli Stregoni rivali."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT" Value = "Dettagli delle Unità"/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE1" Value = "Qui puoi visualizzare varie informazioni su una determinata unità."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE2" Value = "Le sue statistiche, punti salute, movimento, costi di mantenimento e altri dettagli sono elencati nel pannello centrale."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE3" Value = "Sulla sinistra puoi vedere la razza dell'unità, i punti esperienza accumulati, eventuali magie (per i maghi) ed oggetti equipaggiati (per gli eroi)."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE4" Value = "Se ritieni che un'unità comporti costi di mantenimento troppo alti, puoi congedarla premendo questo pulsante."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE5" Value = "Infine, qui puoi vedere le abilità speciali dell'unità, oltre agli incantamenti a cui è soggetta."/>
+		<Loc Key="UI_FANTASTIC_UNIT" Value = "Unità Fantastiche"/>
+		<Loc Key="UI_FANTASTIC_UNIT_DES" Value = "Questa è un'unità fantastica: essa è stata evocata, generata o trasformata dalla magia. Le unità fantastiche non ottengono punti esperienza, non ricevono bonus dagli eroi e non riducono l'instabilità delle città in cui sostano, ma i loro attacchi eludono l'immunità alle armi di certi bersagli."/>
+		<Loc Key="UI_ARMY_MANAGER_TUT" Value = "Panoramica Eserciti"/>
+		<Loc Key="UI_ARMY_MANAGER_TUT_PAGE1" Value = "Qui puoi vedere tutti gli eserciti al tuo servizio, gli eroi reclutati e gli oggetti inutilizzati."/>
+		<Loc Key="UI_ARMY_MANAGER_TUT_PAGE2" Value = "Seleziona un esercito per scoprire dove si trova nel mondo."/>
+		<Loc Key="UI_VIEW_ARMY" Value = "Mostra Esercito"/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT" Value = "Specchio, Cronologia e Vittoria"/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE1" Value = "Lo Specchio elenca le tue caratteristiche più importanti, o grande Stregone."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE2" Value = "I Tratti, ovvero le tue abilità speciali, sono mostrati qui. Talvolta potrai acquisire nuovi tratti sconfiggendo i guardiani di certe località neutrali."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE3" Value = "I tuoi Tomi, che permettono di ricercare e lanciare incantesimi dei loro rispettivi regni, sono qui. Anche questi possono essere trovati presso le località neutrali."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE4" Value = "Se desideri confrontare il tuo potere con quello degli altri Stregoni, clicca sul pulsante Cronologia. Puoi visualizzare soltanto il potere degli Stregoni già incontrati."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE5" Value = "La schermata di Vittoria ti mostrerà i progressi compiuti verso la conquista del titolo di Maestro della Magia... e del trionfo."/>
+		<Loc Key="UI_NO_VALID_TARGET" Value = "Nessun Bersaglio Valido"/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET" Value = "Nessun bersaglio disponibile per questo incantesimo. Dovrai scartare l'incantesimo o convertirlo in un altro se un bersaglio valido non comparirà entro la fine di questo turno."/>
+		<Loc Key="UI_AUTOSAVE" Value = "Salv. automatico"/>
+		<Loc Key="UI_AUTOSAVE_FREQUENCY_OFF" Value = "No"/>
+		<Loc Key="UI_AUTOSAVE_FREQUENCY_ONE" Value = "Ad ogni turno"/>
+		<Loc Key="UI_AUTOSAVE_FREQUENCY" Value = "Ogni {0} turni"/>
+		<Loc Key="UI_BATTLE_TUT" Value = "Battaglia"/>		
+		<Loc Key="UI_BATTLE_TUT_PAGE1" Value = "Vedo che hai deciso di guidare personalmente le tue truppe, o Grande. Permettimi di darti qualche consiglio..."/>		
+		<Loc Key="UI_BATTLE_TUT_PAGE2" Value = "Lo schieramento in difesa è sulla sinistra, quello attaccante sulla destra. I difensori agiscono sempre per primi, e vincono automaticamente se non vengono sconfitti entro 50 turni."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE3" Value = "Durante il tuo turno, puoi impartire ordini alle unità sotto il tuo controllo nell'ordine che preferisci. Ogni unità dispone di un numero limitato di azioni ({ICON:MovementIcon}) utilizzabili sia per muoversi che per attaccare."/>		
+		<Loc Key="UI_BATTLE_TUT_PAGE4" Value = "Gli Stregoni che prendono parte alla battaglia possono lanciare un incantesimo al turno. Puoi farlo anche tu, se disponi di abbastanza Mana e Potere. Clicca qui per accedere alle magie in tuo possesso."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE5" Value = "A volte il nemico potrebbe rivelarsi troppo forte per le tue truppe. In tal caso è preferibile ritirarsi piuttosto che andare incontro a morte certa. Ricorda, però, che la ritirata potrebbe a sua volta determinare gravi perdite."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE6" Value = "Se hai bisogno di altre delucidazioni sulle meccaniche delle battaglie, consulta gli appunti che ho preparato per te."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE7" Value = "Oh, quasi dimenticavo... se desideri visualizzare i dettagli di un'unità, clicca su di essa con {ICON:LMB}.\n\nBuona fortuna, Maestà!"/>
+		<Loc Key="UI_NOT_AVAILABLE" Value = "N/A"/>
+		<Loc Key="UI_DIFF_WIZARD_PICKS" Value = "Punti del Giocatore"/>
+		<Loc Key="UI_DIFF_WIZARD_PICKS_DES" Value = "Determina il numero di punti che puoi investire su Tomi e tratti."/>
+		<Loc Key="UI_DIFF_STARTING_GOLD" Value = "Oro Iniziale"/>
+		<Loc Key="UI_DIFF_STARTING_GOLD_DES" Value = "Determina la quantità di Oro {ICON:GoldIcon} che avrai a tua disposizione ad inizio partita."/>
+		<Loc Key="UI_DIFF_AI_SKILL" Value = "Difficoltà IA"/>
+		<Loc Key="UI_DIFF_AI_SKILL_DES" Value = "Determina l’abilità dei giocatori controllati dall’IA nel gestire le proprie risorse e nel controllare le truppe in battaglia.\n\nAi livelli più alti, l’IA si comporterà in modo molto aggressivo: dovrai agire in fretta per dissuaderla dal dichiararti guerra.\n\nAl livello di difficoltà più alto, I tuoi rapporti con gli Stregoni nemici sono particolarmente bassi, ed essi ti dichiareranno guerra quasi subito! Puoi tentare di corromperli, ma lo scontro sarà inevitabile."/>
+		<Loc Key="UI_DIFF_NEUTRAL_ARMIES" Value = "Eserciti Neutrali"/>
+		<Loc Key="UI_DIFF_NEUTRAL_ARMIES_DES" Value = "Determina la forza e la frequenza di comparsa degli eserciti neutrali nel mondo di gioco."/>
+		<Loc Key="UI_DIFF_LAIR_DEFENCE" Value = "Guardiani"/>
+		<Loc Key="UI_DIFF_LAIR_DEFENCE_DES" Value = "Determina la forza degli eserciti neutrali posti a difesa di tane ed antri."/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS" Value = "Eventi Speciali"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_DES" Value = "Un'ampia categoria di eventi che possono verificarsi nel mondo, da terremoti a doni casuali. Scegli tra:\nOriginali: simula gli eventi del gioco originale, senza prevedere input da parte del giocatore.\nOriginali Aggiornati: modifica gli eventi del gioco originale consentendo al giocatore di interagirvi.\nOriginali Aggiornati e Nuovi eventi, creati appositamente per questo remake."/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_NONE" Value = "Nessuno"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_ORIGINAL" Value = "Originali"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_ORIGINAL_MODIFIED" Value = "Originali Aggiornati"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_ORIGINAL_AND_NEW" Value = "O. Aggiornati e Nuovi Eventi"/>
+		<Loc Key="UI_DIFF_MAGIC_INTENSITY" Value = "Intensità Magica"/>
+		<Loc Key="UI_DIFF_MAGIC_INTENSITY_DES" Value = "Determina quanto Potere {ICON:PowerIcon} viene ottenuto per ogni Nodo Energetico controllato."/>
+		<Loc Key="UI_BATTLE_MP_TERRAIN_COSTS" Value = "Costi di Movimento in Battaglia"/>
+		<Loc Key="UI_BATTLE_MP_TERRAIN_COSTS_DES" Value = "Determina il costo di movimento massimo su terreni impervi in battaglia."/>
+		<Loc Key="UI_ALL_TERRAIN_COST_1" Value = "Sempre 1"/>
+		<Loc Key="UI_MAX_COST_2" Value = "Costo Massimo 2"/>
+		<Loc Key="UI_FULL_TERRAIN_COST" Value = "Costo Pieno"/>	
+		<Loc Key="UI_WORLD_SIZE" Value = "Dimensioni dei Mondi"/>	
+		<Loc Key="UI_WORLD_SIZE_DES" Value = "Determina le dimensioni di Arcanus e Myrror.\n\nPiccoli: 1408 caselle\nStandard: 2080 caselle\nGrandi: 2880 caselle"/>	
+		<Loc Key="UI_ADD_HERO" Value = "Eroe Iniziale"/>	
+		<Loc Key="UI_ADD_HERO_DES" Value = "Inizierai la partita con l'eroe selezionato all'interno del tuo esercito."/>	
+		<Loc Key="UI_BSHAN" Value = "B'shan"/>
+		<Loc Key="UI_V_SMALL" Value = "Molto Piccoli"/>
+		<Loc Key="UI_SMALL" Value = "Piccoli"/>
+		<Loc Key="UI_MEDIUM" Value = "Standard"/>
+		<Loc Key="UI_LARGE" Value = "Grandi"/>
+		<Loc Key="UI_INITIAL_ECONOMY" Value = "Economia Iniziale"/>	
+		<Loc Key="UI_INITIAL_ECONOMY_DES" Value = "Giocando in mod. Facile inizierai la partita con un granaio, un santuario e un colono presso la tua capitale.\n\nIn mod. Normale inizierai con un granaio ed un colono.\n\nIn mod. Difficile non riceverai nessun bonus di partenza."/>	
+		<Loc Key="UI_EASY" Value="Facile"/>
+		<Loc Key="UI_NORMAL" Value="Normale"/>
+		<Loc Key="UI_HARD" Value="Difficile"/>
+		<Loc Key="UI_AI_WIZARDS" Value="Numero di Stregoni IA"/>
+		<Loc Key="UI_AI_WIZARDS_DES" Value="Determina la quantità di avversari controllati dall'IA che affronterai durante la partita."/>		
+		<Loc Key="UI_CURRENT_TURN" Value = "Turno attuale:"/>
+		<Loc Key="UI_JANUARY" Value = "Gennaio"/>
+		<Loc Key="UI_FEBRUARY" Value = "Febbraio"/>
+		<Loc Key="UI_MARCH" Value = "Marzo"/>
+		<Loc Key="UI_APRIL" Value = "Aprile"/>
+		<Loc Key="UI_MAY" Value = "Maggio"/>
+		<Loc Key="UI_JUNE" Value = "Giugno"/>
+		<Loc Key="UI_JULY" Value = "Luglio"/>
+		<Loc Key="UI_AUGUST" Value = "Agosto"/>
+		<Loc Key="UI_SEPTEMBER" Value = "Settembre"/>
+		<Loc Key="UI_OCTOBER" Value = "Ottobre"/>
+		<Loc Key="UI_NOVEMBER" Value = "Novembre"/>
+		<Loc Key="UI_DECEMBER" Value = "Dicembre"/>
+		<Loc Key="UI_STARVATION" Value = "Inedia!"/>
+		<Loc Key="UI_STARVATION2" Value = "Inedia"/>
+		<Loc Key="UI_STARVATION_DES" Value = "Questa città sta consumando più Cibo di quello che produce, e la sua popolazione sta diminuendo. Aumenta la produzione di Cibo assegnando più cittadini all'agricoltura, o costruisci edifici che producono Cibo."/>
+		<Loc Key="UI_HUD2_TUT" Value = "Altre Info"/>
+		<Loc Key="UI_HUD2_TUT_PAGE1" Value = "Vedo che hai già trovato il pulsante 'Termina Turno', Maestà.\nMa ci sono ancora un paio di manipolatori su cui vorrei che ti concentrassi."/>
+		<Loc Key="UI_HUD2_TUT_PAGE2" Value = "Primo, il geologo. Questo utile strumento ti fornirà i dettagli di qualsiasi casella su cui sposterai il cursore. Premi {ICON:Tab} per accedervi rapidamente."/>
+		<Loc Key="UI_HUD2_TUT_PAGE3" Value = "Dovresti imparare anche a spostare la visuale tra Arcanus e Myrror. Premi {ICON:P} o usa questo pulsante, ma ricorda che ci vorrà del tempo prima che le tue truppe possano spostarsi liberamente tra i due piani gemelli."/>
+		<Loc Key="UI_HUD2_TUT_PAGE4" Value = "Il tuo obiettivo è diventare Maestro della Magia. Per riuscirvi, dovrai eliminare gli Stregoni rivali o lanciare per primo l'Incantesimo di Dominio."/>
+		<Loc Key="UI_HUD2_TUT_PAGE5" Value = "Se hai bisogno di dettagli su un determinato oggetto, sposta la bacchetta sopra di esso o premi {ICON:RMB}."/>
+		<Loc Key="UI_DISMISS_UNIT" Value = "Congeda Unità"/>
+		<Loc Key="UI_DISMISS_UNIT_DES" Value = "Elimina permanentemente questa unità dal tuo esercito."/>
+		<Loc Key="UI_HERO_EQUIPMENT" Value = "Equipaggiamento Eroico"/>
+		<Loc Key="UI_HERO_EQUIPMENT_DES" Value = "Consente di assegnare artefatti a questo personaggio."/>
+		<Loc Key="UI_SPELLBOOK" Value = "Tomo"/>
+		<Loc Key="UI_SPELLBOOK_DES" Value = "Visualizza gli incantesimi lanciabili da questo personaggio."/>
+		<Loc Key="DES_MOVEMENT_ALLOWANCE" Value = "Margine d'Azione"/>
+		<Loc Key="DES_MOVEMENT_ALLOWANCE_DES" Value = "Punti Utilizzabili per spostamenti, attacchi e lanci di incantesimi.\nGli attacchi ravvicinati consumano il 50% della {ICON:MovementIcon} massima dell'unità.\nGli attacchi a distanza consumano 10 {ICON:MovementIcon}, mentre lanciare incantesimi consuma tutti i {ICON:MovementIcon} rimanenti.\n\nFinché l'unità dispone di almeno 1 {ICON:MovementIcon}, può ancora compiere azioni."/>
+		<Loc Key="DES_BUTTON_WAIT" Value = "Termina Turno ({0})"/>
+		<Loc Key="DES_BUTTON_WAIT_DES" Value = "Salta le rimanenti azioni di tutte le unità e termina il tuo turno."/>
+		<Loc Key="DES_BUTTON_NEXT_UNIT" Value = "Pros. Unità ({0})"/>
+		<Loc Key="DES_BUTTON_NEXT_UNIT_DES" Value = "Seleziona la prossima unità ancora in grado di compiere azioni."/>
+		<Loc Key="UI_BUTTON_MOVE" Value = "Riprendi Movimento ({0})"/>
+		<Loc Key="UI_BUTTON_MOVE_DES" Value = "Ordina a questo esercito di riprendere uno spostamento già pianificato."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT" Value = "Fortezza Perduta"/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE1" Value = "Che disgrazia, Maestà! Forze ostili hanno conquistato la tua capitale, distruggendone la fortezza e il circolo evocativo!"/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE2" Value = "Vedo che hai già iniziato a lanciare l'Incantesimo di Ritorno, che ti permetterà di erigere una nuova fortezza in una delle tue città rimanenti."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE3" Value = "Se non controlli nessuna città, dovrai conquistarne una entro 10 turni, o andrai incontro alla sconfitta."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE4" Value = "Se hai bisogno di generare Mana per l'incantesimo, usa l'Alchimia, distruggi un oggetto magico o cerca dei cristalli di Mana."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE5" Value = "Ricorda: finché non riotterrai la tua Fortezza, non potrai lanciare altri incantesimi, e non potrai ottenere Potere e Ricerca da nodi energetici ed edifici."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE6" Value = "Buona fortuna, Eccellenza! Non lasciare che questo piccolo incidente ti precluda la vittoria!"/>
+		<Loc Key="UI_WIZARD_STARTED_SOM" Value = "{0} ha iniziato a lanciare l'Incantesimo di Dominio!"/>
+		<Loc Key="UI_YOU_STARTED_SOM" Value = "Hai iniziato a lanciare l'Incantesimo di Dominio!"/>
+		<Loc Key="UI_SPELLBOOKS_TOOLTIP_DES" Value = "I Tomi permettono di ricercare nuovi incantesimi dai loro rispettivi regni. Inoltre:\n- {INDENT:5%}Ogni Tomo conferisce +1 Potere {ICON:PowerIcon}{END_INDENT}\n- {INDENT:5%}Ogni Tomo di inizio partita conferisce +2 Capacità di Lancio {ICON:CastingSkillIcon}{END_INDENT}\n- {INDENT:5%}Ogni Tomo successivo al sesto conferisce +5% Punti Ricerca {ICON:ResearchIcon} da investire nella decifrazione degli incantesimi del suo regno, di cui riduce inoltre i costi di lancio del -5%."/>
+		<Loc Key="UI_TOOLTIP_WORLD_SPELL" Value = "Incantesimo Globale"/>
+		<Loc Key="UI_TOOLTIP_WORLD_SPELL_DES" Value = "Può essere lanciato durante il tuo turno sulla mappa globale."/>
+		<Loc Key="UI_TOOLTIP_COMBAT_SPELL" Value = "Incantesimo di Battaglia"/>
+		<Loc Key="UI_TOOLTIP_COMBAT_SPELL_DES" Value = "Questo tipo di incantesimo può essere lanciato durante il combattimento, e i suoi effetti non persistono dopo il termine dello stesso."/>
+		<Loc Key="UI_CAST_SPELLS3" Value = "Lancia Incantesimo"/>
+		<Loc Key="UI_TOOLTIP_NATURE" Value = "Natura"/>
+		<Loc Key="UI_TOOLTIP_LIFE" Value = "Vita"/>
+		<Loc Key="UI_TOOLTIP_DEATH" Value = "Morte"/>
+		<Loc Key="UI_TOOLTIP_CHAOS" Value = "Caos"/>
+		<Loc Key="UI_TOOLTIP_SORCERY" Value = "Illusioni"/>
+		<Loc Key="UI_TOOLTIP_ARCANE" Value = "Arcano"/>
+		<Loc Key="UI_TOOLTIP_SUMMON" Value = "Evocazione"/>
+		<Loc Key="UI_TOOLTIP_SUMMON_DES" Value = "Evoca un'unità che obbedirà ai tuoi ordini. Sulla mappa globale, l'unità comparirà presso il tuo Circolo Evocativo, mentre in battaglia sarà al fianco delle truppe alleate."/>
+		<Loc Key="UI_TOOLTIP_ENCHANTMENT" Value = "Incantamento"/>
+		<Loc Key="UI_TOOLTIP_ENCHANTMENT_DES" Value = "Gli incantamenti sono effetti duraturi applicati ad un singolo bersaglio o al mondo. Quando lanciati dalla mappa globale, sono soliti comportare un costo di mantenimento in Mana. Quando lanciati durante una battaglia, il mantenimento non è previsto, ma gli effetti decadono al termine dello scontro."/>
+		<Loc Key="UI_TOOLTIP_INSTANT" Value = "Istantaneo"/>
+		<Loc Key="UI_TOOLTIP_INSTANT_DES" Value = "Gli incantesimi istantanei risolvono subito i loro effetti e non hanno costi di mantenimento."/>
+		<Loc Key="UI_TOOLTIP_CASTING_COST" Value = "Costo di Lancio"/>
+		<Loc Key="UI_TOOLTIP_CASTING_COST_DES" Value = "Il Mana {ICON:ManaIcon} richiesto per lanciare questo incantesimo. Spesso, questi costi differiscono per gli incantesimi che possono essere lanciati sia sulla mappa globale che in battaglia, perché i costi degli incantesimi di battaglia sono influenzati dalla portata dello Stregone {ICON:CastingRangeIcon} (la distanza dalla sua Fortezza)."/>
+		<Loc Key="UI_TOOLTIP_TARGET" Value = "Bersaglio"/>
+		<Loc Key="UI_TOOLTIP_TARGET_DES" Value = "Indica verso quali bersagli può essere indirizzato l'incantesimo. Ricorda: alcuni bersagli sono immuni a determinati tipi di incantesimo."/>
+		<Loc Key="UI_TOOLTIP_CASTING_TIME" Value = "Tempo di Lancio"/>
+		<Loc Key="UI_TOOLTIP_CASTING_TIME_DES" Value = "Indica il numero di turni richiesti per completare il lancio di questo incantesimo. Il tempo di lancio dipende dalla tua Capacità di Lancio {ICON:CastingSkillIcon}, dalle tue attuali riserve di Mana {ICON:ManaIcon} e dalla complessità dell'incantesimo."/>
+		<Loc Key="UI_TOOLTIP_UPKEEP_COST" Value = "Costo di Mantenimento"/>
+		<Loc Key="UI_TOOLTIP_UPKEEP_COST_DES" Value = "La quantità di Mana {ICON:ManaIcon} necessaria ad ogni turno per sostentare un'unità o incantamento (certi Tratti come Incanalatore e Invocatore influiscono su questo costo).\nSe il costo non può essere sostenuto, l'unità viene dissolta, o l'incantamento cancellato."/>
+		<Loc Key="UI_TOOLTIP_COMMON_SPELL" Value = "Incantesimo Comune"/>
+		<Loc Key="UI_TOOLTIP_UNCOMMON_SPELL" Value = "Incantesimo Non Comune"/>
+		<Loc Key="UI_TOOLTIP_RARE_SPELL" Value = "Incantesimo Raro"/>
+		<Loc Key="UI_TOOLTIP_VRARE_SPELL" Value = "Incantesimo Molto Raro"/>
+		<Loc Key="UI_SCORE_MULTIPLIER2" Value = "Moltiplicatore"/>
+		<Loc Key="UI_SCORE_MULTIPLIER_DES" Value = "Al termine della partita, il tuo punteggio sarà moltiplicato per questo valore."/>
+		<Loc Key="UI_INSUFFICIENT_CASTING_SKILL" Value = "Insufficiente {ICON:CastingSkillIcon}"/>
+		<Loc Key="UI_INSUFFICIENT_MANA" Value = "Insufficiente {ICON:ManaIcon}"/>		
+		<Loc Key="UI_ISSUE_ENCOUNTERED" Value = "Errore"/>
+		<Loc Key="UI_ISSUE_ENCOUNTERED_DES" Value = "Si è verificato un errore critico. Ulteriori salvataggi sono stati disattivati per evitare che quelli esistenti vengano corrotti. Puoi premere F8 per inviarci un bug report. Riavvia l'applicazione prima di continuare (i vecchi salvataggi potrebbero non funzionare se non riavverai il gioco)."/>		
+		<Loc Key="UI_REPORT_A_BUG" Value = "Segnala un Bug"/>		
+		<Loc Key="UI_REPORT_A_BUG1" Value="Usa questo modulo per segnalare un problema riscontrato nel gioco. Uno screenshot, il file di salvataggio più recente ed un log verranno allegati a questo report assieme ad un tuo commento, e inviati ai nostri uffici. Non sarà inviata nessuna informazione personale."/>
+		<Loc Key="UI_REPORT_A_BUG2" Value="Descrivi il tuo problema nel maggior dettaglio possibile usando il campo sottostante. Se possibile, includi una spiegazione su come riprodurre il bug. Ci sarà di grande aiuto nella risoluzione del problema."/>
+		<Loc Key="UI_REPORT_A_BUG3" Value="Grazie per aver dedicato del tempo alla scrittura di questo report!"/>
+		<Loc Key="UI_REPORT_A_BUG4" Value="- Con affetto, MuHa Games"/>
+		<Loc Key="UI_TITLE" Value="Titolo"/>
+		<Loc Key="UI_BUG_DESC_HERE" Value="Descrivi qui il bug riscontrato."/>
+		<Loc Key="UI_SEND" Value="Invia"/>		
+		<Loc Key="UI_SELECT_CATEGORY" Value="Seleziona Categoria"/>	
+		<Loc Key="UI_BUTTON_BUG_REPORT" Value="Segnala un Bug"/>	
+		<Loc Key="UI_BUTTON_BUG_REPORT2" Value="Segnala un Bug ({0})"/>	
+		<Loc Key="UI_EARTH_GATE_TARGET" Value="Cancello Terreno - Seleziona Città"/>	
+		<Loc Key="UI_MANA_TRADE_DES" Value="Energia magica utilizzata per lanciare incantesimi."/>	
+		<Loc Key="UI_FLEE" Value="Fuga"/>	
+		<Loc Key="UI_VICTORY2" Value="Vittoria"/>
+		<Loc Key="UI_VICTORY_PROGRESS" Value="Progressi Vittoria"/>
+		<Loc Key="UI_ELIMINATE_ALL_RIVALS" Value="Elimina tutti i rivali"/>
+		<Loc Key="UI_OR" Value="OPPURE"/>
+		<Loc Key="UI_RESEARCH_AND_CAST_SOM" Value="Ricerca e lancia l'Incantesimo di Dominio"/>
+		<Loc Key="UI_PAUSE_MENU" Value="Menu di Pausa"/>
+		<Loc Key="UI_ALCHEMY_TUT" Value="Alchimia"/>
+		<Loc Key="UI_ALCHEMY_TUT_PAGE1" Value="Se sei a corto di Oro {ICON:GoldIcon} ma disponi di un surplus di Mana {ICON:ManaIcon} (o viceversa), perché non trasformare una risorsa nell'altra?"/>
+		<Loc Key="UI_ALCHEMY_TUT_PAGE2" Value="Oro e Mana sono necessari per mantenere edifici ed unità, ritrovarsi senza una di queste risorse può comportare gravi perdite."/>
+		<Loc Key="UI_ALCHEMY_TUT_PAGE3" Value="Accedi al pannello Magia e converti le tue risorse in eccesso. Non è una soluzione permanente, ma ti farà guadagnare tempo per trovarne una più duratura."/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_COST" Value="Costo di Ricerca"/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_COST_DES" Value="Numero di punti ricerca necessari per ottenere accesso a questo incantesimo."/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_TIME" Value="Tempo di Ricerca"/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_TIME_DES" Value="Numero di turni necessari per ottenere accesso a questo incantesimo, determinato dalla quantità di punti ricerca prodotti ad ogni turno."/>
+		<Loc Key="UI_TOOLTIP_CASTING_SKILL_COST" Value="Capacità di Lancio"/>
+		<Loc Key="UI_TOOLTIP_CASTING_SKILL_COST_DES" Value="Indica quanta Capacità di Lancio andrà usata per lanciare questo incantesimo."/>
+		<Loc Key="UI_GAME_OPTIONS" Value="Opzioni di Gioco"/>
+		<Loc Key="UI_OPT_CRASH" Value="Crash / freeze / softlock"/>
+		<Loc Key="UI_OPT_BUG" Value="Bug"/>
+		<Loc Key="UI_OPT_GAMEPLAY-BALANCE" Value="Gameplay - Bilancio"/>
+		<Loc Key="UI_OPT_GAMEPLAY-OTHER" Value="Gameplay - Altro"/>
+		<Loc Key="UI_OPT_OTHER" Value="Altri Problemi"/>
+		<Loc Key="UI_SENDING" Value="Invio..."/>
+		<Loc Key="UI_NONE" Value="---"/>
+		<Loc Key="UI_SMASH_ARTEFACT" Value="Distrutti Artefatto"/>
+		<Loc Key="UI_SMASH_ARTEFACT_DES" Value="Vuoi davvero distruggere {0}?\n\nOtterrai {1} {ICON:ManaIcon} alla tua riserva di Mana."/>
+		<Loc Key="UI_NODE_TUT" Value="Nodi Energetici"/>
+		<Loc Key="UI_NODE_TUT_PAGE1" Value="Maestà, abbiamo trovato un Nodo Energetico! Di che si tratta, mi chiedi?"/>
+		<Loc Key="UI_NODE_TUT_PAGE2" Value="Il nodo energetico è un luogo ricco di potere magico. Chiunque lo controlla, può appropriarsi del suo Potere."/>
+		<Loc Key="UI_NODE_TUT_PAGE3" Value="Esistono tre varietà di nodi: Naturali, Caotici ed Illusori. Essi sono sempre protetti da creature magiche e barriere capaci di respingere gli incantesimi del loro stesso regno."/>
+		<Loc Key="UI_NODE_TUT_PAGE4" Value="Per conquistare un nodo neutrale, devi prima sconfiggerne i guardiani per poi effettuare un'azione speciale detta 'fusione'."/>
+		<Loc Key="UI_NODE_TUT_PAGE5" Value="Soltanto due creature sono capaci di effettuare una fusione: lo Spirito Magico e lo Spirito Guardiano. Entrambe possono essere evocate usando gli appositi incantesimi."/>
+		<Loc Key="UI_NODE_TUT_PAGE6" Value="Ricorda che il controllo di un nodo già fuso può comunque esserti sottratto dallo spirito di uno Stregone rivale."/>
+		<Loc Key="UI_PRESS_F8_TO_REPORT" Value="Premi F8 per segnalare un bug"/>
+		<Loc Key="UI_GO_TO_UNIT" Value="Vedi Unità"/>
+		<Loc Key="UI_EARTH_GATE_NO_MP" Value="Per usare 'Cancello Terreno', le unità selezionate devono avere almeno 1 punto movimento."/>
+		<Loc Key="UI_BUTTON_USE_EARTH_GATE" Value="Usa Cancello Terreno"/>
+		<Loc Key="UI_BUTTON_USE_EARTH_GATE_DES" Value="Teletrasporta le unità presso un'altra città dello stesso piano dotata a sua volta di Cancello Terreno, al costo di 1 punto movimento."/>
+		<Loc Key="UI_EXP" Value="EXP"/> <!--experience points-->
+		<Loc Key="UI_EXPERIENCE" Value="Esperienza:"/>
+		<Loc Key="UI_CAPITAL_LOST1" Value="Che disgrazia, Maestà! Forze ostili hanno conquistato la tua capitale, distruggendone la fortezza e il circolo evocativo!\n\nVedo che hai già iniziato a lanciare l'Incantesimo di Ritorno, che ti permetterà di erigere una nuova fortezza in una delle tue città rimanenti.\n\nSe non controlli nessuna città, dovrai conquistarne una entro 10 turni, o andrai incontro alla sconfitta."/>
+		<Loc Key="UI_CAPITAL_LOST2" Value="Finché non riotterrai la tua Fortezza, non potrai lanciare altri incantesimi, e non potrai ottenere Potere e Ricerca da nodi energetici ed edifici.\n\nSe hai bisogno di generare Mana per l'incantesimo di Ritorno, usa l'Alchimia, distruggi un oggetto magico o cerca dei cristalli di Mana.\n\nBuona fortuna, Eccellenza! Non lasciare che questo piccolo incidente ti precluda la vittoria."/>
+		<Loc Key="UI_YOU_ARE_BANISHED" Value="Esilio!"/>
+		<Loc Key="UI_YOU_ARE_BANISHED_DES" Value="Ti è stato imposto l'esilio, e hai perso tutte le tue città! Se non riuscirai a conquistarne o fondarne una prima dello scadere del tempo, perderai la partita."/>
+		<Loc Key="DES_SAVE_WARNING" Value="Salvataggio Incompatibile"/>
+		<Loc Key="DES_SAVE_WARNING_DES" Value="Questo salvataggio è stato creato usando una versione di gioco diversa. Il caricamento potrebbe fallire, o potresti riscontrare problemi durante la partita.\n\nVersione del salvataggio: {0}\n\nVersione attuale: {1}"/>
+		<Loc Key="UI_YOU_CAN_CAST_ONLY_ONCE_PER_TURN" Value="Puoi lanciare soltanto un incantesimo per turno."/>
+		<Loc Key="UI_UNIT_YOU_CAN_CAST_ONLY_ONCE_PER_TURN" Value="Questa unità ha esaurito il suo Margine d'Azione {ICON:MovementIcon} e non potrà lanciare incantesimi fino al prossimo turno."/>
+		<Loc Key="UI_SUMMONING_SPELLS" Value="Inc. di Evocazione"/>
+		<Loc Key="UI_UNIT_SPELLS" Value="Inc. Unità"/>
+		<Loc Key="UI_OTHER_SPELLS" Value="Altri Inc."/>
+		<Loc Key="UI_BUTTON_BATTLE_HELP" Value="Aiuto"/>
+		<Loc Key="UI_BATTLE_HELP" Value="Aiuto - Battaglia"/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS" Value="Lancio di Incantesimi"/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS1" Value="Per lanciare un incantesimo, clicca sul pulsante al centro del lato inferiore dell'interfaccia. Se il tuo esercito si avvale di unità dotate di incantesimi, potrai selezionarli qui."/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS2" Value="Il lancio di incantesimi in battaglia funziona diversamente dal lancio sulla mappa globale."/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS3" Value="{ICON:BulletPoint}{INDENT:5%}Disponi di una singola azione di lancio ad ogni turno.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Per lanciare un incantesimo, hai bisogno di Mana {ICON:ManaIcon} e Capacità di Lancio {ICON:CastingSkillIcon} sufficienti.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}La quantità di Mana richiesta per lanciare un incantesimo dipende in gran parte dalla distanza del campo di battaglia dalla tua fortezza {ICON:CastingRangeIcon}. Quanto più la fortezza è lontana, tanto più saranno costosi gli incantesimi. I costi in Mana vengono detratti dalla tua riserva.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}La tua Capacità di Lancio determina il costo totale degli incantesimi che puoi lanciare durante la battaglia. Il costo della Capacità di Lancio è pari al costo base dell'incantesimo (ovvero inalterato dalla distanza della fortezza). La riserva della Capacità di Lancio viene ripristinata ad ogni battaglia.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Se un incantesimo non viene respinto o resistito, i suoi effetti sono applicati subito.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Le creature evocate in battaglia vengono distrutte a fine scontro, mentre eventuali incantamenti applicati alle unità vengono dissipati.{END_INDENT}"/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS" Value="Attacchi Ravvicinati"/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS1" Value="Sposta un'unità in una casella adiacente ad un'unità nemica per effettuare un attacco ravvicinato. Di solito il difensore reagisce con un contrattacco, di modo che entrambe le unità si colpiscono simultaneamente (è possibile che l'attaccante e il difensore si eliminino a vicenda!)."/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS2" Value="Ogni tipo di attacco è caratterizzato da una certa iniziativa. Gli attacchi speciali (come Lanci o Soffi Infuocati) possono avere iniziative diverse, e infliggere i loro danni prima o dopo quelli del normale attacco da mischia. I danni di un attacco speciale possono eliminare il bersaglio prima che esso abbia la possibilità di contrattaccare."/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS3" Value="Le unità volanti non possono essere bersagliate dagli attacchi ravvicinati di un'unità terrestre o marina, a meno che l'aggressore non possegga un determinato attacco speciale (Soffi, Lanci o Sguardi). L'unità da mischia, però, può contrattaccare se aggredita da un'unità volante."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS" Value="Attacchi a Distanza"/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS1" Value="Le unità dotate di Attacchi a distanza {ICON:RangedIconNormal} e Munizioni {ICON:AmmoIcon} possono colpire un bersaglio situato ad almeno due caselle di distanza. Il bersaglio dev'essere visibile, e non protetto da 'Muro di Oscurità'. Gli attacchi a distanza non provocano contrattacchi da parte del difensore. "/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS2" Value="Gli attacchi a distanza fisici (come proiettili {ICON:MissileIcon} o massi {ICON:BoulderIcon}) sono meno efficaci sulla lunga distanza, e perdono -10% Prob. di Colpire {ICON:ToHitRangedBonusIcon} ogni 3 caselle di distanza."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS3" Value="Le unità a lungo raggio come Catapulte e Navi da Guerra non possono perdere più di -10% Prob. di Colpire {ICON:ToHitRangedBonusIcon} a causa della distanza."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS4" Value="Gli attacchi a distanza magici {ICON:LifeIcon} {ICON:DeathIcon} {ICON:NatureIcon} {ICON:ChaosIcon} {ICON:SorceryIcon} {ICON:TechIcon} non soffrono penalità causate dalla distanza."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS5" Value="La maggior parte degli attacchi speciali, come Sguardi e Soffi, non possono accompagnare attacchi a distanza, mentre i Tocchi sì."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE" Value="Margine d'Azione"/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE1" Value="Il Margine d'Azione {ICON:MovementIcon} di un'unità dipende dai suoi Punti Movimento sulla mappa globale. In battaglia, viene usato per effettuare sia movimenti che attacchi."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE2" Value="Il costo di ogni movimento su terraferma {ICON:MovementWalkingIcon} dipende dalla casella verso cui un'unità si sposta. Certi terreni sono caratterizzati da costi di movimenti maggiori di 1. Si può accedere ad una casella il cui costo è superiore al Margine d'Azione {ICON:MovementIcon} di un'unità se tale spostamento esaurisce il Margine stesso."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE3" Value="Il movimento navale {ICON:MovementSwimmingIcon} e volante {ICON:MovementFlyingIcon} costano sempre 1 punto di Margine d'Azione {ICON:MovementIcon}. Le unità che possono spostarsi soltanto su caselle acquatiche non possono partecipare alle battaglie sulla terraferma."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE4" Value="Il costo da sostenere per effettuare un attacco ravvicinato equivale alla metà del Margine d'Azione {ICON:MovementIcon} massimo dell'unità, o a tutto il Margine d'Azione {ICON:MovementIcon} rimastole dopo aver effettuato un movimento. Un'unità può effettuare due distinti attacchi ravvicinati in un sol turno, se non compie spostamenti. Le unità possono effettuare spostamenti prima o dopo l'attacco."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE5" Value="Il costo da sostenere per effettuare un attacco a distanza è pari a 10 punti di Margine d'Azione {ICON:MovementIcon}, o a tutto il Margine d'Azione {ICON:MovementIcon} rimasto all'unità dopo uno spostamento. Puoi spostare un'unità per poi effettuare un attacco a distanza se questa dispone di Margine d'Azione {ICON:MovementIcon} sufficiente."/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE" Value="Armatura e Resistenza"/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE1" Value="Armatura {ICON:ArmourIconNormal} e Resistenza {ICON:ResistanceIconNormal} servono per negare gli effetti degli attacchi nemici."/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE2" Value="L'Armatura {ICON:ArmourIconNormal} protegge da attacchi ravvicinati e a distanza di ogni tipo, ma anche contro gli incantesimi che infliggono danni diretti, come Palla di Fuoco."/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE3" Value="La Resistenza {ICON:ResistanceIconNormal} protegge dagli incantesimi nemici che applicano incantamenti nocivi alle unità, come Sonno Nero. In base all'incantesimo o incantamento subito, l'unità potrebbe dover effettuare un tiro di Resistenza singolo (quando bersagliata) o ad ogni turno (quando cerca di liberarsi dal suo effetto). "/>
+		<Loc Key="UI_BANISHED_CANNOT_CAST" Value="Sei stato esiliato/a! Ora dovrai lanciare l'Incantesimo di Ritorno prima di poterne usare altri."/>
+		<Loc Key="UI_YOU_HAVE_WON" Value="Vittoria! Hai dimostrato la tua superiorità a tutti gli Stregoni."/>
+		<Loc Key="UI_YOU_ARE_MASTER_OF_MAGIC" Value="Hai lanciato l'antico Incantesimo di Dominio ed esiliato ogni rivale da questo mondo. Il titolo di Maestro della Magia ora ti appartiene. Possa il tuo regno essere eterno e magnanimo!"/>
+		<Loc Key="UI_YOU_ARE_MASTER_OF_MAGIC2" Value="Hai esiliato ogni rivale da questo mondo. Il titolo di Maestro della Magia ora ti appartiene. Possa il tuo regno essere eterno e magnanimo!"/>
+		<Loc Key="UI_NO_SUMMONING_CIRCLE_UNIT_DES" Value="Non puoi lanciare questo incantesimo, perché non hai un Circolo Evocativo o perché il bersaglio non è un'unità."/>
+		<Loc Key="UI_NO_SUMMONING_CIRCLE_HERO_DES" Value="Non puoi lanciare questo incantesimo, perché non hai un Circolo Evocativo o perché il bersaglio non è un eroe."/>
+		<Loc Key="UI_ATTACK" Value="Attacco"/>
+		<Loc Key="UI_ATTACKER" Value="Attaccante"/>
+		<Loc Key="UI_DEFENSE" Value="Difesa"/>
+		<Loc Key="UI_DEFENDER" Value="Difensore"/>
+		<Loc Key="UI_GOLD_TRADE_DES" Value="L'oro è il linguaggio universale di ogni scambio."/>	
+		<Loc Key="UI_INTERESTED" Value="Interessato/a"/>	
+		<Loc Key="UI_INTERESTED_DES" Value="L'altra parte è interessata ad acquisire questo oggetto ed è pronta a pagare un sovrapprezzo."/>	
+		<Loc Key="UI_NOT_INTERESTED" Value="Non interessato/a"/>	
+		<Loc Key="UI_NOT_INTERESTED_DES" Value="L'altra parte non è molto interessata ad acquisire questo oggetto. Accetterà di acquistarlo ad un prezzo inferiore."/>	
+		<Loc Key="UI_FIRE_BREATH" Value="Soffio Infuocato 3"/>	
+		<Loc Key="UI_OF_THE" Value="-"/> <!--used in hall of fame, ie. Merlin of the Klackons-->		
+		<Loc Key="UI_HALL_OF_FAME" Value="Salone della Fama"/>	
+		<Loc Key="UI_RARITY" Value="Rarità"/>	
+		<Loc Key="UI_BATTLE_OUTCOME1" Value="Sconfitta Decisiva"/>	
+		<Loc Key="UI_BATTLE_OUTCOME1_DES" Value="PERDERAI la battaglia e NON ci saranno sopravvissuti."/>
+		<Loc Key="UI_BATTLE_OUTCOME2" Value="Vittoria - Perdite Pesanti"/>	
+		<Loc Key="UI_BATTLE_OUTCOME2_DES" Value="VINCERAI la battaglia, molte unità verranno UCCISE e i sopravvissuti saranno gravemente FERITI."/>
+		<Loc Key="UI_BATTLE_OUTCOME3" Value="Vittoria - Perdite Moderate"/>	
+		<Loc Key="UI_BATTLE_OUTCOME3_DES" Value="VINCERAI la battaglia, ma diverse unità verranno UCCISE e i sopravvissuti saranno FERITI."/>
+		<Loc Key="UI_BATTLE_OUTCOME4" Value="Vittoria - Perdite Basse"/>	
+		<Loc Key="UI_BATTLE_OUTCOME4_DES" Value="VINCERAI la battaglia, ma alcune unità saranno FERITE e forse UCCISE."/> 
+		<Loc Key="UI_BATTLE_OUTCOME5" Value="Vittoria - Perdite Triviali"/>	
+		<Loc Key="UI_BATTLE_OUTCOME5_DES" Value="VINCERAI la battaglia, senza perdere unità, ma alcune potrebbero riportare lievi FERITE."/>
+		<Loc Key="UI_SAVE_FAILED" Value="Salvataggio fallito"/>
+		<Loc Key="UI_GAME_IS_DAMAGED_CANNOT_SAVE" Value="Maestro, sono molto spiacente, ma i dati di questa partita sono corrotti e non possono essere salvati."/>
+		<Loc Key="UI_HAS_BEEN_DEFEATED_BY" Value="ha perso!\nEsiliato/a da "/> <!--used when another wizard gets defeated, ie. Tauron has been defeated by Merlin-->
+		<Loc Key="UI_NEUTRAL_ARMIES" Value="Eserciti Neutrali"/>
+		<Loc Key="UI_WORLD_CASTING_SKILL" Value="Capacità di Lancio"/>
+		<Loc Key="UI_WORLD_CASTING_SKILL_DES" Value="Mostra la quantità di Mana utilizzabile per lanciare incantesimi in questo turno.\nSe il costo di un incantesimo è inferiore alla tua Capacità di Lancio massima, potrà essere lanciato subito, a patto che ti restino Mana e Capacità di Lancio sufficienti."/>
+		<Loc Key="UI_CANCEL_ENCHANTMENT" Value="Annulla Incantamento"/>
+		<Loc Key="UI_PRODUCTION_TURNS_LEFT" Value="Turni Rimasti"/>
+		<Loc Key="UI_PRODUCTION_TURNS_LEFT_DES" Value="Mostra il numero di turni rimasti al completamento di questo progetto di produzione.\n\nRicorda: Alloggi e Merci di Scambio sono progetti a durata indeterminata, e continueranno finché annullati."/>
+		<Loc Key="UI_PRODUCTION_BUY" Value="Compra"/>
+		<Loc Key="UI_PRODUCTION_BUY_DES" Value="Paga la quantità di Oro indicata per ridurre i tempi di produzione a 1 turno."/>
+		<Loc Key="UI_TRADE_TUT" Value="Scambio"/>
+		<Loc Key="UI_TRADE_TUT_PAGE1" Value="Questo è il pannello di scambio, dove puoi barattare diverse merci con gli altri Stregoni, o selezionarle come offerte durante certi eventi."/>
+		<Loc Key="UI_TRADE_TUT_PAGE2" Value="Queste sezioni mostrano gli oggetti disponibili per lo scambio. Il lato sinistro è il tuo, quello destro è dell'altro Stregone."/>
+		<Loc Key="UI_TRADE_TUT_PAGE3" Value="La sezione centrale mostra gli oggetti attualmente selezionati per essere scambiati o donati. Usa il tasto sinistro del mouse per trascinare gli oggetti nella sezione delle offerte."/>
+		<Loc Key="UI_TRADE_TUT_PAGE4" Value="Il valore di ogni offerta dipende dagli oggetti selezionati, ma è influenzato anche dall'interesse dell'altro Stregone verso gli stessi."/>
+		<Loc Key="UI_TRADE_TUT_PAGE5" Value="Tale interesse è indicato dalle piccole frecce verdi e rosse mostrate accanto al prezzo."/>
+		<Loc Key="UI_TRADE_TUT_PAGE6" Value="L'altro Stregone accetterà lo scambio se il valore della tua offerta sarà pari o superiore al valore della sua."/>
+		<Loc Key="UI_TRADE_TUT_PAGE7" Value="Fare offerte generose o doni migliorerà lievemente i tuoi rapporti con l'altro Stregone."/>
+		<Loc Key="UI_MANAGED_BY_FAMILIAR" Value="Gestione del famiglio"/>
+		<Loc Key="UI_TOOLTIP_MANAGED_BY_FAMILIAR" Value="Gestione del famiglio"/>
+		<Loc Key="UI_TOOLTIP_MANAGED_BY_FAMILIAR_DES" Value="Il tuo famiglio amministrerà la produzione della città.\n\nProdurrà:\nLa più potente unità difensiva disponibile, se le unità presenti totali sono inferiori a 1 + Pop/5\nEdifici di produzione di Cibo, se più del 50% della popolazione è contadina\nEdifici economici (Cibo, produzione o Oro), finché la popolazione sarà inferiore a 5.\nInfine, l'edificio disponibile meno costoso, e Alloggi al completamento della lista di tutti i progetti disponibili.\n\nPuoi inoltre modificare/aggiungere i tuoi criteri, a cui il famiglio darà priorità."/>
+		<Loc Key="UI_CAST_SPELL" Value="Lancia Incantesimo"/>
+		<Loc Key="UI_MOVE_ARMY" Value="Sposta Esercito"/>
+		<Loc Key="UI_PICK_RESEARCH" Value="Scegli Ricerca"/>
+		<Loc Key="UI_AI_ANIMATION_SPEED" Value="Velocità di animazione - AI"/>
+		<Loc Key="UI_BACKGROUND" Value="- Background"/>
+		<Loc Key="UI_CLICK_TO_DISMANTLE" Value="Smantella per Mana"/>
+		<Loc Key="UI_YOU_HAVE_NO_BATTLE_SPELLS" Value="Al momento non disponi di nessun incantesimo di battaglia."/>
+		<Loc Key="UI_NODE_POWER" Value="Potere: "/>
+		<Loc Key="UI_RESEARCH2" Value="Ricerca:"/>
+		<Loc Key="UI_TOOLTIP_CUSTOM_WIZARD" Value="Stregone personalizzato"/>
+		<Loc Key="UI_TOOLTIP_ARMY_SIZE" Value="Dimensioni Esercito"/>
+		<Loc Key="UI_TOOLTIP_ARMY_SIZE_DES" Value="Mostra l'attuale e il massimo numero di unità nell'esercito.\n\nQuando l'esercito è pieno, nessun'altra unità potrà unirvisi, ma sarà comunque possibile evocare creature o assumere il controllo di unità nemiche durante il combattimento."/>
+		<Loc Key="UI_TOOLTIP_NO_UNCOMMON" Value="Incantesimi Non Comuni"/>
+		<Loc Key="UI_TOOLTIP_NO_UNCOMMON_DES" Value="Gli Inc. Non Comuni non sono disponibili perché il tuo Stregone non possiede abbastanza Tomi di questo regno.\n\nAvrai bisogno di almeno 10 tomi per usufruire degli incantesimi non comuni."/>
+		<Loc Key="UI_TOOLTIP_NO_RARE" Value="Incantesimi Rari"/>
+		<Loc Key="UI_TOOLTIP_NO_RARE_DES" Value="Gli Inc. Rari non sono disponibili perché il tuo Stregone non possiede abbastanza Tomi di questo regno.\n\nAvrai bisogno di almeno 11 tomi per usufruire degli incantesimi rari."/>
+		<Loc Key="UI_AFFORDABLE_SPELLS" Value="Inc. Disponibili"/>
+		<Loc Key="UI_MELEE_WEAPON" Value="Arma da Mischia"/>
+		<Loc Key="UI_MELEE_WEAPON_DES" Value="Può contenere spade, asce o mazze."/>
+		<Loc Key="UI_MELEE_RANGED_WEAPON" Value="Arma da Mischia o da Tiro"/>
+		<Loc Key="UI_MELEE_RANGED_WEAPON_DES" Value="Può contenere spade, asce, mazze, archi o balestre."/>
+		<Loc Key="UI_STAFF_WEAPON" Value="Arma da Lancio"/>
+		<Loc Key="UI_STAFF_WEAPON_DES" Value="Può contenere bastoni o bacchette."/>
+		<Loc Key="UI_MELEE_CASTER_WEAPON" Value="Arma da Mischia o da Lancio"/>
+		<Loc Key="UI_MELEE_CASTER_WEAPON_DES" Value="Può contenere spade, asce, mazze, bastoni o bacchette."/>
+		<Loc Key="UI_ARMOR_SLOT" Value="Armatura"/>
+		<Loc Key="UI_ARMOR_SLOT_DES" Value="Può contenere scudi, cotte di maglia o armature a piastre."/>
+		<Loc Key="UI_MISC_SLOT" Value="Varie"/>
+		<Loc Key="UI_MISC_SLOT_DES" Value="Può contenere gioielli, cappe, elmi, guanti o sfere."/>
+		<Loc Key="UI_SELECT_LANGUAGE" Value="Seleziona Lingua"/>
+		<Loc Key="UI_SUMMONING_CIRCLE_LOCATION" Value="Circolo Evocativo - Nuova Posizione"/>
+		<Loc Key="UI_SUMMONING_CIRCLE_LOCATION_DES" Value="Il tuo Circolo Evocativo è stato spostato presso {0} perché {1} è stata conquistata o distrutta.\n{ICON:LMB} Mostra città.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_SOM_PLAYER_CASTING_INFO" Value="Maestà,\n\nSe riuscirai a lanciare questo incantesimo, la vittoria sarà tua! Ricorda, gli altri Stregoni faranno tutto ciò che è in loro potere per fermarti."/>
+		<Loc Key="UI_SOM_ENEMY_CASTING_INFO" Value="Maestà,\n\nSe {0} riuscirà a lanciare questo incantesimo, esilierà tutti gli altri Stregoni e vincerà la partita! Fai tutto ciò che è in tuo potere per impedirglielo, prima che sia troppo tardi!"/>
+		<Loc Key="UI_HAS_BEEN_BANISHED" Value="è stato esiliato/a da"/>
+		<Loc Key="UI_WIZARD_BANISHED_INFO" Value="Maestà,\n\nUno dei tuoi avversari ha perso la sua Fortezza ed è stato esiliato. Dovrà lanciare l'Incantesimo del Ritorno... prima di allora, non potrà lanciare altri incantesimi. Forse potresti sfruttare questa vulnerabilità a tuo vantaggio?"/>
+		<Loc Key="UI_FOLLOW_ENEMY_MOVEMENT" Value="Segui Mov. Nemici"/>
+		<Loc Key="UI_DEVELOPED_BY" Value="Sviluppato da"/>
+		<Loc Key="UI_LEAD_PROGRAMMER" Value="Capo Programmatore"/>
+		<Loc Key="UI_PROGRAMMERS" Value="Programmatori"/>
+		<Loc Key="UI_UI_AND_ART_LEAD" Value="UI &amp; Direzione Artistica"/>
+		<Loc Key="UI_2D_ARTISTS" Value="Artisti 2D"/>
+		<Loc Key="UI_3D_ARTISTS" Value="Artisti 3D"/>
+		<Loc Key="UI_WRITING_AND_LEAD_QUEST_DESIGN" Value="Design Narrativo"/>
+		<Loc Key="UI_QUEST_DESIGN_ASSISTANT" Value="Assistenza Quest Design"/>
+		<Loc Key="UI_LEAD_GAME_DESIGN" Value="Game Designer"/>
+		<Loc Key="UI_LEAD_QA" Value="Capo QA"/>
+		<Loc Key="UI_ADDITIONAL_QA" Value="Assistenza QA"/>
+		<Loc Key="UI_MUSIC" Value="Musica"/>
+		<Loc Key="UI_PUBLISHED_BY" Value="Pubblicato da"/>
+		<Loc Key="UI_PRODUCERS" Value="Produttori"/>
+		<Loc Key="UI_THANK_YOU_FOR_PLAYING" Value="Grazie per aver giocato!"/>
+		<Loc Key="UI_ENEMY_TURN2" Value="Turno Nemico"/>
+		<Loc Key="UI_WIZARD_DEFEATED" Value="{0} ha perso!"/>
+		<Loc Key="UI_WIZARDS_DEFEATED" Value="Stregoni sconfitti!"/>
+		<Loc Key="UI_END_GAME" Value="Termina Partita"/>
+		<Loc Key="UI_KEEP_PLAYING" Value="Riprendi Partita"/>
+		<Loc Key="UI_ROAD" Value="Strada"/>
+		<Loc Key="UI_START_CONVERSATION" Value="Avvia conversazione"/>
+		<Loc Key="UI_CHECK_WIZARDS_DETAILS" Value="Dettagli Stregone"/>
+		<Loc Key="UI_LOADING_HINT1" Value="Suggerimento: Le tue unità possono venire ferite o uccise quando si ritirano dalla battaglia contro un nemico più forte."/>
+		<Loc Key="UI_LOADING_HINT2" Value="Suggerimento: I ribelli non contribuiscono alla produzione della loro città, ma ne consumano il cibo."/>
+		<Loc Key="UI_LOADING_HINT3" Value="Suggerimento: Se sei a corto di oro ma hai molto mana (o viceversa), usa l'Alchimia per convertire una risorsa nell'altra."/>
+		<Loc Key="UI_LOADING_HINT4" Value="Suggerimento: Alcune unità sono immuni a certi tipi di attacchi e magie, consulta le loro statistiche per scoprirne i dettagli."/>
+		<Loc Key="UI_LOADING_HINT5" Value="Suggerimento: I nodi magici conferiscono potenziamenti magici alle unità fantastiche affini al loro stesso regno magico."/>
+		<Loc Key="UI_LOADING_HINT6" Value="Suggerimento: I nodi magici tenteranno di dissipare tutti gli incantesimi lanciati, tranne quelli appartenenti al regno dei nodi stessi."/>
+		<Loc Key="UI_LOADING_HINT7" Value="Suggerimento: Se non puoi permetterti di pagare i costi di mantenimento delle tue unità per carenza di oro, mana o cibo, esse diserteranno."/>
+		<Loc Key="UI_LOADING_HINT8" Value="Suggerimento: Le unità volanti non possono essere colpite con normali attacchi ravvicinati, a meno che l'attaccante non voli o possegga attacchi speciali come Soffi, Sguardi o Lanci."/>
+		<Loc Key="UI_LOADING_HINT9" Value="Suggerimento: Gli altri Stregoni dichiareranno subito guerra a chiunque inizi a lanciare l'Incantesimo di Dominio, a prescindere dalla qualità dei loro rapporti."/>
+		<Loc Key="UI_LOADING_HINT10" Value="Suggerimento: Fai attenzione quando sposti le tue unità presso le città di altri Stregoni. Ciò inasprirà i vostri rapporti e potrebbe condurvi alla guerra."/>
+		<Loc Key="UI_LOADING_HINT11" Value="Suggerimento: Quando le cose si mettono male, puoi sempre lanciare l'incantesimo 'Riavvolgimento Temporale' (conosciuto anche come 'Carica Partita')."/>
+		<Loc Key="UI_LOADING_HINT12" Value="Suggerimento: Ogni città si estende lungo un perimetro circolare di 2 caselle, che non varia col procedere del gioco. Scegli attentamente dove fondare le tue città."/>
+		<Loc Key="UI_LOADING_HINT13" Value="Suggerimento: Tutte le unità (tranne quelle appartenenti al regno della Morte) rigenerano automaticamente 5% Punti Salute ad ogni turno, anche quando si spostano."/>
+		<Loc Key="UI_LOADING_HINT14" Value="Suggerimento: La perdita della tua capitale ha gravi conseguenze, mantienila sempre ben difesa."/>
+		<Loc Key="UI_LOADING_HINT15" Value="Suggerimento: La fortezza della capitale può lanciare dardi magici contro i nemici attaccanti. La potenza dei dardi dipende dalla quantità e tipologia dei tomi posseduti."/>
+		<Loc Key="UI_LOADING_HINT16" Value="Suggerimento: La conquista di un nodo magico è soltanto il primo passo: manda uno Spirito Magico o uno Spirito Guardiano a fondersi col nodo per attingere dal suo potere."/>
+		<Loc Key="UI_LOADING_HINT17" Value="Suggerimento: Per ridurre l'instabilità di una città, mantieni delle unità non fantastiche all'interno della guarnigione locale."/>
+		<Loc Key="UI_LOADING_HINT18" Value="Suggerimento: Le risorse speciali di alcuni terreni possono essere convertite in altre risorse tramite l'incantesimo di Trasmutazione."/>
+		<Loc Key="UI_LOADING_HINT19" Value="Suggerimento: Puoi possedere fino a 6 eroi. Puoi congedare quelli che non desideri e attendere l'arrivo di un sostituto, o invocarlo con la magia."/>
+		<Loc Key="UI_LOADING_HINT20" Value="Suggerimento: In battaglia, il terreno NON influisce sulla difesa, prob. di colpire o visibilità delle unità."/>
+		<Loc Key="UI_LOADING_HINT21" Value="Suggerimento: Le unità invisibili possono essere attaccate soltanto da quelle ad esse adiacenti."/>
+		<Loc Key="UI_LOADING_HINT22" Value="Suggerimento: Le unità fantastiche non guadagnano EXP e non riducono l'instabilità delle città in cui si trovano."/>
+		<Loc Key="UI_LOADING_HINT23" Value="Suggerimento: A inizio battaglia disporrai di piena capacità di lancio, a prescindere dagli incantesimi già lanciati durante il turno."/>
+		<Loc Key="UI_COMBAT_SPEED" Value="Velocità di Battaglia"/>
+		<Loc Key="UI_COMBAT_SPEED_DES" Value="Velocità delle animazioni di combattimento."/>
+		<Loc Key="UI_IMPORT" Value="Importa Modulo di Testo"/>
+		<Loc Key="UI_EXPORT" Value="Esporta Modulo di Testo"/>
+		<Loc Key="UI_BUNDLE_MODE" Value="Mod. Bundle"/>
+		<Loc Key="UI_SINGLE_MODE" Value="Mod. Singolo"/>
+		<Loc Key="UI_WHICH_FORM_OF_EXPORT" Value="Ricorda: gli strumenti di importazione/esportazione non possono essere usati per copiare moduli da trasferire ad altri giocatori, in quanto i file prodotti non contengono tutti i dati necessari, soltanto testo.\n\nSeleziona quale formato di esportazione desideri usare:\n\nMod. Singolo: esporta soltanto il modulo attualmente selezionato mantenendo la struttura del testo.\n\nMod. Bundle - tutti i moduli selezionati sono esportati in un unico BundleBlock pronto per la localizzazione."/>
+		<Loc Key="UI_WHICH_FORM_OF_IMPORT" Value="Ricorda: gli strumenti di importazione/esportazione non possono essere usati per copiare moduli da trasferire ad altri giocatori, in quanto i file prodotti non contengono tutti i dati necessari, soltanto testo.\n\nSeleziona quale formato di importazione desideri usare:\n\nMod. Singolo: importa soltanto il modulo attualmente selezionato mantenendo la struttura del testo.\n\nMod. Bundle: importa il testo di un file BundleBlock."/>
+		<Loc Key="UI_SPECIAL_THANKS" Value="Ringraziamenti Speciali"/>
+		<Loc Key="UI_SPECIAL_THANKS_DES1" Value="ai nostri Moderatori su Discord:"/>
+		<Loc Key="UI_SPECIAL_THANKS_DES2" Value="ai fantastici fan di MuHa e a quelli di Master of Magic, che ci hanno accolti tra loro,"/>
+		<Loc Key="UI_SPECIAL_THANKS_DES3" Value="grazie inoltre ai partecipanti dei test Beta e a tutti coloro che ci hanno fornito prezioso feedback per aiutarci a migliorare il gioco. Siete stati incredibili!"/>
+		<Loc Key="UI_MELDED_BY" Value="Fuso da {0}"/>
+		<Loc Key="UI_IMPORTED_MODULE" Value="Importazione mod. completata."/>
+		<Loc Key="UI_IMPORT_ERROR" Value="Errore: modulo non importato correttamente. Consulta output_log.txt per vedere gli errori."/>
+		<Loc Key="UI_IMPORTED_MODULE_BLOCK" Value="Importazione Bundle completata."/>
+		<Loc Key="UI_IMPORT_MODULE_BLOCK_WITH_ERRORS" Value="Errore: bundle non importato correttamente. Consulta output_log.txt per vedere gli errori."/>
+		<Loc Key="UI_EXPORTED_MODULE" Value="Esportazione mod. Completata."/>
+		<Loc Key="UI_EXPORT_ERROR" Value="Errore: modulo non esportato."/>
+		<Loc Key="UI_EXPORTED_MODULE_BLOCK" Value="Esportazione Bundle completata."/>
+		<Loc Key="UI_EXPORT_MODULE_BLOCK_WITH_ERRORS" Value="Errore: bundle non esportato."/>
+		<Loc Key="UI_QUICK_START" Value="Avvio Rapido"/>
+		<Loc Key="UI_MANA_INVESTED" Value="Mana Investito:"/>
+		<Loc Key="UI_WIZARD_NOT_CASTING" Value="Nessun bersaglio"/>
+		<Loc Key="UI_WIZARD_NOT_CASTING_DES" Value="Questo Stregone non sta lanciando nessun incantesimo. Non c'è nulla da colpire qui..."/>
+		<Loc Key="UI_HOTKEYS" Value="Tasti Rapidi"/>
+		<Loc Key="UI_NEXT_UNIT" Value="Unità succ."/>
+		<Loc Key="UI_SHOW_HIDE_SURVEYOR" Value="Geologo"/>
+		<Loc Key="UI_END_TURN2" Value="Conferma / Termina turno"/>
+		<Loc Key="UI_MOVE_CAMERA_NORTH" Value="Sposta visuale a nord"/>
+		<Loc Key="UI_MOVE_CAMERA_WEST" Value="Sposta visuale a ovest"/>
+		<Loc Key="UI_MOVE_CAMERA_SOUTH" Value="Sposta visuale a sud"/>
+		<Loc Key="UI_MOVE_CAMERA_EAST" Value="Sposta visuale a est"/>
+		<Loc Key="UI_CHANGE_PLANE" Value="Cambia piano"/>
+		<Loc Key="UI_OPEN_RESEARCH" Value="Ricerca"/>
+		<Loc Key="UI_OPEN_PAUSE_MENU" Value="Annulla / Menu di pausa"/>
+		<Loc Key="UI_BUILD_OUTPOST2" Value="Crea avamposto (coloni)"/>
+		<Loc Key="UI_BUILD_ROAD2" Value="Crea strada (ingegneri)"/>
+		<Loc Key="UI_TOGGLE_GUARD2" Value="Guardia (esercito)"/>
+		<Loc Key="UI_TOGGLE_SKIP2" Value="Salta turno (esercito)"/>
+		<Loc Key="UI_CONTINUE_MOVEMENT" Value="Riprendi Movimento (esercito)"/>
+		<Loc Key="UI_COMBAT_LOGBOOK" Value="Diario di Battaglia"/>
+		<Loc Key="UI_CREATE_BUG_REPORT" Value="Segnala Bug"/>
+		<Loc Key="UI_OPEN_WIZARD_INFO" Value="Info Stregone"/>
+		<Loc Key="UI_OPEN_CITY_MANAGER" Value="Panoramica Città"/>
+		<Loc Key="UI_OPEN_ARMY_MANAGER" Value="Panoramica Eserciti"/>
+		<Loc Key="UI_OPEN_DIPLOMACY" Value="Diplomazia"/>
+		<Loc Key="UI_OPEN_MAGIC" Value="Magia"/>
+		<Loc Key="UI_CAST_SPELLS4" Value="Lancia Inc."/>
+		<Loc Key="UI_NOTIFICATION_GROUP_DROWN" Value="Unità distrutte"/>
+		<Loc Key="UI_NOTIFICATION_GROUP_DROWN_DES" Value="Le unità del tuo esercito sono state distrutte perché incapaci di spostarsi sul terreno della casella su cui si trovavano.\n{ICON:LMB} Mostra città.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NUMBER_OF_TRAITS_PICKED" Value="{0} di 6 tratti scelti."/> <!--ie. 3 of 6 traits picked -->
+		<Loc Key="UI_ENCH_DUPLICATE" Value="Questo eroe ha incantamenti attivi che saranno vanificati se equipaggerai questo oggetto:"/>		
+		<Loc Key="UI_ENCHANTED_ROAD" Value="Strada Incantata"/>		
+		<Loc Key="UI_SUCCESS" Value="Successo!"/>		
+		<Loc Key="UI_ENCHANTMENT_DISPELLED" Value="Incantesimo Dissipato!"/>		
+		<Loc Key="UI_ENCHANTMENT_REMOVED_SUCCESSFULLY" Value="Maestro, buone notizie! L'incantesimo {COLOR:#00a710}{0}{END_COLOR} è stato dissipato con successo."/>
+		<Loc Key="UI_ENCHANTMENTS_REMOVED_SUCCESSFULLY" Value="Maestro, buone notizie! Gli incantesimi {COLOR:#00a710}{0}{END_COLOR} sono stati dissipati con successo."/>
+		<Loc Key="UI_AI_ENCHANTMENT_REMOVED_SUCCESSFULLY" Value="Maestro, uno stregone nemico ha usato i suoi poteri per dissipare: {COLOR:#c84c26}{0}{END_COLOR}."/>
+		<Loc Key="UI_AI_ENCHANTMENT_REMOVED_SUCCESSFULLY_FROM" Value="Maestro, uno stregone nemico ha usato i suoi poteri per dissipare: {COLOR:#c84c26}{0}{END_COLOR} from {COLOR:#c84c26}{1}{END_COLOR}."/>
+		<Loc Key="UI_DISPEL_FAILED" Value="Dissipazione fallita"/>
+		<Loc Key="UI_FAILED_TO_REMOVE_ENCHANTMENT" Value="Sono spiacente, Maestro... ma non siamo riusciti a dissipare: {COLOR:#c84c26}{0}{END_COLOR}."/>
+		<Loc Key="UI_AI_FAILED_TO_REMOVE_ENCHANTMENT" Value="Maestro, uno stregone nemico ha tentato invano di dissipare: {COLOR:#c84c26}{0}{END_COLOR}."/>
+		<Loc Key="UI_NO_ENCHANTMENTS_REMOVED" Value="Sono spiacente, Maestro, ma non siamo riusciti a dissipare alcun incantesimo."/>
+		<Loc Key="UI_AI_NO_ENCHANTMENTS_REMOVED" Value="Maestro, uno stregone nemico ha tentato di dissipare un incantesimo, senza riuscirvi."/>
+		<Loc Key="UI_HERO_SUMMONING_FAILED" Value="Evocazione Fallita"/>
+        <Loc Key="UI_HERO_LIST_FULL" Value="Sono spiacente, Maestro, ma non siamo riusciti ad evocare un Eroe. Non puoi schierarne più di 6."/>
+        <Loc Key="UI_HERO_NOT_AVAILABLE" Value="Sono spiacente, Maestro, ma non siamo riusciti ad evocare un Eroe. Non rimangono più eroi in vita da chiamare al tuo servizio."/>
+        <Loc Key="UI_SPELLBLAST_SUCCESSFUL" Value="Maestro, buone notizie! Siamo riusciti a inibire {COLOR:#c84c26}{0}{END_COLOR} prima che il nemico n
+		e terminasse il lancio."/>
+        <Loc Key="UI_SPELLBLAST_INSUFFICIENT_MANA" Value="Non hai abbastanza mana per inibire questo incantesimo."/>
+        <Loc Key="UI_SPELL_READY" Value="Incantesimo Pronto"/>
+        <Loc Key="UI_SPELL_READY_DES" Value="Un incantesimo è pronto per il lancio. Decidi cosa farne prima di iniziare a prepararne un altro."/>
+        <Loc Key="UI_MATCH_OFFER" Value="Bilancia"/> <!--used in trade transfer when transferring money or mana: match offer of the other wizard-->
+        <Loc Key="UI_TRADED_QTY" Value="Q.tà scambiata:"/>
+        <Loc Key="UI_SELECT_AN_ENCHANTMENT_TO_BIND" Value="Seleziona un incantamento"/>
+        <Loc Key="UI_AUTOSAVE_ERROR" Value="Errore Autosalv."/>
+        <Loc Key="UI_FILE_WRITE_FORBIDDEN" Value="Salvataggio fallito: la scrittura del salvataggio è stata bloccata dal sistema operativo. Il blocco potrebbe essere causato da software esterni (come antivirus o firewall), o problemi di hardware."/>
+        <Loc Key="UI_COMBAT_TEXT4" Value="Quali sono i tuoi ordini, Maestà?"/>
+        <Loc Key="UI_ZOOM_IN" Value="Zoom +"/>
+        <Loc Key="UI_ZOOM_OUT" Value="Zoom -"/>
+        <Loc Key="UI_NOTIFICATION_AI_CASTS_SPELL" Value="Uno stregone rivale ha lanciato un incantesimo!"/>
+        <Loc Key="UI_FOCUS_ON_UNITS_BATTLE" Value="Focalizza Visuale su Unità in Battaglia"/>
+        <Loc Key="UI_AUTO_END_TURN" Value="Fine Turno Autom."/>
+        <Loc Key="UI_AUTO_END_TURN_BATTLE" Value="Fine Turno Autom. in Battaglia"/>
+        <Loc Key="UI_PLAYER_ANIMATION_SPEED" Value="Vel. Animazioni - Unità del Giocatore"/>
+        <Loc Key="UI_CAMERA_FOLLOW" Value="Telecamera Autonoma"/>
+        <Loc Key="UI_MAP_EDGESCROLLING" Value="Scorr. Laterale Mappa"/>
+        <Loc Key="UI_NUMBER_OF_NEUTRAL_TOWNS" Value="Numero di Città Neutrali"/>
+        <Loc Key="UI_NUMBER_OF_NEUTRAL_TOWNS_DES" Value="Determina la quantità di città neutrali presenti nel mondo di gioco."/>
+        <Loc Key="UI_FEW" Value="Poche"/>
+        <Loc Key="UI_AVERAGE" Value="Standard"/>
+        <Loc Key="UI_MANY" Value="Molte"/>
+        <Loc Key="UI_CEO" Value="Amministratore Delegato"/> <!--Chief Executive Officer-->
+        <Loc Key="UI_CFO" Value="Direzione Finanziaria"/> <!--Chief Financial Officer-->
+        <Loc Key="UI_CMO" Value="Direzione Marketing"/> <!--Chief Marketing Officer-->
+        <Loc Key="UI_TECHNICAL_DIRECTOR" Value="Direzione Tecnica"/>
+        <Loc Key="UI_CREATIVE_DIRECTOR" Value="Direzione Creativa"/>
+        <Loc Key="UI_EXECUTIVE_PRODUCER" Value="Produttore Esecutivo"/>
+        <Loc Key="UI_SENIOR_PRODUCER" Value="Produzione Senior"/>
+        <Loc Key="UI_ASSISTANT_PRODUCER" Value="Assistenza alla Produzione"/>
+        <Loc Key="UI_ADDITIONAL_PRODUCTION" Value="Ulteriore Produzione"/>
+        <Loc Key="UI_SENIOR_BRAND_MANAGER" Value="Gestione Brand Senior"/>
+        <Loc Key="UI_JUNIOR_BRAND_MANAGER" Value="Gestione Brand Junior"/>
+        <Loc Key="UI_SOCIAL_MEDIA_STRATEGIST" Value="Strategie Social Media"/>
+        <Loc Key="UI_COMMUNITY_MANAGER" Value="Community Manager"/>
+        <Loc Key="UI_MEDIA_RELATIONS" Value="Relazioni Pubbliche"/>
+        <Loc Key="UI_MEDIA_RELATIONS_FOR_SPAIN_AND_LATIN_AMERICA" Value="Relazioni Pubbliche (Spagna e Am. Latina)"/>
+        <Loc Key="UI_PRODUCTION_DESIGN" Value="Design di Produzione"/>
+        <Loc Key="UI_PRODUCTION_ART_ASSISTANT" Value="Assistenza Artistica"/>
+        <Loc Key="UI_E_COMMERCE" Value="E-Commerce"/>
+        <Loc Key="UI_MANUAL_LAYOUT" Value="Struttura Manuale"/>
+        <Loc Key="UI_OPERATIONS_LEAD" Value="Direzione Operativa"/>
+        <Loc Key="UI_OPERATIONS_TEAM" Value="Team Operativo"/>
+        <Loc Key="UI_HEAD_OF_ACCOUNTS" Value="Responsabile Commerciale"/>
+        <Loc Key="UI_ADMIN_ASSISTANT" Value="Assistenza Admin"/>
+        <Loc Key="UI_CUSTOMER_SUPPORT_STAFF" Value="Servizio Clienti"/>
+        <Loc Key="UI_WEB_DEVELOPMENT" Value="Sviluppo Web"/>
+        <Loc Key="UI_CEO_MATRIX_GAMES_LLC" Value="Amministratore Delegato, Matrix Games LLC"/>
+        <Loc Key="UI_PROJECT_MANAGER" Value="Project Manager"/>
+        <Loc Key="UI_TORIN_ALREADY_IN_SERVICE" Value="Hai già questo potente Eroe al tuo servizio, Maestro!"/>
+		<Loc Key="UI_REPEAT" Value="Ripeti"/>
+		<Loc Key="UI_TOOLTIP_REPEAT" Value="Ripeti la produzione di questa unità in modo indefinito."/>
+		<Loc Key="UI_AI_ENCHANTMENTS_REMOVED_SUCCESSFULLY_FROM_GLOBAL" Value="Maestà, uno stregone rivale ha usato la sua magia per dissipare {COLOR:#c84c26}{0}{END_COLOR}."/>
+		<Loc Key="UI_THE_PROGRAMMER" Value="Il Programmatore"/>
+        <Loc Key="UI_ADDITIONAL_CODING" Value="Coding Aggiuntivo"/>
+        <Loc Key="UI_FANMADE_LOCALISATION" Value="Traduzione Amatoriale"/>
+        <Loc Key="UI_ITALIAN" Value="Enrico Pizzolato - Italian"/>
+		<Loc Key="UI_NOTIFICATION_AI_CASTS_GLOBAL_SPELL_DES" Value="Uno stregone rivale ha lanciato un incantesimo globale!\n{ICON:LMB} Mostra dettagli.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_ARMY_DES" Value="Uno stregone rivale ha lanciato un incantesimo su uno dei tuoi eserciti!\n{ICON:LMB} Mostra esercito.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_WIZARD_DES" Value="Uno stregone rivale ha lanciato un incantesimo contro di te!\n{ICON:LMB} Mostra dettagli.\n{ICON:RMB} Chiudi."/>
+		<Loc Key="UI_BUTTON_AUTO_COMBAT_SPELLCASTING" Value="Lancio Inc. (C. Autom.)"/>
+		<Loc Key="UI_GREAT_UNSUMMONING_OUTCOME" Value="Unità evocate dissipate: {0}"/>
+		<Loc Key="UI_DEATH_WISH_OUTCOME" Value="Unità uccise da Condanna: {0}"/>
+		<Loc Key="UI_CHANGE_CASTING_TITLE" Value="Cambio di Incantesimo"/>
+		<Loc Key="UI_CHANGE_CASTING_DES" Value="Stai lanciando {0}: hai già investito {1} Mana nella sua preparazione. Cambiando incantesimo, perderai il Mana investito. Vuoi davvero continuare?"/>
+		<Loc Key="UI_CHANGE_CASTING" Value="Cambia"/>
+		<Loc Key="UI_MODS" Value="Mod"/>
+		<Loc Key="UI_MOD_MANAGER" Value="Mod Manager"/>
+		<Loc Key="UI_MOVE_UP" Value="Sposta Su"/>
+		<Loc Key="UI_MOVE_DOWN" Value="Sposta Giù"/>
+		<Loc Key="UI_PUBLISH" Value="Pubblica"/>
+		<Loc Key="UI_VISIBILITY" Value="Visibilità"/>
+		<Loc Key="UI_UPLOADING" Value="Caricamento"/>
+		<Loc Key="UI_NIGHTSHADE_DISPEL_SUCCESS" Value="I saggi di {0} hanno usato Belladonna per dissipare {1}."/>
+		<Loc Key="UI_NIGHTSHADE_DISPEL_FAILURE" Value="I saggi di {0} hanno cercato di dissipare un incantamento negativo usando Belladonna, ma il tentativo è fallito."/>
+		<Loc Key="UI_ADDITIONAL_CONTENT" Value="Contenuti Aggiuntivi"/>
+		<Loc Key="UI_SAVE_DLC1" Value="Contenuto DLC"/>
+		<Loc Key="UI_SAVE_DLC1_DES" Value="Questo salvataggio usa i contenuti 'Through the Myrror'."/> <!--do not localise the 'Through the Myrror' part - this is the DLC title and should stay in English -->
+		<Loc Key="UI_ASSIGN_KEY" Value="Assegna un nuovo tasto a"/>
+		<Loc Key="UI_ROAD_PLANNING" Value="Imposta l'itinerario della strada. {ICON:LMB} per confermare, {ICON:RMB} per annullare."/>
+		<Loc Key="UI_NOT_ASSIGNED" Value="[Nessun Tasto]"/> <!-- hotkey not assigned -->
+		<Loc Key="UI_DEFAULTS" Value="Predefiniti"/> <!-- reset to default hotkeys -->
+		<Loc Key="DES_SAVE_VERSION_INFO" Value="Versione di Salvataggio"/>
+		<Loc Key="DES_SAVE_VERSION_INFO_DES" Value="Questo salvataggio è stato creato usando una versione di gioco diversa, ma dovrebbe funzionare ancora.\n\nVersione di salvataggio: {0}\n\nVersione attuale: {1}"/>
+		<Loc Key="UI_PURIFY2" Value="Purifica"/>
+		<Loc Key="UI_MELD_WITH_NODE2" Value="Fusione con nodo"/>
+		<Loc Key="UI_ACTIVE_ENCH_WARNING" Value="Incantamento Attivo"/>
+		<Loc Key="UI_ACTIVE_ENCH_WARNING_DES" Value="È attivo un incantamento atto a distruggere gli avamposti di nuova costruzione."/>
+		<Loc Key="UI_COMBAT_LOG_FORTRESS_BOLT" Value="La Fortezza attacca &lt;#{1}&gt;{0}&lt;/color&gt; con '{2}'"/>
+		<Loc Key="UI_ENCHANT_ITEM_LIMITS" Value="Gli oggetti possono avere fino a 5 Poteri, di cui uno garantito alla creazione e 4 aggiunti."/>
+		<Loc Key="UI_FAME_STAT" Value="Fama"/>
+		<Loc Key="UI_GOLD_INCOME_STAT" Value="Entrate - Oro"/>
+		<Loc Key="UI_FOOD_INCOME_STAT" Value="Entrate - Cibo"/>
+		<Loc Key="UI_MANA_INCOME_STAT" Value="Entrate - Mana"/>
+		<Loc Key="UI_REFRESH_CAP_120" Value="120 FPS"/>
+		<Loc Key="UI_REFRESH_CAP_144" Value="144 FPS"/>
+		<Loc Key="UI_REFRESH_CAP_160" Value="160 FPS"/>
+		<Loc Key="UI_THROUGH_THE_MYRROR" Value="Through the Myrror"/>
+		<Loc Key="UI_THROUGH_THE_MYRROR_DES" Value="Attiva o disattiva i contenuti introdotti con l'aggiornamento 'Through the Myrror'."/> <!--do not localise the 'Through the Myrror' part - this is the DLC title and should stay in English -->
+		<Loc Key="DES_SAVE_WARNING_DLC_DES" Value="Questo salvataggio è stato creato usando una versione di gioco o una combinazione di DLC diversa. Impossibile caricare la partita.\n\nVersione di salvataggio: {0}\n\nVersione attuale: {1}{2}"/>
+		<Loc Key="UI_NEUTRAL" Value="Neutrale"/>
+		<Loc Key="UI_MAGIC_NODES" Value="Nodi Magici"/>
+		<Loc Key="UI_TOWERS_OF_WIZARDRY" Value="Torri Magiche"/>
+		<Loc Key="UI_ARCANUS_PLANE" Value="Piano di Arcanus"/>
+		<Loc Key="UI_MYRROR_PLANE" Value="Piano di Myrror"/>
+		<Loc Key="UI_TERRAIN_FEATURES" Value="Dettagli terreno"/>
+		<Loc Key="UI_BUTTON_BIG_MAP" Value="Cartografo ({0})"/>
+		<Loc Key="UI_OPEN_CARTOGRAPHER" Value="Apri Cartografo"/>
+		<Loc Key="UI_FASTER_LOADING" Value="Caricamento Rapido"/>
+		<Loc Key="UI_FASTER_LOADING_DES" Value="Attiva la mod. di caricamento rapido, che riduce i tempi di caricamento delle partite esistenti. Attenzione: questa è una funzione sperimentale, e impegnerà molto spazio del disco rigido!"/>
+		<Loc Key="UI_NONE2" Value="Nessuno"/>
+		<Loc Key="UI_MOD_DUPLICATION_NONE_WILL_BE_LOADED" Value="Il gioco ha rilevato due mod con nomi identici e non può procedere al caricamento. Esci dal gioco e disinstalla la mod doppia prima di procedere. Puoi trovare altri dettagli in merito ai conflitti delle mod su GameLog."/>
+		<Loc Key="UI_SAVE_DLC2_DES" Value="Questo salvataggio usa contenuti esclusivi del DLC 'Rise of the Soultrapped'."/> <!--do not localise the 'Rise of the Soultrapped' part - this is the DLC title and should stay in English -->
+		<Loc Key="UI_HIGH_UNREST" Value="Instabilità Alta"/>
+		<Loc Key="UI_HIGH_UNREST_DES" Value="L'instabilità di questa città ha superato la soglia del 30%. Riduci le tasse, costruisci edifici religiosi o includi più unità non fantastiche nella guarnigione."/>
+		<Loc Key="UI_DISPLAY" Value="Monitor"/> <!--for listing available display screens in settings, ie. Display 1-->
+		<Loc Key="UI_CHANGE_NEED_RESTART" Value="Le modifiche saranno apportate al prossimo avvio del gioco."/>
+		<Loc Key="UI_RISE_OF_THE_SOULTRAPPED" Value="Rise of the Soultrapped"/>
+		<Loc Key="UI_RISE_OF_THE_SOULTRAPPED_DES" Value="Abilita o disabilita i contenuti esclusivi del DLC Rise of the Soultrapped."/>
+		<Loc Key="UI_TOOLTIP_TECH" Value = "Incantesimo Tecnomagico"/>
+		<Loc Key="UI_TECH_SPELLS" Value = "Incantesimi Tecnomagici"/>
+		<Loc Key="UI_MOD_REQ_FAILED1" Value="Mod: {0}, requisito mancante: {1}"/>
+		<Loc Key="UI_MOD_REQ_FAILED2" Value="Mod: {0}, da porsi dopo il suo requisito: {1}"/>
+		<Loc Key="UI_MOD_REQ_FAILED3" Value="Mod: {0}, requisito inattivo: {1}"/>
+		<Loc Key="UI_NOT_ENOUGH_SPACE_OR_ICON_TOO_BIG" Value="L'icona della mod è troppo grande o l'utente ha superato il limite imposto da Steam Cloud. Elimina alcuni elementi prima di continuare."/>
+		<Loc Key="UI_SPELLS_AND_SKILLS" Value="Abilità ed Incantesimi"/>
+		<Loc Key="UI_FREE_ADDONS" Value="Addon Gratuiti"/>
+		<Loc Key="UI_FREE_ADDONS_DES" Value="Attiva o disattiva i contenuti aggiunti tramite aggiornamenti gratuiti.\nQuesti possono includere meccaniche aggiuntive e nuovi Stregoni.\n\nEsempi di impostazioni:\n\n-Aumento crescita della popolazione.\n-Aumento distanza tra città."/>
+		<Loc Key="UI_SAVE_DLC0_DES" Value="Questo salvataggio usa contenuti esclusivi degli addon gratuiti."/>
+		<Loc Key="UI_CONSTRUCT_UNIT" Value="Costrutto"/>
+		<Loc Key="UI_CONSTRUCT_UNIT_DES" Value="Questo è un costrutto, un'unità meccanica o potenziata meccanicamente."/>
+		<Loc Key="UI_NOT_ENOUGHT_HP" Value="Questo incantesimo richiede il sacrificio di più punti salute di quelli attualmente disponibili."/>
+		<Loc Key="UI_SPELLCASTING_BLOCKED" Value="Il lancio di incantesimi è impedito da un incantamento."/>
+		<Loc Key="UI_TOWN_MAP_ALWAYS_ON" Value="Mappa Città Sempre Aperta"/>
+		<Loc Key="UI_MODS_RESTART_REQUIRED" Value="Riavvio Richiesto.\nHai modificato le impostazioni delle mod.\nDevi riavviare il gioco perché queste modifiche abbiano effetto."/>
+		<Loc Key="UI_MID_GAME_AWAKE" Value="Minaccia Ricettacoli di Metà Partita"/>
+		<Loc Key="UI_MID_GAME_AWAKE_DES" Value="Determina la comparsa di ulteriori sepolcri a metà partita. Questi sepolcri genereranno eserciti di Ricettacoli ostili, più ostili degli altri eserciti indipendenti, soprattutto verso gli Stregoni più forti.\n\nIntensità Ridotta - genera alcuni Tecnosepolcri a metà partita (turno 300).\n\nIntensità Normale - genera alcuni Tecnosepolcri a metà partita (turno 250).\n\nIntensità Alta - genera molti Tecnosepolcri verso la metà partita (turno 150).\n\nIntensità Massima - genera molti Tecnosepolcri prima della metà partita (turno 100)."/>
+		<Loc Key="UI_MID_LATE" Value="Intensità Ridotta"/>
+		<Loc Key="UI_MID_AWAKENING" Value="Intensità Normale"/>
+		<Loc Key="UI_MID_STORM" Value="Intensità Alta"/>
+		<Loc Key="UI_MID_APOCALYPSE" Value="Intensità Massima"/>
+		<Loc Key="UI_DLC_DIFFERENCES_DETECTED" Value="\n\nDLC: incongruenza rilevata."/>
+		<Loc Key="UI_DIFFICULTY_SETTINGS" Value="Impostazioni Difficoltà"/>
+		<Loc Key="UI_SEE_DIFFICULTY" Value="Vedi Difficoltà"/>
+		<Loc Key="UI_WORLD_FAV" Value="Preferiti (Strategici)"/>
+		<Loc Key="UI_WORLD_FAV_DES" Value="Un elenco dei tuoi Incantesimi Strategici preferiti."/>
+		<Loc Key="UI_BATTLE_FAV" Value="Preferiti (Battaglia)"/>
+		<Loc Key="UI_BATTLE_FAV_DES" Value="Un elenco dei tuoi Incantesimi di Battaglia preferiti."/>
+		<Loc Key="UI_QUICK_SAVE" Value="Salvataggio Rapido"/>
+		<Loc Key="UI_QUICK_LOAD" Value="Caricamento Rapido"/>
+		<Loc Key="UI_TOWN_DISTANCE" Value="Distanza Minima tra Città"/>
+		<Loc Key="UI_TOWN_DISTANCE_DES" Value="Determina la distanza minima tra le città. Non influisce sulle loro aree di influenza."/>
+		<Loc Key="UI_TOWN_DISTANCE_4" Value="4 caselle"/>
+		<Loc Key="UI_TOWN_DISTANCE_5" Value="5 caselle"/>
+		<Loc Key="UI_CLICK_TO_ADD_FAV" Value="Clicca per aggiungere questo incantesimo ai preferiti."/>
+		<Loc Key="UI_QUICK_SAVE_SUCCESS" Value="Salv. Rapido riuscito."/>
+		<Loc Key="UI_LOADING_HINT24" Value="Suggerimento: Premi F5 per effettuare un salvataggio rapido e F6 per un caricamento rapido. Puoi cambiare questi tasti nelle Impostazioni."/>
+		<Loc Key="UI_SOULTRAPPED_LAIR" Value="Tecnosepolcri"/>
+		<Loc Key="UI_OUR_TOWN_GROW_MULTIPLIER" Value="Crescita popolazione - tue città"/>
+		<Loc Key="UI_OUR_TOWN_GROW_MULTIPLIER_DES" Value="Permette di definire il tasso di crescita delle città da te controllate."/>
+		<Loc Key="UI_TOWN_GROW_MULTIPLIER_1_25" Value="x1,25"/>
+		<Loc Key="UI_TOWN_GROW_MULTIPLIER_1_5" Value="x1,5"/>
+		<Loc Key="UI_FOE_TOWN_GROW_MULTIPLIER" Value="Crescita popolazione - città nemiche"/>
+		<Loc Key="UI_FOE_TOWN_GROW_MULTIPLIER_DES" Value="Permette di definire il tasso di crescita delle città controllate dal nemico."/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER" Value="Densità Sepolcri"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_DES" Value="Determina il numero di antri e sepolcri che appaiono sulla mappa strategica a inizio partita."/>
+		<Loc Key="UI_LAIR_NONE" Value="Nessuno"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_1" Value="Alcuni (10%)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_25" Value="Pochi (25%)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_5" Value="Metà (50%)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_7" Value="Ridotti (70%)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_1" Value="Normali (100%)"/>
+		<Loc Key="UI_NEW_MODULE" Value="Nuovo Modulo"/>
+		<Loc Key="UI_CLONE_MODULE" Value="Clona Modulo Selezionato"/>
+		<Loc Key="UI_RENAME_MODULE" Value="Rinomina Modulo Selezionato"/>
+		<Loc Key="UI_IMPORT_MODULE" Value="Importa Modulo"/>
+		<Loc Key="UI_EXPORT_MODULE" Value="Esporta Modulo Selezionato"/>
+		<Loc Key="UI_TEST_MODULE" Value="Prova Modulo Selezionato"/>
+		<Loc Key="UI_TEST_MODULE_DES" Value="Controlla se il modulo selezionato contiene avventure."/>
+		<Loc Key="UI_DELETE_MODULE" Value="Elimina Modulo Selezionato"/>
+		<Loc Key="UI_NEW_ADVENTURE" Value="Nuova Avventura"/>
+		<Loc Key="UI_CLONE_ADVENTURE2" Value="Clona Avventura Selezionata"/>
+		<Loc Key="UI_CLONE_ADVENTURE_TO_MODULE" Value="Clona Avventura su altro Modulo"/>
+		<Loc Key="UI_RENAME_ADVENTURE" Value="Rinomina Avventura Selezionata"/>
+		<Loc Key="UI_DELETE_ADVENTURE" Value="Elimina Avventura Selezionata"/>
+		<Loc Key="UI_SAVE_ADVENTURE" Value="Salva Modifiche"/>
+		<Loc Key="UI_SEARCH_FOR_NODE" Value="Cerca per Numero Nodi"/>
+		<Loc Key="UI_SORT_BY" Value="Ordina per"/>
+		<Loc Key="UI_SORT_BY_NAME" Value="Nome"/>
+		<Loc Key="UI_SORT_BY_RACE" Value="Razza"/>
+		<Loc Key="UI_SORT_BY_POPULATION" Value="Popolazione"/>
+		<Loc Key="UI_SORT_BY_FOOD_INCOME" Value="Entrate di Cibo"/>
+		<Loc Key="UI_SORT_BY_GOLD_INCOME" Value="Entrate di Oro"/>
+		<Loc Key="UI_SORT_BY_PRODUCTION_INCOME" Value="Entrate di Produzione"/>
+		<Loc Key="UI_SORT_BY_REBELS" Value="Numero di Ribelli"/>
+		<Loc Key="UI_SORT_BY_DATE" Value="Data di Acquisizione"/>
+		<Loc Key="UI_SELECT_VISIBILITY" Value="Seleziona Visibilità"/>
+		<Loc Key="UI_PUBLIC" Value="Pubblica"/>
+		<Loc Key="UI_FRIENDS_ONLY" Value="Solo Amici"/>
+		<Loc Key="UI_PRIVATE" Value="Privata"/>
+		<Loc Key="UI_FULLSCREEN_MODE" Value="Schermo Intero"/>
+		<Loc Key="UI_ARCANUS_GAMMA" Value="Gamma (Arcanus)"/>
+		<Loc Key="UI_MYRROR_GAMMA" Value="Gamma (Myrror)"/>
+		<Loc Key="UI_WIZARD_RETURNED" Value="Stregone Tornato"/>
+		<Loc Key="UI_WIZARD_RETURNED_DES" Value="Maestà, {0} ha terminato il lancio dell'Incantesimo di Ritorno. La sua fortezza e il suo Cerchio sono riapparsi, e ora lo Stregone potrà tornare a lanciare incantesimi."/>
+		<Loc Key="UI_DESCRIPTION_TOO_LONG" Value="La descrizione della mod supera il limite di caratteri di Workshop (~7000 caratteri). È stato troncato per consentire il caricamento."/>
+		<Loc Key="UI_TOWN_GROW_MULTIPLIER_1" Value="x1,0"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER" Value="Costo Capacità di Lancio"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_DES" Value="Questa opzione riduce i punti di lancio richiesti per aumentare la Capacità di Lancio. Ad esempio, una riduzione del 10% riduce il costo da 100 a 90."/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_1" Value="Riduzione di costo (10%)"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_25" Value="Riduzione di costo (25%)"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_5" Value="Riduzione di costo (50%)"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_75" Value="Riduzione di costo (75%)"/>
+		<Loc Key="UI_THIS_GAME_LACK_QUICK_SAVE" Value="Non esiste un file di salvataggio rapido da caricare!"/>
+		<Loc Key="UI_CANNOT_MOVE_QUEUE_ITEM" Value="Impossibile modificare l’ordine di questo oggetto nella coda: il suo prerequisito deve essere costruito per primo."/>
+		<Loc Key="UI_WATER_LAIR_NUMBER_MULTIPLIER" Value="Densità Antri Marini"/>
+		<Loc Key="UI_WATER_LAIR_NUMBER_MULTIPLIER_DES" Value="Determina la quantità di antri marini generati sulla mappa globale all’inizio della partita."/>		
+		<Loc Key="UI_OF" Value="di"/>
+		<Loc Key="UI_SPELL_ALREADY_ACTIVE" Value="Questo incantesimo è già attivo sul campo di battaglia."/>
+		<Loc Key="UI_TOOLTIP_GLOBALSGRID" Value="Mostra/Nascondi Incantamenti Globali "/>
+		<Loc Key="UI_TOOLTIP_GLOBALSGRID_DES" Value="Questo pannello elenca gli incantamenti attualmente attivi su di te e sul mondo."/>
+		<Loc Key="UI_BANISHED_WIZARD" Value="Stregone Esiliato"/>
+		<Loc Key="UI_BANISHED_WIZARD_DES" Value="Questo stregone ha perso la sua Fortezza e il suo Circolo Evocativo. Non può lanciare nessun incantesimo oltre all’Incantesimo di Ritorno."/>
+		<Loc Key="UI_SEA_HARVEST_FAILED" Value="Raccolto fallito"/>
+		<Loc Key="UI_SEA_HARVEST_FAILED_DES" Value="Il Raccolto Marino fallito."/>
+		<Loc Key="UI_SKILL_GAINED" Value="Abilità ottenuta"/>		
+		<Loc Key="UI_TOWN_UNREST_FROM_TAX" Value="Da tassazione"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_TENSION" Value="Da tensioni razziali"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_ENCHANTMENTS" Value="Da incantamenti"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_ENCHANTMENTS_MULTIPLIER" Value="Da incantamenti (%)"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_TRAITS" Value="Da tratti"/>
+		<Loc Key="UI_TOWN_REBEL_REDUCTION_FROM_WIZARD" Value="Riduzione ribelli (stregone)"/>
+		<Loc Key="UI_TOWN_REBEL_REDUCTION_FROM_GARRISON" Value="Riduzione ribelli (guarnigione)"/>
+		<Loc Key="UI_TOWN_FOOD_PRODUCTION" Value="Da produzione"/>
+		<Loc Key="UI_TOWN_FOOD_RESOURCE_BONUS" Value="Da bonus risorse"/>
+		<Loc Key="UI_TOWN_FOOD_ENCHANTMENTS" Value="Da incantamenti"/>
+		<Loc Key="UI_TOWN_FOOD_ENCHANTMENT_MULTIPLIER" Value="Da incantamenti (%)"/>
+		<Loc Key="UI_TOWN_RESEARCH_FROM_ENCHANTMENTS" Value="Da incantamenti"/>
+		<Loc Key="UI_TOWN_POWER_FROM_RELIGIOUS" Value="Da edifici religiosi"/>
+		<Loc Key="UI_TOWN_POWER_FROM_DARK_RITUAL" Value="Da Rituali Oscuri"/>
+		<Loc Key="UI_TOWN_POWER_FROM_LIFE_AND_DEATH_MOON" Value="Dalla Luna"/>
+		<Loc Key="UI_TOWN_POWER_FROM_TRAITS" Value="Da tratti"/>
+		<Loc Key="UI_TOWN_POWER_FROM_POPULATION" Value="Da popolazione"/>
+		<Loc Key="UI_TOWN_POWER_FROM_RESOURCES" Value="Da risorse"/>
+		<Loc Key="UI_TOWN_POWER_FROM_POWER_NODES" Value="Da nodi magici"/>
+		<Loc Key="UI_TOWN_POWER_FROM_ENCHANTMENTS" Value="Da incantamenti"/>
+		<Loc Key="UI_TOWN_POWER_FROM_ENCHANTMENT_MULTIPLIERS" Value="Da incantamenti (%)"/>
+		<Loc Key="UI_TOWN_PRODUCTION_BASE" Value="Produzione base"/>
+		<Loc Key="UI_TOWN_PRODUCTION_AREA_BONUS" Value="Bonus area"/>
+		<Loc Key="UI_TOWN_PRODUCTION_ENCHANTMENT_BONUS" Value="Bonus da incantamenti"/>
+		<Loc Key="UI_TOWN_PRODUCTION_ENCHANTMENT_MULTIPLIER_BONUS" Value="Moltiplicatore bonus da incantamenti"/>
+		<Loc Key="UI_REQUIREMENTS_NOT_MET" Value="Almeno un oggetto è stato rimosso dalla coda perché il suo prerequisito non è stato costruito e non compare in un punto anteriore della coda."/>
+		<Loc Key="UI_SEA_HARVEST_SUCCESS" Value="Raccolto riuscito"/>
+		<Loc Key="UI_SEA_HARVEST_SUCCESS_DES" Value="Raccogli il tesoro dell’oceano e ricevi: {0}{ICON:CastingSkillIcon} punti Capacità di Lancio, {1}{ICON:ManaIcon} Mana, {2}{ICON:GoldIcon} Oro."/>
+		<Loc Key="UI_CITY_LOOTED" Value="Saccheggio Città"/>
+		<Loc Key="UI_CITY_LOOTED_DES" Value="Prima di radere al suolo la città, i pirati dilagano nelle strade saccheggiando tutto ciò che trovano!"/>
+		<Loc Key="UI_TRADE_HAPPINESS" Value="Gradimento di Scambio"/>
+		<Loc Key="UI_TRADE_HAPPINESS_DES" Value="Mostra il gradimento dell’altro stregone per questo scambio. Se il valore della tua offerta è inferiore a quello della sua, potrebbe comunque accettare la proposta, ma i vostri rapporti peggioreranno. Allo stesso tempo, i vostri rapporti miglioreranno se la tua offerta ha valore superior alla sua.\nLa probabilità che uno stregone accetti un accordo sfavorevole è determinata dai vostri rapporti e dal timore che costui prova verso di te. Il gradimento di uno scambio è influenzato dalla disponibilità economica e dai progressi di ricerca dell’altro stregone."/>
+		<Loc Key="UI_CASTING_SKILL_GAINED" Value="Capacità di Lancio ottenuta"/>
+		<Loc Key="UI_CASTING_SKILL_LOST" Value="Capacità di Lancio perduta"/>
+		<Loc Key="UI_KRAKEN_LAIR" Value="Antro del Kraken"/>
+		<Loc Key="UI_SAVE_DLC3_DES" Value="Questo salvataggio utilizza i contenuti del DLC 'Scourge of the Seas'."/> <!--do not localise the 'Scourge of the Seas' part - this is the DLC title and should stay in English -->
+		<Loc Key="UI_BUTTON_RESOURCES" Value="Mostra/Nascondi Risorse ({0})"/>
+		<Loc Key="UI_SHOW_HIDE_RESOURCES" Value="Mostra/Nascondi Risorse"/>
+		<Loc Key="UI_EXTREME" Value="Estrema (250%)"/> <!--game difficulty level-->
+		<Loc Key="UI_REBELS_FROM_UNREST" Value="Da instabilità ({0}{ICON:PopulationIcon} x {1}{ICON:UnrestIcon})"/>
+		<Loc Key="UI_REBELS_MODIFIER_FROM_ENCHANTMENTS" Value="Da incantamenti ed edifici"/>
+		<Loc Key="UI_SCOURGE_OF_THE_SEAS" Value="Scourge of the Seas"/>
+		<Loc Key="UI_SCOURGE_OF_THE_SEAS_DES" Value="Abilita o disabilita i contenuti esclusivi del DLC Scourge of the Seas."/>
+		<Loc Key="UI_CANNOT_MOVE_QUEUE_ITEM" Value="Impossibile modificare l’ordine diquesto oggetto nella coda: il suo prerequisito deve essere costruito per primo."/>
+	</LOCALIZATION-UI_IT>
+</DB_LOCALIZATION>

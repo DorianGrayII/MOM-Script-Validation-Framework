@@ -1,0 +1,172 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC2_DE Language="Deutsch">
+		<!-- DLC 2 descriptions -->
+
+		<!-- WIZARDS --> 
+		<Loc Key="DES_NINESEVEN" Value="Neunsieben"/>
+		<Loc Key="DES_NINESEVEN_DES" Value="Neunsieben war einst eine elfische Erzmagierin und Gelehrte, wenngleich aufgrund all der mechanischen Bauteile und des techmagischen Firlefanzes nicht mehr viel an ihre alte organische Gestalt erinnert. Im Laufe ihres ewig währenden Lebens entdeckte sie ihre Faszination für die Metallverarbeitung der Zwerge und die grenzenlosen Transmutationsmöglichkeiten der Alchemie. Es gibt Leute, die sagen, sie sei die Begründerin der Techmagie. Andere wiederum behaupten, sie habe diese arkane Wissenschaft lediglich zu meistern gelernt."/>
+		<Loc Key="DES_NINESEVEN_QUOTE" Value="Ich bin nicht länger an das Fleisch gebunden und Magie durchströmt nun meine Kabel. Ich bin die Techmeisterin und giere nach mehr!"/>
+		<Loc Key="DES_MORIQUE" Value="Morique"/>
+		<Loc Key="DES_MORIQUE_DES" Value="Morique die Dämonenbeseelte - oder auch Morique die Besessene - ist eine mächtige und deshalb nicht minder gefährliche Dunkelelfen-Zauberin. Wie ihr Beiname vermuten lässt, teilt sie ihren Körper mit einem mächtigen Dämon. Ob es sich dabei um eine Verbindung im gegenseitigen Einvernehmen oder um eine unfreiwillige Besitzergreifung handelt, bleibt unklar. Moriques Ehrgeiz endet jedenfalls nicht mit der Zähmung ihres Dämons, denn mit ihrem arkanen Wissen über den Tod und das Chaos will sie ihre unangefochtene Überlegenheit über alle anderen Zauberer unter Beweis stellen, insbesondere über ihren dämonischen Rivalen Tauron."/>
+		<Loc Key="DES_MORIQUE_QUOTE" Value="Ich habe die Hölle selbst gezähmt, und nun sind wir mächtiger, als jeder Zauberer zu träumen wagt!"/>
+		<Loc Key="DES_GRENDEL" Value="Grendel"/>
+		<Loc Key="DES_GRENDEL_DES" Value="Grendel mag einer der größten Zauberer sein und zu den besten seiner Zunft gehören, und doch ist er der festen Überzeugung, dass physische Stärke mehr ausrichten kann als arkanes Wissen, ja dass die Stärke gar über die Magie zu triumphieren vermag. Grendel beherrscht und nutzt natürlich die Grundlagen der arkanen Künste und widmet seine Aufmerksamkeit bei Bedarf der Sphäre der Natur, setzt jedoch vornehmlich auf die konventionelle Kampfkraft seiner Truppen."/>
+		<Loc Key="DES_GRENDEL_QUOTE" Value="Ich brauche keine Magie, um Euch Kopfzerbrechen zu bereiten. Ihr werdet schon sehen, wer der wahre Meister ist!"/>
+
+		<Loc Key="DES_NINESEVEN_GREETINGS" Value="Das Protokoll sieht vor, dass ich Euch begrüße, auch wenn sich mir anlässlich unseres Ringens um die Macht der Sinn solcher Gepflogenheiten nicht ganz erschließt. Ich bin Neunsieben, wir können uns nun unterhalten."/>
+		<Loc Key="DES_MORIQUE_GREETINGS" Value="Wir grüßen Euch. Wir, nein ... ich ... bin Morique, und ich bin hier, um dieses Ringen um die Macht zu gewinnen. Bis es so weit ist, bin ich bereit zu reden."/>
+		<Loc Key="DES_GRENDEL_GREETINGS" Value="Mit mir erlaubt man sich keine Späße. Ich bin Grendel und ich werde Euch bezwingen."/>
+
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_1" Value="Ich grüße Euch herzlichst. Mein Name ist Tauron ... Ah, Mori, Ihr seid es. Ihr sagtet immer, dass Ihr mich eines Tages hier herausfordern werdet, aber stets hoffte ich, dass es nicht dazu kommen würde. Zumindest jetzt können wir noch ohne Hohn und Spott sprechen, meine Liebe."/>
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_2" Value="Mori, mein Herz schmerzt ob der misslichen Lage, in der wir uns befinden ... Noch bietet sich die Gelegenheit, gut gemeinte Worte zu wechseln."/> 
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_1" Value="Als sich unsere infernalen Wege trennten, sagte ich Euch, dass wir ... ich ... hier bin, um Euch gegenüber meine wahre Macht unter Beweis zu stellen! Wenngleich ich jetzt, wo Ihr vor mir steht, traurig bin, dass dies geschehen muss, mein roter Teufel."/>
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_2" Value="Mein roter Teufel, die letzte Schlacht steht bevor. Schon bald wird sich ein reißender Strom aus Blut zwischen uns auftun ..."/>
+
+
+		<!-- TRAITS -->
+		<Loc Key="DES_TECHMASTER" Value="Techmeister"/>
+		<Loc Key="DES_TECHMASTER_DES" Value="Ermöglicht es dem Zauberer, sich die arkanen Kräfte der Techmagie zu eigen zu machen - eine geheimnisvolle Zauberkunst, durch die mithilfe von Runenmagie, Alchemie und der verbotenen Nutzung von Seelen mechanische Objekte belebt werden können. Der Techmeister-Zauberer beginnt das Spiel mit einer Spähdrona-Einheit, ihrem Beschwörungszauber und dem Zauber 'Kraftsucher'. Zudem erhält er einen Forschungsbonus von +5 %.\n\n- Der Zauberer muss über mindestens 3 Zauberbücher aus 2 verschiedenen Sphären verfügen.\n\n- 'Techmeister' kostet 2 Punkte."/>
+		<Loc Key="DES_DEMONOLOGIST" Value="Dämonologe"/>
+		<Loc Key="DES_DEMONOLOGIST_DES" Value="Der Dämonologe beginnt das Spiel mit einer Einheit Niederer Schattendämonen unter seinem Kommando. Zudem erhält er einen einzigartigen Zauber zum Beschwören Niederer Schattendämonen sowie den Zauber 'Beherrschung'.\n\n- Der Zauberer muss die Spezialisierung 'Beschwörung' aufweisen.\n\n- Der Zauberer muss bereits mindestens 1 Zauberbuch der Todessphäre und 1 Zauberbuch der Chaossphäre ausgewählt haben.\n\n- 'Dämonologe' kostet 1 Punkt."/>
+		<Loc Key="DES_MYRRAN_REFUGEE" Value="Myrronischer Flüchtling"/>
+		<Loc Key="DES_MYRRAN_REFUGEE_DES" Value="Der Zauberer kann das Spiel auf der Arcanus-Ebene mit einem myrronischen Volk beginnen, wodurch er einen signifikanten Vorteil erhält, da Völker der Myrror-Ebene für gewöhnlich stärker sind.\n\n- 'Myrronischer Flüchtling' kostet 2 Punkte."/>
+		<Loc Key="DES_IMPROVED_WARLORD" Value="Veteranen-Kriegsherr"/>
+		<Loc Key="DES_IMPROVED_WARLORD_DES" Value="Ermöglicht es dem Zauberer, ein Veteranen-Kriegsherr zu werden, wodurch er seine Armeen effizienter ausbilden kann. Nicht-übernatürliche Einheiten unter dem Kommando des Veteranen-Kriegsherrn erhalten pro Runde +1 EP zusätzlich. Zudem beginnt er das Spiel mit einer Schwertkämpfer-Einheit in seinem Anfangsvolk.\n\n- Der Zauberer muss die Spezialisierung 'Kriegsherrschaft' aufweisen.\n\n- 'Veteranen-Kriegsherr' kostet 1 Punkt."/>
+		<Loc Key="DES_ANTI_MAGIC" Value="Stärke statt Wissen"/>
+		<Loc Key="DES_ANTI_MAGIC_DES" Value="Der Zauberer ist davon überzeugt, dass physische Stärke wichtiger ist als magisches Wissen. Alle nicht-übernatürlichen Einheiten (einschließlich nicht-übernatürlicher Helden) erhalten +3 Resistenz. Zudem erhalten sie die neue Fertigkeit 'Kampfregeneration', die es Einheiten im Kampf ermöglicht, pro Runde 2 Trefferpunkte wiederherzustellen. (Die Fertigkeit lässt sich mit 'Regeneration' kombinieren.)\n\n- Der Zauberer darf nicht über mehr als 2 Zauberbücher verfügen.\n\n- 'Stärke statt Wissen' kostet 5 Punkte."/>
+
+		<!-- RACE --> 
+		<Loc Key="DES_SOULTRAPPED" Value="Seelengefangene"/>
+		<Loc Key="DES_SOULTRAPPED_DES" Value="Bei den Seelengefangenen handelt es sich um Konstrukte, die von den Zwergen bei Experimenten mit dunkler Runenmagie erschaffen wurden. Bewusste Seelen wurden dabei an Maschinen gebunden, die mit organischer Materie angetrieben werden. So lautet zumindest die offizielle Version. Die Seelengefangenen hingegen behaupten, dass sie von einer göttlichen Quelle erweckt wurden und keinesfalls das Ergebnis magischer Spielereien irgendeines Volkes sind. Fest steht, dass diese Kombination aus Mensch und Maschine beunruhigend ist, auch wenn dieses 'Volk' der Seelengefangenen Frieden und Wohlstand der Kriegsführung vorzieht."/>
+		<Loc Key="DES_SOULTRAPPED_PRODUCTION" Value="Wachstumsrate: Sehr niedrig (Basisrate von -30 Bevölkerung/Runde).\nBau-Einschränkungen: Können keine Händlergilden, Kriegsakademien, Orakel, Animistengilden und Werften bauen.\nAndere Modifikatoren: +4 Rüstung{ICON:ArmourIconNormal}, -1 Resistenz{ICON:ResistanceIconNormal}, Fertigkeit 'Mauerbrecher' für Einheiten.\nDie Einheiten kosten 2,0x Produktion{ICON:ProductionIcon}.\nStädte der Seelengefangenen erhalten +5 Bevölkerungswachstum pro Mineralien-Vorkommen im Einzugsbereich der Stadt.\nSpezialeinheiten: {LINK:UNIT-SOUL_CANNON} Seelenkanone{ICON:SoulCannon}{END_LINK},{LINK:UNIT-SOUL_BOMBER} Werfer{ICON:Bomber}{END_LINK},{LINK:UNIT-SOUL_GOLEM} Seelenlose{ICON:FleshGolem}{END_LINK},{LINK:UNIT-SOUL_SUB_TRIREME} Unterwassertrireme{ICON:Submarine}{END_LINK}."/>
+		<Loc Key="DES_REALM_TECH" Value="Techmagiesphäre"/>
+		<Loc Key="DES_REALM_TECH_DES" Value="Diese Einheit dient dem einzigartigen Reich der Techmagie."/>
+
+		<!-- UNITS -->
+		<Loc Key="DES_TIMUR" Value="Timur der Scharfschütze"/>
+		<Loc Key="DES_TIMUR1" Value="Bleichir der Scharfschütze"/>
+		<Loc Key="DES_TIMUR2" Value="Albino der Scharfschütze"/>
+		<Loc Key="DES_TIMUR3" Value="Fahlur der Scharfschütze"/>
+		<Loc Key="DES_TIMUR4" Value="Blassido der Scharfschütze"/>
+		<Loc Key="DES_TIMUR_DES" Value="{0} wurde als blinder Albino geboren, dem die Gabe der Dunkelelfen für dunkle Magie fehlt, weswegen er von seinem Volk gemieden und verachtet wird. Dies machte ihn jedoch nur noch entschlossener. Ein Adoptivvater nahm sich seiner an, und gemeinsam begaben sie sich auf eine gefährliche Reise, um zu beweisen, dass {0} trotz aller Nachteile, die ihm in die Wiege gelegt worden waren, der tödlichste Meuchler ist. Dank der Techmagie vermag er nun über die Grenzen der Sterblichen hinaus zu sehen, und obwohl er immer noch keine dunkle Magie beherrscht, ist sein techmagischer Scharfschützenangriff für sich genommen eine dunkle Kraft."/>
+		<Loc Key="DES_BILLIE" Value="Billie die Feuerschützin"/>
+		<Loc Key="DES_BILLIE1" Value="Tipi die Feuerschützin"/>
+		<Loc Key="DES_BILLIE2" Value="Calamita die Feuerschützin"/>
+		<Loc Key="DES_BILLIE3" Value="Annie die Feuerschützin"/>
+		<Loc Key="DES_BILLIE4" Value="Jessi die Feuerschützin"/>
+		<Loc Key="DES_BILLIE_DES" Value="{0} ist ein fröhliches Halbling-Mädchen, das von praktisch jedem gemocht wird. Nachdem sie den höchsten Rang unter den Schleuderschützen eingenommen hatte, versuchte sie, inspiriert von ihrer Schwester Teria, ihre eigene Nische zu finden. Dabei stieß sie auf die Wunder der Techmagie, und so wurde sie die erste Feuerschützin von Arcanus. Auf ihrem getreuen Wildschwein Borsti reitend gehört sie mittlerweile zu den besten Schützen, die sich ein Zauberer in seinen Diensten wünschen kann."/>
+		<Loc Key="DES_OLDMANE" Value="Altmähn Eisenkiefer"/>
+		<Loc Key="DES_OLDMANE1" Value="Hakuna Eisenkiefer"/>
+		<Loc Key="DES_OLDMANE2" Value="Knurro Eisenkiefer"/>
+		<Loc Key="DES_OLDMANE3" Value="Birgknorr Eisenkiefer"/>
+		<Loc Key="DES_OLDMANE4" Value="Knorrfletsch Eisenkiefer"/>
+		<Loc Key="DES_OLDMANE_DES" Value="{0} war einst der schillerndste und erfahrenste aller Gnoll-Generäle, bis er von den Dunkelelfen gefangen genommen wurde. Sie folterten den Krieger jahrelang und schindeten seinen Körper bis zur Unkenntlichkeit. Dem Zufall - oder Schicksal - war es jedoch zu verdanken, dass die Schreie eines kleinen Jungen ihn in seinem Willen bestärkten, nicht aufzugeben. Schließlich konnte er seinen Entführern entkommen, rettete seinen Adoptivsohn Timur und begab sich mit ihm auf eine Reise der Wiedergeburt. {0} wurde durch den Einsatz von Techmagie in die Bedrohung aus Fleisch und Metall verwandelt, als die er heute bekannt ist."/>
+		<Loc Key="DES_MOMA_ILDE" Value="Moma und Ilde"/>
+		<Loc Key="DES_MOMA_ILDE1" Value="Mutha und Mädi"/>
+		<Loc Key="DES_MOMA_ILDE2" Value="Muti und Kindli"/>
+		<Loc Key="DES_MOMA_ILDE3" Value="Mumsie und Gir"/>
+		<Loc Key="DES_MOMA_ILDE4" Value="Mere und Petit"/>
+		<Loc Key="DES_MOMA_ILDE_DES" Value="Das Zwergenmädchen ist zwar jung, aber schon eine eindrucksvolle Runenhüterin. Trotz ihres zarten Alters blickt sie bereits auf eine tragische Vergangenheit zurück, da sie ihre Mutter durch einen schrecklichen Unfall bei einem Experiment mit Techmagie verlor. Kurz nach der Explosion, bei der ihre Mutter schwerste Verbrennungen erlitten hatte, begegnete sie einer umherwandernden Seelengefangenen, die die kleine Zwergin zu erkennen schien. Das Mädchen ist überzeugt davon, dass die Seelengefangene ihre Mutter ist, und schwor sich, einen Weg zu finden, die Tragödie irgendwie ungeschehen zu machen. Bis dahin folgen {0} dem Ruf derer, die die mächtige Techmagie praktizieren, in der Hoffnung, in ihren Diensten das Wissen zu erlangen, das sie brauchen."/>
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS" Value="Niedere Schattendämonen"/>
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS_DES" Value="Niedere Schattendämonen folgen dem Ruf eines Dämonologen und dienen ihm treu. Sie können aus der Luft{ICON:MovementFlyingIcon} zuschlagen und setzen dabei sowohl auf Nahkampfangriffe{ICON:MeleeIconNormal} als auch auf magische Fernkampfangriffe{ICON:DeathIcon}{ICON:RangedIconNormal}."/>
+
+		<Loc Key="DES_SOUL_SETTLER" Value="Seelengefangene Siedler"/>
+		<Loc Key="DES_SOUL_ENGINEERS" Value="Seelengefangene Baumeister"/>
+		<Loc Key="DES_SOUL_ENGINEERS_DES" Value="Baumeister sind keine kämpfenden Einheiten. Sie sind spezialisiert auf den Bau von Straßen und können Euch beim Überwinden von gegnerischen Mauern helfen. Seelengefangene Baumeister können zudem Konstrukte mit der Fertigkeit 'Reparieren' heilen."/>
+		<Loc Key="DES_SOUL_SPEARMEN" Value="Seelengefangene Speerbots"/>
+		<Loc Key="DES_SOUL_SWORDSMEN" Value="Seelengefangene Schwertbots"/>
+		<Loc Key="DES_SOUL_HALBERDIERS" Value="Seelengefangene Hellebardiere"/>
+		<Loc Key="DES_SOUL_CAVALRY" Value="Seelengefangene Kavallerie"/>
+		<Loc Key="DES_SOUL_PRIESTS" Value="Seelengefangene Techpriester"/>
+		<Loc Key="DES_SOUL_PRIESTS_DES" Value="Eine heilkundige Einheit, die mit magischen Fernkampfangriffen zuschlagen kann. Im Gegensatz zu Magiern, die Zauberei studieren, schöpfen Priester Kraft aus Gebeten und ihrer Hingabe an eine Gottheit. Techpriester verfügen zudem über die Fähigkeit, zerstörte Konstrukteinheiten in der Schlacht wieder instand zu setzen."/>
+		<Loc Key="DES_SOUL_BOMBER" Value="Werfer"/>
+		<Loc Key="DES_SOUL_BOMBER_DES" Value="Bei dem Werfer handelt es sich um ein außergewöhnliches Konstrukt der Seelengefangenen, das die Form einer menschlichen Hand aufweist und zum Werfen konzipiert wurde. Die einzige Aufgabe des Werfers besteht darin, die Magiebombe in der Schlacht zum Einsatz zu bringen und den Feind mit einer einzigen Explosion auszulöschen!"/>
+		<Loc Key="DES_SOUL_BOMB" Value="Magiebombe"/>
+		<Loc Key="DES_SOUL_BOMB_DES" Value="Die Magiebombe ist durchdrungen von mächtiger Techmagie, die dafür sorgt, dass die Bombe direkt vor dem Antlitz des Feindes explodiert - sofern er sie nicht vorher abschießt, denn dann ist sie nur ein rundes Stück belebtes Metall ..."/>
+		<Loc Key="DES_SOUL_CANNON" Value="Seelenkanone"/>
+		<Loc Key="DES_SOUL_CANNON_DES" Value="Die Seelenkanone ist ein Meisterwerk der Technik und Magie, die als schlagkräftige Fernkampfeinheit der Seelengefangenen beide Aspekte in Perfektion vereint."/>
+		<Loc Key="DES_SOUL_GOLEM" Value="Seelenloser"/>
+		<Loc Key="DES_SOUL_GOLEM_DES" Value="Der Fleischgolem ist ein Wesen aus unbeseeltem Fleisch, das von seelengefangenen Ingenieuren und Priestern mithilfe von geheimnisvollen techmagischen Kräften belebt wurde. Manch einer sagt, der Fleischgolem sei die schreckliche Antwort auf die versklavten Golems der Zwerge ..."/>
+		<Loc Key="DES_SOUL_SUB_TRIREME" Value="Unterwassertrireme"/>
+		<Loc Key="DES_SOUL_SUB_TRIREME_DES" Value="Die Unterwassertrireme ist in der Lage, große Distanzen unter der Oberfläche der Meere zurückzulegen. Es handelt sich dabei um eine seelengefangene Einheit, die autonom fungiert, aber auch als Transporter genutzt werden kann."/>
+		<Loc Key="DES_CYBER_SPRITE_DES" Value="Techfeen verdanken ihre Existenz technischer Genialität und magischer Experimentierfreudigkeit - eine eigentümliche und beunruhigende Kombination gleichermaßen. Gewöhnliche Feen wurden in fliegende, maschinenhaft surrende Krieger verwandelt, die Techmagie-Zauberern mit ihren Fernkampffähigkeiten treu dienen."/>
+		<Loc Key="DES_SCOUTING_PROBE_DES" Value="Die Spähdrona des Typs 53N3X ist ein Konstrukt aus Metall und Glas, das mithilfe von Techmagie erschaffen wurde und vom Zauberer gelenkt wird. Die Drona erreicht eine zufriedenstellende Flughöhe und kann weiter sehen als die meisten organischen und sogar feinstofflichen Wesen."/>
+		<Loc Key="DES_ENGINEERING_PROBE_DES" Value="Eine Mehrzweckdrona des Typs 53N3X2, die dafür konzipiert wurde, auf verschiedenste Weise eingesetzt zu werden. Sie wird hauptsächlich für den Straßenbau genutzt, kann jedoch auch mit Knoten verschmelzen und ist schneller als die meisten anderen Einheiten."/>
+
+
+		<!-- SKILLS --> 
+		<Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH" Value="Techmagie-Fernkampfangriff"/>
+		<Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH_DES" Value="Die Fernkampfangriffe dieser Einheit sind durch Techmagie magisch verstärkt. Sie sind auf jede Distanz zielgenau und die Einheit erleidet keine Abzüge auf die Trefferchance{ICON:ToHitBonusIcon} aufgrund der Reichweite. Ein solcher Angriff umgeht vollständig die Geschossimmunität sowie die Magieimmunität des Ziels und durchdringt zudem seine Rüstung."/> 
+		<Loc Key="DES_DOUBLESHOT" Value="Doppelschuss"/>
+		<Loc Key="DES_DOUBLESHOT_DES" Value="Diese Fertigkeit ermöglicht es dem Helden, in Manier eines Revolverhelden zwei Mal pro Zug zu schießen und somit zwei normale Fernkampfangriffe durchzuführen."/>
+		<Loc Key="DES_SUMMON_BOMB" Value="Magiebombe entfesseln"/>
+		<Loc Key="DES_SUMMON_BOMB_DES" Value="Beschwört eine Magiebombe - eine äußerst verwundbare Einheit, die nur einen Angriff durchführen kann, dabei aber tödlichen Schaden verursacht."/>
+		<Loc Key="DES_BOMBER_BOOM" Value="Techplosion"/>
+		<Loc Key="DES_BOMBER_BOOM_DES" Value="Eine verheerende Techfeuer-Explosion, die beim Angreifer und Feind gleichermaßen Schaden verursacht. Der magische Feuerangriff der Stärke 20 trifft jede Untereinheit der Zieleinheit."/>
+		<Loc Key="DES_PIERCING_BITE" Value="Stechender Biss {0}"/>
+		<Loc Key="DES_PIERCING_BITE_DES" Value="Ein heftiger Nahkampfbiss, der nach dem Angriffszug und möglichen Gegenangriffen rüstungsdurchdringenden Schaden verursacht."/>
+		<Loc Key="DES_GNOLL_GENERAL" Value="Wolfsreiter-Rudelführer"/>
+		<Loc Key="DES_GNOLL_GENERAL_DES" Value="Generäle der Gnoll-Armeen sorgen für einen engen Zusammenhalt unter den Wolfsreiter-Rudeln. Aus diesem Grund erhält der Held einen Bonus von +1 auf die Rüstung{ICON:ArmourIconNormal} pro 2 Wolfsreiter-Einheiten in seiner Armee. Die Wolfsreiter-Einheiten wiederum erhalten einen Bonus von +1 auf den Nahkampfangriff{ICON:MeleeIconNormal}, wenn sich der Rudelführer in ihrer Nähe befindet."/>
+		<Loc Key="DES_GNOLL_GENERAL_BONUS_DES" Value="Auf diese Einheit wirkt die Fertigkeit 'Wolfsreiter-Rudelführer'. Der Held erhält einen Bonus von +1 auf die Rüstung{ICON:ArmourIconNormal} pro 2 Wolfsreiter-Einheiten in seiner Armee. Die Wolfsreiter-Einheiten wiederum erhalten einen Bonus von +1 auf den Nahkampfangriff{ICON:MeleeIconNormal}, wenn sich der Rudelführer in ihrer Nähe befindet."/>
+		<Loc Key="DES_GNOLL_GENERAL_BONUS" Value="Wolfsreiter-Rudelführer"/>
+		<Loc Key="DES_MECHANICIAN" Value="Reparieren"/>
+		<Loc Key="DES_MECHANICIAN_DES" Value="Diese Fertigkeit ermöglicht das Reparieren mechanischer Konstrukte und erhöht die natürliche Heilung der Konstrukteinheiten auf demselben Feld auf 50 % ihrer max. Trefferpunkte pro Runde."/>
+		<Loc Key="DES_LIGHTNING_WEAKNESS" Value="Blitzanfälligkeit"/>
+		<Loc Key="DES_LIGHTNING_WEAKNESS_DES" Value="Die Einheit zieht Blitze an und ist anfällig für deren Schaden. Im Falle eines Blitzangriffs muss eine Einheit mit dieser Schwäche um 100 % erhöhten Schaden abwehren."/>
+		<Loc Key="DES_MINOR_REGENERATION" Value="Kampfregeneration"/>
+		<Loc Key="DES_MINOR_REGENERATION_DES" Value="Beschleunigt die natürlichen Heilungsprozesse des Körpers, wodurch 2 Trefferpunkte{ICON:HitIconNormal} pro Kampfrunde wiederhergestellt werden. Die Fertigkeit kann nicht außerhalb von Kämpfen eingesetzt werden. (Die Fertigkeit lässt sich mit 'Regeneration' kombinieren.)"/>
+
+
+		<!-- RES --> 
+		<Loc Key="DES_RES_ORICHALCUM" Value="Orichalcum"/>
+		<Loc Key="DES_RES_ORICHALCUM_DES" Value="Orichalcum ist eine seltene Ressource, die Ihr nur durch einen Sieg über die Verteidiger eines Techverlieses oder durch die Anwendung von Techmagie erhaltet. Verringert die Baukosten von Gebäuden und Einheiten um 20 % und erhöht die Zauberkraft um +3."/>
+
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_SCOUTING_PROBE" Value="Spähdrona"/>
+		<Loc Key="DES_SCOUTING_PROBE_SUMMON_DES" Value="Eine fliegende{ICON:MovementFlyingIcon} Spähdrona des Typs 53N3X wird beschworen, die über herausragende Aufklärungsfähigkeiten verfügt, aber sehr verwundbar ist."/>
+		<Loc Key="DES_CYBER_SPRITE" Value="Techfeen"/>
+		<Loc Key="DES_CYBER_SPRITE_SUMMON_DES" Value="Eine Einheit fliegender{ICON:MovementFlyingIcon} mechanischer Feen mit Techmagie-Fernkampfangriff wird beschworen. Die Techfeen werden Euch bis zum Ende der Schlacht dienen - oder bis zum Tod ..."/>
+		<Loc Key="DES_POWER_SEEKER" Value="Kraftsucher"/>
+		<Loc Key="DES_POWER_SEEKER_DES" Value="Dank dieses mächtigen Techmagie-Zaubers könnt Ihr alle Kraftknoten auf der ausgewählten Ebene aufspüren und auf Eurer Karte sichtbar machen. Entdeckte Knoten werden als 'Erkundet' klassifiziert, wodurch Ihr vor dem Betreten in Erfahrung bringen könnt, wer den Knoten verteidigt."/>
+		<Loc Key="DES_DETECT_MINERALS" Value="Mineralien freilegen"/>
+		<Loc Key="DES_DETECT_MINERALS_DES" Value="Mithilfe dieses Zaubers findet Ihr Mineralien-Vorkommen tief unter der Erde und bringt sie an die Oberfläche, was es Euch ermöglicht, einem ausgewählten Hexfeld eine neue Ressource hinzuzufügen. Ein neues Mineralien-Vorkommen kann nur auf einem Hexfeld erzeugt werden, das mindestens ein Feld von einem anderen Mineralien-Vorkommen entfernt ist."/>
+		<Loc Key="DES_TECHCARNATION" Value="Techinkarnation"/>
+		<Loc Key="DES_TECHCARNATION_DES" Value="Mit dem mächtigen Zauber 'Techinkarnation' wird die ungewöhnliche Heldeneinheit Moma und Ilde beschworen, um Euch zu dienen. Dieser Doppelheld folgt Zauberern, die der Techmagie kundig sind, um selbst mehr über diese arkane Zauberkunst zu lernen. Er kann nach dem Tod nicht wiederbelebt, sondern lediglich neu beschworen werden. (Da es sich um einen übernatürlichen Helden handelt, ist er immun gegen Zauber, die sich gegen normale Einheiten und Heldeneinheiten richten.)"/>
+		<Loc Key="DES_MASS_SHIELD" Value="Massenschild"/>
+		<Loc Key="DES_MASS_SHIELD_DES" Value="Durch 'Massenschild' erhalten alle verbündeten Einheiten auf dem Schlachtfeld die Fertigkeit 'Großschild', sofern sie noch nicht über diese Fertigkeit verfügen, wodurch ihre Rüstung{ICON:ArmourIconNormal} gegen alle Fernkampfangriffe um +2 erhöht wird."/>
+		<Loc Key="DES_AFINITY_FOR_MINERALS" Value="Wachstum durch Mineralien"/>
+		<Loc Key="DES_AFINITY_FOR_MINERALS_DES" Value="Die Seelengefangenen haben eine besondere Affinität zu Mineralien. Jedes Mineralien-Vorkommen innerhalb der Grenzen einer Seelengefangenen-Stadt erhöht die Wachstumsrate der Bevölkerung um +5."/>
+		<Loc Key="DES_RECONSTRUCT" Value="Instand setzen"/>
+		<Loc Key="DES_RECONSTRUCT_DES" Value="Mit dem Zauber 'Instand setzen' können zerstörte Konstrukteinheiten wieder vollständig repariert werden. Instand gesetzte Einheiten lösen sich jedoch nach der Schlacht auf, selbst wenn Ihr Wiedererweckungszauber einsetzt."/>
+		<Loc Key="DES_RECONSTRUCT_NAME_DES" Value="Vorübergehend instand gesetzte Einheit"/>
+		<Loc Key="DES_MAGIC_BULLET" Value="Magische Munition"/>
+		<Loc Key="DES_MAGIC_BULLET_DES" Value="'Magische Munition' fügt einer nicht-übernatürlichen Einheit mit normalem Fernkampfangriff +2 Munition hinzu, wobei der Angriff die Waffenimmunität des Ziels ignoriert. Durch den Bonus kann das natürliche Munitionsmaximum der Einheit erhöht werden. Zudem können dadurch die Munitionsvorräte wiederaufgefüllt werden. Bei Konstrukten beträgt der Bonus +3." />
+		<Loc Key="DES_HERO_TRAINING" Value="Heldenausbildung"/>
+		<Loc Key="DES_HERO_TRAINING_DES" Value="Dank der Genialität der Techmagier sind Helden sofort ausgebildet. Jeder Held im Dienste des Zauberers beginnt als Hauptmann."/>
+		<Loc Key="DES_TECH_DUNGEON_UNITS" Value="Techverlies"/>
+		<Loc Key="DES_TECH_DUNGEON_UNITS_DES" Value="Techverliese sind Unterschlupfe der abtrünnigen Seelengefangenen. In einem solchen Unterschlupf erhalten gegnerische Seelengefangene Kampfboni."/>
+		<Loc Key="DES_ENGINEERING_PROBE" Value="Mehrzweckdrona"/>
+		<Loc Key="DES_ENGINEERING_PROBE_SUMMON_DES" Value="Eine Mehrzweckdrona des Typs 53N3X2 wird beschworen. Haupteinsatzgebiet: Bauprojekte. Sekundäre Eigenschaften: Kann mit Knoten verschmelzen, erhöhtes Bewegungstempo."/>
+		<Loc Key="DES_MASS_PIERCING_SPELL" Value="Durchschlagskraft"/>
+		<Loc Key="DES_MASS_PIERCING_SPELL_DES" Value="Durch 'Durchschlagskraft' erhalten alle verbündeten Einheiten auf dem Schlachtfeld den Effekt 'Rüstungsdurchdringung', wodurch die Wirksamkeit des gegnerischen Rüstungswerts halbiert wird. Der Anwender muss dafür jedoch 5 Trefferpunkte{ICON:HitIconNormal} opfern."/>
+		<Loc Key="DES_MASS_PIERCING" Value="Durchschlagskräftig"/>
+		<Loc Key="DES_MASS_PIERCING_DES" Value="Auf durchschlagskräftige Einheiten wirkt der Effekt 'Rüstungsdurchdringung', wodurch die Wirksamkeit des gegnerischen Rüstungswerts halbiert wird."/>
+		<Loc Key="DES_FAIR_EXCHANGE" Value="Geben und Nehmen"/>
+		<Loc Key="DES_FAIR_EXCHANGE_DES" Value="Alles im Leben hat seinen Preis, daher gilt es, stets sorgfältig abzuwägen. Eine Einheit, die 'Geben und Nehmen' gemeistert hat, gewährt ihrem Zauberer pro 2 erlittenen Schadenspunkten 5 Zauberfertigkeitspunkte."/>
+		<Loc Key="DES_ENCH_IMPROVED_WARLORD_DES" Value="Die Erfahrung des Veteranen-Kriegsherrn färbt auf die nicht-übernatürlichen Einheiten unter seinem Kommando ab, wodurch sie +1 EP pro Runde erhalten."/>
+		<Loc Key="DES_ENCH_ANTI_MAGIC_DES" Value="Diese Einheit hält nichts von Magie, weswegen sie Magieresistenz (+3 Resistenz) und Kampfregeneration (+2 Heilung pro Runde im Kampf) von ihrem Zauberer erhält."/>
+		<Loc Key="DES_CASTING_BLOCK_SPELL" Value="Lebenskraftopfer"/>
+		<Loc Key="DES_CASTING_BLOCK_SPELL_DES" Value="Indem die Einheit 2 Trefferpunkte opfert, kann sie 1 Runde lang die Fähigkeit des gegnerischen Zauberers blockieren, in der Schlacht Zauber zu wirken."/>
+		<Loc Key="DES_CASTING_BLOCK" Value="Zaubern blockiert"/>
+		<Loc Key="DES_CASTING_BLOCK_DES" Value="Die Zauberfertigkeit des Zauberers ist für 1 Runde blockiert."/>
+		<Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS" Value="Niedere Schattendämonen"/>
+		<Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS_DES" Value="Eine Einheit fliegender{ICON:MovementFlyingIcon} höllischer Dämonen wird beschworen, um Euch zu dienen. Die Niederen Schattendämonen können sowohl mit einem Nahkampfangriff{ICON:MeleeIconNormal} als auch mit einem magischen Fernkampfangriff{ICON:DeathIcon}{ICON:RangedIconNormal} zuschlagen."/>
+
+
+		<!-- Other-->
+		<Loc Key="DES_HERO_TRAINING_TARGET" Value="Nur Heldeneinheiten."/>
+		<Loc Key="DES_NORMAL_UNIT_WITH_RANGE_MISSILE_ATTACK" Value="Normale Einheit mit Geschoss-Fernkampfangriff."/>
+		<Loc Key="DES_TECH_DUNGEON" Value="Techverlies"/>
+
+	</LOCALIZATION-DLC2_DE>
+</DB_LOCALIZATION>

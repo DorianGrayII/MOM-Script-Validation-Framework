@@ -1,0 +1,197 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC3_CN Language="中文">
+		<!-- DLC 3 descriptions -->
+		
+		<!-- WIZARDS -->
+		<Loc Key="DES_BELIT" Value="贝利特" />
+		<Loc Key="DES_BELIT_DES" Value="贝利特是一名强大的兽人, 曾经与布拉杜德共同统治着兽人族群. 但她并不赞同自己的种族以文明的名义而变得温顺. 相反, 她试图让他们重返血腥和征服的时代. 唉, 对皇族血统的背叛, 抑或是被蔑视之爱的禁锢, 巨大的诅咒将贝利特和她的海盗同类变成了天灾军团. 但对于贝利特而言, 成为被诅咒者并不是一种障碍. 她已经接受了自己新的形态并将挑战任何将其视之为弱点的人. 海盗女王热衷于建造新城市并为此获得了巨大的恩赐. 她掌控着死亡和巫术魔法, 并试图向所有其他巫师展示她被诅咒命运的强大力量! " />
+		<Loc Key="DES_BELIT_QUOTE" Value="他们叫我诅咒使者, 被诅咒之人, 叛徒. 我并不否认. 但我也是海洋女王, 很快就会成为一切的主宰! " />
+
+		<Loc Key="DES_BELIT_GREETINGS" Value="你好, 巫师, 我是海洋女王贝利特. 在我们沉默不语之前, 请说出你的想法."/>
+		<Loc Key="DES_BELIT_GREETINGS_BLADUD_1" Value="布拉杜德, 你看起来很不错. 正如你所看到的, 我也很好, 尽管你对我是如此地恶毒. 不过, 在我把你的内脏掏出来喂鱼之前, 让我们谈谈吧..."/>
+		<Loc Key="DES_BELIT_GREETINGS_BLADUD_2" Value="亲爱的... 说吧."/>
+
+		<Loc Key="DES_HORATIO" Value="霍雷提奥爵士" />
+		<Loc Key="DES_HORATIO_DES" Value="霍雷提奥爵士是一位著名的海军指挥官, 拥有极高的地位, 同时也远远超出了他那些野蛮追随者们的期望. 霍雷提奥以作为一名战士而感到骄傲, 但也很快意识到与其他巫师的对抗正让他处于不利的位置, 并威胁到他的职责和船员们. 很快他声称自己掌握了更高阶的魔法, 使得他能够真正驯服海洋并成为一名巫师. 在晋升为驯海者之后, 他现在以自己是一名战术大师和海洋主宰而自豪, 擅长伏击敌人并指挥强大的海上舰队. 霍雷提奥决心证明战士们的纪律和训练将足以让他名垂青史." />
+		<Loc Key="DES_HORATIO_QUOTE" Value="为了荣誉和荣耀, 我要亲自指挥并带领大家取得伟大的胜利!" />
+
+		<Loc Key="DES_HORATIO_GREETINGS" Value="向您致敬, 巫师! 我是霍雷提奥爵士, 现在竭诚为您服务."/>
+		<Loc Key="DES_HORATIO_GREETINGS_GAYN_1" Value="盖因, 兄弟! 尽管我们成为了对手, 但我知道我们会始终铭记荣耀. 在最后一战到来之前, 让我们说说话吧."/>
+		<Loc Key="DES_HORATIO_GREETINGS_GAYN_2" Value="盖因, 让我们开诚布公地谈谈吧."/>
+
+		<Loc Key="DES_QUEEN_XARXLA" Value="萨尔克斯拉女王"/>
+		<Loc Key="DES_QUEEN_XARXLA_DES" Value="作为至高无上的虫巢女王, 萨尔克斯拉注定要统治数以百万计的克拉肯, 但更伟大的命运在等待着她. 在发现自己的魔法天赋并观察到那些掌控魔法之人所拥有的力量后, 女王将目光投向了成为一名强大的巫师上. 主巢的意志推动着她的努力, 萨尔克斯拉很快就加入了这场伟大的竞赛, 并着眼于让其他奥术使用者加入她的皇家虫巢. 反抗女王的徒劳努力在她看来只是一种微不足道的滋扰而已." />
+		<Loc Key="DES_QUEEN_XARXLA_QUOTE" Value="我们密不可分, 而当我们胜利之时, 你也不例外." />
+
+		<Loc Key="DES_QUEEN_XARXLA_GREETINGS" Value="向你致敬, 巫师, 我们是密不可分的整体, 你能够说出的名字只能是萨尔克斯拉."/>
+
+		<Loc Key="DES_GAYN" Value="盖因" />
+		<Loc Key="DES_GAYN_DES" Value="作为一名骄傲的蜥蜴人, 盖因一直将自己视为海洋的守护者. 年轻时他曾在许多舰船上担任雇佣兵, 并与霍雷提奥一起, 参与了无数海战. 但有一天, 当面对巫师们的真正威胁时, 他意识到自己需要站出来捍卫他所热爱的海洋. 现在, 死亡和自然都站在了他一边, 他保护着这片水域, 并让大海听从他的意愿. 他因喜欢狩猎海盗和危险的海洋生物而闻名, 并因此获得了海洋猎手的绰号. 多年的水手经验让他的追随者们受益匪浅, 他们拥有更快的速度以及海战优势. " />
+		<Loc Key="DES_GAYN_QUOTE" Value="许多人认为这片海洋属于他们. 是时候向他们展示我的力量了. 是时候成为一切的主宰了." />
+
+		<Loc Key="DES_GAYN_GREETINGS" Value="欢迎, 我是盖因. 虽然我们很快就会成为敌人, 但今天我们还是能够好好交谈."/>
+		<Loc Key="DES_GAYN_GREETINGS_HORATIO_1" Value="霍雷提奥爵士, 我们终于以这样的方式见面了. 兄弟之间拔刀相见, 很快就会成为真正的敌人. 让我们用欢呼和荣耀来迎接这个注定的命运吧."/>
+		<Loc Key="DES_GAYN_GREETINGS_HORATIO_2" Value="霍雷提奥爵士, 即使是现在, 我也很高兴与你交谈."/>
+
+		
+		<!-- TRAIT --> 
+		<Loc Key="DES_KLACKON_SUPREMACY" Value="虫巢领主"/>
+		<Loc Key="DES_KLACKON_SUPREMACY_DES" Value="虫巢领主连接全体克拉肯成员的意志以提高效率. 战斗中每有一个友方克拉肯单位巫师获得+5施法技能. 此外, 巫师麾下的克拉肯单位不再受到其他种族的厌恶, 且研学者费姆将作为初始英雄加入游戏.\n\n-该特质只适用于克拉肯种族.\n\n- 虫巢领主消耗2个选择."/>
+        <Loc Key="DES_SWIFT_SEALEGS" Value="海洋主宰"/>
+        <Loc Key="DES_SWIFT_SEALEGS_DES" Value="在拥有陆地的地图上, 海洋主宰将为巫师麾下所有能够游泳的单位(包括非实体和奇幻单位)提供+1移动点数. 此外, 在海洋主宰注视下建造或获得的船只将以更高的等级(+3等级)开始它们的水上之旅且建造花费降低20%.\n\n- 海洋主宰消耗2个选择."/>
+        <Loc Key="DES_POWER_PEOPLE" Value="人民的力量"/>
+        <Loc Key="DES_POWER_PEOPLE_DES" Value="你忠实的子民对魔法异常敏感. 凭借着人民的力量, 巫师所属的种族每拥有一个人口则获得+1能量.\n\n- 人民的力量消耗2个选择."/>	
+        <Loc Key="DES_THE_PIRATE" Value="海盗"/>
+        <Loc Key="DES_THE_PIRATE_DES" Value="海盗巫师以征服和袭击为生. 当他们选择夷平敌人的城市时将获得额外的金币, 并根据城市规模获得额外的奖励. 此外, 巫师还可以从袭击中获得一个束缚者单位. 他们会因摧毁城市而获得名望, 同时也会因保留一座城市而失去声望.\n请注意, 当拥有超过6座城镇时, 海盗特质将会在城市中触发海盗叛乱事件!\n\n- 海盗消耗3个选择."/>	
+        <Loc Key="DES_TACTITIAN" Value="战术家"/>
+        <Loc Key="DES_TACTITIAN_DES" Value="作为一名杰出的战术家, 巫师能够很好地规划战斗从而使麾下的所有单位在战斗中的移动点数+1. 此外, 巫师在战斗中能够给部队带来优势, 让他们总是率先开始战斗, 无论是进攻方还是防御方(巫师之塔除外, 依然会率先攻击).\n\n- 战术家消耗2个选择."/>	
+        <Loc Key="DES_ADMIRAL" Value="战舰大师"/>
+        <Loc Key="DES_ADMIRAL_DES" Value="在战舰大师注视下建造或获得的船只将以更高的等级(+3等级)开始它们的水上之旅."/>	
+		<Loc Key="DES_SEA_HUNTER" Value="海洋猎手"/>
+        <Loc Key="DES_SEA_HUNTER_DES" Value="海洋猎手将使巫师在进行水上战斗时获得巨大加成效果. 巫师麾下所有单位+2所有属性(生命值除外)且获得游泳能力.\n\n- 海洋猎手消耗1个选择."/>	
+        <Loc Key="DES_WATER_BOSS_1" Value="海妖之心"/>
+        <Loc Key="DES_WATER_BOSS_1_DES" Value="海妖之心是一个强大且神奇的器官. 拥有它的巫师在进行所有奥术法术的研究时消耗降低25%."/>
+        <Loc Key="DES_WATER_BOSS_2" Value="海妖之眼"/>
+        <Loc Key="DES_WATER_BOSS_2_DES" Value="海妖之眼是一件强大的魔法物品. 它可以使巫师所有奥术法术(附魔物品和打造神器除外)的施法消耗降低25%."/>
+		
+		<!-- RACE --> 
+		<Loc Key="DES_BLUEORCS" Value="天灾" />
+		<Loc Key="DES_BLUEORCS_DES" Value="天灾曾是兽人部族的一部分, 但他们拒绝放弃好战的本性. 这些叛徒们出海烧杀抢掠, 绑架他们的敌人, 成为了两个位面中最可怕的海盗军团之一. 噢, 只可惜这并不是他们所希望的命运. 有一天, 一种黑暗且无情的诅咒让所有的海盗变成了不死之躯! 最终, 天灾成为了: 被生者的贪婪和嫉妒所驱使的幽灵生物. 这样阴暗的心理是如此之深重, 甚至驱使着他们坚持生产大量的食物, 永远也不会消耗殆尽." />
+		<Loc Key="DES_BLUEORCS_PRODUCTION" Value="增长率: 快(基础速率+15人口/回合)\n建筑物限制: 无法修建船坞, 奇幻马厩, 大教堂, 或者大学.\n其他: 使单位(非种族单位除外), 非实体(非种族单位除外)以及恐惧披风(束缚者, 鲁莎卡, 船长, 幽灵船除外)+1{ICON:MeleeIconNormal}近战攻击.\n种族单位: {LINK:UNIT-B_ORC_RUSALKA} 鲁莎卡 {ICON:Rusalka}{END_LINK} {LINK:UNIT-B_ORC_BLACKSPARROW} 船长 {ICON:Blacksparrow}{END_LINK} {LINK:UNIT-B_ORC_SEA_CREATURE} 海怪 {ICON:SeaCreature}{END_LINK} {LINK:UNIT-B_ORC_GHOSTSHIP} 楷模幽灵船 {ICON:Ghostship}{END_LINK}"/>
+        <Loc Key="DES_PIRATE_DUNG" Value="海盗" />
+		<Loc Key="DES_PIRATE_DUNG_DES" Value="这些单位是海洋灾祸的一部分. 众所周知, 海盗们会大量囤积财宝, 并在巢穴中严密地保护它们." />
+		
+		
+		<!-- BUILDINGS -->
+		<Loc Key="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD" Value="诅咒船坞"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD_DES" Value="码头工人们的灵魂充斥着被诅咒的船坞. 它们现在能够建造幽灵船, 甚至能够在陆地上移动."/>
+		<Loc Key="DES_BUILDING_BLUEORCS_RAIDERS_HUT" Value="掠夺者小屋"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_RAIDERS_HUT_DES" Value="掠夺者小屋允许海盗为他们的城市掠夺取之不尽的海洋财富.\n\n效果: 获得+3{ICON:FoodIcon}食物以及+3{ICON:GoldIcon}金币.\n\n需要海岸"/>
+
+		
+		<!-- UNITS -->
+		<Loc Key="DES_BLUEORCS_SETTLER_SETTLERS" Value="天灾殖民者"/>
+		<Loc Key="DES_BLUEORCS_TRIREME" Value="幽魂战舰"/>
+		<Loc Key="DES_BLUEORCS_TRIREME_DES" Value="这艘无形的幽灵船允许被诅咒的海盗突袭陆地和海洋."/>
+		<Loc Key="DES_BLUEORCS_SWORDSMEN" Value="天灾海盗剑客"/>
+		<Loc Key="DES_BLUEORCS_CAVALRY" Value="天灾骑兵"/>
+		<Loc Key="DES_BLUEORCS_BOWMEN" Value="天灾弓箭手"/>
+		<Loc Key="DES_BLUEORCS_SHAMANS" Value="天灾萨满祭司"/>
+		<Loc Key="DES_BLUEORCS_RUSALKA" Value="鲁莎卡"/>
+		<Loc Key="DES_BLUEORCS_RUSALKA_DES" Value="鲁莎卡是一名神奇的水之仙子, 被幽灵海盗俘获并被迫永远为它们舞蹈. 她是一位强大的施法者, 可以让战场变得眼花缭乱."/>
+		<Loc Key="DES_BLUEORCS_SEA_CREATURE" Value="海怪"/>
+		<Loc Key="DES_BLUEORCS_SEA_CREATURE_DES" Value="海怪是变异的深海巨兽, 凭借着强大的近战攻击和石化凝视为海盗船长效力, 同时还能够召唤鲨鱼旋风."/>
+		<Loc Key="DES_BLUEORCS_BLACK_SPARROW" Value="船长"/>
+		<Loc Key="DES_BLUEORCS_BLACK_SPARROW_DES" Value="有海盗船的地方自然有可怕的船长. 他们被束缚在被诅咒的幽灵形态中, 并在深海的影响下发生变异, 带领着致命的船员进行烧杀抢掠. 船长手握着镣铐, 将无数囚犯束缚在海盗的奴役之下."/>
+		<Loc Key="DES_BLUEORCS_GHOSTSHIP" Value="楷模幽灵船"/>
+		<Loc Key="DES_BLUEORCS_GHOSTSHIP_DES" Value="楷模幽灵船是天灾的诅咒化身. 这艘来自海洋最深处的地狱战舰能够响应其诅咒同胞的召唤, 夺取堕落者的灵魂."/>
+		<Loc Key="DES_BLUEORCS_LEASHED" Value="束缚者"/>
+		<Loc Key="DES_BLUEORCS_LEASHED_DES" Value="束缚者是那些被诅咒海盗抓获并被扭曲成为深海怪物的不幸灵魂. 它们中的许多曾经居住在城市之中, 因此拥有着令人惊讶的技能, 比如工程和侦察."/>
+		<Loc Key="DES_SOR_WATER_ELEMENTAL" Value="鲨鱼旋风"/>
+		<Loc Key="DES_SOR_WATER_ELEMENTAL_DES" Value="鲨鱼旋风是一股来自深海的可怕力量, 被召唤至战场并带来无尽浩劫."/>
+		<Loc Key="DES_TENTACLE" Value="海妖触手"/>
+		<Loc Key="DES_TENTACLE_DES" Value="海妖是传说中的怪兽, 它是如此庞大且险恶, 你只能与它的触手战斗, 并希望一旦胜利它就会立刻离你而去!"/>
+		
+	    <!-- HERO -->
+		<Loc Key="DES_PHYM" Value="研学者费姆"/>
+		<Loc Key="DES_PHYM1" Value="研学者安特曼"/>
+		<Loc Key="DES_PHYM2" Value="研学者朗恩"/>
+		<Loc Key="DES_PHYM3" Value="研学者奥格拉德"/>
+		<Loc Key="DES_PHYM4" Value="研学者扎恩"/>
+		<Loc Key="DES_PHYM_DES" Value="{0}曾是虫巢中的另一位忠诚成员, 努力尽职地为蜂后服务, 并不断寻求更多智慧. 但在实现卓越目标的过程中他成为了一个独特的个体, 这使得他在同类中显得有些格格不入. 在看到这名英雄不断增长的力量和坚定不移的决心之后, 女王允许{0}获得自由. 毕竟, 只有通过这些单位带来的经验, 虫巢才能变得更加强大. 尽管{0}确实更青睐于为他的女王效力, 但也会向任何能够增长他经验的巫师提供服务."/>
+		<Loc Key="DES_SLITHERS" Value="海洋之灾斯利瑟斯"/>
+		<Loc Key="DES_SLITHERS1" Value="海洋之灾史凯尔斯"/>
+		<Loc Key="DES_SLITHERS2" Value="海洋之灾斯利塞"/>
+		<Loc Key="DES_SLITHERS3" Value="海洋之灾塞林"/>
+		<Loc Key="DES_SLITHERS4" Value="海洋之灾歇尔斯"/>
+		<Loc Key="DES_SLITHERS_DES" Value="{0}是一名老练的蜥蜴人战士, 经过专门训练来追捕畏惧海洋的敌人. 她的坐骑被古老的海洋魔法所强化, 让{0}能够带着她的整支军队出海追捕海盗和任何其他胆敢阻挡她的人, 正因为此她获得了海洋之灾的称号. 这名英雄将成为任何她认为有价值或者支付了足够费用的巫师的忠诚雇佣兵."/>
+		<Loc Key="DES_BIG_BERTA" Value="大块头伯塔"/>
+		<Loc Key="DES_BIG_BERTA1" Value="强大的玛莎"/>
+		<Loc Key="DES_BIG_BERTA2" Value="破球者邦妮"/>
+		<Loc Key="DES_BIG_BERTA3" Value="小蒂娜"/>
+		<Loc Key="DES_BIG_BERTA4" Value="褐色的比阿特丽斯"/>
+		<Loc Key="DES_BIG_BERTA_DES" Value="{0}一直是一名身材魁梧的女兽人, 拥有强壮的手臂, 长得如同炮弹一般. {0}将天灾的诅咒视为是一种恩赐, 因为它能够带来更强大的力量. {0}过去给许多船员留下了深刻的印象, 并多次为她赢得了船长的称号. 但如今, 这位擅长航海的火炮手作为雇佣兵外出寻找新的挑战和乐趣. 她会为任何提供丰厚报酬且让事情变得有趣的巫师服务."/>
+		<Loc Key="DES_WUSP" Value="乌斯普"/>
+		<Loc Key="DES_WUSP_DES" Value="乌斯普是伟大的克拉肯虫巢凶猛而忠诚的奴仆. 她永远也称不上是一名英雄, 但她确实试图追捕费姆并决心为他带去虫巢的正义审判!"/>
+		
+		<!-- ENCHANTMENTS --> 
+		<Loc Key="DES_POWER_PEOPLE_ENCH_DES" Value="多亏了人民的力量, 城市每点人口将产生+1能量."/>
+        <Loc Key="DES_TACTITIAN_ENCH_DES" Value="在战术家的注视下, 单位在战斗中获得+1移动点数."/>	
+        <Loc Key="DES_WATER_SPEED" Value="水之速"/>	
+        <Loc Key="DES_WATER_SPEED_DES" Value="在陆地地图上, 水之速将使拥有游泳技能的单位获得+1移动点数."/>	
+        <Loc Key="DES_ADMIRAL_ENCH_DES" Value="海洋主宰麾下的所有舰船等级+3."/>
+        <Loc Key="DES_WATER_SPEED_ENCH_DES" Value="在陆地地图上, 海洋主宰将使拥有游泳技能的单位获得+1移动点数."/>	
+		<Loc Key="DES_AMBUSH" Value="战术伏击"/>
+        <Loc Key="DES_AMBUSH_ENCH_DES" Value="战术家将使部队在作战时率先进攻."/>	
+        <Loc Key="DES_SHALLOW_WATER" Value="浅水滩"/>	
+        <Loc Key="DES_SHALLOW_WATER_DES" Value="该战场位于浅水滩中, 因此所有无法游泳或飞行的单位都可以在水上行走且能够在战斗中移动."/>	
+        <Loc Key="DES_SEA_HUNTER_ENCH_DES" Value="海洋猎手麾下的所有单位在战斗中所有属性+2(生命值除外)并习得游泳技能."/>
+		<Loc Key="DES_WIND_CAVE_ENCH" Value="死亡之风"/>
+		<Loc Key="DES_WIND_CAVE_ENCH_DES" Value="死亡之风带着被诅咒的海洋寒流而来, 导致洞穴顶部不断掉落岩石. 每回合岩石有5%的几率对单位造成相当于当前生命值50%的伤害, 向上取整(每回合最多影响2个单位). 狂风是如此地猛烈, 所有类型的远程攻击-10%{ICON:ToHitBonusIcon}命中, 且所有单位都无法飞行{ICON:MovementFlyingIcon}."/>	
+		<Loc Key="DES_PIRATE_CURSE_ENCH" Value="海盗诅咒"/>
+		<Loc Key="DES_PIRATE_CURSE_ENCH_DES" Value="海盗的诅咒笼罩着战场. 进攻方所有单位-1{ICON:ResistanceIconNormal}抗性以及-1移动点数. 诅咒还将使战斗仅持续20回合!"/>	
+		<Loc Key="DES_IMMOVABLE_OBJECTS" Value="不动之地"/>
+		<Loc Key="DES_IMMOVABLE_OBJECTS_DES" Value="地图上的某些目标被古老的魔法萦绕, 既无法穿过, 也无法被包括魔法在内的任何东西影响."/>	
+		<Loc Key="DES_MASS_WATER_WALKING_UNIT" Value="乘风破浪"/>
+		<Loc Key="DES_MASS_WATER_WALKING_UNIT_DES" Value="该单位被拥有踏浪者技能的单位所携带, 乘风破浪. 只要他们叠加在一起, 就都能获得游泳技能."/>
+		<Loc Key="DES_KLACKON_SUPREMACY_ENCH" Value="虫巢领主"/>
+		<Loc Key="DES_KLACKON_SUPREMACY_ENCH_DES" Value="战斗中每有一个友方克拉肯单位, 巫师获得+5施法技能."/>
+		
+		<!-- SKILLS --> 
+		<Loc Key="DES_GHOSTSHIP_TERROR" Value="幽灵惊骇"/>
+		<Loc Key="DES_GHOSTSHIP_TERROR_DES" Value="幽灵惊骇迫使所有敌方单位在战斗中进行抵抗(+1抗性{ICON:ResistanceIconNormal})否则将会被恐惧, 回合内无法进行任何动作."/>
+		<Loc Key="DES_MUD_ATTACK" Value="泥泞魅惑"/>
+		<Loc Key="DES_MUD_ATTACK_DES" Value="被魅惑的单位感觉自己应该跳舞, 而不是战斗. 事实上, 若单位无法抵抗{ICON:ResistanceIconNormal}攻击(近战/远程), 则其脚下的土地将变得泥泞不堪且1回合内失去1点移动点数(额外攻击若同样未能抵抗则会增加效果的持续时间)."/>
+        <Loc Key="DES_MUD_DES" Value="该单位被泥土所魅惑, 感觉自己应该跳舞, 而不是战斗. 每当无法进行抵抗{ICON:ResistanceIconNormal}, 他们将在1回合内失去1点移动点数(额外攻击若同样未能抵抗则会增加效果的持续时间)."/>		
+		<Loc Key="DES_MASS_WATER_WALKING" Value="踏浪者"/>
+        <Loc Key="DES_MASS_WATER_WALKING_DES" Value="该单位通过踏浪者技能能够在水面移动. 该单位及所有与之叠加在一起的单位都将获得游泳技能."/>		
+        <Loc Key="DES_MASS_WATER_WALKING_SKILL_DES" Value="踏浪者能够轻松在水面移动并携带他人. 该单位及所有与之叠加在一起的单位都将获得游泳技能."/>
+		<Loc Key="DES_HIVEMIND" Value="虫巢意志"/>
+		<Loc Key="DES_HIVEMIND_DES" Value="英雄与克拉肯虫巢意志连接在一起. 因此, 每叠加一个克拉肯单位都将获得加成效果."/>
+		<Loc Key="DES_SHACKLE_MASTER" Value="枷锁领主"/>
+		<Loc Key="DES_SHACKLE_MASTER_DES" Value="枷锁领主掌控着被俘虏的部队. 俘虏, 海怪, 鲁莎卡和束缚者获得+10%{ICON:ToHitBonusIcon}命中加成."/>
+		<Loc Key="DES_SHACKLED" Value="俘虏"/>
+		<Loc Key="DES_SHACKLED_DES" Value="枷锁领主掌控着被俘虏的部队. 该单位是俘虏之一, 并将获得+10%{ICON:ToHitBonusIcon}命中加成."/>
+		
+		<!-- RES --> 
+		<Loc Key="DES_RES_FISH" Value="鱼获"/>
+		<Loc Key="DES_RES_FISH_DES" Value="提供+2{ICON:FoodIcon}食物并使单位的生产花费降低10%.\n无法通过法术进行转化, 但可以通过海洋收获以获得资源."/>
+		<Loc Key="DES_RES_PEARLS" Value="海洋珍珠"/>
+		<Loc Key="DES_RES_PEARLS_DES" Value="为附近城镇提供+3{ICON:PowerIcon}能量和+3{ICON:GoldIcon}金币.\n无法通过法术进行转化, 但可以通过海洋收获以获得资源."/>
+		<Loc Key="DES_RES_REEF" Value="礁石"/>
+		<Loc Key="DES_RES_REEF_DES" Value="为附近城镇提供+2({ICON:GoldIcon})金币并使建筑物的生产消耗降低20%.\n无法通过法术进行转化, 但可以通过海洋收获以获得资源."/>
+				
+		<!-- SPELLS ADN ENCH -->
+		<Loc Key="DES_WATER_ELEMENTAL" Value="鲨鱼旋风"/>
+		<Loc Key="DES_WATER_ELEMENTAL_DES" Value="召唤一股来自深海的可怕力量, 鲨鱼旋风, 为战场带来无尽浩劫."/>
+		<Loc Key="DES_BARRAGE" Value="弹幕射击"/>
+		<Loc Key="DES_BARRAGE_DES" Value="该单位向敌人射出致命的弹幕. 战斗中所有敌方单位将受到5点强度的魔法火焰攻击."/>
+		<Loc Key="DES_CONSTANTSTORM" Value="无尽风暴"/>
+		<Loc Key="DES_CONSTANTSTORM_DES" Value="无尽风暴在战场上肆虐. 每回合随机选择一个进攻方单位使其遭受10点强度的闪电攻击."/>
+		<Loc Key="DES_SEA_HARVEST" Value="海洋收获"/>
+		<Loc Key="DES_SEA_HARVEST_DES" Value="海洋收获转化一种海洋资源以提供+10{ICON:CastingSkillIcon}施法技能进度, + 0-50 {ICON:ManaIcon}法力以及+ 50-100 {ICON:GoldIcon}金币. \n注意: 收获的资源将被摧毁且如果资源位于敌方城市范围内则转化成功几率只有20%."/>
+		<Loc Key="DES_SEA_HARVEST_TARGET" Value="目标水域必须拥有鱼获, 海洋珍珠或礁石资源."/>
+		<Loc Key="DES_SHIP_DISCOUNT" Value="海洋主宰"/>
+		<Loc Key="DES_SHIP_DISCOUNT_DES" Value="作为一名海洋主宰, 巫师能够激励伟大的工匠和造船大师, 使城镇建造船只的消耗降低20%."/>
+		<Loc Key="DES_HIVEMIND_UNIT" Value="虫巢连接"/>
+		<Loc Key="DES_HIVEMIND_UNIT_DES" Value="该单位与虫巢连接, 获得+10%防御几率."/>
+
+		<!--LAIRS -->
+		<Loc Key="DES_WIND_CAVE" Value="狂风洞穴"/>
+		<Loc Key="DES_REEF_TREASURE_ISLAND" Value="金银岛"/>
+		<Loc Key="DES_WATER_BOSS_LAIR_1" Value="海妖巢穴"/>
+		<Loc Key="DES_WATER_BOSS_LAIR_2" Value="海妖巢穴"/>
+		
+		 <!--LAIR UNITS -->
+        <Loc Key="DES_PIR_GIANT_SPIDERS" Value="海盗蜘蛛" />
+		<Loc Key="DES_PIR_GIANT_SPIDERS_DES" Value="被海盗征服的自然领域八足防御者. 蜘蛛凭借剧毒撕咬和织网法术来施展快速的近战{ICON:MeleeIconNormal}攻击. 其的弱点在于防御能力差, 所以最好尝试优先攻击它们." />
+		<Loc Key="DES_PIR_PHANTOM_WARRIORS" Value="海盗幻影" />
+		<Loc Key="DES_PIR_PHANTOM_WARRIORS_DES" Value="由海盗召唤的幻影战士是基础近战{ICON:MeleeIconNormal}单位, 能够以一种无视防御的诡异幻象之力攻击敌人."/>
+		<Loc Key="DES_PIR_NAGAS" Value="海盗娜迦" />
+		<Loc Key="DES_PIR_NAGAS_DES" Value="由海盗指挥的娜迦长着剧毒触须, 能够协助其迅速的近战{ICON:MeleeIconNormal}攻击." />
+		<Loc Key="DES_PIR_ZOMBIES" Value="海盗僵尸" />
+		<Loc Key="DES_PIR_ZOMBIES_DES" Value="僵尸们选择为海盗效力. 这些亡灵恶魔尽管近战{ICON:MeleeIconNormal}能力薄弱, 但可以充当非常优秀的肉盾." />
+		<Loc Key="DES_PIR_WRAITHS" Value="海盗幽灵" />
+		<Loc Key="DES_PIR_WRAITHS_DES" Value="这些被海盗召唤并被奴役的幽灵是非实体近战{ICON:MeleeIconNormal}战士, 能够窃取生命并召唤亡灵仆从." />
+	</LOCALIZATION-DLC3_CN>
+</DB_LOCALIZATION>

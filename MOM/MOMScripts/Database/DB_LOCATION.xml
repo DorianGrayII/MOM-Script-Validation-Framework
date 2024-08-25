@@ -1,0 +1,373 @@
+﻿<DB_LOCATION>
+
+	<!-- Nodes -->
+	<MAGIC_NODE-CHAOS NodeType="Chaos" >
+		<DescriptionInfo Name="DES_CHAOS_NODE" Description="DES_PLACEHOLDER_DES" Graphic="ChaosNode"/>
+		<PowerRange MinimumCount="5" MaximumCount="10"/>
+		<CustomTerrainType VALUE="TERRAIN-MAGIC_VOLCANO" />
+		<GuardianCreationScript VALUE="DEF_ChaosDefenders" />
+		<RampagingScript VALUE="RAM_Chaos" />
+		<UnitBonus VALUE="ENCH-MAGIC_NODE_CHAOS_COUNTER_MAGIC" />
+		<UnitBonus VALUE="ENCH-MAGIC_NODE_CHAOS_UNITS" />
+		<LocationType VALUE="Node"/>
+		<LocationEvent Module="3 Map locations" Adventure="10"/>
+	</MAGIC_NODE-CHAOS>
+	<MAGIC_NODE-NATURE NodeType="Nature" >
+		<DescriptionInfo Name="DES_NATURE_NODE" Description="DES_PLACEHOLDER_DES" Graphic="NatureNode"/>
+		<PowerRange MinimumCount="5" MaximumCount="10"/>
+		<CustomTerrainType VALUE="TERRAIN-MAGIC_FOREST" />
+		<GuardianCreationScript VALUE="DEF_NatureDefenders" />
+		<RampagingScript VALUE="RAM_Nature" />
+		<UnitBonus VALUE="ENCH-MAGIC_NODE_NATURE_COUNTER_MAGIC" />
+		<UnitBonus VALUE="ENCH-MAGIC_NODE_NATURE_UNITS" />
+		<LocationType VALUE="Node"/>
+		<LocationEvent Module="3 Map locations" Adventure="6"/>
+	</MAGIC_NODE-NATURE>
+	<MAGIC_NODE-SORCERY NodeType="Sorcery" >
+		<DescriptionInfo Name="DES_SORCERY_NODE" Description="DES_PLACEHOLDER_DES" Graphic="SorceryNode1"/>
+		<PowerRange MinimumCount="5" MaximumCount="10"/>
+		<CustomTerrainType VALUE="TERRAIN-MAGIC_GRASS_LAND" />
+		<GuardianCreationScript VALUE="DEF_SorceryDefenders" />
+		<RampagingScript VALUE="RAM_Sorcery" />
+		<UnitBonus VALUE="ENCH-MAGIC_NODE_SORCERY_COUNTER_MAGIC" />
+		<UnitBonus VALUE="ENCH-MAGIC_NODE_SORCERY_UNITS" />
+		<LocationType VALUE="Node"/>
+		<LocationEvent Module="3 Map locations" Adventure="9"/>
+	</MAGIC_NODE-SORCERY>
+	
+	<!-- Encounters -->
+	<LOCATION-WEAK_LAIR>
+		<DescriptionInfo Name="DES_LAIR" Description="DES_PLACEHOLDER_DES" Graphic="MonsterLair1"/>
+		<GuardianCreationScript VALUE="DEF_LairDefenders" />
+		<RampagingScript VALUE="RAM_Lair" />
+		<LocationType VALUE="WeakLair"/>
+		<LocationEvent Module="3 Map locations" Adventure="5"/>
+	</LOCATION-WEAK_LAIR>
+	<LOCATION-LAIR>
+		<DescriptionInfo Name="DES_LAIR" Description="DES_PLACEHOLDER_DES" Graphic="MonsterLair1"/>
+		<GuardianCreationScript VALUE="DEF_LairDefenders" />
+		<RampagingScript VALUE="RAM_Lair" />
+		<LocationType VALUE="Lair"/>
+		<LocationEvent Module="3 Map locations" Adventure="5"/>
+	</LOCATION-LAIR>
+	<LOCATION-STRONG_LAIR>
+		<DescriptionInfo Name="DES_LAIR" Description="DES_PLACEHOLDER_DES" Graphic="MonsterLair2"/>	
+		<GuardianCreationScript VALUE="DEF_LairDefenders" />
+		<RampagingScript VALUE="RAM_Lair" />
+		<LocationType VALUE="StrongLair"/>
+		<LocationEvent Module="3 Map locations" Adventure="5"/>
+	</LOCATION-STRONG_LAIR>
+	<LOCATION-WEAK_CAVE>
+		<DescriptionInfo Name="DES_CAVE" Description="DES_PLACEHOLDER_DES" Graphic="MysteriousCave1"/>
+		<GuardianCreationScript VALUE="DEF_LairDefenders" />
+		<RampagingScript VALUE="RAM_Lair" />
+		<LocationType VALUE="WeakLair"/>
+		<LocationEvent Module="3 Map locations" Adventure="5"/>
+	</LOCATION-WEAK_CAVE>
+	<LOCATION-CAVE>
+		<DescriptionInfo Name="DES_CAVE" Description="DES_PLACEHOLDER_DES" Graphic="MysteriousCave1"/>
+		<GuardianCreationScript VALUE="DEF_LairDefenders" />
+		<RampagingScript VALUE="RAM_Lair" />
+		<LocationType VALUE="Lair"/>
+		<LocationEvent Module="3 Map locations" Adventure="5"/>
+	</LOCATION-CAVE>
+	<LOCATION-STRONG_CAVE>
+		<DescriptionInfo Name="DES_CAVE" Description="DES_PLACEHOLDER_DES" Graphic="MysteriousCave2"/>
+		<GuardianCreationScript VALUE="DEF_LairDefenders" />
+		<RampagingScript VALUE="RAM_Lair" />
+		<LocationType VALUE="StrongLair"/>
+		<LocationEvent Module="3 Map locations" Adventure="5"/>
+	</LOCATION-STRONG_CAVE>
+	<LOCATION-WEAK_KEEP>
+		<DescriptionInfo Name="DES_KEEP" Description="DES_PLACEHOLDER_DES" Graphic="AbandonedKeep1"/>
+		<GuardianCreationScript VALUE="DEF_AbandonKeep" />
+		<RampagingScript VALUE="RAM_AbandonKeep" />
+		<LocationType VALUE="WeakLair"/>
+		<LocationEvent Module="3 Map locations" Adventure="7"/>
+	</LOCATION-WEAK_KEEP>
+	<LOCATION-KEEP>
+		<DescriptionInfo Name="DES_KEEP" Description="DES_PLACEHOLDER_DES" Graphic="AbandonedKeep1"/>
+		<GuardianCreationScript VALUE="DEF_AbandonKeep" />
+		<RampagingScript VALUE="RAM_AbandonKeep" />
+		<LocationType VALUE="Lair"/>
+		<LocationEvent Module="3 Map locations" Adventure="7"/>
+	</LOCATION-KEEP>
+	<LOCATION-STRONG_KEEP>
+		<DescriptionInfo Name="DES_KEEP" Description="DES_PLACEHOLDER_DES" Graphic="AbandonedKeep2"/>
+		<GuardianCreationScript VALUE="DEF_AbandonKeep" />
+		<RampagingScript VALUE="RAM_AbandonKeep" />
+		<LocationType VALUE="StrongLair"/>
+		<LocationEvent Module="3 Map locations" Adventure="7"/>
+	</LOCATION-STRONG_KEEP>
+	<LOCATION-WEAK_ANCIENT_TEMPLE>
+		<DescriptionInfo Name="DES_ANCIENT_TEMPLE" Description="DES_PLACEHOLDER_DES" Graphic="AncientTemple1"/>
+		<GuardianCreationScript VALUE="DEF_Ancient_Temple" />
+		<RampagingScript VALUE="RAM_AncientTemple" />
+		<LocationType VALUE="WeakLair"/>
+		<LocationEvent Module="3 Map locations" Adventure="3"/>
+	</LOCATION-WEAK_ANCIENT_TEMPLE>
+	<LOCATION-ANCIENT_TEMPLE>
+		<DescriptionInfo Name="DES_ANCIENT_TEMPLE" Description="DES_PLACEHOLDER_DES" Graphic="AncientTemple1"/>
+		<GuardianCreationScript VALUE="DEF_Ancient_Temple" />
+		<RampagingScript VALUE="RAM_AncientTemple" />
+		<LocationType VALUE="Lair"/>
+		<LocationEvent Module="3 Map locations" Adventure="3"/>
+	</LOCATION-ANCIENT_TEMPLE>
+	<LOCATION-STRONG_ANCIENT_TEMPLE>
+		<DescriptionInfo Name="DES_ANCIENT_TEMPLE" Description="DES_PLACEHOLDER_DES" Graphic="AncientTemple2"/>
+		<GuardianCreationScript VALUE="DEF_Ancient_Temple" />
+		<RampagingScript VALUE="RAM_AncientTemple" />
+		<LocationType VALUE="StrongLair"/>
+		<LocationEvent Module="3 Map locations" Adventure="3"/>
+	</LOCATION-STRONG_ANCIENT_TEMPLE>
+	<LOCATION-WEAK_FALLEN_TEMPLE>
+		<DescriptionInfo Name="DES_FALLEN_TEMPLE" Description="DES_PLACEHOLDER_DES" Graphic="FallenTemple1"/>
+		<GuardianCreationScript VALUE="DEF_TempleDefenders" />
+		<RampagingScript VALUE="RAM_Temple" />
+		<LocationType VALUE="WeakLair"/>
+		<LocationEvent Module="3 Map locations" Adventure="1"/>
+	</LOCATION-WEAK_FALLEN_TEMPLE>
+	<LOCATION-FALLEN_TEMPLE>
+		<DescriptionInfo Name="DES_FALLEN_TEMPLE" Description="DES_PLACEHOLDER_DES" Graphic="FallenTemple1"/>
+		<GuardianCreationScript VALUE="DEF_TempleDefenders" />
+		<RampagingScript VALUE="RAM_Temple" />
+		<LocationType VALUE="Lair"/>
+		<LocationEvent Module="3 Map locations" Adventure="1"/>
+	</LOCATION-FALLEN_TEMPLE>
+	<LOCATION-STRONG_FALLEN_TEMPLE>
+		<DescriptionInfo Name="DES_FALLEN_TEMPLE" Description="DES_PLACEHOLDER_DES" Graphic="FallenTemple2"/>
+		<GuardianCreationScript VALUE="DEF_TempleDefenders" />
+		<RampagingScript VALUE="RAM_Temple" />
+		<LocationType VALUE="StrongLair"/>
+		<LocationEvent Module="3 Map locations" Adventure="1"/>
+	</LOCATION-STRONG_FALLEN_TEMPLE>
+	<LOCATION-WEAK_DUNGEON>
+		<DescriptionInfo Name="DES_DUNGEON" Description="DES_PLACEHOLDER_DES" Graphic="Dungeon1"/>
+		<GuardianCreationScript VALUE="DEF_LairDefenders" />
+		<RampagingScript VALUE="RAM_Lair" />
+		<LocationType VALUE="WeakLair"/>
+		<LocationEvent Module="3 Map locations" Adventure="11"/>
+	</LOCATION-WEAK_DUNGEON>
+	<LOCATION-DUNGEON>
+		<DescriptionInfo Name="DES_DUNGEON" Description="DES_PLACEHOLDER_DES" Graphic="Dungeon1"/>
+		<GuardianCreationScript VALUE="DEF_LairDefenders" />
+		<RampagingScript VALUE="RAM_Lair" />
+		<LocationType VALUE="Lair"/>
+		<LocationEvent Module="3 Map locations" Adventure="11"/>
+	</LOCATION-DUNGEON>
+	<LOCATION-STRONG_DUNGEON>
+		<DescriptionInfo Name="DES_DUNGEON" Description="DES_PLACEHOLDER_DES" Graphic="Dungeon2"/>
+		<GuardianCreationScript VALUE="DEF_LairDefenders" />
+		<RampagingScript VALUE="RAM_Lair" />
+		<LocationType VALUE="StrongLair"/>
+		<LocationEvent Module="3 Map locations" Adventure="11"/>
+	</LOCATION-STRONG_DUNGEON>
+	<!-- its only used to create ruins from towns-->
+	<LOCATION-RUINS>
+		<DescriptionInfo Name="DES_RUINS" Description="DES_PLACEHOLDER_DES" Graphic="Ruins1"/>
+		<GuardianCreationScript VALUE="DEF_TempleDefenders" />
+		<RampagingScript VALUE="RAM_Temple" />
+		<LocationType VALUE="Ruins"/>
+		<LocationEvent Module="3 Map locations" Adventure="4"/>
+	</LOCATION-RUINS>
+	
+	<!-- Towers -->
+	<LOCATION-NATURE_TOWER>
+		<DescriptionInfo Name="DES_NATURE_TOWER" Description="DES_PLACEHOLDER_DES" Graphic="TowerOfWizardryNature"/>
+		<GuardianCreationScript VALUE="DEF_NatureDefenders" />
+		<RampagingScript VALUE="RAM_Nature" />
+		<LocationType VALUE="PlaneTower"/>
+		<LocationEvent Module="4 Towers" Adventure="1"/>
+	</LOCATION-NATURE_TOWER>
+	<LOCATION-CHAOS_TOWER>
+		<DescriptionInfo Name="DES_CHAOS_TOWER" Description="DES_PLACEHOLDER_DES" Graphic="TowerOfWizardryChaos"/>
+		<GuardianCreationScript VALUE="DEF_ChaosDefenders" />
+		<RampagingScript VALUE="RAM_Chaos" />
+		<LocationType VALUE="PlaneTower"/>
+		<LocationEvent Module="4 Towers" Adventure="5"/>
+	</LOCATION-CHAOS_TOWER>
+	<LOCATION-DEATH_TOWER>
+		<DescriptionInfo Name="DES_DEATH_TOWER" Description="DES_PLACEHOLDER_DES" Graphic="TowerOfWizardryDeath"/>
+		<GuardianCreationScript VALUE="DEF_DeathDefenders" />
+		<RampagingScript VALUE="RAM_Death" />
+		<LocationType VALUE="PlaneTower"/>
+		<LocationEvent Module="4 Towers" Adventure="3"/>
+	</LOCATION-DEATH_TOWER>
+	<LOCATION-SORCERY_TOWER>
+		<DescriptionInfo Name="DES_SORCERY_TOWER" Description="DES_PLACEHOLDER_DES" Graphic="TowerOfWizardrySorcery"/>
+		<GuardianCreationScript VALUE="DEF_SorceryDefenders" />
+		<RampagingScript VALUE="RAM_Sorcery" />
+		<LocationType VALUE="PlaneTower"/>
+		<LocationEvent Module="4 Towers" Adventure="4"/>
+	</LOCATION-SORCERY_TOWER>
+	<LOCATION-LIFE_TOWER>
+		<DescriptionInfo Name="DES_LIFE_TOWER" Description="DES_PLACEHOLDER_DES" Graphic="TowerOfWizardryLife"/>
+		<GuardianCreationScript VALUE="DEF_LifeDefenders" />
+		<RampagingScript VALUE="RAM_Life" />
+		<LocationType VALUE="PlaneTower"/>
+		<LocationEvent Module="4 Towers" Adventure="2"/>
+	</LOCATION-LIFE_TOWER>
+	<LOCATION-SYNERGY_TOWER>
+		<DescriptionInfo Name="DES_SYNERGY_TOWER" Description="DES_PLACEHOLDER_DES" Graphic="TowerOfWizardrySynergy"/>
+		<GuardianCreationScript VALUE="DEF_SynergyDefenders" />
+		<RampagingScript VALUE="RAM_Synergy" />
+		<LocationType VALUE="PlaneTower"/>
+		<LocationEvent Module="4 Towers" Adventure="6"/>
+	</LOCATION-SYNERGY_TOWER>
+	
+	<LOCATION-BANDIT_LAIR>
+		<DescriptionInfo Name="DES_BANDIT_LAIR" Description="DES_PLACEHOLDER_DES" Graphic="BandirLair"/>	
+		<LocationType VALUE="None"/>
+		<LocationEvent Module="Placeholder" Adventure="1"/>
+	</LOCATION-BANDIT_LAIR>
+	<LOCATION-MONSTER_LAIR_DRAGON>
+		<DescriptionInfo Name="DES_MONSTER_LAIR_DRAGON" Description="DES_PLACEHOLDER_DES" Graphic="MonsterLair4"/>
+		<LocationType VALUE="None"/>
+		<LocationEvent Module="Placeholder" Adventure="1"/>
+	</LOCATION-MONSTER_LAIR_DRAGON>
+	<LOCATION-MONSTER_LAIR_BEAST>
+		<DescriptionInfo Name="DES_LAIR" Description="DES_PLACEHOLDER_DES" Graphic="MonsterLair3"/>	
+		<LocationType VALUE="None"/>
+		<LocationEvent Module="Placeholder" Adventure="1"/>
+	</LOCATION-MONSTER_LAIR_BEAST>
+	<LOCATION-ARENA>
+		<DescriptionInfo Name="DES_ARENA" Description="DES_PLACEHOLDER_DES" Graphic="Arena"/>	
+		<LocationType VALUE="None"/>
+		<LocationEvent Module="Placeholder" Adventure="1"/>
+	</LOCATION-ARENA>
+	<LOCATION-OLD_TEMPLE>
+		<DescriptionInfo Name="DES_OLD_TEMPLE" Description="DES_PLACEHOLDER_DES" Graphic="AncientTemple3"/>	
+		<LocationType VALUE="None"/>
+		<LocationEvent Module="Placeholder" Adventure="1"/>
+	</LOCATION-OLD_TEMPLE>
+	<LOCATION-SECRET_ELF_LANDS>
+		<DescriptionInfo Name="DES_SECRET_ELF_LANDS" Description="DES_PLACEHOLDER_DES" Graphic="SecretElfLands"/>	
+		<LocationType VALUE="None"/>
+		<LocationEvent Module="Placeholder" Adventure="1"/>
+	</LOCATION-SECRET_ELF_LANDS>
+	<LOCATION-HALFLING_BUILDING>
+		<DescriptionInfo Name="DES_HALFLING_BUILDING" Description="DES_PLACEHOLDER_DES" Graphic="HalflingBuilding"/>
+		<LocationType VALUE="None"/>
+		<LocationEvent Module="Placeholder" Adventure="1"/>
+	</LOCATION-HALFLING_BUILDING>
+	<LOCATION-TRIBAL_VILLAGE>
+		<DescriptionInfo Name="DES_TRIBAL_VILLAGE" Description="DES_PLACEHOLDER_DES" Graphic="TribalVillage"/>
+		<LocationType VALUE="None"/>
+		<LocationEvent Module="Placeholder" Adventure="1"/>
+	</LOCATION-TRIBAL_VILLAGE>
+	<LOCATION-KLACKON_HIVE>
+		<DescriptionInfo Name="DES_KLACKON_HIVE" Description="DES_PLACEHOLDER_DES" Graphic="KlackonHive"/>
+		<LocationType VALUE="None"/>
+		<LocationEvent Module="Placeholder" Adventure="1"/>
+	</LOCATION-KLACKON_HIVE>
+	<LOCATION-ORC_CAMP>
+		<DescriptionInfo Name="DES_ORC_CAMP" Description="DES_PLACEHOLDER_DES" Graphic="OrcCamp"/>
+		<LocationType VALUE="None"/>
+		<LocationEvent Module="Placeholder" Adventure="1"/>
+	</LOCATION-ORC_CAMP>
+	<LOCATION-TECH_DUNGEON>
+		<DescriptionInfo Name="DES_TECH_DUNGEON" Description="DES_PLACEHOLDER_DES" Graphic="TechDungeon2"/>
+		<LocationType VALUE="MidGameLair"/>
+		<GuardianCreationScript VALUE="DEF_TechDefenders" />
+		<RampagingScript VALUE="RAM_Tech" />
+		<LocationEvent Module="9 DLC2 Tech Dungeon" Adventure="1"/>
+		<UnitBonus VALUE="ENCH-TECH_DUNGEON_UNITS" />
+	</LOCATION-TECH_DUNGEON>
+
+	<LOCATION-WEAK_WATER_WIND_CAVE Dlc="Dlc3">
+		<DescriptionInfo Name="DES_WIND_CAVE" Description="DES_WIND_CAVE_DES" Graphic="WindCave"/>
+		<LocationType VALUE="WeakWaterLair"/>
+		<GuardianCreationScript VALUE="DEF_CaveWaterLairs" />
+		<RampagingScript VALUE="RAM_CaveWaterLairs" />
+		<UnitBonus VALUE="ENCH-SHALLOW_WATER" />
+		<UnitBonus VALUE="ENCH-WIND_CAVE" />
+		<UnitBonus VALUE="ENCH-IMMOVABLE_OBJECTS" />
+		<CustomBattleMap VALUE="CustomMap_WindCave"/>
+		<LocationEvent Module="DLC3 Water Lairs" Adventure="2"/>
+		<CustomBattleLighting VALUE="0.6"/>
+	</LOCATION-WEAK_WATER_WIND_CAVE>
+	<LOCATION-WATER_WIND_CAVE Dlc="Dlc3">
+		<DescriptionInfo Name="DES_WIND_CAVE" Description="DES_WIND_CAVE_DES" Graphic="WindCave"/>
+		<LocationType VALUE="WaterLair"/>
+		<GuardianCreationScript VALUE="DEF_CaveWaterLairs" />
+		<RampagingScript VALUE="RAM_CaveWaterLairs" />
+		<UnitBonus VALUE="ENCH-SHALLOW_WATER" />
+		<UnitBonus VALUE="ENCH-WIND_CAVE" />
+		<UnitBonus VALUE="ENCH-IMMOVABLE_OBJECTS" />
+		<CustomBattleMap VALUE="CustomMap_WindCave"/>
+		<LocationEvent Module="DLC3 Water Lairs" Adventure="2"/>
+		<CustomBattleLighting VALUE="0.6"/>
+	</LOCATION-WATER_WIND_CAVE>
+	<LOCATION-STRONG_WATER_WIND_CAVE Dlc="Dlc3">
+		<DescriptionInfo Name="DES_WIND_CAVE" Description="DES_WIND_CAVE_DES" Graphic="WindCaveStrong"/>
+		<LocationType VALUE="StrongWaterLair"/>
+		<GuardianCreationScript VALUE="DEF_CaveWaterLairs" />
+		<RampagingScript VALUE="RAM_CaveWaterLairs" />
+		<UnitBonus VALUE="ENCH-SHALLOW_WATER" />
+		<UnitBonus VALUE="ENCH-WIND_CAVE" />
+		<UnitBonus VALUE="ENCH-IMMOVABLE_OBJECTS" />
+		<CustomBattleMap VALUE="CustomMap_WindCave"/>
+		<LocationEvent Module="DLC3 Water Lairs" Adventure="2"/>
+		<CustomBattleLighting VALUE="0.6"/>
+	</LOCATION-STRONG_WATER_WIND_CAVE>
+	<LOCATION-WEAK_WATER_REEF_TREASURE_ISLAND Dlc="Dlc3">
+		<DescriptionInfo Name="DES_REEF_TREASURE_ISLAND" Description="DES_REEF_TREASURE_ISLAND_DES" Graphic="ReefTreasureIsland"/>
+		<LocationType VALUE="WeakWaterLair"/>
+		<GuardianCreationScript VALUE="DEF_ReefWaterLairs" />
+		<RampagingScript VALUE="RAM_ReefWaterLairs" />
+		<UnitBonus VALUE="ENCH-SHALLOW_WATER" />
+		<UnitBonus VALUE="ENCH-PIRATE_CURSE" />
+		<UnitBonus VALUE="ENCH-IMMOVABLE_OBJECTS" />
+		<GuardianCreationScript VALUE="DEF_SorceryDefenders" />
+		<LocationEvent Module="DLC3 Water Lairs" Adventure="1"/>
+		<CustomBattleMap VALUE="CustomMap_ReefTreasureIsland"/>
+	</LOCATION-WEAK_WATER_REEF_TREASURE_ISLAND>
+	<LOCATION-WATER_REEF_TREASURE_ISLAND Dlc="Dlc3">
+		<DescriptionInfo Name="DES_REEF_TREASURE_ISLAND" Description="DES_REEF_TREASURE_ISLAND_DES" Graphic="ReefTreasureIsland"/>
+		<LocationType VALUE="WaterLair"/>
+		<GuardianCreationScript VALUE="DEF_ReefWaterLairs" />
+		<RampagingScript VALUE="RAM_ReefWaterLairs" />
+		<UnitBonus VALUE="ENCH-SHALLOW_WATER" />
+		<UnitBonus VALUE="ENCH-PIRATE_CURSE" />
+		<UnitBonus VALUE="ENCH-IMMOVABLE_OBJECTS" />
+		<GuardianCreationScript VALUE="DEF_SorceryDefenders" />
+		<LocationEvent Module="DLC3 Water Lairs" Adventure="1"/>
+		<CustomBattleMap VALUE="CustomMap_ReefTreasureIsland"/>	
+	</LOCATION-WATER_REEF_TREASURE_ISLAND>
+	<LOCATION-STRONG_WATER_REEF_TREASURE_ISLAND Dlc="Dlc3">
+		<DescriptionInfo Name="DES_REEF_TREASURE_ISLAND" Description="DES_REEF_TREASURE_ISLAND_DES" Graphic="ReefTreasureIslandStrong"/>
+		<LocationType VALUE="StrongWaterLair"/>
+		<GuardianCreationScript VALUE="DEF_ReefWaterLairs" />
+		<RampagingScript VALUE="RAM_ReefWaterLairs" />
+		<UnitBonus VALUE="ENCH-SHALLOW_WATER" />
+		<UnitBonus VALUE="ENCH-PIRATE_CURSE" />
+		<UnitBonus VALUE="ENCH-IMMOVABLE_OBJECTS" />
+		<GuardianCreationScript VALUE="DEF_SorceryDefenders" />
+		<LocationEvent Module="DLC3 Water Lairs" Adventure="1"/>
+		<CustomBattleMap VALUE="CustomMap_ReefTreasureIsland"/>
+	</LOCATION-STRONG_WATER_REEF_TREASURE_ISLAND>
+	
+	<LOCATION-WATER_BOSS_LAIR_1 Dlc="Dlc3">
+		<DescriptionInfo Name="DES_WATER_BOSS_LAIR_1" Description="DES_WATER_BOSS_LAIR_1_DES" Graphic="BossLair"/>
+		<LocationType VALUE="BossLair"/>
+		<GuardianCreationScript VALUE="DEF_WaterLairs" />
+		<RampagingScript VALUE="RAM_WaterLairs" />
+		<CustomBattleMap VALUE="CustomMap_BossLair"/>
+		<LocationEvent Module="DLC3 Water Lairs" Adventure="3"/>
+		<UnitBonus VALUE="ENCH-SHALLOW_WATER" />
+		<UnitBonus VALUE="ENCH-CONSTANT_STORM" />
+		<UnitBonus VALUE="ENCH-IMMOVABLE_OBJECTS" />
+	</LOCATION-WATER_BOSS_LAIR_1>
+	<LOCATION-WATER_BOSS_LAIR_2 Dlc="Dlc3">
+		<DescriptionInfo Name="DES_WATER_BOSS_LAIR_2" Description="DES_WATER_BOSS_LAIR_2_DES" Graphic="BossLair"/>
+		<LocationType VALUE="BossLair"/>
+		<GuardianCreationScript VALUE="DEF_WaterLairs" />
+		<RampagingScript VALUE="RAM_WaterLairs" />
+		<CustomBattleMap VALUE="CustomMap_BossLair"/>
+		<LocationEvent Module="DLC3 Water Lairs" Adventure="4"/>
+		<UnitBonus VALUE="ENCH-SHALLOW_WATER" />
+		<UnitBonus VALUE="ENCH-CONSTANT_STORM" />
+		<UnitBonus VALUE="ENCH-IMMOVABLE_OBJECTS" />
+	</LOCATION-WATER_BOSS_LAIR_2>
+
+</DB_LOCATION>

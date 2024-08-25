@@ -1,0 +1,1670 @@
+﻿<DB_TERRAIN>
+
+    <TERRAIN-SEA TerrainType="Sea" MovementCost="1" RoadCost="-1">
+        <DescriptionInfo Name="DES_SEA" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Water/ArcanusShore.png"
+            Height="Water/FlatDeep1_H.png"
+            Mixer="Mixers/Mixer_03.png"
+            Normal="Water/ArcanusShoreNormal.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.5" />
+        <GoldProduction VALUE="0" />
+        <MinimapColor VALUE="4e524b" />
+    </TERRAIN-SEA>
+<!--
+    Grassland has a default foodProd=1.5 (which will be the baseline)
+
+    Accordingly, the following new values have been assigned
+    TERRAIN-GRASS_LAND  = 1.3 => TERRAIN_FOREST3
+    TERRAIN-GRASS_LAND2 = 1.4 => TERRAIN_FOREST3
+    TERRAIN-GRASS_LAND3 = 1.5 => TERRAIN_FOREST3
+    TERRAIN-GRASS_LAND4 = 1.5 => TERRAIN_FOREST4
+    TERRAIN-GRASS_LAND5 = 1.6 => TERRAIN_FOREST5
+    TERRAIN-GRASS_LAND6 = 1.7 => TERRAIN_FOREST6
+
+Sorcery Node is supposed to be using foodProd=2.0
+    TERRAIN-MAGIC_GRASS_LAND = 2.0 => TERRAIN_MAGIC_FOREST
+
+-->
+    <TERRAIN-GRASS_LAND TerrainType="GrassLand" MovementCost="1" RoadCost="3">
+        <DescriptionInfo Name="DES_GRASS_LAND" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Grassland1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Grassland1_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="1.3" />
+        <GoldProduction VALUE="0" />
+        <DecorSpawnChance Name="ArcanusBushSet1" Chance="0.11" BillboardingRotation="TRUE" />
+        <DecorSpawnChance Name="ArcanusBushSet2" Chance="0.11" BillboardingRotation="TRUE" />
+        <DecorSpawnChance Name="ArcanusBushSet3" Chance="0.11" BillboardingRotation="TRUE" />
+        <DecorSpawnChance Name="HexFog" Chance="0.12" />
+        <DecorSpawnChance Name="BirdWorld" Chance="0.07" />
+        <DecorSpawnChance Name="HexFlower1" Chance="0.05" />
+        <DecorSpawnChance Name="HexFlower2" Chance="0.05" />
+        <DecorSpawnChance Name="HexFlower3" Chance="0.05" />
+        <DecorSpawnChance Name="HexGrass2" Chance="0.7" BillboardingRotation="TRUE"/>
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.0125"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.0125"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.005"/>
+        <TransmuteTo VALUE="TERRAIN-FOREST3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_TREES1"/>
+        <MinimapColor VALUE="918c69" />
+    </TERRAIN-GRASS_LAND>
+    <TERRAIN-GRASS_LAND2 MovementCost="1" TerrainType="GrassLand">
+        <DescriptionInfo Name="DES_GRASS_LAND2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Grassland2_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Grassland2_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="1.4" />
+        <GoldProduction VALUE="0" />
+        <DecorSpawnChance Name="ArcanusBushSet2" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="ArcanusBushSet3" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="ArcanusBushSet1" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="HexFog" Chance="0.12" />
+        <DecorSpawnChance Name="BirdWorld" Chance="0.07" />
+        <DecorSpawnChance Name="HexFlower1" Chance="0.05" />
+        <DecorSpawnChance Name="HexFlower2" Chance="0.05" />
+        <DecorSpawnChance Name="HexFlower3" Chance="0.05" />
+        <DecorSpawnChance Name="HexGrass1" Chance="0.7" BillboardingRotation="TRUE"/>
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.0125"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.0125"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.005"/>
+        <TransmuteTo VALUE="TERRAIN-FOREST3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_TREES2"/>
+        <MinimapColor VALUE="918c69" />
+    </TERRAIN-GRASS_LAND2>
+    <TERRAIN-GRASS_LAND3 MovementCost="1" TerrainType="GrassLand">
+        <DescriptionInfo Name="DES_GRASS_LAND3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Grassland3_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Grassland3_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="1.5" />
+        <GoldProduction VALUE="0" />
+        <DecorSpawnChance Name="ArcanusBushSet3" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="ArcanusBushSet1" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="ArcanusBushSet2" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="HexFog" Chance="0.12" />
+        <DecorSpawnChance Name="HexFlower1" Chance="0.05" />
+        <DecorSpawnChance Name="HexFlower2" Chance="0.05" />
+        <DecorSpawnChance Name="HexFlower3" Chance="0.05" />
+        <DecorSpawnChance Name="HexGrass2" Chance="0.7" BillboardingRotation="TRUE"/>
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.0125"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.0125"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.005"/>
+        <TransmuteTo VALUE="TERRAIN-FOREST3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_STONES1"/>
+        <MinimapColor VALUE="918c69" />
+    </TERRAIN-GRASS_LAND3>
+    <TERRAIN-GRASS_LAND4 MovementCost="1" TerrainType="GrassLand">
+        <DescriptionInfo Name="DES_GRASS_LAND4" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Grassland4_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Grassland4_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="1.5" />
+        <GoldProduction VALUE="0" />
+        <DecorSpawnChance Name="ArcanusBushSet1" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="ArcanusBushSet2" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="ArcanusBushSet3" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="HexFog" Chance="0.12" />
+        <DecorSpawnChance Name="HexFlower1" Chance="0.05" />
+        <DecorSpawnChance Name="HexFlower2" Chance="0.05" />
+        <DecorSpawnChance Name="HexFlower3" Chance="0.05" />
+        <DecorSpawnChance Name="HexGrass3" Chance="0.7" BillboardingRotation="TRUE"/>
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.0125"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.0125"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.005"/>
+        <TransmuteTo VALUE="TERRAIN-FOREST4"/>
+        <MinimapColor VALUE="918c69" />
+    </TERRAIN-GRASS_LAND4>
+    <TERRAIN-GRASS_LAND5 MovementCost="1" TerrainType="GrassLand">
+        <DescriptionInfo Name="DES_GRASS_LAND5" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Grassland5_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Grassland5_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="1.6" />
+        <GoldProduction VALUE="0" />
+        <DecorSpawnChance Name="ArcanusBushSet2" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="ArcanusBushSet3" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="ArcanusBushSet1" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="HexFog" Chance="0.12" />
+        <DecorSpawnChance Name="HexFlower1" Chance="0.05" />
+        <DecorSpawnChance Name="HexFlower2" Chance="0.05" />
+        <DecorSpawnChance Name="HexFlower3" Chance="0.05" />
+        <DecorSpawnChance Name="HexGrass3" Chance="0.7" BillboardingRotation="TRUE"/>
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.0125"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.0125"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.005"/>
+        <TransmuteTo VALUE="TERRAIN-FOREST5"/>
+        <MinimapColor VALUE="918c69" />
+    </TERRAIN-GRASS_LAND5>
+    <TERRAIN-GRASS_LAND6 MovementCost="1" TerrainType="GrassLand">
+        <DescriptionInfo Name="DES_GRASS_LAND6" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Grassland6_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Grassland6_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="1.7" />
+        <GoldProduction VALUE="0" />
+        <DecorSpawnChance Name="ArcanusBushSet3" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="ArcanusBushSet1" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="ArcanusBushSet2" Chance="0.11" BillboardingRotation="TRUE"/>
+        <DecorSpawnChance Name="HexFog" Chance="0.12" />
+        <DecorSpawnChance Name="HexFlower1" Chance="0.05" />
+        <DecorSpawnChance Name="HexFlower2" Chance="0.05" />
+        <DecorSpawnChance Name="HexFlower3" Chance="0.05" />
+        <DecorSpawnChance Name="HexGrass1" Chance="0.7" BillboardingRotation="TRUE" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.0125"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.0125"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.005"/>
+        <TransmuteTo VALUE="TERRAIN-FOREST6"/>
+        <MinimapColor VALUE="918c69" />
+    </TERRAIN-GRASS_LAND6>
+
+    <TERRAIN-MAGIC_GRASS_LAND MovementCost="1" TerrainType="GrassLand">
+        <DescriptionInfo Name="DES_MAGIC_GRASS_LAND" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/GrasslandMagic1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Grassland5_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0" />
+    <!-- Note, there is currently an internal bug where this value
+         is being increased to 2.5 -->
+        <FoodProduction VALUE="2.0" />
+        <GoldProduction VALUE="0" />
+        <DecorSpawnChance Name="HexGrass1" Chance="0.4" BillboardingRotation="TRUE" />
+        <DecorSpawnChance Name="HexGrass3" Chance="0.4" BillboardingRotation="TRUE" />
+        <MinimapColor VALUE="19B2FF" />
+        <TransmuteTo VALUE="TERRAIN-MAGIC_FOREST"/>
+    <!-- limits spawn of this terrain during world creation.
+      0   - normal spawn,
+      0.5 - terrain is ignored in 50% cases,
+      1   - terrain does not spawn during world creation -->
+        <SpawnLimitation VALUE="1" />
+    </TERRAIN-MAGIC_GRASS_LAND>
+
+<!--
+    Forest has a default prod=0.03 foodProd=0.5 (which will be the baseline)
+
+    Accordingly, the following new values have been assigned
+      TERRAIN-FOREST  = 0.04, 0.3 => TERRAIN-GRASS_LAND3
+      TERRAIN-FOREST2 = 0.03, 0.4 => TERRAIN-GRASS_LAND3
+      TERRAIN-FOREST3 = 0.03, 0.5 => TERRAIN-GRASS_LAND3
+(new) TERRAIN-FOREST4 = 0.03, 0.5 => TERRAIN-GRASS_LAND4
+(new) TERRAIN-FOREST5 = 0.03, 0.6 => TERRAIN-GRASS_LAND5
+(new) TERRAIN-FOREST6 = 0.02, 0.7 => TERRAIN-GRASS_LAND6
+
+    Nature Node is supposed to be using foodProd = 2.5
+      TERRAIN-MAGIC_FOREST = 0.04, 2.5 (the best of both) => TERRAIN-MAGIC_GRASS_LAND
+-->
+
+    <TERRAIN-FOREST TerrainType="Forest" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_FOREST" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/ForestDry1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Forest1_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.04" />
+        <FoodProduction VALUE="0.3" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-WILD_GAME" Chance="0.06"/>
+        <DecorSpawnChance Name="HexFog" Chance="0.12" />
+        <Foliage VALUE="FOLIAGE_SET-ARCANUS_DRY1"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND3"/>
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-FOREST>
+    <TERRAIN-FOREST2 TerrainType="Forest" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_FOREST2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Forest1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Forest1_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.03" />
+        <FoodProduction VALUE="0.4" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-WILD_GAME" Chance="0.06"/>
+        <DecorSpawnChance Name="HexFog" Chance="0.12" />
+        <Foliage VALUE="FOLIAGE_SET-ARCANUS_DRY1"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND3" />
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-FOREST2>
+    <TERRAIN-FOREST3 TerrainType="Forest" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_FOREST3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Forest1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Forest1_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.03" />
+        <FoodProduction VALUE="0.5" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-WILD_GAME" Chance="0.06"/>
+        <DecorSpawnChance Name="HexFog" Chance="0.12" />
+        <Foliage VALUE="FOLIAGE_SET-ARCANUS_LEAF1"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND3" />
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-FOREST3>
+    <TERRAIN-FOREST4 TerrainType="Forest" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_FOREST4" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Forest1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Forest1_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.03" />
+        <FoodProduction VALUE="0.5" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-WILD_GAME" Chance="0.06"/>
+        <DecorSpawnChance Name="HexFog" Chance="0.12" />
+        <Foliage VALUE="FOLIAGE_SET-ARCANUS_LEAF1"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND4" />
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-FOREST4>
+    <TERRAIN-FOREST5 TerrainType="Forest" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_FOREST5" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Forest1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Forest1_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.03" />
+        <FoodProduction VALUE="0.6" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-WILD_GAME" Chance="0.06"/>
+        <DecorSpawnChance Name="HexFog" Chance="0.12" />
+        <Foliage VALUE="FOLIAGE_SET-ARCANUS_PINE1"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND5" />
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-FOREST5>
+    <TERRAIN-FOREST6 TerrainType="Forest" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_FOREST6" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Forest1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Forest1_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.02" />
+        <FoodProduction VALUE="0.7" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-WILD_GAME" Chance="0.06"/>
+        <DecorSpawnChance Name="HexFog" Chance="0.12" />
+        <Foliage VALUE="FOLIAGE_SET-ARCANUS_PINE1"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND6" />
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-FOREST6>
+
+    <TERRAIN-MAGIC_FOREST TerrainType="Forest" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_MAGIC_FOREST" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Forest1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Forest1_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.04" />
+        <FoodProduction VALUE="2.5" />
+        <GoldProduction VALUE="0" />
+        <Foliage VALUE="FOLIAGE_SET-ARCANUS_PINE1"/>
+        <MinimapColor VALUE="77FF33" />
+        <TransmuteTo VALUE="TERRAIN-MAGIC_GRASS_LAND"/>
+    <!-- limits spawn of this terrain during world creation.
+      0   - normal spawn,
+      0.5 - terrain is ignored in 50% cases,
+      1   - terrain does not spawn during world creation -->
+        <SpawnLimitation VALUE="1" />
+    </TERRAIN-MAGIC_FOREST>
+
+<!--
+    Desert has a default prod=0.03 (which will be the baseline)
+
+    Accordingly, the following new values have been assigned
+    TERRAIN-DESERT  = 0.02 => TERRAIN-GRASS_LAND3
+    TERRAIN-DESERT2 = 0.03 => TERRAIN-GRASS_LAND4
+    TERRAIN-DESERT3 = 0.03 => TERRAIN-GRASS_LAND5
+    TERRAIN-DESERT4 = 0.04 => TERRAIN-GRASS_LAND6
+-->
+    <TERRAIN-DESERT TerrainType="Desert" MovementCost="1" RoadCost="4">
+        <DescriptionInfo Name="DES_DESERT" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Desert1_D.png"
+            Height="Height/Arcanus/Desert1_H.png"
+            Normal="Normal/Arcanus/Desert1_N.png" BlockRotation="TRUE"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.02" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-GEMS" Chance="0.06"/>
+        <ResourcesSpawnChance Resource="RESOURCE-QUORK_CRYSTALS" Chance="0.02"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND3"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_STONES2"/>
+        <Foliage VALUE="FOLIAGE_SET-CACTUS1"/>
+        <Foliage VALUE="FOLIAGE_SET-CACTUS2"/>
+        <MinimapColor VALUE="a29e7f" />
+    </TERRAIN-DESERT>
+    <TERRAIN-DESERT2 TerrainType="Desert" MovementCost="1" RoadCost="4">
+        <DescriptionInfo Name="DES_DESERT2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Desert2_D.png"
+            Height="Height/Arcanus/Desert2_H.png"
+            Normal="Normal/Arcanus/Desert2_N.png" BlockRotation="TRUE"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.03" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-GEMS" Chance="0.06"/>
+        <ResourcesSpawnChance Resource="RESOURCE-QUORK_CRYSTALS" Chance="0.02"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND4"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_FLOWERS1"/>
+        <MinimapColor VALUE="a29e7f" />
+    </TERRAIN-DESERT2>
+    <TERRAIN-DESERT3 TerrainType="Desert" MovementCost="1" RoadCost="4">
+        <DescriptionInfo Name="DES_DESERT3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Desert3_D.png"
+            Height="Height/Arcanus/Desert3_H.png"
+            Normal="Normal/Arcanus/Desert3_N.png" BlockRotation="TRUE"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.03" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-GEMS" Chance="0.06"/>
+        <ResourcesSpawnChance Resource="RESOURCE-QUORK_CRYSTALS" Chance="0.02"/>
+        <Foliage VALUE="FOLIAGE_SET-CACTUS1"/>
+        <Foliage VALUE="FOLIAGE_SET-CACTUS2"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND5" />
+        <MinimapColor VALUE="a29e7f" />
+    </TERRAIN-DESERT3>
+    <TERRAIN-DESERT4 TerrainType="Desert" MovementCost="1" RoadCost="4">
+        <DescriptionInfo Name="DES_DESERT4" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Desert4_D.png"
+            Height="Height/Arcanus/Desert4_H.png"
+            Normal="Normal/Arcanus/Desert4_N.png" BlockRotation="TRUE"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.04" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-GEMS" Chance="0.04"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.02"/>
+        <Foliage VALUE="FOLIAGE_SET-CACTUS1"/>
+        <Foliage VALUE="FOLIAGE_SET-CACTUS2"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND6" />
+        <MinimapColor VALUE="a29e7f" />
+    </TERRAIN-DESERT4>
+
+
+    <TERRAIN-TUNDRA TerrainType="Tundra" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_TUNDRA" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Tundra1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Tundra1_N.png"
+            Specular="Specular/Arcanus/Tundra1_S.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_DEAD_TREES1"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MAMMOTH" Chance="0.1"/>
+        <MinimapColor VALUE="a29e7f" />
+    </TERRAIN-TUNDRA>
+    <TERRAIN-TUNDRA2 TerrainType="Tundra" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_TUNDRA" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Tundra2_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Tundra2_N.png"
+            Specular="Specular/Arcanus/Tundra2_S.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_STONES1"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MAMMOTH" Chance="0.1"/>
+        <MinimapColor VALUE="a29e7f" />
+    </TERRAIN-TUNDRA2>
+    <TERRAIN-TUNDRA3 TerrainType="Tundra" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_TUNDRA" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Tundra3_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Tundra3_N.png"
+            Specular="Specular/Arcanus/Tundra3_S.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_ICE_ROCKS"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MAMMOTH" Chance="0.1"/>
+        <MinimapColor VALUE="a29e7f" />
+    </TERRAIN-TUNDRA3>
+    <TERRAIN-TUNDRA4 TerrainType="Tundra" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_TUNDRA" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Tundra4_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Tundra4_N.png"
+            Specular="Specular/Arcanus/Tundra4_S.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_ICE_ROCKS"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MAMMOTH" Chance="0.1"/>
+        <MinimapColor VALUE="a29e7f" />
+    </TERRAIN-TUNDRA4>
+
+<!--
+    Swamp has a default foodProd=0.5 (which will be the baseline)
+
+    Accordingly, the following new values have been assigned
+    TERRAIN-SWAMP  = 0.3 => TERRAIN-GRASS_LAND3
+    TERRAIN-SWAMP2 = 0.4 => TERRAIN-GRASS_LAND3
+    TERRAIN-SWAMP3 = 0.5 => TERRAIN-GRASS_LAND3
+    TERRAIN-SWAMP4 = 0.5 => TERRAIN-GRASS_LAND4
+    TERRAIN-SWAMP5 = 0.6 => TERRAIN-GRASS_LAND5
+    TERRAIN-SWAMP6 = 0.7 => TERRAIN-GRASS_LAND6
+-->
+
+    <TERRAIN-SWAMP TerrainType="Swamp" MovementCost="3" RoadCost="8">
+        <DescriptionInfo Name="DES_SWAMP" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Swamp1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Swamp1_N.png"
+            Specular="Specular/Arcanus/Swamp1_S.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.3" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-WILD_GAME" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-NIGHTSHADE" Chance="0.03"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_SWAMP_BUSH1"/>
+        <MinimapColor VALUE="918c69" />
+    </TERRAIN-SWAMP>
+    <TERRAIN-SWAMP2 TerrainType="Swamp" MovementCost="3" RoadCost="8">
+        <DescriptionInfo Name="DES_SWAMP2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Swamp2_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Swamp2_N.png"
+            Specular="Specular/Arcanus/Swamp2_S.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.4" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-NIGHTSHADE" Chance="0.06"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_SWAMP_BUSH1"/>
+        <MinimapColor VALUE="918c69" />
+    </TERRAIN-SWAMP2>
+    <TERRAIN-SWAMP3 TerrainType="Swamp" MovementCost="3" RoadCost="8">
+        <DescriptionInfo Name="DES_SWAMP3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Swamp3_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Swamp3_N.png"
+            Specular="Specular/Arcanus/Swamp3_S.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.5" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-NIGHTSHADE" Chance="0.06"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_SWAMP_BUSH1"/>
+        <MinimapColor VALUE="918c69" />
+    </TERRAIN-SWAMP3>
+    <TERRAIN-SWAMP4 TerrainType="Swamp" MovementCost="3" RoadCost="8">
+        <DescriptionInfo Name="DES_SWAMP4" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Swamp4_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Swamp4_N.png"
+            Specular="Specular/Arcanus/Swamp4_S.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.5" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-NIGHTSHADE" Chance="0.06"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND4" />
+        <MinimapColor VALUE="918c69" />
+    </TERRAIN-SWAMP4>
+    <TERRAIN-SWAMP5 TerrainType="Swamp" MovementCost="3" RoadCost="8">
+        <DescriptionInfo Name="DES_SWAMP5" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Swamp5_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Swamp5_N.png"
+            Specular="Specular/Arcanus/Swamp5_S.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.6" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-NIGHTSHADE" Chance="0.06"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND5" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_SWAMP_BUSH1"/>
+        <MinimapColor VALUE="918c69" />
+    </TERRAIN-SWAMP5>
+    <TERRAIN-SWAMP6 TerrainType="Swamp" MovementCost="3" RoadCost="8">
+        <DescriptionInfo Name="DES_SWAMP6" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Swamp6_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Arcanus/Swamp6_N.png"
+            Specular="Specular/Arcanus/Swamp6_S.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.7" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-NIGHTSHADE" Chance="0.06"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND6" />
+        <MinimapColor VALUE="918c69" />
+    </TERRAIN-SWAMP6>
+<!--
+    Hill has a default prod=0.03, foodProd=0.5 (which will be the baseline)
+
+    Accordingly, the following new values have been assigned
+    TERRAIN-HILL1 = 0.04, 0.4 => TERRAIN-GRASS_LAND3
+    TERRAIN-HILL2 = 0.03, 0.5 => TERRAIN-GRASS_LAND4
+    TERRAIN-HILL3 = 0.02, 0.6 => TERRAIN-GRASS_LAND6
+-->
+    <TERRAIN-HILL1 TerrainType="Hill" MovementCost="3" RoadCost="6">
+        <DescriptionInfo Name="DES_HILL" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Hill1_D.png"
+            Height="Height/Arcanus/Hill1_H.png"
+            Normal="Normal/Arcanus/Hill1_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.04" />
+        <FoodProduction VALUE="0.4" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.0133"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.0133"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.033"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND3" />
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-HILL1>
+    <TERRAIN-HILL2 TerrainType="Hill" MovementCost="3" RoadCost="6">
+        <DescriptionInfo Name="DES_HILL2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Hill2_D.png"
+            Height="Height/Arcanus/Hill2_H.png"
+            Normal="Normal/Arcanus/Hill2_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.03" />
+        <FoodProduction VALUE="0.5" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.0133"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.0133"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.033"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND4" />
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-HILL2>
+    <TERRAIN-HILL3 TerrainType="Hill" MovementCost="3" RoadCost="6">
+        <DescriptionInfo Name="DES_HILL3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Hill3_D.png"
+            Height="Height/Arcanus/Hill3_H.png"
+            Normal="Normal/Arcanus/Hill3_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.02" />
+        <FoodProduction VALUE="0.6" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.0133"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.0133"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.033"/>
+        <TransmuteTo VALUE="TERRAIN-GRASS_LAND6" />
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-HILL3>
+
+<!--
+    Mountain has a default prod=0.05 (which will be the baseline)
+
+    Accordingly, the following new values have been assigned
+    TERRAIN-MOUNTAIN1 = 0.04 => TERRAIN-HILL2
+    TERRAIN-MOUNTAIN2 = 0.05 => TERRAIN-HILL2
+    TERRAIN-MOUNTAIN3 = 0.06 => TERRAIN-HILL3
+-->
+    <TERRAIN-MOUNTAIN1 TerrainType="Mountain" MovementCost="4" RoadCost="8">
+        <DescriptionInfo Name="DES_MOUNTAIN" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Mountain1_D.png"
+            Height="Height/Arcanus/Mountain1_H.png"
+            Normal="Normal/Arcanus/Mountain1_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.04" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <DecorSpawnChance Name="BirdWorld" Chance="0.07" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.0133"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.0167"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.03"/>
+        <TransmuteTo VALUE="TERRAIN-HILL2" />
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-MOUNTAIN1>
+    <TERRAIN-MOUNTAIN2 TerrainType="Mountain" MovementCost="4" RoadCost="8">
+        <DescriptionInfo Name="DES_MOUNTAIN2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Mountain2_D.png"
+            Height="Height/Arcanus/Mountain2_H.png"
+            Normal="Normal/Arcanus/Mountain2_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.05" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.0133"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.0167"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.03"/>
+        <TransmuteTo VALUE="TERRAIN-HILL2" />
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-MOUNTAIN2>
+    <TERRAIN-MOUNTAIN3 TerrainType="Mountain" MovementCost="4" RoadCost="8">
+        <DescriptionInfo Name="DES_MOUNTAIN3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Mountain3_D.png"
+            Height="Height/Arcanus/Mountain3_H.png"
+            Normal="Normal/Arcanus/Mountain3_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <Production VALUE="0.06" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.0133"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.0167"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.03"/>
+        <TransmuteTo VALUE="TERRAIN-HILL3" />
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-MOUNTAIN3>
+
+    <TERRAIN-VOLCANO TerrainType="Mountain" MovementCost="4" RoadCost="8">
+        <DescriptionInfo Name="DES_VOLCANO" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Volcano1_D.png"
+            Height="Height/Arcanus/Volcano1_H.png"
+            Normal="Normal/Arcanus/Volcano1_N.png"
+            Mixer="Mixers/Mixer_02.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+        <SpawnLimitation VALUE="0.8" />
+        <Production VALUE="0.05" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <TransmuteTo VALUE="TERRAIN-MOUNTAIN3"/>
+        <DecorSpawnChance Name="VolcanicSmoke1" Chance="1" />
+        <MinimapColor VALUE="85805c" />
+    </TERRAIN-VOLCANO>
+    <TERRAIN-MAGIC_VOLCANO TerrainType="Mountain" MovementCost="4" RoadCost="8">
+        <DescriptionInfo Name="DES_MAGIC_VOLCANO" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Arcanus/Volcano1_D.png"
+            Height="Height/Arcanus/Volcano1_H.png"
+            Normal="Normal/Arcanus/Volcano1_N.png"/>
+        <Plane VALUE="PLANE-ARCANUS" />
+    <!-- limits spawn of this terrain during world creation.
+      0   - normal spawn,
+      0.5 - terrain is ignored in 50% cases,
+      1   - terrain does not spawn during world creation -->
+        <SpawnLimitation VALUE="1" />
+        <Production VALUE="0.05" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <DecorSpawnChance Name="VolcanicSmoke1" Chance="1" />
+        <MinimapColor VALUE="E62600" />
+    </TERRAIN-MAGIC_VOLCANO>
+
+    <TERRAIN-MYR_SEA TerrainType="Sea" MovementCost="1" RoadCost="-1">
+        <DescriptionInfo Name="DES_SEA" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Water/MyrrorShore.png"
+            Height="Water/FlatDeep1_H.png"
+            Mixer="Mixers/Mixer_03.png"
+            Normal="Water/MyrrorShoreNormal.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.5" />
+        <GoldProduction VALUE="0" />
+        <MinimapColor VALUE="475253" />
+    </TERRAIN-MYR_SEA>
+
+<!--
+    Myr Grassland has a default foodProd=1.5 (which will be the baseline)
+
+    Accordingly, the following new values have been assigned
+      TERRAIN-MYR_GRASS_LAND  = 1.3 => TERRAIN_MYR_FOREST2
+      TERRAIN-MYR_GRASS_LAND2 = 1.4 => TERRAIN_MYR_FOREST2
+      TERRAIN-MYR_GRASS_LAND3 = 1.5 => TERRAIN_MYR_FOREST2
+      TERRAIN-MYR_GRASS_LAND4 = 1.5 => TERRAIN_MYR_FOREST3
+      TERRAIN-MYR_GRASS_LAND5 = 1.6 => TERRAIN_MYR_FOREST3
+(new) TERRAIN-MYR_GRASS_LAND6 = 1.7 => TERRAIN_MYR_FOREST3
+
+-->
+    <TERRAIN-MYR_GRASS_LAND TerrainType="GrassLand" MovementCost="1" RoadCost="3">
+        <DescriptionInfo Name="DES_GRASS_LAND" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Grassland1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Grassland1_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="1.3" />
+        <GoldProduction VALUE="0" />
+        <TransmuteTo VALUE="TERRAIN-MYR_FOREST2" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_BONES1"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYR_GRASSLAND1"/>
+        <DecorSpawnChance Name="Coral2A" Chance="0.05" />
+        <DecorSpawnChance Name="Coral2B" Chance="0.05" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.04"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-ADAMANTINE_ORE" Chance="0.01"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_GRASS_LAND>
+    <TERRAIN-MYR_GRASS_LAND2 TerrainType="GrassLand" MovementCost="1" RoadCost="3">
+        <DescriptionInfo Name="DES_GRASS_LAND2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Grassland2_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Grassland2_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="1.4" />
+        <GoldProduction VALUE="0" />
+        <TransmuteTo VALUE="TERRAIN-MYR_FOREST2" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_MUSHROOMS1"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYR_GRASSLAND1"/>
+        <DecorSpawnChance Name="Coral3A" Chance="0.05" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.04"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-ADAMANTINE_ORE" Chance="0.01"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_GRASS_LAND2>
+    <TERRAIN-MYR_GRASS_LAND3 TerrainType="GrassLand" MovementCost="1" RoadCost="3">
+        <DescriptionInfo Name="DES_GRASS_LAND3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Grassland3_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Grassland3_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="1.5" />
+        <GoldProduction VALUE="0" />
+        <TransmuteTo VALUE="TERRAIN-MYR_FOREST2" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_MUSHROOMS2"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYR_GRASSLAND1"/>
+        <DecorSpawnChance Name="Coral2A" Chance="0.05" />
+        <DecorSpawnChance Name="Coral2B" Chance="0.05" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.04"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-ADAMANTINE_ORE" Chance="0.01"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_GRASS_LAND3>
+    <TERRAIN-MYR_GRASS_LAND4 TerrainType="GrassLand" MovementCost="1" RoadCost="3">
+        <DescriptionInfo Name="DES_GRASS_LAND4" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Grassland4_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Grassland4_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="1.5" />
+        <GoldProduction VALUE="0" />
+        <TransmuteTo VALUE="TERRAIN-MYR_FOREST3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_MUSHROOMS3"/>
+        <DecorSpawnChance Name="Coral3A" Chance="0.05" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.04"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-ADAMANTINE_ORE" Chance="0.01"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_GRASS_LAND4>
+    <TERRAIN-MYR_GRASS_LAND5 TerrainType="GrassLand" MovementCost="1" RoadCost="3">
+        <DescriptionInfo Name="DES_GRASS_LAND5" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Grassland5_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Grassland5_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="1.6" />
+        <GoldProduction VALUE="0" />
+        <TransmuteTo VALUE="TERRAIN-MYR_FOREST3" />
+        <DecorSpawnChance Name="Mushrooms1" Chance="0.12" />
+        <DecorSpawnChance Name="Mushrooms2" Chance="0.12" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_PLANTS1"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYR_GRASSLAND2"/>
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.04"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-ADAMANTINE_ORE" Chance="0.01"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_GRASS_LAND5>
+    <TERRAIN-MYR_GRASS_LAND6 TerrainType="GrassLand" MovementCost="1" RoadCost="3">
+        <DescriptionInfo Name="DES_GRASS_LAND6" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Grassland5_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Grassland5_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="1.7" />
+        <GoldProduction VALUE="0" />
+        <TransmuteTo VALUE="TERRAIN-MYR_FOREST3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_PLANTS1"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYR_GRASSLAND2"/>
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.04"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.015"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-ADAMANTINE_ORE" Chance="0.01"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_GRASS_LAND6>
+<!--
+    Myrror Forest has a default prod=0.03 foodProd=0.5 (which will be the baseline)
+
+    Accordingly, the following new values have been assigned
+    TERRAIN-MYR_FOREST  = 0.04, 0.4 => TERRAIN-MYR_GRASS_LAND3
+    TERRAIN-MYR_FOREST2 = 0.03, 0.5 => TERRAIN-MYR_GRASS_LAND5
+    TERRAIN-MYR_FOREST3 = 0.02, 0.6 => TERRAIN-MYR_GRASS_LAND6
+-->
+
+    <TERRAIN-MYR_FOREST TerrainType="Forest" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_FOREST" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Forest1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Forest1_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.04" />
+        <FoodProduction VALUE="0.4" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-WILD_GAME" Chance="0.1"/>
+        <Foliage VALUE="FOLIAGE_SET-MYRROR_PINE1"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYR_GRASSLAND2"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_FOREST>
+    <TERRAIN-MYR_FOREST2 TerrainType="Forest" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_FOREST2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Forest2_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Forest1_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.03" />
+        <FoodProduction VALUE="0.5" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-WILD_GAME" Chance="0.1"/>
+        <Foliage VALUE="FOLIAGE_SET-MYRROR_LEAF1"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND5" />
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_FOREST2>
+    <TERRAIN-MYR_FOREST3 TerrainType="Forest" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_FOREST3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/ForestDry1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Forest1_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.02" />
+        <FoodProduction VALUE="0.6" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-WILD_GAME" Chance="0.1"/>
+        <Foliage VALUE="FOLIAGE_SET-MYRROR_DRY1"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND6" />
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_FOREST3>
+
+<!--
+    Myrror Desert has a default prod=0.03 (which will be the baseline)
+
+    Accordingly, the following new values have been assigned
+    TERRAIN-MYR_DESERT  = 0.02 => TERRAIN-MYR_GRASS_LAND3
+    TERRAIN-MYR_DESERT2 = 0.03 => TERRAIN-MYR_GRASS_LAND4
+    TERRAIN-MYR_DESERT3 = 0.03 => TERRAIN-MYR_GRASS_LAND5
+    TERRAIN-MYR_DESERT4 = 0.04 => TERRAIN-MYR_GRASS_LAND6
+-->
+    <TERRAIN-MYR_DESERT TerrainType="Desert" MovementCost="1" RoadCost="4">
+        <DescriptionInfo Name="DES_DESERT" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Desert1_D.png"
+            Height="Height/Myrror/Desert1_H.png"
+            Normal="Normal/Myrror/Desert1_N.png" BlockRotation="TRUE"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.02" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-GEMS" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-QUORK_CRYSTALS" Chance="0.06"/>
+        <ResourcesSpawnChance Resource="RESOURCE-CRYSX_CRYSTALS" Chance="0.02"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_STONES2"/>
+        <DecorSpawnChance Name="Coral4A" Chance="0.05" />
+        <DecorSpawnChance Name="Coral4B" Chance="0.05" />
+        <MinimapColor VALUE="a2957f" />
+    </TERRAIN-MYR_DESERT>
+    <TERRAIN-MYR_DESERT2 TerrainType="Desert" MovementCost="1" RoadCost="4">
+        <DescriptionInfo Name="DES_DESERT2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Desert2_D.png"
+            Height="Height/Myrror/Desert2_H.png"
+            Normal="Normal/Myrror/Desert2_N.png" BlockRotation="TRUE"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.03" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-GEMS" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-QUORK_CRYSTALS" Chance="0.06"/>
+        <ResourcesSpawnChance Resource="RESOURCE-CRYSX_CRYSTALS" Chance="0.02"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND4" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_DESERT_BUSH1"/>
+        <DecorSpawnChance Name="Coral4A" Chance="0.05" />
+        <DecorSpawnChance Name="Coral4B" Chance="0.05" />
+        <MinimapColor VALUE="a2957f" />
+    </TERRAIN-MYR_DESERT2>
+    <TERRAIN-MYR_DESERT3 TerrainType="Desert" MovementCost="1" RoadCost="4">
+        <DescriptionInfo Name="DES_DESERT3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Desert3_D.png"
+            Height="Height/Myrror/Desert3_H.png"
+            Normal="Normal/Myrror/Desert3_N.png" BlockRotation="TRUE"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.03" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-GEMS" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-QUORK_CRYSTALS" Chance="0.06"/>
+        <ResourcesSpawnChance Resource="RESOURCE-CRYSX_CRYSTALS" Chance="0.02"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND5" />
+        <Foliage VALUE="FOLIAGE_SET-MYR_CORAL1"/>
+        <Foliage VALUE="FOLIAGE_SET-MYR_CORAL2"/>
+        <MinimapColor VALUE="a2957f" />
+    </TERRAIN-MYR_DESERT3>
+    <TERRAIN-MYR_DESERT4 TerrainType="Desert" MovementCost="1" RoadCost="4">
+        <DescriptionInfo Name="DES_DESERT4" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Desert4_D.png"
+            Height="Height/Myrror/Desert4_H.png"
+            Normal="Normal/Myrror/Desert4_N.png" BlockRotation="TRUE"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.04" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-GEMS" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-QUORK_CRYSTALS" Chance="0.06"/>
+        <ResourcesSpawnChance Resource="RESOURCE-CRYSX_CRYSTALS" Chance="0.02"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND6" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_DESERT_BUSH1"/>
+        <MinimapColor VALUE="a2957f" />
+    </TERRAIN-MYR_DESERT4>
+
+
+    <TERRAIN-MYR_TUNDRA TerrainType="Tundra" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_TUNDRA" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast" />
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Tundra1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Tundra1_N.png"
+            Specular="Specular/Myrror/Tundra1_S.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_ICE_ROCKS"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_ROOTS1"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MAMMOTH" Chance="0.1"/>
+        <DecorSpawnChance Name="Coral1A" Chance="0.05" />
+        <DecorSpawnChance Name="Coral1B" Chance="0.05" />
+        <MinimapColor VALUE="a2957f" />
+    </TERRAIN-MYR_TUNDRA>
+    <TERRAIN-MYR_TUNDRA2 TerrainType="Tundra" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_TUNDRA" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast" />
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Tundra2_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Tundra2_N.png"
+            Specular="Specular/Myrror/Tundra2_S.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <DecorSpawnChance Name="Coral1A" Chance="0.05" />
+        <DecorSpawnChance Name="Coral1B" Chance="0.05" />
+        <Foliage VALUE="FOLIAGE_SET-CRYSTAL1"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_ROOTS1"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MAMMOTH" Chance="0.1"/>
+        <MinimapColor VALUE="a2957f" />
+    </TERRAIN-MYR_TUNDRA2>
+    <TERRAIN-MYR_TUNDRA3 TerrainType="Tundra" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_TUNDRA" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast" />
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Tundra3_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Tundra3_N.png"
+            Specular="Specular/Myrror/Tundra3_S.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_TREES3"/>
+        <DecorSpawnChance Name="Coral1A" Chance="0.05" />
+        <DecorSpawnChance Name="Coral1B" Chance="0.05" />
+        <ResourcesSpawnChance Resource="RESOURCE-MAMMOTH" Chance="0.1"/>
+        <MinimapColor VALUE="a2957f" />
+    </TERRAIN-MYR_TUNDRA3>
+    <TERRAIN-MYR_TUNDRA4 TerrainType="Tundra" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_TUNDRA" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast" />
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Tundra4_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Tundra4_N.png"
+            Specular="Specular/Myrror/Tundra4_S.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_ICE_ROCKS"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MAMMOTH" Chance="0.1"/>
+        <MinimapColor VALUE="a2957f" />
+    </TERRAIN-MYR_TUNDRA4>
+    <TERRAIN-MYR_TUNDRA5 TerrainType="Tundra" MovementCost="2" RoadCost="6">
+        <DescriptionInfo Name="DES_TUNDRA" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast" />
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Tundra5_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Tundra5_N.png"
+            Specular="Specular/Myrror/Tundra5_S.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_TREES3"/>
+        <Foliage VALUE="FOLIAGE_SET-CRYSTAL1"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MAMMOTH" Chance="0.1"/>
+        <MinimapColor VALUE="a2957f" />
+    </TERRAIN-MYR_TUNDRA5>
+
+<!--
+    Myrror Swamp has a default foodProd=0.5 (which will be the baseline)
+
+    Accordingly, the following new values have been assigned
+    TERRAIN-MYR_SWAMP  = 0.3 => TERRAIN-MYR_GRASS_LAND3
+    TERRAIN-MYR_SWAMP2 = 0.4 => TERRAIN-MYR_GRASS_LAND3
+    TERRAIN-MYR_SWAMP3 = 0.5 => TERRAIN-MYR_GRASS_LAND3
+    TERRAIN-MYR_SWAMP4 = 0.5 => TERRAIN-MYR_GRASS_LAND4
+    TERRAIN-MYR_SWAMP5 = 0.6 => TERRAIN-MYR_GRASS_LAND5
+    TERRAIN-MYR_SWAMP6 = 0.7 => TERRAIN-MYR_GRASS_LAND6
+
+-->
+    <TERRAIN-MYR_SWAMP TerrainType="Swamp" MovementCost="3" RoadCost="8">
+        <DescriptionInfo Name="DES_SWAMP" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Swamp1_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Swamp1_N.png"
+            Specular="Specular/Myrror/Swamp1_S.png" />
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.3" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-NIGHTSHADE" Chance="0.1"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_ROOTS1"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_PLANTS1"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_SWAMP>
+    <TERRAIN-MYR_SWAMP2 TerrainType="Swamp" MovementCost="3" RoadCost="8">
+        <DescriptionInfo Name="DES_SWAMP2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Swamp2_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Swamp2_N.png"
+            Specular="Specular/Myrror/Swamp2_S.png"
+            Mixer="Mixers/Mixer_06.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.4" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-NIGHTSHADE" Chance="0.1"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_PLANTS2"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_PLANTS1"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_SWAMP2>
+    <TERRAIN-MYR_SWAMP3 TerrainType="Swamp" MovementCost="3" RoadCost="8">
+        <DescriptionInfo Name="DES_SWAMP3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Swamp3_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Swamp3_N.png"
+            Specular="Specular/Myrror/Swamp3_S.png"
+            Mixer="Mixers/Mixer_06.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.5" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-NIGHTSHADE" Chance="0.1"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND3" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_ROOTS1"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_SWAMP3>
+    <TERRAIN-MYR_SWAMP4 TerrainType="Swamp" MovementCost="3" RoadCost="8">
+        <DescriptionInfo Name="DES_SWAMP4" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Swamp4_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Swamp4_N.png"
+            Specular="Specular/Myrror/Swamp4_S.png"
+            Mixer="Mixers/Mixer_06.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.5" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-NIGHTSHADE" Chance="0.1"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND4" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_PLANTS2"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_PLANTS3"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_SWAMP4>
+    <TERRAIN-MYR_SWAMP5 TerrainType="Swamp" MovementCost="3" RoadCost="8">
+        <DescriptionInfo Name="DES_SWAMP5" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Swamp5_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Swamp5_N.png"
+            Specular="Specular/Myrror/Swamp5_S.png"
+            Mixer="Mixers/Mixer_06.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.6" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-NIGHTSHADE" Chance="0.1"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND5" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_PLANTS2"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_PLANTS3"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_ROOTS1"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_SWAMP5>
+    <TERRAIN-MYR_SWAMP6 TerrainType="Swamp" MovementCost="3" RoadCost="8">
+        <DescriptionInfo Name="DES_SWAMP6" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Swamp6_D.png"
+            Height="Height/Flat1_H.png"
+            Normal="Normal/Myrror/Swamp6_N.png"
+            Specular="Specular/Myrror/Swamp6_S.png"
+            Mixer="Mixers/Mixer_06.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0" />
+        <FoodProduction VALUE="0.7" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-NIGHTSHADE" Chance="0.1"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND6" />
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_PLANTS2"/>
+        <Foliage VALUE="FOLIAGE_SET-DECOR_MYRROR_PLANTS3"/>
+        <MinimapColor VALUE="918169" />
+    </TERRAIN-MYR_SWAMP6>
+
+<!--
+    Myrror Hill has a default prod=0.03, foodProd=0.5 (which will be the baseline)
+
+    Accordingly, the following new values have been assigned
+    TERRAIN-MYR_HILL1 = 0.04, 0.4 => TERRAIN-MYR_GRASS_LAND3
+    TERRAIN-MYR_HILL2 = 0.03, 0.5 => TERRAIN-MYR_GRASS_LAND4
+    TERRAIN-MYR_HILL3 = 0.02, 0.6 => TERRAIN-MYR_GRASS_LAND6
+-->
+
+    <TERRAIN-MYR_HILL TerrainType="Hill" MovementCost="3" RoadCost="6">
+        <DescriptionInfo Name="DES_HILL" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Hill1_D.png"
+            Height="Height/Myrror/Hill1_H.png"
+            Normal="Normal/Myrror/Hill1_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.04" />
+        <FoodProduction VALUE="0.4" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.04"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-ADAMANTINE_ORE" Chance="0.01"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND3" />
+        <MinimapColor VALUE="85755c" />
+    </TERRAIN-MYR_HILL>
+    <TERRAIN-MYR_HILL2 TerrainType="Hill" MovementCost="3" RoadCost="6">
+        <DescriptionInfo Name="DES_HILL2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Hill2_D.png"
+            Height="Height/Myrror/Hill2_H.png"
+            Normal="Normal/Myrror/Hill2_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.03" />
+        <FoodProduction VALUE="0.5" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.04"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-ADAMANTINE_ORE" Chance="0.01"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND4" />
+        <MinimapColor VALUE="85755c" />
+    </TERRAIN-MYR_HILL2>
+    <TERRAIN-MYR_HILL3 TerrainType="Hill" MovementCost="3" RoadCost="6">
+        <DescriptionInfo Name="DES_HILL3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Hill3_D.png"
+            Height="Height/Myrror/Hill3_H.png"
+            Normal="Normal/Myrror/Hill3_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.02" />
+        <FoodProduction VALUE="0.6" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.04"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-ADAMANTINE_ORE" Chance="0.01"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_GRASS_LAND6" />
+        <MinimapColor VALUE="85755c" />
+    </TERRAIN-MYR_HILL3>
+<!--
+    Myrror Mountain has a default prod=0.05 (which will be the baseline)
+
+    Accordingly, the following new values have been assigned
+    TERRAIN-MYR_MOUNTAIN  = 0.04 => TERRAIN-MYR_HILL2
+    TERRAIN-MYR_MOUNTAIN2 = 0.05 => TERRAIN-MYR_HILL2
+    TERRAIN-MYR_MOUNTAIN3 = 0.06 => TERRAIN-MYR_HILL3
+-->
+    <TERRAIN-MYR_MOUNTAIN TerrainType="Mountain" MovementCost="4" RoadCost="8">
+        <DescriptionInfo Name="DES_MOUNTAIN" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Mountain1_D.png"
+            Height="Height/Myrror/Mountain1_H.png"
+            Normal="Normal/Myrror/Mountain1_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.04" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.03"/>
+        <ResourcesSpawnChance Resource="RESOURCE-ADAMANTINE_ORE" Chance="0.02"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_HILL2" />
+        <MinimapColor VALUE="85755c" />
+    </TERRAIN-MYR_MOUNTAIN>
+    <TERRAIN-MYR_MOUNTAIN2 TerrainType="Mountain" MovementCost="4" RoadCost="8">
+        <DescriptionInfo Name="DES_MOUNTAIN2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Mountain2_D.png"
+            Height="Height/Myrror/Mountain2_H.png"
+            Normal="Normal/Myrror/Mountain2_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.05" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.03"/>
+        <ResourcesSpawnChance Resource="RESOURCE-ADAMANTINE_ORE" Chance="0.02"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_HILL2" />
+        <MinimapColor VALUE="85755c" />
+    </TERRAIN-MYR_MOUNTAIN2>
+    <TERRAIN-MYR_MOUNTAIN3 TerrainType="Mountain" MovementCost="4" RoadCost="8">
+        <DescriptionInfo Name="DES_MOUNTAIN3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Mountain3_D.png"
+            Height="Height/Myrror/Mountain3_H.png"
+            Normal="Normal/Myrror/Mountain3_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Tag VALUE="TAG-MY_TAG" />
+        <Production VALUE="0.06" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <ResourcesSpawnChance Resource="RESOURCE-SILVER_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-GOLD_ORE" Chance="0.02"/>
+        <ResourcesSpawnChance Resource="RESOURCE-IRON_ORE" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-COAL" Chance="0.01"/>
+        <ResourcesSpawnChance Resource="RESOURCE-MITHRIL_ORE" Chance="0.03"/>
+        <ResourcesSpawnChance Resource="RESOURCE-ADAMANTINE_ORE" Chance="0.02"/>
+        <TransmuteTo VALUE="TERRAIN-MYR_HILL3" />
+        <MinimapColor VALUE="85755c" />
+    </TERRAIN-MYR_MOUNTAIN3>
+
+    <TERRAIN-MYR_VOLCANO TerrainType="Mountain" MovementCost="4" RoadCost="8">
+        <DescriptionInfo Name="DES_VOLCANO" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
+        <TerrainGraphic
+            Diffuse="Diffuse/Myrror/Volcano1_D.png"
+            Height="Height/Myrror/Volcano1_H.png"
+            Normal="Normal/Myrror/Volcano1_N.png"/>
+        <Plane VALUE="PLANE-MYRROR" />
+        <Production VALUE="0.05" />
+        <FoodProduction VALUE="0" />
+        <GoldProduction VALUE="0" />
+        <TransmuteTo VALUE="TERRAIN-MYR_MOUNTAIN3" />
+        <DecorSpawnChance Name="VolcanicSmoke2" Chance="1" />
+        <MinimapColor VALUE="85755c" />
+    </TERRAIN-MYR_VOLCANO>
+
+    <FOLIAGE_SET-DEFAULT SetName="Default">
+        <Foliage Forest="TRUE" TreeName="Pine01" Count="60" Color1="537151" Color2="98461f" Color3="205024"/>
+        <Foliage Chance="0.2" Forest="TRUE" TreeName="Pine02" Count="10" Color1="634151" Color2="98361f" Color3="205024"/>
+        <Foliage TreeName="Pine03" Count="2" Color1="537151" Color2="98461f" Color3="205024"/>
+    </FOLIAGE_SET-DEFAULT>
+    <FOLIAGE_SET-DECOR_TREES1 SetName="DecorTrees">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.20" Forest="FALSE" TreeName="CombatTree1" Count="2" Color1="c2e2c6" Color2="90cd8d" Color3="aecd8d"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.20" Forest="FALSE" TreeName="CombatTree2" Count="2" Color1="c2e2c6" Color2="90cd8d" Color3="aecd8d"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.20" Forest="FALSE" TreeName="CombatTree3" Count="1" Color1="c2e2c6" Color2="90cd8d" Color3="aecd8d"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.20" Forest="FALSE" TreeName="CombatTree4" Count="1" Color1="c2e2c6" Color2="90cd8d" Color3="aecd8d"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.20" Forest="FALSE" TreeName="CombatTree5" Count="1" Color1="c2e2c6" Color2="90cd8d" Color3="aecd8d"/>
+    </FOLIAGE_SET-DECOR_TREES1>
+    <FOLIAGE_SET-DECOR_TREES2 SetName="DecorTrees">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.20" Forest="FALSE" TreeName="CombatTree5" Count="2" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.20" Forest="FALSE" TreeName="CombatTree6" Count="2" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.20" Forest="FALSE" TreeName="CombatTree7" Count="2" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+    </FOLIAGE_SET-DECOR_TREES2>
+    <FOLIAGE_SET-DECOR_TREES3 SetName="DecorTrees">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatTreePine1" Count="2" Color1="c2e2c6" Color2="90cd8d" Color3="aecd8d"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatTreePine2" Count="2" Color1="c2e2c6" Color2="90cd8d" Color3="aecd8d"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatTreePine3" Count="2" Color1="c2e2c6" Color2="90cd8d" Color3="aecd8d"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatTreePine4" Count="2" Color1="c2e2c6" Color2="90cd8d" Color3="aecd8d"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatTreePine5" Count="2" Color1="c2e2c6" Color2="90cd8d" Color3="aecd8d"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatTreePine6" Count="2" Color1="c2e2c6" Color2="90cd8d" Color3="aecd8d"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatTreePine7" Count="2" Color1="c2e2c6" Color2="90cd8d" Color3="aecd8d"/>
+    </FOLIAGE_SET-DECOR_TREES3>
+    <FOLIAGE_SET-DECOR_DEAD_TREES1 SetName="DecorDeadTrees">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.20" Forest="FALSE" TreeName="CombatDeadTree1" Count="2" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.20" Forest="FALSE" TreeName="CombatDeadTree2" Count="3" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.20" Forest="FALSE" TreeName="CombatDeadTree3" Count="2" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatDeadTree4" Count="1" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatDeadTree4" Count="1" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+    </FOLIAGE_SET-DECOR_DEAD_TREES1>
+    <FOLIAGE_SET-DECOR_SWAMP_BUSH1 SetName="DecorDeadTrees">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.40" Forest="FALSE" TreeName="SwampBush1" Count="3" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.40" Forest="FALSE" TreeName="SwampBush2" Count="3" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.40" Forest="FALSE" TreeName="SwampBush3" Count="3" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.40" Forest="FALSE" TreeName="SwampBush4" Count="3" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.40" Forest="FALSE" TreeName="SwampBush5" Count="3" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.40" Forest="FALSE" TreeName="SwampBush6" Count="3" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="SwampTree1" Count="1" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="SwampTree2" Count="1" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="SwampTree3" Count="1" Color1="cee4d2" Color2="8db0cd" Color3="bcd8c7"/>
+    </FOLIAGE_SET-DECOR_SWAMP_BUSH1>
+    <FOLIAGE_SET-DECOR_STONES1 SetName="DecorStones1">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatStone1" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatStone2" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatStone3" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatStone4" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatStone5" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatStone6" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatStone7" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatStone8" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatStone9" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+    </FOLIAGE_SET-DECOR_STONES1>
+    <FOLIAGE_SET-DECOR_STONES2 SetName="DecorStones2">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="CombatStone10" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="CombatStone11" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="CombatStone12" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="CombatStone13" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="CombatStone14" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+    </FOLIAGE_SET-DECOR_STONES2>
+    <FOLIAGE_SET-DECOR_ICE_ROCKS SetName="DecorIceRocks">
+        <Foliage AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="IceRock1" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="IceRock1" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="IceRock2" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="IceRock3" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="IceRock3" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="IceRock3" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="IceRock4" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="IceRock5" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+    </FOLIAGE_SET-DECOR_ICE_ROCKS>
+    <FOLIAGE_SET-DECOR_DESERT_BUSH1 SetName="DecorBush">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="DesertBush1" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="DesertBush2" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="DesertBush3" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="DesertBush4" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="DesertBush5" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+    </FOLIAGE_SET-DECOR_DESERT_BUSH1>
+    <FOLIAGE_SET-DECOR_MYRROR_PLANTS1 SetName="DecorMyrPlants1">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="MyrrorPlant1" Count="10" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MyrrorPlant2" Count="10" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.30" Forest="FALSE" TreeName="MyrrorPlant3" Count="10" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="MyrrorPlant4" Count="10" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+    </FOLIAGE_SET-DECOR_MYRROR_PLANTS1>
+    <FOLIAGE_SET-DECOR_MYRROR_PLANTS2 SetName="DecorMyrPlants2">
+        <Foliage AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="MyrrorPlant5" Count="3" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="MyrrorPlant5" Count="3" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MyrrorPlant6" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MyrrorPlant6" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MyrrorPlant6" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+    </FOLIAGE_SET-DECOR_MYRROR_PLANTS2>
+    <FOLIAGE_SET-DECOR_MYRROR_PLANTS3 SetName="DecorMyrPlants3">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="MyrrorPlant5" Count="3" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="MyrrorPlant5" Count="3" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MyrrorPlant6" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MyrrorPlant6" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MyrrorPlant6" Count="2" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+    </FOLIAGE_SET-DECOR_MYRROR_PLANTS3>
+    <FOLIAGE_SET-DECOR_MYRROR_ROOTS1 SetName="DecorRoots">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="Root1" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="Root2" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="Root3" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="Root4" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="Root5" Count="1" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+    </FOLIAGE_SET-DECOR_MYRROR_ROOTS1>
+    <FOLIAGE_SET-DECOR_MYRROR_MUSHROOMS1 SetName="DecorMushrooms1">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MushroomA1" Count="5" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MushroomA2" Count="5" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MushroomA3" Count="5" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+    </FOLIAGE_SET-DECOR_MYRROR_MUSHROOMS1>
+    <FOLIAGE_SET-DECOR_MYRROR_MUSHROOMS2 SetName="DecorMushrooms2">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MushroomB1" Count="4" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MushroomB2" Count="4" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MushroomB3" Count="4" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MushroomB4" Count="4" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MushroomB5" Count="4" Color1="ffffff" Color2="dcdcdc" Color3="c8c9c7"/>
+    </FOLIAGE_SET-DECOR_MYRROR_MUSHROOMS2>
+    <FOLIAGE_SET-DECOR_MYRROR_MUSHROOMS3 SetName="DecorMushrooms3">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="MyrrorMushroomsA1" Count="3" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="MyrrorMushroomsA2" Count="2" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="MyrrorMushroomsA3" Count="3" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="MyrrorMushroomsA4" Count="2" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+    </FOLIAGE_SET-DECOR_MYRROR_MUSHROOMS3>
+    <FOLIAGE_SET-DECOR_FLOWERS1 SetName="DecorFlowers">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatDesertFlower1" Count="15" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatDesertFlower2" Count="15" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="CombatDesertFlower3" Count="15" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+    </FOLIAGE_SET-DECOR_FLOWERS1>
+    <FOLIAGE_SET-DECOR_BONES1 SetName="DecorBones">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="Bones1" Count="1" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="Bones2" Count="1" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="Bones3" Count="1" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="Bones4" Count="1" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+    </FOLIAGE_SET-DECOR_BONES1>
+    <FOLIAGE_SET-DECOR_MYR_GRASSLAND1 SetName="DecorMyrGrass1">
+        <Foliage WorldOnly="TRUE" AllowRotation="TRUE" Chance="0.12" Forest="FALSE" TreeName="MyrrorGrasslandDeco1" Count="1" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage WorldOnly="TRUE" AllowRotation="TRUE" Chance="0.12" Forest="FALSE" TreeName="MyrrorGrasslandDeco1" Count="1" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage WorldOnly="TRUE" AllowRotation="TRUE" Chance="0.12" Forest="FALSE" TreeName="MyrrorGrasslandDeco1" Count="1" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage WorldOnly="TRUE" AllowRotation="TRUE" Chance="0.05" Forest="FALSE" TreeName="MyrrorGrasslandDeco2" Count="1" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+    </FOLIAGE_SET-DECOR_MYR_GRASSLAND1>
+    <FOLIAGE_SET-DECOR_MYR_GRASSLAND2 SetName="DecorMyrGrass2">
+        <Foliage WorldOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="MyrrorGrasslandDeco3" Count="3" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage WorldOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MyrrorGrasslandDeco3" Count="1" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage WorldOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="MyrrorGrasslandDeco4" Count="3" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage WorldOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MyrrorGrasslandDeco4" Count="1" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage WorldOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="MyrrorGrasslandDeco5" Count="3" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage WorldOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MyrrorGrasslandDeco5" Count="1" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage WorldOnly="TRUE" AllowRotation="TRUE" Chance="0.10" Forest="FALSE" TreeName="MyrrorGrasslandDeco6" Count="3" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+        <Foliage WorldOnly="TRUE" AllowRotation="TRUE" Chance="0.15" Forest="FALSE" TreeName="MyrrorGrasslandDeco6" Count="1" Color1="ffffff" Color2="ffffff" Color3="ffffff"/>
+    </FOLIAGE_SET-DECOR_MYR_GRASSLAND2>
+    <FOLIAGE_SET-ARCANUS_PINE1 SetName="ArcanusPineForest1">
+        <Foliage Forest="TRUE" TreeName="ArcanusPine01" Count="70" Color1="8dc0cd" Color2="8dcdb1" Color3="90cd8d"/>
+        <Foliage Forest="TRUE" TreeName="ArcanusPine02" Count="70" Color1="8dc0cd" Color2="8dcdb1" Color3="90cd8d"/>
+        <Foliage Forest="TRUE" TreeName="ArcanusPine03" Count="70" Color1="8dc0cd" Color2="8dcdb1" Color3="90cd8d"/>
+        <Foliage Forest="TRUE" TreeName="ArcanusPine04" Count="70" Color1="8dc0cd" Color2="8dcdb1" Color3="90cd8d"/>
+    </FOLIAGE_SET-ARCANUS_PINE1>
+    <FOLIAGE_SET-MYRROR_PINE1 SetName="MyrrorPineForest1">
+        <Foliage Forest="TRUE" TreeName="MyrrorPine01" Count="70" Color1="dacee4" Color2="b7a5c5" Color3="b6b1e6"/>
+        <Foliage Forest="TRUE" TreeName="MyrrorPine02" Count="70" Color1="dacee4" Color2="b7a5c5" Color3="b6b1e6"/>
+        <Foliage Forest="TRUE" TreeName="MyrrorPine03" Count="70" Color1="dacee4" Color2="b7a5c5" Color3="b6b1e6"/>
+        <Foliage Forest="TRUE" TreeName="MyrrorPine04" Count="70" Color1="dacee4" Color2="b7a5c5" Color3="b6b1e6"/>
+    </FOLIAGE_SET-MYRROR_PINE1>
+    <FOLIAGE_SET-ARCANUS_LEAF1 SetName="ArcanusLeafForest1">
+        <Foliage Forest="TRUE" TreeName="ArcanusLeaf01" Count="50" Color1="eaf8dd" Color2="d2ead4" Color3="dceabf"/>
+        <Foliage Forest="TRUE" TreeName="ArcanusLeaf02" Count="50" Color1="eaf8dd" Color2="d2ead4" Color3="dceabf"/>
+        <Foliage Forest="TRUE" TreeName="ArcanusLeaf03" Count="50" Color1="eaf8dd" Color2="d2ead4" Color3="dceabf"/>
+        <Foliage Forest="TRUE" TreeName="ArcanusLeaf04" Count="50" Color1="eaf8dd" Color2="d2ead4" Color3="dceabf"/>
+        <Foliage Forest="TRUE" TreeName="ArcanusLeaf05" Count="50" Color1="eaf8dd" Color2="d2ead4" Color3="dceabf"/>
+    </FOLIAGE_SET-ARCANUS_LEAF1>
+    <FOLIAGE_SET-MYRROR_LEAF1 SetName="MyrrorLeafForest1">
+        <Foliage Forest="TRUE" TreeName="MyrrorLeaf01" Count="50" Color1="ffe2e2" Color2="d5b1c7" Color3="ebd0e8"/>
+        <Foliage Forest="TRUE" TreeName="MyrrorLeaf02" Count="50" Color1="ffe2e2" Color2="d5b1c7" Color3="ebd0e8"/>
+        <Foliage Forest="TRUE" TreeName="MyrrorLeaf03" Count="50" Color1="ffe2e2" Color2="d5b1c7" Color3="ebd0e8"/>
+        <Foliage Forest="TRUE" TreeName="MyrrorLeaf04" Count="50" Color1="ffe2e2" Color2="d5b1c7" Color3="ebd0e8"/>
+        <Foliage Forest="TRUE" TreeName="MyrrorLeaf05" Count="50" Color1="ffe2e2" Color2="d5b1c7" Color3="ebd0e8"/>
+    </FOLIAGE_SET-MYRROR_LEAF1>
+    <FOLIAGE_SET-ARCANUS_DRY1 SetName="ArcanusDryForest1">
+        <Foliage Forest="TRUE" TreeName="ArcanusDry01" Count="30" Color1="ffffff" Color2="eadad2" Color3="99917a"/>
+        <Foliage Forest="TRUE" TreeName="ArcanusDry02" Count="30" Color1="ffffff" Color2="eadad2" Color3="99917a"/>
+        <Foliage Forest="TRUE" TreeName="ArcanusDry03" Count="40" Color1="ffffff" Color2="eadad2" Color3="99917a"/>
+    </FOLIAGE_SET-ARCANUS_DRY1>
+    <FOLIAGE_SET-MYRROR_DRY1 SetName="MyrrorDryForest1">
+        <Foliage Forest="TRUE" TreeName="MyrrorDry01" Count="30" Color1="ffffff" Color2="dacbdb" Color3="9697be"/>
+        <Foliage Forest="TRUE" TreeName="MyrrorDry02" Count="30" Color1="ffffff" Color2="dacbdb" Color3="9697be"/>
+        <Foliage Forest="TRUE" TreeName="MyrrorDry03" Count="40" Color1="ffffff" Color2="dacbdb" Color3="9697be"/>
+    </FOLIAGE_SET-MYRROR_DRY1>
+    <FOLIAGE_SET-MAGIC1 SetName="MagicForest1">
+        <Foliage Forest="TRUE" TreeName="ArcanusMagic01" Count="30" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage Forest="TRUE" TreeName="ArcanusMagic02" Count="30" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage Forest="TRUE" TreeName="ArcanusMagic03" Count="30" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+    </FOLIAGE_SET-MAGIC1>
+    <FOLIAGE_SET-CACTUS1 SetName="Cactus1">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.1" TreeName="Cactus1A" Count="2" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.1" TreeName="Cactus1B" Count="3" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.1" TreeName="Cactus1C" Count="3" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.1" TreeName="Cactus2" Count="2" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+    </FOLIAGE_SET-CACTUS1>
+    <FOLIAGE_SET-CACTUS2 SetName="Cactus2">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="Cactus3A" Count="2" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="Cactus3B" Count="3" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="Cactus3C" Count="3" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="Cactus2" Count="2" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+    </FOLIAGE_SET-CACTUS2>
+    <FOLIAGE_SET-MYR_CORAL1 SetName="MyrCoral1">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="Coral5A" Count="2" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="Coral5B" Count="3" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+    </FOLIAGE_SET-MYR_CORAL1>
+    <FOLIAGE_SET-MYR_CORAL2 SetName="MyrCoral2">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="Coral6A" Count="2" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="Coral6B" Count="3" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="Coral6C" Count="3" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+    </FOLIAGE_SET-MYR_CORAL2>
+    <FOLIAGE_SET-CRYSTAL1 SetName="Crystal1">
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="Crystal1" Count="2" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="Crystal2" Count="3" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+        <Foliage BattleOnly="TRUE" AllowRotation="TRUE" Forest="FALSE" Chance="0.06" TreeName="Crystal3" Count="3" Color1="ffffff" Color2="a4c4e1" Color3="a4e1cf"/>
+    </FOLIAGE_SET-CRYSTAL1>
+</DB_TERRAIN>

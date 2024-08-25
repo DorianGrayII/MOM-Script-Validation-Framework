@@ -1,0 +1,21 @@
+﻿<DB_SPELL>
+
+  <SPELL-CALL_OF_THE_WILD BattleCost="20" UnitBattleCost="18">
+    <DescriptionInfo Name="DES_CALL_OF_THE_WILD" Description="DES_CALL_OF_THE_WILD_DES" Graphic="SpellCallOfTheWild_256"/>
+    <ResearchCost VALUE="250"/>
+    <Realm VALUE="Nature"/>
+    <Rarity VALUE="Common"/>
+    <TargetType VALUE="TARGET_TYPE-HEX"/>
+    <TargetingScript VALUE="STAR_TargetEmptyBattleHex"/>
+    <StringData VALUE="UNIT-COFTW_SUMMON_WAR_BEAR"/>
+    <StringData VALUE="UNIT-COFTW_SUMMON_FAT_RAT"/>
+    <StringData VALUE="UNIT-COFTW_SUMMON_BOAR"/>
+    <BattleScript VALUE="SBH_RandomBattleSummon"/>
+    <AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+    <CastEffect VALUE="Effect_Summon"/>
+    <AudioEffect VALUE="SpellSummon"/>
+    <SummonFantasticUnitSpell VALUE="TRUE"/>
+    <InvalidTarget VALUE=""/>
+  </SPELL-CALL_OF_THE_WILD>
+
+</DB_SPELL>

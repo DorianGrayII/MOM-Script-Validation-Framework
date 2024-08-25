@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>cmf</prefix>
+    <name>Counter Magic Fix</name>
+    <title>[Util] Counter Magic Fix</title>
+
+    <description>
+This is an experimental fix to the reported issues with Counter Magic / Dispel Magic:
+
+1. Not using the Mana from the Slider Popup Dialog Box.
+2. Not using the correct Casting Cost to include mana spent.
+3. Exaggerating the Casting Cost of Spells by unfairly applying range-based adjustments to only 1 side (and not both).
+4. Counter-Magic now has a mana pool that can be exhausted, per original MoM.
+
+This Mod disables ranged-based adjustments to the Casting Costs used in the following formula:
+
+Chance of Dispelling = Casting Cost of Dispel / (Casting Cost of Target + Casting Cost of Dispel)
+
+Additional messages will be logged to the Player.log and GameLog.txt files, located: DRIVE:\Users\USER\AppData\LocalLow\MuHa Games\MoM\
+
+If you feel the logging is too verbose, it can be disabled as follows:
+
+Set the 'bLoggingEnabled' variable to 'false' in the following script files:
+- EnchantmentScripts_CMF.cs
+- GameScripts_CMF.cs
+- SpellScripts_CMF.cs
+
+
+    </description>
+
+    <author>DorianGray</author>
+    <version>0.9.6</version>
+    <icon>cmf:cmf.png</icon>
+
+</ModSettings>

@@ -1,0 +1,190 @@
+﻿<DB_RESOURCE>
+	<RESOURCE-SILVER_ORE>
+		<DescriptionInfo Name="DES_RES_SILVER_ORE" Description="DES_RES_SILVER_ORE_DES" Graphic="Silver"/>	
+		<TransmuteTo VALUE="RESOURCE-MITHRIL_ORE"/>
+		<BonusTypes>
+			<Money VALUE="2"/>
+			<Power VALUE="0"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+		<OutpostGrowth VALUE="5"/>
+		<Mineral VALUE="TRUE"/>
+	</RESOURCE-SILVER_ORE>
+	<RESOURCE-GOLD_ORE>
+		<DescriptionInfo Name="DES_RES_GOLD_ORE" Description="DES_RES_GOLD_ORE_DES" Graphic="Gold"/>	
+		<TransmuteTo VALUE="RESOURCE-IRON_ORE"/>
+		<BonusTypes>
+			<Money VALUE="3"/>
+			<Power VALUE="0"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+		<OutpostGrowth VALUE="10"/>
+		<Mineral VALUE="TRUE"/>
+	</RESOURCE-GOLD_ORE>
+	<RESOURCE-IRON_ORE>
+		<DescriptionInfo Name="DES_RES_IRON_ORE" Description="DES_RES_IRON_ORE_DES" Graphic="Iron"/>	
+		<TransmuteTo VALUE="RESOURCE-GOLD_ORE"/>
+		<BonusTypes>
+			<Money VALUE="0"/>
+			<Power VALUE="0"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0.05"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+		<OutpostGrowth VALUE="5"/>
+		<Mineral VALUE="TRUE"/>
+	</RESOURCE-IRON_ORE>
+	<RESOURCE-COAL>
+		<DescriptionInfo Name="DES_RES_COAL" Description="DES_RES_COAL_DES" Graphic="Coal"/>	
+		<TransmuteTo VALUE="RESOURCE-GEMS"/>
+		<BonusTypes>
+			<Money VALUE="0"/>
+			<Power VALUE="0"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0.1"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+		<OutpostGrowth VALUE="10"/>
+		<Mineral VALUE="TRUE"/>
+	</RESOURCE-COAL>
+	<RESOURCE-GEMS>
+		<DescriptionInfo Name="DES_RES_GEMS" Description="DES_RES_GEMS_DES" Graphic="Gems"/>
+		<TransmuteTo VALUE="RESOURCE-COAL"/>
+		<BonusTypes>
+			<Money VALUE="5"/>
+			<Power VALUE="0"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+		<OutpostGrowth VALUE="10"/>
+		<Mineral VALUE="TRUE"/>
+	</RESOURCE-GEMS>
+	<RESOURCE-MITHRIL_ORE>
+		<DescriptionInfo Name="DES_RES_MITHRIL_ORE" Description="DES_RES_MITHRIL_ORE_DES" Graphic="Mithrill"/>	
+		<TransmuteTo VALUE="RESOURCE-SILVER_ORE"/>
+		<BonusTypes>
+			<Money VALUE="0"/>
+			<Power VALUE="1"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+		<OutpostGrowth VALUE="10"/>
+		<Mineral VALUE="TRUE"/>
+	</RESOURCE-MITHRIL_ORE>
+	<RESOURCE-ADAMANTINE_ORE>
+		<DescriptionInfo Name="DES_RES_ADAMANTINE_ORE" Description="DES_RES_ADAMANTINE_ORE_DES" Graphic="Adamantine"/>	
+		<BonusTypes>
+			<Money VALUE="0"/>
+			<Power VALUE="2"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+		<OutpostGrowth VALUE="10"/>
+		<Mineral VALUE="TRUE"/>
+	</RESOURCE-ADAMANTINE_ORE>
+	<RESOURCE-QUORK_CRYSTALS>
+		<DescriptionInfo Name="DES_RES_QUORK_CRYSTALS" Description="DES_RES_QUORK_CRYSTALS_DES" Graphic="QuorkCrystals"/>	
+		<BonusTypes>
+			<Money VALUE="0"/>
+			<Power VALUE="3"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+		<OutpostGrowth VALUE="10"/>
+		<Mineral VALUE="TRUE"/>
+	</RESOURCE-QUORK_CRYSTALS>
+	<RESOURCE-CRYSX_CRYSTALS>
+		<DescriptionInfo Name="DES_RES_CRYSX_CRYSTALS" Description="DES_RES_CRYSX_CRYSTALS_DES" Graphic="CrysxCrystals"/>	
+		<BonusTypes>
+			<Money VALUE="0"/>
+			<Power VALUE="5"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+		<OutpostGrowth VALUE="10"/>
+		<Mineral VALUE="TRUE"/>
+	</RESOURCE-CRYSX_CRYSTALS>
+	<RESOURCE-WILD_GAME>
+		<DescriptionInfo Name="DES_RES_WILD_GAME" Description="DES_RES_WILD_GAME_DES" Graphic="WildGame"/>
+		<BonusTypes>
+			<Money VALUE="0"/>
+			<Power VALUE="0"/>
+			<Food VALUE="2"/>
+			<UnitProductionCost VALUE="0"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+	</RESOURCE-WILD_GAME>
+	<RESOURCE-NIGHTSHADE>
+		<DescriptionInfo Name="DES_RES_NIGHTSHADE" Description="DES_RES_NIGHTSHADE_DES" Graphic="Nightshade"/>	
+		<BonusTypes>
+			<Money VALUE="0"/>
+			<Power VALUE="0"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+	</RESOURCE-NIGHTSHADE>
+	<RESOURCE-MAMMOTH Dlc="Dlc1" >
+		<DescriptionInfo Name="DES_RES_MAMMOTH" Description="DES_RES_MAMMOTH_DES" Graphic="Mammoths"/>	
+		<TransmuteTo VALUE="RESOURCE-WILD_GAME"/>
+		<BonusTypes>
+			<Money VALUE="1"/>
+			<Power VALUE="0"/>
+			<Food VALUE="1"/>
+			<UnitProductionCost VALUE="0"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+	</RESOURCE-MAMMOTH>
+	<RESOURCE-ORICHALCUM>
+		<DescriptionInfo Name="DES_RES_ORICHALCUM" Description="DES_RES_ORICHALCUM_DES" Graphic="Orichalcum"/>
+		<BonusTypes>
+			<Money VALUE="0"/>
+			<Power VALUE="3"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0.2"/>
+			<BuildingProductionCost VALUE="0.2"/>
+		</BonusTypes>
+		<OutpostGrowth VALUE="0"/>
+		<Mineral VALUE="TRUE"/>
+	</RESOURCE-ORICHALCUM>
+	<RESOURCE-PEARLS Dlc="Dlc3" >
+		<DescriptionInfo Name="DES_RES_PEARLS" Description="DES_RES_PEARLS_DES" Graphic="Pearls"/>
+		<BonusTypes>
+			<Money VALUE="3"/>
+			<Power VALUE="3"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+	</RESOURCE-PEARLS>
+	<RESOURCE-FISH Dlc="Dlc3" >
+		<DescriptionInfo Name="DES_RES_FISH" Description="DES_RES_FISH_DES" Graphic="Fish"/>
+		<BonusTypes>
+			<Money VALUE="0"/>
+			<Power VALUE="0"/>
+			<Food VALUE="2"/>
+			<UnitProductionCost VALUE="0.1"/>
+			<BuildingProductionCost VALUE="0"/>
+		</BonusTypes>
+	</RESOURCE-FISH>
+	<RESOURCE-REEF Dlc="Dlc3" >
+		<DescriptionInfo Name="DES_RES_REEF" Description="DES_RES_REEF_DES" Graphic="Reef"/>
+		<BonusTypes>
+			<Money VALUE="2"/>
+			<Power VALUE="0"/>
+			<Food VALUE="0"/>
+			<UnitProductionCost VALUE="0"/>
+			<BuildingProductionCost VALUE="0.2"/>
+		</BonusTypes>
+	</RESOURCE-REEF>
+	
+</DB_RESOURCE>

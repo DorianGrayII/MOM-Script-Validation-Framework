@@ -1,0 +1,442 @@
+﻿<DB_RACE>
+	<RACE-BARBARIANS BaseRace="TRUE" ArcanusRace="TRUE" VisualGroup="Primitive" >
+		<DescriptionInfo Name="DES_BARBARIANS" Description="DES_BARBARIANS_DES" Graphic="RaceBarbarians"/>
+		<ProductionDescription VALUE="DES_BARBARIANS_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-BARB_BERSERKERS"/>		
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0.1"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0.1"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.1"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0.1"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.1"/>
+		<RaceTension Race="RACE-NOMADS" Value="0"/>
+		<RaceTension Race="RACE-ORCS" Value="0"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.1"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.1"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.1"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.1"/>
+		<RaceTension Race="RACE-TROLLS" Value="0.1"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-BARBARIANS>
+	<RACE-GNOLLS BaseRace="TRUE" ArcanusRace="TRUE" VisualGroup="Primitive">
+		<DescriptionInfo Name="DES_GNOLLS" Description="DES_GNOLLS_DES" Graphic="RaceGnolls"/>
+		<ProductionDescription VALUE="DES_GNOLLS_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-GNO_BOWMEN"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.1"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.1"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0.1"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.1"/>
+		<RaceTension Race="RACE-NOMADS" Value="0.1"/>
+		<RaceTension Race="RACE-ORCS" Value="0"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.1"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.1"/>
+		<RaceTension Race="RACE-TROLLS" Value="0"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-GNOLLS>
+	<RACE-HALFLINGS BaseRace="TRUE" ArcanusRace="TRUE" VisualGroup="">
+		<DescriptionInfo Name="DES_HALFLINGS" Description="DES_HALFLINGS_DES" Graphic="RaceHalflings"/>
+		<ProductionDescription VALUE="DES_HALFLINGS_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-HALF_SLINGERS"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.1"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0"/>
+		<RaceTension Race="RACE-NOMADS" Value="0"/>
+		<RaceTension Race="RACE-ORCS" Value="0"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.1"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.1"/>
+		<RaceTension Race="RACE-DWARVES" Value="0"/>
+		<RaceTension Race="RACE-TROLLS" Value="0"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0.2"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-HALFLINGS>
+	<RACE-HIGH_ELVES BaseRace="TRUE" ArcanusRace="TRUE" VisualGroup="Magical">
+		<DescriptionInfo Name="DES_HIGH_ELVES" Description="DES_HIGH_ELVES_DES" Graphic="RaceHighElves"/>
+		<ProductionDescription VALUE="DES_HIGH_ELVES_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-H_ELF_SETTLER"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.1"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0.1"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.1"/>
+		<RaceTension Race="RACE-NOMADS" Value="0"/>
+		<RaceTension Race="RACE-ORCS" Value="0.2"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.2"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.4"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.1"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.3"/>
+		<RaceTension Race="RACE-TROLLS" Value="0.3"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0.2"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-HIGH_ELVES>
+	<RACE-HIGH_MEN BaseRace="TRUE" ArcanusRace="TRUE" VisualGroup=""> 
+		<DescriptionInfo Name="DES_HIGH_MEN" Description="DES_HIGH_MEN_DES" Graphic="RaceHighMen"/>
+		<ProductionDescription VALUE="DES_HIGH_MEN_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-H_MEN_SWORDSMEN"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.1"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0.1"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.1"/>
+		<RaceTension Race="RACE-NOMADS" Value="0"/>
+		<RaceTension Race="RACE-ORCS" Value="0"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.1"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.1"/>
+		<RaceTension Race="RACE-DWARVES" Value="0"/>
+		<RaceTension Race="RACE-TROLLS" Value="0.1"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0.3"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-HIGH_MEN>
+	<RACE-KLACKONS BaseRace="TRUE" ArcanusRace="TRUE" VisualGroup="Nature">
+		<DescriptionInfo Name="DES_KLACKONS" Description="DES_KLACKONS_DES" Graphic="RaceKlackons"/>
+		<ProductionDescription VALUE="DES_KLACKONS_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-KLKN_SWORDSMEN"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.2"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0.2"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0.2"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0.2"/>
+		<RaceTension Race="RACE-KLACKONS" Value="-0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.2"/>
+		<RaceTension Race="RACE-NOMADS" Value="0.2"/>
+		<RaceTension Race="RACE-ORCS" Value="0.2"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.2"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.2"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.2"/>
+		<RaceTension Race="RACE-TROLLS" Value="0.2"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0.2"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="-0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-KLACKONS>
+	<RACE-LIZARDMEN BaseRace="TRUE" ArcanusRace="TRUE" VisualGroup="Nature">
+		<DescriptionInfo Name="DES_LIZARDMEN" Description="DES_LIZARDMEN_DES" Graphic="RaceLizardmen"/>
+		<ProductionDescription VALUE="DES_LIZARDMEN_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-LIZ_HALBERDIERS"/>		
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.1"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0.1"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.1"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0.1"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0"/>
+		<RaceTension Race="RACE-NOMADS" Value="0.1"/>
+		<RaceTension Race="RACE-ORCS" Value="0.1"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.1"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.1"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.1"/>
+		<RaceTension Race="RACE-TROLLS" Value="0.1"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-LIZARDMEN>
+	<RACE-NOMADS BaseRace="TRUE" ArcanusRace="TRUE" VisualGroup="Primitive">
+		<DescriptionInfo Name="DES_NOMADS" Description="DES_NOMADS_DES" Graphic="RaceNomads"/>
+		<ProductionDescription VALUE="DES_NOMADS_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-NOM_SPEARMEN"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0.1"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.1"/>
+		<RaceTension Race="RACE-NOMADS" Value="0"/>
+		<RaceTension Race="RACE-ORCS" Value="0"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.1"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.1"/>
+		<RaceTension Race="RACE-DWARVES" Value="0"/>
+		<RaceTension Race="RACE-TROLLS" Value="0.1"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0.1"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.25"/>
+	</RACE-NOMADS>
+	<RACE-ORCS BaseRace="TRUE" ArcanusRace="TRUE" VisualGroup="Warlike">
+		<DescriptionInfo Name="DES_ORCS" Description="DES_ORCS_DES" Graphic="RaceOrcs"/>
+		<ProductionDescription VALUE="DES_ORCS_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-ORC_SWORDSMEN"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.1"/>
+		<RaceTension Race="RACE-NOMADS" Value="0"/>
+		<RaceTension Race="RACE-ORCS" Value="0"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.1"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.1"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.3"/>
+		<RaceTension Race="RACE-TROLLS" Value="0"/>
+		<RaceTension Race="RACE-GOBLINS" Value="-0.1"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="-0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.1"/>
+	</RACE-ORCS>
+	
+	<RACE-BEASTMEN BaseRace="TRUE" ArcanusRace="FALSE" VisualGroup="Warlike">
+		<DescriptionInfo Name="DES_BEASTMEN" Description="DES_BEASTMEN_DES" Graphic="RaceBeastmen"/>
+		<ProductionDescription VALUE="DES_BEASTMEN_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-BSTM_SWORDSMEN"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.1"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0.1"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0.1"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.1"/>
+		<RaceTension Race="RACE-NOMADS" Value="0.1"/>
+		<RaceTension Race="RACE-ORCS" Value="0.1"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.2"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.2"/>
+		<RaceTension Race="RACE-TROLLS" Value="0.2"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-BEASTMEN>
+	<RACE-DARK_ELVES BaseRace="TRUE" ArcanusRace="FALSE" VisualGroup="Magical">
+		<DescriptionInfo Name="DES_DARK_ELVES" Description="DES_DARK_ELVES_DES" Graphic="RaceDarkElves"/>
+		<ProductionDescription VALUE="DES_DARK_ELVES_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-D_ELF_WARLOCKS"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.1"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0.2"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0.2"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.4"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0.2"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.2"/>
+		<RaceTension Race="RACE-NOMADS" Value="0.2"/>
+		<RaceTension Race="RACE-ORCS" Value="0.2"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.2"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.2"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.3"/>
+		<RaceTension Race="RACE-TROLLS" Value="0.3"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0.2"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="-0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-DARK_ELVES>
+	<RACE-DRACONIANS BaseRace="TRUE" ArcanusRace="FALSE" VisualGroup="Magical">
+		<DescriptionInfo Name="DES_DRACONIANS" Description="DES_DRACONIANS_DES" Graphic="RaceDraconians"/>
+		<ProductionDescription VALUE="DES_DRACONIANS_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-DRCN_HALBERDIERS"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.1"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0.1"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0.1"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.1"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0.1"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.1"/>
+		<RaceTension Race="RACE-NOMADS" Value="0.1"/>
+		<RaceTension Race="RACE-ORCS" Value="0.1"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.2"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.2"/>
+		<RaceTension Race="RACE-TROLLS" Value="0.2"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-DRACONIANS>
+	<RACE-DWARVES BaseRace="TRUE" ArcanusRace="FALSE" VisualGroup="Warlike">
+		<DescriptionInfo Name="DES_DWARVES" Description="DES_DWARVES_DES" Graphic="RaceDwarves"/>
+		<ProductionDescription VALUE="DES_DWARVES_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-DWRF_SWORDSMEN"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.1"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0.1"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.3"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.1"/>
+		<RaceTension Race="RACE-NOMADS" Value="0"/>
+		<RaceTension Race="RACE-ORCS" Value="0.3"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.2"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.3"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.2"/>
+		<RaceTension Race="RACE-DWARVES" Value="0"/>
+		<RaceTension Race="RACE-TROLLS" Value="0.4"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0.3"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="0.2"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-DWARVES>
+	<RACE-TROLLS BaseRace="TRUE" ArcanusRace="FALSE" VisualGroup="Nature">
+		<DescriptionInfo Name="DES_TROLLS" Description="DES_TROLLS_DES" Graphic="RaceTrolls"/>
+		<ProductionDescription VALUE="DES_TROLLS_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-TRLL_SHAMANS"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.1"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.3"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0.1"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.1"/>
+		<RaceTension Race="RACE-NOMADS" Value="0.1"/>
+		<RaceTension Race="RACE-ORCS" Value="0"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.2"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.3"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.2"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.4"/>
+		<RaceTension Race="RACE-TROLLS" Value="0"/>
+		<RaceTension Race="RACE-GOBLINS" Value="-0.1"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-TROLLS>
+	<RACE-GOBLINS BaseRace="TRUE" ArcanusRace="FALSE" VisualGroup="Nature" Dlc="Dlc1">
+		<DescriptionInfo Name="DES_GOBLINS" Description="DES_GOBLINS_DES" Graphic="RaceGoblins"/>
+		<ProductionDescription VALUE="DES_GOBLINS_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-GOB_SHAMANS"/>
+				
+		<RaceTension Race="RACE-BARBARIANS" Value="0"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0.2"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0.3"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.2"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0"/>
+		<RaceTension Race="RACE-NOMADS" Value="0.1"/>
+		<RaceTension Race="RACE-ORCS" Value="-0.1"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.2"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.1"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.3"/>
+		<RaceTension Race="RACE-TROLLS" Value="-0.1"/>
+		<RaceTension Race="RACE-GOBLINS" Value="-0.1"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="0.3"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-GOBLINS>
+	<RACE-SOULTRAPPED BaseRace="TRUE" ArcanusRace="TRUE" VisualGroup="Tech" Dlc="Dlc2">
+		<DescriptionInfo Name="DES_SOULTRAPPED" Description="DES_SOULTRAPPED_DES" Graphic="RaceSoultrapped"/>
+		<ProductionDescription VALUE="DES_SOULTRAPPED_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-SOUL_PRIESTS"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.1"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0.1"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0.1"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.1"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0"/>
+		<RaceTension Race="RACE-KLACKONS" Value="-0.1"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.1"/>
+		<RaceTension Race="RACE-NOMADS" Value="0.1"/>
+		<RaceTension Race="RACE-ORCS" Value="-0.1"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.1"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.1"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.1"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.2"/>
+		<RaceTension Race="RACE-TROLLS" Value="0.1"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0.3"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="-0.1"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="0.3"/>
+	</RACE-SOULTRAPPED>
+	<RACE-BLUEORCS BaseRace="TRUE" ArcanusRace="TRUE" VisualGroup="Warlike" Dlc="Dlc3">
+		<DescriptionInfo Name="DES_BLUEORCS" Description="DES_BLUEORCS_DES" Graphic="RaceBlueorcs"/>
+		<ProductionDescription VALUE="DES_BLUEORCS_PRODUCTION"/>
+		<RepresentativeUnit VALUE="UNIT-B_ORC_SWORDSMEN"/>
+		
+		<RaceTension Race="RACE-BARBARIANS" Value="0.3"/>
+		<RaceTension Race="RACE-GNOLLS" Value="0.3"/>
+		<RaceTension Race="RACE-HALFLINGS" Value="0.3"/>
+		<RaceTension Race="RACE-HIGH_ELVES" Value="0.3"/>
+		<RaceTension Race="RACE-HIGH_MEN" Value="0.3"/>
+		<RaceTension Race="RACE-KLACKONS" Value="0.3"/>
+		<RaceTension Race="RACE-LIZARDMEN" Value="0.3"/>
+		<RaceTension Race="RACE-NOMADS" Value="0.25"/>
+		<RaceTension Race="RACE-ORCS" Value="0.1"/>
+		<RaceTension Race="RACE-BEASTMEN" Value="0.3"/>
+		<RaceTension Race="RACE-DARK_ELVES" Value="0.3"/>
+		<RaceTension Race="RACE-DRACONIANS" Value="0.3"/>
+		<RaceTension Race="RACE-DWARVES" Value="0.3"/>
+		<RaceTension Race="RACE-TROLLS" Value="0.3"/>
+		<RaceTension Race="RACE-GOBLINS" Value="0.3"/>
+		<RaceTension Race="RACE-SOULTRAPPED" Value="0.3"/>
+		<RaceTension Race="RACE-BLUEORCS" Value="-0.05"/>
+	</RACE-BLUEORCS>
+	
+	<RACE-REALM_ARCANE>
+		<DescriptionInfo Name="DES_REALM_ARCANE" Description="DES_REALM_ARCANE_DES" Graphic="RaceRealmArcane"/>
+		<ProductionDescription VALUE=""/>
+	</RACE-REALM_ARCANE>
+	<RACE-REALM_NATURE>
+		<DescriptionInfo Name="DES_REALM_NATURE" Description="DES_REALM_NATURE_DES" Graphic="RaceRealmNature"/>
+		<ProductionDescription VALUE=""/>
+	</RACE-REALM_NATURE>
+	<RACE-REALM_SORCERY>
+		<DescriptionInfo Name="DES_REALM_SORCERY" Description="DES_REALM_SORCERY_DES" Graphic="RaceRealmSorcery"/>
+		<ProductionDescription VALUE=""/>
+	</RACE-REALM_SORCERY>
+	<RACE-REALM_CHAOS>
+		<DescriptionInfo Name="DES_REALM_CHAOS" Description="DES_REALM_CHAOS_DES" Graphic="RaceRealmChaos"/>
+		<ProductionDescription VALUE=""/>
+	</RACE-REALM_CHAOS>
+	<RACE-REALM_LIFE>
+		<DescriptionInfo Name="DES_REALM_LIFE" Description="DES_REALM_LIFE_DES" Graphic="RaceRealmLife"/>
+		<ProductionDescription VALUE=""/>
+	</RACE-REALM_LIFE>
+	<RACE-REALM_DEATH>
+		<DescriptionInfo Name="DES_REALM_DEATH" Description="DES_REALM_DEATH_DES" Graphic="RaceRealmDeath"/>
+		<ProductionDescription VALUE=""/>
+	</RACE-REALM_DEATH>
+	<RACE-REALM_SYNERGY>
+		<DescriptionInfo Name="DES_REALM_SYNERGY" Description="DES_REALM_SYNERGY_DES" Graphic="RaceRealmSynergy"/>
+		<ProductionDescription VALUE=""/>
+	</RACE-REALM_SYNERGY>
+	<RACE-REALM_TECH>
+		<DescriptionInfo Name="DES_REALM_TECH" Description="DES_REALM_TECH_DES" Graphic="RaceRealmTech"/>
+		<ProductionDescription VALUE=""/>
+	</RACE-REALM_TECH>
+	<RACE-REALM_REEF_DUNG>
+		<DescriptionInfo Name="DES_PIRATE_DUNG" Description="DES_PIRATE_DUNG_DES" Graphic="RaceRealmReefDung"/>
+		<ProductionDescription VALUE=""/>
+	</RACE-REALM_REEF_DUNG>
+	<RACE-REALM_CAVE_DUNG>
+		<DescriptionInfo Name="DES_PIRATE_DUNG" Description="DES_PIRATE_DUNG_DES" Graphic="RaceRealmCaveDung"/>
+		<ProductionDescription VALUE=""/>
+	</RACE-REALM_CAVE_DUNG>
+	
+	<RACE-NON_RACIAL>
+		<DescriptionInfo Name="DES_RACE_NON_RACIAL" Description="DES_RACE_NON_RACIAL_DES" Graphic="RaceNonRacial"/>
+	</RACE-NON_RACIAL>
+	<RACE-HERO>
+		<DescriptionInfo Name="DES_RACE_HERO" Description="DES_RACE_HERO_DES" Graphic="RaceHero"/>
+	</RACE-HERO>
+
+</DB_RACE>

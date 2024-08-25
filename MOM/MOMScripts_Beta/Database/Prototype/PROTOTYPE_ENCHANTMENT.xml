@@ -1,0 +1,95 @@
+﻿<PROTOTYPE_ENCHANTMENT>			
+	<E_ENCHANTMENT_TYPE Type="enum" Name="EEnchantmentType">		
+		<None/>	
+		<GoldModifier/>	
+		<GoldModifierMP/>	
+		<FoodModifier/>
+		<FoodModifierMP/>
+		<ManaModifier/>
+		<ManaModifierMP/>
+		<PowerModifier/>
+		<PowerModifierMP/>
+		<PowerModifierReligious/>
+		<PowerModifierNode/>
+		<ResearchModifier/>
+		<ProductionModifier/>
+		<ProductionModifierMP/>
+		<PopulationGrowModifier/>
+		<PopulationGrowModifierMP/>
+		<UnitHealModifier/>
+		<NewUnitXpModifier/>
+		<NewUnitModifier/>
+		<UnrestModifier/>
+		<UnrestModifierMP/>
+		<RebelsModifier/>
+		<VisibilityRangeModifier/>
+		<MaximumPopulationModifier/>
+		<MaximumPopulationModifierMP/>
+		<EndTurnEffect/>
+		<EndTurnPositiveDispelEffect/>
+		<EndTurnNegativeDispelEffect/>
+		<EndTurnNeutralTownIncludedEffect/>
+		<WizardVisibilityModifier/>		
+		<AttributeChange/>
+		<AttributeChangeMP/>
+		<RemoteUnitAttributeChange/>
+		<RemoteUnitAttributeChangeMP/>
+		<BattleTurnStartEffect/>
+		<BattleTurnEndEffect/>
+		<BattleStartEffect/>
+		<BattleEndEffect/>
+		<BattleWizardTowerEffect/>
+		<WizardOrGlobalToTownEnchantment/>
+		<GroupChange/>
+	</E_ENCHANTMENT_TYPE>
+	
+		
+	<E_ENCHANTMENT_CATEGORY Type="enum" Name="EEnchantmentCategory">		
+		<None/>	
+		<Positive/>	
+		<Negative/>
+	</E_ENCHANTMENT_CATEGORY>
+	
+	<ENCHANTMENT_SCRIPT Name="EnchantmentScript">
+		<TriggerType Name="triggerType" Type="E_ENCHANTMENT_TYPE" Required="TRUE"/>
+		<StringData Name="stringData" Type="string" Required="FALSE"/>
+		<FIntData Name="fIntData" Type="FInt" Required="FALSE"/>
+		<Script Name="script" Type="string" Required="FALSE"/>
+		<DamagePool Name="damagePool" Type="E_SKILL_DAMAGE_POOL" Required="FALSE"/>
+		<BattleAttackEffect Name="battleAttackEffect" Type="E_BATTLE_ATTACK_EFFECT" Required="FALSE"/>
+		<Tag Name="tag" Type="TAG" Required="FALSE"/>
+	</ENCHANTMENT_SCRIPT>
+	
+	<ENCHANTMENT Name="Enchantment" Abbreviation="ENCH">
+		<HideEnch Name="hideEnch" Type="bool" Required="FALSE"/>
+		<AllowDispel Name="allowDispel" Type="bool" Required="FALSE"/>
+		<MindControl Name="mindControl" Type="bool" Required="FALSE"/>
+		<RemoveWhenParentIDChange Name="removeWhenParentIDChange" Type="bool" Required="FALSE"/>
+		<!-- Ench do not show on unit short (DefenderUnit i AttackerUnit) info in combat-->
+		<NonCombatDisplay Name="nonCombatDisplay" Type="bool" Required="FALSE"/>
+		<!-- Ench is from trait and is add only to capitol town -->
+		<WizardTowerBonus Name="wizardTowerBonus" Type="bool" Required="FALSE"/>
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="TRUE"/>
+		<EnchantmentScript Name="scripts" Type="ArrayENCHANTMENT_SCRIPT" Required="FALSE"/>	
+		<EnchantmentApplicationScript Name="applicationScript" Type="ENCHANTMENT_SCRIPT" Required="FALSE"/>		
+		<EnchantmentRemovalScript Name="removalScript" Type="ENCHANTMENT_SCRIPT" Required="FALSE"/>	
+		<EnchantmentRequirementScript Name="requirementScript" Type="ENCHANTMENT_SCRIPT" Required="FALSE"/>
+		<UpkeepCost Name="upkeepCost" Type="int" Required="FALSE"/>
+		<LifeTime Name="lifeTime" Type="int" Required="FALSE"/>	
+		<EnchLastingEffect Name="enchLastingEffect" Type="string" Required="FALSE"/>
+		<WorldEnchantment Name="worldEnchantment" Type="bool" Required="FALSE"/>		
+		<!-- Use to decide what spell can be dispel -->
+		<EnchCategory Name="enchCategory" Type="E_ENCHANTMENT_CATEGORY" Required="FALSE"/>
+					
+		<!--Script trigerred on other units when owner or another unit joins the group-->
+		<OnJoinWithUnit Name="onJoinWithUnit" Type="string" Required="FALSE"/>
+		<!--Script trigerred on other units when owner or another unit leaves the group-->
+		<OnLeaveFromUnit Name="onLeaveFromUnit" Type="string" Required="FALSE"/>
+		<!--Script trigerred when unit is filtered by remote enchantments on gameplay, wizard, town unit is in or battlefield-->
+		<OnRemoteTriggerFilter Name="onRemoteTriggerFilter" Type="string" Required="FALSE"/>
+		<!--This realm is used when calculating the difficulty of dispelling the enchantment see
+		Cahos Mastery as an example. -->
+		<Realm Name="realm" Type="E_SPELL_REALM" Required="TRUE"/>
+		<Dlc Name="dlc" Type="string" Required="FALSE"/>
+	</ENCHANTMENT>
+</PROTOTYPE_ENCHANTMENT>

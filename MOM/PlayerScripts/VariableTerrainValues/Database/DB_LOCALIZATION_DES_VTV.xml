@@ -1,0 +1,27 @@
+﻿<DB_LOCALIZATION>
+    <LOCALIZATION-VTV_DES_EN Language="English">
+            <!--Terrain/Location-->
+        <Loc Key="DES_GRASS_LAND2" Value="Grassland2" />
+        <Loc Key="DES_GRASS_LAND3" Value="Grassland3" />
+        <Loc Key="DES_GRASS_LAND4" Value="Grassland4" />
+        <Loc Key="DES_GRASS_LAND5" Value="Grassland5" />
+        <Loc Key="DES_GRASS_LAND6" Value="Grassland6" />
+        <Loc Key="DES_FOREST2" Value="Forest2" />
+        <Loc Key="DES_FOREST3" Value="Forest3" />
+        <Loc Key="DES_FOREST4" Value="Forest4" />
+        <Loc Key="DES_FOREST5" Value="Forest5" />
+        <Loc Key="DES_FOREST6" Value="Forest6" />
+        <Loc Key="DES_HILL2" Value="Hill2" />
+        <Loc Key="DES_HILL3" Value="Hill3" />
+        <Loc Key="DES_MOUNTAIN2" Value="Mountain2" />
+        <Loc Key="DES_MOUNTAIN3" Value="Mountain3" />
+        <Loc Key="DES_DESERT2" Value="Desert2" />
+        <Loc Key="DES_DESERT3" Value="Desert3" />
+        <Loc Key="DES_DESERT4" Value="Desert4" />
+        <Loc Key="DES_SWAMP2" Value="Swamp2" />
+        <Loc Key="DES_SWAMP3" Value="Swamp3" />
+        <Loc Key="DES_SWAMP4" Value="Swamp4" />
+        <Loc Key="DES_SWAMP5" Value="Swamp5" />
+        <Loc Key="DES_SWAMP6" Value="Swamp6" />
+    </LOCALIZATION-VTV_DES_EN>
+</DB_LOCALIZATION>

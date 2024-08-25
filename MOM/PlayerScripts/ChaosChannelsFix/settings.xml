@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>ccf</prefix>
+    <name>Chaos Channels Fix</name>
+    <title>[Spell] Chaos Channels Fix</title>
+
+    <description>
+This is an override and fix of the SWG_ChaosChannels method, which contains a potential exception.
+
+Additionally, the SWG_ChaosChannels method in this Mod also checks for appropriate target unit attributes and tries to adhere to the original spirit of the Chaos Channels spell, as described here:
+
+https://masterofmagic.fandom.com/wiki/Chaos_Channels
+
+CHAOS_CHANNELS3 (Fire Breath) will skip the following:
+- Ranged Units
+- Units that already have Fire Breath
+
+CHAOS_CHANNELS2 (Flight) will skip the following:
+- Ship Units
+- Units that already have Flight
+
+CHAOS_CHANNELS1 (Demonskin) can be applied to all units and is the defacto default.
+
+Additionally, each of the unit skills will have its own unit icon displayable in the panel above the unit.
+
+    </description>
+
+    <author>DorianGray</author>
+    <version>1.0.6</version>
+    <icon>ccf:ccf.png</icon>
+
+</ModSettings>

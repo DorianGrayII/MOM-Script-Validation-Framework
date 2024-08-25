@@ -1,0 +1,39 @@
+﻿<DB_BUDGET_SCALING>
+	<BUDGET_SCALING-BUDGET>
+		<TurnToBudget Turn="1" Budget="1"/>
+		<TurnToBudget Turn="5" Budget="50"/>
+		<TurnToBudget Turn="10" Budget="100"/>
+		<TurnToBudget Turn="20" Budget="170"/>
+		<TurnToBudget Turn="40" Budget="320"/>
+		<TurnToBudget Turn="50" Budget="380"/>
+		<TurnToBudget Turn="100" Budget="800"/>
+		<TurnToBudget Turn="200" Budget="2000"/>
+		<TurnToBudget Turn="300" Budget="4000"/>
+		<TurnToBudget Turn="400" Budget="5000"/>
+		<TurnToBudget Turn="500" Budget="6000"/>
+		<TurnToBudget Turn="1000" Budget="8000"/>
+		<TurnToBudget Turn="2000" Budget="10000"/>
+		<TurnToBudget Turn="20000" Budget="100000"/> 
+	</BUDGET_SCALING-BUDGET>
+	
+	<!-- Cost of 1 exp -->
+	<BUDGET_VALUE-EXP_COST>
+		<Value VALUE="4"/>
+	</BUDGET_VALUE-EXP_COST>
+	
+	<!-- Budget Value of scripts in battle nodes -->
+	<BUDGET_VALUE-WEAK_GROUP>
+		<Value VALUE="600"/>
+	</BUDGET_VALUE-WEAK_GROUP>
+	<BUDGET_VALUE-NORMAL_GROUP>
+		<Value VALUE="1500"/>
+	</BUDGET_VALUE-NORMAL_GROUP>
+	<BUDGET_VALUE-STRONG_GROUP>
+		<Value VALUE="3200"/>
+	</BUDGET_VALUE-STRONG_GROUP>
+	<BUDGET_VALUE-VSTRONG_GROUP>
+		<Value VALUE="6000"/>
+	</BUDGET_VALUE-VSTRONG_GROUP>
+	
+
+</DB_BUDGET_SCALING>

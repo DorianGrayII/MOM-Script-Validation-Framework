@@ -1,0 +1,20 @@
+﻿<PROTOTYPE_BOOKS_ADVANTAGE>
+	<SPELLS_SECTION Name="SpellsSection">
+        <Rarity Name="rarity"  Type="E_SPELL_RARITY" Required="TRUE"/>
+        <Count Name="count"  Type="int" Required="TRUE"/>
+    </SPELLS_SECTION>		
+	<SPELL_RESEARCH_BONUS Name="SpellResearchBonus">
+        <CastingDiscount Name="castingDiscount"  Type="FInt" Required="FALSE"/>
+        <ResearchDiscount Name="researchDiscount"  Type="FInt" Required="FALSE"/>
+    </SPELL_RESEARCH_BONUS>
+
+    <BOOKS_ADVANTAGE Name="BooksAdvantage">
+        <BookCount Name="bookCount" Type="int" Required="TRUE"/>
+        <ResearchLimit Name="researchLimit" Type="ArraySPELLS_SECTION" Required="TRUE"/>
+        <StartingSpells Name="startingSpells" Type="ArraySPELLS_SECTION" Required="FALSE"/>
+        <!--<StartingArcaneSpells Name="startingArcaneSpells" Type="ArraySPELLS_SECTION" Required="FALSE"/>-->
+        <GuaranteedSpells Name="guaranteedSpells" Type="ArraySPELLS_SECTION" Required="FALSE"/>
+        <Bonus Name="bonus"  Type="SPELL_RESEARCH_BONUS" Required="FALSE"/>
+        <RewardLimit Name="rewardLimit" Type="E_SPELL_RARITY" Required="TRUE"/>
+    </BOOKS_ADVANTAGE>
+</PROTOTYPE_BOOKS_ADVANTAGE>

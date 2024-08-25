@@ -1,0 +1,18 @@
+﻿<PROTOTYPE_DIFFICULTY>			
+	<DIFFICULTY_OPTION Name="DifficultyOption">
+        <Title Name="title"  Type="string" Required="TRUE"/>
+        <Value Name="value"  Type="string" Required="TRUE"/>
+        <Difficulty Name="difficulty"  Type="float" Required="TRUE"/>
+        <Collection Name="collection" Type="int" Required="TRUE"/>
+        <QuickStart Name="quickStart" Type="bool" Required="FALSE"/>
+    </DIFFICULTY_OPTION>
+
+    <DIFFICULTY Name="Difficulty">
+        <Name Name="name" Type="string" Required="TRUE"/>   
+		<Dlc Name="dlc"  Type="string" Required="FALSE"/>		
+        <FullValue Name="fullValue"  Type="float" Required="TRUE"/>
+        <TooltipName Name="tooltipName"  Type="string" Required="TRUE"/>
+        <TooltipDescription Name="tooltipDescription"  Type="string" Required="TRUE"/>
+        <Setting Name="setting"  Type="ArrayDIFFICULTY_OPTION" Required="TRUE"/>
+    </DIFFICULTY>
+</PROTOTYPE_DIFFICULTY>

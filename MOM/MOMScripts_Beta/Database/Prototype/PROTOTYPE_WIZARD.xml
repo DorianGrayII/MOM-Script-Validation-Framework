@@ -1,0 +1,54 @@
+﻿<PROTOTYPE_WIZARD>		
+	<RELATIONSHIP Name="Relationship">
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="TRUE"/>
+		<MinValue Name="minValue" Type="int" Required="TRUE"/>		
+	</RELATIONSHIP>
+	
+	<PERSONALITY Name="Personality">
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="TRUE"/>
+		<!-- Skill/ability factors that affect chances to pick specific personality -->
+		<TriggerFactorTags Name="triggerFactorTags" Type="ArrayCOUNTED_TAG" Required="FALSE"/>
+		
+		<!-- How randomly this character is willing to start war with little-to-none reason -->
+		<Hostility Name="hostility" Type="int" Required="FALSE"/>
+		<!-- How intensly this character loves overland hostile spells -->
+		<WorldHostileCasting Name="worldHostileCasting" Type="int" Required="FALSE"/>		
+		<!-- Will to talk, increases chance that AI will be willing to start or receive communication -->
+		<DiplomaticContact Name="diplomaticContact" Type="int" Required="FALSE"/>
+		<!-- How harsh this personality sees treaty breaking -->
+		<ReactionTooNegativeDiplomacy Name="reactionTooNegativeDiplomacy" Type="FInt" Required="FALSE"/>
+		<ReactionTooPositiveDiplomacy Name="reactionTooPositiveDiplomacy" Type="FInt" Required="FALSE"/>
+	</PERSONALITY>	
+	
+	<TREATY Name="Treaty">
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="TRUE"/>
+				
+		<!-- Is agreement from both sides required to start this treaty -->
+		<AgreementRequired Name="agreementRequired" Type="bool" Required="FALSE"/>
+		<Length Name="length" Type="int"  Required="FALSE"/>
+		
+		<TreatyEvaluationScript Name="treatyEvaluationScript" Type="string" Required="FALSE"/>		
+		<TreatyStartScript Name="treatyStartScript" Type="string" Required="FALSE"/>
+		<TreatyTurnScript Name="treatyTurnScript" Type="string" Required="FALSE"/>
+		<TreatyBreakScript Name="treatyBreakScript" Type="string" Required="FALSE"/>
+		<TreatyEndScript Name="treatyEndScript" Type="string" Required="FALSE"/>
+	</TREATY>
+	
+	<ASSOCIATE_GREETING Name="Associate_Greeting">
+		<Wizard Name="wizard" Type="WIZARD" Required="TRUE"/>
+		<Greeting Name="greeting" Type="string" Required="FALSE"/>		
+	</ASSOCIATE_GREETING>
+	
+	<WIZARD Name="Wizard">		
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>
+		<Quote Name="quote" Type="string" Required="FALSE"/>
+		<PersonalGreeting Name="personalGreeting" Type="string" Required="FALSE"/>
+		<Icon Name="icon" Type="string" Required="FALSE"/>
+		<Background Name="background" Type="string" Required="FALSE"/>
+		<Tags Name="tags" Type="ArrayCOUNTED_TAG" Required="FALSE"/>
+		<Trait Name="traits" Type="ArrayTRAIT" Required="FALSE"/>
+		<Dlc Name="dlc" Type="string" Required="FALSE"/>
+		<AssociateInitialGreeting Name="associateInitialGreeting" Type="ArrayASSOCIATE_GREETING" Required="FALSE"/>
+		<AssociateGreeting Name="associateGreeting" Type="ArrayASSOCIATE_GREETING" Required="FALSE"/>
+	</WIZARD>
+</PROTOTYPE_WIZARD>

@@ -1,0 +1,1511 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-UI_DE Language="Deutsch">
+		<Loc Key="UI_LOADING" Value="Lädt ..."/>
+		<Loc Key="UI_CONTINUE" Value="Fortfahren"/>
+		<Loc Key="UI_NEW_GAME" Value="Neues Spiel"/>
+		<Loc Key="UI_EDITOR" Value="Editor"/>
+		<Loc Key="UI_SETTINGS" Value="Einstellungen"/>
+		<Loc Key="UI_EXIT" Value="Beenden"/>
+		<Loc Key="UI_CLOSE" Value="Schließen"/>
+		<Loc Key="UI_CANCEL" Value="Abbrechen"/>
+		<Loc Key="UI_CONFIRM" Value="Bestätigen"/>
+		<Loc Key="UI_VERSION" Value="VERSION"/>
+		<Loc Key="UI_ENTER_NAME" Value="Namen eingeben"/>
+		<Loc Key="UI_ENTER_NAME2" Value="Neuen Namen eingeben:"/>
+		<Loc Key="UI_ENTER_TEXT" Value="Text eingeben ..."/>
+		<Loc Key="UI_COMBAT" Value="Kampf"/>
+		<Loc Key="UI_ATTACKERS" Value="Angreifer"/>
+		<Loc Key="UI_DEFENDERS" Value="Verteidiger"/>
+		<Loc Key="UI_DONT_ENGAGE" Value="Nicht kämpfen"/>
+		<Loc Key="UI_AUTO_COMBAT" Value="Autom. Kampf"/>
+		<Loc Key="UI_MANUAL_COMBAT" Value="Manueller Kampf"/>
+		<Loc Key="UI_OKAY" Value="Okay"/>
+		<Loc Key="UI_OK" Value="OK"/>
+		<Loc Key="UI_DETAILS" Value="Details"/>
+		<Loc Key="UI_TURN" Value="Runde"/>
+		<Loc Key="UI_OF_50" Value="von 50"/>
+		<Loc Key="UI_ADJUST_DIFFICULTY" Value="Schwierigkeitsgrad anpassen"/>
+		<Loc Key="UI_PRESETS" Value="Voreinstellungen"/>
+		<Loc Key="UI_SCORE_MULTIPLIER" Value="Punktemultiplikator:"/>
+		<Loc Key="UI_EASY_50" Value="Leicht (100 %)"/>
+		<Loc Key="UI_NORMAL_100" Value="Normal (150 %)"/>
+		<Loc Key="UI_HARD_150" Value="Schwer (200 %)"/>
+		<Loc Key="UI_CUSTOM" Value="Angepasst"/>
+		<Loc Key="UI_MAKE_A_SELECTION" Value="Auswählen ..."/>
+		<Loc Key="UI_SELECT_AN_ADVENTURE" Value="Ein Abenteuer auswählen"/>
+		<Loc Key="UI_SEARCH" Value="Suchen ..."/>
+		<Loc Key="UI_BACK_TO_MODULES" Value="Zurück zu den Modulen"/>
+		<Loc Key="UI_EDIT_ADVENTURE" Value="Abenteuer bearbeiten"/>
+		<Loc Key="UI_CLONE_TO_MODULE" Value="Modul zum Klonen auswählen"/>
+		<Loc Key="UI_CLONE_ADVENTURE" Value="Abenteuer klonen"/>
+		<Loc Key="UI_LEAVE" Value="Verlassen"/>
+		<Loc Key="UI_ADVENTURE" Value="Abenteuer"/>
+		<Loc Key="UI_BATTLE" Value="Schlacht"/>
+		<Loc Key="UI_TRADE" Value="Handel"/>
+		<Loc Key="UI_ENCHANTMENT" Value="Bezauberung"/>
+		<Loc Key="UI_SPAWN_LOCATION" Value="Spawn-Stelle"/>
+		<Loc Key="UI_RELAY" Value="Zwischen-Node"/>
+		<Loc Key="UI_END" Value="Ende"/>
+		<Loc Key="UI_NODE_SEARCH" Value="Node suchen"/>
+		<Loc Key="UI_SELECT_AN_IMAGE" Value="Bild auswählen"/>
+		<Loc Key="UI_IMAGE_INSTRUCTIONS" Value="Hinweis: Die optimale Bildgröße beträgt 1250x1500 Pixel. Andere Größen mit gleichem Seitenverhältnis sind ebenfalls möglich. Ein anderes Seitenverhältnis führt zu einer Verzerrung des Bildes.\n\nUm weitere Bilder hinzuzufügen, müsst Ihr sie im Ordner '\ExternalAssets\AdventureGraphics' Eures Spielverzeichnisses ablegen.\n\nNur PNG- oder JPG-Format!"/>
+		<Loc Key="UI_LOGIC_EDITOR" Value="Logik-Editor"/>
+		<Loc Key="UI_FILTERS" Value="Filter"/>
+		<Loc Key="UI_PROCESSING" Value="Verarbeitung"/>
+		<Loc Key="UI_RESULTS" Value="Ergebnis"/>
+		<Loc Key="UI_EXIT_LOGIC" Value="Logik-Editor schließen"/>
+		<Loc Key="UI_SELECT_MODULE" Value="Modul auswählen"/>
+		<Loc Key="UI_EXIT_AND_SAVE" Value="Speichern und beenden"/>
+		<Loc Key="UI_EDIT_MODULE" Value="Modul bearbeiten"/>
+		<Loc Key="UI_END_TURN" Value="Zug beenden"/>
+		<Loc Key="UI_PATCH_NOTES" Value="Patch-Hinweise"/>
+		<Loc Key="UI_CHANGE_PROFILE" Value="Profil ändern"/>
+		<Loc Key="UI_HELLO_PLAYERNAME" Value="Seid gegrüßt, {0}"/>
+		<Loc Key="UI_PROFILES" Value="Profile"/>
+		<Loc Key="UI_SELECT" Value="Auswählen"/>
+		<Loc Key="UI_NEW_PROFILE" Value="Neues Profil"/>
+		<Loc Key="UI_RENAME" Value="Umbenennen"/>
+		<Loc Key="UI_DELETE" Value="Entfernen"/>
+		<Loc Key="UI_SELECT_WIZARD" Value="Zauberer auswählen"/>
+		<Loc Key="UI_MAGIC_AND_TRAITS" Value="Magie und Spezialisierungen"/>
+		<Loc Key="UI_WORLD_QUALITY" Value="Weltqualität"/>
+		<Loc Key="UI_BATTLE_SUMMARY" Value="Schlachtzusammenfassung"/>
+		<Loc Key="UI_VICTORY" Value="Gewonnen!"/>
+		<Loc Key="UI_DEFEAT" Value="Verloren!"/>
+		<Loc Key="UI_YOUR_TURN" Value="Euer Spielzug!"/>
+		<Loc Key="UI_ENEMY_TURN" Value="Gegnerischer Spielzug!"/>
+		<Loc Key="UI_MELEE" Value="Nahkampf:"/>
+		<Loc Key="UI_RANGED" Value="Fernkampf:"/>
+		<Loc Key="UI_ARMOUR" Value="Rüstung:"/>
+		<Loc Key="UI_RESISTANCE" Value="Resistenz:"/>
+		<Loc Key="UI_FIGURES" Value="Untereinheiten:"/>
+		<Loc Key="UI_HITS" Value="Trefferpunkte:"/>
+		<Loc Key="UI_MOVEMENT" Value="Bewegung:"/>
+		<Loc Key="UI_UPKEEP" Value="Unterhalt:"/>
+		<Loc Key="UI_DISMISS" Value="Schließen"/>
+		<Loc Key="UI_ADD_A_NODE" Value="Knoten hinzufügen"/>
+		<Loc Key="UI_ACTIVE_GLOBAL_ENCHANTMENTS" Value="Aktive globale Bezauberungen"/>
+		<Loc Key="UI_MAGIC" Value="Magie"/>
+		<Loc Key="UI_ALCHEMY" Value="Alchemie"/>
+		<Loc Key="UI_ALCHEMY_DES" Value="Alchemie bezeichnet das Wissen, wie man Gold in Mana und Mana in Gold umwandelt. Zauberer mit der Spezialisierung 'Alchemie' können diese beiden Umwandlungen in einem Verhältnis von 1 zu 1 vollziehen. Alle anderen Zauberer verlieren die Hälfte der eingesetzten Ressource."/>
+		<Loc Key="UI_TRANSMUTE_GOLD_TO_MANA" Value="Gold in Mana umwandeln"/>
+		<Loc Key="UI_TRANSMUTE_MANA_TO_GOLD" Value="Mana in Gold umwandeln"/>
+		<Loc Key="UI_TRANSMUTE" Value="Umwandeln"/>
+		<Loc Key="UI_POWER" Value="Zauberkraft"/>
+		<Loc Key="UI_POWER_DES" Value="Zauberkraft erhaltet Ihr von Eurer Festung, Euren Zauberbüchern, magischen Knoten und religiösen Stadtgebäuden, bei manchen Völkern zudem von der Stadtbevölkerung. Mit Zauberkraft generiert Ihr Mana, erforscht Zaubersprüche und erhöht Eure Zauberfertigkeit.\n\nIndem Ihr auf die jeweiligen Reagenzgläser klickt, könnt Ihr Eure Zauberkraft dem gewünschten Zweck zuweisen."/>
+		<Loc Key="UI_POWER2_DES" Value="Wird zum Generieren von Mana, zur Erforschung von Zaubersprüchen und zur Erhöhung der Zauberfertigkeit verwendet."/>
+		<Loc Key="UI_MANA" Value="Mana:"/>
+		<Loc Key="UI_RESEARCH" Value="Forschung"/>
+		<Loc Key="UI_RESEARCH_DES" Value="Wirkt sich unmittelbar darauf aus, wie schnell Ihr neue Zaubersprüche erlernt. Kann erhöht werden, indem Ihr dem grünen Reagenzglas mehr Zauberkraft zuweist, Gebäude wie die Bibliothek, Weisengilde, Universität und Zauberergilde errichtet oder Helden mit der Fähigkeit 'Weise' anheuert."/>
+		<Loc Key="UI_SKILL" Value="Fertigkeit"/>
+		<Loc Key="UI_CASTING_SKILL" Value="Zauberfertigkeit:"/>
+		<Loc Key="UI_CASTING_SKILL2" Value="Zauberfertigkeit"/>
+		<Loc Key="UI_MANA_RESERVE" Value="Mana-Vorrat:"/>
+		<Loc Key="UI_MANA_RESERVE2" Value="Mana-Vorrat"/>
+		<Loc Key="UI_MANA_RESERVE_DES" Value="Die für das Sprechen von Zaubern verfügbaren Mana-Punkte. Sie können erhöht werden, indem Ihr dem orange-gelben Reagenzglas mehr Zauberkraft zuweist."/>
+		<Loc Key="UI_POWER_BASE" Value="Zauberkraft-Basis:"/>
+		<Loc Key="UI_CASTING" Value="Aktueller Zauberspruch:"/>
+		<Loc Key="UI_RESEARCHING" Value="Aktuelle Forschung:"/>
+		<Loc Key="UI_SUMMON_TO" Value="Beschwören in:"/>
+		<Loc Key="UI_GLOBAL_TAXES_AND_UNREST" Value="Globale Steuern/Unzufriedenheit"/>
+		<Loc Key="UI_TOWNS" Value="Städte"/>
+		<Loc Key="UI_UNITS" Value="Einheiten"/>
+		<Loc Key="UI_CITIZENS" Value="Bürger"/>
+		<Loc Key="UI_ALL_CITIZENS" Value="Bürger insgesamt:"/>
+		<Loc Key="UI_FARMERS" Value="Bauern"/>
+		<Loc Key="UI_FARMERS_DES" Value="Bauern ernähren Euer Volk.\nPro Bürger wird 1 Nahrung{ICON:FoodIcon} benötigt.\n2 überschüssige Nahrung werden am Ende der Runde in 1 Gold{ICON:GoldIcon} umgewandelt.\nJeder Bauer generiert zudem 0,5 Produktion{ICON:ProductionIcon}.\n\n- Hinweis: Nur Bauern, die einen Nahrungsüberschuss produzieren, können Arbeiter werden.\n- Nahrungsmangel in einer Stadt führt zu einer {COLOR:#42C100}Hungersnot{END_COLOR} und verringert die Bevölkerung."/>
+		<Loc Key="UI_FARMERS_MIN" Value="Ihr könnt die Anzahl der Bauern nicht weiter verringern, als für die Ernährung der Bevölkerung der Stadt mindestens nötig ist."/>
+		<Loc Key="UI_WORKERS" Value="Arbeiter"/>
+		<Loc Key="UI_WORKERS_DES" Value="Die Aufgabe von Arbeitern ist es, Produktionspunkte zu generieren, mit denen in der Stadt Gebäude errichtet und Einheiten ausgebildet werden.\n\n- Hinweis: Nur Bauern, die einen Nahrungsüberschuss produzieren, können Arbeiter werden."/>
+		<Loc Key="UI_REBELS" Value="Rebellen"/>
+		<Loc Key="UI_REBELS_DES" Value="Rebellen generieren keine Nahrung, kein Gold und keine Produktion in der Stadt, aber sie verbrauchen weiterhin Nahrung. Je höher die Unzufriedenheit ist, desto mehr Rebellen gibt es.\n\nDie Anzahl der Rebellen kann verringert werden, indem Ihr religiöse Gebäude errichtet oder Unzufriedenheit senkende Zaubersprüche wirkt. Auch die Stationierung nicht-übernatürlicher Einheiten in der Stadt wirkt der Unzufriedenheit entgegen (-1 Rebell pro 2 Einheiten)."/>
+		<Loc Key="UI_RESOURCES" Value="Ressourcen"/>
+		<Loc Key="UI_CONSTRUCTION_QUEUE" Value="Bauwarteschleife"/>
+		<Loc Key="UI_BUY" Value="Kaufen"/>
+		<Loc Key="UI_NEXT_IN_QUEUE" Value="Als Nächstes:"/>
+		<Loc Key="UI_BUILD" Value="Bauen"/>
+		<Loc Key="UI_CONSTRUCTION_MANAGER" Value="Baumenü"/>
+		<Loc Key="UI_BUILDINGS" Value="Gebäude"/>
+		<Loc Key="UI_REQUIRES" Value="Benötigt:"/>
+		<Loc Key="UI_ALLOWS" Value="Ermöglicht:"/>
+		<Loc Key="UI_EQUIP_ITEMS" Value="Gegenstände ausrüsten"/>
+		<Loc Key="UI_FORTRESS_VAULT" Value="Festungsschatzkammer"/>
+		<Loc Key="UI_RESEARCH_SPELLS" Value="Zauber erforschen"/>
+		<Loc Key="UI_RESEARCH_SPELLS2" Value="Zauber erforschen ({0})"/>
+		<Loc Key="UI_WORLD_SPELL" Value="Welt-Zauber"/>
+		<Loc Key="UI_COMBAT_SPELL" Value="Kampf-Zauber"/>
+		<Loc Key="UI_SPELL_TYPE" Value="Zaubertyp:"/>
+		<Loc Key="UI_TARGET" Value="Ziel:"/>
+		<Loc Key="UI_SUMMON" Value="Beschwörung"/>
+		<Loc Key="UI_UNIT_ENCHANTMENT" Value="Einheit bezaubern"/>
+		<Loc Key="UI_UNIT_CURSE" Value="Einheit verfluchen"/>
+		<Loc Key="UI_TOWN_ENCHANTMENT" Value="Stadt bezaubern"/>
+		<Loc Key="UI_TOWN_CURSE" Value="Stadt verfluchen"/>
+		<Loc Key="UI_INSTANT" Value="Sofort"/>
+		<Loc Key="UI_CASTING_COST" Value="Spruchkosten:"/>
+		<Loc Key="UI_UPKEEP_COST2" Value="Unterhaltskosten:"/>
+		<Loc Key="UI_SELECT_A_SPELL" Value="Zauberspruch auswählen"/>
+		<Loc Key="UI_YOUR_PROPERTY" Value="Euer Besitz"/>
+		<Loc Key="UI_YOUR_OFFER" Value="Euer Angebot"/>
+		<Loc Key="UI_THEIR_PROPERTY" Value="Besitz der Gegenseite"/>
+		<Loc Key="UI_THEIR_OFFER" Value="Gegenangebot"/>
+		<Loc Key="UI_MAINTENANCE" Value="Unterhalt:"/>
+		<Loc Key="UI_ACCEPT" Value="Akzeptieren"/>
+		<Loc Key="UI_CHOICES" Value="Wahl treffen"/>
+		<Loc Key="UI_VIDEO" Value="Grafik"/>
+		<Loc Key="UI_VIDEO_SETTINGS" Value="Grafikeinstellungen"/>
+		<Loc Key="UI_AUDIO" Value="Sound"/>
+		<Loc Key="UI_AUDIO_SETTINGS" Value="Soundeinstellungen"/>
+		<Loc Key="UI_OTHER" Value="Sonstiges"/>
+		<Loc Key="UI_OTHER_SETTINGS" Value="Sonstige Einstellungen"/>
+		<Loc Key="UI_CREDITS" Value="Mitwirkende"/>
+		<Loc Key="UI_RESOLUTION_OPTIONS" Value="Auflösung"/>
+		<Loc Key="UI_REFRESH_RATE" Value="Framerate-Limit"/>
+		<Loc Key="UI_REFRESH_CAP_NONE" Value="Keins"/>
+		<Loc Key="UI_REFRESH_CAP_30" Value="30 fps"/>
+		<Loc Key="UI_REFRESH_CAP_60" Value="60 fps"/>
+		<Loc Key="UI_MUSIC_VOLUME" Value="Musiklautstärke"/>
+		<Loc Key="UI_SFX_VOLUME" Value="Effektlautstärke"/>
+		<Loc Key="UI_SELECT_RACE_AND_BANNER" Value="Volk und Banner auswählen"/>
+		<Loc Key="UI_ARCANIAN_RACES" Value="Arcanische Völker"/>
+		<Loc Key="UI_MYRRAN_RACES" Value="Myrronische Völker"/>
+		<Loc Key="UI_PRODUCTION_PER_FARMER" Value="Produktion pro Bauer:"/>
+		<Loc Key="UI_PRODUCTION_PER_WORKER" Value="Produktion pro Arbeiter:"/>
+		<Loc Key="UI_PRODUCTION_PER_REBEL" Value="Produktion pro Rebell:"/>
+		<Loc Key="UI_APPLIES_ENCHANTMENTS" Value="Bewirkt folgende Bezauberungen:"/>
+		<Loc Key="UI_SHOW_ON_HUD" Value="Im Interface zeigen"/>
+		<Loc Key="UI_CAST_SPELLS" Value="Zauber\nsprechen"/>
+		<Loc Key="UI_CAST_SPELLS2" Value="Zauber sprechen ({0})"/>
+		<Loc Key="UI_WARNING" Value="Achtung"/>
+		<Loc Key="UI_FOOD_UPKEEP_FAILING" Value="Eure Städte produzieren nicht genug Nahrung, um alle Eure Einheiten zu versorgen, Eure Hoheit. Könntet Ihr vielleicht Arbeiter als Bauern abstellen, um mehr Nahrung zu produzieren?\n\nFalls Ihr ohne eine Änderung fortfahrt, werden Euch einige Einheiten den Rücken kehren!"/>
+		<Loc Key="UI_MANA_UPKEEP_FAILING" Value="Eure Städte generieren nicht genug Mana, um alle Eure Einheiten zu versorgen, Eure Hoheit. Könntet Ihr vielleicht Eure Zauberkraft umverteilen, damit mehr Mana gewonnen wird?\n\nFalls Ihr ohne eine Änderung fortfahrt, werden Euch einige Einheiten den Rücken kehren!"/>
+		<Loc Key="UI_CAST" Value="Zaubern"/>
+		<Loc Key="UI_CASTING_TIME" Value="Spruchdauer:"/>
+		<Loc Key="UI_NEUTRAL_UNITS" Value="Neutrale Einheiten"/>
+		<Loc Key="UI_SELECT_TARGET" Value="Ziel auswählen"/>
+		<Loc Key="UI_ARTEFACTS" Value="Artefakte"/>
+		<Loc Key="UI_TOTAL_UPKEEP" Value="Gesamtunterhalt"/>
+		<Loc Key="UI_HEROES" Value="Helden"/>
+		<Loc Key="UI_ARMIES" Value="Armeen"/>
+		<Loc Key="UI_SELECT_TARGET2" Value="Ziel auswählen:"/>
+		<Loc Key="UI_CASTINGS_SPELL" Value="Spricht Zauber"/>
+		<Loc Key="UI_UNUSED_ARTEFACTS" Value="Nicht verwendete Artefakte"/>
+		<Loc Key="UI_MANAGE_ARTEFACTS" Value="Artefakte verwalten"/>
+		<Loc Key="UI_LOCATION_AWARD" Value="Ortsbonus"/>
+		<Loc Key="UI_SELECT_A_SPELL_WARD_TO_CAST" Value="Zu erzeugenden magischen Schild auswählen"/>
+		<Loc Key="UI_NATURE_WARD" Value="Naturschild"/>
+		<Loc Key="UI_SORCERY_WARD" Value="Hexereischild"/>
+		<Loc Key="UI_CHAOS_WARD" Value="Chaosschild"/>
+		<Loc Key="UI_LIFE_WARD" Value="Lebensschild"/>
+		<Loc Key="UI_DEATH_WARD" Value="Todesschild"/>
+		<Loc Key="UI_SELECT_AN_ENCHANTMENT_TO_DISJUNCT" Value="Eine Bezauberung zum Kontern auswählen"/>
+		<Loc Key="UI_SELECT_TARGET_FOR_DRAIN_POWER" Value="Ziel für Zauberkraftentzug auswählen"/>
+		<Loc Key="UI_SELECT_TARGET_FOR" Value="Ziel auswählen für "/>
+		<Loc Key="UI_LOSES" Value="Verluste"/>
+		<Loc Key="UI_POINTS_OF_MANA" Value="Mana-Punkt(e)."/>
+		<Loc Key="UI_POINTS_OF_CASTING_SKILL" Value="Zauberfertigkeitspunkt(e)."/>
+		<Loc Key="UI_CREATE_ARTEFACT" Value="Artefakt erzeugen"/>
+		<Loc Key="UI_ENCHANT_ITEM" Value="Gegenstand bezaubern"/>
+		<Loc Key="UI_SWORD" Value="Schwert"/>
+		<Loc Key="UI_WAND" Value="Zauberstab"/>
+		<Loc Key="UI_MACE" Value="Streitkolben"/>
+		<Loc Key="UI_MISC" Value="Sonstige"/>
+		<Loc Key="UI_AXE" Value="Axt"/>
+		<Loc Key="UI_SHIELD" Value="Schild"/>
+		<Loc Key="UI_BOW" Value="Bogen"/>
+		<Loc Key="UI_CHAIN" Value="Kettenpanzer"/>
+		<Loc Key="UI_STAFF" Value="Stab"/>
+		<Loc Key="UI_PLATE" Value="Plattenpanzer"/>
+		<Loc Key="UI_COST" Value="Kosten:"/>
+		<Loc Key="UI_ONLY_FOUR_POWERS_MAY_BE_ENCHANTED_INTO_AN_ITEM" Value="Maximal 4 Eigenschaften möglich!"/>
+		<Loc Key="UI_SHIFT_FAILED" Value="Wechsel fehlgeschlagen"/>
+		<Loc Key="UI_DESTINATION_INVALID" Value="Ziel ungültig"/>
+		<Loc Key="UI_DESTINATION_OCCUPIED" Value="Ziel besetzt"/>
+		<Loc Key="UI_DESTINATION_UNAVAILABLE" Value="Ziel nicht verfügbar"/>
+		<Loc Key="UI_TARGETING_FAILED" Value="Zielauswahl fehlgeschlagen"/>
+		<Loc Key="UI_TARGET_UNAVAILABLE" Value="Ziel nicht verfügbar"/>
+		<Loc Key="UI_LOADING_BATTLE" Value="Schlacht lädt ..."/>
+		<Loc Key="UI_OPT_EN_ADVANCED" Value="Fortgeschritten"/>
+		<Loc Key="UI_OPT_EN_BEGINNER" Value="Anfänger"/>
+		<Loc Key="UI_OPT_EN_SKILLED" Value="Erfahren"/>
+		<Loc Key="UI_OPT_EN_MASTER" Value="Meister"/>
+		<Loc Key="UI_OPT_EN_WEAK" Value="Schwach - 0,5"/>
+		<Loc Key="UI_OPT_EN_NORMAL" Value="Normal - 1,0"/>
+		<Loc Key="UI_OPT_EN_POWERFUL" Value="Stark - 1,5"/>
+		<Loc Key="UI_OPT_EN_MIGHTY" Value="Mächtig - 2,0"/>
+		<Loc Key="UI_OPT_EN_OVERPOWERING" Value="Übermächtig - 2,5"/>
+		<Loc Key="UI_BACK" Value="Zurück"/>
+		<Loc Key="UI_NEW_OUTPOST_FOUNDED" Value="Neuer Außenposten gegründet"/>
+		<Loc Key="UI_ALL_TOWNS" Value="Alle Städte"/>
+		<Loc Key="UI_AMMO" Value="Munition:"/>
+		<Loc Key="UI_CASTS" Value="spricht"/>
+		<Loc Key="UI_MELEE2" Value="Nahkampfangriff"/>
+		<Loc Key="UI_MELEE2_DES" Value="Gibt an, wie viele Proben jede Untereinheit während eines einzelnen Nahkampfangriffs ablegt.\n\n{ICON:MeleeIconAdded} repräsentiert einen Bonus durch Zaubersprüche oder Spezialfertigkeiten.\n\n{ICON:MeleeIconMissing} repräsentiert einen Malus."/>
+		<Loc Key="UI_MELEE3_DES" Value="Gibt an, wie viele Proben jede Untereinheit während eines einzelnen Nahkampfangriffs ablegt."/>
+		<Loc Key="UI_RANGED2" Value="Fernkampfangriff"/>
+		<Loc Key="UI_RANGED2_DES" Value="Gibt an, wie viele Proben jede Untereinheit während eines einzelnen Fernkampfangriffs ablegt.\n\n{ICON:RangedIconAdded} repräsentiert einen Bonus durch Zaubersprüche oder Spezialfertigkeiten.\n\n{ICON:RangedIconMissing} repräsentiert einen Malus."/>
+		<Loc Key="UI_RANGED3_DES" Value="Gibt an, wie viele Proben jede Untereinheit während eines einzelnen Fernkampfangriffs ablegt."/>
+		<Loc Key="UI_ARMOUR2" Value="Rüstung"/>
+		<Loc Key="UI_ARMOUR2_DES" Value="Gibt an, wie viele Proben jede Untereinheit während einer einzelnen Verteidigungsaktion ablegt. Verteidigungsproben werden durchgeführt, um den erlittenen Schaden durch Nah- und Fernkampfangriffe sowie durch bestimmte Angriffszauber zu verringern.\n\n{ICON:ArmourIconAdded} repräsentiert einen Bonus durch Zaubersprüche oder Spezialfertigkeiten.\n\n{ICON:ArmourIconMissing} repräsentiert einen Malus."/>
+		<Loc Key="UI_ARMOUR3_DES" Value="Gibt an, wie viele Proben jede Untereinheit während einer einzelnen Verteidigungsaktion ablegt. Verteidigungsproben werden durchgeführt, um den erlittenen Schaden durch Nah- und Fernkampfangriffe sowie durch bestimmte Angriffszauber zu verringern."/>
+		<Loc Key="UI_RESIST2" Value="Resistenz"/>
+		<Loc Key="UI_RESIST2_DES" Value="Gibt an, wie gut eine Einheit negativen Effekten gegnerischer Angriffe und Zauber standhalten kann. Jeder Resistenzpunkt erhöht die Chance, solchen Effekten zu widerstehen, um 10 %.\n\n{ICON:ResistanceIconAdded} repräsentiert einen Bonus durch Zaubersprüche oder Spezialfertigkeiten.\n\n{ICON:ResistanceIconMissing} repräsentiert einen Malus."/>
+		<Loc Key="UI_RESIST3_DES" Value="Gibt an, wie gut eine Einheit negativen Effekten gegnerischer Angriffe und Zauber standhalten kann. Jeder Resistenzpunkt erhöht die Chance, solchen Effekten zu widerstehen, um 10 %."/>
+		<Loc Key="UI_FIGURES2" Value="Anzahl der Untereinheiten"/>
+		<Loc Key="UI_FIGURES2_DES" Value="Gibt an, aus wie vielen einzelnen Kriegern oder Kreaturen die Einheit besteht. Sinkt die Anzahl der Untereinheiten, verringert sich auch die Kampfeffektivität der Einheit.\n\n{ICON:FigureIconMissing} repräsentiert eine fehlende Untereinheit.\n\nFehlende Untereinheiten werden zwischen den Runden auf der Weltkarte nach und nach wiederhergestellt."/>
+		<Loc Key="UI_FIGURES3_DES" Value="Gibt an, aus wie vielen einzelnen Kriegern oder Kreaturen die Einheit besteht. Sinkt die Anzahl der Untereinheiten, verringert sich auch die Kampfeffektivität der Einheit."/>
+		<Loc Key="UI_HITS2" Value="Trefferpunkte pro Untereinheit"/>
+		<Loc Key="UI_HITS2_DES" Value="Gibt an, wie viele Treffer jede Untereinheit einstecken kann, bevor sie ausgeschaltet wird. Der Schaden wird dabei stets der ersten Untereinheit zugefügt.\n\n{ICON:HitIconAdded} repräsentiert einen Bonus durch Zaubersprüche oder Spezialfertigkeiten, der die Trefferpunkte aller Untereinheiten erhöht.\n\n{ICON:HitIconMissing} repräsentiert einen Schadenspunkt, den die erste Untereinheit erlitten hat.\n\nDie meisten Einheiten regenerieren ihre Trefferpunkte nach und nach zwischen den Runden auf der Weltkarte oder können mit Zaubersprüchen/anderen Effekten geheilt werden."/>
+		<Loc Key="UI_HITS3_DES" Value="Gibt an, wie viele Treffer jede Untereinheit einstecken kann, bevor sie ausgeschaltet wird."/>
+		<Loc Key="UI_AMMO2" Value="Munition"/>
+		<Loc Key="UI_AMMO2_DES" Value="Gibt an, wie oft die Einheit schießen kann (trifft auch auf Einheiten mit magischen Fernkampfangriffen zu).\nSobald die Munition aufgebraucht ist, kann die Einheit nur noch Nahkampfangriffe durchführen."/>
+		<Loc Key="UI_MANA2" Value="Mana"/>
+		<Loc Key="UI_MANA2_DES" Value="Der aktuelle Mana-Vorrat. Zu beachten gilt, dass Euch Eure Zauberfertigkeit{ICON:CastingSkillIcon} im Hinblick darauf einschränken kann, wie viel Mana Ihr im Kampf einsetzen dürft."/>
+		<Loc Key="UI_MOVEMENT2" Value="Bewegung"/>
+		<Loc Key="UI_MOVEMENT2_DES" Value="Die Anzahl der Bewegungspunkte gibt an, wie viele Hexfelder die Einheit pro Spielzug auf der Weltkarte ziehen darf, aber repräsentiert auch die Aktionspunkte der Einheit in der Schlacht.\n\n{ICON:MovementWalkingIcon} Bewegung auf dem Land\n\n{ICON:MovementSwimmingIcon} Bewegung auf dem Wasser\n\n{ICON:MovementFlyingIcon} Bewegung in der Luft"/>
+		<Loc Key="UI_MOVEMENT3_DES" Value="Die Anzahl der Bewegungspunkte gibt an, wie viele Hexfelder die Einheit pro Spielzug auf der Weltkarte ziehen darf, aber repräsentiert auch die Aktionspunkte der Einheit in der Schlacht."/>
+		<Loc Key="UI_UPKEEP2" Value="Unterhalt"/>
+		<Loc Key="UI_UPKEEP2_DES" Value="Gibt die Unterhaltskosten der Einheit in Gold{ICON:GoldIcon}, Nahrung{ICON:FoodIcon} und/oder Mana{ICON:ManaIcon} pro Runde an. Solltet Ihr den Unterhalt nicht aufbringen können, wird die Einheit aufgelöst."/>
+		<Loc Key="UI_TOTAL_HEALTH" Value="Zustand der Einheit"/>
+		<Loc Key="UI_TOTAL_HEALTH_DES" Value="Zeigt an, wie viel Lebenskraft die gesamte Einheit noch aufweist."/>
+		<Loc Key="UI_CASTING_SKILL2_DES" Value="Gibt das Limit für die Zauberspruchkosten für Euch in diesem Kampf an. Ist zugleich der Höchstwert dafür, mit wie viel Mana{ICON:ManaIcon} Ihr einen Zauberspruch verstärken könnt (bei Zaubersprüchen, bei denen dies möglich ist)."/>
+		<Loc Key="UI_CASTING_SKILL3_DES" Value="Auf der Weltkarte gibt die Zauberfertigkeit an, wie viel Mana maximal pro Runde für das Sprechen von Zaubern ausgegeben werden kann.\n\nAuf dem Schlachtfeld repräsentiert der Wert die maximalen Zauberspruchkosten und zugleich Euren Mana-Vorrat für die gesamte Schlacht."/>
+		<Loc Key="UI_CASTING_SKILL_PROGRESS" Value="Zauberfertigkeit-Fortschritt"/>
+		<Loc Key="UI_CASTING_SKILL_PROGRESS_DES" Value="Jeder neue Zauberfertigkeitspunkt kostet doppelt so viel wie der vorherige.\n\nSobald der Fortschrittsbalken gefüllt ist, erhaltet Ihr +1 Zauberfertigkeit.\n\nUm diesen Vorgang zu beschleunigen, könnt Ihr Eure Zauberkraft dem roten Reagenzglas zuweisen."/>
+		<Loc Key="UI_CASTING_RANGE" Value="Festungsdistanz"/>
+		<Loc Key="UI_CASTING_RANGE_DES" Value="Ein Multiplikator, der sich auf die Mana-Kosten Eurer Zaubersprüche in der Schlacht auswirkt. Je weiter entfernt von der Zauberfestung die Schlacht stattfindet, desto größer fällt der Multiplikator aus."/>
+		<Loc Key="UI_SAVE_GAME" Value="Speichern"/>
+		<Loc Key="UI_LOAD_GAME" Value="Laden"/>
+		<Loc Key="UI_QUIT_TO_MENU" Value="Zurück ins Menü"/>
+		<Loc Key="UI_QUIT_GAME" Value="Spiel beenden"/>
+		<Loc Key="UI_THE_ARMIES_OF" Value="Die Armeen von "/>
+		<Loc Key="UI_BASE_VALUE" Value="Grundwert"/>
+		<Loc Key="UI_TOTAL_VALUE" Value="Gesamtwert"/>
+		<Loc Key="UI_A_MERCHANT_ARRIVES" Value="Ein Händler trifft ein und bietet '{0}' (magisch) zum Verkauf an. Der Preis beträgt lediglich {1} Gold."/>
+		<Loc Key="UI_GOLD_INCOME" Value="Gold"/>
+		<Loc Key="UI_GOLD_INCOME_DES" Value="Zeigt Euren aktuellen Goldvorrat und Eure Goldeinnahmen pro Runde an. Wenn der Goldvorrat unter 0 fällt, werden Einheiten aufgelöst, um Eure Ausgaben zu reduzieren."/>
+		<Loc Key="UI_MANA_INCOME" Value="Mana"/>
+		<Loc Key="UI_MANA_INCOME_DES" Value="Zeigt Euren aktuellen Mana-Vorrat und Eure Mana-Generierung pro Runde an. Wenn der Mana-Vorrat unter 0 fällt, werden Einheiten aufgelöst, um Eure Ausgaben zu reduzieren."/>
+		<Loc Key="UI_FOOD" Value="Nahrung"/>
+		<Loc Key="UI_FOOD_DES" Value="Wird benötigt, um Eure Bürger und normalen Einheiten zu versorgen."/>
+		<Loc Key="UI_FOOD_INCOME" Value="Nahrung (produziert/verbraucht)"/>
+		<Loc Key="UI_FOOD_INCOME_DES" Value="Wird benötigt, um Eure Armeen zu versorgen. Wenn der Nahrungsvorrat unter 0 fällt, werden Einheiten aufgelöst. Nahrungsüberschuss wird nicht gelagert. Stattdessen werden 2 überschüssige Nahrung am Ende der Runde in 1 Gold{ICON:GoldIcon} umgewandelt."/>
+		<Loc Key="UI_FOOD_INCOME2_DES" Value="Nahrung wird verwendet, um sowohl Eure Stadtbevölkerung als auch Eure Armeen zu versorgen. Nahrungsüberschuss wird nicht gelagert.\n\nDeckt die Nahrungsversorgung nicht die Nachfrage, kommt es zu Hungersnöten in der Stadt und die Bevölkerung wird dezimiert.\n2 überschüssige Nahrung werden am Ende der Runde stets in 1 Gold{ICON:GoldIcon} umgewandelt."/>
+		<Loc Key="UI_FAME" Value="Ruhm"/>
+		<Loc Key="UI_FAME_DES" Value="Ruhm steht für Euren Ruf. Helden schließen sich eher berühmteren Zauberern an, und auch die Wahrscheinlichkeit, dass Händler ihre Artefakte feilbieten, ist bei größerem Ruhm höher. Darüber hinaus verringert Euer Ruhm die Unterhaltskosten der Truppen: um 1 Gold pro Ruhmpunkt."/>
+		<Loc Key="UI_GOLD" Value="Gold"/>
+		<Loc Key="UI_GOLD_DES" Value="Wird für den Unterhalt von Einheiten, den Kauf neuer Einheiten oder Gebäude sowie die Rekrutierung von Helden verwendet. Ruhm verringert die Unterhaltskosten für Einheiten."/>
+		<Loc Key="UI_GOLD_PER_TURN" Value="Gold pro Runde"/>
+		<Loc Key="UI_GOLD_DETAILS_FOOD" Value="Nahrung zu Gold"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_RESOURCES" Value="Städte - Ressourcen"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_TAXES" Value="Städte - Steuern"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_UPKEEP" Value="Städte - Unterhalt"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_PRODUCTION" Value="Städte - Produktion"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_INCOME" Value="Städte - sonstige Einnahmen"/>
+		<Loc Key="UI_GOLD_DETAILS_UNITS_UPKEEP" Value="Einheiten - Unterhalt"/>
+		<Loc Key="UI_GOLD_DETAILS_UNITS_UPKEEP_FAME" Value="Ruhm - Unterhalt für Einheiten"/>
+		<Loc Key="UI_GOLD_DETAILS_UNITS_INCOME" Value="Einheiten - Einnahmen"/>
+		<Loc Key="UI_GOLD_DETAILS_ROAD_NETWORK" Value="Straßennetzwerk - Einnahmen"/>
+		<Loc Key="UI_FOOD_DETAILS_TOWN_INCOME" Value="Städte - sonstige Einnahmen"/>
+		<Loc Key="UI_FOOD_DETAILS_UNITS_INCOME" Value="Einheiten - Einnahmen"/>
+		<Loc Key="UI_FOOD_DETAILS_UNITS_UPKEEP" Value="Unterhalt"/>
+		<Loc Key="UI_FOOD_DETAILS_CHEAT" Value="Cheaten"/>
+		<Loc Key="UI_MANA_DETAILS_POWER" Value="Durch Zauberkraft"/>
+		<Loc Key="UI_MANA_DETAILS_INCOME_BONUS" Value="Bonus"/>
+		<Loc Key="UI_MANA_DETAILS_TOWN_UPKEEP" Value="Städte - Unterhalt"/>
+		<Loc Key="UI_MANA_DETAILS_TOWN_INCOME" Value="Städte - Einnahmen"/>
+		<Loc Key="UI_MANA_DETAILS_UNITS_UPKEEP" Value="Einheiten - Unterhalt"/>
+		<Loc Key="UI_MANA_DETAILS_UNITS_INCOME" Value="Einheiten - Einnahmen"/>
+		<Loc Key="UI_MANA_CHANNELER_DISCOUNT" Value="Bonus - 'Übertragung'"/>
+		<Loc Key="UI_MANA_CONJUER_DISCOUNT" Value="Bonus - 'Beschwörer'"/>
+		<Loc Key="UI_MANA_NATURE_SUMMONER_DISCOUNT" Value="Bonus - 'Naturbeschwörer'"/>
+		<Loc Key="UI_MANA_DETAILS_ENCHANTMENTS" Value="Bezauberungen"/>
+		<Loc Key="UI_MANA_DETAILS_CHEAT" Value="Cheaten"/>
+		<Loc Key="UI_MANA_DETAILS_ENCHANTMENTS_DISCOUNT" Value="Bonus - Bezauberungen"/>
+		<Loc Key="UI_POWER_DETAILS_TOWN_INCOME" Value="Städte - Einnahmen"/>
+		<Loc Key="UI_POWER_DETAILS_NODE_INCOME" Value="Knoten - Einnahmen"/>
+		<Loc Key="UI_POWER_DETAILS_VOLCANO_INCOME" Value="Vulkan - Einnahmen"/>
+		<Loc Key="UI_POWER_DETAILS_CHEAT" Value="Cheaten"/>
+		<Loc Key="UI_RESEARCH_DETAILS_POWER" Value="Zauberkraft"/>
+		<Loc Key="UI_RESEARCH_DETAILS_SAGE_MASTERY" Value="Weisheitsbeherrschung - Einnahmen"/>
+		<Loc Key="UI_RESEARCH_DETAILS_TOWN_INCOME" Value="Städte - Einnahmen"/>
+		<Loc Key="UI_RESEARCH_DETAILS_UNITS_INCOME" Value="Einheiten - Einnahmen"/>
+		<Loc Key="UI_RESEARCH_DETAILS_CHEAT" Value="Cheaten"/>
+		<Loc Key="UI_PRODUCTION" Value="Produktion"/>
+		<Loc Key="UI_PRODUCTION_DES" Value="Produktionspunkte werden für den Bau von Gebäuden und für die Ausbildung von Einheiten verwendet. Je mehr Produktionspunkte Eure Bürger generieren, desto schneller wird gebaut."/>
+		<Loc Key="UI_PRODUCTION2_DES" Value="Wird verwendet, um Gebäude zu bauen und Einheiten auszubilden."/>
+		<Loc Key="UI_PRODUCTION_PER_TURN" Value="Produktion pro Runde"/>
+		<Loc Key="UI_SUMMONING_LOCATION" Value="Ort der Beschwörung"/>
+		<Loc Key="UI_SUMMONING_LOCATION_DES" Value="An diesem Ort befindet sich Euer Beschwörungskreis, wo beschworene Einheiten erscheinen.\n\nDer Ort Eures Beschwörungskreises kann mit dem Zauber 'Beschwörungskreis' geändert werden."/>
+		<Loc Key="UI_CURRENTLY_CASTING" Value="Aktueller Zauberspruch"/>
+		<Loc Key="UI_CURRENTLY_CASTING_DES" Value="Zeigt den Zauber an, der gerade gesprochen wird. Je nach Eurer Zauberfertigkeit und den Mana-Kosten des Zaubers kann es länger als 1 Runde dauern, bis das Sprechen abgeschlossen ist. Ihr werdet benachrichtigt, sobald der Zauberspruch bereit ist."/>
+		<Loc Key="UI_CURRENTLY_RESEARCHING" Value="Aktuelle Forschung"/>
+		<Loc Key="UI_CURRENTLY_RESEARCHING_DES" Value="Zeigt Euren aktuellen Forschungsfokus an. Die Forschungsgeschwindigkeit hängt unmittelbar von der Anzahl der Forschungspunkte ab, die durch Zuweisung von Zauberkraft auf das grüne Reagenzglas angepasst werden kann."/>
+		<Loc Key="UI_VALUE" Value="Wert:"/>
+		<Loc Key="UI_SET_AMOUNT" Value="Menge festlegen"/>
+		<Loc Key="UI_SELECT_A_UNIT_OR_BUILDING" Value="Wählt ein Gebäude aus der linken Liste oder eine Einheit aus der rechten Liste aus, um Detailinformationen darüber zu erhalten."/>
+		<Loc Key="UI_POPULATION" Value="Bevölkerung"/>
+		<Loc Key="UI_POPULATION_DES" Value="Die Anzahl der Personen, die in dieser Stadt leben, sowie der Anstieg pro Runde.\n\nIm Bereich 'Bürger' könnt Ihr je 1.000 Bevölkerung eine Beschäftigung als Bauer oder Arbeiter zuweisen.\n\nDie angezeigte Max. Bevölkerung ist Euer Startwert für das Maximum und kann durch verschiedene Faktoren, wie etwa Zaubersprüche oder Gebäude, erhöht werden."/>
+		<Loc Key="UI_UNREST" Value="Unzufriedenheit"/>
+		<Loc Key="UI_UNREST_DES" Value="Das Ausmaß der Unzufriedenheit in dieser Stadt. In die Berechnungen fließen sowohl die globale Unzufriedenheit in Eurem Reich als auch eventuelle andere Modifikatoren mit ein. Unzufriedenheit bringt Rebellen hervor.\n\nDie Unzufriedenheit hängt vom Steuersatz, den Spannungen zwischen den Völkern (je nach Standort Eurer Festung), permanenten Bezauberungen und stationierten Truppen ab."/>
+		<Loc Key="UI_CITIZENS_DES" Value="Die Anzahl der Bürger basiert auf der Bevölkerungsgröße (1 Bürger pro 1.000 Bevölkerung). Bürger verdingen sich standardmäßig als Bauern, die Nahrung{ICON:FoodIcon} produzieren. Ihr könnt sie jedoch als Arbeiter einteilen, um die Produktion{ICON:ProductionIcon} zu erhöhen. Unzufriedenheit kann dazu führen, dass Bürger zu Rebellen werden. Diese weigern sich zu arbeiten und zu produzieren."/>
+		<Loc Key="UI_INCOME_FROM_TAXES" Value="Einnahmen aus Steuern"/>
+		<Loc Key="UI_INCOME_FROM_TAXES_DES" Value="{COLOR:#910D0D}Der festgelegte Steuersatz gilt für ALLE Städte unter Eurer Kontrolle.{END_COLOR}\n\nDieser Wert gibt an, wie viel Gold Ihr durch Steuern in all Euren Städten pro Runde einnehmt.\nEr basiert auf dem Steuersatz und der Anzahl der Bürger. Ein höherer Steuersatz sorgt auch für eine höhere globale Unzufriedenheit."/>
+		<Loc Key="UI_GLOBAL_UNREST" Value="Globale Unzufriedenheit"/>
+		<Loc Key="UI_GLOBAL_UNREST_DES" Value="Zeigt den Prozentsatz Eurer Bürger an, die mit dem aktuellen Steuersatz nicht zufrieden sind. Dieser Wert fließt in die Berechnung der individuellen Unzufriedenheit in den einzelnen Städten ein."/>
+		<Loc Key="UI_ON" Value="auf"/>
+		<Loc Key="UI_BELONGING_TO" Value="gehört"/>
+		<Loc Key="UI_ITEM_PAY_TO_TRANSFER" Value="Um diesen Gegenstand dem ausgewählten Helden zukommen zu lassen, müsst Ihr Eure magischen Kräfte einsetzen.\nDie Kosten dafür betragen:"/>
+		<Loc Key="UI_YOUR_MANA_RESERVE_IS" Value="Euer Mana-Vorrat beträgt:"/>
+		<Loc Key="UI_YOU_DO_NOT_HAVE_ENOUGH_MANA" Value="Ihr habt nicht genug Mana!"/>
+		<Loc Key="UI_CASTING_SPELL_BLAST_INFO" Value="Um diesen Zauber zu kontern, müsst Ihr so viel Mana aufwenden, wie der sprechende Zauberer bereits investiert hat."/>
+		<Loc Key="UI_EQUIP_ARTEFACTS" Value="Artefakte ausrüsten"/>
+		<Loc Key="UI_QUIT_WITH_SAVE" Value="Speichern und beenden"/>
+		<Loc Key="UI_QUIT_WITHOUT_SAVE" Value="Ohne Speichern beenden"/>
+		<Loc Key="UI_QUIT_GAME_DESCRIPTION" Value="Möchtet Ihr Euren Spielstand speichern?"/>
+		<Loc Key="UI_SAVE" Value="Speichern"/>
+		<Loc Key="UI_ENTER_SAVE_NAME" Value="Spielstandnamen eingeben"/>
+		<Loc Key="UI_LOAD" Value="Laden"/>
+		<Loc Key="UI_UNKNOWN_COST" Value="???"/>
+		<Loc Key="UI_SPECIAL" Value="???"/>
+		<Loc Key="UI_BONUSES" Value="Boni"/>
+		<Loc Key="UI_SPELLS" Value="Zaubersprüche"/>
+		<Loc Key="UI_LIFE" Value="Leben"/>
+		<Loc Key="UI_DEATH" Value="Tod"/>
+		<Loc Key="UI_NATURE" Value="Natur"/>
+		<Loc Key="UI_SORCERY" Value="Hexerei"/>
+		<Loc Key="UI_CHAOS" Value="Chaos"/>
+		<Loc Key="UI_REQUIRED" Value="Erforderlich"/>
+		<Loc Key="UI_ENTER_NAME_ERROR" Value="Bitte gebt einen Namen für Euren Zauberer ein."/>
+		<Loc Key="UI_NAME_AND_PORTRAIT" Value="Porträt und Name"/>
+		<Loc Key="UI_NAME" Value="Name:"/>
+		<Loc Key="UI_NEXT" Value="Weiter"/>
+		<Loc Key="UI_TRAITS_AND_MAGIC" Value="Spezialisierungen und Zauberbücher"/>
+		<Loc Key="UI_PICKS" Value="Punkte:"/>
+		<Loc Key="UI_SPELLS_TO_PICK" Value="Zaubersprüche auswählen:"/>
+		<Loc Key="UI_COMMON" Value="Gewöhnlich:"/>
+		<Loc Key="UI_COMMON2" Value="Gewöhnlich"/>
+		<Loc Key="UI_UNCOMMON" Value="Ungewöhnlich:"/>
+		<Loc Key="UI_UNCOMMON2" Value="Ungewöhnlich"/>
+		<Loc Key="UI_RARE" Value="Selten:"/>
+		<Loc Key="UI_RARE2" Value="Selten"/>
+		<Loc Key="UI_VERYRARE" Value="Sehr selten"/>
+		<Loc Key="UI_ENCHANTMENTS_YOU_CONTROL" Value="Bezauberungen unter Eurer Kontrolle"/>
+		<Loc Key="UI_NO_INFORMATION_AVAILABLE" Value="Keine Informationen verfügbar"/>
+		<Loc Key="UI_UNITS_DISBANDED" Value="Einheiten aufgelöst"/>
+		<Loc Key="UI_UNITS_DISBANDED_DES" Value="Eure Hoheit, ich habe schlechte Nachrichten! Einige Einheiten sind aufgrund von Gold-, Nahrungs- und/oder Mana-Mangel aus Eurer Armee desertiert!"/>
+		<Loc Key="UI_THE_CITIES_OF" Value="Die Städte von {0}"/>
+		<Loc Key="UI_GO_TO_CITY" Value="Zur Stadt gehen"/>
+		<Loc Key="UI_START_EVENT" Value="Ereignis starten"/>
+		<Loc Key="UI_START_SCRIPT" Value="Skript starten"/>
+		<Loc Key="UI_INVALID_TARGET" Value="Ungültiges Ziel"/>
+		<Loc Key="UI_USE_PICKS_ERROR" Value="Ihr müsst alle Eure Punkte verteilen, um fortfahren zu können."/>
+		<Loc Key="UI_LIFE_AND_DEATH_ERROR" Value="Ihr könnt nicht Lebens- und Todeszauberbücher zugleich auswählen."/>
+		<Loc Key="UI_SELECT_MORE_SPELLS" Value="Ihr müsst mehr Zaubersprüche für diese Sphäre auswählen."/>
+		<Loc Key="UI_HISTORY" Value="Vergleich"/>
+		<Loc Key="UI_MIRROR" Value="Spiegel"/>
+		<Loc Key="UI_TRAITS" Value="Spezialisierungen"/>
+		<Loc Key="UI_TRAITS_DES" Value="Die Spezialfertigkeiten des Zauberers. Neue Spezialisierungen könnt Ihr durch das Säubern von sehr schwierigen Orten erhalten.\n\nDie maximale Anzahl an Spezialisierungen beträgt 6."/>
+		<Loc Key="UI_WEALTH" Value="Besitz"/>
+		<Loc Key="UI_ARMY_STAT" Value="Armeestärke"/>
+		<Loc Key="UI_RESEARCH_STAT" Value="Forschung"/>
+		<Loc Key="UI_MAGIC_STAT" Value="Zauberkraft"/>
+		<Loc Key="UI_TOWNS_STAT" Value="Anzahl der Städte"/>
+		<Loc Key="UI_TIME" Value="Zeit"/>
+		<Loc Key="UI_HISTORY_OF_WIZARDS_POWER" Value="Vergleich der Zauberer"/>
+		<Loc Key="UI_HELP_MYRRAN_RACES" Value="Myrronische Völker"/>
+		<Loc Key="UI_HELP_MYRRAN_RACES_DES" Value="Myrronische Völker können nur ausgewählt werden, wenn der Zauberer über die Spezialisierung 'Myrroner' verfügt."/>
+		<Loc Key="UI_VERSUS" Value="VS"/>
+		<Loc Key="UI_SEND_FAMILIAR" Value="Vertrauten schicken"/>
+		<Loc Key="UI_COMMAND_PERSONALLY" Value="Selbst befehligen"/>
+		<Loc Key="UI_COMBAT_TEXT1" Value="Der Vertraute sagt: 'Eure Hoheit, wenn Ihr mich Eure Truppen befehligen lasst, sage ich folgenden Ausgang voraus:'"/>
+		<Loc Key="UI_COMBAT_TEXT2" Value="Möchtet Ihr die Truppen selbst befehligen, dies Eurem Vertrauten überlassen oder vielleicht gar nicht kämpfen?"/>
+		<Loc Key="UI_COMBAT_TEXT3" Value="Eurem Vertrauten erlauben, Mana{ICON:ManaIcon} einzusetzen, um Eure Siegchancen zu erhöhen."/>
+		<Loc Key="UI_DRAW" Value="Unentschieden!"/>
+		<Loc Key="UI_RETREAT" Value="Rückzug!"/>
+		<Loc Key="UI_INDEPENDENT" Value="Unabhängig"/>
+		<Loc Key="UI_ENCHANTMENTS" Value="Bezauberungen"/>
+		<Loc Key="UI_YES" Value="Ja"/>
+		<Loc Key="UI_NO" Value="Nein"/>
+		<Loc Key="UI_CAN_BE_DISPELLED" Value="Kann aufgehoben werden"/>
+		<Loc Key="UI_DURATION" Value="Dauer"/>
+		<Loc Key="UI_CONTROLLER" Value="Urheber"/>
+		<Loc Key="UI_UPKEEP_COST" Value="Unterhaltskosten"/>
+		<Loc Key="UI_GLOBAL" Value="Global"/>
+		<Loc Key="UI_NORMAL_WEAPON" Value="Normale Waffe"/>
+		<Loc Key="UI_NORMAL_WEAPON_DES" Value="Diese Einheit ist mit einer normalen Waffe ausgerüstet, die keine zusätzlichen Boni gewährt."/>
+		<Loc Key="UI_ENCHANTED_WEAPON" Value="Bezauberte Waffe"/>
+		<Loc Key="UI_ENCHANTED_WEAPON_DES" Value="Diese Einheit hat eine bezauberte Waffe aufgrund eines Zaubers oder ihrer Spezialfertigkeit."/>
+		<Loc Key="UI_SKILLS" Value="Fertigkeiten"/>
+		<Loc Key="UI_SKILLS_DES" Value="Fertigkeiten sind besondere Fähigkeiten, die Einheiten bestimmte Vorteile verschaffen."/>
+		<Loc Key="UI_ENCHANTMENTS_DES" Value="Bezauberungen sind positive oder negative Effekte durch Zaubersprüche. Nicht alle Bezauberungen können aufgehoben werden!"/>
+		<Loc Key="UI_BUILDING_CONSTRUCTED_IN" Value="Gebäude errichtet in {0}"/>
+		<Loc Key="UI_BUILDING_DEMOLISHED_IN" Value="Gebäude zerstört in {0}"/>
+		<Loc Key="UI_TURNS" Value="{0} Runden"/>
+		<Loc Key="UI_FOOD_PRODUCTION_INCREASED_IN" Value="Nahrungsproduktion erhöht in {0}"/>
+		<Loc Key="UI_FOOD_PRODUCTION_DECREASED_IN" Value="Nahrungsproduktion verringert in {0}"/>
+		<Loc Key="UI_CITY_ACQUIRED" Value="Stadt eingenommen"/>
+		<Loc Key="UI_CITY_LOST" Value="Stadt verloren"/>
+		<Loc Key="UI_FAME_INCREASED" Value="Ruhm erhöht"/>
+		<Loc Key="UI_FAME_DECREASED" Value="Ruhm verringert"/>
+		<Loc Key="UI_GOLD_GAINED" Value="Gold erhalten"/>
+		<Loc Key="UI_GOLD_LOST" Value="Gold verloren"/>
+		<Loc Key="UI_MANA_GAINED" Value="Mana erhalten"/>
+		<Loc Key="UI_MANA_LOST" Value="Mana verloren"/>
+		<Loc Key="UI_POPULATION_GAINED_IN" Value="Bevölkerungszuwachs in {0}"/>
+		<Loc Key="UI_POPULATION_LOST_IN" Value="Bevölkerungsabnahme in {0}"/>
+		<Loc Key="UI_POWER_INCREASED" Value="Zauberkraft erhöht in {0}"/>
+		<Loc Key="UI_POWER_DECREASED" Value="Zauberkraft verringert in {0}"/>
+		<Loc Key="UI_PRODUCTION_BOOST_IN " Value="Produktion erhöht in {0}"/>
+		<Loc Key="UI_PRODUCTION_SETBACK_IN" Value="Produktion verringert in {0}"/>
+		<Loc Key="UI_UNREST_INCREASED_IN" Value="Unzufriedenheit erhöht in {0}"/>
+		<Loc Key="UI_UNREST_DECREASED_IN" Value="Unzufriedenheit verringert in {0}"/>
+		<Loc Key="UI_RESEARCH_BOOST" Value="Forschung beschleunigt"/>
+		<Loc Key="UI_RESEARCH_SETBACK" Value="Forschung gebremst"/>
+		<Loc Key="UI_ENCHANTMENT_APPLIED" Value="Bezauberung gewirkt"/>
+		<Loc Key="UI_ENCHANTMENT_REMOVED" Value="Bezauberung aufgehoben"/>
+		<Loc Key="UI_SPELL_LEARNED" Value="Zauber erlernt"/>
+		<Loc Key="UI_SPELLBOOK_ACQUIRED" Value="Zauberbuch erhalten"/>
+		<Loc Key="UI_HERO_JOINED" Value="Held hat sich Euch angeschlossen"/>
+		<Loc Key="UI_HERO_LEFT" Value="Held hat Euch den Rücken gekehrt"/>
+		<Loc Key="UI_ITEM_GAINED" Value="Gegenstand erhalten"/>
+		<Loc Key="UI_ITEM_LOST" Value="Gegenstand verloren"/>
+		<Loc Key="UI_A_RESOURCE_HAS_BEEN_DISCOVERED_NEAR" Value="Entdeckt unweit von {0}"/>
+		<Loc Key="UI_A_RESOURCE_HAS_BEEN_DESTROYED_NEAR" Value="Zerstört unweit von {0}"/>
+		<Loc Key="UI_UNIT_RECRUITED" Value="Einheit rekrutiert"/>
+		<Loc Key="UI_UNIT_DISBANDED" Value="Einheit aufgelöst"/>
+		<Loc Key="UI_TRAIT_GAINED" Value="Spezialisierung erhalten"/>
+		<Loc Key="UI_HERO_ABILITIES_IMPROVED" Value="Heldenfähigkeiten verbessert"/>
+		<Loc Key="UI_HERO_ABILITIES_IMPAIRED" Value="Heldenfähigkeiten verschlechtert"/>
+		<Loc Key="UI_UNIT_ABILITIES_IMPROVED" Value="Einheitenfähigkeiten verbessert"/>
+		<Loc Key="UI_UNIT_ABILITIES_IMPAIRED" Value="Einheitenfähigkeiten verschlechtert"/>
+		<Loc Key="UI_UNIT_DIED" Value="Einheit gestorben"/>
+		<Loc Key="UI_HERO_DIED" Value="Held gestorben"/>
+		<Loc Key="UI_SAVE_OR_DISCARD" Value="Ihr verlasst den Editor. Möchtet Ihr Eure Änderungen speichern oder sie verwerfen?"/>
+		<Loc Key="UI_DISCARD_AND_EXIT" Value="Verwerfen und beenden"/>
+		<Loc Key="UI_SAVE_AND_EXIT" Value="Speichern und beenden"/>
+		<Loc Key="UI_STAY_AND_EDIT" Value="Bleiben und bearbeiten"/>
+		<Loc Key="UI_GLOBAL_ENCHANTMENTS" Value="Globale Bezauberungen"/>
+		<Loc Key="UI_CHANCE_TO_HIT" Value="Trefferchance"/>
+		<Loc Key="UI_CHANCE_TO_HIT_MELEE" Value="Trefferchance - Nahkampf"/>
+		<Loc Key="UI_CHANCE_TO_HIT_MELEE_DES" Value="Gibt die Erfolgschance einer einzelnen Nahkampfangriffsprobe an."/>
+		<Loc Key="UI_CHANCE_TO_HIT_RANGED" Value="Trefferchance - Fernkampf"/>
+		<Loc Key="UI_CHANCE_TO_HIT_RANGED_DES" Value="Gibt die Erfolgschance einer einzelnen Fernkampfangriffsprobe an."/>
+		<Loc Key="UI_CHANCE_TO_DEFEND" Value="Verteidigungschance"/>
+		<Loc Key="UI_CHANCE_TO_DEFEND_DES" Value="Gibt die Erfolgschance einer einzelnen Verteidigungsprobe an, um einen einzelnen Schadenspunkt eines konventionellen Angriffs abzuwehren."/>
+		<Loc Key="UI_CHANCE_TO_RESIST" Value="Resistenzchance"/>
+		<Loc Key="UI_CHANCE_TO_RESIST_DES" Value="Gibt die kumulative Chance an, negativen Effekten gegnerischer Angriffe und Zauber zu widerstehen."/>
+		<Loc Key="UI_REJECT" Value="Ablehnen"/>
+		<Loc Key="UI_HIRE" Value="Anheuern"/>
+		<Loc Key="UI_INVALID_NEW_TOWN_LOCATION" Value="Der Standort, den Ihr für Eure neue Stadt ausgewählt habt, ist nicht zulässig.\n\n- Der minimale Abstand zwischen den Städten muss {0} Hexfelder betragen und\n\n- Städte können nicht auf Wasserfeldern errichtet werden."/>
+		<Loc Key="UI_MONEY_UPKEEP_FAILING" Value="Euch geht das Gold aus. Um rote Zahlen zu verhindern, könnt Ihr die Steuern erhöhen, Arbeiter neu einteilen und/oder Gebäude und Einheiten verkaufen.\n\nFalls Ihr ohne eine Änderung fortfahrt, werdet Ihr gezwungen sein, Einheiten und/oder Gebäude zu verkaufen."/>
+		<Loc Key="UI_COMBAT_OUTCOMES" Value="Schlachtresultate"/>
+		<Loc Key="UI_COMBAT_OUTCOMES_DES" Value="Zeigt die möglichen Schlachtresultate samt ihrer Wahrscheinlichkeit an - von der vernichtenden Niederlage bis zum triumphalen Sieg. Mit einer Probe wird das Resultat ermittelt."/>
+		<Loc Key="UI_SUMMONS_UNITS" Value="Beschworene Einheiten:"/>
+		<Loc Key="UI_SAVE_SUCCESSFUL" Value="Speichern erfolgreich"/>
+		<Loc Key="UI_ERROR" Value="Fehler"/>
+		<Loc Key="UI_SET_SAVE_NAME" Value="Bitte gebt einen Namen für Euren Spielstand ein."/>
+		<Loc Key="UI_SPELLBOOKS" Value="Zauberbücher"/>
+		<Loc Key="UI_LIFE_SPELLBOOKS" Value="Lebenszauberbücher"/>
+		<Loc Key="UI_DEATH_SPELLBOOKS" Value="Todeszauberbücher"/>
+		<Loc Key="UI_NATURE_SPELLBOOKS" Value="Naturzauberbücher"/>
+		<Loc Key="UI_SORCERY_SPELLBOOKS" Value="Hexereizauberbücher"/>
+		<Loc Key="UI_CHAOS_SPELLBOOKS" Value="Chaoszauberbücher"/>
+		<Loc Key="UI_ALL_SPELLBOOKS" Value="Alle Zauberbücher"/>
+		<Loc Key="UI_SETTLEMENT_CONQUERED" Value="Eure Hoheit, Ihr habt diese Siedlung erobert. Ihr könnt nun über ihr Schicksal entscheiden!"/>
+		<Loc Key="UI_HAMLET_CONQUERED" Value="Eure Hoheit, Ihr habt diesen Weiler erobert. Ihr könnt nun über sein Schicksal entscheiden!"/>
+		<Loc Key="UI_VILLAGE_CONQUERED" Value="Eure Hoheit, Ihr habt dieses Dorf erobert. Ihr könnt nun über sein Schicksal entscheiden!"/>
+		<Loc Key="UI_TOWN_CONQUERED" Value="Eure Hoheit, Ihr habt diese Ortschaft erobert. Ihr könnt nun über ihr Schicksal entscheiden!"/>
+		<Loc Key="UI_CITY_CONQUERED" Value="Eure Hoheit, Ihr habt diese Stadt erobert. Ihr könnt nun über ihr Schicksal entscheiden!"/>
+		<Loc Key="UI_TOWN_CONQUERED2" Value="Wie lautet Euer Befehl?"/>
+		<Loc Key="UI_RAZE_OUTCOME" Value="{0} wurde zerstört."/>
+		<Loc Key="UI_KEEP_OUTCOME" Value="{0} kommt unter Eure Kontrolle."/>
+		<Loc Key="UI_RAZE_TOWN" Value="{0} zerstören"/>
+		<Loc Key="UI_KEEP_TOWN" Value="{0} behalten"/>
+		<Loc Key="UI_RAZE" Value="Zerstören"/>
+		<Loc Key="UI_KEEP" Value="Behalten"/>
+		<Loc Key="UI_NEARBY_RESOURCES" Value="Ressourcen in der Nähe:"/>
+		<Loc Key="UI_OUTPOST_CONQUERED" Value="Eure Hoheit, Ihr habt diesen Außenposten eingenommen. Leider wurde er dabei zerstört."/>
+		<Loc Key="UI_HAS_LEVELED_UP" Value="{0} feiert einen Stufenaufstieg!"/>
+		<Loc Key="UI_CANNOT_BUILD_CITY_WATER" Value="Städte können nicht auf dem Wasser errichtet werden."/>
+		<Loc Key="UI_CANNOT_BUILD_CITY_LOCATION" Value="Unzulässiger Standort für Stadt - Feld ist bereits besetzt."/>
+		<Loc Key="UI_CANNOT_BUILD_CITY_PROXIMITY" Value="Unzulässiger Standort für Stadt - innerhalb von {0} Feldern gibt es eine bestehende Stadt."/>
+		<Loc Key="UI_MAXIMUM_POPULATION" Value="Max. Bevölkerung:"/>
+		<Loc Key="UI_MAX" Value="Max.:"/>
+		<Loc Key="UI_PRODUCTION_BONUS" Value="Produktionsbonus:"/>
+		<Loc Key="UI_CHOOSE_SPELL_COST" Value="Zauberkosten festlegen"/>
+		<Loc Key="UI_CONFIRM_DISBAND" Value="Möchtet Ihr diese Einheit wirklich auflösen?"/>
+		<Loc Key="UI_DISBAND" Value="Auflösen"/>
+		<Loc Key="UI_FAME_AWARDED" Value="Euer Ruhm erhöht sich um"/>
+		<Loc Key="UI_FAME_LOST" Value="Euer Ruhm verringert sich um"/>
+		<Loc Key="UI_COUNTER_MAGIC" Value="Zauber gekontert"/>
+		<Loc Key="UI_SPELL_COUNTERED" Value="Euer Zauber wurde durch eine bestehende Bezauberung gekontert."/>
+		<Loc Key="UI_UHH" Value="Ähh ..."/>
+		<Loc Key="UI_GAME_SAVED" Value="Spiel gespeichert"/>
+		<Loc Key="UI_DISCARD" Value="Verwerfen"/>
+		<Loc Key="UI_DISCARD_SPELL_SURE" Value="Möchtet Ihr diesen Zauber wirklich verwerfen? Das Mana, das Ihr dafür ausgegeben habt, geht dabei verloren."/>
+		<Loc Key="UI_NOTIFICATION_CONSTRUCTION_COMPLETE" Value="Bau abgeschlossen"/>
+		<Loc Key="UI_NOTIFICATION_CONSTRUCTION_COMPLETE_DES" Value="Bau in {0} abgeschlossen.\n{ICON:LMB} Stadt anzeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_SUMMON_COMPLETE" Value="Beschwörung abgeschlossen"/>
+		<Loc Key="UI_NOTIFICATION_SUMMON_COMPLETE_DES" Value="Ihr habt die Beschwörung von '{0}' abgeschlossen.\n{ICON:LMB} '{0}' anzeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_TOWN_LOST" Value="Stadt verloren"/>
+		<Loc Key="UI_NOTIFICATION_TOWN_LOST_DES" Value="Ihr habt {0} verloren.\n{ICON:LMB} Stadt anzeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_BLOCKED" Value="Zauber geblockt"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_BLOCKED_DES" Value="Einer Eurer Gegner wollte Euch mit einem Zauber angreifen, doch Eure schützende Bezauberung hat diesen Versuch abgewehrt.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_TOWN" Value="Stadt betroffen"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_TOWN_DES" Value="Ein Gegner hat einen Zauber über {0} gesprochen.\n{ICON:LMB} Stadt anzeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_UNIT" Value="Einheit betroffen"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_UNIT_DES" Value="Ein Gegner hat einen Zauber über eine Eurer Einheiten gesprochen.\n{ICON:LMB} Einheit anzeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_RESEARCH_AVAILABLE" Value="Forschung verfügbar"/>
+		<Loc Key="UI_NOTIFICATION_RESEARCH_AVAILABLE_DES" Value="Ihr könnt mit dem Erforschen eines neuen Zaubers beginnen.\n{ICON:LMB} 'Forschung' öffnen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_OUTPOST_TO_TOWN" Value="Außenposten gewachsen"/>
+		<Loc Key="UI_NOTIFICATION_OUTPOST_TO_TOWN_DES" Value="Der Außenposten {0} ist zu einem Weiler angewachsen. Ihr könnt nun die dortige Produktion verwalten.\n{ICON:LMB} Stadt anzeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_CASTING_COMPLETE_DES" Value="Euer Zauber ist bereit.\n{ICON:LMB} Zauber sprechen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_CRAFTING_COMPLETE_DES" Value="Euer Artefakt ist bereit.\n{ICON:LMB} Anzeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_UNIT_LEVEL_UP_DES" Value="Eure Einheit '{0}' feiert einen Stufenaufstieg.\n{ICON:LMB} Anzeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_STARVATION" Value="Hungersnot"/>
+		<Loc Key="UI_NOTIFICATION_STARVATION_DES" Value="In {0} wird nicht genug Nahrung produziert und die Bevölkerung wird dezimiert.\n{ICON:LMB} Anzeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_RAISED_UNDEAD" Value="Untote Einheit erhalten"/>
+		<Loc Key="UI_NOTIFICATION_RAISED_UNDEAD_DES" Value="Die Einheit '{0}' kehrt aus dem Reich der Toten zurück und schließt sich Eurer Armee an.\n{ICON:LMB} Anzeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NOTIFICATION_QUEUE_COMPLETE" Value="Bauwarteschleife erledigt"/>
+		<Loc Key="UI_NOTIFICATION_QUEUE_COMPLETE_DES" Value="Die Bauwarteschleife in {0} ist leer, daher wechselt die Stadt zurück auf 'Wohnraum'.\n{ICON:LMB} Anzeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_BUTTON_GAME" Value="Spieloptionen ({0})"/>
+		<Loc Key="UI_BUTTON_GAME2" Value="Spieloptionen"/>
+		<Loc Key="UI_BUTTON_DIPLOMACY" Value="Diplomatie ({0})"/>
+		<Loc Key="UI_BUTTON_DIPLOMACY2" Value="Diplomatie"/>
+		<Loc Key="UI_BUTTON_MAGIC" Value="Magie ({0})"/>
+		<Loc Key="UI_BUTTON_MAGIC2" Value="Magie"/>
+		<Loc Key="UI_BUTTON_ARMIES" Value="Armeen ({0})"/>
+		<Loc Key="UI_BUTTON_ARMIES2" Value="Armeen"/>
+		<Loc Key="UI_BUTTON_CITIES" Value="Städte ({0})"/>
+		<Loc Key="UI_BUTTON_CITIES2" Value="Städte"/>
+		<Loc Key="UI_BUTTON_INFO" Value="Zaubererinfo ({0})"/>
+		<Loc Key="UI_BUTTON_INFO2" Value="Zaubererinfo"/>
+		<Loc Key="UI_BUTTON_ARCANUS" Value="Arcanus-Ebene anzeigen ({0})"/>
+		<Loc Key="UI_BUTTON_MYRROR" Value="Myrror-Ebene anzeigen ({0})"/>
+		<Loc Key="UI_BUTTON_SURVEYOR" Value="Ratgeber-Modus (de-)aktivieren ({0})"/>
+		<Loc Key="UI_SELL" Value="Verkaufen"/>
+		<Loc Key="UI_SELL_BUILDING_SURE" Value="Möchtet Ihr dieses Gebäude wirklich für {0} {ICON:GoldIcon} verkaufen?"/>
+		<Loc Key="UI_SELL_BUILDING_STOP_CRAFT" Value="Wenn Ihr dieses Gebäude verkauft, wird Eure '{0}'-Produktion eingestellt."/>
+		<Loc Key="UI_WELCOME" Value="Willkommen, {0}"/>
+		<Loc Key="UI_WELCOME_DES" Value="Ich heiße Euch herzlich willkommen, {0}!\nWenn Ihr Eurem demütigen Diener einen Augenblick Eurer kostbaren Zeit einräumen könntet, würde ich Euch gerne die Möglichkeiten erläutern, mit denen Ihr auf die Welt einwirken könnt.\n\n(TUTORIAL-NACHRICHTEN AKTIVIEREN)"/>
+		<Loc Key="UI_CAN_NOT_SELL" Value="Ihr könnt Euer Gebäude '{0}' nicht verkaufen."/>
+		<Loc Key="UI_CAN_NOT_SELL_DEPENDENCY" Value="Ihr könnt dieses Gebäude nicht verkaufen, weil '{0}' davon abhängig ist."/>
+		<Loc Key="UI_CAN_NOT_SELL_ENCHANTMENT" Value="Ihr könnt dieses Gebäude nicht verkaufen, weil es das Ergebnis einer aktiven Bezauberung ist."/>
+		<Loc Key="UI_CONFIRM_RAZE_FAME_COST" Value="Möchtet Ihr diese Stadt wirklich zerstören? Dies würde Euch {0} Ruhm kosten."/>
+		<Loc Key="UI_CONFIRM_RAZE_OUTPOST" Value="Möchtet Ihr diesen Außenposten wirklich zerstören? Beachtet, dass Ihr die Siedler-Einheit nicht zurückerhaltet."/>
+		<Loc Key="UI_RELATIONS" Value="Beziehung"/>
+		<Loc Key="UI_TREATIES" Value="Abkommen"/>
+		<Loc Key="UI_PERSONALITY" Value="Persönlichkeit"/>
+		<Loc Key="UI_OBJECTIVE" Value="Ziel"/>
+		<Loc Key="UI_NO_UNKNOW_LOCATIONS" Value="Im Wirkungsradius des Zaubers gibt es keine unbekannten Orte."/>
+		<Loc Key="UI_INVALID_SPELL_TARGET" Value="Diese Einheit ist kein passendes Ziel für den Zauber.\n(Das Ziel könnte immun gegen die Art des Zaubers sein oder bereits unter dem Effekt des Zaubers stehen.)"/>
+		<Loc Key="UI_ENCH_INVALID_SPELL_TARGET_" Value="Diese Bezauberung ist nur einmal auf dem Ziel möglich."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_BATTLE" Value="Es steht kein Ziel für diesen Zauber zur Verfügung."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_WIZARD" Value="Es gibt keinen Zauberer, den Ihr mit diesem Zauber ins Visier nehmen könntet."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_RAISE_DEAD" Value="Es gibt keine Einheiten, die mit diesem Zauber aus dem Reich der Toten zurückgebracht werden könnten."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_ANIMATE_DEAD" Value="Es gibt keine Einheiten, die mit diesem Zauber aus dem Reich der Toten zurückgebracht werden könnten."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_GLOBAL" Value="Es gibt keine Einheiten, auf die sich dieser Zauber auswirken könnte."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_HEX" Value="Dies ist kein passender Ort für diesen Zauber."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_HEX_OR_GLOBAL" Value="Es steht kein Ziel für diesen Zauber zur Verfügung oder der ausgewählte Ort ist unpassend."/>
+		<Loc Key="UI_HERO_LIMIT" Value="Obergrenze für Helden erreicht"/>
+		<Loc Key="UI_INFO" Value="Info"/>
+
+		<Loc Key="UI_SPECIAL_ACTIONS" Value="Spezialaktionen"/>
+		<Loc Key="UI_BUILD_OUTPOST" Value="Außenposten errichten ({KEY_ACTION:UI_BUILD_OUTPOST2})"/>
+		<Loc Key="UI_BUILD_OUTPOST_DES" Value="Errichtet einen Außenposten, der sich nach einigen Runden zu einem Weiler entwickelt. Eine Einheit mit der Fertigkeit 'Siedler' wird für diese Aktion benötigt."/>
+		<Loc Key="UI_BUILD_ROAD" Value="Straße bauen ({KEY_ACTION:UI_BUILD_ROAD2})"/>
+		<Loc Key="UI_BUILD_ROAD_DES" Value="Straßen verringern die Bewegungskosten am Boden und erhöhen die Einnahmen in verbundenen Städten. Eine Einheit mit der Fertigkeit 'Baumeister' wird für diese Aktion benötigt."/>
+		<Loc Key="UI_INSTANT2" Value="(Sofort)"/>
+		<Loc Key="UI_MELD_WITH_NODE" Value="Mit Knoten verschmelzen ({KEY_ACTION:UI_MELD_WITH_NODE2})"/>
+		<Loc Key="UI_MELD_WITH_NODE_DES" Value="Versucht, die Kontrolle über einen magischen Knoten zu erlangen. Eure Einheit wird dabei zerstört - gleich ob die Verschmelzung erfolgreich ist oder nicht. Eine Einheit mit der Fertigkeit 'Verschmelzung' wird für diese Aktion benötigt."/>
+		<Loc Key="UI_UPGRADE_NODE" Value="Knoten aufwerten ({KEY_ACTION:UI_MELD_WITH_NODE2})"/>
+		<Loc Key="UI_CHANCE" Value="Chance:"/>
+		<Loc Key="UI_PURIFY" Value="Läutern ({KEY_ACTION:UI_PURIFY2})"/>
+		<Loc Key="UI_PURIFY_DES" Value="Hebt die Verderbnis auf diesem Hexfeld auf und versetzt es wieder in seinen natürlichen Zustand. Eine Einheit mit der Fertigkeit 'Läuterer' wird für diese Aktion benötigt."/>
+		<Loc Key="UI_HELD_BY" Value="Gehalten von {0}"/>
+
+		<Loc Key="UI_TOGGLE_GUARD" Value="Bewachen ({0})"/>
+		<Loc Key="UI_TOGGLE_GUARD_DES" Value="Versetzt diese Armee in den Modus 'Bewachen'. Ihr werdet nicht mehr aufgefordert, Aktionen für diese Armee festzulegen, bis Ihr den Bewachen-Befehl wieder aufhebt oder eine gegnerische Einheit im Sichtbereich der Armee auftaucht."/>
+		<Loc Key="UI_TOGGLE_SKIP" Value="Warten ({0})"/>
+		<Loc Key="UI_TOGGLE_SKIP_DES" Value="Weist diese Armee an, bis zur nächsten Runde auf Befehle zu warten."/>
+		<Loc Key="UI_BUTTON_BUILD" Value="Spezialaktionen"/>
+		<Loc Key="UI_BUTTON_BUILD_DES" Value="Ermöglicht die Ausführung von Spezialaktionen (Außenposten errichten, Straße bauen, mit Knoten verschmelzen, Hexfeld mit Verderbnis säubern). Voraussetzung: Die Armee verfügt über eine Einheit, die solch eine Aktion ausführen kann."/>
+		<Loc Key="UI_BUTTON_TRAVEL" Value="Ebenenwechsel"/>
+		<Loc Key="UI_BUTTON_TRAVEL_DES" Value="Ermöglicht es der Armee, zu einer anderen Ebene zu reisen, vorausgesetzt, sie verfügt über die nötige Fähigkeit."/>
+		<Loc Key="UI_TOOLTIP_CAPITAL" Value="Hauptstadt"/>
+		<Loc Key="UI_TOOLTIP_CAPITAL_DES" Value="Eure Festung steht in dieser Stadt. Wenn Ihr sie verliert, werdet Ihr gebannt oder besiegt."/>
+		<Loc Key="UI_UNEXPLORED" Value="Unerkundet"/>
+		<Loc Key="UI_FIGURES_DIED" Value="Untereinheit(en) gestorben"/>
+		<Loc Key="UI_RECEIVED" Value="erhalten"/>
+		<Loc Key="UI_UNIT_DESTROYED" Value="Einheit zerstört"/>
+		<Loc Key="UI_BUTTON_COMBAT_LOG" Value="Kampfprotokoll ({0})"/>
+		<Loc Key="UI_COMBAT_LOG_DMG" Value="({0} Schaden)"/>
+		<Loc Key="UI_COMBAT_LOG_NO_FIGURES" Value="({0})"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURE" Value="1 Untereinheit gestorben ({0})"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURES" Value="{1} Untereinheiten gestorben ({0})"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURE_RESURRECTED" Value="{0} für {1} (1 Untereinheit wiederbelebt)"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURES_RESURRECTED" Value="{0} für {2} ({1} Untereinheiten wiederbelebt)"/>
+		<Loc Key="UI_HP_GAINED" Value="{ICON:HitIconNormal}{0}"/>
+		<Loc Key="UI_HP_LOST" Value="{ICON:HitIconMissing}{0}"/>
+		<Loc Key="UI_VS" Value="VS"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT" Value="&lt;#{3}&gt;{0}&lt;/color&gt;: Zauber '{1}' auf &lt;#{4}&gt;{2}&lt;/color&gt; {5}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_BATTLEFIELD" Value="&lt;#{2}&gt;{0}&lt;/color&gt;: Zauber '{1}' auf das Schlachtfeld"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST" Value="&lt;#{2}&gt;{0}&lt;/color&gt;: Zauber '{1}'"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT2_VS" Value="&lt;#{3}&gt;{0}&lt;/color&gt; vs. &lt;#{4}&gt;{2}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT2_FRIENDLY" Value="&lt;#{3}&gt;{0}&lt;/color&gt;: Hilfe für &lt;#{4}&gt;{2}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT2" Value="&lt;#{3}&gt;{0}&lt;/color&gt;: Zauber '{1}' auf die Einheiten von &lt;#{4}&gt;{2}&lt;/color&gt;"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_BATTLEFIELD2" Value="&lt;#{2}&gt;{0}&lt;/color&gt;: Zauber '{1}' auf das Schlachtfeld"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST2" Value="&lt;#{2}&gt;{0}&lt;/color&gt;: Zauber '{1}'"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_COUNTERED" Value="'{0}' wurde gekontert"/>
+		<Loc Key="UI_COMBAT_LOG_TURN" Value="&lt;#{1}&gt;{0}&lt;/color&gt; am Zug"/>
+		<Loc Key="UI_COMBAT_LOG_WALL_DESTROYED" Value="Ein Segment der Stadtmauer wurde zerstört"/>
+		<Loc Key="UI_COMBAT_LOG_WALL_ATTACK" Value="&lt;#{1}&gt;{0}&lt;/color&gt;: Angriff auf die Stadtmauer"/>
+		<Loc Key="UI_COMBAT_LOG_DESTROYED" Value="&lt;#{1}&gt;{0}&lt;/color&gt; ausgeschaltet"/>
+		<Loc Key="UI_WIZARD_CASTS" Value="{0} spricht"/>
+		<Loc Key="UI_BUTTON_RETREAT" Value="Fliehen"/>
+		<Loc Key="UI_BUTTON_AUTO_COMBAT" Value="Autom. Kampf"/>
+		<Loc Key="UI_POWER_INCOME" Value="Zauberkraft"/>
+		<Loc Key="UI_POWER_INCOME_DES" Value="Gibt an, wie viel Zauberkraft in dieser Stadt generiert wird.\n\nZauberkraft wird für die Gewinnung von Mana, das Erforschen von Zaubersprüchen und das Erhöhen Eurer Zauberfertigkeit verwendet.\n\nAuf der Magieseite könnt Ihr Eure Zauberkraft nach Belieben den drei Kategorien zuweisen."/>
+		<Loc Key="UI_RESEARCH_INCOME" Value="Forschung"/>
+		<Loc Key="UI_RESEARCH_INCOME_DES" Value="Gibt an, wie viele Forschungspunkte in dieser Stadt generiert werden."/>
+		<Loc Key="UI_GOLD_INCOME2" Value="Gold"/>
+		<Loc Key="UI_GOLD_INCOME2_DES" Value="Gold wird in der Stadt größtenteils aus Steuern gewonnen (weswegen das Bevölkerungswachstum einen Einfluss darauf hat).\n\nDie Goldeinnahmen können zudem durch die Bauaktion 'Handelswaren', Ressourcen (Mineralien), Gebäude und manche Terrainarten (Küste und Fluss) erhöht werden."/>
+		<Loc Key="UI_NO_RESOURCES" Value="Keine wertvollen Ressourcen in der Nähe."/>
+		<Loc Key="UI_ENCHANTMENTS_ON_WORLD" Value="Bezauberungen auf der Welt"/>
+		<Loc Key="UI_ENCHANTMENTS_ON_YOU" Value="Bezauberungen auf Euch"/>
+		<Loc Key="UI_ON_WORLD" Value="Auf Welt"/>
+		<Loc Key="UI_ON_YOU" Value="Auf Euch"/>
+		<Loc Key="UI_YOU_CONTROL" Value="Eure Kontrolle"/>
+		<Loc Key="UI_ALL_SPELLS" Value="Alle Zauber"/>
+		<Loc Key="UI_LIFE_SPELLS" Value="Lebenszauber"/>
+		<Loc Key="UI_NATURE_SPELLS" Value="Naturzauber"/>
+		<Loc Key="UI_CHAOS_SPELLS" Value="Chaoszauber"/>
+		<Loc Key="UI_DEATH_SPELLS" Value="Todeszauber"/>
+		<Loc Key="UI_SORCERY_SPELLS" Value="Hexereizauber"/>
+		<Loc Key="UI_ARCANE_SPELLS" Value="Arkane Zauber"/>
+		<Loc Key="UI_WORLD_SPELLS" Value="Welt-Zauber"/>
+		<Loc Key="UI_COMBAT_SPELLS" Value="Kampf-Zauber"/>
+		<Loc Key="UI_HERO_RECRUIT" Value="Diese großartige Heldeneinheit möchte sich Euch für 100 Gold{ICON:GoldIcon} anschließen."/>
+		<Loc Key="UI_HERO_JOIN" Value="Danke, dass Ihr mich befreit habt. Ich würde mich Euch gerne anschließen, falls Ihr nichts dagegen habt."/>
+		<Loc Key="UI_JOIN" Value="Anschließen"/>
+		<Loc Key="UI_RIVAL_WIZARD" Value="Gegnerischer Zauberer"/>
+		<Loc Key="UI_CITY_RESOURCES" Value="Stadtressourcen"/>
+		<Loc Key="UI_SURVEYOR" Value="Ratgeber"/>
+		<Loc Key="UI_BEGIN" Value="Beginnen"/>
+		<Loc Key="UI_DEFENDERS_NEEDED" Value="Verteidiger benötigt"/>
+		<Loc Key="UI_RESET_TUTORIALS" Value="Tutorials zurücksetzen"/>
+		<Loc Key="UI_DISABLE_TUTORIALS" Value="Tutorials deaktivieren"/>
+		<Loc Key="UI_DELETE_SAVE" Value="Spielstand löschen"/>
+		<Loc Key="UI_DELETE_SAVE_DESCRIPTION" Value="Möchtet Ihr diesen Spielstand wirklich löschen?"/>
+		<Loc Key="UI_UNKNOWN_TOWN_UNITS" Value="Verteidiger unbekannt"/>
+		<Loc Key="UI_UNKNOWN_WIZARD" Value="Unbekannt"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT" Value="Sprechen von Zaubern"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE1" Value="Dieses Buch enthält alle Zauber, die Ihr bereits erlernt habt, Eure Hoheit."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE2" Value="Im Laufe der Zeit kann dieses Buch etwas unübersichtlich werden, doch mithilfe der Lesezeichen habt Ihr die Möglichkeit, alle Zauber einer bestimmten Sphäre einzusehen."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE3" Value="Um einen Zauber sprechen zu können, müsst Ihr ihn auf der linken Seite auswählen. Ob Ihr den Zauber zur Anwendung bringen könnt, seht Ihr am Button 'Zaubern'."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE4" Value="Manche Zauber können nur auf der Weltkarte gewirkt werden, andere wiederum nur in der Schlacht. Dies könnt Ihr im hervorgehobenen Bereich einsehen."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE5" Value="Zum Zaubern wird magische Energie in Form von Mana{ICON:ManaIcon} benötigt. Das Wirken jedes Zaubers kostet Mana, und zur Aufrechterhaltung mancher Zaubereffekte müsst Ihr in jeder Runde Mana als Unterhalt aufbringen."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE6" Value="Wie schnell auf der Weltkarte ein Zauber gewirkt werden kann, hängt von Eurer Zauberfertigkeit{ICON:CastingSkillIcon} ab. Je höher die Stufe dieser Fertigkeit, desto mehr Mana könnt Ihr in jeder Runde aufwenden. Ist die Stufe hoch genug, könnt Ihr manche Zauber sogar sofort auf der Weltkarte wirken!"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE7" Value="Auf dem Schlachtfeld werden alle Zauber sofort gewirkt. Allerdings hängt es von Eurer Zauberfertigkeit ab, wie viel Mana Euch im Laufe der gesamten Schlacht zur Verfügung steht."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT" Value="Steuerung auf der Karte"/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE1A" Value="Ich danke Euch, Eure Hoheit! Ich werde nicht viel Eurer Zeit in Anspruch nehmen."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE1B" Value="Bewegt die Karte mit"/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE1C" Value="oder {ICON:MMB}."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE2A" Value="Mit einem Linksklick könnt Ihr eine Einheit oder ein anderes Spielelement auswählen."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE2B" Value="Mit einem Rechtsklick könnt Ihr die ausgewählte Armee auf der Karte bewegen."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE3" Value="Eure Armeen erwarten in jeder Runde Eure Befehle. Wenn Ihr möchtet, dass eine Armee an Ort und Stelle verweilt, so gebt ihr den Befehl 'Warten' oder 'Bewachen'."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE4A" Value="Mit einem Doppelklick auf Eure Stadt gelangt Ihr in die Stadtansicht und könnt dort die Produktion verwalten."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE4B" Value="Frisch ans Werk, Eure Hoheit!"/>
+		<Loc Key="UI_MAGIC_TUT" Value="Magie"/>
+		<Loc Key="UI_MAGIC_TUT_PAGE1" Value="In diesem Bereich könnt Ihr Eure Zauberkraftpunkte verteilen, wirkende Bezauberungen einsehen und Alchemie zum Einsatz bringen, um Mana in Gold und Gold in Mana umzuwandeln."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE2" Value="Diese Reagenzgläser zeigen an, in welchen Anteilen Ihr Eure Zauberkraft{ICON:PowerIcon} zu welchem Zweck aufwendet - zur Vergrößerung Eures Mana-Vorrats{ICON:ManaIcon}, zur Erforschung{ICON:ResearchIcon} von Zaubern oder zur Verbesserung Eurer Zauberfertigkeit{ICON:CastingSkillIcon}."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE3" Value="Ihr könnt die Anteile anpassen, indem Ihr auf die Reagenzgläser klickt. Mit einem Klick auf ein Vorhängeschloss sperrt Ihr den aktuellen Wert für das entsprechende Reagenzglas."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE4" Value="Sowohl Ihr als auch Eure Rivalen werden im Laufe des Spiels die unterschiedlichsten Bezauberungen nutzen, die sich auf Einheiten, Städte, die Welt und Euch selbst auswirken. Hier seht Ihr, welche Bezauberungen gegenwärtig wirken."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE5" Value="Die meisten von Euch gewirkten Bezauberungen kosten für die Aufrechterhaltung ihres Effekts in jeder Runde Mana-Unterhalt. Ihr könnt sie jedoch mit einem Klick auf den {ICON:ButtonCancel}-Button aufheben."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE6" Value="Falls Ihr einen Überschuss an Gold oder Mana habt, könnt Ihr mithilfe von Alchemie Gold in Mana oder Mana in Gold umwandeln."/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT" Value="Verteidiger benötigt!"/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT_PAGE1" Value="Eure Hoheit, als Euer Berater sehe ich mich in der Pflicht, Euch mitzuteilen, dass einige Eurer Städte nicht verteidigt werden."/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT_PAGE2" Value="Selbst in Friedenszeiten sind Eure Städte nicht vor Angriffen gefeit, da Banditen Eure Lande unsicher machen könnten. Und sollte eine gegnerische Armee in eine nicht verteidigte Stadt einmarschieren, ist die Stadt verloren!"/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT_PAGE3" Value="Ihr solltet in Erwägung ziehen, zur Verteidigung eine Einheit zu produzieren oder eine magische Kreatur zu beschwören. Manchmal kann eine einzige Einheit ausreichen, um mithilfe mächtiger Zauber eine Katastrophe zu verhindern."/>
+		<Loc Key="UI_OUTPOSTS_TUT" Value="Außenposten"/>
+		<Loc Key="UI_OUTPOSTS_TUT_PAGE1" Value="Alle neu gegründeten Siedlungen sind zunächst Außenposten und werden sich erst im Laufe der Zeit zu Städten entwickeln. Bis dahin könnt Ihr dort nichts bauen."/>
+		<Loc Key="UI_OUTPOSTS_TUT_PAGE2" Value="Wie schnell sich ein Außenposten zu einer Stadt entwickelt, hängt vom Terrain, von den Ressourcen in der Umgebung und auch etwas von Glück ab. Der hervorgehobene Bereich zeigt den Fortschritt bei dieser Entwicklung."/>
+		<Loc Key="UI_OUTPOSTS_TUT_PAGE3" Value="Es ist ratsam, Truppen in Außenposten zu stationieren, da unverteidigte Siedlungen und Städte für Banditen und rivalisierende Zauberer leichte Beute sind!"/>
+		<Loc Key="UI_PREBATTLE_TUT" Value="Schlacht"/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE1" Value="Wie ich sehe, zieht Ihr es in Erwägung zu kämpfen, Eure Hoheit. Ausgezeichnet! Lasst mich bitte etwas dazu sagen."/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE2" Value="In diesem Bereich werden Eure Truppen und die Eures Gegners angezeigt. Die Stärke einer Einheit seht Ihr, wenn Ihr den Mauszeiger auf die entsprechende Einheit bewegt."/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE3" Value="Hier seht Ihr Eure Erfolgsaussichten für die Schlacht, Eure Hoheit."/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE4" Value="Wägt Eure Siegchancen ab und entscheidet, was Ihr tun möchtet - Eure Einheiten persönlich anführen, die Führung Eurer Einheiten mir überlassen (Autom. Kampf) oder nicht kämpfen."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT" Value="Erforschung von Zaubern"/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE1" Value="Zauber sind für Euer Ringen um die arkane Vorherrschaft von entscheidender Bedeutung, schließlich seid Ihr bestrebt, der Meister der Magie zu werden!"/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE2" Value="Zur Erweiterung Eures Arsenals an Zaubern müsst Ihr Forschung betreiben. Die Auswahl ist auf 8 Zauber begrenzt, doch im Laufe des Spiels werden immer neue Zauber verfügbar sein."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE3" Value="Denkt stets daran, dass der Meisterzauber Euer Endziel ist. Ihr werdet diesen Zauber erst erhalten, nachdem Ihr die meisten anderen Zauber erforscht habt. Der Erhalt neuer Zauberbücher ermöglicht es Euch, neue Zauber zu erforschen."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE4" Value="Die Forschung nimmt eine gewisse Zeit in Anspruch - wie viel, hängt von der Anzahl an Forschungspunkten{ICON:ResearchIcon} ab, die Ihr generiert, sowie von der Komplexität des Zaubers. Die Erforschung mächtigerer Zauber dauert in der Regel länger."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE5" Value="Wählt einen Zauber auf der linken Seite aus, um auf der rechten Seite die Details zu dem Zauber anzeigen zu lassen. Klickt nun auf den Button 'Forschung'. Sobald die Forschung abgeschlossen ist, werdet Ihr benachrichtigt."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT" Value="Verwaltung der Stadt"/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE1" Value="Dies, Eure Hoheit, ist Eure prächtige Stadt. Gestattet mir, Euch kurz herumzuführen."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE2" Value="Im Bereich 'Globale Steuern/Unzufriedenheit' legt Ihr den Steuersatz fest, der für all Eure Städte gilt. Hohe Steuern bedeuten mehr Gold{ICON:GoldIcon}, aber auch mehr Unzufriedenheit{ICON:UnrestIcon}. Unzufriedene Bürger werden zu Rebellen und verweigern die Arbeit."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE3" Value="In diesem Bereich werden all Eure Städte angezeigt. Zudem seht Ihr, was gerade in den Städten gebaut wird, wie viel Gold{ICON:GoldIcon} sie erwirtschaften, wie hoch die Bevölkerung{ICON:PopulationIcon} ist und wie es um die Unzufriedenheit{ICON:UnrestIcon} steht."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE4" Value="Dieser Bereich zeigt die Einheiten an, die derzeit in dieser Stadt stationiert sind. Es kann nie schaden, einige Einheiten zur Verteidigung in den Städten zu belassen. Wenn Ihr Eure Hauptstadt verliert, ist womöglich alles verloren!"/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE5" Value="Im Bereich 'Bürger' könnt Ihr den Bewohnern der Stadt eine Beschäftigung zuweisen. Jeder Bürger, der nicht wegen Unzufriedenheit aufbegehrt und nicht als Arbeiter eingeteilt wurde, verdingt sich standardmäßig als Bauer."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE6" Value="Dieser Bereich zeigt alle Ressourcen an, die sich im Einzugsgebiet der Stadt befinden. Diese Ressourcen sorgen für verschiedenste Boni, auf die man nicht verzichten will."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE7" Value="In diesem Bereich befindet sich die Bauwarteschleife dieser Stadt. Die Baugeschwindigkeit hängt von der Anzahl an Produktionspunkten{ICON:ProductionIcon} ab, die Eure Bevölkerung generiert. Ihr habt jedoch die Möglichkeit, den Bau mit Gold zu beschleunigen."/>
+		<Loc Key="UI_CONSTRUCTION_TUT" Value="Bau"/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE1" Value="In diesem Bildschirm könnt Ihr eine Bauwarteschleife für diese Stadt einrichten. Wählt Gebäude (auf der linken Seite) oder Einheiten (auf der rechten Seite) aus, die Ihr bauen möchtet."/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE2A" Value="Bewegt den Mauszeiger auf ein Gebäude oder eine Einheit, um mehr über die Eigenschaften und den Nutzen zu erfahren."/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE2B" Value="Klicken, um ein Gebäude oder eine Einheit der Bauwarteschleife hinzuzufügen."/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE3" Value="Ausgegraute Gebäude oder Einheiten können nicht gebaut werden, da bestimmte Voraussetzungen nicht erfüllt sind. Ihr müsst zuerst andere Gebäude in der Stadt errichten, um die entsprechenden Gebäude oder Einheiten bauen zu können."/>
+		<Loc Key="UI_OPT_ULTRALOW" Value="Sehr niedrig"/>
+		<Loc Key="UI_OPT_HIGH" Value="Hoch"/>
+		<Loc Key="UI_OPT_MEDIUM" Value="Mittel"/>
+		<Loc Key="UI_OPT_LOW" Value="Niedrig"/>
+		<Loc Key="UI_STOP_CASTING_TITLE" Value="Sprechen beenden"/>
+		<Loc Key="UI_STOP_CASTING_DESC" Value="Möchtet Ihr das Sprechen des Zaubers '{0}' wirklich beenden und dabei {1} investiertes Mana verlieren?"/>
+		<Loc Key="UI_STOP_CASTING" Value="Sprechen beenden"/>
+		<Loc Key="UI_TILE_CORRUPTED" Value="Hexfeld verdorben"/>
+		<Loc Key="UI_ROOM_ENEMYDEFEATED" Value="Gegner besiegt!"/>
+		<Loc Key="UI_ROOM_UNITSUMMONED" Value="Beschworen: {0}"/>
+		<Loc Key="UI_ROOM_SPELLRESEARCHED" Value="Zauber erforscht:"/>
+		<Loc Key="UI_ROOM_SPELLRESEARCHED2" Value="{0}"/>
+		<Loc Key="UI_ROOM_DEFEATBYWIZARD" Value="Besiegt durch {0}"/>
+		<Loc Key="UI_ROOM_DEFEATBYNEUTRALS" Value="Besiegt durch Neutrale"/>
+		<Loc Key="UI_UNIT_MOVEMENT_PROMPT" Value="Einheiten erwarten Befehle!"/>
+		<Loc Key="UI_SPELL_CAST_PROMPT" Value="Es steht ein Zauber bereit!"/>
+		<Loc Key="UI_GROUND_MOVEMENT" Value="Bewegung an Land"/>
+		<Loc Key="UI_GROUND_MOVEMENT_DES" Value="Gehen ermöglicht es der Einheit, sich auf Landfeldern zu bewegen."/>
+		<Loc Key="UI_GROUND_ONLY_MOVEMENT" Value="Nur Bewegung an Land"/>
+		<Loc Key="UI_GROUND_ONLY_MOVEMENT_DES" Value="Dieser Einheit ist es nicht möglich, sich auf Wasserfeldern zu bewegen."/>
+		<Loc Key="UI_WATER_MOVEMENT" Value="Bewegung auf dem Wasser"/>
+		<Loc Key="UI_WATER_MOVEMENT_DES" Value="Schwimmen ermöglicht es der Einheit, sich auf Wasserfeldern zu bewegen."/>
+		<Loc Key="UI_WATER_ONLY_MOVEMENT" Value="Nur Bewegung auf dem Wasser"/>
+		<Loc Key="UI_WATER_ONLY_MOVEMENT_DES" Value="Dieser Einheit ist es nicht möglich, sich auf Landfeldern zu bewegen."/>
+		<Loc Key="UI_FLYING_MOVEMENT" Value="Flug"/>
+		<Loc Key="UI_FLYING_MOVEMENT_DES" Value="Für fliegende Einheiten gelten die Bewegungsmodifikatoren von Terrain nicht. Zudem können sie nicht im Nahkampf angegriffen werden, außer die angreifende Einheit fliegt ebenfalls oder verfügt über einen Odem-, Blick- oder Wurfangriff. Bodeneinheiten können jedoch mit einem Gegenangriff reagieren, wenn sie von einer fliegenden Einheit angegriffen werden."/>
+		<Loc Key="UI_CITY_MANAGER_TUT" Value="Übersicht der Städte"/>
+		<Loc Key="UI_CITY_MANAGER_TUT_PAGE1" Value="Hier erhaltet Ihr einen Überblick über alle Städte unter Eurer Herrschaft, Eure Hoheit."/>
+		<Loc Key="UI_CITY_MANAGER_TUT_PAGE2" Value="Wenn Ihr auf eine Stadt klickt, erfahrt Ihr, wo auf der Weltkarte sie sich befindet und welche Bezauberungen auf sie wirken."/>
+		<Loc Key="UI_HERO_EQUIP_TUT" Value="Ausrüsten von Artefakten"/>
+		<Loc Key="UI_HERO_EQUIP_TUT_PAGE1" Value="In diesem Bereich Eurer Festung werden all Eure Artefakte (magischen Gegenstände) aufbewahrt. Ihr könnt Artefakte fertigen, in Ruinen oder Unterschlupfen finden oder von Händlern kaufen."/>
+		<Loc Key="UI_HERO_EQUIP_TUT_PAGE2" Value="Ihr könnt mit Artefakten Helden ausrüsten, sofern Ihr einen in Euren Reihen habt und eines seiner Ausrüstungsfelder zur Art des Gegenstands passt. Zieht einfach einen Gegenstand auf einen Helden, um ihn damit auszurüsten."/>
+		<Loc Key="UI_HERO_EQUIP_TUT_PAGE3" Value="Gegenstände, die Ihr nicht als nützlich erachtet, können zerstört werden, um Mana zu erhalten, oder mit rivalisierenden Zauberern getauscht werden."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT" Value="Einheiteninformationen"/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE1" Value="Hier findet Ihr detaillierte Informationen über eine bestimmte Einheit."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE2" Value="Im zentralen Bereich werden die Werte, Trefferpunkte, Bewegungspunkte, Unterhaltskosten und andere Details angezeigt."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE3" Value="Im linken Bereich könnt Ihr Euch über das Volk der Einheit, die Erfahrungspunkte und weitere Einzelheiten informieren. Zudem könnt Ihr auf das Zauberbuch (im Falle einer zauberkundigen Einheit) und die ausgerüsteten Gegenstände (im Falle eines Helden) zugreifen."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE4" Value="Falls Euch die Unterhaltskosten einer Einheit zu hoch sind, könnt Ihr sie auflösen, indem Ihr auf den hervorgehobenen Button klickt."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE5" Value="Zu guter Letzt sei der Bereich rechts erwähnt. Hier erhaltet Ihr einen Einblick in die Spezialfertigkeiten der Einheit und die Bezauberungen, die auf die Einheit wirken."/>
+		<Loc Key="UI_FANTASTIC_UNIT" Value="Übernatürliche Einheit"/>
+		<Loc Key="UI_FANTASTIC_UNIT_DES" Value="Hierbei handelt es sich um eine übernatürliche Einheit: Sie wurde beschworen, in einer Stadt produziert oder durch Magie verwandelt. Übernatürliche Einheiten erhalten keine Erfahrungspunkte, profitieren nicht von Führungsstärke-Boni der Helden und verringern nicht die Unzufriedenheit in Städten, wie es normale Einheiten tun. Ihre Angriffe ignorieren allerdings die Waffenimmunität ihrer Ziele."/>
+		<Loc Key="UI_ARMY_MANAGER_TUT" Value="Übersicht der Armeen"/>
+		<Loc Key="UI_ARMY_MANAGER_TUT_PAGE1" Value="Dies ist eine Übersicht über alle Armeen, die unter Eurem Banner dienen, sowie über die von Euch angeheuerten Helden und die nicht ausgerüsteten magischen Gegenstände."/>
+		<Loc Key="UI_ARMY_MANAGER_TUT_PAGE2" Value="Wählt eine Armee aus, um zu sehen, wo auf der Weltkarte sie sich befindet."/>
+		<Loc Key="UI_VIEW_ARMY" Value="Armee anzeigen"/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT" Value="Spiegel, Vergleich und Siegfortschritt"/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE1" Value="Der Spiegel gibt die wichtigsten Informationen über Euch preis, Eure Hoheit."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE2" Value="In diesem Bereich werden Eure Spezialisierungen in Form von Spezialfertigkeiten angezeigt. Bisweilen erhaltet Ihr neue Spezialisierungen als Schatzfunde durch das Säubern sehr schwieriger Orte."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE3" Value="Dies sind Eure Zauberbücher. Sie ermöglichen es Euch, Zauber zu erforschen und zu sprechen, die derselben Sphäre wie die Zauberbücher angehören. Auch Zauberbücher könnt Ihr als Schatzfunde erhalten."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE4" Value="Falls Ihr wissen möchtet, wie Ihr Euch im Vergleich zu den rivalisierenden Zauberern schlagt, klickt auf den Button 'Vergleich'. Ihr könnt nur Informationen über Zauberer einsehen, mit denen Ihr bereits zu tun hattet."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE5" Value="Im Bereich 'Siegfortschritt' seht Ihr, wie weit Ihr bereits auf dem Weg zum Titel 'Meister der Magie' und damit zum Sieg vorangeschritten seid."/>
+		<Loc Key="UI_NO_VALID_TARGET" Value="Kein passendes Ziel"/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET" Value="Für diesen Zauber gibt es kein passendes Ziel. Ihr müsst ihn verwerfen oder zu einem anderen Zauber wechseln, wenn am Ende dieser Runde weiterhin kein passendes Ziel vorhanden ist."/>
+		<Loc Key="UI_AUTOSAVE" Value="Autom. Speichern"/>
+		<Loc Key="UI_AUTOSAVE_FREQUENCY_OFF" Value="Aus"/>
+		<Loc Key="UI_AUTOSAVE_FREQUENCY_ONE" Value="Nach jeder Runde"/>
+		<Loc Key="UI_AUTOSAVE_FREQUENCY" Value="Nach jeder {0}. Runde"/>
+		<Loc Key="UI_BATTLE_TUT" Value="Schlacht"/>
+		<Loc Key="UI_BATTLE_TUT_PAGE1" Value="Wie ich sehe, habt Ihr Euch entschieden, Eure Truppen persönlich anzuführen, Eure Hoheit. Wenn ich Euch einige Ratschläge erteilen dürfte ..."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE2" Value="Links befinden sich die verteidigenden Truppen, rechts die angreifenden Truppen. Die Verteidiger kommen stets als Erstes zum Zug. Gelingt es den Angreifern nicht, sie innerhalb von 50 Runden zu besiegen, wird die Schlacht als Sieg für die Verteidiger gewertet."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE3" Value="Während Eures Zugs könnt Ihr Euren Einheiten in beliebiger Reihenfolge Befehle erteilen. Jede Einheit verfügt über eine begrenzte Anzahl von Aktionen{ICON:MovementIcon}, die sowohl für die Bewegung als auch für Angriffe aufgewendet werden."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE4" Value="Zauberer, die an der Schlacht teilnehmen, können einmal pro Runde Zauber sprechen. Dies gilt auch für Euch, sofern Ihr über genügend Mana, Zauberkraft und die richtigen Zauber verfügt. Klickt auf den hervorgehobenen Button, um Euer Zauberbuch zu öffnen."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE5" Value="Bisweilen kann es vorkommen, dass die gegnerischen Truppen zu stark sind. In diesem Fall könnte es ratsam sein zu fliehen, anstatt die Kämpfer in den sicheren Tod zu schicken. Ihr müsst allerdings damit rechnen, auf der Flucht hohe Verluste zu erleiden."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE6" Value="Falls Ihr mehr über Schlachten wissen wollt, werft einen Blick in die Notizen, die ich für Euch angefertigt habe."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE7" Value="Ach, eines hätte ich fast vergessen zu erwähnen: Falls Ihr detaillierte Informationen über eine Einheit erhalten möchtet, klickt sie mit {ICON:LMB} an.\n\nViel Glück, Eure Hoheit!"/>
+		<Loc Key="UI_NOT_AVAILABLE" Value="N/A"/>
+		<Loc Key="UI_DIFF_WIZARD_PICKS" Value="Eure Zaubererpunkte"/>
+		<Loc Key="UI_DIFF_WIZARD_PICKS_DES" Value="Wie viele Punkte Ihr bei der Auswahl Eurer Zauberbücher und Spezialisierungen ausgeben könnt."/>
+		<Loc Key="UI_DIFF_STARTING_GOLD" Value="Gold zu Beginn"/>
+		<Loc Key="UI_DIFF_STARTING_GOLD_DES" Value="Über wie viel Gold{ICON:GoldIcon} Ihr zu Beginn des Spiels verfügt."/>
+		<Loc Key="UI_DIFF_AI_SKILL" Value="KI-Niveau"/>
+		<Loc Key="UI_DIFF_AI_SKILL_DES" Value = "Wie gut die vom Computer gesteuerten Spieler ihre verfügbaren Ressourcen nutzen und wie klug sie sich in Schlachten verhalten.\n\nBeachtet, dass die gegnerischen Zauberer auf der Stufe 'Erfahren' sehr aggressiv sein werden und Ihr lediglich mit intensiver Bestechung möglicherweise verhindern könnt, dass sie Euch sofort den Krieg erklären.\n\nAuf der Stufe 'Meister' werden Euch die gegnerischen Zauberer von Anfang an nicht wohlgesonnen sein und vermutlich in kürzester Zeit den Krieg erklären! Ihr könnt versuchen, sie zu bestechen, aber es wird trotzdem eher früher als später zum Krieg kommen."/>
+		<Loc Key="UI_DIFF_NEUTRAL_ARMIES" Value="Neutrale Armeen"/>
+		<Loc Key="UI_DIFF_NEUTRAL_ARMIES_DES" Value="Die Stärke und die Erscheinungshäufigkeit von neutralen Armeen, die durchs Land ziehen."/>
+		<Loc Key="UI_DIFF_LAIR_DEFENCE" Value="Unterschlupf-Verteidigung"/>
+		<Loc Key="UI_DIFF_LAIR_DEFENCE_DES" Value="Die Stärke von neutralen Armeen, die Unterschlüpfe verteidigen."/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS" Value="Spezialereignisse"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_DES" Value="Spezialereignisse, die in der Spielwelt vorkommen, von einem Erdbeben bis zu einem zufälligen Geschenk. Auswählen aus:\nOriginal (unbearbeitet) - Ereignisse wie im Originalspiel, ohne Wahlmöglichkeiten.\nOriginal (bearbeitet) - modifizierte Originalereignisse mit Wahlmöglichkeiten.\nOriginal (bearbeitet) und neu - modifizierte Originalereignisse und für das Remake neu erstellte Ereignisse."/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_NONE" Value="Keine"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_ORIGINAL" Value="Original (unbearbeitet)"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_ORIGINAL_MODIFIED" Value="Original (bearbeitet)"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_ORIGINAL_AND_NEW" Value="Original (bearbeitet) und neu"/>
+		<Loc Key="UI_DIFF_MAGIC_INTENSITY" Value="Magische Intensität"/>
+		<Loc Key="UI_DIFF_MAGIC_INTENSITY_DES" Value="Wie viel Zauberkraft{ICON:PowerIcon} pro kontrolliertem Kraftknoten gewonnen wird."/>
+		<Loc Key="UI_BATTLE_MP_TERRAIN_COSTS" Value="Bewegungskosten im Kampf"/>
+		<Loc Key="UI_BATTLE_MP_TERRAIN_COSTS_DES" Value="Wie viel die Bewegung in schwierigem Terrain im Kampf maximal kostet."/>
+		<Loc Key="UI_ALL_TERRAIN_COST_1" Value="Alle Felder kosten 1 Punkt"/>
+		<Loc Key="UI_MAX_COST_2" Value="Maximal 2 Punkte"/>
+		<Loc Key="UI_FULL_TERRAIN_COST" Value="Volle Kosten"/>
+		<Loc Key="UI_WORLD_SIZE" Value="Spielweltgröße"/>
+		<Loc Key="UI_WORLD_SIZE_DES" Value="Wie groß die Ebenen Arcanus und Myrror sind.\n\nKlein - 1.408 Hexfelder\nMittel - 2.080 Hexfelder\nGroß - 2.880 Hexfelder"/>
+		<Loc Key="UI_ADD_HERO" Value="Startheld hinzufügen"/>
+		<Loc Key="UI_ADD_HERO_DES" Value="Euer Spiel beginnt mit dem ausgewählten Heldencharakter in den Reihen Eurer Armee."/>
+		<Loc Key="UI_BSHAN" Value="B’Shan"/>
+		<Loc Key="UI_V_SMALL" Value="Sehr klein"/>
+		<Loc Key="UI_SMALL" Value="Klein"/>
+		<Loc Key="UI_MEDIUM" Value="Mittel"/>
+		<Loc Key="UI_LARGE" Value="Groß"/>
+		<Loc Key="UI_INITIAL_ECONOMY" Value="Wirtschaft zu Beginn"/>
+		<Loc Key="UI_INITIAL_ECONOMY_DES" Value="Auf der Stufe 'Leicht' beginnt Ihr das Spiel mit einer Kornkammer, einem Schrein und einem Siedler in Eurer Hauptstadt.\n\nDie Stufe 'Normal' lässt Euch mit einer Kornkammer und einem Siedler beginnen.\n\nAuf der Stufe 'Schwer' profitiert Ihr von keinerlei Erleichterungen."/>
+		<Loc Key="UI_EASY" Value="Leicht"/>
+		<Loc Key="UI_NORMAL" Value="Normal"/>
+		<Loc Key="UI_HARD" Value="Schwer"/>
+		<Loc Key="UI_AI_WIZARDS" Value="Anzahl der KI-Zauberer"/>
+		<Loc Key="UI_AI_WIZARDS_DES" Value="Mit wie vielen vom Computer gesteuerten Gegnern Ihr es im Spiel zu tun bekommt."/>
+		<Loc Key="UI_CURRENT_TURN" Value="Aktuelle Runde:"/>
+		<Loc Key="UI_JANUARY" Value="Januar"/>
+		<Loc Key="UI_FEBRUARY" Value="Februar"/>
+		<Loc Key="UI_MARCH" Value="März"/>
+		<Loc Key="UI_APRIL" Value="April"/>
+		<Loc Key="UI_MAY" Value="Mai"/>
+		<Loc Key="UI_JUNE" Value="Juni"/>
+		<Loc Key="UI_JULY" Value="Juli"/>
+		<Loc Key="UI_AUGUST" Value="August"/>
+		<Loc Key="UI_SEPTEMBER" Value="September"/>
+		<Loc Key="UI_OCTOBER" Value="Oktober"/>
+
+		<Loc Key="UI_NOVEMBER" Value="November"/>
+		<Loc Key="UI_DECEMBER" Value="Dezember"/>
+		<Loc Key="UI_STARVATION" Value="Hungersnot!"/>
+		<Loc Key="UI_STARVATION2" Value="Hungersnot"/>
+		<Loc Key="UI_STARVATION_DES" Value="In dieser Stadt wird mehr Nahrung verbraucht, als dort produziert wird. Die Bevölkerung wird deswegen dezimiert. Erhöht die Nahrungsproduktion, indem Ihr mehr Bürger als Bauern abstellt oder Gebäude errichtet, die Nahrung produzieren."/>
+		<Loc Key="UI_HUD2_TUT" Value="Weitere nützliche Informationen"/>
+		<Loc Key="UI_HUD2_TUT_PAGE1" Value="Wie ich sehe, habt Ihr bereits den Button 'Zug beenden' gefunden, Eure Hoheit.\nIch wollte Euch allerdings noch einige nützliche Hinweise geben."/>
+		<Loc Key="UI_HUD2_TUT_PAGE2" Value="Da wäre zunächst einmal der Ratgeber. Dieses nützliche Werkzeug sorgt dafür, dass Ihr alles über ein Hexfeld erfahrt, auf das Ihr den Mauszeiger bewegt. Drückt {ICON:Tab}, wenn Ihr den Ratgeber schnell aktivieren oder deaktivieren möchtet."/>
+		<Loc Key="UI_HUD2_TUT_PAGE3" Value="Zudem solltet Ihr wissen, wie Ihr zwischen Arcanus und Myrror wechseln könnt. Drückt dazu {ICON:P} oder klickt auf den hervorgehobenen Button. Beachtet jedoch, dass es eine Weile dauern wird, bis Eure Einheiten in die andere Ebene gelangen können."/>
+		<Loc Key="UI_HUD2_TUT_PAGE4" Value="Euer Ziel ist es, der Meister der Magie zu werden. Dazu müsst Ihr entweder die rivalisierenden Zauberer besiegen oder der Erste sein, der den Meisterzauber wirkt."/>
+		<Loc Key="UI_HUD2_TUT_PAGE5" Value="Falls Ihr mehr über ein bestimmtes Element wissen möchtet, bewegt einfach Euren Mauszeiger darauf oder drückt {ICON:RMB}."/>
+		<Loc Key="UI_DISMISS_UNIT" Value="Einheit auflösen"/>
+		<Loc Key="UI_DISMISS_UNIT_DES" Value="Entfernt diese Einheit permanent aus Eurer Armee."/>
+		<Loc Key="UI_HERO_EQUIPMENT" Value="Heldenausrüstung"/>
+		<Loc Key="UI_HERO_EQUIPMENT_DES" Value="Hier könnt Ihr diesen Heldencharakter mit Artefakten ausrüsten."/>
+		<Loc Key="UI_SPELLBOOK" Value="Zauberbuch"/>
+		<Loc Key="UI_SPELLBOOK_DES" Value="Zeigt die Zauber an, die dieser Heldencharakter sprechen kann."/>
+		<Loc Key="DES_MOVEMENT_ALLOWANCE" Value="Bewegungspunkte"/>
+		<Loc Key="DES_MOVEMENT_ALLOWANCE_DES" Value="Werden für Bewegungen, Angriffe und das Sprechen von Zaubern verwendet.\nEin Nahkampfangriff kostet 50 % der max. {ICON:MovementIcon} einer Einheit.\nFernkampfangriffe kosten 10 {ICON:MovementIcon}, und für das Sprechen eines Zaubers werden alle noch vorhandenen {ICON:MovementIcon} fällig.\n\nSolange die Einheit über mindestens 1 {ICON:MovementIcon} verfügt, kann sie eine Aktion ausführen."/>
+		<Loc Key="DES_BUTTON_WAIT" Value="Spielzug beenden ({0})"/>
+		<Loc Key="DES_BUTTON_WAIT_DES" Value="Ihr verzichtet auf alle eventuell noch möglichen Aktionen Eurer Einheiten und beendet Euren Spielzug."/>
+		<Loc Key="DES_BUTTON_NEXT_UNIT" Value="Nächste Einheit ({0})"/>
+		<Loc Key="DES_BUTTON_NEXT_UNIT_DES" Value="Wählt die nächste Einheit aus, die noch über Bewegungspunkte verfügt."/>
+		<Loc Key="UI_BUTTON_MOVE" Value="Bewegung fortsetzen ({0})"/>
+		<Loc Key="UI_BUTTON_MOVE_DES" Value="Weist diese Armee an, ihre zuvor festgelegte Bewegung fortzusetzen."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT" Value="Festung verloren"/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE1" Value="Welch ein Unglück, Eure Hoheit! Gegnerischen Truppen gelang es, Eure Hauptstadt einzunehmen und Eure Festung sowie Euren Beschwörungskreis zu zerstören!"/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE2" Value="Wie ich sehe, habt Ihr bereits den Zauber der Rückkehr gesprochen, der dafür sorgt, dass in einer Eurer verbliebenen Städte eine neue Festung errichtet wird."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE3" Value="Falls Ihr keine weiteren Städte kontrolliert, habt Ihr 10 Runden Zeit, um eine Stadt zu erobern. Gelingt Euch dies nicht, habt Ihr verloren."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE4" Value="Falls Ihr für den Zauber Mana benötigt, greift auf Alchemie zurück, zerstört einen magischen Gegenstand oder hofft auf Mana-Kristalle in Unterschlupfen und Ruinen."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE5" Value="Beachtet Folgendes: Solange Ihr keine Festung habt, könnt Ihr keine anderen Zauber sprechen und auch keine Zauberkraft bzw. Forschungspunkte mithilfe Eurer Kraftknoten bzw. Gebäude generieren."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE6" Value="Viel Glück, Eure Hoheit! Lasst Euch auf Eurem Weg zum Sieg nicht von diesem kleinen Rückschlag aufhalten!"/>
+		<Loc Key="UI_WIZARD_STARTED_SOM" Value="{0} hat mit dem Sprechen des Meisterzaubers begonnen!"/>
+		<Loc Key="UI_YOU_STARTED_SOM" Value="Ihr habt mit dem Sprechen des Meisterzaubers begonnen!"/>
+		<Loc Key="UI_SPELLBOOKS_TOOLTIP_DES" Value="Mit Zauberbüchern könnt Ihr neue Zauber der jeweiligen Sphäre erforschen. Darüber hinaus:\n- {INDENT:5%}Jedes Zauberbuch gewährt +1 Zauberkraft{ICON:PowerIcon}{END_INDENT}\n- {INDENT:5%}Jedes Startzauberbuch gewährt +2 Zauberfertigkeit{ICON:CastingSkillIcon}{END_INDENT}\n- {INDENT:5%}Jedes Zauberbuch nach dem 6. addiert 5 % zu den Forschungspunkten{ICON:ResearchIcon}, die für die Zauber derselben Sphäre ausgegeben werden, und senkt zudem die Kosten für das Sprechen dieser Zauber um 5 %."/>
+		<Loc Key="UI_TOOLTIP_WORLD_SPELL" Value="Welt-Zauber"/>
+		<Loc Key="UI_TOOLTIP_WORLD_SPELL_DES" Value="Diese Art von Zauber kann während Eures Spielzugs auf der Weltkarte gesprochen werden."/>
+		<Loc Key="UI_TOOLTIP_COMBAT_SPELL" Value="Kampf-Zauber"/>
+		<Loc Key="UI_TOOLTIP_COMBAT_SPELL_DES" Value="Diese Art von Zauber kann auf dem Schlachtfeld gesprochen werden und der Effekt des Zaubers hält nicht über das Ende der Schlacht hinaus an."/>
+		<Loc Key="UI_CAST_SPELLS3" Value="Zauber sprechen"/>
+		<Loc Key="UI_TOOLTIP_NATURE" Value="Naturzauber"/>
+		<Loc Key="UI_TOOLTIP_LIFE" Value="Lebenszauber"/>
+		<Loc Key="UI_TOOLTIP_DEATH" Value="Todeszauber"/>
+		<Loc Key="UI_TOOLTIP_CHAOS" Value="Chaoszauber"/>
+		<Loc Key="UI_TOOLTIP_SORCERY" Value="Hexereizauber"/>
+		<Loc Key="UI_TOOLTIP_ARCANE" Value="Arkaner Zauber"/>
+		<Loc Key="UI_TOOLTIP_SUMMON" Value="Beschwörung"/>
+		<Loc Key="UI_TOOLTIP_SUMMON_DES" Value="Beschwört eine Einheit, die Eure Befehle befolgt. Auf der Weltkarte erscheint die Einheit am Ort des Beschwörungskreises, während sie im Kampf in der Nähe von verbündeten Einheiten auftaucht."/>
+		<Loc Key="UI_TOOLTIP_ENCHANTMENT" Value="Bezauberung"/>
+		<Loc Key="UI_TOOLTIP_ENCHANTMENT_DES" Value="Bezauberungen sind dauerhafte Effekte, die entweder auf ein bestimmtes Ziel oder die gesamte Welt wirken. Wenn Bezauberungen auf der Weltkarte gesprochen werden, benötigen sie für gewöhnlich Mana für den Unterhalt, während auf dem Schlachtfeld der Unterhalt keine Rolle spielt. Dafür endet der Effekt jedoch nach der Schlacht."/>
+		<Loc Key="UI_TOOLTIP_INSTANT" Value="Sofort"/>
+		<Loc Key="UI_TOOLTIP_INSTANT_DES" Value="Sofortzauber entfalten ihre Wirkung auf der Stelle und erfordern keinen Unterhalt."/>
+		<Loc Key="UI_TOOLTIP_CASTING_COST" Value="Spruchkosten"/>
+		<Loc Key="UI_TOOLTIP_CASTING_COST_DES" Value="Die Mana-Kosten{ICON:ManaIcon} für das Sprechen dieses Zaubers. Bei Zaubern, die sowohl auf der Weltkarte als auch auf dem Schlachtfeld eingesetzt werden können, sind die Kosten der beiden Varianten normalerweise unterschiedlich. Das liegt daran, dass sich die Festungsdistanz{ICON:CastingRangeIcon} (die Distanz zur Zauberfestung) auf die Kosten von Zaubern in der Schlacht auswirken kann."/>
+		<Loc Key="UI_TOOLTIP_TARGET" Value="Ziel"/>
+		<Loc Key="UI_TOOLTIP_TARGET_DES" Value="Gibt an, wer oder was als passendes Ziel für den Zauber fungieren kann. Hinweis: Es kann vorkommen, dass ein Ziel eine Immunität gegen einen bestimmten Zaubertyp aufweist."/>
+		<Loc Key="UI_TOOLTIP_CASTING_TIME" Value="Spruchdauer"/>
+		<Loc Key="UI_TOOLTIP_CASTING_TIME_DES" Value="Gibt an, wie viele Runden es dauert, diesen Zauber zu sprechen. Die Spruchdauer hängt von Eurer Zauberfertigkeit{ICON:CastingSkillIcon}, Eurem aktuellen Mana-Vorrat{ICON:ManaIcon} und der Komplexität des Zaubers ab."/>
+		<Loc Key="UI_TOOLTIP_UPKEEP_COST" Value="Unterhaltskosten"/>
+		<Loc Key="UI_TOOLTIP_UPKEEP_COST_DES" Value="Gibt an, wie viel Mana{ICON:ManaIcon} pro Runde benötigt wird, um die beschworene Einheit oder Bezauberung aufrechtzuerhalten. (Spezialisierungen des Zauberers wie 'Übertragung' oder 'Beschwörer' können sich auf diesen Wert auswirken.)\nWenn die Kosten nicht getragen werden können, kommt es zur Auflösung der Einheit bzw. zur Aufhebung der Bezauberung."/>
+		<Loc Key="UI_TOOLTIP_COMMON_SPELL" Value="Gewöhnlicher Zauber"/>
+		<Loc Key="UI_TOOLTIP_UNCOMMON_SPELL" Value="Ungewöhnlicher Zauber"/>
+		<Loc Key="UI_TOOLTIP_RARE_SPELL" Value="Seltener Zauber"/>
+		<Loc Key="UI_TOOLTIP_VRARE_SPELL" Value="Sehr seltener Zauber"/>
+		<Loc Key="UI_SCORE_MULTIPLIER2" Value="Punktemultiplikator"/>
+		<Loc Key="UI_SCORE_MULTIPLIER_DES" Value="Am Ende des Spiels werden Eure Punkte mit diesem Wert multipliziert."/>
+		<Loc Key="UI_INSUFFICIENT_CASTING_SKILL" Value="{ICON:CastingSkillIcon} unzureichend"/>
+		<Loc Key="UI_INSUFFICIENT_MANA" Value="{ICON:ManaIcon} unzureichend"/>
+		<Loc Key="UI_ISSUE_ENCOUNTERED" Value="Fehler"/>
+		<Loc Key="UI_ISSUE_ENCOUNTERED_DES" Value="Ein kritischer Fehler ist aufgetreten. Das Speichern wurde deaktiviert, damit frühere funktionierende Spielstände nicht überschrieben werden. Falls Ihr möchtet, könnt Ihr uns einen Fehlerbericht schicken (F8-Taste). Startet das Spiel bitte neu, um ungestört fortfahren zu können (ältere Spielstände funktionieren nicht fehlerfrei, wenn Ihr das Spiel nicht neu startet)."/>
+		<Loc Key="UI_REPORT_A_BUG" Value="Fehlerbericht erstellen"/>
+		<Loc Key="UI_REPORT_A_BUG1" Value="Verwendet dieses Formular, um einen Fehler im Spiel zu melden. Ein Screenshot des Spiels, der letzte Spielstand und eine Log-Datei werden an diesen Bericht angehängt und zusammen mit Eurem Kommentar an unseren Bug-Tracker übermittelt. Wir sammeln dabei keine persönlichen Informationen."/>
+		<Loc Key="UI_REPORT_A_BUG2" Value="Bitte beschreibt im unteren Textfeld Euer Problem so detailliert, wie es geht. Falls möglich, gebt bitte einzelne Schritte zum Reproduzieren des Fehlers an. Dies erhöht die Wahrscheinlichkeit, den Fehler zu finden und zu beheben, enorm."/>
+		<Loc Key="UI_REPORT_A_BUG3" Value="Vielen Dank, dass Ihr Euch Zeit für diesen Bericht nehmt!"/>
+		<Loc Key="UI_REPORT_A_BUG4" Value="- Team von MuHa Games"/>
+		<Loc Key="UI_TITLE" Value="Titel"/>
+		<Loc Key="UI_BUG_DESC_HERE" Value="Dies ist das Feld für die Fehlerbeschreibung."/>
+		<Loc Key="UI_SEND" Value="Übermitteln"/>
+		<Loc Key="UI_SELECT_CATEGORY" Value="Kategorie auswählen"/>
+		<Loc Key="UI_BUTTON_BUG_REPORT" Value="Fehlerbericht erstellen"/>
+		<Loc Key="UI_BUTTON_BUG_REPORT2" Value="Fehlerbericht erstellen ({0})"/>
+		<Loc Key="UI_EARTH_GATE_TARGET" Value="Erdportal - Zielstadt auswählen"/>
+		<Loc Key="UI_MANA_TRADE_DES" Value="Magische Energie, mit der Zauber gesprochen werden."/>
+		<Loc Key="UI_FLEE" Value="Fliehen"/>
+		<Loc Key="UI_VICTORY2" Value="Siegfortschritt"/>
+		<Loc Key="UI_VICTORY_PROGRESS" Value="Siegfortschritt"/>
+		<Loc Key="UI_ELIMINATE_ALL_RIVALS" Value="Alle Rivalen ausschalten"/>
+		<Loc Key="UI_OR" Value="ODER"/>
+		<Loc Key="UI_RESEARCH_AND_CAST_SOM" Value="Meisterzauber erforschen und sprechen"/>
+		<Loc Key="UI_PAUSE_MENU" Value="Pausemenü"/>
+		<Loc Key="UI_ALCHEMY_TUT" Value="Alchemie"/>
+		<Loc Key="UI_ALCHEMY_TUT_PAGE1" Value="Wenn Euer Gold{ICON:GoldIcon} zur Neige geht, Ihr jedoch einen Überschuss an Mana{ICON:ManaIcon} habt (oder andersherum), warum wandelt Ihr dann nicht einfach das Eine in das Andere um?"/>
+		<Loc Key="UI_ALCHEMY_TUT_PAGE2" Value="Ihr benötigt Gold und Mana als Unterhalt für Eure Gebäude und Einheiten. Ein Mangel an diesen Ressourcen kann Euch daher Schaden zufügen."/>
+		<Loc Key="UI_ALCHEMY_TUT_PAGE3" Value="Wechselt in den Bildschirm 'Magie' und wandelt die überschüssige Ressource in die benötigte Ressource um. Dies mag zwar keine dauerhafte Lösung sein, aber zumindest gewinnt Ihr Zeit, um Euch eine dauerhafte Lösung einfallen zu lassen."/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_COST" Value="Forschungskosten"/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_COST_DES" Value="Anzahl der Forschungspunkte, die für das Erforschen dieses Zaubers nötig sind."/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_TIME" Value="Forschungsdauer"/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_TIME_DES" Value="Anzahl der Runden, bis das Erforschen dieses Zaubers abgeschlossen ist. Hängt von der Anzahl der Forschungspunkte ab, die Ihr pro Runde generiert."/>
+		<Loc Key="UI_TOOLTIP_CASTING_SKILL_COST" Value="Zauberfertigkeitskosten"/>
+		<Loc Key="UI_TOOLTIP_CASTING_SKILL_COST_DES" Value="Gibt an, wie viele Zauberfertigkeitspunkte für das Sprechen dieses Zaubers verwendet werden."/>
+		<Loc Key="UI_GAME_OPTIONS" Value="Spieloptionen"/>
+		<Loc Key="UI_OPT_CRASH" Value="Absturz/Einfrieren/Softlock"/>
+		<Loc Key="UI_OPT_BUG" Value="Bug"/>
+		<Loc Key="UI_OPT_GAMEPLAY-BALANCE" Value="Gameplay - Balancing"/>
+		<Loc Key="UI_OPT_GAMEPLAY-OTHER" Value="Gameplay - Sonstiges"/>
+		<Loc Key="UI_OPT_OTHER" Value="Ein anderes Problem"/>
+		<Loc Key="UI_SENDING" Value="Übermittle ..."/>
+		<Loc Key="UI_NONE" Value="---"/>
+		<Loc Key="UI_SMASH_ARTEFACT" Value="Artefakt zerstören"/>
+		<Loc Key="UI_SMASH_ARTEFACT_DES" Value="Möchtet Ihr '{0}' wirklich zerstören?\n\nIhr erhaltet dafür {1} {ICON:ManaIcon}."/>
+		<Loc Key="UI_NODE_TUT" Value="Magische Knoten"/>
+		<Loc Key="UI_NODE_TUT_PAGE1" Value="Eure Hoheit, Ihr seid auf einen Kraftknoten gestoßen! Was das ist, möchtet Ihr wissen?"/>
+		<Loc Key="UI_NODE_TUT_PAGE2" Value="Kraftknoten sind Orte, die mit Zauberkraft durchdrungen sind. Wer einen solchen Kraftort kontrolliert, kann diese Zauberkraft anzapfen und für seine eigenen Zwecke nutzen."/>
+		<Loc Key="UI_NODE_TUT_PAGE3" Value="Es gibt drei Arten von Kraftknoten: Naturknoten, Chaosknoten und Hexereiknoten. Jeder dieser Knoten wird von magischen Kreaturen und Zauberbarrieren derselben Sphäre geschützt."/>
+		<Loc Key="UI_NODE_TUT_PAGE4" Value="Um einen neutralen Knoten zu erobern, müsst Ihr erst seine Bewacher besiegen und dann die Spezialaktion 'Verschmelzung' durchführen."/>
+		<Loc Key="UI_NODE_TUT_PAGE5" Value="Lediglich zwei Kreaturen sind in der Lage, mit Kraftknoten zu verschmelzen - Zaubergeister und Wächtergeister. Ihr könnt diese Kreaturen mit den entsprechenden Zaubern beschwören."/>
+		<Loc Key="UI_NODE_TUT_PAGE6" Value="Beachtet, dass selbst ein Kraftknoten, mit dem eine Verschmelzung vollzogen wurde, von einem Geist eines rivalisierenden Zauberers erobert werden kann."/>
+		<Loc Key="UI_PRESS_F8_TO_REPORT" Value="F8-Taste für Fehlerbericht"/>
+		<Loc Key="UI_GO_TO_UNIT" Value="Zur Einheit gehen"/>
+		<Loc Key="UI_EARTH_GATE_NO_MP" Value="Um 'Erdportal' nutzen zu können, muss jede ausgewählte Einheit mindestens 1 Bewegungspunkt aufweisen."/>
+		<Loc Key="UI_BUTTON_USE_EARTH_GATE" Value="'Erdportal' verwenden"/>
+		<Loc Key="UI_BUTTON_USE_EARTH_GATE_DES" Value="Teleportiert für 1 Bewegungspunkt Einheiten umgehend in eine andere Stadt auf derselben Ebene, die ebenfalls mit 'Erdportal' bezaubert wurde."/>
+		<Loc Key="UI_EXP" Value="EP"/> <!--experience points-->
+		<Loc Key="UI_EXPERIENCE" Value="Erfahrung:"/>
+		<Loc Key="UI_CAPITAL_LOST1" Value="Welch ein Unglück, Eure Hoheit! Gegnerischen Truppen gelang es, Eure Hauptstadt einzunehmen und Eure Festung sowie Euren Beschwörungskreis zu zerstören!\n\nWie ich sehe, habt Ihr bereits den Zauber der Rückkehr gesprochen, der dafür sorgt, dass in einer Eurer verbliebenen Städte eine neue Festung errichtet wird.\n\nFalls Ihr keine weiteren Städte kontrolliert, habt Ihr 10 Runden Zeit, um eine Stadt zu erobern. Gelingt Euch dies nicht, habt Ihr verloren."/>
+		<Loc Key="UI_CAPITAL_LOST2" Value="Solange Ihr keine Festung habt, ist es Euch nicht mehr möglich, Mana zu generieren, Forschung zu betreiben, Eure Zauberkraft zu erhöhen oder irgendeinen Zauber zu sprechen.\n\nSolltet Ihr nicht genügend Mana haben, um den Zauber der Rückkehr zu sprechen, greift auf Alchemie zurück, zerstört einen magischen Gegenstand oder hofft auf Mana-Kristalle in Unterschlupfen und Ruinen.\n\nViel Glück, Eure Hoheit! Lasst Euch auf Eurem Weg zum Sieg nicht von diesem kleinen Rückschlag aufhalten!"/>
+		<Loc Key="UI_YOU_ARE_BANISHED" Value="Gebannt!"/>
+		<Loc Key="UI_YOU_ARE_BANISHED_DES" Value="Ihr seid gebannt und habt alle Eure Städte verloren! Falls es Euch nicht gelingt, eine Stadt zu erobern oder zu errichten, bevor die Zeit abläuft, habt Ihr verloren."/>
+		<Loc Key="DES_SAVE_WARNING" Value="Warnung: inkompatibler Spielstand"/>
+		<Loc Key="DES_SAVE_WARNING_DES" Value="Dieser Spielstand wurde mit einer anderen Spielversion erstellt. Er wird unter Umständen nicht korrekt geladen oder Ihr könntet beim Spielen auf Probleme stoßen.\n\nSpielstand-Version:{0}\n\nAktuelle Version: {1}"/>
+		<Loc Key="UI_YOU_CAN_CAST_ONLY_ONCE_PER_TURN" Value="Ihr könnt nur einmal pro Runde einen Zauber sprechen."/>
+		<Loc Key="UI_UNIT_YOU_CAN_CAST_ONLY_ONCE_PER_TURN" Value="Diese Einheit hat all ihre Bewegungspunkte{ICON:MovementIcon} aufgebraucht und kann bis zur nächsten Runde keinen Zauber sprechen."/>
+		<Loc Key="UI_SUMMONING_SPELLS" Value="Beschwörungszauber"/>
+		<Loc Key="UI_UNIT_SPELLS" Value="Einheitenzauber"/>
+		<Loc Key="UI_OTHER_SPELLS" Value="Sonstige Zauber"/>
+		<Loc Key="UI_BUTTON_BATTLE_HELP" Value="Hilfe"/>
+		<Loc Key="UI_BATTLE_HELP" Value="Schlachthilfe"/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS" Value="Sprechen von Zaubern"/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS1" Value="Um einen Zauber zu sprechen, klickt auf den Zauberbuch-Button unten in der Mitte des Interfaces. Falls Eure Armee über zauberkundige Einheiten verfügt, könnt Ihr sie hier auswählen."/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS2" Value="Das Sprechen von Zaubern im Kampf unterscheidet sich etwas vom Ablauf auf der Weltkarte."/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS3" Value="{ICON:BulletPoint}{INDENT:5%}Ihr könnt pro Runde einen einzelnen Zauber sprechen.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Zum Sprechen eines Zaubers benötigt Ihr ausreichend Mana{ICON:ManaIcon} und Zauberfertigkeitspunkte{ICON:CastingSkillIcon}.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Wie viel Mana zum Sprechen eines Zaubers nötig ist, hängt stark von der Festungsdistanz{ICON:CastingRangeIcon} ab - also wie weit das Schlachtfeld von Eurer Festung entfernt ist. Je größer die Entfernung ist, desto höher fallen die Kosten aus. Das nötige Mana wird von Eurem persönlichen Mana-Vorrat abgezogen.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Die Zauberfertigkeit legt die Maximalkosten Eurer Zauber in der Schlacht fest. Die nötigen Zauberfertigkeitspunkte entsprechen den Mana-Grundkosten des Zaubers (also ohne Auswirkungen der Festungsdistanz). Der Vorrat an Zauberfertigkeitspunkten wird vor jedem Kampf wiederaufgefüllt.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Wenn Euer Gegner den Zauber nicht kontert oder ihm nicht mit einer Probe widersteht, werden die Effekte sofort wirksam.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Kreaturen, die im Kampf beschworen wurden, werden am Ende der Schlacht zerstört, und Bezauberungen, die auf Einheiten wirken, werden aufgehoben.{END_INDENT}"/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS" Value="Nahkampfangriffe"/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS1" Value="Wenn Ihr Euch unmittelbar neben einer gegnerischen Einheit befindet, könnt Ihr einen Nahkampfangriff durchführen. Bei einem Nahkampfangriff führt die verteidigende Einheit normalerweise gleichzeitig einen Gegenangriff durch, was bedeutet, dass sich die Einheiten gleichzeitig gegenseitig Schaden zufügen. (Es ist durchaus möglich, dass sowohl der Angreifer als auch der Verteidiger ausgeschaltet werden!)"/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS2" Value="Jede Art von Angriff hat einen individuellen Ablauf. Dies gilt auch für Spezialangriffe (wie etwa Wurfangriffe oder Feuerodem), deren zusätzlicher Schaden vor oder nach der Ermittlung des regulären Nahkampfschadens berechnet wird. Schaden durch einen Spezialangriff kann eine Einheit ausschalten, bevor sie die Chance auf einen Gegenangriff bekommt."/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS3" Value="Fliegende Einheiten können nicht Ziel des Nahkampfangriffs von gehenden oder schwimmenden Einheiten sein, außer der Angreifer verfügt über einen bestimmten Spezialangriff (Odem-, Wurf- oder Blickangriff). Die Nahkampfeinheit kann aber unabhängig von dieser Einschränkung einen Gegenangriff starten, wenn sie von einer fliegenden Einheit angegriffen wird."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS" Value="Fernkampfangriffe"/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS1" Value="Einheiten mit einem Fernkampfangriff{ICON:RangedIconNormal} und verfügbarer Munition{ICON:AmmoIcon} können einen Fernkampfangriff gegen ein Ziel durchführen, das sich mindestens zwei Felder entfernt aufhält. Das Ziel muss sichtbar sein und darf sich nicht hinter einer Mauer der Dunkelheit befinden. Fernkampfangriffe lösen keinen Gegenangriff der verteidigenden Einheit aus."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS2" Value="Physische Fernkampfangriffe (wie etwa mit Geschossen{ICON:MissileIcon} oder Steinen{ICON:BoulderIcon}) werden mit steigender Entfernung zum Ziel weniger wirkungsvoll: Alle 3 Felder sinkt die Trefferchance{ICON:ToHitRangedBonusIcon} um 10 %."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS3" Value="Bei zielsicheren Einheiten wie z. B. dem Katapult oder dem Kriegsschiff beträgt die maximale Verringerung der Trefferchance{ICON:ToHitRangedBonusIcon} aufgrund der Zielentfernung 10 %."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS4" Value="Magische Fernkampfangriffe {ICON:LifeIcon} {ICON:DeathIcon} {ICON:NatureIcon} {ICON:ChaosIcon} {ICON:SorceryIcon} {ICON:TechIcon} sind von den negativen Auswirkungen der Zielentfernung nicht betroffen."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS5" Value="Die meisten Spezialangriffe wie Odem- oder Blickangriffe sind nicht als Fernkampfangriffe möglich, Berührungsangriffe für gewöhnlich jedoch schon."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE" Value="Bewegungspunkte"/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE1" Value="Die Bewegungspunkte{ICON:MovementIcon} im Kampf entsprechen den Bewegungspunkten, die die Einheit auf der Weltkarte aufweist. Im Kampf werden diese Punkte sowohl zum Bewegen als auch zum Angreifen (sowie zum Zaubern) verwendet."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE2" Value="Die Kosten für eine Bewegung am Boden{ICON:MovementWalkingIcon} hängen von dem jeweiligen Feld ab, das die Einheit zu betreten versucht. Für manche Terrainarten gelten höhere Bewegungskosten als 1. Es ist möglich, ein Feld zu betreten, dessen Kosten die verbleibenden Bewegungspunkte{ICON:MovementIcon} der Einheit übersteigen, wenn diese Bewegung die Bewegungspunkte der Einheit aufbraucht."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE3" Value="Eine Bewegung auf dem Wasser{ICON:MovementSwimmingIcon} und in der Luft{ICON:MovementFlyingIcon} kostet stets 1 Bewegungspunkt{ICON:MovementIcon}. Einheiten, die sich nur auf Wasser bewegen können, dürfen sich nicht auf Landfelder bewegen."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE4" Value="Die Kosten für einen Nahkampfangriff entsprechen der Hälfte der maximalen Bewegungspunkte{ICON:MovementIcon} der Einheit oder allen noch verbleibenden Bewegungspunkten{ICON:MovementIcon}, nachdem die Einheit bewegt wurde - es gilt hier der höhere Wert. Eine Einheit kann in einem Spielzug zwei verschiedene Nahkampfangriffe durchführen, wenn sie sich nicht bewegt und stehen bleibt. Einheiten können sich vor oder nach dem Angreifen bewegen."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE5" Value="Die Kosten für einen Fernkampfangriff betragen 10 Bewegungspunkte{ICON:MovementIcon} oder entsprechen allen noch verbleibenden Bewegungspunkten{ICON:MovementIcon} - es gilt hier der höhere Wert. Es ist möglich, eine Einheit zu bewegen und unter Aufwendung der verbleibenden Bewegungspunkte{ICON:MovementIcon} einen Fernkampfangriff durchzuführen."/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE" Value="Rüstung und Resistenz"/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE1" Value="Rüstung{ICON:ArmourIconNormal} und Resistenz{ICON:ResistanceIconNormal} schwächen die Effekte von gegnerischen Angriffen ab oder negieren sie ganz."/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE2" Value="Rüstung{ICON:ArmourIconNormal} wirkt gegen Nah- und Fernkampfangriffe aller Arten, aber auch gegen Zauber, die beim Treffen des Ziels direkten Schaden verursachen, wie z. B. 'Feuergeschoss'."/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE3" Value="Resistenz{ICON:ResistanceIconNormal} wirkt gegen gegnerische Zauber, die sich mit bleibenden Bezauberungen auf die Einheit auswirken, wie z. B. 'Finsterer Schlaf'. Die Anzahl der Resistenzproben hängt vom Zauber bzw. der Bezauberung ab: eine (wenn die Einheit ins Visier genommen wird), in jeder Runde (wenn Ihr versucht, den Effekt aufzuheben) oder keine."/>
+		<Loc Key="UI_BANISHED_CANNOT_CAST" Value="Ihr seid gebannt und könnt keinen Zauber sprechen, bis Ihr den Zauber der Rückkehr abgeschlossen habt."/>
+		<Loc Key="UI_YOU_HAVE_WON" Value="Sieg! Ihr habt Eure Überlegenheit über alle anderen Zauberer eindrucksvoll unter Beweis gestellt."/>
+		<Loc Key="UI_YOU_ARE_MASTER_OF_MAGIC" Value="Ihr sprecht den uralten Meisterzauber und bannt damit alle verbleibenden Widersacher aus der Welt. Der ersehnte Titel 'Meister der Magie' gehört nun zweifelsohne Euch. Möge Eure magische Herrschaft glanzvoll sein und ewig währen!"/>
+		<Loc Key="UI_YOU_ARE_MASTER_OF_MAGIC2" Value="Ihr habt Eure Widersacher aus der Welt gebannt. Der ersehnte Titel 'Meister der Magie' gehört nun zweifelsohne Euch. Möge Eure magische Herrschaft glanzvoll sein und ewig währen!"/>
+		<Loc Key="UI_NO_SUMMONING_CIRCLE_UNIT_DES" Value="Ihr könnt diesen Zauber nicht sprechen, da Ihr entweder keinen Beschwörungskreis habt oder das Ziel keine Einheit ist."/>
+		<Loc Key="UI_NO_SUMMONING_CIRCLE_HERO_DES" Value="Ihr könnt diesen Zauber nicht sprechen, da Ihr entweder keinen Beschwörungskreis habt oder das Ziel keine Heldeneinheit ist."/>
+		<Loc Key="UI_ATTACK" Value="Angriff"/>
+		<Loc Key="UI_ATTACKER" Value="Angreifer"/>
+		<Loc Key="UI_DEFENSE" Value="Verteidigung"/>
+		<Loc Key="UI_DEFENDER" Value="Verteidiger"/>
+		<Loc Key="UI_GOLD_TRADE_DES" Value="Gold ist die universelle Sprache des Handels."/>
+		<Loc Key="UI_INTERESTED" Value="Interessiert"/>
+		<Loc Key="UI_INTERESTED_DES" Value="Die Gegenseite ist an diesem Gegenstand interessiert und bereit, etwas mehr dafür zu bezahlen."/>
+		<Loc Key="UI_NOT_INTERESTED" Value="Nicht interessiert"/>
+		<Loc Key="UI_NOT_INTERESTED_DES" Value="Die Gegenseite hat kein großes Interesse an diesem Gegenstand. Sie würde ihn zwar kaufen, will aber weniger dafür bezahlen."/>
+		<Loc Key="UI_FIRE_BREATH" Value="Feuerodem 3"/>
+		<Loc Key="UI_OF_THE" Value="-"/> <!--used in hall of fame, ie. Merlin of the Klackons-->
+		<Loc Key="UI_HALL_OF_FAME" Value="Ruhmeshalle"/>
+		<Loc Key="UI_RARITY" Value="Seltenheit"/>
+		<Loc Key="UI_BATTLE_OUTCOME1" Value="Vernichtende Niederlage"/>
+		<Loc Key="UI_BATTLE_OUTCOME1_DES" Value="Eure Armee wird die Schlacht VERLIEREN und es wird KEINE Überlebenden geben."/>
+		<Loc Key="UI_BATTLE_OUTCOME2" Value="Sieg - hohe Verluste"/>
+		<Loc Key="UI_BATTLE_OUTCOME2_DES" Value="Eure Armee wird die Schlacht zwar GEWINNEN, aber viele Einheiten werden GETÖTET und die Überlebenden werden höchstwahrscheinlich schwer VERWUNDET sein."/>
+		<Loc Key="UI_BATTLE_OUTCOME3" Value="Sieg - mittlere Verluste"/>
+		<Loc Key="UI_BATTLE_OUTCOME3_DES" Value="Eure Armee wird die Schlacht zwar GEWINNEN, aber dabei werden vermutlich nicht wenige Einheiten GETÖTET und die Überlebenden werden höchstwahrscheinlich VERWUNDET sein."/>
+		<Loc Key="UI_BATTLE_OUTCOME4" Value="Sieg - geringe Verluste"/>
+		<Loc Key="UI_BATTLE_OUTCOME4_DES" Value="Eure Armee wird die Schlacht zwar GEWINNEN, aber einige Einheiten werden VERWUNDET und manche könnten sogar GETÖTET werden."/>
+		<Loc Key="UI_BATTLE_OUTCOME5" Value="Sieg - unbedeutende Verluste"/>
+		<Loc Key="UI_BATTLE_OUTCOME5_DES" Value="Eure Armee wird die Schlacht GEWINNEN, ohne eine Einheit zu verlieren. Allerdings könnten einige Einheiten leicht verwundet werden."/>
+		<Loc Key="UI_SAVE_FAILED" Value="Speichern fehlgeschlagen"/>
+		<Loc Key="UI_GAME_IS_DAMAGED_CANNOT_SAVE" Value="Eure Hoheit, es tut mir sehr leid, aber die aktuellen Spieldaten sind fehlerhaft und können nicht gespeichert werden."/>
+		<Loc Key="UI_HAS_BEEN_DEFEATED_BY" Value="wurde besiegt!\nGebannt durch "/> <!--used when another wizard gets defeated, ie. Tauron has been defeated by Merlin-->
+		<Loc Key="UI_NEUTRAL_ARMIES" Value="Neutrale Armeen"/>
+		<Loc Key="UI_WORLD_CASTING_SKILL" Value="Zauberfertigkeit"/>
+		<Loc Key="UI_WORLD_CASTING_SKILL_DES" Value="Gibt an, wie viel Mana in diesem Spielzug noch ausgegeben werden kann.\nWenn ein Zauber weniger als Eure maximalen Zauberfertigkeitspunkte kostet, kann er sofort gesprochen werden - sofern Ihr über genügend verbleibende Zauberfertigkeits- und Mana-Punkte verfügt."/>
+		<Loc Key="UI_CANCEL_ENCHANTMENT" Value="Bezauberung abbrechen"/>
+		<Loc Key="UI_PRODUCTION_TURNS_LEFT" Value="Verbleibende Runden"/>
+		<Loc Key="UI_PRODUCTION_TURNS_LEFT_DES" Value="Gibt an, wie viele Runden es noch bis zum Abschluss dieser Bauaktion dauert.\n\nHinweis: 'Wohnraum' und 'Handelswaren' sind durchgehende Projekte ohne eine bestimmte Laufzeit. Sie bleiben aktiv, bis sie abgebrochen bzw. ersetzt werden."/>
+		<Loc Key="UI_PRODUCTION_BUY" Value="Kaufen"/>
+		<Loc Key="UI_PRODUCTION_BUY_DES" Value="Bezahlt die angegebene Goldmenge, um die Produktionszeit auf 1 Runde zu verkürzen."/>
+		<Loc Key="UI_TRADE_TUT" Value="Handel"/>
+		<Loc Key="UI_TRADE_TUT_PAGE1" Value="Dies ist der Handelsbildschirm, in dem Ihr verschiedenste Waren mit rivalisierenden Zauberern tauschen könnt. Zudem könnt Ihr hier Waren auswählen, um sie anderen Zauberern bei bestimmten Anlässen zu offerieren."/>
+		<Loc Key="UI_TRADE_TUT_PAGE2" Value="Die hervorgehobenen Bereiche enthalten die für den Tauschhandel verfügbaren Gegenstände. Auf der linken Seite befinden sich Eure Gegenstände, auf der rechten Seite die des anderen Zauberers."/>
+		<Loc Key="UI_TRADE_TUT_PAGE3" Value="Im zentralen Bereich werden die Gegenstände angezeigt, die für den Tauschhandel oder als Geschenk ausgewählt wurden. Zieht mit gedrückter linker Maustaste Gegenstände in den Angebotsbereich."/>
+		<Loc Key="UI_TRADE_TUT_PAGE4" Value="Der Wert des Angebots hängt von den ausgewählten Gegenständen ab, wird aber auch davon beeinflusst, wie viel Interesse der Tauschpartner an den feilgebotenen Waren hat."/>
+		<Loc Key="UI_TRADE_TUT_PAGE5" Value="Zu erkennen ist dies an einem kleinen grünen oder roten Pfeil neben dem Preis."/>
+		<Loc Key="UI_TRADE_TUT_PAGE6" Value="Euer Tauschpartner wird dem Handel zustimmen, wenn der Wert Eurer angebotenen Waren den Wert seiner angebotenen Waren übersteigt oder diesem entspricht."/>
+		<Loc Key="UI_TRADE_TUT_PAGE7" Value="Wenn Ihr dem anderen Zauberer ein für ihn lukratives Tauschangebot macht oder ihn beschenkt, verbessert Ihr damit Eure Beziehung zu ihm."/>
+		<Loc Key="UI_MANAGED_BY_FAMILIAR" Value="Verwaltet durch Vertrauten"/>
+		<Loc Key="UI_TOOLTIP_MANAGED_BY_FAMILIAR" Value="Verwaltet durch Vertrauten"/>
+		<Loc Key="UI_TOOLTIP_MANAGED_BY_FAMILIAR_DES" Value="Euer Vertrauter wird die Produktion in der Stadt verwalten.\n\nEr wird Folgendes bauen/ausbilden:\nDie stärkste verfügbare defensive Einheit, wenn die aktuelle Einheitenzahl kleiner als 1 + Bürger/5 ist.\nEin verfügbares Nahrung produzierendes Gebäude, wenn mehr als 50 % der Bürger Bauern sind.\nWirtschaftsgebäude (Nahrung, Produktion oder Gold), solange die Stadt weniger als 5 Bürger hat.\nDann das günstigste Gebäude, bis die Liste leer ist, und danach Rückkehr zu 'Wohnraum'.\n\nIhr könnt Änderungen vornehmen und eigene Projekte auswählen, die der Vertraute dann priorisiert."/>
+		<Loc Key="UI_CAST_SPELL" Value="Zauber sprechen"/>
+		<Loc Key="UI_MOVE_ARMY" Value="Armee bewegen"/>
+		<Loc Key="UI_PICK_RESEARCH" Value="Forschung festlegen"/>
+		<Loc Key="UI_AI_ANIMATION_SPEED" Value="Animationsgeschw. - KI-Einheiten"/>
+		<Loc Key="UI_BACKGROUND" Value="- Hintergrund"/>
+		<Loc Key="UI_CLICK_TO_DISMANTLE" Value="Zerstören für Mana"/>
+		<Loc Key="UI_YOU_HAVE_NO_BATTLE_SPELLS" Value="Ihr habt keine Kampfzauber in Eurem Zauberbuch."/>
+		<Loc Key="UI_NODE_POWER" Value="Zauberkraft: "/>
+		<Loc Key="UI_RESEARCH2" Value="Forschung:"/>
+		<Loc Key="UI_TOOLTIP_CUSTOM_WIZARD" Value="Eigener Zauberer"/>
+		<Loc Key="UI_TOOLTIP_ARMY_SIZE" Value="Armeegröße"/>
+		<Loc Key="UI_TOOLTIP_ARMY_SIZE_DES" Value="Gibt die aktuelle und die maximale Anzahl von Einheiten in der Armee an.\n\nWenn die Armee ihre volle Truppenstärke erreicht hat, können sich keine weiteren Einheiten anschließen. Allerdings ist es auf dem Schlachtfeld auch dann noch möglich, Einheiten zu beschwören oder gegnerische Einheiten zu übernehmen."/>
+		<Loc Key="UI_TOOLTIP_NO_UNCOMMON" Value="Ungewöhnliche Zaubersprüche"/>
+		<Loc Key="UI_TOOLTIP_NO_UNCOMMON_DES" Value="Ungewöhnliche Zaubersprüche sind nicht verfügbar, da Euer Zauberer nicht genügend Zauberbücher dieser Sphäre vorzuweisen hat.\n\nUm ungewöhnliche Zaubersprüche dieser Sphäre auswählen zu können, benötigt Ihr mindestens 10 entsprechende Zauberbücher."/>
+		<Loc Key="UI_TOOLTIP_NO_RARE" Value="Seltene Zaubersprüche"/>
+		<Loc Key="UI_TOOLTIP_NO_RARE_DES" Value="Seltene Zaubersprüche sind nicht verfügbar, da Euer Zauberer nicht genügend Zauberbücher dieser Sphäre vorzuweisen hat.\n\nUm seltene Zaubersprüche dieser Sphäre auswählen zu können, benötigt Ihr mindestens 11 entsprechende Zauberbücher."/>
+		<Loc Key="UI_AFFORDABLE_SPELLS" Value="Erschwingliche Zauber"/>
+		<Loc Key="UI_MELEE_WEAPON" Value="Nahkampfwaffe"/>
+		<Loc Key="UI_MELEE_WEAPON_DES" Value="Kann ein Schwert, eine Axt oder einen Streitkolben aufnehmen."/>
+		<Loc Key="UI_MELEE_RANGED_WEAPON" Value="Nah- oder Fernkampfwaffe"/>
+		<Loc Key="UI_MELEE_RANGED_WEAPON_DES" Value="Kann ein Schwert, eine Axt, einen Streitkolben, einen Bogen oder eine Armbrust aufnehmen."/>
+		<Loc Key="UI_STAFF_WEAPON" Value="Zaubererwaffe"/>
+		<Loc Key="UI_STAFF_WEAPON_DES" Value="Kann einen Stab oder einen Zauberstab aufnehmen."/>
+		<Loc Key="UI_MELEE_CASTER_WEAPON" Value="Nahkampf- oder Zaubererwaffe"/>
+		<Loc Key="UI_MELEE_CASTER_WEAPON_DES" Value="Kann ein Schwert, eine Axt, einen Streitkolben, einen Stab oder einen Zauberstab aufnehmen."/>
+		<Loc Key="UI_ARMOR_SLOT" Value="Rüstung"/>
+		<Loc Key="UI_ARMOR_SLOT_DES" Value="Kann einen Schild, einen Kettenpanzer oder einen Plattenpanzer aufnehmen."/>
+		<Loc Key="UI_MISC_SLOT" Value="Sonstiger Gegenstand"/>
+		<Loc Key="UI_MISC_SLOT_DES" Value="Kann Schmuck, einen Umhang, einen Helm, Handschuhe oder eine Kugel aufnehmen."/>
+		<Loc Key="UI_SELECT_LANGUAGE" Value="Sprache auswählen"/>
+		<Loc Key="UI_SUMMONING_CIRCLE_LOCATION" Value="Beschwörungskreis - neuer Ort"/>
+		<Loc Key="UI_SUMMONING_CIRCLE_LOCATION_DES" Value="Euer Beschwörungskreis wurde nach {0} verlegt, weil {1} erobert oder zerstört wurde.\n{ICON:LMB} Stadt zeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_SOM_PLAYER_CASTING_INFO" Value="Eure Hoheit,\n\nfalls es Euch gelingt, diesen Zauberspruch abzuschließen, werdet Ihr obsiegen! Doch vergesst nicht, dass die anderen Zauberer davon Kenntnis haben und alles in ihrer Macht Stehende unternehmen werden, um Euch noch aufzuhalten."/>
+		<Loc Key="UI_SOM_ENEMY_CASTING_INFO" Value="Eure Hoheit,\n\nfalls es {0} gelingt, diesen Zauber abzuschließen, ist für Euch und die anderen Zauberer alles verloren! Unternehmt, was in Eurer Macht steht, um diesen Zauberer aufzuhalten, bevor es zu spät ist!"/>
+		<Loc Key="UI_HAS_BEEN_BANISHED" Value="wurde gebannt durch"/>
+		<Loc Key="UI_WIZARD_BANISHED_INFO" Value="Eure Hoheit,\n\neiner Eurer Widersacher hat seine Festung verloren und wurde gebannt. Er muss den Zauber der Rückkehr sprechen, und bis er das getan hat, kann er keinen anderen Zauber einsetzen. Vielleicht solltet Ihr seine Verwundbarkeit ausnutzen?"/>
+		<Loc Key="UI_FOLLOW_ENEMY_MOVEMENT" Value="Gegnerischen Bewegungen folgen"/>
+		<Loc Key="UI_DEVELOPED_BY" Value="Entwickelt von"/>
+		<Loc Key="UI_LEAD_PROGRAMMER" Value="Leitung Programmierung"/>
+		<Loc Key="UI_PROGRAMMERS" Value="Programmierung"/>
+		<Loc Key="UI_UI_AND_ART_LEAD" Value="Leitung Interface und Grafik"/>
+		<Loc Key="UI_2D_ARTISTS" Value="2D-Grafik"/>
+		<Loc Key="UI_3D_ARTISTS" Value="3D-Grafik"/>
+		<Loc Key="UI_WRITING_AND_LEAD_QUEST_DESIGN" Value="Story-Design"/>
+		<Loc Key="UI_QUEST_DESIGN_ASSISTANT" Value="Assistenz Quest-Design"/>
+		<Loc Key="UI_LEAD_GAME_DESIGN" Value="Leitung Game-Design"/>
+		<Loc Key="UI_LEAD_QA" Value="Leitung QA"/>
+		<Loc Key="UI_ADDITIONAL_QA" Value="Zusätzliche QA"/>
+		<Loc Key="UI_MUSIC" Value="Musik"/>
+		<Loc Key="UI_PUBLISHED_BY" Value="Veröffentlicht von"/>
+		<Loc Key="UI_PRODUCERS" Value="Produzenten"/>
+		<Loc Key="UI_THANK_YOU_FOR_PLAYING" Value="Vielen Dank fürs Spielen!"/>
+		<Loc Key="UI_ENEMY_TURN2" Value="Gegnerischer Spielzug"/>
+		<Loc Key="UI_WIZARD_DEFEATED" Value="{0} besiegt!"/>
+		<Loc Key="UI_WIZARDS_DEFEATED" Value="Zauberer besiegt!"/>
+		<Loc Key="UI_END_GAME" Value="Spiel beenden"/>
+		<Loc Key="UI_KEEP_PLAYING" Value="Weiterspielen"/>
+		<Loc Key="UI_ROAD" Value="Straße"/>
+		<Loc Key="UI_START_CONVERSATION" Value="Konversation beginnen"/>
+		<Loc Key="UI_CHECK_WIZARDS_DETAILS" Value="Zaubererdetails ansehen"/>
+		<Loc Key="UI_LOADING_HINT1" Value="Tipp: Eure Einheiten können verwundet oder getötet werden, wenn Ihr aus einer Schlacht gegen einen stärkeren Gegner flieht."/>
+		<Loc Key="UI_LOADING_HINT2" Value="Tipp: Rebellen beteiligen sich nicht an der Produktion in ihrer Stadt, aber sie benötigen weiterhin Nahrung."/>
+		<Loc Key="UI_LOADING_HINT3" Value="Tipp: Falls Euer Gold zur Neige geht, Ihr aber ausreichend Mana habt (oder umgekehrt), könnt Ihr mittels Alchemie die eine Ressource in die andere umwandeln."/>
+		<Loc Key="UI_LOADING_HINT4" Value="Tipp: Manche Einheiten können immun gegen bestimmte Angriffsarten oder Magie sein. Seht Euch ihre Werte an, um Details zu erhalten."/>
+		<Loc Key="UI_LOADING_HINT5" Value="Tipp: Magische Knoten bewirken bei übernatürlichen Einheiten derselben Sphäre mächtige Bezauberungen (auch bei jenen, die Ihr kontrolliert)."/>
+		<Loc Key="UI_LOADING_HINT6" Value="Tipp: Magische Knoten versuchen, jeden Zauber, den Ihr sprecht, aufzuheben, außer der Zauber entstammt der Sphäre des Knotens."/>
+		<Loc Key="UI_LOADING_HINT7" Value="Tipp: Falls Ihr aufgrund von Gold-, Mana- oder Nahrungsmangel die Unterhaltskosten Eurer Einheiten nicht mehr aufbringen könnt, kehren sie Euch den Rücken."/>
+		<Loc Key="UI_LOADING_HINT8" Value="Tipp: Fliegende Einheiten können nicht mit normalen Nahkampfangriffen ins Visier genommen werden, außer der Angreifer fliegt selbst oder verfügt über einen Odem-, Blick- oder Wurfangriff."/>
+		<Loc Key="UI_LOADING_HINT9" Value="Tipp: Andere Zauberer treten sofort in den Krieg mit jedem Zauberer, der den Meisterzauber zu sprechen beginnt - ganz gleich, wie gut ihre Beziehungen davor waren."/>
+		<Loc Key="UI_LOADING_HINT10" Value="Tipp: Seid vorsichtig, wenn Ihr Einheiten in die Nähe von Städten anderer Zauberer bewegt. Dies verschlechtert Eure diplomatischen Beziehungen und kann am Ende auch zum Krieg führen."/>
+		<Loc Key="UI_LOADING_HINT11" Value="Tipp: Falls etwas mächtig schiefgeht, könnt Ihr jederzeit den Zauber zum Zurückdrehen der Zeit sprechen (auch bekannt als 'Spielstand laden')."/>
+		<Loc Key="UI_LOADING_HINT12" Value="Tipp: Jede Stadt hat einen Wirkungsradius von 2 Hexfeldern und dies ändert sich im Spiel nicht. Siedelt also an den Stellen, die Euch am meisten einbringen."/>
+		<Loc Key="UI_LOADING_HINT13" Value="Tipp: Die meisten Einheiten (bis auf jene aus der Todessphäre) können auf natürlichem Wege genesen und regenerieren 5 % ihrer Trefferpunkte pro Runde - selbst wenn sie sich bewegen."/>
+		<Loc Key="UI_LOADING_HINT14" Value="Tipp: Der Verlust Eurer Hauptstadt stellt einen herben Rückschlag dar, verteidigt sie daher stets gut."/>
+		<Loc Key="UI_LOADING_HINT15" Value="Tipp: Eure Festung in der Hauptstadt kann magische Geschosse auf angreifende Einheiten feuern. Die Stärke der Geschosse hängt von der Anzahl und der Sphäre Eurer Zauberbücher ab."/>
+		<Loc Key="UI_LOADING_HINT16" Value="Tipp: Die Eroberung eines magischen Knotens ist nur der erste Schritt - danach müsst Ihr einen Zaubergeist oder einen Wächtergeist mit dem Knoten verschmelzen lassen, sodass Ihr die Zauberkraft des Knotens anzapfen könnt."/>
+		<Loc Key="UI_LOADING_HINT17" Value="Tipp: Eine Möglichkeit, die Unzufriedenheit in einer Stadt zu verringern, besteht darin, dort nicht-übernatürliche Einheiten zu stationieren."/>
+		<Loc Key="UI_LOADING_HINT18" Value="Tipp: Mit dem Zauber 'Umwandeln' können die besonderen Ressourcen mancher Terrainarten in andere Ressourcen umgewandelt werden."/>
+		<Loc Key="UI_LOADING_HINT19" Value="Tipp: Ihr könnt bis zu 6 Helden haben. Es steht Euch frei, Helden zu entlassen und auf neue Helden zu warten, die sich Euch anschließen wollen. Alternativ könnt Ihr mit Beschwörungszaubern einen neuen Helden erschaffen."/>
+		<Loc Key="UI_LOADING_HINT20" Value="Tipp: Während der Schlacht wirkt sich die Terrainart NICHT auf die Verteidigung, die Trefferchance oder die Sichtbarkeit einer Einheit aus."/>
+		<Loc Key="UI_LOADING_HINT21" Value="Tipp: Unsichtbare Einheiten können nur von Einheiten angegriffen werden, die direkt neben ihnen stehen."/>
+		<Loc Key="UI_LOADING_HINT22" Value="Tipp: Übernatürliche Einheiten erhalten keine Erfahrung und verringern auch nicht die Unzufriedenheit in Städten, in denen sie stationiert sind."/>
+		<Loc Key="UI_LOADING_HINT23" Value="Tipp: Am Anfang einer Schlacht habt Ihr stets Eure vollständigen Zauberfertigkeitspunkte, selbst wenn Ihr zuvor in demselben Spielzug gezaubert habt."/>
+		<Loc Key="UI_COMBAT_SPEED" Value="Kampfgeschwindigkeit"/>
+		<Loc Key="UI_COMBAT_SPEED_DES" Value="Animationsgeschwindigkeit von Einheiten und Effekten."/>
+		<Loc Key="UI_IMPORT" Value="Modultext importieren"/>
+		<Loc Key="UI_EXPORT" Value="Modultext exportieren"/>
+		<Loc Key="UI_BUNDLE_MODE" Value="Paketmodus"/>
+		<Loc Key="UI_SINGLE_MODE" Value="Einzelmodus"/>
+		<Loc Key="UI_WHICH_FORM_OF_EXPORT" Value="Hinweis: Die Import-/Exportwerkzeuge sind nicht dafür gedacht, Module zu kopieren und anderen Spielern zu geben, weil die Ausgabedateien nicht alle Ereignisdaten enthalten, sondern nur Text.\n\nWählt bitte aus, welchen Exportmodus Ihr benutzen möchtet:\n\nEinzelmodus: Exportiert nur das aktuell ausgewählte Modul und behält die Textstruktur bei.\n\nPaketmodus: Alle aktivierten Module werde als eine BundleBlock-Datei für die Lokalisation exportiert."/>
+		<Loc Key="UI_WHICH_FORM_OF_IMPORT" Value="Hinweis: Die Import-/Exportwerkzeuge sind nicht dafür gedacht, Module zu kopieren und anderen Spielern zu geben, weil die Ausgabedateien nicht alle Ereignisdaten enthalten, sondern nur Text.\n\nWählt bitte aus, welchen Importmodus Ihr benutzen möchtet:\n\nEinzelmodus: Importiert nur den Text für das aktuell ausgewählte Modul.\n\nPaketmodus: Importiert alle Texte einer BundleBlock-Datei."/>
+		<Loc Key="UI_SPECIAL_THANKS" Value="Besonderer Dank geht"/>
+		<Loc Key="UI_SPECIAL_THANKS_DES1" Value="an unsere Discord-Moderatoren:"/>
+		<Loc Key="UI_SPECIAL_THANKS_DES2" Value="an unsere treuen MuHa-Unterstützer sowie an die großartigen 'Master of Magic'-Fans, die uns mit offenen Armen aufgenommen haben,"/>
+		<Loc Key="UI_SPECIAL_THANKS_DES3" Value="sowie an alle Teilnehmerinnen und Teilnehmer an den Beta-Tests und natürlich auch an alle Leute, die uns mit ihren wertvollen Hinweisen und Vorschlägen bei der Verbesserung dieses Spiels enorm geholfen haben. Wir lieben euch alle!"/>
+		<Loc Key="UI_MELDED_BY" Value="Verschmolzen durch {0}"/>
+		<Loc Key="UI_IMPORTED_MODULE" Value="Modul-Import abgeschlossen."/>
+		<Loc Key="UI_IMPORT_ERROR" Value="Fehler - Modul wurde nicht korrekt importiert. In der Datei 'output_log.txt' befinden sich weitere Informationen."/>
+		<Loc Key="UI_IMPORTED_MODULE_BLOCK" Value="Modulpaket-Import abgeschlossen."/>
+		<Loc Key="UI_IMPORT_MODULE_BLOCK_WITH_ERRORS" Value="Fehler - Modulpaket wurde nicht korrekt importiert. In der Datei 'output_log.txt' befinden sich weitere Informationen."/>
+		<Loc Key="UI_EXPORTED_MODULE" Value="Modul-Export abgeschlossen."/>
+		<Loc Key="UI_EXPORT_ERROR" Value="Fehler - Modul wurde nicht exportiert."/>
+		<Loc Key="UI_EXPORTED_MODULE_BLOCK" Value="Modulpaket-Export abgeschlossen."/>
+		<Loc Key="UI_EXPORT_MODULE_BLOCK_WITH_ERRORS" Value="Fehler - Modulpaket wurde nicht exportiert."/>
+		<Loc Key="UI_QUICK_START" Value="Schnellstart"/>
+		<Loc Key="UI_MANA_INVESTED" Value="Investiertes Mana:"/>
+		<Loc Key="UI_WIZARD_NOT_CASTING" Value="Nichts zu kontern"/>
+		<Loc Key="UI_WIZARD_NOT_CASTING_DES" Value="Dieser Zauberer spricht im Moment keinen Zauber. Es gibt hier also nichts zu kontern ..."/>
+		<Loc Key="UI_HOTKEYS" Value="Tastenbelegung"/>
+		<Loc Key="UI_NEXT_UNIT" Value="Nächste Einheit"/>
+		<Loc Key="UI_SHOW_HIDE_SURVEYOR" Value="Ratgeber (de-)aktivieren"/>
+		<Loc Key="UI_END_TURN2" Value="Bestätigen/Spielzug beenden"/>
+		<Loc Key="UI_MOVE_CAMERA_NORTH" Value="Kamera nach Norden"/>
+		<Loc Key="UI_MOVE_CAMERA_WEST" Value="Kamera nach Westen"/>
+		<Loc Key="UI_MOVE_CAMERA_SOUTH" Value="Kamera nach Süden"/>
+		<Loc Key="UI_MOVE_CAMERA_EAST" Value="Kamera nach Osten"/>
+		<Loc Key="UI_CHANGE_PLANE" Value="Ebene wechseln"/>
+		<Loc Key="UI_OPEN_RESEARCH" Value="Forschungsseite öffnen"/>
+		<Loc Key="UI_OPEN_PAUSE_MENU" Value="Abbrechen/Pausemenü öffnen"/>
+		<Loc Key="UI_BUILD_OUTPOST2" Value="Außenposten bauen (Siedler)"/>
+		<Loc Key="UI_BUILD_ROAD2" Value="Straße bauen (Baumeister)"/>
+		<Loc Key="UI_TOGGLE_GUARD2" Value="Bewachen (de-)aktivieren (Armee)"/>
+		<Loc Key="UI_TOGGLE_SKIP2" Value="Warten (de-)aktivieren (Armee)"/>
+		<Loc Key="UI_CONTINUE_MOVEMENT" Value="Bewegung fortsetzen (Armee)"/>
+		<Loc Key="UI_COMBAT_LOGBOOK" Value="Kampfprotokoll"/>
+		<Loc Key="UI_CREATE_BUG_REPORT" Value="Fehlerbericht erstellen"/>
+		<Loc Key="UI_OPEN_WIZARD_INFO" Value="Zaubererseite öffnen"/>
+		<Loc Key="UI_OPEN_CITY_MANAGER" Value="Stadtverwaltung öffnen"/>
+		<Loc Key="UI_OPEN_ARMY_MANAGER" Value="Armeeverwaltung öffnen"/>
+		<Loc Key="UI_OPEN_DIPLOMACY" Value="Diplomatieseite öffnen"/>
+		<Loc Key="UI_OPEN_MAGIC" Value="Magieseite öffnen"/>
+		<Loc Key="UI_CAST_SPELLS4" Value="Zauber sprechen"/>
+		<Loc Key="UI_NOTIFICATION_GROUP_DROWN" Value="Einheiten zerstört"/>
+		<Loc Key="UI_NOTIFICATION_GROUP_DROWN_DES" Value="Einheiten Eurer Armee wurden zerstört, da sie für das Hexfeld, auf dem sie sich befanden, nicht die nötige Bewegungsart aufgewiesen haben.\n{ICON:LMB} Stadt anzeigen.\n{ICON:RMB} Schließen."/>
+		<Loc Key="UI_NUMBER_OF_TRAITS_PICKED" Value="{0} von 6 Spezialisierungen ausgewählt."/> <!--ie. 3 of 6 traits picked -->
+		<Loc Key="UI_ENCH_DUPLICATE" Value="Auf diesen Helden wirkt mindestens eine Bezauberung, die aufgehoben wird, falls Ihr diesen Gegenstand ausrüstet:"/>
+		<Loc Key="UI_ENCHANTED_ROAD" Value="Bezauberte Straße"/>
+		<Loc Key="UI_SUCCESS" Value="Erfolg!"/>
+		<Loc Key="UI_ENCHANTMENT_DISPELLED" Value="Bezauberung aufgehoben!"/>
+		<Loc Key="UI_ENCHANTMENT_REMOVED_SUCCESSFULLY" Value="Eure Hoheit, gute Nachrichten! '{COLOR:#00a710}{0}{END_COLOR}' wurde erfolgreich aufgehoben."/>
+		<Loc Key="UI_ENCHANTMENTS_REMOVED_SUCCESSFULLY" Value="Eure Hoheit, gute Nachrichten! Folgende Bezauberungen wurden erfolgreich aufgehoben: {COLOR:#00a710}{0}{END_COLOR}."/>
+		<Loc Key="UI_AI_ENCHANTMENT_REMOVED_SUCCESSFULLY" Value="Eure Hoheit, der gegnerische Zauberer hat seine Kräfte genutzt und '{COLOR:#c84c26}{0}{END_COLOR}' aufgehoben."/>
+		<Loc Key="UI_AI_ENCHANTMENT_REMOVED_SUCCESSFULLY_FROM" Value="Eure Hoheit, der gegnerische Zauberer hat seine Kräfte genutzt und '{COLOR:#c84c26}{0}{END_COLOR}' von '{COLOR:#c84c26}{1}{END_COLOR}' aufgehoben."/>
+		<Loc Key="UI_DISPEL_FAILED" Value="Aufhebung fehlgeschlagen"/>
+		<Loc Key="UI_FAILED_TO_REMOVE_ENCHANTMENT" Value="Es tut mir leid, Eure Hoheit, doch der Versuch, '{COLOR:#c84c26}{0}{END_COLOR}' aufzuheben, war nicht erfolgreich."/>
+		<Loc Key="UI_AI_FAILED_TO_REMOVE_ENCHANTMENT" Value="Eure Hoheit, der gegnerische Zauberer hat versucht, '{COLOR:#c84c26}{0}{END_COLOR}' aufzuheben, ist damit jedoch gescheitert."/>
+		<Loc Key="UI_NO_ENCHANTMENTS_REMOVED" Value="Es tut mir leid, Eure Hoheit, aber es ist Euch mit Eurem Zauber nicht gelungen, irgendeine Bezauberung aufzuheben."/>
+		<Loc Key="UI_AI_NO_ENCHANTMENTS_REMOVED" Value="Eure Hoheit, der gegnerische Zauberer hat versucht, eine Bezauberung aufzuheben, ist damit jedoch gescheitert."/>
+		<Loc Key="UI_HERO_SUMMONING_FAILED" Value="Heldenbeschwörung fehlgeschlagen"/>
+		<Loc Key="UI_HERO_LIST_FULL" Value="Es tut mir leid, Eure Hoheit, doch der Versuch, einen Helden zu beschwören, war nicht erfolgreich. In Eurer Armee ist kein Platz für mehr als 6 Helden."/>
+		<Loc Key="UI_HERO_NOT_AVAILABLE" Value="Es tut mir leid, Eure Hoheit, doch der Versuch, einen Helden zu beschwören, war nicht erfolgreich. Es sind keine Helden mehr am Leben, die Euch dienen könnten."/>
+		<Loc Key="UI_SPELLBLAST_SUCCESSFUL" Value="Eure Hoheit, gute Nachrichten! Es ist Euch gelungen, '{COLOR:#c84c26}{0}{END_COLOR}' erfolgreich zu kontern, bevor Euer Gegner das Sprechen abgeschlossen hat."/>
+		<Loc Key="UI_SPELLBLAST_INSUFFICIENT_MANA" Value="Ihr habt nicht genug Mana, um diesen Zauber zu kontern."/>
+		<Loc Key="UI_SPELL_READY" Value="Zauber bereit"/>
+		<Loc Key="UI_SPELL_READY_DES" Value="Es steht ein Zauber zum Sprechen bereit. Entscheidet, was Ihr damit tun möchtet, bevor Ihr mit dem nächsten Zauber fortfahrt."/>
+		<Loc Key="UI_MATCH_OFFER" Value="Angleichen"/> <!--used in trade transfer when transferring money or mana: match offer of the other wizard-->
+		<Loc Key="UI_TRADED_QTY" Value="Tauschmenge:"/>
+		<Loc Key="UI_SELECT_AN_ENCHANTMENT_TO_BIND" Value="Eine Bezauberung auswählen"/>
+		<Loc Key="UI_AUTOSAVE_ERROR" Value="Fehler beim automatischen Speichern"/>
+		<Loc Key="UI_FILE_WRITE_FORBIDDEN" Value="Speichern fehlgeschlagen - Das Schreiben in die Speicherdatei wurde vom Betriebssystem blockiert. Dies kann an externer Software (z. B. Antivirus oder Firewall) oder Hardwareproblemen liegen."/>
+		<Loc Key="UI_COMBAT_TEXT4" Value="Wie lauten Eure Befehle, Eure Hoheit?"/>
+		<Loc Key="UI_ZOOM_IN" Value="Hineinzoomen"/>
+		<Loc Key="UI_ZOOM_OUT" Value="Herauszoomen"/>
+		<Loc Key="UI_NOTIFICATION_AI_CASTS_SPELL" Value="Ein gegnerischer Zauberer hat einen Zauber gesprochen!"/>
+		<Loc Key="UI_FOCUS_ON_UNITS_BATTLE" Value="Schlacht-Kamerafokus auf Einheiten"/>
+		<Loc Key="UI_AUTO_END_TURN" Value="Zug autom. beenden (de-)aktivieren"/>
+		<Loc Key="UI_AUTO_END_TURN_BATTLE" Value="Zug in der Schlacht autom. beenden"/>
+		<Loc Key="UI_PLAYER_ANIMATION_SPEED" Value="Animationsgeschw. - Spielereinheiten"/>
+		<Loc Key="UI_CAMERA_FOLLOW" Value="Kamera-Folgen (de-)aktivieren"/>
+		<Loc Key="UI_MAP_EDGESCROLLING" Value="Kartenrand-Scrolling"/>
+		<Loc Key="UI_NUMBER_OF_NEUTRAL_TOWNS" Value="Anzahl neutraler Städte"/>
+		<Loc Key="UI_NUMBER_OF_NEUTRAL_TOWNS_DES" Value="Legt fest, wie viele neutrale Städte sich in der Spielwelt befinden."/>
+		<Loc Key="UI_FEW" Value="Wenige"/>
+		<Loc Key="UI_AVERAGE" Value="Mittel"/>
+		<Loc Key="UI_MANY" Value="Viele"/>
+		<Loc Key="UI_CEO" Value="Geschäftsleitung"/> <!--Chief Executive Officer-->
+		<Loc Key="UI_CFO" Value="Leitung Finanzen"/> <!--Chief Financial Officer-->
+		<Loc Key="UI_CMO" Value="Leitung Marketing"/> <!--Chief Marketing Officer-->
+		<Loc Key="UI_TECHNICAL_DIRECTOR" Value="Technische Leitung"/>
+		<Loc Key="UI_CREATIVE_DIRECTOR" Value="Kreativleitung"/>
+		<Loc Key="UI_EXECUTIVE_PRODUCER" Value="Produktionsleitung"/>
+		<Loc Key="UI_SENIOR_PRODUCER" Value="Produktmanagement (Senior)"/>
+		<Loc Key="UI_ASSISTANT_PRODUCER" Value="Produktionsassistenz"/>
+		<Loc Key="UI_ADDITIONAL_PRODUCTION" Value="Zusätzliche Produktion"/>
+		<Loc Key="UI_SENIOR_BRAND_MANAGER" Value="Markenmanagement (Senior)"/>
+		<Loc Key="UI_JUNIOR_BRAND_MANAGER" Value="Markenmanagement (Junior)"/>
+		<Loc Key="UI_SOCIAL_MEDIA_STRATEGIST" Value="Soziale Medien"/>
+		<Loc Key="UI_COMMUNITY_MANAGER" Value="Community-Management"/>
+		<Loc Key="UI_MEDIA_RELATIONS" Value="Medienarbeit"/>
+		<Loc Key="UI_MEDIA_RELATIONS_FOR_SPAIN_AND_LATIN_AMERICA" Value="Medienarbeit Spanien und Lateinamerika"/>
+		<Loc Key="UI_PRODUCTION_DESIGN" Value="Produktionsdesign"/>
+		<Loc Key="UI_PRODUCTION_ART_ASSISTANT" Value="Assistenz Production Art"/>
+		<Loc Key="UI_E_COMMERCE" Value="E-Commerce"/>
+		<Loc Key="UI_MANUAL_LAYOUT" Value="Handbuch-Layout"/>
+		<Loc Key="UI_OPERATIONS_LEAD" Value="Operative Leitung"/>
+		<Loc Key="UI_OPERATIONS_TEAM" Value="Operativ-Team"/>
+		<Loc Key="UI_HEAD_OF_ACCOUNTS" Value="Leitung Buchhaltung"/>
+		<Loc Key="UI_ADMIN_ASSISTANT" Value="Admin-Assistenz"/>
+		<Loc Key="UI_CUSTOMER_SUPPORT_STAFF" Value="Kundendienst-Team"/>
+		<Loc Key="UI_WEB_DEVELOPMENT" Value="Web-Entwicklung"/>
+		<Loc Key="UI_CEO_MATRIX_GAMES_LLC" Value="Geschäftsleitung Matrix Games LLC"/>
+		<Loc Key="UI_PROJECT_MANAGER" Value="Projektmanagement"/>
+		<Loc Key="UI_TORIN_ALREADY_IN_SERVICE" Value="Dieser mächtige Held steht bereits in Euren Diensten, Eure Hoheit!"/>
+		<Loc Key="UI_REPEAT" Value="Dauerproduktion"/>
+		<Loc Key="UI_TOOLTIP_REPEAT" Value="Diese Einheit auf unbestimmte Zeit produzieren."/>
+		<Loc Key="UI_AI_ENCHANTMENTS_REMOVED_SUCCESSFULLY_FROM_GLOBAL" Value="Eure Hoheit, der gegnerische Zauberer hat seine magischen Kräfte genutzt und '{COLOR:#c84c26}{0}{END_COLOR}' aufgehoben."/>
+		<Loc Key="UI_THE_PROGRAMMER" Value="Programmierung"/>
+		<Loc Key="UI_ADDITIONAL_CODING" Value="Zusätzliche Programmierung"/>
+		<Loc Key="UI_FANMADE_LOCALISATION" Value="Community-Lokalisierung"/>
+		<Loc Key="UI_ITALIAN" Value="Enrico Pizzolato - Italienisch"/>
+		<Loc Key="UI_NOTIFICATION_AI_CASTS_GLOBAL_SPELL_DES" Value="Ein rivalisierender Zauberer hat einen globalen Zauber gewirkt!\n{ICON:LMB} Details anzeigen\n{ICON:RMB} Verwerfen"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_ARMY_DES" Value="Ein rivalisierender Zauberer hat einen Zauber gegen eine Eurer Armeen gewirkt!\n{ICON:LMB} Armee anzeigen\n{ICON:RMB} Verwerfen"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_WIZARD_DES" Value="Ein rivalisierender Zauberer hat einen Zauber gegen Euch gewirkt!\n{ICON:LMB} Details anzeigen\n{ICON:RMB} Verwerfen"/>
+		<Loc Key="UI_BUTTON_AUTO_COMBAT_SPELLCASTING" Value="Autom. Kampf - Zauber sprechen"/>
+		<Loc Key="UI_GREAT_UNSUMMONING_OUTCOME" Value="Anzahl nicht beschworener Einheiten: {0}"/>
+		<Loc Key="UI_DEATH_WISH_OUTCOME" Value="Anzahl durch 'Todeswunsch' ausgeschalteter Einheiten: {0}"/>
+		<Loc Key="UI_CHANGE_CASTING_TITLE" Value="Änderung des gewirkten Zaubers"/>
+		<Loc Key="UI_CHANGE_CASTING_DES" Value="Ihr wirkt '{0}' und habt dafür bereits {1} Mana investiert. Wenn Ihr den Zauber ändert, verliert Ihr dieses Mana. Seid Ihr Euch sicher?"/>
+		<Loc Key="UI_CHANGE_CASTING" Value="Ändern"/>
+		<Loc Key="UI_MODS" Value="Mods"/>
+		<Loc Key="UI_MOD_MANAGER" Value="Mod-Verwaltung"/>
+		<Loc Key="UI_MOVE_UP" Value="Nach oben"/>
+		<Loc Key="UI_MOVE_DOWN" Value="Nach unten"/>
+		<Loc Key="UI_PUBLISH" Value="Veröffentlichen"/>
+		<Loc Key="UI_VISIBILITY" Value="Sichtbarkeit"/>
+		<Loc Key="UI_UPLOADING" Value="Upload läuft"/>
+		<Loc Key="UI_NIGHTSHADE_DISPEL_SUCCESS" Value="Die Weisen in {0} haben 'Nachtschatten' eingesetzt, um '{1}' aufzuheben."/>
+		<Loc Key="UI_NIGHTSHADE_DISPEL_FAILURE" Value="Die Weisen in {0} haben versucht, eine negative Bezauberung mit 'Nachtschatten' aufzuheben, sind dabei jedoch gescheitert."/>
+		<Loc Key="UI_ADDITIONAL_CONTENT" Value="Zusätzliche Inhalte"/>
+		<Loc Key="UI_SAVE_DLC1" Value="DLC-Inhalte"/>
+		<Loc Key="UI_SAVE_DLC1_DES" Value="Dieser Spielstand enthält Inhalte von 'Through the Myrror'."/> <!--do not localise the 'Through the Myrror' part - this is the DLC title and should stay in English -->
+		<Loc Key="UI_ASSIGN_KEY" Value="Neues Tastenkürzel zuweisen:"/>
+		<Loc Key="UI_ROAD_PLANNING" Value="Legt eine Route zum Bau der Straße fest. {ICON:LMB} zum Bestätigen, {ICON:RMB} zum Abbrechen."/>
+		<Loc Key="UI_NOT_ASSIGNED" Value="[Nicht zugewiesen]"/> <!-- hotkey not assigned -->
+		<Loc Key="UI_DEFAULTS" Value="Standard"/> <!-- reset to default hotkeys -->
+		<Loc Key="DES_SAVE_VERSION_INFO" Value="Spielstand-Versionsinfo"/>
+		<Loc Key="DES_SAVE_VERSION_INFO_DES" Value="Dieser Spielstand wurde mit einer anderen Spielversion erstellt, wird aber wahrscheinlich korrekt geladen.\n\nSpielstand-Version: {0}\n\nAktuelle Version: {1}"/>
+		<Loc Key="UI_PURIFY2" Value="Läutern"/>
+		<Loc Key="UI_MELD_WITH_NODE2" Value="Mit Knoten verschmelzen"/>
+		<Loc Key="UI_ACTIVE_ENCH_WARNING" Value="Warnung: Aktive Bezauberung"/>
+		<Loc Key="UI_ACTIVE_ENCH_WARNING_DES" Value="Eine Bezauberung ist aktiv, die wahrscheinlich zur Zerstörung neu errichteter Außenposten führen wird."/>
+		<Loc Key="UI_COMBAT_LOG_FORTRESS_BOLT" Value="Die Festung greift &lt;#{1}&gt;{0}&lt;/color&gt; mit '{2}' an."/>
+		<Loc Key="UI_ENCHANT_ITEM_LIMITS" Value="Gegenstände können bis zu 5 Eigenschaften aufweisen, wobei 1 garantiert vorhanden ist und 4 bei der Erzeugung des Gegenstands hinzugefügt werden."/>
+		<Loc Key="UI_FAME_STAT" Value="Ruhm"/>
+		<Loc Key="UI_GOLD_INCOME_STAT" Value="Gold - Einnahmen"/>
+		<Loc Key="UI_FOOD_INCOME_STAT" Value="Nahrung - Einnahmen"/>
+		<Loc Key="UI_MANA_INCOME_STAT" Value="Mana - Einnahmen"/>
+		<Loc Key="UI_REFRESH_CAP_120" Value="120 fps"/>
+		<Loc Key="UI_REFRESH_CAP_144" Value="144 fps"/>
+		<Loc Key="UI_REFRESH_CAP_160" Value="160 fps"/>
+		<Loc Key="UI_THROUGH_THE_MYRROR" Value="Through the Myrror"/>
+		<Loc Key="UI_THROUGH_THE_MYRROR_DES" Value="Die zusätzlichen Inhalte des Updates 'Through the Myrror' aktivieren oder deaktivieren."/>
+		<Loc Key="DES_SAVE_WARNING_DLC_DES" Value="Dieser Spielstand wurde mit einer anderen Spielversion bzw. DLC-Konfiguration erstellt. Laden nicht möglich.\n\nVersion des Spielstands: {0}\n\nAktuelle Version: {1}{2}"/>
+		<Loc Key="UI_NEUTRAL" Value="Neutral"/>
+		<Loc Key="UI_MAGIC_NODES" Value="Magische Knoten"/>
+		<Loc Key="UI_TOWERS_OF_WIZARDRY" Value="Türme der Zauberei"/>
+		<Loc Key="UI_ARCANUS_PLANE" Value="Arcanus-Ebene"/>
+		<Loc Key="UI_MYRROR_PLANE" Value="Myrror-Ebene"/>
+		<Loc Key="UI_TERRAIN_FEATURES" Value="Geländemerkmale"/>
+		<Loc Key="UI_BUTTON_BIG_MAP" Value="Kartograph ({0})"/>
+		<Loc Key="UI_OPEN_CARTOGRAPHER" Value="Kartographen öffnen"/>
+		<Loc Key="UI_FASTER_LOADING" Value="Schnelleres Laden"/>
+		<Loc Key="UI_FASTER_LOADING_DES" Value="Den Modus für schnelleres Laden aktivieren oder deaktivieren, der die Ladezeit für vorhandene Spielstände verringert. Hinweis: Es handelt sich dabei um ein experimentelles Feature, das viel Festplattenspeicher belegt!"/>
+		<Loc Key="UI_NONE2" Value="Keins"/>
+		<Loc Key="UI_MOD_DUPLICATION_NONE_WILL_BE_LOADED" Value="Zwei Mods mit identischem Namen wurden erkannt und können nicht geladen werden. Bitte beendet das Spiel und deinstalliert die duplizierte Mod, bevor Ihr fortfahrt. Weitere Details zu Mod-Konflikten findet Ihr in der Datei 'GameLog'."/>
+		<Loc Key="UI_SAVE_DLC2_DES" Value="Dieser Spielstand enthält Inhalte aus 'Rise of the Soultrapped'."/> <!--do not localise the 'Rise of the Soultrapped' part - this is the DLC title and should stay in English -->
+		<Loc Key="UI_HIGH_UNREST" Value="Hohe Unzufriedenheit"/>
+		<Loc Key="UI_HIGH_UNREST_DES" Value="Die Unzufriedenheit in dieser Stadt hat 30 % überschritten. Senkt den Steuersatz, errichtet religiöse Gebäude oder stationiert mehr nicht-übernatürliche Einheiten als Garnison."/>
+		<Loc Key="UI_DISPLAY" Value="Anzeige"/> <!--for listing available display screens in settings, ie. Display 1-->
+		<Loc Key="UI_CHANGE_NEED_RESTART" Value="Anzeige-Änderungen werden nach einem Neustart des Spiels wirksam."/>
+		<Loc Key="UI_RISE_OF_THE_SOULTRAPPED" Value="Rise of the Soultrapped"/>
+		<Loc Key="UI_RISE_OF_THE_SOULTRAPPED_DES" Value="Zusätzliche Inhalte durch das 'Rise of the Soultrapped'-Update aktivieren oder deaktivieren."/>
+		<Loc Key="UI_TOOLTIP_TECH" Value="Techmagie-Zauber"/>
+		<Loc Key="UI_TECH_SPELLS" Value="Techmagie-Zauber"/>
+		<Loc Key="UI_MOD_REQ_FAILED1" Value="Mod: {0} erfüllt nicht folgende Voraussetzung: {1}"/>
+		<Loc Key="UI_MOD_REQ_FAILED2" Value="Mod: {0} muss geladen werden nach: {1}"/>
+		<Loc Key="UI_MOD_REQ_FAILED3" Value="Mod: Voraussetzung für {0} inaktiv: {1}"/>
+		<Loc Key="UI_NOT_ENOUGH_SPACE_OR_ICON_TOO_BIG" Value="Das Mod-Icon ist zu groß oder der Benutzer hat seine Steam-Cloud-Kapazität überschritten. Bitte einige Dateien entfernen und erneut versuchen."/>
+		<Loc Key="UI_SPELLS_AND_SKILLS" Value="Fertigkeiten und Zauber"/>
+		<Loc Key="UI_FREE_ADDONS" Value="Kostenlose Add-ons"/>
+		<Loc Key="UI_FREE_ADDONS_DES" Value="Zusätzliche Inhalte durch kostenlose Updates aktivieren oder deaktivieren.\nDie kostenlosen Add-ons können verschiedenste neue Inhalte wie zusätzliche Einstellungsmöglichkeiten oder sogar kostenlose Zauberer enthalten.\n\nEinige Inhalte:\n\n- Einstellungen für das Bevölkerungswachstum\n- Größere Mindestentfernung für die Errichtung von Städten"/>
+		<Loc Key="UI_SAVE_DLC0_DES" Value="Dieser Spielstand enthält Inhalte von kostenlosen Add-ons."/>
+		<Loc Key="UI_CONSTRUCT_UNIT" Value="Konstrukt"/>
+		<Loc Key="UI_CONSTRUCT_UNIT_DES" Value="Bei dieser Einheit handelt es sich um ein Konstrukt - eine mechanische oder mechanisch verbesserte Einheit."/>
+		<Loc Key="UI_NOT_ENOUGHT_HP" Value="Für diesen Zauber muss der Anwender mehr Trefferpunkte opfern, als er aktuell aufweist."/>
+		<Loc Key="UI_SPELLCASTING_BLOCKED" Value="Eure Fähigkeit zu zaubern wird durch eine Bezauberung blockiert."/>
+		<Loc Key="UI_TOWN_MAP_ALWAYS_ON" Value="Stadtkarte immer an"/>
+		<Loc Key="UI_MODS_RESTART_REQUIRED" Value="Neustart erforderlich.\nIhr habt die Mod-Einstellungen geändert.\nIhr müsst das Spiel neu starten, damit die Änderungen wirksam werden."/>
+		<Loc Key="UI_MID_GAME_AWAKE" Value="Zusätzliche Gefahr durch Seelengefangene"/>
+		<Loc Key="UI_MID_GAME_AWAKE_DES" Value="Zulassen, dass mit der Zeit zusätzliche Techverliese in Erscheinung treten. Diese Verliese sind Brutstätten für umherziehende Armeen der Seelengefangenen, die eine weitere Gefahrenquelle darstellen. Sie sind angriffslustiger als andere umherziehende Einheiten und nehmen die stärksten Zauberer ins Visier.\n\nGeringe Intensität - einige wenige Techverliese treten im späten Spielverlauf (Runde 300) in Erscheinung.\n\nNormale Intensität - einige wenige Techverliese treten im fortgeschrittenen Spielverlauf (Runde 250) in Erscheinung.\n\nHohe Intensität - zahlreiche Techverliese treten im frühen fortgeschrittenen Spielverlauf (Runde 150) in Erscheinung.\n\nMaximale Intensität - zahlreiche Techverliese treten im frühen Spielverlauf (Runde 100) in Erscheinung."/>
+		<Loc Key="UI_MID_LATE" Value="Geringe Intensität"/>
+		<Loc Key="UI_MID_AWAKENING" Value="Normale Intensität"/>
+		<Loc Key="UI_MID_STORM" Value="Hohe Intensität"/>
+		<Loc Key="UI_MID_APOCALYPSE" Value="Maximale Intensität"/>
+		<Loc Key="UI_DLC_DIFFERENCES_DETECTED" Value="\n\nDLC: DLC-Unterschiede erkannt."/>
+		<Loc Key="UI_DIFFICULTY_SETTINGS" Value="Schwierigkeitsgrad-Einstellungen"/>
+		<Loc Key="UI_SEE_DIFFICULTY" Value="Schwierigkeitsgrad anzeigen"/>
+		<Loc Key="UI_WORLD_FAV" Value="Favoriten - Welt-Zauber"/>
+		<Loc Key="UI_WORLD_FAV_DES" Value="Eine Liste der bevorzugten Welt-Zauber."/>
+		<Loc Key="UI_BATTLE_FAV" Value="Favoriten - Kampf-Zauber"/>
+		<Loc Key="UI_BATTLE_FAV_DES" Value="Eine Liste der bevorzugten Kampf-Zauber."/>
+		<Loc Key="UI_QUICK_SAVE" Value="Schnellspeichern"/>
+		<Loc Key="UI_QUICK_LOAD" Value="Schnellladen"/>
+		<Loc Key="UI_TOWN_DISTANCE" Value="Mindestentfernung zwischen Städten"/>
+		<Loc Key="UI_TOWN_DISTANCE_DES" Value="Legt die minimale Distanz zwischen Städten fest. Die Einstellung hat keinen Einfluss auf den Einzugsbereich von Städten."/>
+		<Loc Key="UI_TOWN_DISTANCE_4" Value="4 Felder"/>
+		<Loc Key="UI_TOWN_DISTANCE_5" Value="5 Felder"/>
+		<Loc Key="UI_CLICK_TO_ADD_FAV" Value="Klicken, um diesen Zauber den Favoriten hinzuzufügen."/>
+		<Loc Key="UI_QUICK_SAVE_SUCCESS" Value="Schnellspeichern erfolgreich."/>
+		<Loc Key="UI_LOADING_HINT24" Value="Tipp: Mit 'F5' könnt Ihr das Spiel schnellspeichern und mit 'F6' schnellladen. Die Tastenkürzel können in den Einstellungen angepasst werden."/>
+		<Loc Key="UI_SOULTRAPPED_LAIR" Value="Techverliese"/>
+		<Loc Key="UI_OUR_TOWN_GROW_MULTIPLIER" Value="Bevölkerungswachstum - eigene Städte"/>
+		<Loc Key="UI_OUR_TOWN_GROW_MULTIPLIER_DES" Value="Ermöglicht es Euch, das Bevölkerungswachstum in Städten unter Eurer Kontrolle um den ausgewählten Multiplikator zu erhöhen."/>
+		<Loc Key="UI_TOWN_GROW_MULTIPLIER_1_25" Value="x1,25"/>
+		<Loc Key="UI_TOWN_GROW_MULTIPLIER_1_5" Value="x1,5"/>
+		<Loc Key="UI_FOE_TOWN_GROW_MULTIPLIER" Value="Bevölkerungswachstum - gegnerische Städte"/>
+		<Loc Key="UI_FOE_TOWN_GROW_MULTIPLIER_DES" Value="Ermöglicht es Euch, das Bevölkerungswachstum in Städten unter der Kontrolle Eurer Gegner um den ausgewählten Multiplikator zu erhöhen."/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER" Value="Anzahl von Unterschlupfen"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_DES" Value="Legt die Anzahl der Unterschlupfe und Verliese fest, die zu Beginn des Spiels auf der Weltkarte generiert werden."/>
+		<Loc Key="UI_LAIR_NONE" Value="Keine"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_1" Value="Wenige (10 %)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_25" Value="Einige (25 %)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_5" Value="Halbiert (50 %)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_7" Value="Verringert (70 %)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_1" Value="Normal (100 %)"/>
+		<Loc Key="UI_NEW_MODULE" Value="Neues Modul"/>
+		<Loc Key="UI_CLONE_MODULE" Value="Ausgewähltes Modul klonen"/>
+		<Loc Key="UI_RENAME_MODULE" Value="Ausgewähltes Modul umbenennen"/>
+		<Loc Key="UI_IMPORT_MODULE" Value="Modul importieren"/>
+		<Loc Key="UI_EXPORT_MODULE" Value="Ausgewähltes Modul exportieren"/>
+		<Loc Key="UI_TEST_MODULE" Value="Ausgewähltes Modul testen"/>
+		<Loc Key="UI_TEST_MODULE_DES" Value="Überprüfen, ob das ausgewählte Modul Abenteuer enthält."/>
+		<Loc Key="UI_DELETE_MODULE" Value="Ausgewähltes Modul löschen"/>
+		<Loc Key="UI_NEW_ADVENTURE" Value="Neues Abenteuer"/>
+		<Loc Key="UI_CLONE_ADVENTURE2" Value="Ausgewähltes Abenteuer klonen"/>
+		<Loc Key="UI_CLONE_ADVENTURE_TO_MODULE" Value="Abenteuer in anderes Modul klonen"/>
+		<Loc Key="UI_RENAME_ADVENTURE" Value="Ausgewähltes Abenteuer umbenennen"/>
+		<Loc Key="UI_DELETE_ADVENTURE" Value="Ausgewähltes Abenteuer löschen"/>
+		<Loc Key="UI_SAVE_ADVENTURE" Value="Änderungen speichern"/>
+		<Loc Key="UI_SEARCH_FOR_NODE" Value="Nach Knotennummer suchen"/>
+		<Loc Key="UI_SORT_BY" Value="Sortieren nach"/>
+		<Loc Key="UI_SORT_BY_NAME" Value="Name"/>
+		<Loc Key="UI_SORT_BY_RACE" Value="Volk"/>
+		<Loc Key="UI_SORT_BY_POPULATION" Value="Bevölkerung"/>
+		<Loc Key="UI_SORT_BY_FOOD_INCOME" Value="Einkommen - Nahrung"/>
+		<Loc Key="UI_SORT_BY_GOLD_INCOME" Value="Einkommen - Gold"/>
+		<Loc Key="UI_SORT_BY_PRODUCTION_INCOME" Value="Einkommen - Produktionspunkte"/>
+		<Loc Key="UI_SORT_BY_REBELS" Value="Anzahl der Rebellen"/>
+		<Loc Key="UI_SORT_BY_DATE" Value="Zeitpunkt des Erhalts"/>
+		<Loc Key="UI_SELECT_VISIBILITY" Value="Sichtbarkeit auswählen"/>
+		<Loc Key="UI_PUBLIC" Value="Öffentlich"/>
+		<Loc Key="UI_FRIENDS_ONLY" Value="Nur Freunde"/>
+		<Loc Key="UI_PRIVATE" Value="Privat"/>
+		<Loc Key="UI_FULLSCREEN_MODE" Value="Vollbildmodus"/>
+		<Loc Key="UI_ARCANUS_GAMMA" Value="Gamma - Arcanus-Ebene"/>
+		<Loc Key="UI_MYRROR_GAMMA" Value="Gamma - Myrror-Ebene"/>
+		<Loc Key="UI_WIZARD_RETURNED" Value="Zauberer zurückgekehrt"/>
+		<Loc Key="UI_WIZARD_RETURNED_DES" Value="Eure Hoheit, {0} hat das Sprechen des Zaubers der Rückkehr abgeschlossen. Da der Zauberer wieder über seine Festung und seinen Beschwörungskreis verfügt, kann er auch wieder andere Zauber sprechen."/>
+		<Loc Key="UI_DESCRIPTION_TOO_LONG" Value="Die Beschreibung des Mods überschreitet die Zeichenbeschränkung von Steam Workshop (~7000 Zeichen). Es wurde gekürzt, um das Hochladen zu ermöglichen."/>
+		<Loc Key="UI_TOWN_GROW_MULTIPLIER_1" Value="x1,0"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER" Value="Zauberfertigkeitskosten"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_DES" Value="Diese Option verringert die Anzahl der Zauberfertigkeitspunkte, die zur Erhöhung der Zauberfertigkeit benötigt werden. Eine Verringerung um 10 % beispielsweise senkt die Kosten von 100 auf 90 usw."/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_1" Value="Kostensenkung (10 %)"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_25" Value="Kostensenkung (25 %)"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_5" Value="Kostensenkung (50 %)"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_75" Value="Kostensenkung (75 %)"/>
+		<Loc Key="UI_THIS_GAME_LACK_QUICK_SAVE" Value="Es gibt keine Schnellspeicherdatei zum Laden!"/>
+		<Loc Key="UI_WATER_LAIR_NUMBER_MULTIPLIER" Value="Anzahl von Wasserunterschlupfen"/>
+		<Loc Key="UI_WATER_LAIR_NUMBER_MULTIPLIER_DES" Value="Legt die Anzahl der Wasserunterschlupfe fest, die zu Beginn des Spiels auf der Weltkarte generiert werden."/>
+		<Loc Key="UI_OF" Value="von"/>
+		<Loc Key="UI_SPELL_ALREADY_ACTIVE" Value="Dieser Zauber ist bereits auf dem Schlachtfeld aktiv."/>
+		<Loc Key="UI_TOOLTIP_GLOBALSGRID" Value="Globale Bezauberungen anzeigen/verbergen"/>
+		<Loc Key="UI_TOOLTIP_GLOBALSGRID_DES" Value="In diesem Bereich werden Bezauberungen angezeigt, die auf Euch und die Welt wirken."/>
+		<Loc Key="UI_BANISHED_WIZARD" Value="Gebannter Zauberer"/>
+		<Loc Key="UI_BANISHED_WIZARD_DES" Value="Dieser Zauberer hat seine Festung und seinen Beschwörungskreis verloren. Abgesehen vom Zauber der Rückkehr kann er keine Zauber mehr sprechen."/>
+		<Loc Key="UI_SEA_HARVEST_FAILED" Value="Ernte fehlgeschlagen"/>
+		<Loc Key="UI_SEA_HARVEST_FAILED_DES" Value="Die Meeresernte ist fehlgeschlagen."/>
+		<Loc Key="UI_SKILL_GAINED" Value="Fertigkeit erhalten"/>		
+		<Loc Key="UI_TOWN_UNREST_FROM_TAX" Value="Durch Steuersatz"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_TENSION" Value="Durch Völkerspannungen"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_ENCHANTMENTS" Value="Durch Bezauberungen"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_ENCHANTMENTS_MULTIPLIER" Value="Durch Bezauberungen (%)"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_TRAITS" Value="Durch Spezialisierungen"/>
+		<Loc Key="UI_TOWN_REBEL_REDUCTION_FROM_WIZARD" Value="Weniger Rebellen (Zauberer)"/>
+		<Loc Key="UI_TOWN_REBEL_REDUCTION_FROM_GARRISON" Value="Weniger Rebellen (Garnison)"/>
+		<Loc Key="UI_TOWN_FOOD_PRODUCTION" Value="Durch Produktion"/>
+		<Loc Key="UI_TOWN_FOOD_RESOURCE_BONUS" Value="Durch Ressourcenbonus"/>
+		<Loc Key="UI_TOWN_FOOD_ENCHANTMENTS" Value="Durch Bezauberungen"/>
+		<Loc Key="UI_TOWN_FOOD_ENCHANTMENT_MULTIPLIER" Value="Durch Bezauberungen (%)"/>
+		<Loc Key="UI_TOWN_RESEARCH_FROM_ENCHANTMENTS" Value="Durch Bezauberungen"/>
+		<Loc Key="UI_TOWN_POWER_FROM_RELIGIOUS" Value="Durch religiöse Gebäude"/>
+		<Loc Key="UI_TOWN_POWER_FROM_DARK_RITUAL" Value="Durch dunkle Rituale"/>
+		<Loc Key="UI_TOWN_POWER_FROM_LIFE_AND_DEATH_MOON" Value="Durch Hellen/Dunklen Mond"/>
+		<Loc Key="UI_TOWN_POWER_FROM_TRAITS" Value="Durch Spezialisierungen"/>
+		<Loc Key="UI_TOWN_POWER_FROM_POPULATION" Value="Durch Bevölkerung"/>
+		<Loc Key="UI_TOWN_POWER_FROM_RESOURCES" Value="Durch Ressourcen"/>
+		<Loc Key="UI_TOWN_POWER_FROM_POWER_NODES" Value="Durch magische Knoten"/>
+		<Loc Key="UI_TOWN_POWER_FROM_ENCHANTMENTS" Value="Durch Bezauberungen"/>
+		<Loc Key="UI_TOWN_POWER_FROM_ENCHANTMENT_MULTIPLIERS" Value="Durch Bezauberungen (%)"/>
+		<Loc Key="UI_TOWN_PRODUCTION_BASE" Value="Basisproduktion"/>
+		<Loc Key="UI_TOWN_PRODUCTION_AREA_BONUS" Value="Gebietsbonus"/>
+		<Loc Key="UI_TOWN_PRODUCTION_ENCHANTMENT_BONUS" Value="Bezauberungsbonus"/>
+		<Loc Key="UI_TOWN_PRODUCTION_ENCHANTMENT_MULTIPLIER_BONUS" Value="Bezauberungsmultiplikator-Bonus"/>
+		<Loc Key="UI_REQUIREMENTS_NOT_MET" Value="Mindestens ein Element wurde aus der Bauwarteschleife entfernt, da das dafür vorausgesetzte Element nicht gebaut wurde und sich auch nicht davor in der Bauwarteschleife befindet."/>
+		<Loc Key="UI_SEA_HARVEST_SUCCESS" Value="Erfolgreiche Ernte"/>
+		<Loc Key="UI_SEA_HARVEST_SUCCESS_DES" Value="Ihr bereichert Euch an der Fülle des Meeres und erhaltet: {0} Zauberfertigkeit-Fortschrittspunkte{ICON:CastingSkillIcon}, {1} Mana{ICON:ManaIcon} und {2} Gold{ICON:GoldIcon}."/>
+		<Loc Key="UI_CITY_LOOTED" Value="Stadtplünderung"/>
+		<Loc Key="UI_CITY_LOOTED_DES" Value="Bevor die Stadt dem Erdboden gleichgemacht wird, ziehen die Piraten durch die Straßen und plündern alles, was sie in die Finger bekommen und als wertvoll erachten!"/>
+		<Loc Key="UI_TRADE_HAPPINESS" Value="Handelszufriedenheit"/>
+		<Loc Key="UI_TRADE_HAPPINESS_DES" Value="Zeigt an, wie zufrieden der andere Zauberer mit diesem Handel ist. Wenn Euer Angebot weniger wert ist als sein Angebot, wird er dem Handel zwar womöglich zustimmen, aber seine Beziehung zu Euch wird sich verschlechtern. Ist Euer Angebot hingegen mehr wert, wird sich die Beziehung verbessern.\nDie Wahrscheinlichkeit, dass sich der andere Zauberer auf einen unvorteilhaften Handel einlässt, ist abhängig davon, wie er zu Euch steht und wie sehr er Euch fürchtet. Wie zufrieden der andere Zauberer mit einem Handelsangebot ist, hängt von seinem wirtschaftlichen Status und seinem Forschungsfortschritt ab."/>
+		<Loc Key="UI_CASTING_SKILL_GAINED" Value="Zauberfertigkeit erhalten"/>
+		<Loc Key="UI_CASTING_SKILL_LOST" Value="Zauberfertigkeit verloren"/>
+		<Loc Key="UI_KRAKEN_LAIR" Value="Krakendomäne"/>
+		<Loc Key="UI_SAVE_DLC3_DES" Value="Dieser Spielstand enthält Inhalte von 'Scourge of the Seas'."/> <!--do not localise the 'Scourge of the Seas' part - this is the DLC title and should stay in English -->
+		<Loc Key="UI_BUTTON_RESOURCES" Value="Ressourcen anzeigen/verbergen ({0})"/>
+		<Loc Key="UI_SHOW_HIDE_RESOURCES" Value="Ressourcen anzeigen/verbergen"/>
+		<Loc Key="UI_EXTREME" Value="Extrem (250 %)"/> <!--game difficulty level-->
+		<Loc Key="UI_REBELS_FROM_UNREST" Value="Durch Unzufriedenheit ({0}{ICON:PopulationIcon} x {1}{ICON:UnrestIcon})"/>
+		<Loc Key="UI_REBELS_MODIFIER_FROM_ENCHANTMENTS" Value="Durch Bezauberungen und Gebäude"/>
+		<Loc Key="UI_SCOURGE_OF_THE_SEAS" Value="Scourge of the Seas"/>
+		<Loc Key="UI_SCOURGE_OF_THE_SEAS_DES" Value="Zusätzliche Inhalte durch das 'Scourge of the Seas'-Update aktivieren oder deaktivieren."/>
+		<Loc Key="UI_CANNOT_MOVE_QUEUE_ITEM" Value="Dieses Element der Bauwarteschleife kann nicht verschoben werden, da erst ein dafür vorausgesetztes Element gebaut werden muss."/>
+	</LOCALIZATION-UI_DE>
+</DB_LOCALIZATION>

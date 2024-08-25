@@ -1,0 +1,8 @@
+﻿<PROTOTYPE_TOWN_NAME>	
+	
+	<TOWN_NAME Name="TownName">
+		<Race Name="race" Type="RACE" Required="TRUE"/>
+		<Names Name="names" Type="Arraystring" Required="TRUE"/>
+	</TOWN_NAME>
+	
+</PROTOTYPE_TOWN_NAME>

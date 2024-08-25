@@ -1,0 +1,13 @@
+﻿<PROTOTYPE_UNIT_LVL>
+
+	<XP_TO_LVL Name="XpToLvl">
+		<ExpReq Name="expReq" Type="Arrayint" Required="TRUE"/>		
+	</XP_TO_LVL>
+
+	<UNIT_LVL Name="UnitLvl">		
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>
+		<Level Name="level" Type="int" Required="TRUE"/>
+		<UnitClass Name="unitClass" Type="TAG" Required="TRUE"/>
+	</UNIT_LVL>
+	
+</PROTOTYPE_UNIT_LVL>

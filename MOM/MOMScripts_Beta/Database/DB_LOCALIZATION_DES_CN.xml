@@ -1,0 +1,2394 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DES_CN Language="中文">	
+	    <!--MAGES-->
+		<Loc Key="DES_MERLIN" Value="梅林" />
+		<Loc Key="DES_MERLIN_DES" Value="梅林是一名伟大的巫师, 精通自然和生命系魔法. 他的年龄和出身都是一个传说. 梅林以其无尽的智慧, 对知识的渴求和对真正魔法的理解而闻名于世. 作为贤者大师, 梅林学习和研究法术的速度非常之快." />
+		<Loc Key="DES_MERLIN_QUOTE" Value="我不会忍受任何傻瓜. 只有知识才能赢得胜利." />
+		
+		<Loc Key="DES_RAVEN" Value="瑞文" />
+		<Loc Key="DES_RAVEN_DES" Value="瑞文是一名土著萨满祭司, 毕生致力于弥合现实与灵魂世界之间的鸿沟. 他是自然和巫术系魔法的大师. 据说作为一名萨满祭司, 瑞文的灵魂能够看穿许多人的双眼, 也因此经历了很多故事. 他不使用任何特定的巫师特质, 而是专注于精通纯粹的魔法." />
+		<Loc Key="DES_RAVEN_QUOTE" Value="我的灵魂指引我来到这里, 现在是时候帮助那些迷失之人了." />
+		
+		<Loc Key="DES_SHAREE" Value="莎莉" />
+		<Loc Key="DES_SHAREE_DES" Value="莎莉涉足于最黑暗的魔法艺术, 融合了混沌和死亡系魔法的力量. 她是一位成功的巫毒女祭司, 尽管她的外表看起来很年轻, 但据说她已经多次欺骗过死亡. 莎莉是一名强大的咒法师, 能够轻松召唤许多神秘生物听从其号令." />
+		<Loc Key="DES_SHAREE_QUOTE" Value="以丹巴拉之名, 我才是真正的魔术大师 - 其他人只是玩偶而已." />
+		
+		<Loc Key="DES_LO_PAN" Value="洛潘" />
+		<Loc Key="DES_LO_PAN_DES" Value="洛潘是一名精通混沌和巫术的大师. 通过学习祖先传承的古老技术, 洛潘正寻求着对内在自我的认知和理解. 作为一名通灵师, 洛潘已经掌握了将魔法能量直接从魔法要塞引导至战场上的能力. 这种能力使得他在要塞之外的地方施放战斗法术无需耗费额外的法力." />
+		<Loc Key="DES_LO_PAN_QUOTE" Value="当你即将成功时, 最大的诱惑来自于放弃." />
+		
+		<Loc Key="DES_JAFAR" Value="贾法尔" />
+		<Loc Key="DES_JAFAR_DES" Value="贾法尔是一名神秘的流浪巫师, 以其以假乱真的幻术而闻名, 专攻巫术系魔法. 他同时还是一名炼金大师, 这让他能够免费转换金币和法力. 因此, 贾法尔因长途跋涉而显得饱经风霜的外貌可能只是假象, 是他选择展示的众多形象之一. 人们不禁要问了: 他的真正面目究竟是什么?" />
+		<Loc Key="DES_JAFAR_QUOTE" Value="幻象是所有快乐中的第一个也是最后一个, 所以现在就好好享受它们吧." />
+		
+		<Loc Key="DES_OBERIC" Value="奥伯里克" />
+		<Loc Key="DES_OBERIC_DES" Value="奥伯里克是一名元素师, 擅长混沌和自然系魔法. 奥伯里克重视他的独立性并追求更强大的控制力与元素的统一. 他不喜欢被统治, 并将其视为通往权力道路上不幸的必需品. 奥伯里克拥有法力专注这一特殊能力, 能够大大增加了他可以获得的法力储备." />
+		<Loc Key="DES_OBERIC_QUOTE" Value="元素将听从我的召唤, 所有阻碍我晋升之人也将如此." />
+		
+		<Loc Key="DES_RJAK" Value="里亚克" />
+		<Loc Key="DES_RJAK_DES" Value="里亚克是一位精通死亡系魔法的术士. 其真实性质或起源仍然是一个黑暗的谜团. 有人说在他那奇怪的斗篷下其实没有肉体. 而其他人则低声谈论他与死亡本身的真正联系. 里亚克拥有可怕的炼狱能量, 这无疑增强了他自己的统御之力." />
+		<Loc Key="DES_RJAK_QUOTE" Value="接受我的到来, 因为没人可以阻挡…" />
+		
+		<Loc Key="DES_SSSRA" Value="斯拉" />
+		<Loc Key="DES_SSSRA_DES" Value="斯拉是一位专精于混沌和生命系魔法的术士. 与大多数其他巫师不同, 斯拉和他的龙族同伴自古以来就生活在迈罗尔, 但为了变得更强大, 这名术士花费了数十年的时间旅行并获得力量. 作为迈罗尔族成员, 斯拉能够很好地适应异世界的生存并指挥居住在那里的种族." />
+		<Loc Key="DES_SSSRA_QUOTE" Value="现在, 所有人都将见证上古之威, 龙血之威! " />
+		
+		<Loc Key="DES_TAURON" Value="托隆" />
+		<Loc Key="DES_TAURON_DES" Value="托隆是一名拥有人类外貌的恶魔. 他精通混沌系魔法, 试图给所有世界带来无尽的灾难. 通过对混沌和变幻的独特迷恋, 托隆还拥有混沌精通这一特殊能力, 增加了他对混沌系魔法的掌握." />
+		<Loc Key="DES_TAURON_QUOTE" Value="凡人上演的不过是一场精彩的闹剧, 让我们一同享受吧!" />
+		
+		<Loc Key="DES_FREYA" Value="芙蕾雅" />
+		<Loc Key="DES_FREYA_DES" Value="芙蕾雅来自寒冷的北方大地, 她对自然系魔法的掌握让她获得了强大的力量, 受到无数人的崇拜. 她的精灵血统和美貌为她赢得了雪仙女的昵称. 与大地相协调, 芙蕾雅的独特专注使她获得了自然精通, 这是一种罕见的天赋, 可以增强她对自然系魔法的掌握." />
+		<Loc Key="DES_FREYA_QUOTE" Value="根据自然法则和血统, 只有最强者才能生存." />
+		
+		<Loc Key="DES_HORUS" Value="荷鲁斯" />
+		<Loc Key="DES_HORUS_DES" Value="荷鲁斯的奥术天赋是与生俱来的, 而且很快就掌握了巫术和生命系魔法的艺术. 尽管他的实力很明显, 但他似乎并不确定自己的潜能所在, 因此在与其他奇才打交道时他的表现可能无法预测. 荷鲁斯也是一名大法师, 这让他在施法方面特别有效, 同时也使得他的法术更难被驱散." />
+		<Loc Key="DES_HORUS_QUOTE" Value="我想在这里, 我一定会成为最强者. 哈…" />
+		
+		<Loc Key="DES_ARIEL" Value="爱丽儿" />
+		<Loc Key="DES_ARIEL_DES" Value="爱丽儿拥有高阶女祭司的头衔, 并掌握了生命系魔法的艺术, 能够以诸神的名义帮助那些需要帮助的人. 爱丽儿也是一位才华横溢的外交官, 这自然要归功于她超凡的魅力. 只需倾城般的微笑和无可辩驳的演讲, 她可以让任何外交协议顺利达成. 商人和雇佣兵同样被爱丽儿的魅力所左右, 因此将为她提供服务." />
+		<Loc Key="DES_ARIEL_QUOTE" Value="愿众神指引我的道路, 赐予我迅速取得胜利." />
+		
+		<Loc Key="DES_TLALOC" Value="特拉洛克" />
+		<Loc Key="DES_TLALOC_DES" Value="特拉洛克是狂风和暴雨的主宰, 有人称他为阿兹特克牧师, 也有人认为他是雨神的化身. 众所周知他接受血祭, 并将鲜血魔法作为最强大力量的来源. 特拉洛克掌握着自然和死亡系魔法, 但同时也是一位伟大的军阀, 他深知自己的军队可能与他所使用的魔法一样具有影响力." />
+		<Loc Key="DES_TLALOC_QUOTE" Value="天空听命于我, 鲜血随我而奔流. 现在所有的一切都在我的掌控之中!" />
+		
+		<Loc Key="DES_KALI" Value="卡莉" />
+		<Loc Key="DES_KALI_DES" Value="卡莉是一名神秘的女巫, 擅长死亡和巫术系魔法. 她的真实年龄和实力永远笼罩在神秘之中, 被谣言和低语所掩盖. 她视自己是时间 - 以及死亡女神的追随者. 为了增强力量卡莉学会了工匠的特殊能力, 这使她能够更高效地锻造魔法物品." />
+		<Loc Key="DES_KALI_QUOTE" Value="害怕我或是爱上我, 无论哪种方式, 你都是我的了." />
+		
+		<Loc Key="DES_CUSTOM_WIZARD_QUOTE" Value="我默默无闻, 但很快所有人都会认识我. 通往权力巅峰的旅程开始了!" />
+		
+		<!--RACES-->
+		<Loc Key="DES_BARBARIANS" Value="野蛮人" />
+        <Loc Key="DES_BARBARIANS_DES" Value="野蛮人是一个人类阵营, 以原始战争的悠久传统和培养战士信条为核心. 虽然野蛮人确实更喜欢专注于战斗, 但他们中最强大的氏族建立起了伟大的城市, 他们的外交实力足以像战争那样维持和平." />
+        <Loc Key="DES_BARBARIANS_PRODUCTION" Value="增长率: 极快(基础速率+20人口/回合)\n建筑物限制: 无法修建通灵者行会, 大教堂, 或者大学.\n其他: 近战单位+1{ICON:ResistanceIconNormal}抗性和投掷攻击.\n长矛手, 剑士, 戟兵和骑兵消耗x1.5生产 {ICON:ProductionIcon}.\n种族单位: {LINK:UNIT-BARB_BERSERKERS} 狂战士{ICON:Berserker}{END_LINK}" />
+		<Loc Key="DES_GNOLLS" Value="豺狼人" />
+		<Loc Key="DES_GNOLLS_DES" Value="豺狼人是体型庞大的类人型动物, 具有犬科动物的特征, 因此与狗一样带有贬义的意味. 尽管豺狼人确实缺乏智力并且具有原始的社会结构, 但在正确的领导下, 它们依然可以建造城市并掌握如何使用锻造武器." />
+		<Loc Key="DES_GNOLLS_PRODUCTION" Value="增长率: 慢(基础速率-10人口/回合)\n建筑物限制: 无法修建通灵者行会, 贤者行会, 军械行会, 海事行会, 或帕提农神庙.\n\n其他: 单位(构造体除外)+2{ICON:MeleeIconNormal}近战攻击.\n\n种族单位: {LINK:UNIT-GNO_WOLF_RIDERS} 狼骑兵{ICON:WolfRider}{END_LINK}" />
+		<Loc Key="DES_HALFLINGS" Value="半身人" />
+		<Loc Key="DES_HALFLINGS_DES" Value="半身人是个子矮小但身材强壮的类人型生物, 他们性格活泼, 生活在传统意义上的农业社会中. 虽然他们被归类为拥有文明的种族, 但他们确实更喜欢所谓的简单生活, 如果可能的话他们更喜欢自己呆着. 因此, 他们不喜欢扩张和森严的等级结构." />
+		<Loc Key="DES_HALFLINGS_PRODUCTION" Value="增长率: 普通(基础速率+0人口/回合)\n建筑物限制: 无法修建军械行会, 马厩, 船坞或大学.\n\n其他: 单位(构造体除外)-1{ICON:MeleeIconNormal}近战攻击, +2{ICON:ResistanceIconNormal}抗性和幸运\n长矛手, 剑士, 弓箭手和殖民者消耗x1.5生产{ICON:ProductionIcon}.\n种族单位: {LINK:UNIT-HALF_SLINGERS} 投石手{ICON:Slinger}{END_LINK}" />
+		<Loc Key="DES_HIGH_ELVES" Value="高等精灵" />
+		<Loc Key="DES_HIGH_ELVES_DES" Value="高等精灵是类人型生物, 拥有靓丽的外表和极长的寿命, 这通常归因于他们与魔法之间的强烈联系. 他们是一个古老的种族, 认为自己是智慧力量的化身. 因此他们更加青睐于外交而不是战争, 但由于他们的自我意识, 高等精灵通常都充满了优越感." />
+		<Loc Key="DES_HIGH_ELVES_PRODUCTION" Value="增长率: 极慢(基础速率-20人口/回合)\n建筑物限制: 无法修建帕提农神庙或海事行会.\n其他: 单位(构造体除外)+2{ICON:ResistanceIconNormal}抗性, +10% {ICON:ToHitBonusIcon}命中几率并拥有护林人技能.\n长矛手, 剑士, 戟兵, 骑兵和殖民者消耗x1.5生产{ICON:ProductionIcon}.\n高等精灵城市提供每人口+0.5{ICON:PowerIcon}能量.\n种族单位: {LINK:UNIT-H_ELF_LONGBOWMEN} 长弓兵{ICON:Longbowman}{END_LINK}{LINK:UNIT-H_ELF_ELVEN_LORDS} 精灵领主{ICON:ElvenLord}{END_LINK}{LINK:UNIT-H_ELF_PEGASAI} 天马{ICON:Pegasus}{END_LINK}" />
+		<Loc Key="DES_KLACKONS" Value="克拉肯" />
+		<Loc Key="DES_KLACKONS_DES" Value="克拉肯是一个类昆虫种族, 被认为是双位面之中最陌生的种族之一. 没有人知道它们起源于哪里. 克拉肯共享同一个集体意志, 即虫巢. 它们是否拥有一个统治虫群的女王目前尚无法确定, 但一名强大的巫师能够指挥它们集体行动. 克拉肯通常是令人感到恐惧和厌恶的." />
+		<Loc Key="DES_KLACKONS_PRODUCTION" Value="增长率: 慢(基础速率-10人口/回合)\n建筑物限制: 无法修建贤者行会, 船坞或神殿.\n其他: 单位(构造体除外)+1{ICON:ResistanceIconNormal}抗性, +2{ICON:ArmourIconNormal}护甲.\n所有地面单位消耗x2.0生产{ICON:ProductionIcon}.\n如果您首都的种族是克拉肯, 则克拉肯城市动乱降低20%{ICON:UnrestIcon}.\n种族单位: {LINK:UNIT-KLKN_STAG_BEETLE} 锹甲虫{ICON:StagBeetle}{END_LINK}" />
+		<Loc Key="DES_HIGH_MEN" Value="高等人族" />
+		<Loc Key="DES_HIGH_MEN_DES" Value="高等人族被认为是人类中最有组织和最文明的阵营. 他们的社会具有强烈的宗教色彩, 尽管双位面的神圣力量从未被真正定义过, 就连他们自己的大祭司也是如此. 高等人族拥有由圣骑士率领的强大军队, 但只要有可能, 他们更喜欢外交而不是冲突." />
+		<Loc Key="DES_HIGH_MEN_PRODUCTION" Value="增长率: 普通(基础速率+0人口/回合)\n\n建筑物限制: 无法修建奇幻马厩.\n\n种族单位: {LINK:UNIT-H_MEN_PALADINS} 圣骑士{ICON:Paladin}{END_LINK}" />
+		<Loc Key="DES_LIZARDMEN" Value="蜥蜴人" />
+		<Loc Key="DES_LIZARDMEN_DES" Value="蜥蜴人是小型双足水生爬行动物. 它们敏捷而有韧性, 可以在水上移动. 它们虽然身材弱小但能够在数量上得以弥补. 一些理论表明它们与龙裔有着共同的血统, 但没有任何一个种族相信这一点. 蜥蜴人社会大多以部落为主, 它们倾向于使用简单的技术建立定居点." />
+		<Loc Key="DES_LIZARDMEN_PRODUCTION" Value="增长率: 快(基础速率+10人口/回合)\n建筑物限制: 无法修建矿工行会, 锯木厂, 护林人行会, 通灵者行会, 战争学院, 贤者行会, 帕提农神庙或造船工行会.\n\n其他: 基础单位+1{ICON:ArmourIconNormal}护甲, +1{ICON:HitIconNormal}生命以及水上行走技能{ICON:MovementSwimmingIcon}\n种族单位: {LINK:UNIT-LIZ_JAVELINEERS} 标枪兵{ICON:Javelineer}{END_LINK}{LINK:UNIT-LIZ_DRAGON_TURTLE} 龙龟{ICON:DragonTurtle}{END_LINK}" />
+		<Loc Key="DES_NOMADS" Value="游牧族"/>
+		<Loc Key="DES_NOMADS_DES" Value="游牧族是源于传统旅行者的人类阵营. 众所周知, 游牧族定居在城镇和村庄, 这些定居点是贸易, 商业和来往中心区域, 因此'定居'在这里的人并不会感到无聊. 游牧族城市往往没有中央集权制度, 口头合同与任何书面文件一样具有同样的影响力." />
+		<Loc Key="DES_NOMADS_PRODUCTION" Value="增长率: 慢(基础速率-10人口/回合)\n建筑物限制: 无法修建海事行会或巫师行会.\n\n其他: 游牧族城市获得+50%贸易金币加成.\n种族单位: {LINK:UNIT-NOM_RANGERS} 游侠{ICON:Ranger}{END_LINK}{LINK:UNIT-NOM_HORSEBOWMEN} 骑射手{ICON:Horsebowman}{END_LINK}{LINK:UNIT-NOM_GRIFFINS} 狮鹫{ICON:Griffin}{END_LINK}" />
+		<Loc Key="DES_ORCS" Value="半兽人" />
+		<Loc Key="DES_ORCS_DES" Value="半兽人被归类为亚人, 尽管在外观上存在差异, 但在社会结构, 行为和文化方面他们通常被视为是人类的近亲. 有人说半兽人就是人类所有缺点的集合体. 但是抛开他们咄咄逼人的样子和非常糟糕的名声, 半兽人实际上已经形成了一个非常温和的社会." />
+		<Loc Key="DES_ORCS_PRODUCTION" Value="增长率: 普通(基础速率+0人口/回合)\n\n建筑物限制: 无, 半兽人可以修建所有可用的建筑物, 因此可以训练所有的普通单位.\n\n种族单位: {LINK:UNIT-ORC_WYVERN_RIDERS} 双足飞龙骑兵{ICON:WyvernRider}{END_LINK}" />
+		<Loc Key="DES_BEASTMEN" Value="野兽人" />
+		<Loc Key="DES_BEASTMEN_DES" Value="野兽人是一群具有野兽特征的亚人类生物. 它们的动物特征不像豺狼人那么统一, 但是许多人类认为这两个种族是近亲. 野兽人作为一个种族没有任何记载的历史或起源 - 不过, 在很多传说中却有着关于这些'野兽'的故事." />
+		<Loc Key="DES_BEASTMEN_PRODUCTION" Value="增长率: 普通(基础增长率+0人口/回合)\n建筑物限制: 无法修建奇幻马厩或船坞.\n其他: 基础单位(构造体除外)+1{ICON:MeleeIconNormal}近战攻击, +1{ICON:ResistanceIconNormal}抗性, +1{ICON:HitIconNormal}生命.\n长矛手, 剑士, 戟兵, 弓箭手和殖民者消耗x2.0生产{ICON:ProductionIcon}.\n野兽人城市每人口点数获得+0.5能量.\n种族单位: {LINK:UNIT-BSTM_MANTICORES} 蝎尾狮{ICON:Manticore}{END_LINK}{LINK:UNIT-BSTM_MINOTAURS} 牛头怪{ICON:Minotaur}{END_LINK}{LINK:UNIT-BSTM_CENTAURS} 半人马 {ICON:Centaur}{END_LINK}" />
+		<Loc Key="DES_DARK_ELVES" Value="黑暗精灵" />
+		<Loc Key="DES_DARK_ELVES_DES" Value="黑暗精灵是一个不朽的古老种族. 据说他们在过去的岁月里从阿坎纳斯迁移到了迈罗尔, 他们的性格也随着在新家园中度过的每一天而逐渐变得更加黑暗和扭曲. 他们天生就拥有魔法和神秘学的天赋, 他们衣衫褴褛地参加战斗, 时刻炫耀着对享乐主义, 痛苦和残忍的追求." />
+		<Loc Key="DES_DARK_ELVES_PRODUCTION" Value="增长率: 极慢(基础速率-20人口/回合)\n建筑物限制: 无法修建大教堂或海事行会.\n\n其他: 单位(构造体除外)以及一些远程魔法单位+3{ICON:ResistanceIconNormal}抗性.\n长矛手, 剑士, 戟兵, 骑兵和殖民者消耗x2.5生产{ICON:ProductionIcon}.\n种族单位: {LINK:UNIT-D_ELF_NIGHTBLADES} 暗夜之刃{ICON:Nightblade}{END_LINK}{LINK:UNIT-D_ELF_WARLOCKS} 术士{ICON:Warlock}{END_LINK}{LINK:UNIT-D_ELF_NIGHTMARES} 梦魇{ICON:Nightmare}{END_LINK}" />
+		<Loc Key="DES_DRACONIANS" Value="龙裔" />
+		<Loc Key="DES_DRACONIANS_DES" Value="龙裔是源自于巨龙的古老种族. 它们从祖先那里继承了双翼, 并且拥有强大的, 与生俱来天生奥术天赋, 以及火焰吐息的能力. 龙裔是可怕而威猛的种族, 它们通过军队政权和官僚集团的结合进行强力统治, 但尽管如此严苛, 它们也非常重视智慧和知识." />
+		<Loc Key="DES_DRACONIANS_PRODUCTION" Value="增长率: 慢(基础速率-10人口/回合)\n建筑物限制: 无法修建奇幻马厩, 海事行会或机械师行会.\n其他: 单位(构造体除外)+1{ICON:ArmourIconNormal}护甲, +2{ICON:ResistanceIconNormal}抗性, 近战单位拥有火焰吐息技能, 能够飞行{ICON:MovementFlyingIcon}\n长矛手, 剑士, 戟兵, 工程师和殖民者消耗x2.5生产{ICON:ProductionIcon}.\n龙裔城市每人口点数获得+0.5能量.\n种族单位: {LINK:UNIT-DRCN_DOOM_DRAKES} 厄运之龙{ICON:DoomDrake}{END_LINK}{LINK:UNIT-DRCN_AIR_SHIP} 飞艇{ICON:Airship}{END_LINK}" />
+		<Loc Key="DES_DWARVES" Value="矮人" />
+		<Loc Key="DES_DWARVES_DES" Value="矮人是矮小但强壮的亚人. 血统和君主制是矮人社会的基石, 他们的传统是一成不变的. 他们珍视自己的亲人, 矿产和强大工艺的力量. 与其他迈罗尔社会不同的是, 矮人实行法治, 没有任何邪恶的追求, 并认为情绪化是毫无必要的." />
+		<Loc Key="DES_DWARVES_PRODUCTION" Value="增长率: 极慢(基础速率-20人口/回合)\n建筑物限制: 无法修建帕提农神庙, 船坞, 马厩或大学.\n其他: 基础单位(构造体除外)和巡山人(构造体和魔像除外)+4{ICON:ResistanceIconNormal}抗性, +2{ICON:HitIconNormal}生命.\n剑士, 戟兵和殖民者消耗x2.5生产{ICON:ProductionIcon}. \n矮人城市的特殊矿藏加成和税收金币提高一倍.\n种族单位: {LINK:UNIT-DWRF_HAMMERHANDS} 锤手{ICON:Hammerhand}{END_LINK}{LINK:UNIT-DWRF_GOLEM} 魔像{ICON:Golem}{END_LINK}{LINK:UNIT-DWRF_STEAM_CANNON} 蒸汽加农炮{ICON:SteamCannon}{END_LINK}" />
+		<Loc Key="DES_TROLLS" Value="巨魔" />
+		<Loc Key="DES_TROLLS_DES" Value="巨魔是大自然奇妙而残酷的造物. 他们几乎没有智力, 完全依靠蛮力和生存本能来弥补. 巨魔之血是抢手货, 因为它具有再生能力. 所以在战斗中最好彻底瓦解巨魔敌人, 否则它们很可能会再次站起来." />
+		<Loc Key="DES_TROLLS_PRODUCTION" Value="增长率: 极慢(基础速率-20人口/回合)\n建筑物限制: 无法修建奇幻马厩, 矿工行会, 贤者行会或船坞.\n其他: 基础单位(构造体除外)+2{ICON:MeleeIconNormal}近战攻击, +3{ICON:ResistanceIconNormal}抗性, +3{ICON:HitIconNormal}生命, 再生(构造体和战争猛犸除外).\n巨魔单位最多拥有4名成员.\n所有地面单位消耗x3.0生产{ICON:ProductionIcon}.\n种族单位: {LINK:UNIT-TRLL_WAR_TROLLS} 战争巨魔{ICON:WarTroll}{END_LINK}{LINK:UNIT-TRLL_WAR_MAMMOTHS} 战争猛犸{ICON:WarMammoth}{END_LINK}" />
+
+
+		<Loc Key="DES_REALM_ARCANE" Value="奥术领域" />
+		<Loc Key="DES_REALM_ARCANE_DES" Value="该单位服从于中立的奥术领域." />
+		<Loc Key="DES_REALM_NATURE" Value="自然领域" />
+		<Loc Key="DES_REALM_NATURE_DES" Value="该单位服从于长青的自然领域." />
+		<Loc Key="DES_REALM_SORCERY" Value="巫术领域" />
+		<Loc Key="DES_REALM_SORCERY_DES" Value="该单位服从于强大的巫术领域." />
+		<Loc Key="DES_REALM_CHAOS" Value="混沌领域" />
+		<Loc Key="DES_REALM_CHAOS_DES" Value="该单位服从于时刻变化着的混沌领域." />
+		<Loc Key="DES_REALM_LIFE" Value="生命领域" />
+		<Loc Key="DES_REALM_LIFE_DES" Value="该单位服从于永恒的生命领域." />
+		<Loc Key="DES_REALM_DEATH" Value="死亡领域" />
+		<Loc Key="DES_REALM_DEATH_DES" Value="该单位服从于黑暗的死亡领域. 在这里无法自然治愈." />
+		<Loc Key="DES_RACE_NON_RACIAL" Value="非种族" />
+		<Loc Key="DES_RACE_NON_RACIAL_DES" Value="该单位不属于任何种族." />
+		<Loc Key="DES_RACE_HERO" Value="英雄" />
+		<Loc Key="DES_RACE_HERO_DES" Value="该单位是一名雇佣兵, 一名英雄或是勇士. 有些人会出于对事业的忠诚而为您服务, 但大多数只是需要一些金币而已." />
+
+		<!--BUILDINGS-->	
+		<Loc Key="DES_BUILDING_FORTRESS" Value="要塞" />
+		<Loc Key="DES_BUILDING_FORTRESS_DES" Value="要塞是魔镜所在的地方, 代表着巫师的存在. 如果失去要塞, 巫师将被放逐因此必须施放回归法术.\n\n效果: 产生与法术书同等数量的能量{ICON:PowerIcon}(位于迈罗尔时+5能量).\n施法型英雄在要塞城市驻扎时会增加一半的法力作为巫师施法技能, 并且战斗时的施法技能将受到战斗地点与要塞之间距离的影响.\n在进行防御时将向敌人发射干扰箭矢." />
+		<Loc Key="DES_BUILDING_BARRACKS" Value="兵营" />
+		<Loc Key="DES_BUILDING_BARRACKS_DES" Value="兵营是核心军事建筑之一, 可让您建立一支军队. 兵营允许城市训练和组织军事单位.\n\n效果: 解锁单位(如果种族允许). 解锁建筑路径(如果种族允许)." />
+		<Loc Key="DES_BUILDING_ARMORY" Value="军械库" />
+		<Loc Key="DES_BUILDING_ARMORY_DES" Value="军械库是城市中分配, 储存武器和盔甲的地方.\n\n效果: 解锁单位(如果种族允许). 解锁建筑路径(如果种族允许)." />
+		<Loc Key="DES_BUILDING_FIGHTERS_GUILD" Value="斗士行会" />
+		<Loc Key="DES_BUILDING_FIGHTERS_GUILD_DES" Value="斗士行会能够传授军队基本的战斗技巧.\n\n效果: 所有新培训军队将成为正规军(新兵+1等级). 解锁建筑路径(如果种族允许)." />
+		<Loc Key="DES_BUILDING_ARMORERS_GUILD" Value="军械行会" />
+		<Loc Key="DES_BUILDING_ARMORERS_GUILD_DES" Value="军械行会为军队提供战斗技巧和基本战斗战术的训练.\n\n效果: 解锁建筑路径(如果种族允许)." />
+		<Loc Key="DES_BUILDING_WAR_COLLEGE" Value="战争学院" />
+		<Loc Key="DES_BUILDING_WAR_COLLEGE_DES" Value="战争学院能够为您的士兵教授先进的战略和战术.\n\n效果: 所有新培训军队将成为老兵." />
+		<Loc Key="DES_BUILDING_SMITHY" Value="铁匠铺" />
+		<Loc Key="DES_BUILDING_SMITHY_DES" Value="作为任何城市的核心建筑之一, 铁匠铺可以开发和生产优质武器.\n\n效果: 解锁建筑路径(如果种族允许)." />
+		<Loc Key="DES_BUILDING_STABLES" Value="马厩" />
+		<Loc Key="DES_BUILDING_STABLES_DES" Value="马厩为骑兵和/或战兽提供训练, 居住和看护的地方.\n\n效果: 解锁单位(如果种族允许). 解锁建筑路径(如果种族允许).\n\n需要范围内拥有草原" />
+		<Loc Key="DES_BUILDING_ANIMISTS_GUILD" Value="通灵者行会" />
+		<Loc Key="DES_BUILDING_ANIMISTS_GUILD_DES" Value="一个思考和敬畏自然, 世俗力量的地方.\n\n效果: 每农夫+1粮食生产, 额外-1动乱; 允许使用夜影并使单位在城市中的治疗效果翻倍.\n解锁建筑路径(如果种族允许)." />
+		<Loc Key="DES_BUILDING_FANTASTIC_STABLES" Value="奇幻马厩" />
+		<Loc Key="DES_BUILDING_FANTASTIC_STABLES_DES" Value="一座城市的奇幻马厩, 为魔法野兽提供居住和看护的地方.\n\n效果: 解锁单位(如果种族允许). 解锁建筑路径(如果种族允许)." />
+		<Loc Key="DES_BUILDING_SHIPWRIGHTS_GUILD" Value="造船工行会" />
+		<Loc Key="DES_BUILDING_SHIPWRIGHTS_GUILD_DES" Value="造船工行会聚集了大批能够建造小型船只的熟练工匠.\n\n效果: 解锁单位(如果种族允许).\n\n需要城市建造在海岸" />
+		<Loc Key="DES_BUILDING_SHIPYARD" Value="船坞" />
+		<Loc Key="DES_BUILDING_SHIPYARD_DES" Value="船坞为城市提供生产中型船只所需的设备和工人.\n\n效果: 解锁单位(如果种族允许)." />
+		<Loc Key="DES_BUILDING_MARITIME_GUILD" Value="海事行会" />
+		<Loc Key="DES_BUILDING_MARITIME_GUILD_DES" Value="海事行会通过训练, 组织和支持经验丰富的造船工来生产大型船只.\n\n效果: 解锁单位(如果种族允许)." />
+		<Loc Key="DES_BUILDING_SAWMILL" Value="锯木厂" />
+		<Loc Key="DES_BUILDING_SAWMILL_DES" Value="锯木厂能够将木材生产为致命武器.\n\n效果: 森林的生产增加+25%并增加+10%的住宅.\n\n需要范围内拥有森林" />
+		<Loc Key="DES_BUILDING_LIBRARY" Value="图书馆" />
+		<Loc Key="DES_BUILDING_LIBRARY_DES" Value="图书馆是知识和学术的宝库, 是通向更伟大智慧的第一步.\n\n效果: +2{ICON:ResearchIcon}研究." />
+		<Loc Key="DES_BUILDING_SAGES_GUILD" Value="贤者行会" />
+		<Loc Key="DES_BUILDING_SAGES_GUILD_DES" Value="贤者公会致力于高级魔法研究.\n\n效果: +3{ICON:ResearchIcon}研究并允许使用夜影." />
+		<Loc Key="DES_BUILDING_ALCHEMISTS_GUILD" Value="炼金术士行会" />
+		<Loc Key="DES_BUILDING_ALCHEMISTS_GUILD_DES" Value="伟大炼金术士们的秘密议会, 他们会将渊博的知识付诸实践.\n\n效果: 使新培训的军队+10%{ICON:ToHitBonusIcon}魔法武器命中几率(附魔特效, 秘银或艾德曼合金, 根据可用资源决定). 产生+3{ICON:PowerIcon}能量." />
+		<Loc Key="DES_BUILDING_UNIVERSITY" Value="大学" />
+		<Loc Key="DES_BUILDING_UNIVERSITY_DES" Value="大学是提供教育和学术的地方, 可以帮助您进行法术研究.\n\n效果: +5{ICON:ResearchIcon}研究." />
+		<Loc Key="DES_BUILDING_ORACLE" Value="神谕所" />
+		<Loc Key="DES_BUILDING_ORACLE_DES" Value="神谕所可以预见敌人的行动并提供魔法指导.\n\n效果: 侦测城市6格范围内的所有敌人, 并额外-2{ICON:UnrestIcon}动乱." />
+		<Loc Key="DES_BUILDING_WIZARDS_GUILD" Value="巫师行会" />
+		<Loc Key="DES_BUILDING_WIZARDS_GUILD_DES" Value="巫师行会是推动魔法进步的核心.\n\n效果: 每回合+8{ICON:ResearchIcon}研究且维护消耗-3{ICON:ManaIcon}法力." />
+		<Loc Key="DES_BUILDING_SHRINE" Value="神龛" />
+		<Loc Key="DES_BUILDING_SHRINE_DES" Value="神龛是为纪念一位不知名的神祇而建造的, 但它却能够提供一种非常真实的力量. 神龛为居民提供着精神上的慰藉.\n\n效果: +1{ICON:PowerIcon}能量, 允许使用夜影, 并且额外-1{ICON:UnrestIcon}动乱." />
+		<Loc Key="DES_BUILDING_TEMPLE" Value="神殿" />
+		<Loc Key="DES_BUILDING_TEMPLE_DES" Value="建造神殿是为了赞美神祇并指引虔诚之人.\n\n效果: +2{ICON:PowerIcon}能量; 允许使用夜影并且额外-1{ICON:UnrestIcon}动乱." />
+		<Loc Key="DES_BUILDING_PARTHENON" Value="帕提农神庙" />
+		<Loc Key="DES_BUILDING_PARTHENON_DES" Value="帕提农神庙是神圣崇拜和宗教知识发展的宏伟建筑.\n\n效果: +3{ICON:PowerIcon}能量并且额外-1{ICON:UnrestIcon}动乱." />
+		<Loc Key="DES_BUILDING_CATHEDRAL" Value="大教堂" />
+		<Loc Key="DES_BUILDING_CATHEDRAL_DES" Value="大教堂中矗立着闪耀神圣光芒和荣耀的纪念碑. 它的辉煌和壮丽能够给居民带来希望和勇气.\n\n效果: +4{ICON:PowerIcon}能量并且额外-1{ICON:UnrestIcon}动乱." />
+		<Loc Key="DES_BUILDING_MARKETPLACE" Value="市场" />
+		<Loc Key="DES_BUILDING_MARKETPLACE_DES" Value="在您的城市中创造更多财富的关键一步. 市场促进了城市的经济发展.\n\n效果: 使城市的税收收入+50%." />
+		<Loc Key="DES_BUILDING_BANK" Value="银行" />
+		<Loc Key="DES_BUILDING_BANK_DES" Value="银行是城市的金融交易中心, 因此可以带来更多的利润.\n\n效果: 除了来自市场的收益外, 额外使城市的税收收入+50%." />
+		<Loc Key="DES_BUILDING_MERCHANTS_GUILD" Value="商会" />
+		<Loc Key="DES_BUILDING_MERCHANTS_GUILD_DES" Value="商会聚集了您所有的金融专家, 让这座城市的经济蓬勃发展.\n\n效果: 除了来自市场和银行的收益外, 额外使城市的税收收入+100%." />
+		<Loc Key="DES_BUILDING_GRANARY" Value="粮仓" />
+		<Loc Key="DES_BUILDING_GRANARY_DES" Value="通常是任何城市的核心建筑之一. 粮仓能够储存城市的剩余食物.\n\n效果: 每回合+2{ICON:FoodIcon}食物, +2最大人口以及+30人口增长." />
+		<Loc Key="DES_BUILDING_FARMERS_MARKET" Value="农贸市场" />
+		<Loc Key="DES_BUILDING_FARMERS_MARKET_DES" Value="农贸市场是买卖城市剩余粮食的集中场所.\n\n效果: 每回合+3{ICON:FoodIcon}食物以及+30人口, 最大人口提高3." />
+		<Loc Key="DES_BUILDING_FORESTERS_GUILD" Value="护林人行会" />
+		<Loc Key="DES_BUILDING_FORESTERS_GUILD_DES" Value="护林人行会能够训练有经验的猎人和伐木工人.\n\n效果: 食物收获量+2{ICON:FoodIcon}并且生产+25%{ICON:ProductionIcon}." />
+		<Loc Key="DES_BUILDING_BUILDERS_HALL" Value="建造者大厅" />
+		<Loc Key="DES_BUILDING_BUILDERS_HALL_DES" Value="建造者大厅是一座核心建筑, 您的工人可以在这里学习工艺知识.\n\n效果: 住宅+15%. 解锁建筑路径(如果种族允许)." />
+		<Loc Key="DES_BUILDING_MINERS_GUILD" Value="矿工行会" />
+		<Loc Key="DES_BUILDING_MINERS_GUILD_DES" Value="矿工行会使城市的采矿作业更有效率.\n\n效果: 矿产加成+50%且城市生产+50%{ICON:ProductionIcon}. 需要矿产, 山脉或丘陵" />
+		<Loc Key="DES_BUILDING_DWARF_MINERS_GUILD" Value="矿工行会" />
+		<Loc Key="DES_BUILDING_DWARF_MINERS_GUILD_DES" Value="矿工行会使城市的采矿作业更有效率.\n\n效果: 矿产加成+50%且城市生产+50%{ICON:ProductionIcon}. 需要矿产, 山脉或丘陵" />
+		<Loc Key="DES_BUILDING_MECHANICIANS_GUILD" Value="机械师行会" />
+		<Loc Key="DES_BUILDING_MECHANICIANS_GUILD_DES" Value="机械师行会能够教授高级工程技术.\n\n效果: 城市的生产点数+50%{ICON:ProductionIcon}." />
+		<Loc Key="DES_BUILDING_CITY_WALLS" Value="城墙" />
+		<Loc Key="DES_BUILDING_CITY_WALLS_DES" Value="用高耸的城墙包围城市, 能够扩大对敌方单位的探测范围并协助进行防御.\n\n效果：视线范围扩大到4格. 能够在战斗中创造一个限制敌人移动的屏障. 使城墙后方的单位更难被远程攻击命中." />
+		<Loc Key="DES_TRADE_GOODS" Value="贸易商品"/>
+		<Loc Key="DES_TRADE_GOODS_DES" Value="该特殊设置能够产生贸易商品并将2{ICON:ProductionIcon}生产转换为1{ICON:GoldIcon}金币."/>	
+		<Loc Key="DES_HOUSING" Value="住宅"/>
+		<Loc Key="DES_HOUSING_DES" Value="专注于在城市中建造更多的住宅, 从而实现更高的增长.\n\n效果: 提高城市的人口增长率."/>	
+		<Loc Key="DES_EXTRA_SUMMONING_CIRCLE" Value="召唤之环"/>
+		<Loc Key="DES_EXTRA_SUMMONING_CIRCLE_DES" Value="作为在各个魔法领域影响力的体现, 召唤之环允许您的魔镜和希望控制的位面之间建立联系.\n\n效果: 所有召唤的单位都将出现在这里. 它也是召回英雄和召回之言法术的传送点."/>
+		
+		<!--UNITS-->
+		<Loc Key="DES_CATAPULT" Value="弩炮" />
+		<Loc Key="DES_CATAPULT_DES" Value="强大的攻城武器. 弩炮最适合摧毁敌人的防御工事, 但它对其他单位也拥有很强的远程攻击能力." />
+		<Loc Key="DES_TRIREME" Value="三列桨战船" />
+		<Loc Key="DES_TRIREME_DES" Value="基础海上单位, 生产成本较低, 但防御较弱." />
+		<Loc Key="DES_GALLEY" Value="桨帆船" />
+		<Loc Key="DES_GALLEY_DES" Value="标准海上单位. 桨帆船可以在海上运输大批人员. 如有必要, 它们也可以全副武装进行战斗." />
+		<Loc Key="DES_WARSHIP" Value="战舰" />
+		<Loc Key="DES_WARSHIP_DES" Value="快速而致命的战舰正是为海上战争而设计的." />
+		<Loc Key="DES_BARBARIAN_SETTLERS" Value="野蛮人殖民者" />
+		<Loc Key="DES_GNOLL_SETTLERS" Value="豺狼人殖民者" />
+		<Loc Key="DES_HALFLING_SETTLERS" Value="半身人殖民者" />
+		<Loc Key="DES_HIGH_ELF_SETTLERS" Value="高等精灵殖民者" />
+		<Loc Key="DES_HIGH_MEN_SETTLERS" Value="高等人族殖民者" />
+		<Loc Key="DES_KLACKON_SETTLERS" Value="克拉肯殖民者" />
+		<Loc Key="DES_LIZARDMAN_SETTLERS" Value="蜥蜴人殖民者" />
+		<Loc Key="DES_NOMAD_SETTLERS" Value="游牧族殖民者" />
+		<Loc Key="DES_ORC_SETTLERS" Value="半兽人殖民者" />
+		<Loc Key="DES_BEASTMAN_SETTLERS" Value="野兽人殖民者" />
+		<Loc Key="DES_DARK_ELF_SETTLERS" Value="黑暗精灵殖民者" />
+		<Loc Key="DES_DRACONIAN_SETTLERS" Value="龙裔殖民者" />
+		<Loc Key="DES_DWARF_SETTLERS" Value="矮人殖民者" />
+		<Loc Key="DES_TROLL_SETTLERS" Value="巨魔殖民者" />
+		<Loc Key="DES_SETTLER_DES" Value="殖民者是一群勇敢的人, 他们踏上新的土地以彰显您的权力, 并能够建立新的城镇. 训练一名殖民者需要消耗1000{ICON:PopulationIcon}. 只有在您的城镇拥有至少2000{ICON:PopulationIcon}时才能进行训练." />
+		<Loc Key="DES_BARBARIAN_SPEARMEN" Value="野蛮人长矛手" />
+		<Loc Key="DES_GNOLL_SPEARMEN" Value="豺狼人长矛手" />
+		<Loc Key="DES_HALFLING_SPEARMEN" Value="半身人长矛手" />
+		<Loc Key="DES_HIGH_ELF_SPEARMEN" Value="高等精灵长矛手" />
+		<Loc Key="DES_HIGH_MEN_SPEARMEN" Value="高等人族长矛手" />
+		<Loc Key="DES_KLACKON_SPEARMEN" Value="克拉肯长矛手" />
+		<Loc Key="DES_LIZARDMAN_SPEARMEN" Value="蜥蜴人长矛手" />
+		<Loc Key="DES_NOMAD_SPEARMEN" Value="游牧族长矛手" />
+		<Loc Key="DES_ORC_SPEARMEN" Value="半兽人长矛手" />
+		<Loc Key="DES_BEASTMAN_SPEARMEN" Value="野兽人长矛手" />
+		<Loc Key="DES_DARK_ELF_SPEARMEN" Value="黑暗精灵长矛手" />
+		<Loc Key="DES_DRACONIAN_SPEARMEN" Value="龙裔长矛手" />
+		<Loc Key="DES_TROLL_SPEARMEN" Value="巨魔长矛手" />
+		<Loc Key="DES_SPEARMEN_DES" Value="基础近战单位. 长矛手价格低廉且易于训练. 因此，他们是任何新组建军队中的骨干." />
+		<Loc Key="DES_BARBARIAN_SWORDSMEN" Value="野蛮人剑士" />
+		<Loc Key="DES_GNOLL_SWORDSMEN" Value="豺狼人剑士" />
+		<Loc Key="DES_HALFLING_SWORDSMEN" Value="半身人剑士" />
+		<Loc Key="DES_HIGH_ELF_SWORDSMEN" Value="高等精灵剑士" />
+		<Loc Key="DES_HIGH_MEN_SWORDSMEN" Value="高等人族剑士" />
+		<Loc Key="DES_KLACKON_SWORDSMEN" Value="克拉肯剑士" />
+		<Loc Key="DES_LIZARDMAN_SWORDSMEN" Value="蜥蜴人剑士" />
+		<Loc Key="DES_NOMAD_SWORDSMEN" Value="游牧族剑士" />
+		<Loc Key="DES_ORC_SWORDSMEN" Value="半兽人剑士" />
+		<Loc Key="DES_BEASTMAN_SWORDSMEN" Value="野兽人剑士" />
+		<Loc Key="DES_DARK_ELF_SWORDSMEN" Value="黑暗精灵剑士" />
+		<Loc Key="DES_DRACONIAN_SWORDSMEN" Value="龙裔剑士" />
+		<Loc Key="DES_DWARF_SWORDSMEN" Value="矮人剑士" />
+		<Loc Key="DES_TROLL_SWORDSMEN" Value="巨魔剑士" />
+		<Loc Key="DES_SWORDSMEN_DES" Value="标准近战单位. 剑士是训练有素的士兵, 是任何不断壮大的军队之基石." />
+		<Loc Key="DES_GNOLL_HALBERDIERS" Value="豺狼人戟兵" />
+		<Loc Key="DES_HIGH_ELF_HALBERDIERS" Value="高等精灵戟兵" />
+		<Loc Key="DES_KLACKON_HALBERDIERS" Value="克拉肯戟兵" />
+		<Loc Key="DES_LIZARDMAN_HALBERDIERS" Value="蜥蜴人戟兵" />
+		<Loc Key="DES_ORC_HALBERDIERS" Value="半兽人戟兵" />
+		<Loc Key="DES_BEASTMAN_HALBERDIERS" Value="野兽人戟兵" />
+		<Loc Key="DES_DARK_ELF_HALBERDIERS" Value="黑暗精灵戟兵" />
+		<Loc Key="DES_DRACONIAN_HALBERDIERS" Value="龙裔戟兵" />
+		<Loc Key="DES_DWARF_HALBERDIERS" Value="矮人戟兵" />
+		<Loc Key="DES_TROLL_HALBERDIERS" Value="巨魔戟兵" />
+		<Loc Key="DES_HALBERDIERS_DES" Value="前线近战单位, 拥有不错的防守能力. 戟兵是训练有素的步兵单位, 可以提供良好的近战支援." />
+		<Loc Key="DES_HIGH_MEN_PIKEMEN" Value="高等人族长枪兵" />
+		<Loc Key="DES_NOMAD_PIKEMEN" Value="游牧族长枪兵" />
+		<Loc Key="DES_PIKEMEN_DES" Value="标准前线近战单位. 长枪兵是大型步兵单位, 因其近战攻击的力量和穿透敌人护甲的能力而备受瞩目." />
+		<Loc Key="DES_BARBARIAN_BOWMEN" Value="野蛮人弓箭手" />
+		<Loc Key="DES_GNOLL_BOWMEN" Value="豺狼人弓箭手" />
+		<Loc Key="DES_HALFLING_BOWMEN" Value="半身人弓箭手" />
+		<Loc Key="DES_HIGH_MEN_BOWMEN" Value="高等人族弓箭手" />
+		<Loc Key="DES_NOMAD_BOWMEN" Value="游牧族弓箭手" />
+		<Loc Key="DES_ORC_BOWMEN" Value="半兽人弓箭手" />
+		<Loc Key="DES_BEASTMAN_BOWMEN" Value="野兽人弓箭手" />
+		<Loc Key="DES_DRACONIAN_BOWMEN" Value="龙裔弓箭手" />
+		<Loc Key="DES_BOWMEN_DES" Value="标准远程攻击单位. 尽管实力并不强, 但能够在战斗中使用远程武器." />
+		<Loc Key="DES_BARBARIAN_CAVALRY" Value="野蛮人骑兵" />
+		<Loc Key="DES_HIGH_ELF_CAVALRY" Value="高等精灵骑兵" />
+		<Loc Key="DES_HIGH_MEN_CAVALRY" Value="高等人族骑兵" />
+		<Loc Key="DES_ORC_CAVALRY" Value="兽人骑兵" />
+		<Loc Key="DES_DARK_ELF_CAVALRY" Value="黑暗精灵骑兵" />
+		<Loc Key="DES_CAVALRY_DES" Value="标准近战骑兵单位. 骑兵拥有强大的机动能力, 能够在战场上发挥很大的优势." />
+		<Loc Key="DES_BARBARIAN_SHAMANS" Value="野蛮人萨满祭司" />
+		<Loc Key="DES_HALFLING_SHAMANS" Value="半身人萨满祭司" />
+		<Loc Key="DES_LIZARDMAN_SHAMANS" Value="蜥蜴人萨满祭司" />
+		<Loc Key="DES_ORC_SHAMANS" Value="半兽人萨满祭司" />
+		<Loc Key="DES_DRACONIAN_SHAMANS" Value="龙裔萨满祭司" />
+		<Loc Key="DES_TROLL_SHAMANS" Value="巨魔萨满祭司" />
+		<Loc Key="DES_SHAMANS_DES" Value="拥有施法能力的魔法远程攻击单位. 萨满祭司能够利用魔法和先祖仪式, 并且可以在战斗中引导飞弹." />
+		<Loc Key="DES_HIGH_ELF_MAGICIANS" Value="高等精灵魔法师" />
+		<Loc Key="DES_HIGH_MEN_MAGICIANS" Value="高等人族魔法师" />
+		<Loc Key="DES_ORC_MAGICIANS" Value="半兽人魔法师" />
+		<Loc Key="DES_BEASTMAN_MAGICIANS" Value="野兽人魔法师" />
+		<Loc Key="DES_DRACONIAN_MAGICIANS" Value="龙裔魔法师" />
+		<Loc Key="DES_MAGICIANS_DES" Value="拥有施法能力的魔法远程攻击单位. 并非所有接触魔法的人都能成为巫师, 但至少可以训练成为魔法师." />
+		<Loc Key="DES_HIGH_MEN_PRIESTS" Value="高等人族祭司" />
+		<Loc Key="DES_NOMAD_PRIESTS" Value="游牧族祭司" />
+		<Loc Key="DES_BEASTMAN_PRIESTS" Value="野兽人祭司" />
+		<Loc Key="DES_DARK_ELF_PRIESTS" Value="黑暗精灵祭司" />
+		<Loc Key="DES_PRIESTS_DES" Value="拥有治疗能力的魔法远程攻击单位. 与掌控法术的魔法师所不同的是, 祭司从祈祷和对神祇的虔诚信仰中获得力量." />
+		<Loc Key="DES_HIGH_MEN_ENGINEERS" Value="高等人族工程师" />
+		<Loc Key="DES_KLACKON_ENGINEERS" Value="克拉肯工程师" />
+		<Loc Key="DES_ORC_ENGINEERS" Value="半兽人工程师" />
+		<Loc Key="DES_BEASTMAN_ENGINEERS" Value="野兽人工程师" />
+		<Loc Key="DES_DWARF_ENGINEERS" Value="矮人工程师" />
+		<Loc Key="DES_DRACONIAN_ENGINEERS" Value="龙裔工程师" />
+		<Loc Key="DES_ENGINEERS_DES" Value="工程师是非战斗单位. 他们是道路建造方面的专家, 还可以帮助您推倒敌人的城墙." />
+		<Loc Key="DES_BERSERKERS" Value="狂战士" />
+		<Loc Key="DES_BERSERKERS_DES" Value="特殊野蛮人近战单位. 野蛮人的血液炽热而狂野, 而狂战士们则利用愤怒并将其引导到战斗之中. 无论是朋友还是敌人, 都对他们感到害怕." />
+		<Loc Key="DES_WOLF_RIDERS" Value="狼骑兵" />
+		<Loc Key="DES_WOLF_RIDERS_DES" Value="特殊豺狼人近战骑兵单位. 狼骑兵是速度最快的单位之一, 能够凭借快速机动战胜地面上的大多数敌人." />
+		<Loc Key="DES_SLINGERS" Value="投石手" />
+		<Loc Key="DES_SLINGERS_DES" Value="特殊半身人远程单位. 永远不要低估一个带着投石索的半身人. 众所周知, 他们甚至能够在适当的情况下推翻巨人." />
+		<Loc Key="DES_LONGBOWMEN" Value="长弓兵" /> 
+		<Loc Key="DES_LONGBOWMEN_DES" Value="特殊高等精灵远程单位. 高等精灵一直以敏捷和精通箭术而闻名. 因此，长弓兵是最优秀的精锐远程单位." />
+		<Loc Key="DES_ELVEN_LORDS" Value="精灵领主" />
+		<Loc Key="DES_ELVEN_LORDS_DES" Value="特殊高等精灵近战单位. 凭借着数百年的经验和智慧, 精灵领主是人们最不希望在战场上看到的可怕近战单位之一." />
+		<Loc Key="DES_PEGASAI" Value="天马" />
+		<Loc Key="DES_PEGASAI_DES" Value="特殊高等精灵近战和远程单位. 高等精灵们拥有成为成为飞马骑手这一最无尚的荣耀, 从那时起, 这支精英部队就以擅长远程战斗, 近战和侦察而闻名." />
+		<Loc Key="DES_PALADINS" Value="圣骑士" />
+		<Loc Key="DES_PALADINS_DES" Value="特殊高等人族近战单位. 圣骑士们由神权任命, 以其无可挑剔的荣誉和勇敢而闻名. 他们的奉献精神在战斗中能够给予自己保护和力量." />
+		<Loc Key="DES_STAG_BEETLE" Value="锹甲虫" />
+		<Loc Key="DES_STAG_BEETLE_DES" Value="特殊克拉肯近战单位, 拥有火焰吐息技能. 锹甲虫是一种令人印象深刻的巨兽. 只有克拉肯能够驯服它们, 难怪有人说它们甚至可能是克拉肯虫巢意志的一部分." />
+		<Loc Key="DES_JAVELINEERS" Value="标枪兵" />
+		<Loc Key="DES_JAVELINEERS_DES" Value="特殊蜥蜴人近战和远程单位. 标枪兵在近战和远程攻击方面都受过训练, 这使得它们在蜥蜴人部队中炙手可热." />
+		<Loc Key="DES_DRAGON_TURTLE" Value="龙龟" />
+		<Loc Key="DES_DRAGON_TURTLE_DES" Value="特殊蜥蜴人近战单位. 龙龟笨重而危险, 也因此成为了蜥蜴人的秘密武器. 它们拥有坚韧的皮肤, 强大的近战攻击以及火焰吐息能力." />
+		<Loc Key="DES_RANGERS" Value="游侠" />
+		<Loc Key="DES_RANGERS_DES" Value="特殊游牧族近战和远程单位. 游侠敏捷而强壮, 他们是凶猛的近战战士, 但同时也能够造成一定的范围伤害." />
+		<Loc Key="DES_HORSEBOWMEN" Value="骑射手" />
+		<Loc Key="DES_HORSEBOWMEN_DES" Value="特殊游牧族远程骑兵单位. 传说游牧族是生活在马背上的民族. 因此, 他们能够掌握骑马和射箭的艺术也不足为奇." />
+		<Loc Key="DES_GRIFFINS" Value="狮鹫" />
+		<Loc Key="DES_GRIFFINS_DES" Value="特殊游牧族近战飞行骑兵单位. 它们迅速而凶猛, 能够快速机动并击穿敌人的盔甲." />
+		<Loc Key="DES_WYVERN_RIDERS" Value="双足飞龙骑兵" />
+		<Loc Key="DES_WYVERN_RIDERS_DES" Value="特殊半兽人飞行骑兵单位, 能够让敌人中毒. 双足飞龙骑兵速度极快而且极为凶猛, 他们能够从空中精准地将敌人击落." />
+		<Loc Key="DES_CENTAURS" Value="半人马" />
+		<Loc Key="DES_CENTAURS_DES" Value="特殊野兽人远程和近战骑兵单位. 一半是人一半是马, 半人马不仅速度快, 而且还能够进行远程和近战攻击." />
+		<Loc Key="DES_MANTICORES" Value="蝎尾狮" />
+		<Loc Key="DES_MANTICORES_DES" Value="特殊野兽人近战空中单位, 能够让敌人中毒. 蝎尾狮是一种凶猛的野兽, 能够以极快的速度和精准度向敌人猛扑过去." />
+		<Loc Key="DES_MINOTAURS" Value="牛头怪" />
+		<Loc Key="DES_MINOTAURS_DES" Value="特殊半兽人单位, 近战攻击能力和韧性都非常强大. 牛头怪是一种强大的野兽, 既可以造成也可以承受巨大的伤害." />
+		<Loc Key="DES_NIGHTBLADES" Value="暗夜之刃" />
+		<Loc Key="DES_NIGHTBLADES_DES" Value="特殊黑暗精灵近战单位. 暗夜之刃是由一群致命而神秘的刺客组成的秘密议会, 他们手持毒刃, 杀人于无形." />
+		<Loc Key="DES_WARLOCKS" Value="术士" />
+		<Loc Key="DES_WARLOCKS_DES" Value="特殊黑暗精灵魔法远程攻击单位, 能够进行施法. 术士的黑暗艺术能够召唤毁灭性的力量, 但这黑暗恩赐所付出的代价是他们日益孱弱的身体." />
+		<Loc Key="DES_NIGHTMARES" Value="梦魇" />
+		<Loc Key="DES_NIGHTMARES_DES" Value="特殊黑暗精灵空中骑兵单位, 能够进行远程和近战攻击. 黑暗精灵普遍不受欢迎, 梦魇的可怕力量或许能够部分解释其中的原因." />
+		<Loc Key="DES_DOOM_DRAKES" Value="厄运之龙" />
+		<Loc Key="DES_DOOM_DRAKES_DES" Value="特殊龙裔近战单位, 拥有火焰吐息和飞行能力. 如果看到一支龙裔军队正与厄运之龙并肩作战, 这必然将是厄运的开始!" />
+		<Loc Key="DES_AIR_SHIP" Value="空袭者" />
+		<Loc Key="DES_AIR_SHIP_DES" Value="特殊龙裔攻城单位. 如果可以在精巧设计的飞艇上休息并轰炸你的敌人, 那么何必还要用到翅膀呢. 它们可以用作攻城战的弩炮, 但不是运输单位." />
+		<Loc Key="DES_HAMMERHANDS" Value="锤手" />
+		<Loc Key="DES_HAMMERHANDS_DES" Value="特殊矮人近战单位. 锤手是矮人中坚不可摧的精英. 他们不可动摇的力量即是一种传奇." />
+		<Loc Key="DES_GOLEM" Value="魔像" />
+		<Loc Key="DES_GOLEM_DES" Value="特殊矮人近战单位. 只有矮人中最年长和最聪明的人才知道如何制造魔像. 它们忠诚而坚不可摧, 一心一意为主人服务." />
+		<Loc Key="DES_STEAM_CANNON" Value="蒸汽加农炮" />
+		<Loc Key="DES_STEAM_CANNON_DES" Value="特殊矮人远程单位. 蒸汽加农炮是矮人工程学的杰作." />
+		<Loc Key="DES_WAR_TROLLS" Value="战争巨魔" />
+		<Loc Key="DES_WAR_TROLLS_DES" Value="特殊巨魔近战单位, 拥有较高的生命值和再生能力. 战争巨魔是巨魔军队的主力: 它们凶猛, 机动性强且非常难以被消灭." />
+		<Loc Key="DES_WAR_MAMMOTHS" Value="战争猛犸" />
+		<Loc Key="DES_WAR_MAMMOTHS_DES" Value="特殊巨魔近战骑兵单位. 战争猛犸是可怕的敌人, 因为它们能够快速向前奔跑并以致命的力量展开攻击." />
+		
+		<Loc Key="DES_ARC_MAGIC_SPIRIT" Value="魔法之魂" />
+		<Loc Key="DES_ARC_MAGIC_SPIRIT_DES" Value="这些奥术之魂的主要目的是与一个能量节点融合并将能量转移给所属的巫师. 不过, 它们的虚灵体状态意味着能够快速穿越任何地形, 这也使其成为了优秀的侦察兵." /> 
+		<Loc Key="DES_NTR_WAR_BEARS" Value="战争巨熊" />
+		<Loc Key="DES_NTR_WAR_BEARS_DES" Value="战争巨熊响应荒野的呼唤, 可以带领您的军队穿越森林地形. 它们专注于近战{ICON:MeleeIconNormal}战斗并且维护消耗低廉." />
+		<Loc Key="DES_NTR_SPRITES" Value="小精灵" />
+		<Loc Key="DES_NTR_SPRITES_DES" Value="在大自然的召唤下, 这些微小的飞行{ICON:MovementFlyingIcon}生物能够进行魔法远程{ICON:NatureIcon}{ICON:RangedIconNormal}攻击. 它们可能以一小群的方式出现, 但如果是一大群的话可能会是致命的, 除非你先下手为强." />
+		<Loc Key="DES_NTR_GIANT_SPIDERS" Value="巨型蜘蛛" />
+		<Loc Key="DES_NTR_GIANT_SPIDERS_DES" Value="这些大自然的防御者依靠毒液和蜘蛛网来进行迅速的近战{ICON:MeleeIconNormal}攻击. 它们的弱点在于防御能力很弱, 所以最好尝试率先攻击它们." />
+		<Loc Key="DES_NTR_COCKATRICES" Value="鸡蛇兽" />
+		<Loc Key="DES_NTR_COCKATRICES_DES" Value="有意思的是, 这些能够飞行的大自然盟友并不是很强壮, 但鸡蛇兽拥有石化敌人的能力, 从而一击将其彻底杀死." />
+		<Loc Key="DES_NTR_BASILISK" Value="蛇怪" />
+		<Loc Key="DES_NTR_BASILISK_DES" Value="作为大自然可怕力量的代表, 蛇怪可以在其施展强大的近战{ICON:MeleeIconNormal}攻击之前将敌人变成石头." />
+		<Loc Key="DES_NTR_STONE_GIANT" Value="岩石巨人" />
+		<Loc Key="DES_NTR_STONE_GIANT_DES" Value="当响应大自然的召唤时, 岩石巨人从群山之中站了起来, 能够进行强大的近战{ICON:MeleeIconNormal}以及同样致命的远程攻击." />
+		<Loc Key="DES_NTR_GORGONS" Value="蛇发女妖" />
+		<Loc Key="DES_NTR_GORGONS_DES" Value="大自然的飞行防御者能够施展强大的近战{ICON：MeleeIconNormal}攻击并利用她们的目光将敌人变成石头." />
+		<Loc Key="DES_NTR_EARTH_ELEMENTAL" Value="土元素" />
+		<Loc Key="DES_NTR_EARTH_ELEMENTAL_DES" Value="在大自然的召唤下, 这些元素拥有致命的近战{ICON:MeleeIconNormal}攻击能力, 可以冲破敌人的城墙." />
+		<Loc Key="DES_NTR_BEHEMOTH" Value="贝希摩斯" />
+		<Loc Key="DES_NTR_BEHEMOTH_DES" Value="作为大自然的强大盟友, 这个庞然大物在近战{ICON:MeleeIconNormal}战斗中极其强大. 除了打击精准之外它也很难被杀死, 的确是一个难缠的对手." />
+		<Loc Key="DES_NTR_COLOSSUS" Value="巨像" />
+		<Loc Key="DES_NTR_COLOSSUS_DES" Value="身披金甲的神秘仆从, 巨像拥有强大的近战{ICON:MeleeIconNormal}攻击和致命的远程{ICON:RangedIconNormal}攻击, 使其成为大自然最可怕的力量之一." />
+		<Loc Key="DES_NTR_GREAT_WYRM" Value="巨龙" />
+		<Loc Key="DES_NTR_GREAT_WYRM_DES" Value="作为大自然真正的捍卫者, 这条巨龙从地下钻出, 以致命的剧毒近战{ICON:MeleeIconNormal}方式攻击敌人. 它可以重新出现在战场上的任何地方." />
+		<Loc Key="DES_SOR_FLOATING_ISLAND" Value="浮空岛" />
+		<Loc Key="DES_SOR_FLOATING_ISLAND_DES" Value="该巫术系召唤法术能够将您的部队运送到水面上. 它无法战斗, 在没有运载任何单位的情况下受到攻击将被摧毁." />
+		<Loc Key="DES_SOR_PHANTOM_WARRIORS" Value="幻影战士" />
+		<Loc Key="DES_SOR_PHANTOM_WARRIORS_DES" Value="在战斗中被巫术召唤, 幻影战士是基础近战{ICON:MeleeIconNormal}单位, 能够以一种诡异而虚幻的力量攻击敌人, 并且无视敌人的防御." />
+		<Loc Key="DES_SOR_NAGAS" Value="娜迦" />
+		<Loc Key="DES_SOR_NAGAS_DES" Value="由巫术带来的娜迦能够让敌人中毒, 有助于它们施展快速的近战{ICON:MeleeIconNormal}攻击." />
+		<Loc Key="DES_SOR_PHANTOM_BEAST" Value="幻兽" />
+		<Loc Key="DES_SOR_PHANTOM_BEAST_DES" Value="在战斗中被巫术召唤, 幻兽是一种强大的近战{ICON:MeleeIconNormal}战士, 具有在水上移动以及施展幻影攻击的能力." />
+		<Loc Key="DES_SOR_STORM_GIANT" Value="风暴巨人" />
+		<Loc Key="DES_SOR_STORM_GIANT_DES" Value="在魔法的召唤下, 这些巨人施展着危险的近战{ICON:MeleeIconNormal}攻击和魔法远程攻击, 使它们成为了任何战场上的凶猛对手." />
+		<Loc Key="DES_SOR_AIR_ELEMENTAL" Value="空气元素" />
+		<Loc Key="DES_SOR_AIR_ELEMENTAL_DES" Value="在战斗中被召唤, 空气元素拥有极快的飞行{ICON:MovementFlyingIcon}能力, 具有良好的近战{ICON:MeleeIconNormal}攻击和隐身能力." />
+		<Loc Key="DES_SOR_DJINN" Value="神怪" />
+		<Loc Key="DES_SOR_DJINN_DES" Value="通过巫术的诡计, 你可以召唤一名神怪并强迫它使用近战{ICON:MeleeIconNormal}或魔法远程{ICON:SorceryIcon}{ICON:RangedIconNormal}攻击. 神怪也可以施法和飞行." />
+		<Loc Key="DES_SOR_SKY_DRAKE" Value="碧空之龙" />
+		<Loc Key="DES_SOR_SKY_DRAKE_DES" Value="巫术最强大的盟友, 巨龙, 能够在陆地上快速飞行{ICON:MovementFlyingIcon}, 并在战斗中凭借闪电吐息使其成为强大而危险的近战{ICON:MeleeIconNormal}攻击单位." />
+		<Loc Key="DES_CHA_HELL_HOUNDS" Value="地狱猎犬" />
+		<Loc Key="DES_CHA_HELL_HOUNDS_DES" Value="在混沌之力的召唤下, 地狱猎犬在进行近战攻击{ICON:MeleeIconNormal}之前会使用火焰吐息{ICON:SkillFireBreath}进行攻击." />
+		<Loc Key="DES_CHA_FIRE_ELEMENTAL" Value="火元素" />
+		<Loc Key="DES_CHA_FIRE_ELEMENTAL_DES" Value="被混沌召唤到战斗中, 火元素拥有不错的近战{ICON:MeleeIconNormal}攻击和良好的伤害免疫能力." />
+		<Loc Key="DES_CHA_FIRE_GIANT" Value="火焰巨人" />
+		<Loc Key="DES_CHA_FIRE_GIANT_DES" Value="在混沌之力的帮助下, 巨人拥有了碾碎城墙的威力, 它可以对敌人进行近战{ICON:MeleeIconNormal}和远程{ICON:RangedIconNormal}攻击." />
+		<Loc Key="DES_CHA_GARGOYLES" Value="石像鬼" />
+		<Loc Key="DES_CHA_GARGOYLES_DES" Value="被混沌所召唤, 能够飞行{ICON:MovementFlyingIcon}的石像鬼是一个健壮的防御者, 特别擅长对抗自然的力量. 但它们依然无法承受巨大的伤害." />
+		<Loc Key="DES_CHA_DOOM_BAT" Value="厄运蝙蝠" />
+		<Loc Key="DES_CHA_DOOM_BAT_DES" Value="能够飞行{ICON:MovementFlyingIcon}的混沌仆从, 其近战{ICON:MeleeIconNormal}攻击敏捷而致命, 能够轻松消灭敌人." />
+		<Loc Key="DES_CHA_CHIMERAS" Value="奇美拉" />
+		<Loc Key="DES_CHA_CHIMERAS_DES" Value="在混沌之力的召唤下, 奇美拉能够从空中{ICON:MovementFlyingIcon}攻击, 并使用近战{ICON:MeleeIconNormal}攻击和烈焰吐息{ICON:SkillFireBreath}." />
+		<Loc Key="DES_CHA_CHAOS_SPAWN" Value="混沌之嗣" />
+		<Loc Key="DES_CHA_CHAOS_SPAWN_DES" Value="作为从纯粹混沌中诞生的生物, 尽管可能很弱小, 但它的无数双眼睛可以对敌人释放一连串的诅咒." />
+		<Loc Key="DES_CHA_EFREET" Value="火焰怪" />
+		<Loc Key="DES_CHA_EFREET_DES" Value="来自混沌的奇幻仆从, 火焰怪是施法者, 但也可以在近战{ICON:MeleeIconNormal}和远程{ICON:RangedIconNormal}战斗中站稳脚跟." />
+		<Loc Key="DES_CHA_HYDRA" Value="九头蛇" />
+		<Loc Key="DES_CHA_HYDRA_DES" Value="混沌之力所召唤出的九头蛇可能看起来像一个普通的近战{ICON:MeleeIconNormal}生物, 直到你意识到它的每一个头部都散发着火焰, 冰霜和闪电的气息, 仿佛每一个都拥有自己的生命!" />
+		<Loc Key="DES_CHA_GREAT_DRAKE" Value="巨龙" />
+		<Loc Key="DES_CHA_GREAT_DRAKE_DES" Value="可怕的混沌勇士, 能够从空中{ICON:MovementFlyingIcon}或者施展毁灭性的近战{ICON:MeleeIconNormal}攻击, 并辅以致命的火焰吐息{ICON:SkillFireBreath}能力!" />
+		<Loc Key="DES_LIF_GUARDIAN_SPIRIT" Value="守护者之魂" />
+		<Loc Key="DES_LIF_GUARDIAN_SPIRIT_DES" Value="因受到生命之力的召唤而存在, 其主要目的是与能量节点融合. 它们也是虚灵体, 可以在水面移动{ICON:MovementSwimmingIcon}, 并提高所有盟友的抗性." />
+		<Loc Key="DES_LIF_UNICORNS" Value="独角兽" />
+		<Loc Key="DES_LIF_UNICORNS_DES" Value="被召唤出协助生命之力, 独角兽擅长近战{ICON:MeleeIconNormal}战斗, 并能够传送到战场上的任何地点. 它们并不强大, 但能够为军队提供抗性{ICON:ResistanceIconNormal}加成." />
+		<Loc Key="DES_LIF_ANGEL" Value="天使" />
+		<Loc Key="DES_LIF_ANGEL_DES" Value="在生命的召唤下, 天使降临{ICON:MovementFlyingIcon}以帮助正义之士, 使其所有盟友在战斗中得到祝福. 天使在对抗它所认为的邪恶力量时会变得异常强大: 死亡, 混沌以及亡灵." />
+		<Loc Key="DES_LIF_ARCH_ANGEL" Value="大天使" />
+		<Loc Key="DES_LIF_ARCH_ANGEL_DES" Value="一位虔诚的生命仆从, 大天使从天而降{ICON:MovementFlyingIcon}打击敌人{ICON:MeleeIconNormal}.他们是施法者, 能够在战斗中给予所有盟友更为强大的祝福." />
+		<Loc Key="DES_DTH_SKELETONS" Value="骷髅兵" />
+		<Loc Key="DES_DTH_SKELETONS_DES" Value="骷髅兵被死亡的力量复活, 是近战{ICON:MeleeIconNormal}战士, 能够免疫多种类型的伤害, 因此更难被打败." />
+		<Loc Key="DES_DTH_GHOULS" Value="食尸鬼" />
+		<Loc Key="DES_DTH_GHOULS_DES" Value="食尸鬼被死亡召唤, 是优秀的近战{ICON:MeleeIconNormal}战士, 但众所周知, 他们还会在战斗后将诅咒传播给阵亡者并将其复活为亡灵(死亡免疫将无视该效果)." />
+		<Loc Key="DES_DTH_WEREWOLVES" Value="狼人" />
+		<Loc Key="DES_DTH_WEREWOLVES_DES" Value="响应死亡的召唤, 狼人使用近战攻击{ICON:MeleeIconNormal}, 并且能够在战斗内外恢复生命." />
+		<Loc Key="DES_DTH_NIGHT_STALKER" Value="夜行者" />
+		<Loc Key="DES_DTH_NIGHT_STALKER_DES" Value="作为死亡的暗影仆从, 夜行者能够隐形, 它的近战攻击{ICON:MeleeIconNormal}能够给看见它死亡凝视之人带来厄运." />
+		<Loc Key="DES_DTH_SHADOW_DEMONS" Value="影魔" />
+		<Loc Key="DES_DTH_SHADOW_DEMONS_DES" Value="在死亡的带领下, 影魔可以在空中{ICON:MovementFlyingIcon}进行近战{ICON:MeleeIconNormal}和魔法远程{ICON:DeathIcon}{ICON:RangedIconNormal}攻击. 它们的恶魔之血能够让其随意转移位面." />
+		<Loc Key="DES_DTH_WRAITHS" Value="幽灵" />
+		<Loc Key="DES_DTH_WRAITHS_DES" Value="被死亡召唤的奴仆, 幽灵是虚灵体近战{ICON:MeleeIconNormal}战士, 具有窃取生命的能力. 它也因此能够创造亡灵仆从." />
+		<Loc Key="DES_DTH_ZOMBIES" Value="僵尸" />
+		<Loc Key="DES_DTH_ZOMBIES_DES" Value="通过死亡的力量, 巫师可以将倒下的敌人变成僵尸并命令它们为永远为其服务! 这些亡灵恶魔是近战{ICON:MeleeIconNormal}战士, 尽管力量微弱但它们是免费的." />
+		<Loc Key="DES_DTH_DEATH_KNIGHTS" Value="死亡骑士" />
+		<Loc Key="DES_DTH_DEATH_KNIGHTS_DES" Value="这些忠诚的骑士受到死亡的召唤, 拥有出色的近战攻击{ICON:MeleeIconNormal}能力, 能够从天而降{ICON:MovementFlyingIcon}. 他们可以穿透敌人的盔甲并通过窃取生命来制造亡灵仆从." />
+		<Loc Key="DES_DTH_DEMON_LORD" Value="恶魔领主" />
+		<Loc Key="DES_DTH_DEMON_LORD_DES" Value="死亡的可怕勇士, 恶魔领主能够施展近战{ICON:MeleeIconNormal}和魔法远程{ICON:DeathIcon}{ICON:RangedIconNormal}攻击. 他还可以窃取生命从而创造亡灵仆从, 以及召唤自己的恶魔加入战斗!" />
+		<Loc Key="DES_DTH_DEMON" Value="恶魔" />
+		<Loc Key="DES_DTH_DEMON_DES" Value="来自炼狱位面的非自然生物, 只听从的恶魔领主的指挥." />
+		
+		<!--HEROES-->
+		<Loc Key="DES_BRAX" Value="矮人布拉克斯" />
+		<Loc Key="DES_BRAX1" Value="矮人多尔金" />
+		<Loc Key="DES_BRAX2" Value="矮人格伦德尔" />
+		<Loc Key="DES_BRAX3" Value="矮人比奥恩" />
+		<Loc Key="DES_BRAX4" Value="矮人弗林" />
+		<Loc Key="DES_BRAX_DES" Value="{0}, 也被称为是狂战士. 一个对战斗拥有无限欲望的矮人战士. 有人说, 这是一种精神错乱的个性. 众所周知, {0}在战斗中毫不顾及防御或战术, 但他一直在寻找更多低估他的愚蠢敌人. 他的标志包括蓬乱的白发, 疯狂的双眼和一匹忠诚而古怪的金色小马." />
+		<Loc Key="DES_GUNTHER" Value="野蛮人冈瑟" />
+		<Loc Key="DES_GUNTHER1" Value="野蛮人安格斯" />
+		<Loc Key="DES_GUNTHER2" Value="野蛮人弗里茨" />
+		<Loc Key="DES_GUNTHER3" Value="野蛮人沃尔法" />
+		<Loc Key="DES_GUNTHER4" Value="野蛮人乔翰" />
+		<Loc Key="DES_GUNTHER_DES" Value="{0}是一位著名的战士. 如果有需要, 他甚至能够单手转动巨大的磨盘. 他现在正寻求进一步提升他作为雇佣兵英雄的荣耀. 他的人生目标很简单: 战斗的荣耀, 美酒, 许多美女和炽热的死亡. 他还对金色的东西有着浓厚的兴趣, 比如他戴着的头盔." />
+		<Loc Key="DES_ZALDRON" Value="贤者扎德隆" />
+		<Loc Key="DES_ZALDRON1" Value="贤者杰斯瑞尔" />
+		<Loc Key="DES_ZALDRON2" Value="贤者萨顿" />
+		<Loc Key="DES_ZALDRON3" Value="贤者提比睿奥斯" />
+		<Loc Key="DES_ZALDRON4" Value="贤者佐林" />
+		<Loc Key="DES_ZALDRON_DES" Value="{0}毕生致力于魔法艺术的学术研究. 他周游世界, 寻求对奥术理论的更多知识和理解. 不出所料, 他的追求将他带到了这里, 最伟大的巫师所在的地方. 他接受雇佣工作以便能够接近巫师并获得更多的知识." />
+		<Loc Key="DES_BSHAN" Value="苦行僧布尚" />
+		<Loc Key="DES_BSHAN1" Value="苦行僧阿卜杜勒" />
+		<Loc Key="DES_BSHAN2" Value="苦行僧沙萨" />
+		<Loc Key="DES_BSHAN3" Value="苦行僧法泽尔" />
+		<Loc Key="DES_BSHAN4" Value="苦行僧维齐尔" />
+		<Loc Key="DES_BSHAN_DES" Value="{0}是一名僧侣, 致力于他的职责和奉献. 虽然他是一名雇佣兵, 但实际上他已将自己的金币送给了他的主人, 并且更喜欢简单朴素的生活. 目前尚不清楚他为什么要担任雇佣兵, 不过一旦做出承诺, 他就会忠于自己的工作. 尽管这名英雄的举止平静, 但他的苦行僧之舞很快就会让敌人意识到是致命的." />
+		<Loc Key="DES_RAKIR" Value="兽王拉基尔" />
+		<Loc Key="DES_RAKIR1" Value="兽王萨尔基格" />
+		<Loc Key="DES_RAKIR2" Value="兽王维恩" />
+		<Loc Key="DES_RAKIR3" Value="兽王雷亚" />
+		<Loc Key="DES_RAKIR4" Value="兽王弗莱尔" />
+		<Loc Key="DES_RAKIR_DES" Value="{0}认为独自一人在野外要比有人陪伴更加自在. 这样的性格让很多人感到疑惑, 甚至有人说他是野兽人的私生子. 他在人类住所并不受到欢迎, 因此他选择花更多的时间与野兽呆在一起. 或许, 想要了解那些如此害怕他的人, {0}将以雇佣兵的身份提供帮助." />
+		<Loc Key="DES_VALANA" Value="吟游诗人瓦拉纳" />
+		<Loc Key="DES_VALANA1" Value="吟游诗人劳伦" />
+		<Loc Key="DES_VALANA2" Value="吟游诗人莉迪亚" />
+		<Loc Key="DES_VALANA3" Value="吟游诗人维罗妮卡" />
+		<Loc Key="DES_VALANA4" Value="吟游诗人阿德里安娜" />
+		<Loc Key="DES_VALANA_DES" Value="{0}是有名的叙事者和音乐家. 她的故事传遍了整个土地, 她的言语激发了无数人的心. 但她从不满足于自己过去的作品, 一直在寻找一个能够实现她雄心壮志的真实故事. 吟游诗人的来历并不完全清楚, 年轻的容貌, 娇小的身躯固然看似天真无邪, 但她的眼神中却透露着与容貌不符的智慧和沧桑." />
+		<Loc Key="DES_BAHGTRU" Value="兽人战士巴格楚" />
+		<Loc Key="DES_BAHGTRU1" Value="兽人战士岩拳" />
+		<Loc Key="DES_BAHGTRU2" Value="兽人战士亚加" />
+		<Loc Key="DES_BAHGTRU3" Value="兽人战士马克图" />
+		<Loc Key="DES_BAHGTRU4" Value="兽人战士奥伽克" />
+		<Loc Key="DES_BAHGTRU_DES" Value="{0}是一名暴力且危险的斗士. 他会毫不顾忌地冲进战斗, 毫不留情地为敌人带去死亡. 即使在他自己的种族中, 半兽人也被认为是丑陋和令人讨厌的, 这或许就是他愤怒的举止和选择成为雇佣兵以寻求战斗刺激的原因." />
+		<Loc Key="DES_SERENA" Value="治愈师塞丽娜" />
+		<Loc Key="DES_SERENA1" Value="治愈师夏迪斯" />
+		<Loc Key="DES_SERENA2" Value="治愈师萨沙" />
+		<Loc Key="DES_SERENA3" Value="治愈师卡拉" />
+		<Loc Key="DES_SERENA4" Value="治愈师阿纳斯塔西娅" />
+		<Loc Key="DES_SERENA_DES" Value="{0}从小在游牧族中长大, 她的家人按照所崇尚的吉普赛传统对她进行培养, 但她显然不怎么喜欢闪亮的配饰和奢侈的服装. 虽然没有详细说明原因, 但{0}声称自己过着忏悔的生活, 因此她也全身心地投入到了治疗的艺术中." />
+		<Loc Key="DES_SHURI" Value="女猎手舒里" />
+		<Loc Key="DES_SHURI1" Value="女猎手劳伦" />
+		<Loc Key="DES_SHURI2" Value="女猎手莉迪亚" />
+		<Loc Key="DES_SHURI3" Value="女猎手维罗妮卡" />
+		<Loc Key="DES_SHURI4" Value="女猎手阿德里安娜" />
+		<Loc Key="DES_SHURI_DES" Value="{0}是一名富有经验的护林人, 也是一名出色的追踪者. 她友好的举止和凌乱的外表可能会让人误解, 但在生存方面, 女猎手实际上是无比坚韧的. 她没有说她经常往返于位面之间的原因, 但显然是在追踪或寻找某个曾经丢失的人或物. 有时, {0}会成为雇佣兵来收集信息和获取资源, 因此她可能会继续她的搜索." />
+		<Loc Key="DES_THERIA" Value="窃贼特里亚" />
+		<Loc Key="DES_THERIA1" Value="窃贼夏多" />
+		<Loc Key="DES_THERIA2" Value="窃贼米斯迪" />
+		<Loc Key="DES_THERIA3" Value="窃贼多利亚" />
+		<Loc Key="DES_THERIA4" Value="窃贼塔玛拉" />
+		<Loc Key="DES_THERIA_DES" Value="{0}可能已经开始了她的职业生涯并获得了令人垂涎的宝物, 但她现在的名气远不止于此. 在战斗中, 她敏捷的反应和动作让她仿佛是当场消失了一般. {0}由半身人抚养长大, 甚至可能拥有半身人血统. 她为她的同胞感到自豪, 并希望获得更高的威望, 这样她的人民就不会被看不起." />
+		<Loc Key="DES_GREYFAIRER" Value="德鲁伊葛雷费尔" />
+		<Loc Key="DES_GREYFAIRER1" Value="德鲁伊索林" />
+		<Loc Key="DES_GREYFAIRER2" Value="德鲁伊绿叶" />
+		<Loc Key="DES_GREYFAIRER3" Value="德鲁伊黑鹰" />
+		<Loc Key="DES_GREYFAIRER4" Value="德鲁伊菲拉斯" />
+		<Loc Key="DES_GREYFAIRER_DES" Value="{0}被培养出了对古老自然崇拜的传统. 他致力于研究神秘的自然法则以及隐藏在大地深处的能量. 德鲁伊能够与自然及其生物交流, 使他成为了一名出色的游侠和侦察兵. {0}将利用自己的技能和学识换取金币, 因为只有这样才能使他进一步学习并将研究付诸实践." />
+		<Loc Key="DES_TAKI" Value="战争武僧塔基" />
+		<Loc Key="DES_TAKI1" Value="战争武僧奎" />
+		<Loc Key="DES_TAKI2" Value="战争武僧常" />
+		<Loc Key="DES_TAKI3" Value="战争武僧托纳加" />
+		<Loc Key="DES_TAKI4" Value="战争武僧恩内多" />
+		<Loc Key="DES_TAKI_DES" Value="{0}过着僧侣的生活, 渴求对自我的真正理解, 寻找这片土地上失落的神灵. 尽管他信奉平衡与和平, 但也并不反对暴力, 他认为暴力是生命自然循环的一部分. 他会将自己的利刃和闪电般的反应投入到他所认为值得或有趣的事业中去. 只要做出承诺, 他就会忠诚地为您服务." />
+		<Loc Key="DES_REYWIND" Value="战斗法师雷文德" />
+		<Loc Key="DES_REYWIND1" Value="战斗法师斯托考尔" />
+		<Loc Key="DES_REYWIND2" Value="战斗法师达里厄斯" />
+		<Loc Key="DES_REYWIND3" Value="战斗法师怀拉斯" />
+		<Loc Key="DES_REYWIND4" Value="战斗法师迪蒙" />
+		<Loc Key="DES_REYWIND_DES" Value="{0}相信适应是生存和胜利的关键. 因此他接受了魔法和格斗的双重训练, 以便能够支持他的部队对抗任何敌人. 一些负面的谣言称, 事实上是因为他的脾气和对刀光剑影的热爱使得他未能成为真正的法师. 不管真相如何, {0}是您身边一位优秀的士兵." />
+		<Loc Key="DES_MALLEUS" Value="魔法师马勒斯" />
+		<Loc Key="DES_MALLEUS1" Value="魔法师德利安" />
+		<Loc Key="DES_MALLEUS2" Value="魔法师弗瑞斯" />
+		<Loc Key="DES_MALLEUS3" Value="魔法师卡纳克" />
+		<Loc Key="DES_MALLEUS4" Value="魔法师兰德勒" />
+		<Loc Key="DES_MALLEUS_DES" Value="{0}是一位拥有强大力量的施法者, 并且喜欢极具破坏性的残酷魔法. 据说, 这位有些精神错乱的魔法师可能是一个蔑视自己种族不重视魔法的矮人, 但真正的原因很难说, 因为他的身体明显已经被混沌的力量扭曲了, 能量不断地在他的奥术血管中涌动着." />
+		<Loc Key="DES_TUMU" Value="刺客图木" />
+		<Loc Key="DES_TUMU1" Value="刺客阿尔塔萨" />
+		<Loc Key="DES_TUMU2" Value="刺客沙卡" />
+		<Loc Key="DES_TUMU3" Value="刺客胡拉克斯" />
+		<Loc Key="DES_TUMU4" Value="刺客凯兹拉尔" />
+		<Loc Key="DES_TUMU_DES" Value="{0}以精通毒物而闻名, 能够从这片土地上最危险的毒蛇身上获得致命毒药. 他是一名蛇语者, 有传言说他能够对自己的毒药免疫, 因为他经常被毒蛇咬伤. 无论是他挥舞着的长矛, 还是一个不起眼的发夹, {0}都时刻准备着让敌人命丧黄泉." />
+		<Loc Key="DES_JAER" Value="风魔法师贾尔" />
+		<Loc Key="DES_JAER1" Value="风魔法师格雷顿" />
+		<Loc Key="DES_JAER2" Value="风魔法师阿奎隆" />
+		<Loc Key="DES_JAER3" Value="风魔法师萨多温" />
+		<Loc Key="DES_JAER4" Value="风魔法师阿库斯" />
+		<Loc Key="DES_JAER_DES" Value="{0}是一名高等精灵施法者, 专精于空气和风系魔法. 按照精灵的标准他还很年轻, 如果不是因为对旅行的渴望, 他可能会留在魔法学院中. 或许正是他对空气的天然亲和力使得{0}渴望旅行和改变. 他的兴趣和忠诚在他的同类中可以称得上是转瞬即逝, 但只要他留下, 他仍然是一名优秀的雇佣兵." />
+		<Loc Key="DES_MARCUS" Value="游侠马库斯" />
+		<Loc Key="DES_MARCUS1" Value="游侠卡修斯" />
+		<Loc Key="DES_MARCUS2" Value="游侠坦崔斯" />
+		<Loc Key="DES_MARCUS3" Value="游侠威利什" />
+		<Loc Key="DES_MARCUS4" Value="游侠沃尔夫" />
+		<Loc Key="DES_MARCUS_DES" Value="{0}有时被称为穿着紧身衣的男人, 但他似乎对此很不高兴, 并声称紧身衣能够让他在所有情况下保持很好的灵活性. 他是一名多面手, 这在荒野之中特别有用, 尤其是作为追踪者或者侦察员. {0}自诩为弓箭手大师, 为此他决心证明自己的价值. 因此, 他寻求成为一名雇佣兵来尝试书写他自己的传奇." />
+		<Loc Key="DES_FANG" Value="龙裔狂牙" />
+		<Loc Key="DES_FANG1" Value="龙裔恐翼" />
+		<Loc Key="DES_FANG2" Value="龙裔德拉库斯" />
+		<Loc Key="DES_FANG3" Value="龙裔德鲁尔" />
+		<Loc Key="DES_FANG4" Value="龙裔希斯" />
+		<Loc Key="DES_FANG_DES" Value="{0}是一位威武雄壮的战士. 他是龙族后裔, 是一名令人生畏的敌人, 因此也是你身边的伟大盟友. {0}和他的祖先一样对宝藏有着浓厚的兴趣, 因此他开始了冒险并积累财富的生活. 作为一名龙裔, 他不骑马而是选择乘骑厄运之龙, 从空中降下火焰和恐惧." />
+		<Loc Key="DES_MORGANA" Value="女巫莫甘娜" />
+		<Loc Key="DES_MORGANA1" Value="女巫塔巴莎" />
+		<Loc Key="DES_MORGANA2" Value="女巫卡洛塔" />
+		<Loc Key="DES_MORGANA3" Value="女巫艾丽西亚" />
+		<Loc Key="DES_MORGANA4" Value="女巫卡珊德拉" />
+		<Loc Key="DES_MORGANA_DES" Value="{0}为她自己赢得了黑暗魔法实践者的绰号, 用看似年轻的外表挑战了人们的刻板印象. 许多人猜测, 如果她暴露出自己的真实面目, 那么她的身体和灵魂一定遭受了极度腐化. 女巫本人似乎很喜欢这些谣言, 她并不打算说出真相." />
+		<Loc Key="DES_AUREUS" Value="黄金人奥里鲁斯" />
+		<Loc Key="DES_AUREUS1" Value="黄金人奥洛" />
+		<Loc Key="DES_AUREUS2" Value="黄金人梅塔利斯" />
+		<Loc Key="DES_AUREUS3" Value="黄金人希纳尔" />
+		<Loc Key="DES_AUREUS4" Value="黄金人巴尔苏斯" />
+		<Loc Key="DES_AUREUS_DES" Value="{0}是一位来历不明的类人型生物. 他是某个炼金术实验的牺牲品吗? 或者他是一个神圣的生物, 抑或是某种强大力量的造物? {0}本人对此不以为然, 他更愿意保持神秘. 出于自己的某些原因, 他将加入一位著名巫师的队伍." />
+		<Loc Key="DES_SHIN_BO" Value="忍者辛博" />
+		<Loc Key="DES_SHIN_BO1" Value="忍者奥米" />
+		<Loc Key="DES_SHIN_BO2" Value="忍者蒙戈" />
+		<Loc Key="DES_SHIN_BO3" Value="忍者雷昂" />
+		<Loc Key="DES_SHIN_BO4" Value="忍者达坎" />
+		<Loc Key="DES_SHIN_BO_DES" Value="关于这位英雄唯一真正的了解是, 他们属于某个遵循忍者传统的武术组织. 事实上, 没人知道对他们的称呼到底是名字, 还是某种等级, 抑或是只有这个组织才知道的绰号. 你所雇用的英雄就是现在为你服务的那一位吗? 你能确定吗?" />
+		<Loc Key="DES_SPYDER" Value="盗贼斯皮德" />
+		<Loc Key="DES_SPYDER1" Value="盗贼杰斯特" />
+		<Loc Key="DES_SPYDER2" Value="盗贼马尔科" />
+		<Loc Key="DES_SPYDER3" Value="盗贼杜普雷" />
+		<Loc Key="DES_SPYDER4" Value="盗贼恩罗尔" />
+		<Loc Key="DES_SPYDER_DES" Value="{0}是一名潇洒而华丽的人物, 无论走到哪里都一定会给人留下深刻的印象. 他巧舌如簧的天赋可以激发军队极大的信心. 他也永远在不停地逃离, 因为这片土地上有无数的淑女为他而伤透了心. 他很乐意将自己的服务卖给名声显赫的巫师, 因为他喜欢沐浴在他们的光芒之中." />
+		<Loc Key="DES_SHALLA" Value="亚马逊战士莎拉" />
+		<Loc Key="DES_SHALLA1" Value="亚马逊战士戴安娜" />
+		<Loc Key="DES_SHALLA2" Value="亚马逊战士拉娜" />
+		<Loc Key="DES_SHALLA3" Value="亚亚马逊战士达利拉" />
+		<Loc Key="DES_SHALLA4" Value="亚马逊战士索尼娅" />
+		<Loc Key="DES_SHALLA_DES" Value="{0}是一名凶猛的悍将, 是传说中的亚马逊战士. 这是一个由女性战士组成的部落, 以其惊人的技巧和坚韧而闻名. 亚马逊部族现在将她的剑赐予了她, 希望能够进一步传播她战士姐妹们的威名. 但她只会选择为那些德高望重的人服务, 因为只有这样才称得上是有价值." />
+		<Loc Key="DES_YRAMRAG" Value="术士伊拉姆拉格" />
+		<Loc Key="DES_YRAMRAG1" Value="术士格罗夫齐纳尔" />
+		<Loc Key="DES_YRAMRAG2" Value="术士马雷菲克斯" />
+		<Loc Key="DES_YRAMRAG3" Value="术士马西库拉" />
+		<Loc Key="DES_YRAMRAG4" Value="术士索尔纳" />
+		<Loc Key="DES_YRAMRAG_DES" Value="{0}如果不是因为一次失败的实验让他伤痕累累, 他可能已经成为了一名巫师. 他现在依然是一名危险而强大的术士, 对闪电的致命力量有着出色的掌握. 他现在把命运交给了上天, 以试图证明自己的价值. 但是任何主人都应该警惕{0}和他的真正目的." />
+		<Loc Key="DES_MYSTIC_X" Value="神秘人X" />
+		<Loc Key="DES_MYSTIC_X1" Value="神秘人尼莫斯" />
+		<Loc Key="DES_MYSTIC_X2" Value="神秘人莫菲斯" />
+		<Loc Key="DES_MYSTIC_X3" Value="神秘人比斯特" />
+		<Loc Key="DES_MYSTIC_X4" Value="神秘人米斯特里奥" />
+		<Loc Key="DES_MYSTIC_X_DES" Value="{0}, 没有人知道是谁. 他们出现在这个世界上是为了寻找工作, 其技能和实力是毋庸置疑的. 但他们真正的动机和本性永远被笼罩在那件神秘的黑暗斗篷之下." />
+		<Loc Key="DES_AERIE" Value="幻术师艾瑞" />
+		<Loc Key="DES_AERIE1" Value="幻术师埃索拉" />
+		<Loc Key="DES_AERIE2" Value="幻术师米兰达" />
+		<Loc Key="DES_AERIE3" Value="幻术师温达利亚" />
+		<Loc Key="DES_AERIE4" Value="幻术师米拉" />
+		<Loc Key="DES_AERIE_DES" Value="{0}是一个骗子, 专攻心灵魔法和欺诈. 她看起来只是一个孩子, 经常戴着面具并穿着奇怪的服装. 可她顽皮的举止之下隐藏着一个高超的施法者, 能够创造出恐怖的幻象, 即使是最坚韧的敌人也会崩溃. 当她不是在与人们开玩笑时, 她会将自己的技能借给有价值的巫师, 因为她觉得这些巫师很有趣." />
+		<Loc Key="DES_DETH_STRYKE" Value="剑士德斯·史崔克" />
+		<Loc Key="DES_DETH_STRYKE1" Value="剑士特鲁·史崔克" />
+		<Loc Key="DES_DETH_STRYKE2" Value="剑士德斯汀" />
+		<Loc Key="DES_DETH_STRYKE3" Value="剑士德斯布洛夫" />
+		<Loc Key="DES_DETH_STRYKE4" Value="剑客莫特·史崔克" />
+		<Loc Key="DES_DETH_STRYKE_DES" Value="{0}是一名退伍军人, 备受士兵们的尊重和敬畏. 有人说他曾经是一位领主, 甚至是一名王子, 但他在一场决定命运的史诗决斗中遭遇了失败, 或许他的眼罩正是这段过往岁月的唯一证明. {0}是一位出色的战术家和领袖, 同时也是一名刀锋大师." />
+		<Loc Key="DES_ELANA" Value="女祭司伊莱娜" />
+		<Loc Key="DES_ELANA1" Value="女祭司维多利亚" />
+		<Loc Key="DES_ELANA2" Value="女祭司阿菲娜" />
+		<Loc Key="DES_ELANA3" Value="女祭司海伦娜" />
+		<Loc Key="DES_ELANA4" Value="女祭司贾斯汀" />
+		<Loc Key="DES_ELANA_DES" Value="{0}是生命的祭司, 致力于治疗艺术和善良的事业. 她无与伦比的美貌和无可挑剔的魅力引发了关于她高贵血统的传言, 或者至少是受到了某种强烈的祝福. {0}自己承认, 她与古代诸神有着强烈的联系, 但已经不记得童年发生的事情了. 但在优雅之中, 她坚称自己只是一个普通人, 一个热爱自己事业的女祭司." />
+		<Loc Key="DES_ROLAND" Value="圣骑士罗兰" />
+		<Loc Key="DES_ROLAND1" Value="圣骑士查尔斯" />
+		<Loc Key="DES_ROLAND2" Value="圣骑士费尔利" />
+		<Loc Key="DES_ROLAND3" Value="圣骑士塞西尔" />
+		<Loc Key="DES_ROLAND4" Value="圣骑士安德烈亚斯" />
+		<Loc Key="DES_ROLAND_DES" Value="{0}虽然年纪轻轻, 却早已是一位享有盛名的战士. 他乐于助人的奉献精神和面对强敌时的勇气受到所有人的尊重. {0}为那些尊重生命的人服务, 他致力于自己的事业, 声称自己生来就是为了奉献. 他最大的优点也许会是他唯一的缺点, 他可能过分热心并被愚忠蒙蔽双眼." />
+		<Loc Key="DES_MORTU" Value="黑骑士莫尔图" />
+		<Loc Key="DES_MORTU1" Value="黑骑士红刃" />
+		<Loc Key="DES_MORTU2" Value="黑骑士马雷克" />
+		<Loc Key="DES_MORTU3" Value="黑骑士凯恩" />
+		<Loc Key="DES_MORTU4" Value="黑骑士加洛克" />
+		<Loc Key="DES_MORTU_DES" Value="{0}这个名字会给不幸面对他的任何人带来恐惧和绝望. 他是死亡骑士, 坚定不移, 无情无义, 因为他视死亡为恩赐. 有人说他自己不能死, 所以他才把自己最渴望的东西送给别人." />
+		<Loc Key="DES_ALORRA" Value="精灵弓箭手阿洛拉" />
+		<Loc Key="DES_ALORRA1" Value="精灵弓箭手格温多林" />
+		<Loc Key="DES_ALORRA2" Value="精灵弓箭手达洛娜" />
+		<Loc Key="DES_ALORRA3" Value="精灵弓箭手德米塔" />
+		<Loc Key="DES_ALORRA4" Value="精灵弓箭手丽塔" />
+		<Loc Key="DES_ALORRA_DES" Value="{0}由高等精灵抚养长大, 接受过最优秀的训练, 也因此成为了一名高超的战士. 她不寻常的外表暗示着她拥有黑暗精灵的血统, 但如果你不想被大卸八块的话, 明智的做法是永远不要在她面前询问或谈论它. 为了阻止这类谣言, {0}决心以她高等精灵种族的名义去争取声望和权力." />
+		<Loc Key="DES_SIR_HAROLD" Value="骑士哈罗德爵士" />
+		<Loc Key="DES_SIR_HAROLD1" Value="骑士亨利爵士" />
+		<Loc Key="DES_SIR_HAROLD2" Value="骑士斯蒂芬爵士" />
+		<Loc Key="DES_SIR_HAROLD3" Value="骑士谢尔顿爵士" />
+		<Loc Key="DES_SIR_HAROLD4" Value="骑士托马斯爵士" />
+		<Loc Key="DES_SIR_HAROLD_DES" Value="{0}是一位年长而高贵的骑士, 无论他身处何地, 选择侍奉哪位领主, 都遵循着自己的原则. 人们猜测这位骑士实际上可能正在追求着最后的崇高理想, 但即便这是真的, 他也并没有说出来. 尽管他年事已高, 但骑士的热忱和决心仍然坚定不移, 他的利剑受到任何明智之人的追捧." />
+		<Loc Key="DES_RAVASHACK" Value="死灵法师拉瓦沙克" />
+		<Loc Key="DES_RAVASHACK1" Value="死灵法师乌尔里克" />
+		<Loc Key="DES_RAVASHACK2" Value="死灵法师纳尔洛克" />
+		<Loc Key="DES_RAVASHACK3" Value="死灵法师拉萨鲁斯" />
+		<Loc Key="DES_RAVASHACK4" Value="死灵法师卢锡安" />
+		<Loc Key="DES_RAVASHACK_DES" Value="{0}向魔法伸出了手. 通过黑暗魔法, 他能够复生死者并操纵生命的能量. 尽管对于某些人来说可能是不符合自然规律的, 但他的力量不可否认. 有谣言称{0}自己其实已经死了, 他的生命因魔法而延长. 事实上, 他正在寻找一种方法来改变这种情况." />
+		<Loc Key="DES_WARRAX" Value="混沌战士瓦拉克斯" />
+		<Loc Key="DES_WARRAX1" Value="混沌战士科利马克" />
+		<Loc Key="DES_WARRAX2" Value="混沌战士哈拉克" />
+		<Loc Key="DES_WARRAX3" Value="混沌战士鲁尔" />
+		<Loc Key="DES_WARRAX4" Value="混沌战士莫雷" />
+		<Loc Key="DES_WARRAX_DES" Value="{0}的声誉建立在神秘和人们对他的敬畏之上. 他一直躲在斗篷和头盔之后, 很少说话. 他精通剑术和魔法, 使他成为一个强大的对手. 他很可能会来帮助对抗邪恶, 就像他曾在城市毁灭之际伸出援手 - 真正的混沌力量." />
+		<Loc Key="DES_TORIN" Value="天选者托林" />
+		<Loc Key="DES_TORIN1" Value="天选者阿兹瑞尔" />
+		<Loc Key="DES_TORIN2" Value="天选者劳伦斯" />
+		<Loc Key="DES_TORIN3" Value="天选者珀修斯" />
+		<Loc Key="DES_TORIN4" Value="天选者赫伦" />
+		<Loc Key="DES_TORIN_DES" Value="{0}是生命领域的化身, 甚至可能是神圣的化身. 由于他在这个领域化身为实体, 所以会受到了一些凡身的限制. 他的精神是永恒的, 无法被真正摧毁, 只会被放逐回他的神性领域. 而令人费解的是, 为什么这样的生物会选择听从你的召唤, 也许他是为了寻求知识, 或者也许你对生命的掌握让他很感兴趣." />
+	
+		<!--SPELLS AND ENCHANTMENTS-->
+		<Loc Key="DES_EARTH_TO_MUD" Value="尘土化泥"/>
+		<Loc Key="DES_EARTH_TO_MUD_DES" Value="大地喷发, 将尘泥喷向3格范围内所有方向上的任何单位. 该效果会将移动点数降低至1. 仅对普通移动有效, 持续3回合. 尘土无法被元素护甲或元素抗性抵抗."/>
+		<Loc Key="DES_EARTH_TO_MUD_TARGET" Value="影响距离目标最多3格范围的单位."/>
+		<Loc Key="DES_ENCH_EARTH_TO_MUD_DES" Value="大地喷发, 将尘泥喷向3格范围内所有方向上的任何单位. 该效果会将移动点数降低至1. 仅对普通移动有效, 持续3回合."/>
+		<Loc Key="DES_RESIST_ELEMENTS" Value="元素抗性"/>
+		<Loc Key="DES_RESIST_ELEMENTS_DES" Value="施加一个保护性光环以对抗元素的力量. 在受到绝大多数混沌和自然系法术或怪兽攻击时获得+3抗性{ICON:ResistanceIconNormal}和护甲{ICON:ArmourIconNormal}."/>
+		<Loc Key="DES_ENCH_RESIST_ELEMENTS_DES" Value="施加一个保护性光环以对抗元素的力量. 在受到绝大多数混沌和自然系法术或怪兽攻击时获得+3抗性{ICON:ResistanceIconNormal}和护甲{ICON:ArmourIconNormal}."/>
+		<Loc Key="DES_WALL_OF_STONE" Value="岩石之墙"/>
+		<Loc Key="DES_WALL_OF_STONE_DES" Value="当你拥有真正的力量时为什么还要浪费人力呢. 立即在目标城市中制造一堵岩石之墙. 这堵高墙拥有城墙建筑的所有特性."/>
+		<Loc Key="DES_GIANT_STRENGTH" Value="无尽之力"/>
+		<Loc Key="DES_GIANT_STRENGTH_DES" Value="将巫师的能量转化为他们的追随者的原始力量. 使目标单位的近战{ICON:MeleeIconNormal}攻击强度+1."/>
+		<Loc Key="DES_ENCH_GIANT_STRENGTH_DES" Value="将巫师的能量转化为他们的追随者的原始力量. 使目标单位的近战{ICON:MeleeIconNormal}攻击强度+1."/>
+		<Loc Key="DES_WEB" Value="蛛网"/>
+		<Loc Key="DES_WEB_DES" Value="一张试图缠住敌人的强大蜘蛛网. 目标单位-3{ICON:ResistanceIconNormal}抗性并有可能定身 (D10掷骰 - 当前抗性{ICON:ResistanceIconNormal}的结果 = 激活回合数, 但最小为1) 蛛网还将在剩下的战斗中阻止飞行{ICON:MovementFlyingIcon}, 即便是目标没有被定身. 魔法免疫无法阻挡蛛网."/>
+		<Loc Key="DES_WEB_NO_FLY" Value="飞行受困"/>
+		<Loc Key="DES_WEB_NO_FLY_DES" Value="该单位在战斗结束前无法飞行, 因为它被蛛网粘住了."/>
+		<Loc Key="DES_STONE_SKIN" Value="岩石之肤"/>
+		<Loc Key="DES_STONE_SKIN_DES" Value="将体表的肌肉变成一块石头. 使目标皮肤变得坚硬, 单位护甲{ICON:ArmourIconNormal}+1."/>
+		<Loc Key="DES_ENCH_STONE_SKIN_DES" Value="将体表的肌肉变成一块石头. 使目标皮肤变得坚硬, 单位护甲{ICON:ArmourIconNormal}+1."/>
+		<Loc Key="DES_WATER_WALKING" Value="水上行走"/>
+		<Loc Key="DES_WATER_WALKING_DES" Value="在魔法的命令下, 流水会携带你的盟友. 赋予目标单位水上行走{ICON:MovementSwimmingIcon}的能力."/>
+		<Loc Key="DES_SPRITES" Value="小精灵"/>
+		<Loc Key="DES_SPRITES_DES" Value="召唤小精灵: 微小的, 飞行{ICON:MovementFlyingIcon}生物, 能够进行魔法远程{ICON:NatureIcon}{ICON:RangedIconNormal}攻击. 它们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_EARTH_LORE" Value="大地传说"/>
+		<Loc Key="DES_EARTH_LORE_DES" Value="这段咒语能够让你聆听大地的低语. 该法术能够显示目标位置7格范围内的古迹和城市."/>
+		<Loc Key="DES_CRACKS_CALL" Value="碎裂呼唤"/>
+		<Loc Key="DES_CRACKS_CALL_DES" Value="听从你的魔法命令, 这个法术将撕裂大地. 任何站在裂隙上无法飞行的实体生物有25%的几率立即死亡. 受到裂隙影响的岩石之墙将被摧毁. 只能在地面上施放."/>
+		<Loc Key="DES_NATURES_EYE" Value="自然之眼"/>
+		<Loc Key="DES_NATURES_EYE_DES" Value="你的魔法感官与自然相协调, 让你通过她的眼睛观察一切. 将友方城市在所有方向上的侦察距离提高至9."/>
+		<Loc Key="DES_NATURES_EYE_DES2" Value="将友方城市在所有方向上的侦察距离提高至9. 该附魔特效每回合消耗1{ICON:ManaIcon}."/>
+		<Loc Key="DES_ICE_BOLT" Value="寒冰箭"/>
+		<Loc Key="DES_ICE_BOLT_DES" Value="一道穿刺寒冰箭射向你的敌人. 每额外消耗1点法力{ICON:ManaIcon}就会施展一次强度为5的魔法寒冰攻击, 造成+1伤害."/>
+		<Loc Key="DES_GIANT_SPIDERS" Value="巨型蜘蛛"/>
+		<Loc Key="DES_GIANT_SPIDERS_DES" Value="召唤两只能够撒网的巨型剧毒蜘蛛, 同时拥有快速近战{ICON:MeleeIconNormal}攻击的能力. 它们的弱点在于防御很差, 所以最好先发制人. 它们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_CHANGE_TERRAIN" Value="改变地形"/>
+		<Loc Key="DES_CHANGE_TERRAIN_DES" Value="命令大地进行变换. 将大部分地形变为草原, 将草原变为森林(海洋和苔原除外)."/>
+		<Loc Key="DES_PATH_FINDING" Value="寻路"/>
+		<Loc Key="DES_PATH_FINDING_DES" Value="转移你的魔法感官以便能够在崎岖的地形中轻松移动. 使非飞行单位穿过任何陆地地形的移动点数消耗降低至1."/>
+		<Loc Key="DES_COCKATRICES" Value="鸡蛇兽"/>
+		<Loc Key="DES_COCKATRICES_DES" Value="召唤一群怪异的鸡蛇兽, 拥有近战{ICON:MeleeIconNormal}和飞行{ICON:MovementFlyingIcon}能力的它们, 只要轻轻一碰就可以将生物变成石头. 它们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_TRANSMUTE" Value="转化"/>
+		<Loc Key="DES_TRANSMUTE_DES" Value="命令大地的资源屈服于你的意志. 将山脉和丘陵中的矿石转化为宝石: 将煤炭转化为宝石, 将铁转化为金币, 将银转化为秘银."/>
+		<Loc Key="DES_TRANSMUTE_TARGET" Value="该位置必须拥有煤矿, 铁矿, 铁矿, 金矿, 银矿或秘银矿."/>
+		<Loc Key="DES_NATURES_CURES" Value="自然治愈"/>
+		<Loc Key="DES_NATURES_CURES_DES" Value="呼唤大自然的治愈之力. 它将完全治愈堆叠在目标位置中的所有单位."/>
+		<Loc Key="DES_BASILISK" Value="蛇怪"/>
+		<Loc Key="DES_BASILISK_DES" Value="召唤一只巨大的蛇怪, 它可以在施展强大的近战{ICON:MeleeIconNormal}攻击之前将敌人变成石头. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_ELEMENTAL_ARMOR" Value="元素护甲"/>
+		<Loc Key="DES_ELEMENTAL_ARMOR_DES" Value="为目标施加元素防护. 在受到绝大多数混沌和自然系法术或怪兽攻击时获得+10抗性{ICON:ResistanceIconNormal}和护甲{ICON:ArmourIconNormal}."/>
+		<Loc Key="DES_ENCH_ELEMENTAL_ARMOR_DES" Value="为目标施加元素防护. 在受到绝大多数混沌和自然系法术或怪兽攻击时获得+10抗性{ICON:ResistanceIconNormal}和护甲{ICON:ArmourIconNormal}."/>
+		<Loc Key="DES_PETRIFY" Value="石化"/>
+		<Loc Key="DES_PETRIFY_DES" Value="施放一道石化射线, 试图将整个敌方单位变成石头. (要么抵抗, 要么成员被消灭. 石化伤害是不可逆的, 所以无法在这场战斗中治疗受影响的单位成员)"/>
+		<Loc Key="DES_STONE_GIANT" Value="岩石巨人"/>
+		<Loc Key="DES_STONE_GIANT_DES" Value="召唤一名来自于群山之中的巨人, 拥有强大的近战{ICON:MeleeIconNormal}攻击和同样致命的远程{ICON:RangedIconNormal}攻击能力. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_IRON_SKIN" Value="钢铁皮肤"/>
+		<Loc Key="DES_IRON_SKIN_DES" Value="将钢铁灌注于目标的肌肤, 使其能够承受绝大多数的攻击. 使单位的护甲+5{ICON:ArmourIconNormal}."/>
+		<Loc Key="DES_ENCH_IRON_SKIN_DES" Value="将钢铁灌注于目标的肌肤, 使其能够承受绝大多数的攻击. 使单位的护甲+5{ICON:ArmourIconNormal}."/>
+		<Loc Key="DES_ICE_STORM" Value="冰风暴"/>
+		<Loc Key="DES_ICE_STORM_DES" Value="巫师的寒冷意志凌驾于大自然之上. 以6点强度的攻击使刺骨的冰风暴袭击目标位置的所有的单位成员."/>
+		<Loc Key="DES_EARTHQUAKE" Value="地震术"/>
+		<Loc Key="DES_EARTHQUAKE_DES" Value="召唤大地之怒并引发剧烈地震, 影响目标城市. 所有建筑物有15%的几率被摧毁. 所有非飞行的实体生物都有25%的几率死亡."/>
+		<Loc Key="DES_GORGONS" Value="蛇发女妖"/>
+		<Loc Key="DES_GORGONS_DES" Value="召唤一只凶猛的蛇发女妖. 这种飞行{ICON:MovementFlyingIcon}防御者能够以强大的近战攻击{ICON:MeleeIconNormal}碾碎敌人, 并能够用它的目光将敌人变成石头. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_MOVE_FORTRESS" Value="移动要塞"/>
+		<Loc Key="DES_MOVE_FORTRESS_DES" Value="借助大地的力量, 该法术能够将巫师的魔法要塞连同其全部能量转移到另一座新城市."/>
+		<Loc Key="DES_GAIAS_BLESSING" Value="盖亚的祝福"/>
+		<Loc Key="DES_GAIAS_BLESSING_DES" Value="盖亚之触使城市的沙漠有10%的几率变成草原, 山脉变成青翠的丘陵, 并有20%的几率净化腐蚀的土地. (此外: +50%最大人口; 森林产出加成+3%; 动乱-2). 该法术对前哨站无效."/>
+		<Loc Key="DES_EARTH_ELEMENTAL" Value="土元素"/>
+		<Loc Key="DES_EARTH_ELEMENTAL_DES" Value="召唤一只强大的土元素, 其致命的近战攻击{ICON:MeleeIconNormal}能够粉碎敌人的城墙. 在战斗期间它将听从于巫师."/>
+		<Loc Key="DES_REGENERATION" Value="再生"/>
+		<Loc Key="DES_REGENERATION_DES" Value="加快身体的自愈过程, 每回合恢复1点生命{ICON:HitIconNormal}, 若为战斗胜利方则在战斗结束时完全恢复. 如果单位被消灭但最终战斗获胜, 则该单位将复活并恢复所有的生命值."/>
+		<Loc Key="DES_BLEEDING_2_OWNER_DESa" Value="流血2"/>		
+		<Loc Key="DES_BLEEDING_UNIT_DESa" Value="流血{0}"/>
+		<Loc Key="DES_BLEEDING_DES_DESa" Value="拥有流血效果的单位在攻击时将会受到等同于技能值的伤害, 除非能够被抗性{ICON:ResistanceIconNormal}抵抗."/>
+		<Loc Key="DES_BEHEMOTH" Value="贝希摩斯"/>
+		<Loc Key="DES_BEHEMOTH_DES" Value="召唤一只凶猛而危险的庞然大物, 拥有无比强大的近战{ICON:MeleeIconNormal}实力. 除了打击精确之外它也很难杀死. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_ENTANGLE" Value="缠绕"/>
+		<Loc Key="DES_ENTANGLE_DES" Value="自然之织试图将目标缠绕在荆棘之中. 所有敌方单位, 除飞行和虚灵体单位外, 每个战斗回合都将-2移动点数."/>
+		<Loc Key="DES_NATURE_AWARENESS" Value="自然意识"/>
+		<Loc Key="DES_NATURE_AWARENESS_DES" Value="将感官与自然相协调, 允许人们通过她的眼睛观察世界. 在法术生效期间显示两个位面的完整地图并探测所有单位."/>
+		<Loc Key="DES_CALL_LIGHTNING" Value="召唤闪电"/>
+		<Loc Key="DES_CALL_LIGHTNING_DES" Value="强大的电能风暴带来的是致命的闪电. 攻击强度为8的闪电箭将造成3-5点护甲穿透效果, 并在每回合开始时会随机攻击敌方单位, 直至战斗结束."/>
+		<Loc Key="DES_COLOSSUS" Value="巨像"/>
+		<Loc Key="DES_COLOSSUS_DES" Value="召唤一尊令人敬畏的巨像, 它拥有强大的近战{ICON:MeleeIconNormal}攻击和致命的远程{ICON:RangedIconNormal}攻击能力, 这也使得它成为了大自然最可怕的恶魔之一. 它们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_EARTH_GATE" Value="大地之门"/>
+		<Loc Key="DES_EARTH_GATE_DES" Value="从地面竖起一扇魔法之门. 拥有大地之门城市中的单位可以立即前往其他位于同一位面且同样拥有大地之门的城市."/>
+		<Loc Key="DES_EARTH_GATE_DES2" Value="拥有大地之门城市中的单位可以立即前往其他位于同一位面且同样拥有大地之门的城市. 为这扇魔法之门供能的附魔效果每回合消耗5{ICON:ManaIcon}."/>
+		<Loc Key="DES_HERB_MASTERY" Value="草药精通"/>
+		<Loc Key="DES_HERB_MASTERY_DES" Value="用强大的魔法注入草药之中, 提高其治疗特性. 施法者的所有单位在每回合结束时都会完全治愈."/>
+		<Loc Key="DES_GREAT_WYRM" Value="巨龙"/>
+		<Loc Key="DES_GREAT_WYRM_DES" Value="召唤一头巨龙, 能够施展强大而有剧毒的近战{ICON:MeleeIconNormal}攻击. 它所拥有的钻地能力使其能够在战场的任何位置出现. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_RESIST_MAGIC" Value="抵抗魔法"/>
+		<Loc Key="DES_RESIST_MAGIC_DES" Value="创造一个能够抵抗魔法的结界. 使目标单位的所有抗性{ICON:ResistanceIconNormal}相对于魔法掷骰结果+5."/>
+		<Loc Key="DES_ENCH_RESIST_MAGIC_DES" Value="创造一个能够抵抗魔法的结界. 使目标单位的所有抗性{ICON:ResistanceIconNormal}相对于魔法掷骰结果+5."/>
+		<Loc Key="DES_DISPEL_MAGIC_TRUE" Value="驱散魔法"/>
+		<Loc Key="DES_DISPEL_MAGIC_TRUE_DES" Value="尝试在战斗中驱散目标单位的魔法. 这个法术很强大, 强度是奥术系驱散魔法的三倍."/>
+		<Loc Key="DES_FLOATING_ISLAND" Value="浮空岛"/>
+		<Loc Key="DES_FLOATING_ISLAND_DES" Value="召唤一个可以跨越地面和海洋来运输单位的浮空岛. 它无法战斗, 在没有运载任何单位的情况下受到攻击将被摧毁."/>
+		<Loc Key="DES_GUARDIAN_WIND" Value="守护者之风"/>
+		<Loc Key="DES_GUARDIAN_WIND_DES" Value="控制一股气流保护性地围绕目标旋转. 该单位几乎完全不受箭矢和投射物的影响(+50护甲{ICON:ArmourIconNormal})."/>
+		<Loc Key="DES_ENCH_GUARDIAN_WIND_DES" Value="控制一股气流保护性地围绕目标旋转. 该单位几乎完全不受箭矢和投射物的影响(+50护甲{ICON:ArmourIconNormal})."/>
+		<Loc Key="DES_PHANTOM_WARRIORS" Value="幻影战士"/>
+		<Loc Key="DES_PHANTOM_WARRIORS_DES" Value="召唤一群幻影般的战士, 它们是基本的近战{ICON:MeleeIconNormal}单位, 能够以一种诡异而虚幻的力量攻击敌人, 并且无视敌人的防御. 它们将在战斗期间听从巫师的命令."/>
+		<Loc Key="DES_CONFUSION" Value="混乱"/>
+		<Loc Key="DES_CONFUSION_DES" Value="使敌人头脑混乱(-4{ICON:ResistanceIconNormal}抗性). 受影响的单位会随机四处游荡, 甚至可能攻击自己人."/>
+		<Loc Key="DES_CONFUSION_POSSESION" Value="混乱占据//需要对玩家隐藏//"/>
+		<Loc Key="DES_WORD_OF_RECALL" Value="召回之言"/>
+		<Loc Key="DES_WORD_OF_RECALL_DES" Value="命令一名盟友返回你的身边. 将一个友方单位传送回施法者的召唤之环."/>
+		<Loc Key="DES_COUNTER_MAGIC" Value="魔法反制"/>
+		<Loc Key="DES_COUNTER_MAGIC_DES" Value="在这场巫师对决中你需要把力量集中在敌人的攻击上并试图反制他们. 该法术生效期间, 战斗中敌人施放的所有法术都被抵抗并驱散."/>
+		<Loc Key="DES_NAGAS" Value="娜迦"/>
+		<Loc Key="DES_NAGAS_DES" Value="召唤一对挥舞着三叉戟的纳迦, 剧毒之触能够让它们施展快速近战{ICON:MeleeIconNormal}攻击. 它们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_PSIONIC_BLAST" Value="灵能冲击"/>
+		<Loc Key="DES_PSIONIC_BLAST_DES" Value="向敌方目标投射一股穿刺灵能痛楚. 这是一次强度为5的虚幻攻击, 此外每额外消耗2点法力{ICON:ManaIcon}其强度+1."/>
+		<Loc Key="DES_BLUR" Value="疾影"/>
+		<Loc Key="DES_BLUR_DES" Value="在你的军队周围创造一系列幻象, 让敌人无法看清. 所有友方单位变得更难被击中. 每点伤害有10%的几率无法命中."/>
+		<Loc Key="DES_DISENCHANT_TRUE" Value="真实分解"/>
+		<Loc Key="DES_DISENCHANT_TRUE_DES" Value="真正反制敌人魔法的超强仪式. 尝试驱散目标地图位置的所有敌方法术. 效果是奥术系魔法区域分解的三倍."/>
+		<Loc Key="DES_VERTIGO" Value="头晕目眩"/>
+		<Loc Key="DES_VERTIGO_DES" Value="在敌人的脑海中制造出可怕的幻觉.目标单位的命中几率{ICON:ToHitBonusIcon}降低20%且护甲{ICON:ArmourIconNormal}降低1."/>
+		<Loc Key="DES_SPELL_LOCK" Value="法术封锁"/>
+		<Loc Key="DES_SPELL_LOCK_DES" Value="触碰巫术的核心, 将目标的魔法固定其中. 这将防止目标单位的附魔被驱散. 保护奇幻单位免受: 放逐术, 强力驱逐, 驱散邪恶和圣言术的影响."/>
+		<Loc Key="DES_ENCHANT_ROAD" Value="魔法之路"/>
+		<Loc Key="DES_ENCHANT_ROAD_DES" Value="将巫术用于清理道路并让旅程变得更加顺畅. 对所选位置2格范围内的所有道路进行附魔, 提高其移动加成效果."/>
+		<Loc Key="DES_ENCHANT_ROAD_TARGET" Value="影响目标2格范围内的所有道路."/>
+		<Loc Key="DES_FLIGHT" Value="飞行"/>
+		<Loc Key="DES_FLIGHT_SKILL_DES" Value="该单位可以飞行{ICON:MovementFlyingIcon}. 飞行单位无视地形移动消耗并且可能不会受到近战伤害, 除非攻击它的是另一个飞行单位, 或是拥有吐息, 凝视或投掷攻击能力的单位. 拥有3以下移动点数的单位将获得+1移动点数."/>
+		<Loc Key="DES_FLIGHT_DES" Value="纯粹的魔法之力, 赋予目标单位飞行{ICON:MovementFlyingIcon}的能力."/>
+		<Loc Key="DES_ENCH_FLIGHT_DES" Value="纯粹的魔法之力, 赋予目标单位飞行{ICON:MovementFlyingIcon}的能力."/>
+		<Loc Key="DES_WIND_MASTERY" Value="狂风精通"/>
+		<Loc Key="DES_WIND_MASTERY_DES" Value="命令狂风服从魔法的意志. 所有由巫师控制的船只速度提高50%, 其他所有船只速度减半."/>
+		<Loc Key="DES_SPELL_BLAST" Value="法术冲击"/>
+		<Loc Key="DES_SPELL_BLAST_DES" Value="激发最尖利的魔法反射, 试图在敌方巫师的法术完全施放之前将其拦截并摧毁."/>
+		<Loc Key="DES_AURA_OF_MAJESTY" Value="威严光环"/>
+		<Loc Key="DES_AURA_OF_MAJESTY_DES" Value="使巫师散发出内心的纯粹力量和仁慈. 每回合改善与敌方巫师的关系."/>
+		<Loc Key="DES_PHANTOM_BEAST" Value="幻兽"/>
+		<Loc Key="DES_PHANTOM_BEAST_DES" Value="召唤一只幻兽, 在战斗期间听从巫师的命令."/>
+		<Loc Key="DES_DISJUNCTION_TRUE" Value="真实析取"/>
+		<Loc Key="DES_DISJUNCTION_TRUE_DES" Value="召唤最强巫术来尝试对抗他人的力量. 试图驱散一个全局附魔效果. 其强度是奥术系析取法术的三倍."/>
+		<Loc Key="DES_INVISIBILITY" Value="隐形术"/>
+		<Loc Key="DES_INVISIBILITY_DES" Value="用强大的幻术魔法包围目标盟友, 从而使其隐形. 该单位无法成为目标. 在战斗中只有相邻的敌人才会看到它, 但命中几率{ICON:ToHitBonusIcon}仍然会-10%."/>
+		<Loc Key="DES_WIND_WALKING" Value="风行"/>
+		<Loc Key="DES_WIND_WALKING_UNIT" Value="风行单位"/>
+		<Loc Key="DES_WIND_WALKING_DES" Value="命令狂风屈服于魔法. 拥有该附魔效果的单位及其所有单位能够在陆地地图上飞行{ICON:MovementFlyingIcon}. 即便是在战斗中, 所有叠加在一起的单位也将拥有同样的效果."/>
+		<Loc Key="DES_WIND_WALKING_UNIT_DES" Value="风行者命令狂风屈服于魔法. 拥有该附魔效果的单位及其所有单位能够在陆地地图上飞行{ICON:MovementFlyingIcon}. 即便是在战斗中, 所有叠加在一起的单位也将拥有同样的效果"/>
+		<Loc Key="DES_BANISH" Value="放逐术"/>
+		<Loc Key="DES_BANISH_DES" Value="魔法就是力量, 但它可以被最强者所抵消. 尝试放逐任何召唤生物."/>
+		<Loc Key="DES_BANISH_TARGET" Value="仅限奇幻生物."/>
+		<Loc Key="DES_STORM_GIANT" Value="风暴巨人"/>
+		<Loc Key="DES_STORM_GIANT_DES" Value="召唤一名挥舞着闪电的风暴巨人, 拥有危险的近战{ICON:MeleeIconNormal}和魔法远程{ICON:SorceryIcon}{ICON:RangedIconNormal}攻击能力. 他们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_AIR_ELEMENTAL" Value="空气元素"/>
+		<Loc Key="DES_AIR_ELEMENTAL_DES" Value="召唤一个看不见的空气元素, 能够以极快的速度飞行{ICON:MovementFlyingIcon}, 同时具有良好的近战{ICON:MeleeIconNormal}攻击和隐身能力. 它会在战斗期间听从巫师的命令."/>
+		<Loc Key="DES_MIND_STORM" Value="心灵风暴"/>
+		<Loc Key="DES_MIND_STORM_DES" Value="用巫术混乱冲击敌人的心灵. 目标单位的攻击{ICON:RangedIconNormal}{ICON:MeleeIconNormal}, 护甲{ICON:ArmourIconNormal}和抗性{ICON:ResistanceIconNormal}强度-5."/>
+		<Loc Key="DES_STASIS" Value="静滞"/>
+		<Loc Key="DES_STASIS_DES" Value="用魔法陷阱捕捉敌人. 将一群敌方单位锁定一段时间(如果1-10的掷骰结果高于单位的抗性, 则该单位会在相同的回合内继续保持静滞状态)."/>
+		<Loc Key="DES_MAGIC_IMMUNITY" Value="魔法免疫"/>
+		<Loc Key="DES_MAGIC_IMMUNITY_DES" Value="为一名盟友灌注, 使目标单位几乎完全免疫所有的魔法."/>
+		<Loc Key="DES_ENCH_MAGIC_IMMUNITY_DES" Value="为一名盟友灌注, 使目标单位几乎完全免疫所有的魔法."/>
+		<Loc Key="DES_HASTE" Value="急速术"/>
+		<Loc Key="DES_HASTE_DES" Value="用魔法的力量使盟友加速. 使单位在战斗中的移动和攻击次数翻倍."/>
+		<Loc Key="DES_DJINN" Value="神怪"/>
+		<Loc Key="DES_DJINN_DES" Value="召唤一个神怪并迫使它施展近战{ICON:MeleeIconNormal} 或魔法远程{ICON:SorceryIcon}{ICON:RangedIconNormal}攻击. 神怪也可以施法和飞行{ICON:MovementFlyingIcon}. 它们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_SPELL_WARD" Value="法术守卫"/>
+		<Loc Key="DES_SPELL_WARD_DES" Value="创造一个魔法守卫, 完全保护一座城市免受某种指定类型的魔法影响. 与该魔法类型相同的敌方奇幻单位属性将被大幅度削弱. 可以施放多次."/>
+		<Loc Key="DES_SPELL_WARD_NATURE_DES" Value="该守卫将完全保护城市免受自然系魔法的伤害."/>
+		<Loc Key="DES_SPELL_WARD_SORCERY_DES" Value="该守卫将完全保护城市免受巫术系魔法的伤害."/>
+		<Loc Key="DES_SPELL_WARD_CHAOS_DES" Value="该守卫将完全保护城市免受混沌系魔法的伤害."/>
+		<Loc Key="DES_SPELL_WARD_LIFE_DES" Value="该守卫将完全保护城市免受生命系魔法的伤害."/>
+		<Loc Key="DES_SPELL_WARD_DEATH_DES" Value="该守卫将完全保护城市免受死亡系魔法的伤害."/>
+		<Loc Key="DES_SPELL_WARD_FANTASTIC_UNITS_DEBUFF" Value="奇幻单位守卫"/>
+		<Loc Key="DES_SPELL_WARD_FANTASTIC_UNITS_DEBUFF_DES" Value="与该城镇法术守卫拥有相同魔法类型的敌方奇幻单位, 其属性将被大幅度削弱."/>
+		<Loc Key="DES_CREATURE_BINDING" Value="生物束缚"/>
+		<Loc Key="DES_CREATURE_BINDING_DES" Value="束缚一只魔法生物并使其服从于你. 试图在战斗中控制敌人召唤的生物(-2{ICON:ResistanceIconNormal}抗性)."/>
+		<Loc Key="DES_MASS_INVISIBILITY" Value="群体隐形术"/>
+		<Loc Key="DES_MASS_INVISIBILITY_DES" Value="用强大的幻术魔法包围盟友, 使所有友方单位隐形. 这些单位无法成为目标, 在战斗中只有相邻的敌人会看到它们, 但命中几率{ICON:ToHitBonusIcon}仍然会-10%."/>
+		<Loc Key="DES_GREAT_UNSUMMONING" Value="强力驱逐"/>
+		<Loc Key="DES_GREAT_UNSUMMONING_DES" Value="这个巨大的爆炸试图驱散所有的召唤生物. 尝试从阿坎纳斯和迈罗尔驱逐所有(包括你自己的)召唤单位."/>
+		<Loc Key="DES_SPELL_BINDING" Value="法术束缚"/>
+		<Loc Key="DES_SPELL_BINDING_DES" Value="你的魔法彼此交织, 尝试束缚他人的法术. 试图控制对手的全局附魔效果."/>
+		<Loc Key="DES_FLYING_FORTRESS" Value="飞行要塞"/>
+		<Loc Key="DES_FLYING_FORTRESS_DES" Value="巫师要塞腾空而起, 允许城市的所有防御者飞行{ICON:MovementFlyingIcon}并获得+10%护甲{ICON:ArmourIconNormal}. 只能在要塞所在的首都使用."/>
+		<Loc Key="DES_SKY_DRAKE" Value="碧空之龙"/>
+		<Loc Key="DES_SKY_DRAKE_DES" Value="召唤一只威风凛凛而强大的狂风巨龙, 能够在陆地上快速飞行{ICON:MovementFlyingIcon}, 并在战斗中利用闪电吐息使其强大的近战{ICON:MeleeIconNormal}攻击更加致命. 它们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_SUPPRESS_MAGIC" Value="压制魔法"/>
+		<Loc Key="DES_SUPPRESS_MAGIC_DES" Value="强大的巫术能量爆发, 试图摧毁敌人的魔法. 所有在陆地地图上施放的敌方法术要么抵抗要么被驱散."/>
+		<Loc Key="DES_TIME_STOP" Value="时间停止"/>
+		<Loc Key="DES_TIME_STOP_DES" Value="使敌方巫师和单位甚至是中立敌人的时间停止. 您将不再获得收入同时也不再有维护消耗, 您将是唯一一个能够在法术结束前进行动作的人."/>
+		<Loc Key="DES_WARP_WOOD" Value="扭曲之木"/>
+		<Loc Key="DES_WARP_WOOD_DES" Value="将投射物扭曲成为神圣的软木, 从而破坏目标单位的飞弹攻击{ICON:MissileIcon}能力."/>
+		<Loc Key="DES_WARP_WOOD_TARGET" Value="能够施展远程飞弹攻击的非奇幻或英雄单位."/>
+		<Loc Key="DES_DISRUPT" Value="扰乱术"/>
+		<Loc Key="DES_DISRUPT_DES" Value="用纯净的熵能破坏防御工事的结构从而摧毁一堵石墙, 为军队通行扫清道路."/>
+		<Loc Key="DES_FIRE_BOLT" Value="火焰箭"/>
+		<Loc Key="DES_FIRE_BOLT_DES" Value="一道混沌之火, 轰向敌人. (强度为5的魔法火焰攻击, 每额外消耗一点法力{ICON:ManaIcon}则+1强度)"/>
+		<Loc Key="DES_HELL_HOUNDS" Value="地狱猎犬"/>
+		<Loc Key="DES_HELL_HOUNDS_DES" Value="召唤一群能够进行近战{ICON:MeleeIconNormal}战斗并且能够喷火{ICON:SkillFireBreath}的地狱猎犬. 它们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_CORRUPTION" Value="腐蚀术"/>
+		<Loc Key="DES_CORRUPTION_DES" Value="召唤混沌和熵能来感染这片土地. 破坏地图位置, 使其无法产出食物{ICON:FoodIcon}或矿物."/>
+		<Loc Key="DES_ELDRITCH_WEAPON" Value="惊骇武器"/>
+		<Loc Key="DES_ELDRITCH_WEAPON_DES" Value="为目标常规或英雄单位的武器附魔, 使其近战{ICON:MeleeIconNormal}, 飞弹{ICON:MissileIcon}和投掷{ICON:SkillThrown}攻击被敌人格挡的几率-10%. 附魔武器可以通过近战{ICON:MeleeIconNormal}攻击, 对免疫非魔法攻击的生物造成伤害."/>
+		<Loc Key="DES_ELDRITCH_WEAPON_TARGET" Value="非奇幻或英雄单位."/>
+		<Loc Key="DES_WALL_OF_FIRE" Value="火焰之墙"/>
+		<Loc Key="DES_WALL_OF_FIRE_DES" Value="用火焰形成的保护墙包围一座城市. 任何试图穿过它, 或通过近战攻击方式穿过它的非飞行单位的所有成员都会受到强度为5的魔法火焰攻击伤害. 远程攻击不受影响."/>
+		<Loc Key="DES_SHATTER" Value="粉碎"/>
+		<Loc Key="DES_SHATTER_DES" Value="一股强大的混沌能量冲向敌人, 粉碎了他们的决心. 使目标单位的近战{ICON:MeleeIconNormal}, 飞弹{ICON:MissileIcon}和投掷{ICON:SkillThrown}攻击强度降低至1."/>
+		<Loc Key="DES_ENCH_SHATTER_DES" Value="一股强大的混沌能量冲向敌人, 粉碎了他们的决心. 使目标单位的近战{ICON:MeleeIconNormal}, 飞弹{ICON:MissileIcon}和投掷{ICON:SkillThrown}攻击强度降低至1."/>
+		<Loc Key="DES_WARP_CREATURE" Value="扭曲生物"/>
+		<Loc Key="DES_WARP_CREATURE_DES" Value="强大的熵能扭曲并使敌人退化. 目标单位试图抵抗它, 但抗性{ICON:ResistanceIconNormal}-1. 被扭曲的生物可能遭受: 攻击强度减半, 护甲减半或抗性降低为零."/>
+		<Loc Key="DES_ENCH_WARP_CREATURE_DES" Value="强大的熵能扭曲并使敌人退化. 目标单位试图抵抗它, 但抗性{ICON:ResistanceIconNormal}-1. 被扭曲的生物可能遭受: 攻击强度减半, 护甲减半或抗性降低为零."/>
+		<Loc Key="DES_FIRE_ELEMENTAL" Value="火元素"/>
+		<Loc Key="DES_FIRE_ELEMENTAL_DES" Value="召唤一个凶猛的火元素, 拥有优秀的近战{ICON:MeleeIconNormal}攻击和良好的免疫能力. 它将在战斗期间听从巫师的命令."/>
+		<Loc Key="DES_LIGHTNING_BOLT" Value="闪电箭"/>
+		<Loc Key="DES_LIGHTNING_BOLT_DES" Value="一道爆裂的混沌闪电击中敌人, 施展一次强度为5的穿甲攻击. 每额外消耗一点法力{ICON:ManaIcon}攻击强度+1."/>
+		<Loc Key="DES_FIRE_GIANT" Value="火焰巨人"/>
+		<Loc Key="DES_FIRE_GIANT_DES" Value="召唤一名凶猛的火焰巨人. 这名足以粉碎城墙的战士能够对敌人施展近战{ICON:MeleeIconNormal}和远程{ICON:RangedIconNormal}攻击. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_FLAME_BLADE" Value="烈焰之刃"/>
+		<Loc Key="DES_FLAME_BLADE_DES" Value="目标非奇幻单位的武器燃起熊熊烈焰, 使近战{ICON:MeleeIconNormal}, 飞弹{ICON:MissileIcon}和投掷{ICON:SkillThrown}攻击的强度提高2. 允许单位命中免疫武器伤害的生物, 且效果能够与惊骇武器叠加."/>
+		<Loc Key="DES_ENCH_FLAME_BLADE_DES" Value="目标单位的武器燃起熊熊烈焰, 使近战{ICON:MeleeIconNormal}, 非魔法远程攻击和投掷{ICON:SkillThrown}攻击的强度提高2. 允许单位命中免疫武器伤害的生物, 且效果能够与惊骇武器叠加."/>
+		<Loc Key="DES_GARGOYLES" Value="石像鬼"/>
+		<Loc Key="DES_GARGOYLES_DES" Value="召唤拥有飞行{ICON:MovementFlyingIcon}能力的石像鬼. 它是一名强壮的防御者, 特别擅长对抗自然的力量, 但造成的伤害并不突出. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_FIREBALL" Value="火球术"/>
+		<Loc Key="DES_FIREBALL_DES" Value="发射一个混乱的火球. 该魔法火焰攻击强度为5, 能够对目标单位的所有成员造成伤害. (每额外消耗3法力{ICON:ManaIcon}其强度+1)"/>
+		<Loc Key="DES_DOOM_BAT" Value="厄运蝙蝠"/>
+		<Loc Key="DES_DOOM_BAT_DES" Value="召唤一只末日蝙蝠, 混沌的飞行{ICON:MovementFlyingIcon}仆从. 它的近战{ICON:MeleeIconNormal}攻击敏捷而致命, 甚至能够秒杀敌人. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_RAISE_VOLCANO" Value="召唤火山"/>
+		<Loc Key="DES_RAISE_VOLCANO_DES" Value="通过混沌之力, 巫师命令一座火山掘地而起. 创造的火山不会产生食物{ICON:FoodIcon}或矿物, 但能够每回合提供1法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_IMMOLATION" Value="献祭"/>
+		<Loc Key="DES_IMMOLATION_DES" Value="用炽热的光环包围目标单位. 处于被献祭单位近战范围内的其他单位将被攻击强度为4的火球击中."/>
+		<Loc Key="DES_CHIMERAS" Value="奇美拉"/>
+		<Loc Key="DES_CHIMERAS_DES" Value="召唤恐怖的三头奇美拉, 拥有飞行{ICON:MovementFlyingIcon}, 烈焰吐息{ICON:SkillFireBreath}和近战{ICON:MeleeIconNormal}能力. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_WARP_LIGHTNING" Value="扭曲闪电"/>
+		<Loc Key="DES_WARP_LIGHTNING_DES" Value="突如其来的闪电被混沌所扭曲, 带来更多的痛苦. 用多个闪电击中目标单位, 穿刺伤害强度将从10逐渐降低至1."/>
+		<Loc Key="DES_METAL_FIRES" Value="金属烈焰"/>
+		<Loc Key="DES_METAL_FIRES_DES" Value="使战斗中所有单位的武器燃烧, 近战{ICON:MeleeIconNormal}, 飞弹{ICON:MissileIcon}和投掷{ICON:SkillThrown}攻击的强度增加1. 允许单位命中免疫武器伤害的生物, 且效果能够与惊骇武器叠加."/>
+		<Loc Key="DES_CHAOS_SPAWN" Value="混沌之嗣"/>
+		<Loc Key="DES_CHAOS_SPAWN_DES" Value="召唤一只可怕的混沌子嗣, 能够施展多次凝视攻击. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_DOOM_BOLT" Value="厄运箭"/>
+		<Loc Key="DES_DOOM_BOLT_DES" Value="一道混沌的厄运之箭射向敌人. 无论护甲{ICON:ArmourIconNormal}如何目标单位都将受到10点伤害. 正义和魔法免疫将无视该效果."/>
+		<Loc Key="DES_MAGIC_VORTEX" Value="魔法漩涡"/>
+		<Loc Key="DES_MAGIC_VORTEX_DES" Value="召唤并释放一个随机移动的混沌漩涡, 破坏路径上的一切."/>
+		<Loc Key="DES_EFREET" Value="火焰怪"/>
+		<Loc Key="DES_EFREET_DES" Value="召唤一只能够施法且狡诈的火焰怪. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_FIRE_STORM" Value="烈焰风暴"/>
+		<Loc Key="DES_FIRE_STORM_DES" Value="天空变成了红色, 整片大地陷入了火海. 地图上所有敌方单位都会被攻击强度为8的火球击中."/>
+		<Loc Key="DES_WARP_REALITY" Value="扭曲现实"/>
+		<Loc Key="DES_WARP_REALITY_DES" Value="熵能力量扭曲了现实, 只有掌握了其中奥妙的人才能不受影响. 这场战斗中所有非混沌系生物(包括友方单位)的命中几率{ICON:ToHitBonusIcon}都将-20%."/>
+		<Loc Key="DES_FLAME_STRIKE" Value="烈焰震击"/>
+		<Loc Key="DES_FLAME_STRIKE_DES" Value="混沌统治着战场上的烈焰. 战斗中所有敌方单位都将受到攻击强度为15的魔法火焰攻击."/>
+		<Loc Key="DES_CHAOS_RIFT" Value="混沌裂隙"/>
+		<Loc Key="DES_CHAOS_RIFT_DES" Value="一个混沌裂隙被打开, 电闪雷鸣向敌人袭来. 位于敌方城市中的单位将随机受到攻击强度为8的闪电箭攻击."/>
+		<Loc Key="DES_HYDRA" Value="九头蛇"/>
+		<Loc Key="DES_HYDRA_DES" Value="召唤一只拥有再生能力的九头蛇, 能够施展火焰, 冰霜和闪电吐息. 它虽然看起来像一个普通的近战{ICON:MeleeIconNormal}生物, 直到你意识到它的每一个头都拥有各自的生命一般! 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_DISINTEGRATE" Value="瓦解术"/>
+		<Loc Key="DES_DISINTEGRATE_DES" Value="毁灭性的混沌熵能将敌人拖入黑暗的虚空. 抗性{ICON:ResistanceIconNormal}低于10的目标单位将被直接摧毁."/>
+		<Loc Key="DES_METEOR_STORM" Value="流星风暴"/>
+		<Loc Key="DES_METEOR_STORM_DES" Value="无数燃烧着的岩石降临大地. 陆地上所有不在城市中的单位都将被攻击强度为4的火球击中."/>
+		<Loc Key="DES_GREAT_WASTING" Value="无尽消耗"/>
+		<Loc Key="DES_GREAT_WASTING_DES" Value="召唤混沌之力扭曲大地. 每回合都将腐蚀地图上的若干地点, 敌方城市+1动乱且无法从能够降低动乱的建筑中获得加成. 由施法者控制的城市将免疫该效果."/>
+		<Loc Key="DES_CALL_CHAOS" Value="召唤混沌"/>
+		<Loc Key="DES_CALL_CHAOS_DES" Value="释放真正的混沌扑向敌人. 战斗中所有敌方单位都会受到随机的打击效果, 包括被治愈或者被瓦解."/>
+		<Loc Key="DES_CHAOS_SURGE" Value="混沌之涌"/>
+		<Loc Key="DES_CHAOS_SURGE_DES" Value="利用熵能核心来喂养那些由此而生的造物. 所有混沌系生物的所有攻击强度+2."/>
+		<Loc Key="DES_DOOM_MASTERY" Value="厄运精通"/>
+		<Loc Key="DES_DOOM_MASTERY_DES" Value="为所有新单位注入混沌的力量. 单位可能获得: 恶魔皮肤(+3护甲{ICON:ArmourIconNormal}), 恶魔之翼(获得飞行{ICON:MovementFlyingIcon}能力)或喷火(攻击强度为2的烈焰吐息{ICON:SkillFireBreath}). 该生物将永远无法再次被混沌引导."/>
+		<Loc Key="DES_GREAT_DRAKE" Value="巨龙"/>
+		<Loc Key="DES_GREAT_DRAKE_DES" Value="召唤一头能够吞噬万物的巨龙, 能够从天而降{ICON:MovementFlyingIcon}, 施展毁灭性的近战{ICON:MeleeIconNormal}攻击并辅以致命的火焰吐息{ICON:SkillFireBreath}! 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_CALL_THE_VOID" Value="虚空召唤"/>
+		<Loc Key="DES_CALL_THE_VOID_DES" Value="虚空吞噬一座城市, 有50%的几率摧毁每一个建筑. 对所有单位造成10点伤害且每1000人口有50%几率被歼灭. 此外: 有50%几率腐化周围的地点并将前哨站连根拔除."/>
+		<Loc Key="DES_ARMAGEDDON" Value="末世降临"/>
+		<Loc Key="DES_ARMAGEDDON_DES" Value="将火山从炽热的地核深处召唤至地表. 每回合都将有几座火山升起. 由施法者控制的城市将免疫该效果. 若火山出现在敌方城市, 则+2动乱."/>
+		<Loc Key="DES_BLESS" Value="神佑术"/>
+		<Loc Key="DES_BLESS_DES" Value="神圣的祝福降临天选之人. 使目标单位对所有混沌和死亡系法术或怪兽攻击的抗性{ICON:ResistanceIconNormal}和护甲{ICON:ArmourIconNormal}+3."/>
+		<Loc Key="DES_ENCH_BLESS_DES" Value="神圣的祝福降临天选之人. 使目标单位对所有混沌和死亡系法术或普通怪兽攻击的抗性{ICON:ResistanceIconNormal}和护甲{ICON:ArmourIconNormal}+3."/>
+		<Loc Key="DES_STAR_FIRES" Value="星辰之火"/>
+		<Loc Key="DES_STAR_FIRES_DES" Value="星辰坠落穿刺生命的敌人. 仅对混沌和死亡系生物有效, 施展强度为15的攻击."/>
+		<Loc Key="DES_STAR_FIRES_TARGET" Value="来自混沌或死亡领域."/>
+		<Loc Key="DES_ENDURANCE" Value="耐久"/>
+		<Loc Key="DES_ENDURANCE_DES" Value="被神圣之风围绕. 使目标单位的移动速度提高2."/>
+		<Loc Key="DES_ENCH_ENDURANCE_DES" Value="被神圣之风围绕. 使目标单位的移动速度提高1."/>
+		<Loc Key="DES_HOLY_WEAPON" Value="神圣武器"/>
+		<Loc Key="DES_HOLY_WEAPON_DES" Value="祝福目标非奇幻单位的武器, 使其能够命中拥有武器免疫效果的生物, 并使战斗中的命中几率{ICON:ToHitBonusIcon}+10%."/>
+		<Loc Key="DES_HOLY_WEAPON_TARGET" Value="仅适用于非奇幻单位."/>
+		<Loc Key="DES_HEALING" Value="治疗术"/>
+		<Loc Key="DES_HEALING_DES" Value="神圣之光降临以治愈盟友. 治疗目标非亡灵单位最多5{ICON:HitIconNormal}点生命."/>
+		<Loc Key="DES_HEALING_TARGET" Value="仅适用于非奇幻单位."/>
+		<Loc Key="DES_HOLY_ARMOR" Value="神圣护甲"/>
+		<Loc Key="DES_HOLY_ARMOR_DES" Value="圣光保护盟友. 目标非奇幻单位的护甲{ICON:ArmourIconNormal}+2."/>
+		<Loc Key="DES_HOLY_ARMOR_TARGET" Value="仅适用于非奇幻单位."/>
+		<Loc Key="DES_JUST_CAUSE" Value="正义事业"/>
+		<Loc Key="DES_JUST_CAUSE_DES" Value="施法者将生命的正义之声传递给所有人. 只要该法术生效, 巫师的名望+10并且所有城市动乱{ICON:UnrestIcon}-1."/>
+		<Loc Key="DES_TRUE_LIGHT" Value="真实之光"/>
+		<Loc Key="DES_TRUE_LIGHT_DES" Value="圣光降临于战场. 为生命系生物施加+1攻击强度, 护甲{ICON:ArmourIconNormal}和抗性{ICON:ResistanceIconNormal}. 死亡系生物的这些属性-1. 真正的光明和黑暗可以抵消彼此的影响."/>
+		<Loc Key="DES_GUARDIAN_SPIRIT" Value="守护者之魂"/>
+		<Loc Key="DES_GUARDIAN_SPIRIT_DES" Value="召唤一个能够在水面移动{ICON:MovementSwimmingIcon}的虚灵体守护者之魂. 它能够与能量节点融合并为巫师产生魔法能量{ICON:PowerIcon}.融合后, 敌人将难以占领该节点(只有25%几率)."/>
+		<Loc Key="DES_HEROISM" Value="英雄主义"/>
+		<Loc Key="DES_HEROISM_DES" Value="盟友获得了生命之力. 目标非奇幻单位立即成为精英等级(英雄指挥官)."/>
+		<Loc Key="DES_HEROISM_TARGET" Value="仅适用于非奇幻单位."/>
+		<Loc Key="DES_TRUE_SIGHT" Value="真实视域"/>
+		<Loc Key="DES_TRUE_SIGHT_DES" Value="圣光让你看得更清晰. 使目标单位免疫幻象."/>
+		<Loc Key="DES_PLANE_SHIFT" Value="位面转移"/>
+		<Loc Key="DES_PLANE_SHIFT_DES" Value="允许目标单位任意在阿坎纳斯和迈罗尔位面之间切换. (单位无法进入'非法'地形类型或在另一位面发起战斗)"/>
+		<Loc Key="DES_RESURRECTION" Value="复活术"/>
+		<Loc Key="DES_RESURRECTION_DES" Value="让一名殒落的忠诚英雄重新恢复生命(只要他们不是像托林这样的奇幻单位), 让他们继续为您服务."/>
+		<Loc Key="DES_DISPEL_EVIL" Value="驱邪术"/>
+		<Loc Key="DES_DISPEL_EVIL_DES" Value="命令神圣之火包围目标混沌或死亡系生物. 无法承受该效果的单位(普通单位-4{ICON:ResistanceIconNormal}抗性/亡灵单位-10{ICON:ResistanceIconNormal}抗性)将被立即摧毁."/>
+		<Loc Key="DES_DISPEL_EVIL_TARGET" Value="来自混沌或死亡领域."/>
+		<Loc Key="DES_PLANAR_SEAL" Value="平面禁封"/>
+		<Loc Key="DES_PLANAR_SEAL_DES" Value="扰乱连接不同世界的魔法涌动, 从而阻止位面穿越."/>
+		<Loc Key="DES_UNICORNS" Value="独角兽"/>
+		<Loc Key="DES_UNICORNS_DES" Value="召唤一群雄伟的独角兽加入近战{ICON:MeleeIconNormal}战斗, 并能够传送到战场上的任何地点. 它们并不强大, 但能够给军队提供抗性{ICON:ResistanceIconNormal}."/>
+		<Loc Key="DES_RAISE_DEAD" Value="亡者复生"/>
+		<Loc Key="DES_RAISE_DEAD_DES" Value="生命的终极力量, 将刚刚在战斗中阵亡的非奇幻单位或英雄带回生者的世界."/>
+		<Loc Key="DES_PLANAR_TRAVEL" Value="位面旅行"/>
+		<Loc Key="DES_PLANAR_TRAVEL_DES" Value="目标地图位置上的所有友方单位都被传送到另一个位面. 若该单位被传送到一个无法通过移动或因战斗进入的区域, 则该法术将失败."/>
+		<Loc Key="DES_HEAVENLY_LIGHT" Value="天堂之光"/>
+		<Loc Key="DES_HEAVENLY_LIGHT_DES" Value="在城镇战斗中召唤真正的天堂之光. (战场上的生命系生物在保卫城镇时获得+1攻击强度, 护甲{ICON:ArmourIconNormal}以及抗性{ICON:ResistanceIconNormal}. 死亡系生物的这些属性-1)"/>
+		<Loc Key="DES_PRAYER" Value="祷告"/>
+		<Loc Key="DES_PRAYER_DES" Value="当祈祷得到回应时, 它将会使所有友方单位的所有掷骰+10%(命中{ICON:ToHitBonusIcon}和格挡几率)并使抗性{ICON:ResistanceIconNormal}+1. 敌方单位近战命中几率{ICON:ToHitMeleeBonusIcon}-10%."/>
+		<Loc Key="DES_LIONHEART" Value="雄狮之心"/>
+		<Loc Key="DES_LIONHEART_DES" Value="将雄狮的勇气注入你盟友的心中. 使目标单位的非魔法攻击强度, 生命{ICON:HitIconNormal}和抗性{ICON:ResistanceIconNormal}+3."/>
+		<Loc Key="DES_INCARNATION" Value="化身"/>
+		<Loc Key="DES_INCARNATION_DES" Value="召唤神圣的强力英雄, 天选者托林. 他从天而降, 将为你的正义事业而服务. 托林几乎免疫所有法术但无法复活, 只有在死亡后才能再次召唤. (他是一名奇幻英雄, 因此不会受到普通法术的影响)"/>
+		<Loc Key="DES_INVULNERABILITY" Value="刀枪不入"/>
+		<Loc Key="DES_INVULNERABILITY_DES" Value="神圣之力让你无懈可击. 目标单位将抵抗非魔法攻击并使受到的所有伤害-2. (如果伤害命中护甲{ICON:ArmourIconNormal}且不是自动命中, 则单位成员将会减少受到的伤害)"/>
+		<Loc Key="DES_RIGHTEOUSNESS" Value="正义"/>
+		<Loc Key="DES_RIGHTEOUSNESS_DES" Value="一面对抗不洁者的正义之盾. 极大地提高目标单位对来自混沌和死亡系魔法攻击的抗性{ICON:ResistanceIconNormal}(+30)和护甲{ICON:ArmourIconNormal}(+50)."/>
+		<Loc Key="DES_ENCH_RIGHTEOUSNESS_DES" Value="一面对抗不洁者的正义之盾. 极大地提高目标单位对来自混沌和死亡系魔法攻击的抗性{ICON:ResistanceIconNormal}(+30)和护甲{ICON:ArmourIconNormal}(+50)."/>
+		<Loc Key="DES_PROSPERITY" Value="繁荣昌盛"/>
+		<Loc Key="DES_PROSPERITY_DES" Value="圣光为选定的城市带来繁荣. 使城市获得的金币{ICON:GoldIcon}提高100%."/>
+		<Loc Key="DES_ALTAR_OF_BATTLE" Value="战斗祭坛"/>
+		<Loc Key="DES_ALTAR_OF_BATTLE_DES" Value="一座赞美神祇的祭坛拔地而起, 以期望给军队带来祝福. 在目标城市建造的所有单位都是精英等级."/>
+		<Loc Key="DES_ALTAR_OF_BATTLE_DES2" Value="一座赞美神祇的祭坛拔地而起, 以期望给军队带来祝福. 在目标城市建造的所有单位都是精英等级. 为该祭坛供能的附魔效果每回合消耗5法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_ANGEL" Value="天使"/>
+		<Loc Key="DES_ANGEL_DES" Value="从上天召唤一名纯洁而美丽的天使{ICON:MovementFlyingIcon}, 所有盟友都会在战斗中得到祝福. 天使在对抗它所认为的邪恶力量时会特别强大: 死亡, 混沌以及亡灵. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_STREAM_OF_LIFE" Value="生命洪流"/>
+		<Loc Key="DES_STREAM_OF_LIFE_DES" Value="将一个普通友方城市变成一个富饶的乌托邦. 人口增长率翻倍, 每回合结束时城市中的所有单位都将完全得到治愈. 居民们安居乐业, 动乱{ICON:UnrestIcon}完全消失."/>
+		<Loc Key="DES_STREAM_OF_LIFE_DES2" Value="将一个普通友方城市变成一个富饶的乌托邦. 人口增长率翻倍, 每回合结束时城市中的所有单位都将完全得到治愈. 居民们安居乐业, 动乱{ICON:UnrestIcon}完全消失. 为生命洪流供能的附魔效果每回合消耗8法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_MASS_HEALING" Value="群体治疗"/>
+		<Loc Key="DES_MASS_HEALING_DES" Value="生命恢复的力量冲刷着战场. 治疗所有参加战斗的单位并恢复5{ICON:HitIconNormal}生命."/>
+		<Loc Key="DES_HOLY_WORD" Value="圣言术"/>
+		<Loc Key="DES_HOLY_WORD_DES" Value="神圣回响试图放逐所有奇幻和/或亡灵生物(无论是被复活还是被黑魔法引导的). 每个目标单位成员都必须独自抵抗这股神圣的力量(普通生物-2抗性{ICON:ResistanceIconNormal}/亡灵生物-7抗性{ICON:ResistanceIconNormal})."/>
+		<Loc Key="DES_HIGH_PRAYER" Value="至高祈祷"/>
+		<Loc Key="DES_HIGH_PRAYER_DES" Value="当得到回应时, 祷告将使所有友方单位的所有掷骰+10%(命中{ICON:ToHitBonusIcon}和格挡的几率), +2{ICON:MeleeIconNormal}近战攻击强度, +3{ICON:ResistanceIconNormal}抗性和+2{ICON:ArmourIconNormal}护甲. 敌方单位-10%{ICON:ToHitMeleeBonusIcon}近战命中几率."/>
+		<Loc Key="DES_INSPIRATIONS" Value="启示"/>
+		<Loc Key="DES_INSPIRATIONS_DES" Value="神圣的光芒照耀着整座城市, 为居民灌输一种使命感. 城市的生产{ICON:ProductionIcon}速率提高100%."/>
+		<Loc Key="DES_ASTRAL_GATE" Value="星界之门"/>
+		<Loc Key="DES_ASTRAL_GATE_DES" Value="小心翼翼地从魔镜中编织出一个星界传送门. 这股跨强大的能量允许从所选城市进行跨位面旅行."/>
+		<Loc Key="DES_ASTRAL_GATE_DES2" Value="允许你的单位从这座城市进行跨位面移动. 为这扇门供能的附魔效果每回合消耗5{ICON:ManaIcon}."/>
+		<Loc Key="DES_HOLY_ARMS" Value="神圣武器"/>
+		<Loc Key="DES_HOLY_ARMS_DES" Value="施法者控制的所有普通单位和英雄的武器都将获得圣化. 使其能够命中免疫非魔法攻击的生物并且变得更加有效, 非魔法攻击的命中几率{ICON:ToHitBonusIcon}+10%."/>
+		<Loc Key="DES_CONSECRATION" Value="奉献"/>
+		<Loc Key="DES_CONSECRATION_DES" Value="所选城市获得生命的祝福. 该城市将免受所有混沌和死亡系附魔效果的影响."/>
+		<Loc Key="DES_LIFE_FORCE" Value="生命之力"/>
+		<Loc Key="DES_LIFE_FORCE_DES" Value="创造一个强大的生命能量场, 试图阻止任何邪恶的渗透. 所有施放的死亡系法术都将被驱散或是被抵抗."/>
+		<Loc Key="DES_TRANQUILITY" Value="宁静"/>
+		<Loc Key="DES_TRANQUILITY_DES" Value="创造一个强大的生命能量场, 试图安抚任何不稳定的影响. 所有施放的混沌系法术都将被驱散或是被抵抗."/>
+		<Loc Key="DES_CRUSADE" Value="远征"/>
+		<Loc Key="DES_CRUSADE_DES" Value="一次强力的召唤温暖了战士们的内心. 使施法者控制的所有普通单位和英雄等级提高1."/>
+		<Loc Key="DES_ARCH_ANGEL" Value="大天使"/>
+		<Loc Key="DES_ARCH_ANGEL_DES" Value="召唤一名令人敬畏的大天使. 除了战斗{ICON:MeleeIconNormal}和飞行{ICON:MovementFlyingIcon}能力外, 大天使也是强大的生命施法者. 他们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_CHARM_OF_LIFE" Value="生命符咒"/>
+		<Loc Key="DES_CHARM_OF_LIFE_DES" Value="生命将它的魅力和荣耀赐予所有的盟友. 使施法者控制的所有单位生命{ICON:HitIconNormal}提高25%(或+1, 以较大者为准)"/>
+		<Loc Key="DES_SKELETONS" Value="骷髅兵"/>
+		<Loc Key="DES_SKELETONS_DES" Value="召唤一群近战{ICON:MeleeIconNormal}骷髅战士, 箭矢几乎无法对它们造成伤害. 它们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_WEAKNESS" Value="弱点"/>
+		<Loc Key="DES_WEAKNESS_DES" Value="虹吸敌人的一些生命并削弱他们. 使目标单位的近战和远程攻击强度-2{ICON:MeleeIconNormal}{ICON:RangedIconNormal}(目标单位掷骰-2抗性)."/>
+		<Loc Key="DES_ENCH_WEAKNESS_DES" Value="虹吸敌人的一些生命并削弱他们. 使目标单位的近战和远程攻击强度-2{ICON:MeleeIconNormal}{ICON:RangedIconNormal}(目标单位掷骰-2抗性)."/>
+		<Loc Key="DES_DARK_RITUALS" Value="黑暗仪式"/>
+		<Loc Key="DES_DARK_RITUALS_DES" Value="寻找一种邪恶的方式从城市的礼拜场所窃取能量. 从宗教建筑获得的能量翻倍且+1能量{ICON:PowerIcon}, 但会降低25%的城市增长并使动乱+1."/>
+		<Loc Key="DES_CLOAK_OF_FEAR" Value="恐惧披风"/>
+		<Loc Key="DES_CLOAK_OF_FEAR_DES" Value="死亡的面容出现在所选定单位周围. 敌人必须抵抗, 否则将无法攻击受保护的单位."/>
+		<Loc Key="DES_ENCH_CLOAK_OF_FEAR_DES" Value="死亡的面容出现在所选定单位周围. 敌人必须抵抗, 否则将无法攻击受保护的单位."/>
+		<Loc Key="DES_BLACK_SLEEP" Value="黑暗沉眠"/>
+		<Loc Key="DES_BLACK_SLEEP_DES" Value="目标陷入深度, 黑暗且不祥的睡眠, 在接下来的战斗中不会执行任何行动并且-2抗性{ICON:ResistanceIconNormal}."/>
+		<Loc Key="DES_GHOULS" Value="食尸鬼"/>
+		<Loc Key="DES_GHOULS_DES" Value="召唤一群听从巫师命令的食尸鬼. 任何被食尸鬼杀死的单位都有几率成为亡灵生物."/>
+		<Loc Key="DES_LIFE_DRAIN" Value="生命吸取"/>
+		<Loc Key="DES_LIFE_DRAIN_DES" Value="吸取敌人的生命, 除非遭到抵抗. (D10抗性{ICON:ResistanceIconNormal}掷骰, 高出单位抗性值的每一点都将转化为伤害)每消耗5法力{ICON:ManaIcon}将使掷骰-1且被杀死的单位有几率变为亡灵生物."/>
+		<Loc Key="DES_TERROR" Value="恐惧术"/>
+		<Loc Key="DES_TERROR_DES" Value="死亡的真实存在压迫着敌人. 战斗中每回合每个敌方单位都必须抵抗(+1 抗性{ICON:ResistanceIconNormal}), 否则在该回合会因恐惧而无法进行任何动作."/>
+		<Loc Key="DES_DARKNESS" Value="黑暗降临"/>
+		<Loc Key="DES_DARKNESS_DES" Value="黑暗笼罩整个战场, 使所有死亡系生物的攻击{ICON:MeleeIconNormal}{ICON:RangedIconNormal}强度, 护甲{ICON:ArmourIconNormal}和抗性{ICON:ResistanceIconNormal}+1. 同时, 生命系生物的这些属性-1."/>
+		<Loc Key="DES_MANA_LEAK" Value="法力泄露"/>
+		<Loc Key="DES_MANA_LEAK_DES" Value="黑暗能量席卷战场, 使敌方巫师和施法英雄在战斗中损失法力{ICON:ManaIcon}. 拥有魔法远程攻击能力的单位每回合损失1{ICON:AmmoIcon}弹药."/>
+		<Loc Key="DES_DRAIN_POWER" Value="吸取能量"/>
+		<Loc Key="DES_DRAIN_POWER_DES" Value="死亡的触碰在敌方巫师的能量资源中撕扯开一个漏洞. 从目标巫师的法力{ICON:ManaIcon}储备中吸取50-150法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_POSSESSION" Value="占据"/>
+		<Loc Key="DES_POSSESSION_DES" Value="试图控制脆弱的心灵(-1抗性{ICON:ResistanceIconNormal}). 目标敌方普通单位或英雄在战斗期间将受你控制, 并在之后被摧毁."/>
+		<Loc Key="DES_LYCANTHROPY" Value="变狼术"/>
+		<Loc Key="DES_LYCANTHROPY_DES" Value="一种黑暗而强大的兽化诅咒倾泻在被选中之人身上. 目标普通单位将变身为狼人, 一种能够使用近战攻击{ICON:MeleeIconNormal}的野兽，并且可以在战斗内外进行恢复."/>
+		<Loc Key="DES_LYCANTHROPY_TARGET" Value="仅适用于非奇幻和非英雄单位."/>
+		<Loc Key="DES_BLACK_PRAYER" Value="黑暗祈祷"/>
+		<Loc Key="DES_BLACK_PRAYER_DES" Value="不洁的祷告祈求着堕落之神的力量. 所有敌方单位的近战, 远程, 投掷, 烈焰吐息攻击和护甲{ICON:ArmourIconNormal}-1, 抗性{ICON:ResistanceIconNormal}-2."/>
+		<Loc Key="DES_NIGHT_STALKER" Value="夜行者"/>
+		<Loc Key="DES_NIGHT_STALKER_DES" Value="召唤一名隐形的暗夜潜行者, 它的近战攻击{ICON:MeleeIconNormal}能够给看见它死亡凝视的人带来厄运. 它将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_SUBVERSION" Value="颠覆"/>
+		<Loc Key="DES_SUBVERSION_DES" Value="愤懑和不信任的窃窃私语在敌人中蔓延开来. 降低其他所有巫师与目标巫师的外交关系."/>
+		<Loc Key="DES_WALL_OF_DARKNESS" Value="黑暗之墙"/>
+		<Loc Key="DES_WALL_OF_DARKNESS_DES" Value="一道邪恶的黑暗之墙掘地而起, 阻挡敌人的任何远程攻击. 包括魔法远程攻击."/>
+		<Loc Key="DES_BERSERK" Value="狂暴"/>
+		<Loc Key="DES_BERSERK_DES" Value="战士们陷入狂暴状态, 黑色的血液在他们的体内沸腾. 使目标单位的近战攻击强度{ICON:MeleeIconNormal}翻倍, 但其护甲{ICON:ArmourIconNormal}降低至0."/>
+		<Loc Key="DES_ENCH_BERSERK_DES" Value="战士们陷入狂暴状态, 黑色的血液在他们的体内沸腾. 使目标单位的近战攻击强度{ICON:MeleeIconNormal}翻倍, 但其护甲{ICON:ArmourIconNormal}降低至0."/>
+		<Loc Key="DES_SHADOW_DEMONS" Value="暗影魔"/>
+		<Loc Key="DES_SHADOW_DEMONS_DES" Value="召唤一群能够穿越位面, 拥有再生能力的暗影恶魔. 它们可以从空中{ICON:MovementFlyingIcon}施展近战{ICON:MeleeIconNormal}和魔法远程{ICON:DeathIcon}{ICON:RangedIconNormal}攻击. 它们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_WRAITH_FORM" Value="幽灵形态"/>
+		<Loc Key="DES_WRAITH_FORM_DES" Value="死亡笼罩着一个盟友, 使其肉体枯萎, 从而成为变成一个幽灵般的生物. 目标单位将变为虚灵体单位并获得武器免疫效果."/>
+		<Loc Key="DES_WRACK" Value="毁灭术"/>
+		<Loc Key="DES_WRACK_DES" Value="一股黑暗的力量试图从远处折磨敌人. 每个单位中的每个成员必须在每回合的战斗中抵抗(+1{ICON:ResistanceIconNormal}抗性)否则将受到1点伤害."/>
+		<Loc Key="DES_EVIL_PRESENCE" Value="邪恶存在"/>
+		<Loc Key="DES_EVIL_PRESENCE_DES" Value="邪恶的存在降临城市, 腐蚀了神圣的礼拜场所. 消除从目标城市的宗教建筑获得的所有能量{ICON:PowerIcon}并取消那些建筑降低动乱的加成效果."/>
+		<Loc Key="DES_WRAITHS" Value="幽灵"/>
+		<Loc Key="DES_WRAITHS_DES" Value="召唤一群无形的幽灵, 它们是近战{ICON:MeleeIconNormal}战士, 具有窃取生命的能力, 也因此能够创造亡灵仆从. 它们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_CLOUD_OF_SHADOW" Value="暗影之云"/>
+		<Loc Key="DES_CLOUD_OF_SHADOW_DES" Value="阴影笼罩着城市, 所有的战斗都将受到黑暗力量的影响. (所有死亡系生物的攻击{ICON:MeleeIconNormal}{ICON:RangedIconNormal}强度, 护甲{ICON:ArmourIconNormal}和抗性{ICON:ResistanceIconNormal}+1. 生命系生物的这些属性-1)"/>
+		<Loc Key="DES_WARP_NODE" Value="扭曲节点"/>
+		<Loc Key="DES_WARP_NODE_DES" Value="感染能量节点, 扭曲其自然涌动. 节点将吸取-5{ICON:PowerIcon}能量而不是生成它."/>
+		<Loc Key="DES_BLACK_WIND" Value="黑暗之风"/>
+		<Loc Key="DES_BLACK_WIND_DES" Value="由最黑暗的魔法召唤出的致命狂风向敌人袭来. 目标地图位置上所有单位的所有成员都必须以-1{ICON:ResistanceIconNormal}进行抵抗, 否则将会死亡."/>
+		<Loc Key="DES_ZOMBIE_MASTERY" Value="僵尸掌控"/>
+		<Loc Key="DES_ZOMBIE_MASTERY_DES" Value="死亡的力量在战场上挥散不去, 所有在战斗中被消灭的普通单位(非英雄)都将变成僵尸并听从你的号令."/>
+		<Loc Key="DES_FAMINE" Value="饥荒"/>
+		<Loc Key="DES_FAMINE_DES" Value="死亡的气息呼向敌人, 带来饥荒和绝望. 目标城市生产的食物{ICON:FoodIcon}减半, 动乱{ICON:UnrestIcon}提高25%."/>
+		<Loc Key="DES_CURSED_LANDS" Value="诅咒之地"/>
+		<Loc Key="DES_CURSED_LANDS_DES" Value="诅咒敌人的城市, 使其居民失去工作的动力并+1动乱. 目标城市的生产{ICON:ProductionIcon}减半."/>
+		<Loc Key="DES_CRUEL_UNMINDING" Value="冷酷无情"/>
+		<Loc Key="DES_CRUEL_UNMINDING_DES" Value="死亡之触永无止境, 它会用冰冷的手触碰你的敌人, 带来恐惧和虚弱. 目标巫师永久损失1-10%的施法技能."/>
+		<Loc Key="DES_WORD_OF_DEATH" Value="死亡之言"/>
+		<Loc Key="DES_WORD_OF_DEATH_DES" Value="死亡的低语在敌人的耳畔响起. 目标单位的每个成员必须以-5{ICON:ResistanceIconNormal}的抗性进行抵抗, 否则将会被杀死."/>
+		<Loc Key="DES_DEATH_KNIGHTS" Value="死亡骑士"/>
+		<Loc Key="DES_DEATH_KNIGHTS_DES" Value="召唤拥有超强近战{ICON:MeleeIconNormal}攻击的恐怖死亡骑士从天而降{ICON:MovementFlyingIcon}. 他们可以穿刺敌人的护甲并通过窃取生命来创造亡灵仆从. 他们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_DEATH_SPELL" Value="死亡法术"/>
+		<Loc Key="DES_DEATH_SPELL_DES" Value="整个战场都能感受到死亡的冰冷, 为敌人带来致命恐惧. 战斗中每个敌方单位的所有成员都必须抵抗, 否则将会死亡."/>
+		<Loc Key="DES_ANIMATE_DEAD" Value="操纵亡灵"/>
+		<Loc Key="DES_ANIMATE_DEAD_DES" Value="对于那些掌控了它的人来说, 死亡并不是终结. 试图在战斗中复活一名已经死亡的非亡灵敌方或友方单位. (英雄, 战斗召唤生物或因不可逆转的伤害而死亡的单位除外)"/>
+		<Loc Key="DES_PESTILENCE" Value="瘟疫"/>
+		<Loc Key="DES_PESTILENCE_DES" Value="瘟疫降临敌方城市. 若目标城市人口数量超过1-10掷骰值, 则目标城市人口减少1并且动乱+2."/>
+		<Loc Key="DES_ETERNAL_NIGHT" Value="永恒之夜"/>
+		<Loc Key="DES_ETERNAL_NIGHT_DES" Value="阴影笼罩着大地, 所有战斗现在都将受到黑暗的影响 (所有死亡系生物的攻击强度, 护甲和抗性+1. 生命系生物的这些属性-1)."/>
+		<Loc Key="DES_EVIL_OMENS" Value="邪恶预兆"/>
+		<Loc Key="DES_EVIL_OMENS_DES" Value="死亡的黑暗预兆将出现在这片土地之上. 所有自然和生命系法术的施法消耗提高50%."/>
+		<Loc Key="DES_DEATH_WISH" Value="死亡之愿"/>
+		<Loc Key="DES_DEATH_WISH_DES" Value="真正致命而可怕的死亡之力能够在瞬间触及所有的领域. 所有位面的所有普通单位和英雄都必须抵抗该法术否则将会死亡."/>
+		<Loc Key="DES_DEMON_LORD" Value="恶魔领主"/>
+		<Loc Key="DES_DEMON_LORD_DES" Value="召唤一名恶魔领主, 它能够召唤至少3名次级恶魔进行战斗. 他将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_MAGIC_SPIRIT" Value="魔法之魂"/>
+		<Loc Key="DES_MAGIC_SPIRIT_DES" Value="召唤一个虚灵体魔法之魂, 能够在水上移动{ICON:MovementSwimmingIcon}并进行侦察. 它能够与能量节点融合, 从而为巫师产生魔法能量{ICON:PowerIcon}."/>
+		<Loc Key="DES_DISJUNCTION" Value="析取"/>
+		<Loc Key="DES_DISJUNCTION_DES" Value="召唤奥术魔法来对抗他人的力量. 试图驱散一个全局附魔效果."/>
+		<Loc Key="DES_DISPEL_MAGIC" Value="驱散魔法"/>
+		<Loc Key="DES_DISPEL_MAGIC_DES" Value="巫师意志的决战. 尝试在战斗中驱散单位身上的一个敌方法术."/>
+		<Loc Key="DES_SUMMONING_CIRCLE" Value="召唤之环"/>
+		<Loc Key="DES_SUMMONING_CIRCLE_DES" Value="一个强大的仪式, 允许巫师指定一个新的地方来展示他们的力量. 将你的召唤之环移动到另一个城市. 若该城市丢失, 召唤之环将回到首都."/>
+		<Loc Key="DES_DISENCHANT_AREA" Value="区域分解"/>
+		<Loc Key="DES_DISENCHANT_AREA_DES" Value="对抗敌人魔法的强大仪式. 尝试驱散地图目标位置的所有敌方法术. 在战斗中, 驱散位置将始终是战斗发生的地方."/>
+		<Loc Key="DES_RECALL_HERO" Value="召回英雄"/>
+		<Loc Key="DES_RECALL_HERO_DES" Value="作为领袖, 如果有需要您可以从战斗中召回你的仆从. 将一名友方英雄从战斗中移除, 并将其传送回召唤之环."/>
+		<Loc Key="DES_DETECT_MAGIC" Value="侦测魔法"/>
+		<Loc Key="DES_DETECT_MAGIC_DES" Value="感知正在使用的奥术力量. 显示敌方巫师当前正在施放的法术."/>
+		<Loc Key="DES_ENCHANT_ITEM" Value="物品附魔"/>
+		<Loc Key="DES_ENCHANT_ITEM_DES" Value="为普通物品灌注魔法的力量. 创造一件次级魔法物品供英雄使用."/>
+		<Loc Key="DES_SUMMON_HERO" Value="召唤英雄"/>
+		<Loc Key="DES_SUMMON_HERO_DES" Value="利用魔法的力量发出号召. 召唤一名次级英雄来率领您的军队."/>
+		<Loc Key="DES_AWARENESS" Value="警觉"/>
+		<Loc Key="DES_AWARENESS_DES" Value="使用巫师的神奇感官察看整个世界. 显示两个位面上所有城市的位置."/>
+		<Loc Key="DES_CREATE_ARTEFACT" Value="打造神器"/>
+		<Loc Key="DES_CREATE_ARTEFACT_DES" Value="为特殊物品灌注更强大的魔法力量. 创造一件魔法神器供英雄使用."/>
+		<Loc Key="DES_SUMMON_CHAMPION" Value="召唤勇士"/>
+		<Loc Key="DES_SUMMON_CHAMPION_DES" Value="利用魔法的力量发出更加强大的号召. 召唤一名勇士来率领您的军队."/>
+		<Loc Key="DES_SPELL_OF_MASTERY" Value="法术驾驭"/>
+        <Loc Key="DES_SPELL_OF_MASTERY_DES" Value="一个被神秘所笼罩的古老咒语. 在每个轮回中只能由一名巫师来施放. 完成后, 其他所有巫师将被逐出领域, 而施法者将成为魔法大师!"/>        
+		<Loc Key="DES_SPELL_OF_RETURN" Value="回归法术"/>
+        <Loc Key="DES_SPELL_OF_RETURN_DES" Value="该法术允许魔镜在被粉粹, 巫师被放逐之后使其恢复到原有的最大力量. 它将重新创建巫师的要塞和召唤之环."/>		
+		<Loc Key="DES_WAR_BEARS" Value="战争巨熊"/>
+		<Loc Key="DES_WAR_BEARS_DES" Value="召唤一群凶猛的战争巨熊, 可以带领您的军队穿越森林地形. 它们专注于近战{ICON:MeleeIconNormal}战斗并且维护消耗低廉. 它们将听从巫师的命令, 直至死亡或被放逐."/>
+		<Loc Key="DES_NATURES_WRATH" Value="自然之怒"/>
+        <Loc Key="DES_NATURES_WRATH_DES" Value="巨大的震动袭击了混沌和死亡系巫师的城市, 每回合都将攻击他们的建筑和所有实体的, 非飞行单位, 直至被驱散. (攻击建筑几率为2%, 单位为5%)"/>		
+		<Loc Key="DES_FORTRESS_LIGHTNING_BOLT_NATURE" Value="要塞 - 自然之箭"/>
+		<Loc Key="DES_FORTRESS_LIGHTNING_BOLT_SORCERY" Value="要塞 - 巫术之箭"/>
+		<Loc Key="DES_FORTRESS_LIGHTNING_BOLT_DEATH" Value="要塞 - 死亡之箭"/>
+		<Loc Key="DES_FORTRESS_LIGHTNING_BOLT_LIFE" Value="要塞 - 生命之箭"/>
+		<Loc Key="DES_FORTRESS_LIGHTNING_BOLT_CHAOS" Value="要塞 - 混沌之箭"/>
+		<Loc Key="DES_FORTRESS_LIGHTNING_BOLT_DES" Value="魔法要塞散发着巫师的能量. 在防守方的回合开始时, 它会随机向进攻方单位发射魔法箭. 这道魔法箭的能量等于防御方法师拥有该领域法术书的数量."/>
+		<Loc Key="DES_TOWN_ON_COAST_WITH_RIVER" Value="河口"/>
+		<Loc Key="DES_TOWN_ON_COAST_WITH_RIVER_DES" Value="城镇收入+30%, 最大人口增加3(不可累加). 位于河口的城镇可以建造航海建筑."/>
+		<Loc Key="DES_TOWN_ON_COAST" Value="海岸"/>
+		<Loc Key="DES_TOWN_ON_COAST_DES" Value="城镇收入+10%, 最大人口增加1(不可累加). 位于海岸的城镇可以建造航海建筑."/>
+		<Loc Key="DES_TOWN_ON_RIVER" Value="河流"/>
+		<Loc Key="DES_TOWN_ON_RIVER_DES" Value="城镇收入+20%, 最大人口增加2(不可累加)."/>
+		<Loc Key="DES_COLDNESS" Value="彻骨之寒"/>
+		<Loc Key="DES_COLDNESS_DES" Value="受到九头蛇冰霜吐息的影响, 该单位-1移动{ICON:MovementIcon}."/>
+		
+		<!--Spells targets-->
+		<Loc Key="DES_TARGET_TYPE_NONE" Value="无"/>
+		<Loc Key="DES_TARGET_TYPE_LOCATION_FRIENDLY" Value="友方城镇"/>
+		<Loc Key="DES_TARGET_TYPE_LOCATION_ENEMY" Value="敌方城镇"/>
+		<Loc Key="DES_TARGET_TYPE_LOCATION_ENEMY_NODE" Value="敌方节点"/>
+		<Loc Key="DES_TARGET_TYPE_UNIT_FRIENDLY" Value="友方单位"/>
+		<Loc Key="DES_TARGET_TYPE_UNIT_FRIENDLY_HERO" Value="友方英雄"/>
+		<Loc Key="DES_TARGET_TYPE_UNIT_ENEMY" Value="敌方单位"/>
+		<Loc Key="DES_TARGET_TYPE_UNIT" Value="任意单位"/>
+		<Loc Key="DES_TARGET_TYPE_GROUP_FRIENDLY" Value="友方队伍"/>
+		<Loc Key="DES_TARGET_TYPE_GROUP_ENEMY" Value="敌方队伍"/>
+		<Loc Key="DES_TARGET_TYPE_WIZARD_OWN" Value="施法巫师"/>
+		<Loc Key="DES_TARGET_TYPE_WIZARD_ENEMY" Value="敌方巫师"/>
+		<Loc Key="DES_TARGET_TYPE_GLOBAL" Value="全局"/>
+		<Loc Key="DES_TARGET_TYPE_HEX" Value="位置"/>
+		<Loc Key="DES_TARGET_TYPE_HEX_BATTLE_GLOBAL" Value="位置或战场"/>
+		
+		<!-- Spells Changeable Cost Description-->
+		<Loc Key="DES_CHANGEABLE_COST_DAMAGE" Value="伤害"/>
+		<Loc Key="DES_CHANGEABLE_COST_DISPEL_POWER" Value="增加更多的法力以提高驱散几率"/>
+		<Loc Key="DES_CHANGEABLE_COST_RESIST_LOWERING" Value="抗性降低"/>
+		
+		
+		<!--Skills-->
+		<Loc Key="DES_NORMAL_ATTACK" Value="近战攻击"/>
+		<Loc Key="DES_NORMAL_ATTACK_DES" Value="该单位配备普通近战武器, 没有额外的加成效果."/>
+		<Loc Key="DES_NORMAL_RANGE_ATTACK" Value="远程攻击"/>
+		<Loc Key="DES_NORMAL_RANGE_ATTACK_DES" Value="该单位配备普通远程武器, 没有额外的加成效果."/>
+		<Loc Key="DES_MAGICAL_RANGE_ATTACK" Value="魔法远程攻击"/>
+		<Loc Key="DES_MAGICAL_RANGE_ATTACK_DES" Value="该单位的远程攻击拥有魔法效果. 它们在任何距离上都能准确命中, 不会受到基于距离的命中几率{ICON:ToHitBonusIcon}影响. 攻击将完全无视目标的飞弹免疫效果, 但对拥有魔法免疫的目标无效."/>
+		<Loc Key="DES_BOULDER_RANGE_ATTACK" Value="投石远程攻击"/>
+		<Loc Key="DES_BOULDER_RANGE_ATTACK_DES" Value="这个单位通过投掷巨石进行远程攻击, 不会触发任何目标的免疫效果, 并且会单独伤害单位中的所有成员."/>
+		<Loc Key="DES_FIRE_BREATH" Value="烈焰吐息{0}"/>
+		<Loc Key="DES_FIRE_BREATH_DES" Value="烈焰吐息允许攻击单位在进行战斗之前喷射炽热的火焰."/>
+		<Loc Key="DES_COLD_BREATH" Value="冰霜吐息{0}"/>
+		<Loc Key="DES_COLD_BREATH_DES" Value="冰霜吐息允许攻击单位在进行战斗之前吐出刺骨的寒风. 此外还将施加彻骨之寒效果, 使移动{ICON:MovementIcon}降低1, 除非目标免疫冰霜或魔法效果."/>
+		<Loc Key="DES_LIGHTNING_BREATH" Value="闪电吐息{0}"/>
+		<Loc Key="DES_LIGHTNING_BREATH_DES" Value="闪电吐息允许攻击单位在进入战斗之前射出穿刺闪电冲击波."/>
+		<Loc Key="DES_THROWN" Value="投掷{0}"/>
+		<Loc Key="DES_THROWN_DES" Value="投掷武器允许攻击单位在进行战斗之前投掷武器."/>
+		<Loc Key="DES_DEATH_GAZE" Value="死亡凝视{0}"/>
+		<Loc Key="DES_DEATH_GAZE_DES" Value="单位中的所有成员要么抵抗(-1抗性{ICON:ResistanceIconNormal}/技能等级)死亡凝视, 要么立即死亡. 凝视效果将在进入近战战斗之前生效."/>
+        <Loc Key="DES_STONING_GAZE" Value="石化凝视{0}"/>
+		<Loc Key="DES_STONING_GAZE_DES" Value="单位中的所有成员要么抵抗(-1每技能等级)石化凝视, 要么变成石头并立即死亡. 石化伤害是不可逆转的(你无法在这场战斗中治疗受到影响的单位成员). 凝视攻击发生在吐息和投掷攻击之后."/>
+		<Loc Key="DES_DOOM_GAZE" Value="厄运凝视{0}"/>
+		<Loc Key="DES_DOOM_GAZE_DES" Value="厄运凝视是一种凝视攻击, 它将施加厄运伤害, 这是一种会影响命中{ICON:ToHitBonusIcon}或护甲{ICON:ArmourIconNormal}的伤害."/>
+		<Loc Key="DES_SKILL_DISPEL_EVIL" Value="驱邪术"/>
+		<Loc Key="DES_SKILL_DISPEL_EVIL_DES" Value="召唤圣光, 利用神圣之火包围目标混沌或死亡系单位. 无法承受该效果的单位(-4{ICON:ResistanceIconNormal}抗性/亡灵生物-10{ICON:ResistanceIconNormal}抗性)将被立即消灭."/>
+		<Loc Key="DES_POISON_ADDON2" Value="施毒{0}"/>
+		<Loc Key="DES_POISON_ADDON2_DES" Value="施毒攻击迫使防御单位抵抗每点中毒伤害(中毒伤害由施毒等级乘以攻击方单位成员数量决定)."/>
+		<Loc Key="DES_STONING_ADDON2" Value="石化之触{0}"/>
+		<Loc Key="DES_STONING_ADDON2_DES" Value="单位中的所有成员要么抵抗{ICON:ResistanceIconNormal}(-1每技能等级)石化之触, 要么变成石头并立即死亡. 石化伤害是不可逆转的(你无法在这场战斗中治疗受到影响的单位成员). 该效果能够与其他近战攻击叠加."/>
+		<Loc Key="DES_LIFE_STEALING_ADDON2" Value="生命窃取{0}"/>
+		<Loc Key="DES_LIFE_STEALING_ADDON2_DES" Value="对于生命窃取攻击 (受到攻击的单位获得相当于生命窃取等级的抗性), 每一点抵抗失败{ICON:ResistanceIconNormal}时, 防守方-1{ICON:HitIconNormal}, 而进攻方+1{ICON:HitIconNormal}. 主要由生命窃取杀死的单位将被复活为亡灵, 并被其消灭者控制(死亡免疫将无视该效果)."/>
+		<Loc Key="DES_IMMOLATION_ADDON2" Value="献祭"/>
+		<Loc Key="DES_IMMOLATION_ADDON2_DES" Value="用炽热的光环包围目标单位, 对进行近战战斗的所有敌人施展强度为4的魔法攻击. 该魔法攻击可与单位普通攻击叠加."/>
+		<Loc Key="DES_SKILL_PLANE_SHIFT" Value="位面转移"/>
+		<Loc Key="DES_SKILL_PLANE_SHIFT_DES" Value="位面转移允许单位在位面之间来回移动."/>
+		
+		<Loc Key="DES_TO_HIT" Value="{ICON:ToHitBonusIcon}{0}命中几率"/>
+		<Loc Key="DES_TO_HIT_DES" Value="每一点额外增加单位10%命中几率."/>
+		<Loc Key="DES_LUCKY" Value="幸运术"/>
+		<Loc Key="DES_LUCKY_DES" Value="好运气使该单位的所有掷骰+1, 包括攻击, 护甲和抗性."/>
+		<Loc Key="DES_ARMOR_PIERCING" Value="护甲穿透"/>
+		<Loc Key="DES_ARMOR_PIERCING_DES" Value="护甲穿透使防御者的护甲等级效果减半."/>
+		<Loc Key="DES_ILLUSION" Value="幻象"/>
+		<Loc Key="DES_ILLUSION_DES" Value="幻象攻击使攻击单位完全无视防守方的护甲."/>
+		<Loc Key="DES_FIRST_STRIKE" Value="先攻"/>
+		<Loc Key="DES_FIRST_STRIKE_DES" Value="先攻允许单位抢先造成伤害, 但在吐息, 投掷和凝视攻击之后."/>
+		<Loc Key="DES_NEGATIVE_FIRST_STRIKE" Value="无视先攻"/>
+		<Loc Key="DES_NEGATIVE_FIRST_STRIKE_DES" Value="使单位让敌人的先攻无效. 该特殊能力无法作用于投掷, 吐息或凝视攻击."/>
+		
+		<Loc Key="DES_COLD_IMMUNITY" Value="冰霜免疫"/>
+		<Loc Key="DES_COLD_IMMUNITY_DES" Value="冰霜免疫使单位不会受到冰霜攻击的影响."/>
+		<Loc Key="DES_DEATH_IMMUNITY" Value="死亡免疫"/>
+		<Loc Key="DES_DEATH_IMMUNITY_DES" Value="死亡免疫可以抵消所有导致死亡和恐惧的法术."/>
+		<Loc Key="DES_FIRE_IMMUNITY" Value="火焰免疫"/>
+		<Loc Key="DES_FIRE_IMMUNITY_DES" Value="火焰免疫使单位免疫火焰攻击."/>
+		<Loc Key="DES_ILLUSIONS_IMMUNITY" Value="幻象免疫"/>
+		<Loc Key="DES_ILLUSIONS_IMMUNITY_DES" Value="幻象免疫无视幻象攻击的加成, 并使单位不会受到幻象抵抗法术的影响. 此外, 该单位还将能够看到隐形单位."/>
+		<Loc Key="DES_SKILL_MAGIC_IMMUNITY" Value="魔法免疫"/>
+		<Loc Key="DES_SKILL_MAGIC_IMMUNITY_DES" Value="魔法免疫使单位免疫所有形式的魔法, 包括远程魔法攻击和所有的法术效果, 无论属于哪一类魔法领域."/>
+		<Loc Key="DES_MISSILE_IMMUNITY" Value="飞弹免疫"/>
+		<Loc Key="DES_MISSILE_IMMUNITY_DES" Value="飞弹免疫使单位免疫所有形式的普通飞弹攻击(非魔法和投石)."/>
+		<Loc Key="DES_POISON_IMMUNITY" Value="中毒免疫"/>
+		<Loc Key="DES_POISON_IMMUNITY_DES" Value="中毒免疫使单位免疫所有形式的施毒攻击."/>
+		<Loc Key="DES_STONING_IMMUNITY" Value="石化免疫"/>
+		<Loc Key="DES_STONING_IMMUNITY_DES" Value="石化免疫使单位免疫所有形式的石化攻击."/>
+		<Loc Key="DES_WEAPON_IMMUNITY" Value="武器免疫"/>
+		<Loc Key="DES_WEAPON_IMMUNITY_DES" Value="武器免疫使该单位几乎不会受到那些没有秘银, 艾德曼合金, 祝福或燃烧武器的普通单位的攻击, 并将该单位的护甲提高至10以抵抗非魔法攻击. 武器免疫不能抵抗奇幻生物和法术."/>
+		<Loc Key="DES_LARGE_SHIELD" Value="巨盾"/>
+		<Loc Key="DES_LARGE_SHIELD_DES" Value="巨型盾牌为单位+2护甲, 以抵抗所有远程攻击."/>
+		<Loc Key="DES_CAUSE_FEAR" Value="恐惧引发"/>
+		<Loc Key="DES_CAUSE_FEAR_DES" Value="每个在近战中陷入恐惧的敌方单位, 必须抵抗该魔法效果否则将被恐惧冻结, 即使遭到攻击也无动于衷."/>
+		<Loc Key="DES_HOLY_BONUS" Value="神圣加成{0}"/>
+		<Loc Key="DES_HOLY_BONUS_DES" Value="神圣加成提高战斗中所有友方单位的攻击强度, 护甲和抗性, 具体数值由神圣加成等级决定. 该加成效果无法累积."/>
+		<Loc Key="DES_HOLY_BONUS_UNIT" Value="神圣加成单位{0}"/>
+		<Loc Key="DES_HOLY_BONUS_UNIT_DES" Value="该单位受神圣加成{0}影响."/>
+		
+		<Loc Key="DES_ARCANE_POWER" Value="奥术能量"/>
+		<Loc Key="DES_ARCANE_POWER_DES" Value="奥术能量使英雄的魔法远程攻击+1每等级. 超级奥术能量的该加成效果+50%."/>
+		<Loc Key="DES_ARCANE_POWER_SUPER" Value="超级奥术能量"/>		
+		<Loc Key="DES_LEGENDARY" Value="传奇"/>
+		<Loc Key="DES_LEGENDARY_DES" Value="传奇英雄的巫师名望+3/等级. 超级传奇的该加成效果为+4.5/等级, 在必要时会向下取整."/>
+		<Loc Key="DES_LEGENDARY_SUPER" Value="超级传奇"/>
+		<Loc Key="DES_AGILITY" Value="敏捷"/>
+		<Loc Key="DES_AGILITY_DES" Value="使单位的护甲{ICON:ArmourIconNormal}+1/等级. 超级敏捷的该加成效果+50%."/>
+		<Loc Key="DES_AGILITY_SUPER" Value="超级敏捷"/>
+		<Loc Key="DES_LUCKY_HERO_DES" Value="幸运使该单位的所有掷骰+1, 包括攻击{ICON:MeleeIconNormal}{ICON:RangedIconNormal}, 护甲{ICON:ArmourIconNormal}和抗性."/>
+		<Loc Key="DES_NOBLE" Value="贵族"/>
+		<Loc Key="DES_NOBLE_DES" Value="贵族英雄不需要花费任何钱财, 而是每回合为你贡献相当于10 x 等级数量的金币."/>
+		<Loc Key="DES_ARMSMASTER" Value="武器大师"/>
+		<Loc Key="DES_ARMSMASTER_DES" Value="武器大师在每回合结束时为所有与英雄一起的非英雄单位增加+2/每级经验每等级. 超级武器大师的该加成效果提高50%."/>
+		<Loc Key="DES_ARMSMASTER_SUPER" Value="超级武器大师"/>
+		<Loc Key="DES_ARMSMASTER_UNIT" Value="武器大师单位"/>
+		<Loc Key="DES_ARMSMASTER_UNIT_DES" Value="该单位受到武器大师技能影响"/>
+		<Loc Key="DES_BLADEMASTER" Value="剑圣"/>
+		<Loc Key="DES_BLADEMASTER_DES" Value="每2级经验, 剑圣将使英雄的命中几率+10%{ICON:ToHitBonusIcon}. 超级剑圣的该加成效果提高50%."/>
+		<Loc Key="DES_BLADEMASTER_SUPER" Value="超级剑圣"/>
+		<Loc Key="DES_CONSTITUTION" Value="体格"/>
+		<Loc Key="DES_CONSTITUTION_DES" Value="为英雄的生命{ICON:HitIconNormal}按照+1/等级来提高英雄的活力, 使其超出常人的标准. 超级体格的该加成效果提高50%."/>
+		<Loc Key="DES_CONSTITUTION_SUPER" Value="超级体格"/>
+        <Loc Key="DES_MIGHT" Value="力量"/>
+		<Loc Key="DES_MIGHT_DES" Value="力量使英雄的徒手攻击+1/等级. 超级力量的该加成效果提高50%."/>
+		<Loc Key="DES_MIGHT_SUPER" Value="超级力量"/>
+		<Loc Key="DES_PRAYMASTER" Value="祈祷大师"/>
+		<Loc Key="DES_PRAYMASTER_DES" Value="祈祷大师为战斗中的所有单位的所有抗性{ICON:ResistanceIconNormal}掷骰+1/等级. 超级祈祷大师的该加成效果提高50%."/>
+		<Loc Key="DES_PRAYMASTER_UNIT" Value="祈祷大师单位"/>
+		<Loc Key="DES_PRAYMASTER_UNIT_DES" Value="该单位受到祈祷大师技能的影响"/>
+		<Loc Key="DES_HEALER" Value="治愈师"/>
+		<Loc Key="DES_HEALER_DES" Value="治愈师提高对与之在一起的所有单位的治疗效果, 相当于最大治疗的25%."/>
+		<Loc Key="DES_PRAYMASTER_SUPER" Value="超级祈祷大师"/>
+		<Loc Key="DES_SCOUTING" Value="侦察{0}"/>
+		<Loc Key="DES_SCOUTING_DES" Value="侦察将根据等级提高单位在陆地地图上的可见范围."/>
+		<Loc Key="DES_CHARMED" Value="魅惑"/>
+		<Loc Key="DES_CHARMED_DES" Value="被魅惑的英雄在抗性{ICON:ResistanceIconNormal}掷骰中永远不会失败."/>
+		<Loc Key="DES_SAGE" Value="贤者"/>
+		<Loc Key="DES_SAGE_DES" Value="贤者英雄每回合贡献3法术研究{ICON:ResearchIcon}到巫术的总研究点数中. 超级贤者的该加成效果提高50%."/>
+		<Loc Key="DES_SAGE_SUPER" Value="超级贤者"/>
+		<Loc Key="DES_FOODIE_DESa" Value="美食家"/>
+		<Loc Key="DES_FOODIE_DES_DESa" Value="这名英雄喜爱美食并且只接受{ICON:FoodIcon}作为维护费(3点/回合), 这会使得他们更强大(+1 {ICON:ResistanceIconNormal}, +1 {ICON:RangedIconNormal}, +1 {ICON:ArmourIconNormal} + 1 {ICON:ResistanceIconNormal}, +1 {ICON:HitIconNormal}) (若为大领主则+2而不是+1)."/>
+		<Loc Key="DES_PEASANT_DESa" Value="农夫"/>
+		<Loc Key="DES_PEASANT_DES_DESa" Value="这名英雄喜欢将精力花费在耕作上并乐此不疲. 他们认为免费为您效劳是其职责所在, 将每回合额外产生2{ICON:FoodIcon}. (每3级提高2)."/>
+		<Loc Key="DES_BLACK_CHANNELS" Value="黑暗引导"/>
+		<Loc Key="DES_BLACK_CHANNELS_DES" Value="普通, 英雄或亡灵生物堕落为邪恶之灵, 使近战攻击强度+2, 远程攻击强度, 吐息攻击, 生命值, 抗性和护甲+1."/>
+		<Loc Key="DES_BLACK_CHANNELS_TARGET" Value="非奇幻单位, 英雄或亡灵."/>
+		<Loc Key="DES_CHAOS_CHANNELS" Value="混沌引导"/>
+		<Loc Key="DES_CHAOS_CHANNELS_DES" Value="目标普通单位或英雄获得以下混沌突变效果之一: 恶魔皮肤(+3护甲), 恶魔之翼(获得飞行能力)或喷火(+2火焰吐息或者使单位获得喷火的能力). 一旦受到该法术影响, 该生物将永远无法再次被混沌引导."/>
+		<Loc Key="DES_CHAOS_CHANNELS_TARGET" Value="非奇幻单位或英雄."/>
+		<Loc Key="DES_CHAOS_CHANNELS1_DES" Value="获得恶魔皮肤(+3护甲)."/>
+		<Loc Key="DES_CHAOS_CHANNELS2_DES" Value="获得恶魔之翼(能够飞行)."/>
+		<Loc Key="DES_CHAOS_CHANNELS3_DES" Value="获得烈焰吐息. 攻击强度随单位等级而提高"/>
+		<Loc Key="DES_MOUNTAINEER" Value="巡山人"/>
+		<Loc Key="DES_MOUNTAINEER_DES" Value="巡山人允许与之一起的所有单位以每格1移动的消耗穿过山脉和丘陵."/>
+		<Loc Key="DES_FORESTER" Value="护林人"/>
+		<Loc Key="DES_FORESTER_DES" Value="护林人允许与之一起的所有单位以每格1移动的消耗穿过森林."/>
+		<Loc Key="DES_EARTH_WALKER_DESa" Value="大地行者"/>
+		<Loc Key="DES_EARTH_WALKER_DES_DESa" Value="大地行者允许所有与之叠加的单位在通过沼泽, 沙漠和苔原地形时每格只消耗1点移动点数."/>
+		<Loc Key="DES_NON_CORPOREAL" Value="虚灵体"/>
+		<Loc Key="DES_NON_CORPOREAL_DES" Value="虚灵体允许单位以1移动的消耗穿过任何陆地位置, 并允许其不受阻碍地穿过城墙."/>
+		<Loc Key="DES_SKILL_WIND_WALKING_DES" Value="风行允许单位和与之在一起的其他单位在陆地地图上飞行."/>
+		<Loc Key="DES_PATHFINDING" Value="寻路"/>
+		<Loc Key="DES_PATHFINDING_DES" Value="寻路允许单位和所有与之一起的单位, 以1移动的消耗移动至任意地图位置上."/>
+		<Loc Key="DES_TRANSPORTER" Value="运输者"/>
+		<Loc Key="DES_TRANSPORTER_DES" Value="运输者允许单位携带其他8个单位."/>
+		<Loc Key="DES_CASTER" Value="施法者({0}法力)"/>
+		<Loc Key="DES_CASTER_DES" Value="施法者允许单位在战斗中施法, 而无需消耗法力储备中的法力. 若施法者英雄位于巫师要塞之内, 会将施法者技能的一半添加到巫师正在施放的陆地法术中, 但您仍必须提供所需的法力来维持该技能."/>
+		<Loc Key="DES_ENCHANTED1_WEAPON" Value="自然附魔武器"/>
+		<Loc Key="DES_ENCHANTED1_WEAPON_DES" Value="允许单位命中具有武器免疫的生物."/>
+		<Loc Key="DES_WALL_CRUSHER" Value="碎墙者"/>
+		<Loc Key="DES_WALL_CRUSHER_DES" Value="允许该单位在攻城战中摧毁城墙.\n若该单位与城墙相邻, 则摧毁几率为50%, 如果距离更远则为25%."/>
+		<Loc Key="DES_SKILL_SETTLER" Value="殖民者"/>
+		<Loc Key="DES_SKILL_SETTLER_DES" Value="允许该单位建立新城镇."/>
+		<Loc Key="DES_SKILL_ENGINEER" Value="工程师"/>
+		<Loc Key="DES_SKILL_ENGINEER_DES" Value="允许该单位修建道路. 道路能够降低地图位置的移动消耗. 与道路相连的城镇能够提供额外收入."/>
+		<Loc Key="DES_SKILL_MELD" Value="融合者"/>
+		<Loc Key="DES_SKILL_MELD_DES" Value="允许该单位与能量节点(混沌, 巫术或自然)融合以控制该节点并使巫师从中受益."/>
+		<Loc Key="DES_SKILL_MELD_ADVANCED" Value="融合者II"/>
+		<Loc Key="DES_SKILL_MELD_ADVANCED_DES" Value="允许该单位与能量节点(混沌, 巫术或自然)融合以控制该节点并使巫师从中受益. 此外, 下一次与该节点融合的成功几率只有25%."/>
+		<Loc Key="DES_SKILL_PURIFY" Value="净化者"/>
+		<Loc Key="DES_SKILL_PURIFY_DES" Value="允许该单位净化被腐蚀的位置."/>
+		<Loc Key="DES_ENCHANTED2_WEAPON" Value="附魔武器"/>
+		<Loc Key="DES_ENCHANTED2_WEAPON_DES" Value="装备此类武器单位的近战攻击和非魔法远程攻击的命中几率{ICON:ToHitBonusIcon}+10%, 但不包括特殊攻击. 允许单位命中具有武器免疫效果的生物."/>
+		<Loc Key="DES_MITHRIL_WEAPON" Value="秘银武器"/>
+		<Loc Key="DES_MITHRIL_WEAPON_DES" Value="装备此类武器单位的所有近战攻击和非魔法远程攻击命中几率{ICON:ToHitBonusIcon}+10%, 近战{ICON:MeleeIconNormal}攻击强度+1, 非魔法远程{ICON:RangedIconNormal}攻击强度+1, 投掷攻击强度+1, 护甲{ICON:ArmourIconNormal}+1. 允许命中具有武器免疫效果的生物."/>
+		<Loc Key="DES_ADAMANTINE_WEAPON" Value="艾德曼合金武器"/>
+		<Loc Key="DES_ADAMANTINE_WEAPON_DES" Value="装备此类武器单位的所有近战攻击和非魔法远程攻击命中几率{ICON:ToHitBonusIcon}+10%, 近战{ICON:MeleeIconNormal}攻击强度+2, 非魔法远程{ICON:RangedIconNormal}攻击强度+2, 投掷攻击强度+2, 护甲{ICON:ArmourIconNormal}+1. 允许命中具有武器免疫效果的生物."/>
+		<Loc Key="DES_LEADERSHIP" Value="领导力"/>
+		<Loc Key="DES_LEADERSHIP_SUPER" Value="超级领导力"/>
+		<Loc Key="DES_LEADERSHIP_DES" Value="领导力将使战斗中所有非奇幻单位每3级+1{ICON:MeleeIconNormal}攻击强度且英雄在6级时+1{ICON:RangedIconNormal}. 它还将提高单位的吐息和投掷攻击加成效果. 超级领导力将使加成效果提高50%."/>
+		<Loc Key="DES_LEADERSHIP_UNIT" Value="领导力单位"/>
+		<Loc Key="DES_LEADERSHIP_UNIT_DES" Value="该单位受到领导力技能影响."/>
+		<Loc Key="DES_UNDEAD" Value="亡灵"/>
+		<Loc Key="DES_UNDEAD_DES" Value="亡灵生物永远无法通过普通或是魔法方式治疗, 并获得死亡系生物的所有免疫和易伤效果. 此外, 变成亡灵的奇幻生物法力{ICON:ManaIcon}维护消耗提高50%."/>
+		<Loc Key="DES_TELEPORTING" Value="传送"/>
+		<Loc Key="DES_TELEPORTING_DES" Value="传送允许单位以1移动的消耗出现在战斗地图的任何地方."/>
+		<Loc Key="DES_MERGING" Value="相融术"/>
+		<Loc Key="DES_MERGING_DES" Value="相融术允许一个单位以1移动的消耗出现在战斗地图的任何地方."/>
+		<Loc Key="DES_SUMMON_DEMONS" Value="召唤恶魔"/>
+		<Loc Key="DES_SUMMON_DEMONS_DES" Value="允许在战斗中召唤恶魔. 召唤者将持续召唤且无法进行其他动作. 即便召唤者被杀死, 被召唤的恶魔仍将存在, 但会在战斗结束时消失."/>
+		<Loc Key="DES_LONG_RANGE" Value="远距离"/>
+		<Loc Key="DES_LONG_RANGE_DES" Value="远距离将飞弹攻击的射程惩罚限制为最多-1."/>
+		<Loc Key="DES_RESIST_TO_ALL_1" Value="完全抵抗+1"/>
+		<Loc Key="DES_RESIST_TO_ALL_2" Value="完全抵抗+2"/>
+		<Loc Key="DES_RESIST_TO_ALL_DES" Value="完全抵抗将根据列出的加成等级以提高队伍中所有友方单位的抗性. 加成不与其他具有相同效果的生物累积."/>
+		<Loc Key="DES_RESIST_TO_ALL_UNIT_1_DES" Value="该单位受到完全抵抗+1技能影响."/>
+		<Loc Key="DES_RESIST_TO_ALL_UNIT_2_DES" Value="该单位受到完全抵抗+2技能影响."/>
+		<Loc Key="DES_ITEM_MELEE_ATTACK" Value="{0}近战攻击加成"/>
+		<Loc Key="DES_ITEM_MELEE_ATTACK_DES" Value="代表单位的近战攻击加成效果."/>
+		<Loc Key="DES_ITEM_MELEE_ATTACK_AXE_DES" Value="代表单位对近战攻击和投掷攻击的加成效果."/>
+		<Loc Key="DES_ITEM_RANGE_ATTACK" Value="{0}远程攻击加成"/>
+		<Loc Key="DES_ITEM_RANGE_ATTACK_DES" Value="代表单位的远程攻击加成效果."/>
+		<Loc Key="DES_ITEM_ATTACK_STRENGTH" Value="{0}近战和远程攻击加成"/>
+		<Loc Key="DES_ITEM_ATTACK_STRENGTH_DES" Value="代表单位的近战和远程攻击加成效果."/>
+		<Loc Key="DES_ITEM_DEFENCE" Value="{0}护甲加成"/>
+		<Loc Key="DES_ITEM_DEFENCE_DES" Value="代表单位的护甲加成效果."/>
+		<Loc Key="DES_ITEM_MELEE_TO_HIT" Value="{0}近战命中几率"/>
+		<Loc Key="DES_ITEM_MELEE_TO_HIT_DES" Value="每增加一点都将使该单位的近战攻击命中几率提高10%."/>
+		<Loc Key="DES_ITEM_RANGE_TO_HIT" Value="{0}远程命中几率"/>
+		<Loc Key="DES_ITEM_RANGE_TO_HIT_DES" Value="每增加一点都将使该单位的远程攻击命中几率提高10%."/>
+		<Loc Key="DES_ITEM_TO_HIT" Value="{0}近战和远程命中几率"/>
+		<Loc Key="DES_ITEM_TO_HIT_DES" Value="每增加一点都将使该单位的近战和远程攻击命中几率提高10%."/>
+		<Loc Key="DES_ITEM_MOVEMENT_POINTS" Value="{0}移动加成"/>
+		<Loc Key="DES_ITEM_MOVEMENT_POINTS_DES" Value="代表单位的移动加成效果."/>
+		<Loc Key="DES_ITEM_RESIST" Value="{0}抗性加成"/>
+		<Loc Key="DES_ITEM_RESIST_DES" Value="代表单位的抗性加成效果."/>
+		<Loc Key="DES_ITEM_MANA_POINTS" Value="{0}法力"/>
+		<Loc Key="DES_ITEM_MANA_POINTS_DES" Value="代表单位的法力加成效果."/>
+		<Loc Key="DES_ITEM_SPELL_SAVE" Value="{0}法术豁免"/>
+		<Loc Key="DES_ITEM_SPELL_SAVE_DES" Value="针对英雄施放的某些法术, 目标的抗性惩罚会相应增加."/>
+		<Loc Key="DES_ITEM_FLAMING" Value="炽热"/>
+		<Loc Key="DES_ITEM_FLAMING_DES" Value="在战斗中为武器攻击提供+3伤害加成."/>
+		<Loc Key="DES_ITEM_LIGHTNING" Value="破碎"/>
+		<Loc Key="DES_ITEM_LIGHTNING_DES" Value="破碎攻击是一类魔法攻击, 具有护甲穿透效果.(使敌人护甲减半)"/>
+		<Loc Key="DES_ITEM_CHAOS" Value="混沌"/>
+		<Loc Key="DES_ITEM_CHAOS_DES" Value="这件物品蕴含的力量会使英雄的武器造成厄运伤害(自动造成伤害, 且将影响命中{ICON:ToHitBonusIcon}或护甲{ICON:ArmourIconNormal}加成)."/>
+		<Loc Key="DES_ITEM_DESTRUCTION" Value="毁灭"/>
+		<Loc Key="DES_ITEM_DESTRUCTION_DES" Value="毁灭将赋予一次触摸攻击, 有一定几率(针对抗性{ICON:ResistanceIconNormal})消灭单个单位成员."/>
+		<Loc Key="DES_ITEM_VAMPIRIC" Value="吸血鬼"/>
+		<Loc Key="DES_ITEM_VAMPIRIC_DES" Value="吸血鬼武器将赋予一次触摸攻击, 造成生命窃取伤害(若抵抗失败, 防守方-1生命而进攻方+1; 防守方可能变为亡灵生物)."/>
+		<Loc Key="DES_ITEM_DEATH" Value="死亡"/>
+		<Loc Key="DES_ITEM_DEATH_DES" Value="死亡武器的受害者必须在以-3{ICON:ResistanceIconNormal}抗性的情况下抵抗, 否则将会死亡."/>
+		<Loc Key="DES_ITEM_POWER_DRAIN" Value="能量吸取"/>
+		<Loc Key="DES_ITEM_POWER_DRAIN_DES" Value="能量吸取将使每次攻击从目标身上吸取-2到-20点法力{ICON:ManaIcon}(若有). 魔法和死亡免疫会保护这个效果, 且祝福效果降低50%. 法力将被攻击者吸取."/>
+		<Loc Key="DES_ITEM_HOLY_AVENGER" Value="神圣复仇者"/>
+		<Loc Key="DES_ITEM_HOLY_AVENGER_DES" Value="神圣复仇者赋予两种法术效果: 祝福(对抗混沌和死亡系单位时+3{ICON:ResistanceIconNormal}抗性和护甲{ICON:ArmourIconNormal})和驱邪(混沌和死亡系生物必须抵抗惩罚效果否则将死亡)."/>
+		<Loc Key="DES_ITEM_STONING" Value="石化"/>
+		<Loc Key="DES_ITEM_STONING_DES" Value="单位中的成员要么抵抗石化之触(-1{ICON:ResistanceIconNormal}/每技能等级), 要么变成石头并死亡. 石化伤害是不可逆转的(你无法在这场战斗中治疗受到影响的单位成员). 该效果能够与其他近战攻击叠加."/>
+		<Loc Key="DES_CREATE_UNDEAD_MELEE_ATTACK" Value="创造亡灵"/>
+		<Loc Key="DES_CREATE_UNDEAD_MELEE_ATTACK_DES" Value="一种特殊的近战攻击. 若战斗获胜, 任何被创造亡灵, 生命窃取或生命吸取造成大量伤害或被杀死的敌方单位都将变成亡灵生物并听从对方的命令."/>
+		<Loc Key="DES_REANIMATED_SETTLER" Value="复生的殖民者"/>
+		<Loc Key="DES_REANIMATED_SETTLER_DES" Value="该殖民者无法建造城镇."/>
+		<Loc Key="DES_ADD_SPELL" Value="添加法术 - "/>
+		
+		<!--XP Levels-->
+		<Loc Key="DES_HERO_LEVEL" Value="英雄等级"/>
+		<Loc Key="DES_HERO_LEVEL_DES" Value="这名英雄可以获得经验值并提高等级. 更高的等级将提升英雄的属性."/>
+		<Loc Key="DES_UNIT_LEVEL" Value="单位等级"/>
+		<Loc Key="DES_UNIT_LEVEL_DES" Value="该单位可以获得经验值并提高等级. 更高的等级将提升单位的属性."/>
+		<Loc Key="DES_LVL_RECRUIT" Value="新兵"/>
+		<Loc Key="DES_LVL_RECRUIT_DES" Value="该单位尚未接受战斗训练."/>
+		<Loc Key="DES_LVL_REGULAR" Value="正规军"/>
+		<Loc Key="DES_LVL_REGULAR_DES" Value="该单位掌握了基本的战斗技巧并获得以下加成:\n\n+1{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+1{ICON:ResistanceIconNormal}"/>
+		<Loc Key="DES_LVL_VETERAN" Value="老兵"/>
+		<Loc Key="DES_LVL_VETERAN_DES" Value="该单位掌握了进阶战斗技巧并获得以下加成:\n\n+1{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+1{ICON:ArmourIconNormal}\n\n+2{ICON:ResistanceIconNormal}"/>
+		<Loc Key="DES_LVL_ELITE" Value="精英"/>
+		<Loc Key="DES_LVL_ELITE_DES" Value="该单位拥有丰富的战斗经验并获得以下加成:\n\n+2{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+1{ICON:ToHitBonusIcon}\n\n+1{ICON:ArmourIconNormal}\n\n+3{ICON:ResistanceIconNormal}\n\n+1{ICON:HitIconNormal}"/>
+		<Loc Key="DES_LVL_ULTRA_ELITE" Value="超级精英"/>
+		<Loc Key="DES_LVL_ULTRA_ELITE_DES" Value="该单位拥有出色的战斗经验并获得以下加成:\n\n+2{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+2{ICON:ToHitBonusIcon}\n\n+2{ICON:ArmourIconNormal}\n\n+4{ICON:ResistanceIconNormal}\n\n+1{ICON:HitIconNormal}"/>
+		<Loc Key="DES_LVL_CHAMPION" Value="勇士"/>
+		<Loc Key="DES_LVL_CHAMPION_DES" Value="单位可达到的最高等级. 获得以下加成:\n\n+3{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+3{ICON:ToHitBonusIcon}\n\n+2{ICON:ArmourIconNormal}\n\n+5{ICON:ResistanceIconNormal}\n\n+2{ICON:HitIconNormal}"/>
+		<Loc Key="DES_LVL_HERO" Value="英雄"/>
+		<Loc Key="DES_LVL_HERO_DES" Value="英雄没有加成效果."/>
+		<Loc Key="DES_LVL_MYRMIDON" Value="仆从"/>
+		<Loc Key="DES_LVL_MYRMIDON_DES" Value="仆从获得以下加成:\n\n+1{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+1{ICON:ArmourIconNormal}\n\n+1{ICON:ResistanceIconNormal}\n\n+1{ICON:HitIconNormal}"/>
+		<Loc Key="DES_LVL_CAPTAIN" Value="队长"/>
+		<Loc Key="DES_LVL_CAPTAIN_DES" Value="队长获得以下加成:\n\n+2{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+1{ICON:ToHitBonusIcon}\n\n+1{ICON:ArmourIconNormal}\n\n+2{ICON:ResistanceIconNormal}\n\n+2{ICON:HitIconNormal}"/>
+		<Loc Key="DES_LVL_COMMANDER" Value="指挥官"/>
+		<Loc Key="DES_LVL_COMMANDER_DES" Value="指挥官获得以下加成:\n\n+3{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+1{ICON:ToHitBonusIcon}\n\n+2{ICON:ArmourIconNormal}\n\n+3{ICON:ResistanceIconNormal}\n\n+3{ICON:HitIconNormal}"/>
+		<Loc Key="DES_LVL_CHAMPION_HERO" Value="勇士英雄"/>
+		<Loc Key="DES_LVL_CHAMPION_HERO_DES" Value="勇士英雄获得以下加成:\n\n+4{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+1{ICON:ToHitBonusIcon}\n\n+2{ICON:ArmourIconNormal}\n\n+4{ICON:ResistanceIconNormal}\n\n+4{ICON:HitIconNormal}"/>
+		<Loc Key="DES_LVL_LORD" Value="领主"/>
+		<Loc Key="DES_LVL_LORD_DES" Value="领主获得以下加成:\n\n+5{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+2{ICON:ToHitBonusIcon}\n\n+3{ICON:ArmourIconNormal}\n\n+5{ICON:ResistanceIconNormal}\n\n+5{ICON:HitIconNormal}"/>
+		<Loc Key="DES_LVL_GRAND_LORD" Value="大领主"/>
+		<Loc Key="DES_LVL_GRAND_LORD_DES" Value="大领主获得以下加成:\n\n+6{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+2{ICON:ToHitBonusIcon}\n\n+3{ICON:ArmourIconNormal}\n\n+6{ICON:ResistanceIconNormal}\n\n+6{ICON:HitIconNormal}"/>
+		<Loc Key="DES_LVL_SUPER_HERO" Value="超级英雄"/>
+		<Loc Key="DES_LVL_SUPER_HERO_DES" Value="超级英雄获得以下加成:\n\n+7{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+2{ICON:ToHitBonusIcon}\n\n+4{ICON:ArmourIconNormal}\n\n+7{ICON:ResistanceIconNormal}\n\n+7{ICON:HitIconNormal}"/>
+		<Loc Key="DES_LVL_DEMI_GOD" Value="半神"/>
+		<Loc Key="DES_LVL_DEMI_GOD_DES" Value="半神获得以下加成:\n\n+8{ICON:MeleeIconNormal}和{ICON:RangedIconNormal}\n\n+30{ICON:ToHitBonusIcon}\n\n+4{ICON:ArmourIconNormal}\n\n+8{ICON:ResistanceIconNormal}\n\n+8{ICON:HitIconNormal}"/>
+		
+		<!--Resources-->
+		<Loc Key="DES_RES_SILVER_ORE" Value="银矿石"/>
+		<Loc Key="DES_RES_SILVER_ORE_DES" Value="为附近城镇+2金币({ICON:GoldIcon}).\n可通过法术转化为秘银."/>
+		<Loc Key="DES_RES_GOLD_ORE" Value="金矿石"/>
+		<Loc Key="DES_RES_GOLD_ORE_DES" Value="为附近城镇+3金币({ICON:GoldIcon}).\n可通过法术转化为铁矿石."/>
+		<Loc Key="DES_RES_IRON_ORE" Value="铁矿石"/>
+		<Loc Key="DES_RES_IRON_ORE_DES" Value="使普通单位的建造消耗降低5%.\n可通过法术转化为金矿石."/>
+		<Loc Key="DES_RES_COAL" Value="煤炭"/>
+		<Loc Key="DES_RES_COAL_DES" Value="使普通单位的建造消耗降低10%.\n可通过法术转化为宝石."/>
+		<Loc Key="DES_RES_GEMS" Value="宝石"/>
+		<Loc Key="DES_RES_GEMS_DES" Value="为附近城镇+5金币({ICON:GoldIcon}).\n可通过法术转化为煤炭."/>
+		<Loc Key="DES_RES_MITHRIL_ORE" Value="秘银矿石"/>
+		<Loc Key="DES_RES_MITHRIL_ORE_DES" Value="为附近城镇+1能量({ICON:PowerIcon})(若城镇拥有矿工行会则+2). 此外, 如果城市拥有炼金术士行会, 所有新单位都将拥有+1攻击强度(非魔法)和护甲加成的魔法秘银武器.\n可通过法术转化为银矿石."/>
+		<Loc Key="DES_RES_ADAMANTINE_ORE" Value="艾德曼合金矿石"/>
+		<Loc Key="DES_RES_ADAMANTINE_ORE_DES" Value="为附近城镇+2能量({ICON:PowerIcon})(若城镇拥有矿工行会则+4). 此外, 如果城市拥有炼金术士行会, 所有新单位都将拥有+2攻击强度(非魔法)和护甲加成的魔法艾德曼合金武器.\n无法通过法术将其转化."/>
+		<Loc Key="DES_RES_QUORK_CRYSTALS" Value="括克水晶"/>
+		<Loc Key="DES_RES_QUORK_CRYSTALS_DES" Value="为附近城镇+3能量({ICON:PowerIcon})(若城镇拥有矿工行会则+5).\n无法通过法术将其转化."/>
+		<Loc Key="DES_RES_CRYSX_CRYSTALS" Value="克里希斯水晶"/>
+		<Loc Key="DES_RES_CRYSX_CRYSTALS_DES" Value="为附近城镇+5能量({ICON:PowerIcon})(若城镇拥有矿工行会则+8).\n无法通过法术将其转化."/>
+		<Loc Key="DES_RES_WILD_GAME" Value="野味"/>
+		<Loc Key="DES_RES_WILD_GAME_DES" Value="为附近城镇+2食物({ICON:FoodIcon})并使其最大人口提高2.\n无法通过法术将其转化."/>
+		<Loc Key="DES_RES_NIGHTSHADE" Value="夜影"/>
+		<Loc Key="DES_RES_NIGHTSHADE_DES" Value="对拥有神龛, 贤者行会或通灵者行会(或它们的替代建筑)的城市使用夜影将每回合自动对所有城市附魔效果和针对该城市的全局法术进行驱散. 每个夜影每回合都有独立的几率驱散负面附魔效果."/>
+		
+		<!--EVENT-->
+	    <Loc Key="DES_BABY_BOOM" Value="人口爆炸"/>
+		<Loc Key="DES_BABY_BOOM_DES" Value="提高目标城镇的人口增长."/>
+		<Loc Key="DES_PLAGUE" Value="瘟疫"/>
+		<Loc Key="DES_PLAGUE_DES" Value="这座城市正遭受瘟疫之苦. 事件持续期间您的人口会不断减少."/>
+		<Loc Key="DES_DEATH_MOON" Value="暗月"/>
+		<Loc Key="DES_DEATH_MOON_DES" Value="死亡的追随者能够从宗教建筑中吸取更多的法力{ICON:ManaIcon}."/>
+	    <Loc Key="DES_TAKE_DEATH_MOON" Value="负月效果"/>
+		<Loc Key="DES_TAKE_DEATH_MOON_DES" Value="月亮的反能量正处于活动状态, 所有死亡的追随者可能会从宗教建筑中获得较少的法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_LIFE_MOON" Value="明月"/>
+		<Loc Key="DES_LIFE_MOON_DES" Value="生命的追随者能够从宗教建筑中吸取更多的法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_TAKE_LIFE_MOON" Value="负月效果"/>
+		<Loc Key="DES_TAKE_LIFE_MOON_DES" Value="月亮的反能量正处于活动状态, 所有生命的追随者可能会从宗教建筑中获得较少的法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_CHAOS_MOON" Value="红月"/>
+		<Loc Key="DES_CHAOS_MOON_DES" Value="红月激活时, 混沌节点将产生更多法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_TAKE_CHAOS_MOON" Value="负月效果"/>
+		<Loc Key="DES_TAKE_CHAOS_MOON_DES" Value="月亮的反能量正处于活动状态, 所有混沌节点可能产生更少的法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_NATURE_MOON" Value="青月"/>
+		<Loc Key="DES_NATURE_MOON_DES" Value="青月激活时, 自然节点将产生更多法力{ICON:ManaIcon}. "/>
+		<Loc Key="DES_TAKE_NATURE_MOON" Value="负月效果"/>
+		<Loc Key="DES_TAKE_NATURE_MOON_DES" Value="月亮的反能量正处于活动状态, 所有自然节点可能产生更少的法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_SORCERY_MOON" Value="蓝月"/>
+		<Loc Key="DES_SORCERY_MOON_DES" Value="蓝月激活时, 巫术节点将产生更多法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_TAKE_SORCERY_MOON" Value="负月效果"/>
+	    <Loc Key="DES_TAKE_SORCERY_MOON_DES" Value="月亮的反能量正处于活动状态, 所有巫术节点可能产生更少的法力{ICON:ManaIcon}."/>
+	    <Loc Key="DES_MANA_DRAIN" Value="法力短缺"/>
+		<Loc Key="DES_MANA_DRAIN_DES" Value="所有的魔法能量{ICON:PowerIcon}都已陷入短缺, 直至事件结束. 您将保留从建筑物中获得的研究点数, 但无法根据能量进行额外分配."/>
+		<Loc Key="DES_ADD_MANA_PER_TURN" Value="法力增加"/>
+		<Loc Key="DES_ADD_MANA_PER_TURN_DES" Value="该效果每回合增加法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_ADD_FOOD_PER_TURN" Value="食物增加"/>
+		<Loc Key="DES_ADD_FOOD_PER_TURN_DES" Value="该效果每回合增加食物{ICON:FoodIcon}."/>
+		<Loc Key="DES_ADD_GOLD_PER_TURN" Value="金币增加"/>
+		<Loc Key="DES_ADD_GOLD_PER_TURN_DES" Value="该效果每回合增加金币{ICON:GoldIcon}."/>
+		<Loc Key="DES_ADD_PRODUCTION_PER_TURN" Value="生产增加"/>
+		<Loc Key="DES_ADD_PRODUCTION_PER_TURN_DES" Value="该效果每回合增加生产."/>
+		<Loc Key="DES_TAKE_MANA_PER_TURN" Value="法力损失"/>
+		<Loc Key="DES_TAKE_MANA_PER_TURN_DES" Value="该效果每回合降低法力{ICON:ManaIcon}."/>
+		<Loc Key="DES_TAKE_FOOD_PER_TURN" Value="食物损失"/>
+		<Loc Key="DES_TAKE_FOOD_PER_TURN_DES" Value="该效果每回合降低食物{ICON:FoodIcon}."/>
+		<Loc Key="DES_TAKE_GOLD_PER_TURN" Value="金币损失"/>
+		<Loc Key="DES_TAKE_GOLD_PER_TURN_DES" Value="该效果每回合降低金币{ICON:GoldIcon}."/>
+		<Loc Key="DES_TAKE_PRODUCTION_PER_TURN" Value="生产损失"/>
+		<Loc Key="DES_TAKE_PRODUCTION_PER_TURN_DES" Value="该效果每回合降低生产."/>
+        <Loc Key="DES_ADD_UNREST_PERCENTAGE" Value="动乱加剧"/>
+		<Loc Key="DES_ADD_UNREST_PERCENTAGE_DES" Value="当该效果激活时, 城市的动乱{ICON:UnrestIcon}百分比提高."/>
+		<Loc Key="DES_TAKE_UNREST_PERCENTAGE" Value="动乱减少"/>
+		<Loc Key="DES_TAKE_UNREST_PERCENTAGE_DES" Value="当该效果激活时, 城市的动乱{ICON:UnrestIcon}百分比降低."/>
+		
+		<!--Artefacts-->
+		<Loc Key="DES_SWORD" Value="剑"/>
+		<Loc Key="DES_MACE" Value="锤"/>
+		<Loc Key="DES_AXE" Value="斧"/>
+		<Loc Key="DES_BOW" Value="弓"/>
+		<Loc Key="DES_STAFF" Value="法杖"/>
+		<Loc Key="DES_WAND" Value="魔杖"/>
+		<Loc Key="DES_PLATEMAIL" Value="板甲"/>
+		<Loc Key="DES_CHAINMAIL" Value="锁甲"/>
+		<Loc Key="DES_SHIELD" Value="盾牌"/>
+		<Loc Key="DES_JEWELLERY" Value="首饰"/>
+		<Loc Key="DES_CLOAK" Value="披风"/>
+		<Loc Key="DES_HELM" Value="头盔"/>
+		<Loc Key="DES_GAUNTLET" Value="手套"/>
+		<Loc Key="DES_ORB" Value="宝珠"/>
+		<Loc Key="DES_ELVEN_RING_OF_HEALTH" Value="精灵生命之戒"/>
+		<Loc Key="DES_AMULET_OF_BATTLE" Value="战斗护身符"/>
+		<Loc Key="DES_AMULET_OF_LESSER_SHIELDING" Value="次级防护护身符"/>
+		<Loc Key="DES_ORIONS_BELT" Value="猎户座腰带"/>
+		<Loc Key="DES_RING_OF_POWER" Value="能量之戒"/>
+		<Loc Key="DES_PIN_OF_HEALTH" Value="生命胸针"/>
+		<Loc Key="DES_EHR_RHEE" Value="埃尔利"/>
+		<Loc Key="DES_CLOAK_OF_ARMOR" Value="护甲披风"/>
+		<Loc Key="DES_GAUNTLET_OF_EASTWOOD" Value="伊斯特伍德护手"/>
+		<Loc Key="DES_BRACER_OF_MRAD" Value="玛拉德护腕"/>
+		<Loc Key="DES_ZIR_DAUN" Value="齐尔道恩"/>
+		<Loc Key="DES_SHIELD_OF_DEMOS" Value="恶魔之盾"/>
+		<Loc Key="DES_CHAIN_MAIL_OF_DEFENSE" Value="防御锁甲"/>
+		<Loc Key="DES_CHAIN_OF_MAGICAL_HEALTH" Value="魔法生命锁甲"/>
+		<Loc Key="DES_ELVISH_SCALEMAIL" Value="精灵鳞甲"/>
+		<Loc Key="DES_MAIL_OF_ARCANUS" Value="阿坎纳斯锁甲"/>
+		<Loc Key="DES_SHIELD_OF_THE_FOOL" Value="愚者之盾"/>
+		<Loc Key="DES_CHAIN_MAIL_OF_RESISTANCE" Value="抗性锁甲"/>
+		<Loc Key="DES_PLATE_MAIL_OF_DEFENSE" Value="防御板甲"/>
+		<Loc Key="DES_SHIELD_OF_EVASION" Value="闪避之盾"/>
+		<Loc Key="DES_CHAMPIONS_PLATEMAIL" Value="勇士板甲"/>
+		<Loc Key="DES_LIGHT_MAIL_SHIRT" Value="轻锁甲罩衫"/>
+		<Loc Key="DES_MORTHOGS_CHAINMAIL" Value="摩斯奥格锁甲"/>
+		<Loc Key="DES_CHAIN_MAIL_OF_MOVEMENT" Value="移动锁甲"/>
+		<Loc Key="DES_SHIELD_OF_EROS" Value="厄洛斯之盾"/>
+		<Loc Key="DES_SHIELD_OF_SPEED" Value="速度之盾"/>
+		<Loc Key="DES_CHAIN_OF_TYROLIA" Value="泰罗利亚锁甲"/>
+		<Loc Key="DES_PLATE_MAIL_OF_RESISTANCE" Value="抗性板甲"/>
+		<Loc Key="DES_PLATE_OF_EANDOR" Value="埃多尔板甲"/>
+		<Loc Key="DES_CHAIN_MAIL_OF_BALANCE" Value="平衡锁甲"/>
+		<Loc Key="DES_VANS_SHIELD" Value="凡斯之盾"/>
+		<Loc Key="DES_MITHRIL_CHAINMAIL" Value="秘银锁甲"/>
+		<Loc Key="DES_PLATE_MAIL_OF_MOVEMENT" Value="移动板甲"/>
+		<Loc Key="DES_SHIELD_OF_QUATIS" Value="夸提斯之盾"/>
+		<Loc Key="DES_PLATE_MAIL_OF_DIVERSITY" Value="多样板甲"/>
+		<Loc Key="DES_SHIELD_OF_BROOKE" Value="布鲁克之盾"/>
+		<Loc Key="DES_THE_RESISTOR" Value="抵抗者"/>
+		<Loc Key="DES_DISC_OF_ADVANCEMENT" Value="进阶圆盘"/>
+		<Loc Key="DES_AXE_OF_SEVERE_PAIN" Value="剧痛之斧"/>
+		<Loc Key="DES_CANNES_MACE" Value="坎内斯之锤"/>
+		<Loc Key="DES_SWORD_OF_MALLANA" Value="马拉纳之剑"/>
+		<Loc Key="DES_SWORD_OF_CANNAE" Value="坎尼之剑"/>
+		<Loc Key="DES_THE_AXE_OF_UNCARING" Value="无情之斧"/>
+		<Loc Key="DES_DRAGON_SLAYER" Value="屠龙者"/>
+		<Loc Key="DES_FLAMING_SWORD_OF_DEATH" Value="燃烧死亡之剑"/>
+		<Loc Key="DES_PUMMEL_MACE" Value="钉头锤"/>
+		<Loc Key="DES_IDSPISPOPD" Value="艾迪匹斯波德"/>
+		<Loc Key="DES_JOSHUAS_SWORD" Value="约书亚之剑"/>
+		<Loc Key="DES_THE_BEHEADER" Value="斩首者"/>
+		<Loc Key="DES_FLAMING_AXE" Value="烈焰之斧"/>
+		<Loc Key="DES_BANE_BLADE" Value="灾祸之刃"/>
+		<Loc Key="DES_AXE_OF_VIVISECTION" Value="活体解剖之斧"/>
+		<Loc Key="DES_MAULER" Value="拳击手"/>
+		<Loc Key="DES_HACKER" Value="骇客"/>
+		<Loc Key="DES_IRONS_MACE" Value="钢铁之锤"/>
+		<Loc Key="DES_SKULL_SMASHER" Value="碎颅者"/>
+		<Loc Key="DES_PEPPERMACE_OF_GATES" Value="大门之锤"/>
+		<Loc Key="DES_INTIMIDATOR" Value="恐吓者"/>
+		<Loc Key="DES_AXE_OF_THE_CASTER" Value="施法者之斧"/>
+		<Loc Key="DES_EXECUTIONERS_FRIEND" Value="刽子手之友"/>
+		<Loc Key="DES_JANS_HAMMER" Value="扬斯之锤"/>
+		<Loc Key="DES_THE_INQUISITION" Value="责难"/>
+		<Loc Key="DES_THE_REVENGE_OF_ORCULS" Value="奥科尔斯的复仇"/>
+		<Loc Key="DES_DOUBLE_AXE_OF_PAIN" Value="痛苦双斧"/>
+		<Loc Key="DES_THE_SCARLET_BOW" Value="猩红之弓"/>
+		<Loc Key="DES_UHL_DOVER" Value="乌尔多佛"/>
+		<Loc Key="DES_CROSSBOW_OF_POWER" Value="能量之弩"/>
+		<Loc Key="DES_THE_REGULATOR" Value="监管者"/>
+		<Loc Key="DES_THE_ARCHER" Value="弓箭手"/>
+		<Loc Key="DES_THE_TELECASTER" Value="电吉他"/>
+		<Loc Key="DES_HELLS_BOLT" Value="地狱之箭"/>
+		<Loc Key="DES_THE_DEATHSTORM" Value="死亡风暴"/>
+		<Loc Key="DES_BOW_OF_THE_DERVISH" Value="苦行僧之弓"/>
+		<Loc Key="DES_THE_BRANCH_OF_MAGIC" Value="魔法树枝"/>
+		<Loc Key="DES_THE_MANGLER" Value="绞肉机"/>
+		<Loc Key="DES_THE_CONJURERS_FRIEND" Value="咒法师之友"/>
+		<Loc Key="DES_STAFF_OF_MAGIC_MASTERY" Value="魔法精通法杖"/>
+		<Loc Key="DES_THE_ENLIGHTENER" Value="启蒙者"/>
+		<Loc Key="DES_WAND_OF_LESSER_MIGHT" Value="次级力量魔杖"/>
+		<Loc Key="DES_WAND_OF_THE_MIND" Value="心灵魔杖"/>
+		<Loc Key="DES_UHL_KHAKHAAS" Value="乌尔克哈斯"/>
+		<Loc Key="DES_WAND_OF_INFINITE_MAGIC" Value="无限法术魔杖"/>
+		<Loc Key="DES_WAND_OF_THE_MAGE" Value="法师魔杖"/>
+		<Loc Key="DES_THE_MIGHTY_WAND_OF_ZOD" Value="佐德的强力魔杖"/>
+		<Loc Key="DES_FLAMING_STAFF" Value="烈焰法杖"/>
+		<Loc Key="DES_WORD_OF_GOD" Value="神语"/>
+		<Loc Key="DES_GOLDEN_STAFF_OF_SHAREE" Value="夏雷的金币法杖"/>
+		<Loc Key="DES_WAND_OF_ULTIMATE_MIGHT" Value="终极之力魔杖"/>
+		<Loc Key="DES_WAND_OF_THE_BEAST" Value="野兽魔杖"/>
+		<Loc Key="DES_STAFF_OF_HORUS" Value="荷鲁斯法杖"/>
+		<Loc Key="DES_THEODORES_LIBERATOR" Value="西奥多雷斯解放者"/>
+		<Loc Key="DES_AMULET_OF_RESISTANCE" Value="抗性护符"/>
+		<Loc Key="DES_DEVILS_EYE_OF_FEAR" Value="恶魔恐惧之眼"/>
+		<Loc Key="DES_ORB_OF_FEAR" Value="恐惧宝珠"/>
+		<Loc Key="DES_HELM_OF_THE_TIDES" Value="潮汐之盔"/>
+		<Loc Key="DES_RING_OF_DASMIFF" Value="达斯米夫之戒"/>
+		<Loc Key="DES_TRINKET_OF_STRENGTH" Value="力量饰品"/>
+		<Loc Key="DES_BAND_OF_CHIVALRY" Value="骑兵护腕"/>
+		<Loc Key="DES_BRACER_OF_INVULNERABILITY" Value="无敌护腕"/>
+		<Loc Key="DES_GEM_OF_THE_AERIE" Value="鹰巢宝石"/>
+		<Loc Key="DES_JAFARS_ORB_OF_SIGHT" Value="贾法尔视界宝珠"/>
+		<Loc Key="DES_HELM_OF_EVERLASTING" Value="永恒之盔"/>
+		<Loc Key="DES_HELM_OF_TROLLISH_MIGHT" Value="巨魔之力头盔"/>
+		<Loc Key="DES_CROSS_OF_BLESSED_DEATH" Value="死神祝福十字架"/>
+		<Loc Key="DES_ORB_OF_RIGHTEOUS_SIGHT" Value="正义之视宝珠"/>
+		<Loc Key="DES_RING_OF_THE_MAD_MAGE" Value="疯法师之戒"/>
+		<Loc Key="DES_LOR_GOTH" Value="洛尔哥斯"/>
+		<Loc Key="DES_BLESSED_SHIELD_OF_DEFENSE" Value="防御祝福之盾"/>
+		<Loc Key="DES_GIDDEONS_PLATE" Value="吉登板甲"/>
+		<Loc Key="DES_PLATE_OF_THE_ELEMENTS" Value="元素板甲"/>
+		<Loc Key="DES_CHAIN_MAIL_OF_ENDURANCE" Value="耐力锁甲"/>
+		<Loc Key="DES_BLOOD_PLATE_OF_LUCIFER" Value="路西法的鲜血板甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_SPEED" Value="速度锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_THE_ELEMENTS" Value="元素锁甲"/>
+		<Loc Key="DES_SUIT_OF_POWER" Value="能量套装"/>
+		<Loc Key="DES_SILVERMAIL" Value="银质锁甲"/>
+		<Loc Key="DES_SHIELD_OF_GUARDIAN_DEFENSE" Value="守护者防御之盾"/>
+		<Loc Key="DES_THE_WIND_SHIELD" Value="狂风之盾"/>
+		<Loc Key="DES_SHIELD_OF_THIRON" Value="锡隆之盾"/>
+		<Loc Key="DES_BLESSED_MAIL_OF_RESISTANCE" Value="抗性祝福锁甲"/>
+		<Loc Key="DES_ARMOR_OF_THE_WARRIOR" Value="战士之甲"/>
+		<Loc Key="DES_SHIELD_OF_ELEMENTS" Value="元素之盾"/>
+		<Loc Key="DES_PLATE_MAIL_OF_BLESSED_FEAR" Value="恐惧祝福板甲"/>
+		<Loc Key="DES_BLOODMAIL" Value="鲜血锁甲"/>
+		<Loc Key="DES_MAIL_OF_POBOX" Value="珀波克斯锁甲"/>
+		<Loc Key="DES_RIGHTEOUS_PLATE_OF_EVASION" Value="正义闪避板甲"/>
+		<Loc Key="DES_SHIELD_OF_THE_WRAITH" Value="怨灵之盾"/>
+		<Loc Key="DES_SHIELD_OF_ENDURING_FEAR" Value="持久恐惧之盾"/>
+		<Loc Key="DES_CHAIN_OF_SUPER_RESISTANCE" Value="超级抗性锁甲"/>
+		<Loc Key="DES_SHIELD_OF_ULTIMATE_DEFENSE" Value="终极防御之盾"/>
+		<Loc Key="DES_PROTECTION_OF_RAMSES" Value="拉美西斯的防护"/>
+		<Loc Key="DES_SHIELD_OF_THE_UNDEAD" Value="亡灵之盾"/>
+		<Loc Key="DES_HOLY_SHIELD" Value="神圣之盾"/>
+		<Loc Key="DES_CHAIN_MAIL_OF_IMMUNITY" Value="免疫锁甲"/>
+		<Loc Key="DES_SHIELD_OF_THE_GODS" Value="诸神之盾"/>
+		<Loc Key="DES_CHAIN_MAIL_OF_ABSORBTION" Value="吸收锁甲"/>
+		<Loc Key="DES_PLATE_OF_ULTIMAX" Value="乌提玛克斯板甲"/>
+		<Loc Key="DES_PLATE_OF_IMMUNITY" Value="免疫板甲"/>
+		<Loc Key="DES_ZIGGMUNDS_ARMOR" Value="齐格蒙德护甲"/>
+		<Loc Key="DES_WRAITHE_SHIRT" Value="怨灵衬衫"/>
+		<Loc Key="DES_PLATE_OF_ENDURING_IMMUNITY" Value="持久免疫板甲"/>
+		<Loc Key="DES_MITHRIL_MAIL_OF_TALOS" Value="塔洛斯秘银锁甲"/>
+		<Loc Key="DES_ELEMENTAL_TRANSFORMATION" Value="元素转化"/>
+		<Loc Key="DES_PLATE_OF_DIVINE_PROTECTION" Value="神圣保护板甲"/>
+		<Loc Key="DES_SHIELD_OF_TRANSFORMATION" Value="转化之盾"/>
+		<Loc Key="DES_SUPREME_SHIELD_OF_DEATH" Value="至尊死亡之盾"/>
+		<Loc Key="DES_AXE_OF_STONE" Value="石之斧"/>
+		<Loc Key="DES_SWORD_OF_MEDUSA" Value="美杜莎之剑"/>
+		<Loc Key="DES_RAINDANCER" Value="雨舞者"/>
+		<Loc Key="DES_EDGE_OF_THE_ELEMENTS" Value="元素边缘"/>
+		<Loc Key="DES_STONING_SWORD" Value="石化之剑"/>
+		<Loc Key="DES_DEATHBRINGER" Value="死亡使者"/>
+		<Loc Key="DES_RIGHT_HAND_0F_JUSTICE" Value="正义之手"/>
+		<Loc Key="DES_POWER_AXE" Value="动力斧"/>
+		<Loc Key="DES_WHIRLWIND" Value="旋风"/>
+		<Loc Key="DES_INQUISITOR" Value="审判者"/>
+		<Loc Key="DES_AXE_OF_THE_APOSTLES" Value="使徒之斧"/>
+		<Loc Key="DES_GOLDEN_AXE_OF_RATH" Value="拉斯的金币之斧"/>
+		<Loc Key="DES_AXE_OF_RESIST" Value="抵抗之斧"/>
+		<Loc Key="DES_BLACK_ASP" Value="黑色之愿"/>
+		<Loc Key="DES_MERLINS_NAILS" Value="梅林之钉"/>
+		<Loc Key="DES_LAIK_KENEGUL" Value="莱克肯内古尔"/>
+		<Loc Key="DES_KNIGHT_CHOPPER" Value="骑士砍刀"/>
+		<Loc Key="DES_MACE_OF_DISINTEGRATION" Value="瓦解之锤"/>
+		<Loc Key="DES_MAE_GOVANNON" Value="梅戈万农"/>
+		<Loc Key="DES_STORM_MACE" Value="风暴之锤"/>
+		<Loc Key="DES_SWORD_OF_IMMUNITY" Value="免疫之剑"/>
+		<Loc Key="DES_FANGS_AVENGER" Value="复仇者之牙"/>
+		<Loc Key="DES_WHITE_LIGHTNING" Value="白色破碎"/>
+		<Loc Key="DES_STING" Value="钉刺"/>
+		<Loc Key="DES_VLADS_IMPALER" Value="弗拉兹穿刺者"/>
+		<Loc Key="DES_VAMPIRIC_VANQUISHER" Value="吸血鬼征服者"/>
+		<Loc Key="DES_THE_DEFENDER" Value="防御者"/>
+		<Loc Key="DES_SWORD_OF_STEALTH" Value="隐身之剑"/>
+		<Loc Key="DES_TREE_TAMER" Value="驯树师"/>
+		<Loc Key="DES_CLUB_OF_CHAOS" Value="混沌击棍"/>
+		<Loc Key="DES_LIVING_SWORD" Value="活化之剑"/>
+		<Loc Key="DES_FREYAS_FRIEND" Value="弗雷亚斯之友"/>
+		<Loc Key="DES_SWORD_OF_RENFIELD" Value="伦菲尔德之剑"/>
+		<Loc Key="DES_FIST_OF_DESTRUCTION" Value="毁灭之拳"/>
+		<Loc Key="DES_THORS_HAMMER" Value="雷神之锤"/>
+		<Loc Key="DES_THE_PEACEMAKER" Value="和平缔造者"/>
+		<Loc Key="DES_DRACKEN_MACE" Value="德拉肯之锤"/>
+		<Loc Key="DES_SWORD_OF_MEPHISTO" Value="墨菲斯托之剑"/>
+		<Loc Key="DES_AXE_OF_CHAOTIC_DEATH" Value="混乱死亡之斧"/>
+		<Loc Key="DES_GABRIELS_AXE" Value="加布里埃尔斧头"/>
+		<Loc Key="DES_GREAT_SWORD_OF_ARKANNA" Value="阿卡纳巨剑"/>
+		<Loc Key="DES_HAND_OF_GOD" Value="上帝之手"/>
+		<Loc Key="DES_THE_KICK_AXE" Value="奇克之斧"/>
+		<Loc Key="DES_MORPHAINS_FRIEND" Value="摩凡之友"/>
+		<Loc Key="DES_ULTIMATE_DEFENSE" Value="终极防御"/>
+		<Loc Key="DES_AXE_OF_LIGHT" Value="圣光之斧"/>
+		<Loc Key="DES_AXE_OF_HASTE" Value="急速之斧"/>
+		<Loc Key="DES_MONSTER_MASHER" Value="怪物粉碎者"/>
+		<Loc Key="DES_MITHRIL_LONGBOW" Value="秘银长弓"/>
+		<Loc Key="DES_ELVISH_LONGBOW" Value="精灵长弓"/>
+		<Loc Key="DES_BOW_OF_THE_GOLDEN_HORDE" Value="金币部落之弓"/>
+		<Loc Key="DES_THE_UNDERTAKER" Value="承受者"/>
+		<Loc Key="DES_LIVING_BOW" Value="活化之弓"/>
+		<Loc Key="DES_GIDEONS_HARP" Value="吉迪恩斯竖琴"/>
+		<Loc Key="DES_LITTLE_FLICKER" Value="小闪光"/>
+		<Loc Key="DES_SILVER_SHORTBOW" Value="银质短弓"/>
+		<Loc Key="DES_BOW_OF_HAZARD" Value="危难之弓"/>
+		<Loc Key="DES_THE_HARTSHONE" Value="哈特肖恩"/>
+		<Loc Key="DES_LIFE_BOW" Value="生命之弓"/>
+		<Loc Key="DES_WHITE_FLICKER" Value="白色闪光"/>
+		<Loc Key="DES_BOW_OF_MAGIC_IMMUNITY" Value="魔法免疫之弓"/>
+		<Loc Key="DES_RAY_OF_LIGHT" Value="圣光射线"/>
+		<Loc Key="DES_THE_DEVILS_INSTRUMENT" Value="恶魔乐器"/>
+		<Loc Key="DES_WAND_OF_IMMUNITY" Value="免疫魔杖"/>
+		<Loc Key="DES_WAND_OF_ARCANUS" Value="阿坎纳斯魔杖"/>
+		<Loc Key="DES_WAND_OF_ENHANCEMENT" Value="强化魔杖"/>
+		<Loc Key="DES_WAND_OF_ELROS" Value="埃尔罗斯魔杖"/>
+		<Loc Key="DES_WAND_OF_FIERY_DEATH" Value="炽热死亡魔杖"/>
+		<Loc Key="DES_THE_OSSIFIER" Value="骨化器"/>
+		<Loc Key="DES_STICK_OF_HE_MAGE" Value="法师之杖"/>
+		<Loc Key="DES_GUARDIAN_STAFF" Value="守护者法杖"/>
+		<Loc Key="DES_KRAKEN_WAND" Value="海妖魔杖"/>
+		<Loc Key="DES_THE_WAND_OF_GLENDA" Value="格伦达法杖"/>
+		<Loc Key="DES_PURPLE_RAIN_OF_DEATH" Value="死亡紫雨"/>
+		<Loc Key="DES_ELEMENTAL_STAFF_OF_NATURE" Value="自然元素法杖"/>
+		<Loc Key="DES_PLANAR_STAFF" Value="位面法杖"/>
+		<Loc Key="DES_WAND_OF_WHITE_LIGHTNING" Value="白色破碎"/>
+		<Loc Key="DES_THE_TRAVELLER" Value="旅行者"/>
+		<Loc Key="DES_WAND_OF_BALMOTH" Value="巴尔莫斯魔杖"/>
+		<Loc Key="DES_THE_PUMMELER" Value="打击者"/>
+		<Loc Key="DES_STAFF_OF_PAIN" Value="痛苦法杖"/>
+		<Loc Key="DES_STAFF_OF_ODIN" Value="奥丁法杖"/>
+		<Loc Key="DES_CHAOTIC_STAFF_OF_FIRE" Value="混乱之火法杖"/>
+		<Loc Key="DES_THE_PROTECTOR" Value="保护者"/>
+		<Loc Key="DES_STAFF_OF_THE_CONSTELLATION" Value="星辰法杖"/>
+		<Loc Key="DES_THE_DESTRUCTOR" Value="毁灭者"/>
+		<Loc Key="DES_WAND_OF_THE_GUARDIAN" Value="守护者魔杖"/>
+		<Loc Key="DES_STAFF_OF_SUPERIORITY" Value="优越法杖"/>
+		<Loc Key="DES_WAND_OF_THE_GREY_WIZARD" Value="灰色巫师魔杖"/>
+		<Loc Key="DES_BIRD_OF_PARADISE" Value="极乐鸟"/>
+		<Loc Key="DES_ZLOTAKIAN_STAFF_OF_MAGIC" Value="兹洛塔克魔法之杖"/>
+		<Loc Key="DES_STAFF_OF_CONFUSION" Value="混乱之杖"/>
+		<Loc Key="DES_MAGICAL_CRYSTAL_OF_POWER" Value="能量魔法水晶"/>
+		<Loc Key="DES_SWORD_OF_PENDULUM" Value="钟摆之剑"/>
+		<Loc Key="DES_MAUL_OF_BATHORY" Value="巴托里之锤"/>
+		<Loc Key="DES_WAND_OF_DOOM" Value="厄运魔杖"/>
+		<Loc Key="DES_PLATE_OF_OMNIPOTENCE" Value="全能板甲"/>
+		<Loc Key="DES_ORC_SMASHER" Value="兽人粉碎者"/>
+		<Loc Key="DES_WORLD_ENDER" Value="世界终结者"/>
+		<Loc Key="DES_THE_MASTER_CROSSBOW" Value="宗主之弩"/>
+		<Loc Key="DES_BLADE_OF_BLOOD" Value="鲜血之刃"/>
+		<Loc Key="DES_PHANTASTIC_AXE" Value="梦幻之斧"/>
+		<Loc Key="DES_THE_GREAT_WAND" Value="大魔杖"/>
+		<Loc Key="DES_TAMMAS_STAFF_OF_NEGATION" Value="塔马斯之杖"/>
+		<Loc Key="DES_SWORD_OF_CHAOS_4" Value="毁灭之剑"/>
+		<Loc Key="DES_SWORD_OF_CHAOS_3" Value="混沌之剑"/>
+		<Loc Key="DES_SWORD_OF_CHAOS_2" Value="破碎之剑"/>
+		<Loc Key="DES_SWORD_OF_CHAOS_1" Value="烈焰之剑"/>
+		<Loc Key="DES_SWORD_OF_DEATH_1" Value="吸血鬼之剑"/>
+		<Loc Key="DES_SWORD_OF_DEATH_2" Value="死亡之剑"/>
+		<Loc Key="DES_SWORD_OF_DEATH_3" Value="能量吸取之剑"/>
+		<Loc Key="DES_SWORD_OF_LIFE" Value="神圣复仇者之剑"/>
+		<Loc Key="DES_SWORD_OF_MANA_POINTS" Value="巫术之剑"/>
+		<Loc Key="DES_SWORD_OF_MELEE_TO_HIT" Value="精准之剑"/>
+		<Loc Key="DES_SWORD_OF_NATURE_1" Value="元素抗性之剑"/>
+		<Loc Key="DES_SWORD_OF_NATURE_2" Value="元素护甲之剑"/>
+		<Loc Key="DES_SWORD_OF_NATURE_3" Value="巨人力量之剑"/>
+		<Loc Key="DES_SWORD_OF_NATURE_4" Value="石化之剑"/>
+		<Loc Key="DES_SWORD_OF_DEFENCE" Value="防御之剑"/>
+		<Loc Key="DES_SWORD_OF_SORCERY_1" Value="幻影之剑"/>
+		<Loc Key="DES_SWORD_OF_SORCERY_3" Value="急速之剑"/>
+		<Loc Key="DES_SWORD_OF_SORCERY_4" Value="魔法抗性之剑"/>
+		<Loc Key="DES_SWORD_OF_SORCERY_5" Value="魔法免疫之剑"/>
+		<Loc Key="DES_SWORD_OF_MELEE_ATTACK" Value="力量之剑"/>
+		<Loc Key="DES_MACE_OF_CHAOS_4" Value="毁灭之锤"/>
+		<Loc Key="DES_MACE_OF_CHAOS_3" Value="混沌之锤"/>
+		<Loc Key="DES_MACE_OF_CHAOS_2" Value="破碎之锤"/>
+		<Loc Key="DES_MACE_OF_CHAOS_1" Value="烈焰之锤"/>
+		<Loc Key="DES_MACE_OF_DEATH_1" Value="吸血鬼之锤"/>
+		<Loc Key="DES_MACE_OF_DEATH_2" Value="死亡之锤"/>
+		<Loc Key="DES_MACE_OF_DEATH_3" Value="能量吸取之锤"/>
+		<Loc Key="DES_MACE_OF_LIFE" Value="神圣复仇者之锤"/>
+		<Loc Key="DES_MACE_OF_MANA_POINTS" Value="巫术之锤"/>
+		<Loc Key="DES_MACE_OF_MELEE_TO_HIT" Value="精准之锤"/>
+		<Loc Key="DES_MACE_OF_NATURE_1" Value="元素抗性之锤"/>
+		<Loc Key="DES_MACE_OF_NATURE_2" Value="元素护甲之锤"/>
+		<Loc Key="DES_MACE_OF_NATURE_3" Value="巨人力量之锤"/>
+		<Loc Key="DES_MACE_OF_NATURE_4" Value="石化之锤"/>
+		<Loc Key="DES_MACE_OF_DEFENCE" Value="防御之锤"/>
+		<Loc Key="DES_MACE_OF_SORCERY_1" Value="幻影之锤"/>
+		<Loc Key="DES_MACE_OF_SORCERY_3" Value="急速之锤"/>
+		<Loc Key="DES_MACE_OF_SORCERY_4" Value="魔法抗性之锤"/>
+		<Loc Key="DES_MACE_OF_SORCERY_5" Value="魔法免疫之锤"/>
+		<Loc Key="DES_MACE_OF_MELEE_ATTACK" Value="力量之锤"/>
+		<Loc Key="DES_AXE_OF_CHAOS_4" Value="毁灭之斧"/>
+		<Loc Key="DES_AXE_OF_CHAOS_3" Value="混沌之斧"/>
+		<Loc Key="DES_AXE_OF_CHAOS_2" Value="破碎之斧"/>
+		<Loc Key="DES_AXE_OF_CHAOS_1" Value="烈焰之斧"/>
+		<Loc Key="DES_AXE_OF_DEATH_1" Value="吸血鬼之斧"/>
+		<Loc Key="DES_AXE_OF_DEATH_2" Value="死亡之斧"/>
+		<Loc Key="DES_AXE_OF_DEATH_3" Value="能量吸取之斧"/>
+		<Loc Key="DES_AXE_OF_LIFE" Value="神圣复仇者之斧"/>
+		<Loc Key="DES_AXE_OF_MANA_POINTS" Value="巫术之斧"/>
+		<Loc Key="DES_AXE_OF_MELEE_TO_HIT" Value="精准之斧"/>
+		<Loc Key="DES_AXE_OF_NATURE_1" Value="元素抗性之斧"/>
+		<Loc Key="DES_AXE_OF_NATURE_2" Value="元素护甲之斧"/>
+		<Loc Key="DES_AXE_OF_NATURE_3" Value="巨人力量之斧"/>
+		<Loc Key="DES_AXE_OF_NATURE_4" Value="石化之斧"/>
+		<Loc Key="DES_AXE_OF_SORCERY_1" Value="幻影之斧"/>
+		<Loc Key="DES_AXE_OF_SORCERY_3" Value="急速之斧"/>
+		<Loc Key="DES_AXE_OF_SORCERY_4" Value="魔法抗性之斧"/>
+		<Loc Key="DES_AXE_OF_SORCERY_5" Value="魔法免疫之斧"/>
+		<Loc Key="DES_AXE_OF_MELEE_ATTACK_AXE" Value="力量之斧"/>
+		<Loc Key="DES_SHIELD_OF_DEATH_4" Value="幽魂之盾"/>
+		<Loc Key="DES_SHIELD_OF_DEATH_5" Value="恐惧披风之盾"/>
+		<Loc Key="DES_SHIELD_OF_LIFE_3" Value="祝福之盾"/>
+		<Loc Key="DES_SHIELD_OF_LIFE_4" Value="正义之盾"/>
+		<Loc Key="DES_SHIELD_OF_LIFE_5" Value="无敌之盾"/>
+		<Loc Key="DES_SHIELD_OF_LIFE_6" Value="耐久之盾"/>
+		<Loc Key="DES_SHIELD_OF_RESIST" Value="防护之盾"/>
+		<Loc Key="DES_SHIELD_OF_NATURE_1" Value="元素抗性之盾"/>
+		<Loc Key="DES_SHIELD_OF_NATURE_2" Value="元素护甲之盾"/>
+		<Loc Key="DES_SHIELD_OF_MOVEMENT_POINTS" Value="速度之盾"/>
+		<Loc Key="DES_SHIELD_OF_SORCERY_2" Value="守护者之风盾牌"/>
+		<Loc Key="DES_SHIELD_OF_SORCERY_4" Value="魔法抗性之盾"/>
+		<Loc Key="DES_SHIELD_OF_SORCERY_5" Value="魔法免疫之盾"/>
+		<Loc Key="DES_SHIELD_OF_DEFENCE_SHIELD" Value="防御之盾"/>
+		<Loc Key="DES_CHAINMAIL_OF_DEATH_4" Value="幽魂锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_DEATH_5" Value="恐惧披风锁甲	"/>
+		<Loc Key="DES_CHAINMAIL_OF_LIFE_3" Value="祝福锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_LIFE_4" Value="正义锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_LIFE_5" Value="无敌锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_LIFE_6" Value="耐久锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_RESIST" Value="防护锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_NATURE_1" Value="元素抗性锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_NATURE_2" Value="元素防护锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_MOVEMENT_POINTS" Value="速度锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_SORCERY_2" Value="守护者之风锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_SORCERY_4" Value="魔法抗性锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_SORCERY_5" Value="魔法免疫锁甲"/>
+		<Loc Key="DES_CHAINMAIL_OF_DEFENCE_SHIELD" Value="防御锁甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_DEATH_4" Value="幽魂板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_DEATH_5" Value="恐惧披风板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_LIFE_3" Value="祝福板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_LIFE_4" Value="正义板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_LIFE_5" Value="无敌板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_LIFE_6" Value="耐久板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_RESIST" Value="防护板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_NATURE_1" Value="元素抗性板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_NATURE_2" Value="元素防护板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_MOVEMENT_POINTS" Value="速度板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_SORCERY_2" Value="守护者之风板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_SORCERY_4" Value="魔法抗性板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_SORCERY_5" Value="魔法免疫板甲"/>
+		<Loc Key="DES_PLATEMAIL_OF_DEFENCE_SHIELD" Value="防御板甲"/>
+		<Loc Key="DES_BOW_OF_CHAOS_4" Value="毁灭之弓"/>
+		<Loc Key="DES_BOW_OF_CHAOS_3" Value="混沌之弓"/>
+		<Loc Key="DES_BOW_OF_CHAOS_2" Value="破碎之弓"/>
+		<Loc Key="DES_BOW_OF_CHAOS_1" Value="烈焰之弓"/>
+		<Loc Key="DES_BOW_OF_DEATH_2" Value="死亡之弓"/>
+		<Loc Key="DES_BOW_OF_DEATH_3" Value="能量吸取之弓"/>
+		<Loc Key="DES_BOW_OF_MANA_POINTS" Value="巫术之弓"/>
+		<Loc Key="DES_BOW_OF_RANGE_TO_HIT" Value="精准之弓"/>
+		<Loc Key="DES_BOW_OF_NATURE_1" Value="元素抗性之弓"/>
+		<Loc Key="DES_BOW_OF_NATURE_2" Value="元素护甲之弓"/>
+		<Loc Key="DES_BOW_OF_NATURE_4" Value="石化之弓"/>
+		<Loc Key="DES_BOW_OF_DEFENCE" Value="防御之弓"/>
+		<Loc Key="DES_BOW_OF_SORCERY_1" Value="幻影之弓"/>
+		<Loc Key="DES_BOW_OF_SORCERY_3" Value="急速之弓"/>
+		<Loc Key="DES_BOW_OF_SORCERY_4" Value="魔法抗性之弓"/>
+		<Loc Key="DES_BOW_OF_SORCERY_5" Value="魔法免疫之弓"/>
+		<Loc Key="DES_BOW_OF_RANGE_ATTACK" Value="力量之弓"/>
+		<Loc Key="DES_STAFF_OF_CHAOS_4" Value="毁灭法杖"/>
+		<Loc Key="DES_STAFF_OF_CHAOS_3" Value="混沌法杖"/>
+		<Loc Key="DES_STAFF_OF_CHAOS_2" Value="破碎法杖"/>
+		<Loc Key="DES_STAFF_OF_CHAOS_1" Value="烈焰之杖"/>
+		<Loc Key="DES_STAFF_OF_DEATH_2" Value="死亡之杖"/>
+		<Loc Key="DES_STAFF_OF_DEATH_3" Value="能量吸取法杖"/>
+		<Loc Key="DES_STAFF_OF_LIFE_7" Value="位面转移法杖"/>
+		<Loc Key="DES_STAFF_OF_MANA_POINTS" Value="巫术法杖"/>
+		<Loc Key="DES_STAFF_OF_RANGE_TO_HIT" Value="精准法杖"/>
+		<Loc Key="DES_STAFF_OF_NATURE_1" Value="元素抗性法杖"/>
+		<Loc Key="DES_STAFF_OF_NATURE_2" Value="元素护甲法杖"/>
+		<Loc Key="DES_STAFF_OF_NATURE_4" Value="石化法杖"/>
+		<Loc Key="DES_STAFF_OF_NATURE_8" Value="相融法杖"/>
+		<Loc Key="DES_STAFF_OF_SPELL_SAVE" Value="能量法杖"/>
+		<Loc Key="DES_STAFF_OF_SPELL_CHARGES" Value="铸造法杖"/>
+		<Loc Key="DES_STAFF_OF_SORCERY_1" Value="幻影法杖"/>
+		<Loc Key="DES_STAFF_OF_SORCERY_2" Value="守护者之风之杖"/>
+		<Loc Key="DES_STAFF_OF_SORCERY_4" Value="魔法抗性法杖"/>
+		<Loc Key="DES_STAFF_OF_SORCERY_5" Value="魔法免疫法杖"/>
+		<Loc Key="DES_STAFF_OF_RANGE_ATTACK" Value="力量法杖"/>
+		<Loc Key="DES_STAFF_OF_DEFENCE" Value="防御法杖"/>
+		<Loc Key="DES_WAND_OF_CHAOS_4" Value="毁灭魔杖"/>
+		<Loc Key="DES_WAND_OF_CHAOS_2" Value="破碎魔杖"/>
+		<Loc Key="DES_WAND_OF_CHAOS_1" Value="烈焰魔杖"/>
+		<Loc Key="DES_WAND_OF_DEATH_2" Value="死亡魔杖"/>
+		<Loc Key="DES_WAND_OF_DEATH_3" Value="能量吸取魔杖"/>
+		<Loc Key="DES_WAND_OF_LIFE_7" Value="位面转移魔杖"/>
+		<Loc Key="DES_WAND_OF_SPELL_SAVE" Value="能量魔杖"/>
+		<Loc Key="DES_WAND_OF_SPELL_CHARGES" Value="铸造魔杖"/>
+		<Loc Key="DES_WAND_OF_NATURE_1" Value="元素抗性魔杖"/>
+		<Loc Key="DES_WAND_OF_NATURE_2" Value="元素护甲魔杖"/>
+		<Loc Key="DES_WAND_OF_NATURE_4" Value="石化魔杖"/>
+		<Loc Key="DES_WAND_OF_NATURE_8" Value="相融魔杖"/>
+		<Loc Key="DES_WAND_OF_MANA_POINTS" Value="巫术魔杖"/>
+		<Loc Key="DES_WAND_OF_RANGE_TO_HIT" Value="精准魔杖"/>
+		<Loc Key="DES_WAND_OF_SORCERY_1" Value="幻影魔杖"/>
+		<Loc Key="DES_WAND_OF_SORCERY_2" Value="守护者之风魔杖"/>
+		<Loc Key="DES_WAND_OF_SORCERY_4" Value="魔法抗性魔杖"/>
+		<Loc Key="DES_WAND_OF_SORCERY_5" Value="魔法免疫魔杖"/>
+		<Loc Key="DES_WAND_OF_RANGE_ATTACK" Value="力量魔杖"/>
+		<Loc Key="DES_JEWELLERY_OF_DEATH_4" Value="幽灵饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_DEATH_5" Value="恐惧披风饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_LIFE_2" Value="真视饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_LIFE_3" Value="祝福饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_LIFE_4" Value="正义饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_LIFE_5" Value="无敌饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_LIFE_6" Value="耐久饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_LIFE_7" Value="位面转移饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_LIFE_8" Value="雄狮之心饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_SPELL_SAVE" Value="能量饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_MANA_POINTS" Value="巫术饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_MOVEMENT_POINTS" Value="速度饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_NATURE_1" Value="元素抗性饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_NATURE_2" Value="元素护甲饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_NATURE_3" Value="巨人力量饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_NATURE_5" Value="水上行走饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_NATURE_6" Value="恢复饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_NATURE_7" Value="寻路饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_NATURE_8" Value="相融饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_RESIST" Value="防护饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_TO_HIT" Value="精准饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_SORCERY_2" Value="守护者之风饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_SORCERY_4" Value="魔法抗性饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_SORCERY_5" Value="魔法免疫饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_SORCERY_6" Value="飞行饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_SORCERY_7" Value="隐身饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_DEFENCE" Value="防御饰品"/>
+		<Loc Key="DES_JEWELLERY_OF_ATTACK_STRENGTH" Value="力量饰品"/>
+		<Loc Key="DES_CLOAK_OF_DEATH_4" Value="幽魂披风"/>
+		<Loc Key="DES_CLOAK_OF_DEATH_5" Value="恐惧之披风"/>
+		<Loc Key="DES_CLOAK_OF_LIFE_2" Value="真视披风"/>
+		<Loc Key="DES_CLOAK_OF_LIFE_3" Value="祝福披风"/>
+		<Loc Key="DES_CLOAK_OF_LIFE_4" Value="正义披风"/>
+		<Loc Key="DES_CLOAK_OF_LIFE_5" Value="无敌披风"/>
+		<Loc Key="DES_CLOAK_OF_LIFE_6" Value="耐久披风"/>
+		<Loc Key="DES_CLOAK_OF_LIFE_7" Value="位面转移披风"/>
+		<Loc Key="DES_CLOAK_OF_LIFE_8" Value="雄狮之心披风"/>
+		<Loc Key="DES_CLOAK_OF_SPELL_SAVE" Value="能量披风"/>
+		<Loc Key="DES_CLOAK_OF_MANA_POINTS" Value="巫术披风"/>
+		<Loc Key="DES_CLOAK_OF_MOVEMENT_POINTS" Value="速度披风"/>
+		<Loc Key="DES_CLOAK_OF_NATURE_1" Value="元素抗性披风"/>
+		<Loc Key="DES_CLOAK_OF_NATURE_2" Value="元素护甲披风"/>
+		<Loc Key="DES_CLOAK_OF_NATURE_3" Value="巨人力量披风"/>
+		<Loc Key="DES_CLOAK_OF_NATURE_5" Value="水上行走披风"/>
+		<Loc Key="DES_CLOAK_OF_NATURE_6" Value="恢复披风"/>
+		<Loc Key="DES_CLOAK_OF_NATURE_7" Value="寻路披风"/>
+		<Loc Key="DES_CLOAK_OF_NATURE_8" Value="相融披风"/>
+		<Loc Key="DES_CLOAK_OF_RESIST" Value="防护披风"/>
+		<Loc Key="DES_CLOAK_OF_TO_HIT" Value="精准披风"/>
+		<Loc Key="DES_CLOAK_OF_SORCERY_2" Value="守护者之风披风"/>
+		<Loc Key="DES_CLOAK_OF_SORCERY_4" Value="魔法抗性披风"/>
+		<Loc Key="DES_CLOAK_OF_SORCERY_5" Value="魔法免疫披风"/>
+		<Loc Key="DES_CLOAK_OF_SORCERY_6" Value="飞行披风"/>
+		<Loc Key="DES_CLOAK_OF_SORCERY_7" Value="隐身披风"/>
+		<Loc Key="DES_CLOAK_OF_DEFENCE" Value="防御披风"/>
+		<Loc Key="DES_CLOAK_OF_ATTACK_STRENGTH" Value="力量披风"/>
+		<Loc Key="DES_HELM_OF_DEATH_4" Value="幽魂头盔"/>
+		<Loc Key="DES_HELM_OF_DEATH_5" Value="恐惧披风头盔"/>
+		<Loc Key="DES_HELM_OF_LIFE_2" Value="真视头盔"/>
+		<Loc Key="DES_HELM_OF_LIFE_3" Value="祝福头盔"/>
+		<Loc Key="DES_HELM_OF_LIFE_4" Value="正义头盔"/>
+		<Loc Key="DES_HELM_OF_LIFE_5" Value="无敌头盔"/>
+		<Loc Key="DES_HELM_OF_LIFE_6" Value="耐久头盔"/>
+		<Loc Key="DES_HELM_OF_LIFE_7" Value="位面转移头盔"/>
+		<Loc Key="DES_HELM_OF_LIFE_8" Value="雄狮之心头盔"/>
+		<Loc Key="DES_HELM_OF_SPELL_SAVE" Value="能量头盔"/>
+		<Loc Key="DES_HELM_OF_MANA_POINTS" Value="巫术头盔"/>
+		<Loc Key="DES_HELM_OF_MOVEMENT_POINTS" Value="速度头盔"/>
+		<Loc Key="DES_HELM_OF_NATURE_1" Value="元素抗性头盔"/>
+		<Loc Key="DES_HELM_OF_NATURE_2" Value="元素护甲头盔"/>
+		<Loc Key="DES_HELM_OF_NATURE_3" Value="巨人力量头盔"/>
+		<Loc Key="DES_HELM_OF_NATURE_5" Value="水上行走头盔"/>
+		<Loc Key="DES_HELM_OF_NATURE_6" Value="恢复头盔"/>
+		<Loc Key="DES_HELM_OF_NATURE_7" Value="寻路头盔"/>
+		<Loc Key="DES_HELM_OF_NATURE_8" Value="相融头盔"/>
+		<Loc Key="DES_HELM_OF_RESIST" Value="防护头盔"/>
+		<Loc Key="DES_HELM_OF_TO_HIT" Value="精准头盔"/>
+		<Loc Key="DES_HELM_OF_SORCERY_2" Value="守护者之风头盔"/>
+		<Loc Key="DES_HELM_OF_SORCERY_4" Value="魔法抗性头盔"/>
+		<Loc Key="DES_HELM_OF_SORCERY_5" Value="魔法免疫头盔"/>
+		<Loc Key="DES_HELM_OF_SORCERY_6" Value="飞行头盔"/>
+		<Loc Key="DES_HELM_OF_SORCERY_7" Value="隐身头盔"/>
+		<Loc Key="DES_HELM_OF_DEFENCE" Value="防御头盔"/>
+		<Loc Key="DES_HELM_OF_ATTACK_STRENGTH" Value="力量头盔"/>
+		<Loc Key="DES_GAUNTLET_OF_DEATH_4" Value="幽魂手套"/>
+		<Loc Key="DES_GAUNTLET_OF_DEATH_5" Value="恐惧披风手套"/>
+		<Loc Key="DES_GAUNTLET_OF_LIFE_2" Value="真视手套"/>
+		<Loc Key="DES_GAUNTLET_OF_LIFE_3" Value="祝福手套"/>
+		<Loc Key="DES_GAUNTLET_OF_LIFE_4" Value="正义手套"/>
+		<Loc Key="DES_GAUNTLET_OF_LIFE_5" Value="无敌手套"/>
+		<Loc Key="DES_GAUNTLET_OF_LIFE_6" Value="耐久手套"/>
+		<Loc Key="DES_GAUNTLET_OF_LIFE_7" Value="位面转移手套"/>
+		<Loc Key="DES_GAUNTLET_OF_LIFE_8" Value="雄狮之心手套"/>
+		<Loc Key="DES_GAUNTLET_OF_SPELL_SAVE" Value="能量手套"/>
+		<Loc Key="DES_GAUNTLET_OF_MANA_POINTS" Value="巫术手套"/>
+		<Loc Key="DES_GAUNTLET_OF_MOVEMENT_POINTS" Value="速度手套"/>
+		<Loc Key="DES_GAUNTLET_OF_NATURE_1" Value="元素抗性手套"/>
+		<Loc Key="DES_GAUNTLET_OF_NATURE_2" Value="元素护甲手套"/>
+		<Loc Key="DES_GAUNTLET_OF_NATURE_3" Value="巨人力量手套"/>
+		<Loc Key="DES_GAUNTLET_OF_NATURE_5" Value="水上行走手套"/>
+		<Loc Key="DES_GAUNTLET_OF_NATURE_6" Value="恢复手套"/>
+		<Loc Key="DES_GAUNTLET_OF_NATURE_7" Value="寻路手套"/>
+		<Loc Key="DES_GAUNTLET_OF_NATURE_8" Value="相融手套"/>
+		<Loc Key="DES_GAUNTLET_OF_RESIST" Value="防护手套"/>
+		<Loc Key="DES_GAUNTLET_OF_TO_HIT" Value="精准手套"/>
+		<Loc Key="DES_GAUNTLET_OF_SORCERY_2" Value="守护者之风手套"/>
+		<Loc Key="DES_GAUNTLET_OF_SORCERY_4" Value="魔法抗性手套"/>
+		<Loc Key="DES_GAUNTLET_OF_SORCERY_5" Value="魔法免疫手套"/>
+		<Loc Key="DES_GAUNTLET_OF_SORCERY_6" Value="飞行手套"/>
+		<Loc Key="DES_GAUNTLET_OF_SORCERY_7" Value="隐身手套"/>
+		<Loc Key="DES_GAUNTLET_OF_DEFENCE" Value="防御手套"/>
+		<Loc Key="DES_GAUNTLET_OF_ATTACK_STRENGTH" Value="力量手套"/>
+		<Loc Key="DES_ORB_OF_DEATH_4" Value="幽魂宝珠"/>
+		<Loc Key="DES_ORB_OF_DEATH_5" Value="恐惧披风宝珠"/>
+		<Loc Key="DES_ORB_OF_LIFE_2" Value="真视宝珠"/>
+		<Loc Key="DES_ORB_OF_LIFE_3" Value="祝福宝珠"/>
+		<Loc Key="DES_ORB_OF_LIFE_4" Value="正义宝珠"/>
+		<Loc Key="DES_ORB_OF_LIFE_5" Value="无敌宝珠"/>
+		<Loc Key="DES_ORB_OF_LIFE_6" Value="耐久宝珠"/>
+		<Loc Key="DES_ORB_OF_LIFE_7" Value="位面转移宝珠"/>
+		<Loc Key="DES_ORB_OF_LIFE_8" Value="雄狮之心宝珠"/>
+		<Loc Key="DES_ORB_OF_SPELL_SAVE" Value="能量宝珠"/>
+		<Loc Key="DES_ORB_OF_MANA_POINTS" Value="巫术宝珠"/>
+		<Loc Key="DES_ORB_OF_MOVEMENT_POINTS" Value="速度宝珠"/>
+		<Loc Key="DES_ORB_OF_NATURE_1" Value="元素抗性宝珠"/>
+		<Loc Key="DES_ORB_OF_NATURE_2" Value="元素护甲宝珠"/>
+		<Loc Key="DES_ORB_OF_NATURE_3" Value="巨人力量宝珠"/>
+		<Loc Key="DES_ORB_OF_NATURE_5" Value="水上行走宝珠"/>
+		<Loc Key="DES_ORB_OF_NATURE_6" Value="恢复宝珠"/>
+		<Loc Key="DES_ORB_OF_NATURE_7" Value="寻路宝珠"/>
+		<Loc Key="DES_ORB_OF_NATURE_8" Value="相融宝珠"/>
+		<Loc Key="DES_ORB_OF_RESIST" Value="防护宝珠"/>
+		<Loc Key="DES_ORB_OF_TO_HIT" Value="精准宝珠"/>
+		<Loc Key="DES_ORB_OF_SORCERY_2" Value="守护者之风宝珠"/>
+		<Loc Key="DES_ORB_OF_SORCERY_4" Value="魔法抗性宝珠"/>
+		<Loc Key="DES_ORB_OF_SORCERY_5" Value="魔法免疫宝珠"/>
+		<Loc Key="DES_ORB_OF_SORCERY_6" Value="飞行宝珠"/>
+		<Loc Key="DES_ORB_OF_SORCERY_7" Value="隐身宝珠"/>
+		<Loc Key="DES_ORB_OF_DEFENCE" Value="防御宝珠"/>
+		<Loc Key="DES_ORB_OF_ATTACK_STRENGTH" Value="力量宝珠"/>
+		
+		
+		<!--Trait-->
+		<Loc Key="DES_ALCHEMY" Value="炼金术"/>
+		<Loc Key="DES_ALCHEMY_DES" Value="精通古老的炼金术, 允许巫师以1比1的比例将金币转化为法力或将法力转化为金币, 而不是在转化的过程中损失1/2. 它还将为城市中建造的所有普通, 非英雄单位提供魔法武器.\n\n- 炼金术消耗2个选择."/>
+		<Loc Key="DES_ARCHMAGE" Value="大法师"/>
+		<Loc Key="DES_ARCHMAGE_DES" Value="专注于纯粹的法术能量, 使巫师施法技能+10, 并使驱散其法术的难度增加一倍. 提高技能所花费的能量拥有50%加成.\n\n-巫师必须已经选择了至少4本任一领域的法术书.\n\n-大法师消耗1个选择."/>
+		<Loc Key="DES_ARTIFICER" Value="技师"/>
+		<Loc Key="DES_ARTIFICER_DES" Value="魔法铸造大师. 技师将降低制造魔法物品的消耗. 技师在游戏开始时将拥有附魔物品和打造神器法术.\n\n-技师消耗1个选择."/>
+		<Loc Key="DES_CHANNELER" Value="通灵师"/>
+		<Loc Key="DES_CHANNELER_DES" Value="通灵师掌握着惊人的准确度并能够忽略施法距离, 因此他们在远离要塞的战斗中施法时, 不会消耗任何额外的法力. 此外, 通灵师的普通法术维护消耗只有50%(对当前法力维护总消耗四舍五入, 然后扣除50%).\n\n-通灵师消耗2个选择."/>
+		<Loc Key="DES_CHAOS_MASTERY" Value="混沌精通"/>
+		<Loc Key="DES_CHAOS_MASTERY_DES" Value="对该魔法领域的精通将使混沌法术的研究时间和施法消耗降低15%, 驱散混沌系法术的难度提高一倍, 同时从混沌节点获得的魔法能量增加一倍.\n\n-巫师必须已经选择了至少4本混沌领域的法术书.\n\n-混沌精通消耗1个选择."/>
+		<Loc Key="DES_CHARISMATIC" Value="超凡魅力"/>
+		<Loc Key="DES_CHARISMATIC_DES" Value="拥有华丽的外表, 极大地提高魅力和外交实力. 拥有超凡魅力的巫师在雇佣英雄, 雇佣兵和购买魔法物品时费用减半. 负面行动的所有外交惩罚减半, 增益效果加倍.\n\n-超凡魅力消耗1个选择."/>
+		<Loc Key="DES_CONJURER" Value="咒法师"/>
+		<Loc Key="DES_CONJURER_DES" Value="召唤大师, 使所有召唤法术的研究时间和施法消耗降低25%, 同时奇幻生物的维护消耗也降低25%(对当前召唤总消耗四舍五入再进行扣除).\n\n-咒法师消耗1个选择."/>
+		<Loc Key="DES_DIVINE_POWER" Value="神圣能量"/>
+		<Loc Key="DES_DIVINE_POWER_DES" Value="神圣的影响力使巫师从宗教建筑中获得的能量和安抚效果提高50% (若建筑能够降低1点动乱, 则现在降低1.5).\n\n-巫师必须已经选择了至少4本生命领域的法术书.\n\n-神圣能量消耗2个选择."/>
+		<Loc Key="DES_FAMOUS" Value="名声在外"/>
+		<Loc Key="DES_FAMOUS_DES" Value="巫师的威名甚至延伸到了这些新世界. 他们将以额外25点名望开始游戏. 名声在外使巫师雇佣英雄, 招募雇佣兵和购买魔法物品的几率翻倍.\n\n-名声在外消耗2个选择."/>
+		<Loc Key="DES_INFERNAL_POWER" Value="炼狱之力"/>
+		<Loc Key="DES_INFERNAL_POWER_DES" Value="邪恶的影响力主宰着神界, 使巫师从所有宗教建筑中获得的能量和安抚效果提高50% (若建筑能够降低1点动乱, 则现在降低1.5).\n\n-巫师必须已经选择了至少4本死亡领域的法术书.\n\n-炼狱之力消耗2个选择."/>
+		<Loc Key="DES_MANA_FOCUSING" Value="法力集中"/>
+		<Loc Key="DES_MANA_FOCUSING_DES" Value="对魔法能量的掌控使巫师从能量中获得的法力提高25%.\n\n-巫师必须已经选择了至少4本某个领域的法术书.\n\n-法力集中消耗1个选择."/>
+		<Loc Key="DES_MYRRAN" Value="迈罗尔族"/>
+		<Loc Key="DES_MYRRAN_DES" Value="巫师欢呼着, 被接纳成为迈罗尔种族的一员. 他们将以此阵营开始游戏, 而不是阿坎纳斯. 该巫师也可能统治着某个迈罗尔种族: 野兽人, 黑暗精灵, 龙裔, 矮人或巨魔. 巫师的要塞还将额外产生5能量.\n\n-迈罗尔族消耗2个选择."/>
+		<Loc Key="DES_NATURE_MASTERY" Value="自然精通"/>
+		<Loc Key="DES_NATURE_MASTERY_DES" Value="对该领域法术的理解使自然法术的研究时间和施法消耗降低15%, 自然系法术的驱散难度提高一倍, 从自然节点获得的魔法能量增加一倍.\n\n巫师必须已经选择了至少4本自然领域法术书.\n\n-自然精通消耗1个选择."/>
+		<Loc Key="DES_NODE_MASTERY" Value="节点精通"/>
+		<Loc Key="DES_NODE_MASTERY_DES" Value="对能量之地的掌握使得从所有魔法节点获得的魔法能量翻倍. 巫师的法术还将免疫节点的驱散.\n\n-巫师必须至少各选择1本自然, 混沌和巫术领域法术书.\n\n-节点精通消耗1个选择."/>
+		<Loc Key="DES_RUNEMASTER" Value="符文大师"/>
+		<Loc Key="DES_RUNEMASTER_DES" Value="由巫师制造的附魔符文将使所有驱散魔法类型法术的能量翻倍. 此外, 该特质还将使奥术系法术的研究时间和施法消耗降低25%.\n\n-巫师必须在3个不同法术领域各拥有至少2本法术书.\n\n-符文大师消耗1个选择."/>
+		<Loc Key="DES_SAGE_MASTERY" Value="贤者精通"/>
+		<Loc Key="DES_SAGE_MASTERY_DES" Value="对知识和智慧的掌控使得巫师从所有来源获得的研究点数提高25%.\n\n-巫师必须在两个不同法术领域各拥有至少1本法术书.\n\n-贤者精通消耗1个选择."/>
+		<Loc Key="DES_SORCERY_MASTERY" Value="巫术精通"/>
+		<Loc Key="DES_SORCERY_MASTERY_DES" Value="对该魔法领域的精通使巫术法术的研究时间和施法消耗降低15%, 巫术系法术的使驱难度提高一倍, 从巫术节点获得的魔法能量增加一倍.\n\n巫师必须已经选择了至少4本巫术领域法术书.\n\n-巫术精通消耗1个选择."/>
+		<Loc Key="DES_WARLORD" Value="军阀"/>
+		<Loc Key="DES_WARLORD_DES" Value="对战争魔法的精通使巫师控制的所有单位(奇幻单位除外)等级提高一级. 此外, 军阀特质允许军队获得额外的精英状态, 这是其他特质所无法拥有的.\n\n-军阀消耗2个选择."/>
+		<Loc Key="DES_ENCH_WARLORD_DES" Value="对战争魔法的精通将使巫师麾下所有单位(奇幻单位除外)等级提高1. 此外, 军阀允许单位获得额外的精英状态, 这是其他种族无法拥有的."/>
+
+		<Loc Key="DES_RECRUIT_HERO" Value="这名伟大的英雄希望加入您以换取{0} {ICON:GoldIcon}"/>
+		<Loc Key="DES_RECRUIT_UNIT" Value="{1}单位希望加入您以换取{0} {ICON:GoldIcon}"/>
+		<Loc Key="DES_RECRUIT_UNITS" Value="{1}单位希望加入您以换取{0} {ICON:GoldIcon}"/>
+		<!--Terrain/Location-->
+		<Loc Key="DES_SEA" Value="海洋"/>
+		<Loc Key="DES_GRASS_LAND" Value="草原"/>
+		<Loc Key="DES_MAGIC_GRASS_LAND" Value="巫术节点"/>
+		<Loc Key="DES_FOREST" Value="森林"/>
+		<Loc Key="DES_MAGIC_FOREST" Value="自然节点"/>
+		<Loc Key="DES_DESERT" Value="沙漠"/>
+		<Loc Key="DES_TUNDRA" Value="苔原"/>
+		<Loc Key="DES_SWAMP" Value="沼泽"/>
+		<Loc Key="DES_HILL" Value="丘陵"/>
+		<Loc Key="DES_MOUNTAIN" Value="山脉"/>
+		<Loc Key="DES_VOLCANO" Value="火山"/>
+		<Loc Key="DES_MAGIC_VOLCANO" Value="混沌节点"/>
+		<Loc Key="DES_LAIR" Value="怪物巢穴"/>
+		<Loc Key="DES_CAVE" Value="神秘洞窟"/>
+		<Loc Key="DES_KEEP" Value="废弃要塞"/>
+		<Loc Key="DES_ANCIENT_TEMPLE" Value="远古神殿"/>
+		<Loc Key="DES_FALLEN_TEMPLE" Value="堕落神殿"/>
+		<Loc Key="DES_DUNGEON" Value="地牢"/>
+		<Loc Key="DES_RUINS" Value="废墟"/>
+		<Loc Key="DES_NATURE_TOWER" Value="自然魔法之塔"/>
+		<Loc Key="DES_CHAOS_TOWER" Value="混沌魔法之塔"/>
+		<Loc Key="DES_DEATH_TOWER" Value="死亡魔法之塔"/>
+		<Loc Key="DES_SORCERY_TOWER" Value="巫术魔法之塔"/>
+		<Loc Key="DES_LIFE_TOWER" Value="生命魔法之塔"/>
+		<Loc Key="DES_SYNERGY_TOWER" Value="协同魔法之塔"/>
+		<Loc Key="DES_BANDIT_LAIR" Value="匪徒老巢"/>
+		<Loc Key="DES_MONSTER_LAIR_DRAGON" Value="龙穴"/>
+		<Loc Key="DES_ARENA" Value="竞技场"/>
+		<Loc Key="DES_OLD_TEMPLE" Value="古老神殿"/>
+		<Loc Key="DES_SECRET_ELF_LANDS" Value="神秘精灵之地"/>
+		<Loc Key="DES_HALFLING_BUILDING" Value="半身人建筑"/>
+		<Loc Key="DES_TRIBAL_VILLAGE" Value="部落村庄"/>
+		<Loc Key="DES_KLACKON_HIVE" Value="克拉肯虫巢"/>
+		<Loc Key="DES_MAGIC_NODE_CHAOS_COUNTER_MAGIC" Value="混沌节点驱散光环"/>
+		<Loc Key="DES_MAGIC_NODE_CHAOS_COUNTER_MAGIC_DES" Value="该节点光环将试图驱散除混沌领域之外的所有法术."/>
+		<Loc Key="DES_MAGIC_NODE_CHAOS_UNITS" Value="混沌节点单位加成光环"/>
+		<Loc Key="DES_MAGIC_NODE_CHAOS_UNITS_DES" Value="该节点为属于其领域的单位提供+2近战和远程攻击以及+2护甲和抗性."/>
+		<Loc Key="DES_MAGIC_NODE_NATURE_COUNTER_MAGIC" Value="自然节点驱散光环"/>
+		<Loc Key="DES_MAGIC_NODE_NATURE_COUNTER_MAGIC_DES" Value="该节点光环将试图驱散除自然领域之外的所有法术."/>
+		<Loc Key="DES_MAGIC_NODE_NATURE_UNITS" Value="自然节点单位加成光环"/>
+		<Loc Key="DES_MAGIC_NODE_NATURE_UNITS_DES" Value="该节点为属于其领域的单位提供+2近战和远程攻击以及+2护甲和抗性."/>
+		<Loc Key="DES_MAGIC_NODE_SORCERY_COUNTER_MAGIC" Value="巫术节点驱散光环"/>
+		<Loc Key="DES_MAGIC_NODE_SORCERY_COUNTER_MAGIC_DES" Value="该节点光环将试图驱散除巫术领域之外的所有法术."/>
+		<Loc Key="DES_MAGIC_NODE_SORCERY_UNITS" Value="巫术节点单位加成光环"/>
+		<Loc Key="DES_MAGIC_NODE_SORCERY_UNITS_DES" Value="该节点为属于其领域的单位提供+2近战和远程攻击以及+2护甲和抗性."/>
+		<Loc Key="DES_CHAOS_NODE" Value="混沌节点"/>
+		<Loc Key="DES_NATURE_NODE" Value="自然节点"/>
+		<Loc Key="DES_SORCERY_NODE" Value="巫术节点"/>
+		<!--Diplomacy-->
+		
+		<Loc Key="DES_RELATIONSHIP_FRIENDLY" Value="友善"/>
+		<Loc Key="DES_RELATIONSHIP_PEACEFUL" Value="和平"/>
+		<Loc Key="DES_RELATIONSHIP_CALM" Value="平静"/>
+		<Loc Key="DES_RELATIONSHIP_RELAXED" Value="放松"/>
+		<Loc Key="DES_RELATIONSHIP_NEUTRAL" Value="中立"/>
+		<Loc Key="DES_RELATIONSHIP_UNEASE" Value="不适"/>
+		<Loc Key="DES_RELATIONSHIP_RESTLESS" Value="不安"/>
+		<Loc Key="DES_RELATIONSHIP_TENSE" Value="紧张"/>
+		<Loc Key="DES_RELATIONSHIP_TROUBLED" Value="冲突"/>
+		<Loc Key="DES_RELATIONSHIP_HATE" Value="憎恨"/>
+		<Loc Key="DES_HARMONY" Value="和谐"/>
+		
+		<Loc Key="DES_PERSONALITY_MANIACAL" Value="狂野"/>
+		<Loc Key="DES_PERSONALITY_MANIACAL_DES" Value="狂野"/>
+		<Loc Key="DES_PERSONALITY_RUTHLESS" Value="无情"/>
+		<Loc Key="DES_PERSONALITY_RUTHLESS_DES" Value="无情"/>
+		<Loc Key="DES_PERSONALITY_LAWFUL" Value="克制"/>
+		<Loc Key="DES_PERSONALITY_LAWFUL_DES" Value="克制"/>
+		<Loc Key="DES_PERSONALITY_AGGRESSIVE" Value="挑衅"/>
+		<Loc Key="DES_PERSONALITY_AGGRESSIVE_DES" Value="挑衅"/>
+		<Loc Key="DES_PERSONALITY_CHAOTIC" Value="混乱"/>
+		<Loc Key="DES_PERSONALITY_CHAOTIC_DES" Value="混乱"/>
+		<Loc Key="DES_PERSONALITY_PEACEFUL" Value="和平"/>
+		<Loc Key="DES_PERSONALITY_PEACEFUL_DES" Value="和平"/>
+		
+		
+		<!--Wizard specific greetings are used before the initial greeting only-->
+		<Loc Key="DES_MERLIN_GREETINGS" Value="向您问好. 我是梅林, 虽然加入了这场愚蠢的比赛, 但我的首要目的是为了寻求知识."/>
+		<Loc Key="DES_RAVEN_GREETINGS" Value="你的旅行一帆风顺, 巫师. 我是瑞文, 我们的足迹肯定会相遇, 就像下雨和天晴那样, 所以我们必须跟随风所指引的地方."/>
+		<Loc Key="DES_SHAREE_GREETINGS" Value="这片土地的神灵告诉了我关于你的故事, 巫师. 我是莎莉, 当彼此的力量遭受考验时, 我们的道路注定会交织在一起."/>
+		<Loc Key="DES_LO_PAN_GREETINGS" Value="很高兴见到您, 巫师! 我是洛潘, 和你一样我来这里是为了即将到来的奇怪竞赛."/>
+		<Loc Key="DES_JAFAR_GREETINGS" Value="向您致敬. 我是贾法尔, 希望命运把我们带到这里是为了好运."/>
+		<Loc Key="DES_OBERIC_GREETINGS" Value="您好. 正如太阳必须升起一样, 我们也必须竞争. 现在既然已经见面了, 来看看谁才能驯服魔法的意志吧."/>
+		<Loc Key="DES_RJAK_GREETINGS" Value="您可以使用利基亚克这个名字来召唤我, 巫师. 但请不要在没有真正需要的情况下打扰我."/>
+		<Loc Key="DES_SSSRA_GREETINGS" Value="我的名字是斯拉. 希望你有足够的智慧向长者的力量低头, 因为在这场比赛开始之前只有我们穿过了这些位面."/>
+		<Loc Key="DES_TAURON_GREETINGS" Value="向您致以最亲切的问候. 我是托隆. 愿我们的竞争能够带来荣誉."/>
+		<Loc Key="DES_FREYA_GREETINGS" Value="你好, 我是芙蕾雅. 适者生存是大自然的方式, 而我们是大自然的主人."/>
+		<Loc Key="DES_HORUS_GREETINGS" Value="你好, 巫师. 我叫荷鲁斯, 很高兴在这个美好的日子里见到你."/>
+		<Loc Key="DES_ARIEL_GREETINGS" Value="愿生命的恩典与你同在, 巫师. 我是爱丽儿, 终于见到你了."/>
+		<Loc Key="DES_TLALOC_GREETINGS" Value="战斗前的互相致意, 欢迎你, 巫师. 我是特拉洛克. 既然我们已经清楚地看到了彼此, 那么就让这场血腥舞会开始吧."/>
+		<Loc Key="DES_KALI_GREETINGS" Value="我是卡莉. 我现在看到你了, 所以请注视我的目光. 我绝不会容忍一个傻瓜."/>
+		
+		<!--Initial greetings are used when the player first meets a wizard-->
+		<Loc Key="DES_INITIAL_GREETINGS_MANIACAL" Value="不要太靠近我的土地, 也不要贪图我的力量! 我会注视着你的一举一动."/>
+		<Loc Key="DES_INITIAL_GREETINGS_RUTHLESS" Value="当心! 不要给我战争的理由, 因为你所得到的只有迅速而无情的死亡!"/>
+		<Loc Key="DES_INITIAL_GREETINGS_AGGRESSIVE" Value="直视我! 如果有需要, 我会很乐意拿起武器对付你, 所以先让我们确认没有这种需要."/>
+		<Loc Key="DES_INITIAL_GREETINGS_CHAOTIC" Value="请记住, 今天我们也许是朋友, 但没有人知道明天会发生什么."/>
+		<Loc Key="DES_INITIAL_GREETINGS_LAWFUL" Value="记住这一点 - 我的话是牢不可破的纽带, 只要我们彼此尊重就能保持克制."/>
+		<Loc Key="DES_INITIAL_GREETINGS_PEACEFUL" Value="我相信, 正是那古老的魔法让我们聚集在了这里!"/>
+		
+		<!--Greetings are used when the player contacts a wizard through diplomacy, once contact has already been established-->		
+		<Loc Key="DES_GREETINGS_FRIENDLY_MANIACAL" Value="祝你拥有美好的一天, {0}. 你是来打破我们羁绊的吗?"/>
+		<Loc Key="DES_GREETINGS_NEUTRAL_MANIACAL" Value="你好, {0}. 你准备好攻击我了吗?"/>
+		<Loc Key="DES_GREETINGS_HOSTILE_MANIACAL" Value="有话就赶快说, {0}. 但我不会轻易被你的花言巧语所欺骗!"/>
+		<Loc Key="DES_GREETINGS_FRIENDLY_RUTHLESS" Value="祝你拥有美好的一天, {0}. 我们今天有什么可以互利互惠的吗?"/>
+		<Loc Key="DES_GREETINGS_NEUTRAL_RUTHLESS" Value="你好, {0}. 我们还没有跨入战争的大门, 所以请畅所欲言."/>
+		<Loc Key="DES_GREETINGS_HOSTILE_RUTHLESS" Value="有话就赶快说, {0}. 如果你的鲜血沾在我的手上, 我会非常高兴."/>
+		<Loc Key="DES_GREETINGS_FRIENDLY_AGGRESSIVE" Value="祝你拥有美好的一天, {0}. 让我们谈谈吧."/>
+		<Loc Key="DES_GREETINGS_NEUTRAL_AGGRESSIVE" Value="你好, {0}. 有什么事情需要讨论吗?"/>
+		<Loc Key="DES_GREETINGS_HOSTILE_AGGRESSIVE" Value="有话就赶快说, {0}. 我不喜欢你, 所以赶快."/>
+		<Loc Key="DES_GREETINGS_FRIENDLY_CHAOTIC" Value="祝你拥有美好的一天, {0}. 我们今天会交易, 战斗或享受其他乐趣吗?"/>
+		<Loc Key="DES_GREETINGS_NEUTRAL_CHAOTIC" Value="你好, {0}. 今天你感觉如何?"/>
+		<Loc Key="DES_GREETINGS_HOSTILE_CHAOTIC" Value="有话就赶快说, {0}. 好好说话, 谁知道呢 - 也许我会再次喜欢上你?"/>
+		<Loc Key="DES_GREETINGS_FRIENDLY_LAWFUL" Value="祝你拥有美好的一天, {0}. 今天我们要如何维护我们的约定?"/>
+		<Loc Key="DES_GREETINGS_NEUTRAL_LAWFUL" Value="你好, {0}. 让我们像文明人那样交谈."/>
+		<Loc Key="DES_GREETINGS_HOSTILE_LAWFUL" Value="有话就赶快说, {0}. 你背叛了我的信任, 我不会轻易再相信你了."/>
+		<Loc Key="DES_GREETINGS_FRIENDLY_PEACEFUL" Value="祝你拥有美好的一天, {0}, 我的朋友. 有什么需要帮助的吗?"/>
+		<Loc Key="DES_GREETINGS_NEUTRAL_PEACEFUL" Value="你好, {0}. 让我们寻找合作的方法."/>
+		<Loc Key="DES_GREETINGS_HOSTILE_PEACEFUL" Value="有话就赶快说, {0}. 我们选择了不同的路, 恐怕我们的友谊已尽. 即使对我来说也是如此."/>
+		
+		<!--AI Dialogues-->
+		<Loc Key="DES_TRADE_OFFER" Value="我有兴趣获得{0}, 你愿意和我交易吗, 朋友?"/>
+		<Loc Key="DES_GOOD_BYE" Value="再见."/>
+		<Loc Key="DES_THANK_YOU_FOR_YOUR_HELP" Value="谢谢您的帮助."/>
+		<Loc Key="DES_EXPANSION_WARNING" Value="停止你的扩张, 马上. 这是最后的警告, 巫师."/>
+		<Loc Key="DES_TERRITORY_BREAK_WARNING_FRIENDLY" Value="你们的一些单位似乎离我的城市太近了. 请尊重我的领地."/>
+		<Loc Key="DES_TERRITORY_BREAK_WARNING_NEUTRAL" Value="你最好让你的军队远离我的领地, 你真的想破坏我们的关系吗?"/>
+		<Loc Key="DES_TERRITORY_BREAK_WARNING_HOSTILE" Value="你出现在我的城市附近太频繁了. 马上停下来, 否则只能开战!"/>
+		<Loc Key="DES_WAR_FOR_ATTACKED_MY_ARMY" Value="你真的认为你可以毫无后果地攻击我的军队吗? 准备战斗吧, 你这个毫无价值的蛆虫!"/>
+		<Loc Key="DES_WAR_FOR_ATTACKED_MY_TOWN" Value="攻击我的领地是一个严重的错误. 准备战斗!"/>
+		<Loc Key="DES_NOT_INTERESTED_IN_TALKING" Value="我对你无话可说."/>
+		<Loc Key="DES_WHAT_TREATY_YOU_WANT_MANIACAL" Value="来谈谈条件吧, 提醒你, 不要耍花招! 你想怎么样?"/>
+		<Loc Key="DES_WHAT_TREATY_YOU_WANT_RUTHLESS" Value="我们可以谈谈条件, 但不要考验我的耐心. 你对什么有兴趣?"/>
+		<Loc Key="DES_WHAT_TREATY_YOU_WANT_AGGRESSIVE" Value="那么让我们谈谈条件吧. 你有什么考虑?"/>
+		<Loc Key="DES_WHAT_TREATY_YOU_WANT_CHAOTIC" Value="订立条约还是不订立, 这是个问题... 那么, 选择哪一个?"/>
+		<Loc Key="DES_WHAT_TREATY_YOU_WANT_LAWFUL" Value="条约是合法关系的基础, 我们来讨论一下. 您对哪个协议感兴趣?"/>
+		<Loc Key="DES_WHAT_TREATY_YOU_WANT_PEACEFUL" Value="我们将讨论条约, 是吗? 协议对和平很有效, 那么我们该谈哪一个呢?"/>
+		<Loc Key="DES_ACCEPT_TREATY_MANIACAL" Value="我赞成. 愿我们彼此都遵守协议."/>
+		<Loc Key="DES_ACCEPT_TREATY_RUTHLESS" Value="条款可以接受. 愿这份协议在最终决战到来之前对我们彼此都有益."/>
+		<Loc Key="DES_ACCEPT_TREATY_AGGRESSIVE" Value="条款已达成一致. 愿我们双方都能从这笔交易中受益."/>
+		<Loc Key="DES_ACCEPT_TREATY_CHAOTIC" Value="条款已达成一致, 至少目前是... 愿我们都能从这次有趣的交换中获益."/>
+		<Loc Key="DES_ACCEPT_TREATY_LAWFUL" Value="条款已同意并确认. 愿我们双方都能从这一安排中受益."/>
+		<Loc Key="DES_ACCEPT_TREATY_PEACEFUL" Value="接受条款! 愿这份协议带来和平与安宁."/>
+		<Loc Key="DES_ACCEPT_TREATY_BREAK_MANIACAL" Value="啊哈, {0}! 我一直都知道你在密谋着什么."/>
+		<Loc Key="DES_ACCEPT_TREATY_BREAK_RUTHLESS" Value="真的吗, {0}? 为了你们自己好, 我希望这不会是流血的前奏."/>
+		<Loc Key="DES_ACCEPT_TREATY_BREAK_AGGRESSIVE" Value="真的吗, {0}? 我以为你比我更需要这笔交易."/>
+		<Loc Key="DES_ACCEPT_TREATY_BREAK_CHAOTIC" Value="噢, 真的吗, {0}? 没有更多的条约, 是好事还是坏事? 无论怎样, 好吧."/>
+		<Loc Key="DES_ACCEPT_TREATY_BREAK_LAWFUL" Value="真的吗, {0}? 我讨厌违背协议, 但我必须接受它. 因为这在我们的竞争中不可避免."/>
+		<Loc Key="DES_ACCEPT_TREATY_BREAK_PEACEFUL" Value="如您所愿, {0}? 我真的认为这个条约很划算. 无所谓, 现在已经达成了."/>
+		<Loc Key="DES_ACCEPT_WAR_MANIACAL" Value="不出意料, 那就开战吧!"/>
+		<Loc Key="DES_ACCEPT_WAR_RUTHLESS" Value="终于, 让我们露出本来面目把; 准备开战!"/>
+		<Loc Key="DES_ACCEPT_WAR_AGGRESSIVE" Value="要战便战吧."/>
+		<Loc Key="DES_ACCEPT_WAR_CHAOTIC" Value="战争, 战争是我们的舞蹈!"/>
+		<Loc Key="DES_ACCEPT_WAR_LAWFUL" Value="战争的时刻已经到来."/>
+		<Loc Key="DES_ACCEPT_WAR_PEACEFUL" Value="很遗憾, 现在是开战的时候了."/>
+		<Loc Key="DES_ACCEPT_WAR_END_MANIACAL" Value="啊, 那血迹是如此的明显. 不过, 我们会暂时停下来."/>
+		<Loc Key="DES_ACCEPT_WAR_END_RUTHLESS" Value="鲜血还会在我们之间流淌, 但现在它已经结束了."/>
+		<Loc Key="DES_ACCEPT_WAR_END_AGGRESSIVE" Value="同意, 现在应该停止战争."/>
+		<Loc Key="DES_ACCEPT_WAR_END_CHAOTIC" Value="战争结束! 结束还是开始? 现在我们都已经完蛋了."/>
+		<Loc Key="DES_ACCEPT_WAR_END_LAWFUL" Value="同意, 如果我们都尊重这一裁决, 是时候停止侵略了."/>
+		<Loc Key="DES_ACCEPT_WAR_END_PEACEFUL" Value="同意, 让我们停止如此轻率的流血冲突."/>
+		<Loc Key="DES_ARTEFACT_NAMED" Value="一件神器 - {0}"/>
+		<Loc Key="DES_SPELL_NAMED" Value="一个叫做{0}的法术"/>
+		<Loc Key="DES_MANA" Value="法力"/>
+		<Loc Key="DES_GOLD" Value="金币"/>
+		<Loc Key="DES_LET_IT_BENEFIT_US_BOTH" Value="太棒了，愿我们都能从中受益!"/>
+		<Loc Key="DES_YOU_WILL_REGRET_IT" Value="你会后悔拒绝我的提议..."/>
+		<Loc Key="DES_SUCCESSFUL_TRADE" Value="公平的贸易对于建立长期持久关系非常重要. 我接受."/>
+		<Loc Key="DES_EXCELENT_TRADE" Value="非常好, 很高兴与你交易!"/>
+		<Loc Key="DES_POOR_TRADE" Value="这一次… 我接受你的请求."/>
+		
+		<!--Player answers-->
+		<Loc Key="DES_BYE" Value="结束对话."/>
+		<Loc Key="DES_TRADE2" Value="让我们交易吧."/>
+		<Loc Key="DES_WILLING_TRADE" Value="好吧, 让我看看能不能满足你的要求."/>
+		<Loc Key="DES_UNWILLING_TRADE" Value="看得出来你没有交易的心情, 但也许我可以给你展示一些有趣的东西?"/>
+		<Loc Key="DES_LETS_TALK_ABOUT_TREATIES" Value="我想讨论条约的内容."/>
+		<Loc Key="DES_I_WANT_TO_END_TREATY" Value="我要结束我们之间的{0}! [结束条约]"/>
+		<Loc Key="DES_I_WANT_TO_END_TREATY_T" Value="我要结束我们之间的{0}! [提前{1}回合结束条约]"/>
+		<Loc Key="DES_I_WANT_TO_START_TREATY" Value="如何合适的话,我想开始一个{0}? [开始条约]"/>		
+		<Loc Key="DES_I_WANT_TO_START_TREATY_T" Value="如何合适的话,我想开始一个{0}? [开始条约并持续{1}回合]"/>
+		<Loc Key="DES_NO_NOT_INTERESTED" Value="我绝不接受这个提议."/>
+		<Loc Key="DES_TRADER_WILL_NOT_AGREE" Value="我不会同意这些条款."/>
+		<Loc Key="DES_TRADER_WILL_AGREE" Value="我接受."/>
+		<Loc Key="DES_WAR" Value="宣战"/>
+		<Loc Key="DES_ALLIANCE" Value="结盟"/>
+		<Loc Key="DES_ALLIANCE_MID_SENTENCE" Value="盟约"/>
+		<Loc Key="DES_ALLIANCE_DES" Value="巫师之间的互不侵犯协议."/>
+		<Loc Key="DES_RESEARCH_TREATY" Value="条约研究"/>
+		<Loc Key="DES_RESEARCH_TREATY_MID_SENTENCE" Value="研究条约"/>
+		<Loc Key="DES_RESEARCH_TREATY_DES" Value="双方每回合增加5研究点数."/>
+		<Loc Key="DES_TRADE_TREATY" Value="条约研究"/>
+		<Loc Key="DES_TRADE_TREATY_MID_SENTENCE" Value="贸易条约"/>
+		<Loc Key="DES_TRADE_TREATY_DES" Value="一项互惠互利的条约, 为您和签署条约的巫师各带来总金币的5%以及每回合5金币."/>
+		<Loc Key="DES_WAR_DECLARATION" Value="我已经受够你了, 准备开战吧!"/>	
+		<Loc Key="DES_I_WANT_TO_END_WAR" Value="让我们结束这场战争, 如何?"/>
+		<Loc Key="DES_I_WANT_TO_START_WAR" Value="只有我们中的一人才能取得胜利. 准备战斗吧!"/>
+
+		<Loc Key="DES_ADD_REBELS" Value="动乱增加" />
+        <Loc Key="DES_ADD_REBELS_DES" Value="效果激活时, 该城市的动乱{ICON:UnrestIcon}将提高." />
+        <Loc Key="DES_TAKE_REBELS" Value="动乱降低" />
+        <Loc Key="DES_TAKE_REBELS_DES" Value="效果激活时, 该城市的动乱{ICON:UnrestIcon}将降低." />
+	  <!--NEW_PREMADE-->
+		<Loc Key="DES_ELVEN_RING_OF_PROTECTION" Value="精灵防护指环"/>
+		<Loc Key="DES_ELVEN_RING_OF_GREATER_PROTECTION" Value="强效精灵防护指环"/>
+		<Loc Key="DES_LESSER_AMULET_OF_BATTLE" Value="次级战斗护身符"/>
+		<Loc Key="DES_RING_OF_MAGUS" Value="术士指环"/>
+		<Loc Key="DES_AMULET_OF_PROTECTION" Value="防护护身符"/>
+		<Loc Key="DES_AMULET_OF_MOVEMENT" Value="移动护身符"/>
+		<Loc Key="DES_HELM_OF_FEAR" Value="恐惧头盔"/>
+		<Loc Key="DES_CLOAK_OF_FLYING" Value="飞行披风"/>
+		<Loc Key="DES_ORB_OF_RESISTANCE" Value="抗性宝珠"/>
+		<Loc Key="DES_MACE_OF_STONE" Value="岩石之锤"/>
+		<Loc Key="DES_SWORD_OF_DEFIANCE" Value="反抗之剑"/>
+		<Loc Key="DES_BOW_OF_STONE" Value="岩石之弓"/>
+		<Loc Key="DES_BOW_OF_VETERAN" Value="老兵之弓"/>
+		<Loc Key="DES_BOW_OF_MARKSMANSHIP" Value="射手之弓"/>
+		<Loc Key="DES_BOW_OF_ACCURACY" Value="精准之弓"/>
+		<Loc Key="DES_WAND_OF_MAGE" Value="织法者魔杖"/>
+		<Loc Key="DES_WAND_OF_SORCERER" Value="巫师魔杖"/>
+		<Loc Key="DES_STAFF_OF_BATTLEMAGE" Value="战斗法师之杖"/>
+		<Loc Key="DES_STAFF_OF_WIZARDRY" Value="巫师法杖"/>
+
+		<!--  NEW_BUILDINGS -->
+		<Loc Key="DES_BUILDING_MAGIC_COLLECTOR" Value="增幅器" />
+		<Loc Key="DES_BUILDING_MAGIC_COLLECTOR_DES" Value="增幅器是典型的科技魔法建筑, 这个由巫术驱动的奇异机械能够让巫师所拥有的以及城市范围内的能量节点进行增幅(+8能量{ICON:PowerIcon}), 并-1动乱{ICON:UnrestIcon}. 对于某些特定种族, 该建筑还能解锁特殊单位.\n\n需要一个能量节点" />
+		<Loc Key="DES_BUILDING_FISHERMAN_HUT" Value="渔夫小屋"/>
+		<Loc Key="DES_BUILDING_FISHERMAN_HUT_DES" Value="渔夫小屋能够为城市提供海洋的馈赠.\n\n效果: 获得+3{ICON:FoodIcon}食物.\n\n需要海岸"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_INDENTURED_WORKERS_GUILD" Value="契约工人公会"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_INDENTURED_WORKERS_GUILD_DES" Value="契约工人公会由海盗运营, 其目的是为了提高俘虏的工作效率.\n\n效果: 有些人并不喜欢这样的作法, +1动乱{ICON:UnrestIcon}, 但+10 {ICON:ProductionIcon}生产效率.\n解锁单位(若种族允许)."/>		
+		
+		<!--  NEW_SKILLS -->
+		<Loc Key="DES_LIFE_STEALING_MAGICAL_RANGE_ATTACK" Value="生命窃取攻击" />
+		<Loc Key="DES_LIFE_STEALING_MAGICAL_RANGE_ATTACK_DES" Value="一种魔法混沌远程攻击, 可以创造出一个亡灵单位." />
+
+		<Loc Key="DES_KRAKEN_SHIELD" Value="海洋之拥"/>
+		<Loc Key="DES_KRAKEN_STAFF" Value="闪电之怒"/>
+		<Loc Key="DES_KRAKEN_TRIDENT" Value="海妖之牙"/>
+		<Loc Key="DES_KRAKEN_AMULET" Value="海妖之怒"/>
+    
+		
+		<!--  DIPLOMACY RM3 -->
+		<Loc Key="DES_NONO_I_WANT_TO_START_TREATY_T" Value="我知道你不愿意, 但我还是要问. 我希望与你建立{0}, 你意向如何? [持续{1}回合].\n{2}" />
+		<Loc Key="DES_UNLIKELY_I_WANT_TO_START_TREATY_T" Value="我知道你不太乐意,但我还是要问. 我希望与你建立{0}, 你意向如何? [持续{1}回合]\n{2}" />
+		<Loc Key="DES_MAYBE_I_WANT_TO_START_TREATY_T" Value="我知道你有些犹豫, 但我希望你能够考虑建立{0}, 这对我们双方都有好处. 你意向如何? [持续{1}回合]\n{2}" />
+		<Loc Key="DES_SURELY_I_WANT_TO_START_TREATY_T" Value="我知道你正在认真考虑建立{0}. 让我们尽快签署, 早日受益! [持续{1}回合]\n{2}" />
+		<Loc Key="DES_YESYES_I_WANT_TO_START_TREATY_T" Value="我知道你希望尽快建立{0}, 所以我率先提出, 以便双方早日获益. [持续{1}回合]\n{2}" />
+		<Loc Key="DES_RELATIONSHIP_IMPROVED_MANIACAL" Value="你可能比我想象中的更疯狂, 我想我更喜欢你一点!\n" />
+		<Loc Key="DES_RELATIONSHIP_IMPROVED_RUTHLESS" Value="你可真狡猾! 我越来越喜欢你的风格了.\n" />
+		<Loc Key="DES_RELATIONSHIP_IMPROVED_AGGRESSIVE" Value="你的那招...真是大胆而果断. 你不是随便说说而已. 作为对手, 这让我更加尊重你.\n" />
+		<Loc Key="DES_RELATIONSHIP_IMPROVED_CHAOTIC" Value="在这个沉闷而乏味的世界里, 你的行动迸发出了令人愉悦的疯狂火花. 我喜欢!\n" />
+		<Loc Key="DES_RELATIONSHIP_IMPROVED_LAWFUL" Value="一致和逻辑性是难能可贵的品质. 你的行动证实了这两点. 我对你的尊重正在悄然增长.\n" />
+		<Loc Key="DES_RELATIONSHIP_IMPROVED_PEACEFUL" Value="通过每一项促进和平的行动, 我们之间建立起了尊重的纽带.\n" />
+		<Loc Key="DES_RELATIONSHIP_WORSEN_MANIACAL" Value="这是什么? 乏善可陈的开局策略? 它缺少我所渴望的疯狂. 你正在从我的疯狂溺爱中溜走.\n" />
+		<Loc Key="DES_RELATIONSHIP_WORSEN_RUTHLESS" Value="这个提议很软弱, 暴露出出你的弱点, 而不是我所尊重的钢铁意志. 我发现我对你的耐心正在减弱.\n" />
+		<Loc Key="DES_RELATIONSHIP_WORSEN_AGGRESSIVE" Value="这样的提议是对我力量的侮辱. 我质疑你的决心.\n" />
+		<Loc Key="DES_RELATIONSHIP_WORSEN_CHAOTIC" Value="混沌是我的盟友, 但你的提议缺乏这一点. 它过于温和, 非常容易预测. 我正在失去对你的兴趣.\n" />
+		<Loc Key="DES_RELATIONSHIP_WORSEN_LAWFUL" Value="你的提议扰乱了事物的秩序. 我不喜欢混乱. 我对你的尊重会逐渐减少.\n" />
+		<Loc Key="DES_RELATIONSHIP_WORSEN_PEACEFUL" Value="你的主张破坏了微妙的和平. 至少可以说, 这令人失望. 我对你的看法已经恶化.\n" />
+		<Loc Key="DES_ACCEPT_TREATY_NONO" Value="我没想到我会这么说, 但是" />
+		<Loc Key="DES_ACCEPT_TREATY_UNLIKELY" Value="你说服了我, " />
+		<Loc Key="DES_ACCEPT_TREATY_MAYBE" Value="我知道这可能会有用, 所以" />
+		<Loc Key="DES_ACCEPT_TREATY_SURELY" Value="确实是一次非常富有成效的交换, " />
+		<Loc Key="DES_ACCEPT_TREATY_YESYES" Value="我只想自己提供这个! 好吧, " />
+		
+	</LOCALIZATION-DES_CN>
+</DB_LOCALIZATION>

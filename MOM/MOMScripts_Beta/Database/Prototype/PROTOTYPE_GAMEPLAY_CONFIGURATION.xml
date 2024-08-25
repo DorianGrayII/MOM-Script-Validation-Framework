@@ -1,0 +1,11 @@
+﻿<PROTOTYPE_GAMEPLAY_CONFIGURATION>				
+    <GC Name="Gc">
+		<Name Name="name" Type="string" Required="TRUE"/>
+		<Setting Name="setting"  Type="string" Required="TRUE"/>
+	</GC>
+	
+	<GAMEPLAY_CONFIGURATION Name="GameplayConfiguration">
+        <Option Name="option"  Type="ArrayGC" Required="TRUE"/>
+    </GAMEPLAY_CONFIGURATION>	
+	
+</PROTOTYPE_GAMEPLAY_CONFIGURATION>

@@ -1,0 +1,9 @@
+﻿<DB_LOCALIZATION>
+    <LOCALIZATION-DES_EN_MCW Language="English">
+        <!--MAGES-->
+        <Loc Key="DES_MY_CUSTOM_WIZARD" Value="My Custom Wizard"/>
+        <Loc Key="DES_MY_CUSTOM_WIZARD_DES" Value="Marvin the Martian is a complex character with a distinct personality. He is intelligent, sophisticated, and often engaged in schemes involving high-tech gadgets. Despite his calm and composed demeanor, he harbors an unyielding determination to achieve his objectives, however destructive they might be. Yet, this destructive potential is often expressed in a humorous and absurd fashion, reflecting the essence of Looney Tunes’ humor. Moreover, Marvin’s interactions with other characters, such as his dog K-9 and the hairy monster Gossamer, reveal a somewhat nurturing side to his character, adding depth and contrast to his personality​.
+ \n\n (edit DB_LOCALIZATION_DES_MCW.xml to change description) \n\n (edit DB_WIZARD_MCW.xml to change books and traits)"/>
+        <Loc Key="DES_MY_CUSTOM_WIZARD_QUOTE" Value="Where's The Kaboom? There Was Supposed To Be An Earth-Shattering Kaboom!"/>
+    </LOCALIZATION-DES_EN_MCW>
+</DB_LOCALIZATION>

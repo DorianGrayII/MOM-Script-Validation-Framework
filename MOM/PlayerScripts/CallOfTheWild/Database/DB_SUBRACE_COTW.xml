@@ -1,0 +1,101 @@
+<DB_SUBRACE>
+  <UNIT-COFTW_SUMMON_WAR_BEAR Figures="2" OriginalScaleValue="70">
+    <DescriptionInfo Name="DES_COFTW_SUMMON_WAR_BEAR" Description="DES_COFTW_SUMMON_WAR_BEAR_DES" Graphic="WarBear" />
+    <Race VALUE="RACE-REALM_NATURE"/>
+    <Marker VALUE="IconWarBear"/>
+
+    <Tags Amount="3" Tag="TAG-MOVEMENT_POINTS"/>
+    <Tags Amount="1" Tag="TAG-CAN_WALK"/>
+<!--
+  not needed for a battle-cast summon
+    <Tags Amount="2" Tag="TAG-UPKEEP_MANA"/>
+-->
+    <NaturalHealing VALUE="TRUE"/>
+    <GainsXP VALUE="FALSE"/>
+
+    <Tags Amount="7" Tag="TAG-MELEE_ATTACK"/>
+    <Tags Amount="3" Tag="TAG-DEFENCE"/>
+    <Tags Amount="6" Tag="TAG-RESIST"/>
+    <Tags Amount="8" Tag="TAG-HIT_POINTS"/>
+    <Tags Amount="0.3" Tag="TAG-MELEE_ATTACK_CHANCE"/>
+    <Tags Amount="0.3" Tag="TAG-DEFENCE_CHANCE"/>
+
+    <Tags Amount="1" Tag="TAG-FANTASTIC_CLASS"/>
+
+    <Skills VALUE="SKILL-MELEE_ATTACK"/>
+    <Skills VALUE="SKILL-ENCHANTED_WEAPON1"/>
+    <Skills VALUE="SKILL-FORESTER"/>
+
+    <Tags Amount="1" Tag="TAG-MELEE_UNIT"/>
+    <Tags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+    <Audio Move="WarBearMove" AttackMelee="WarBearAttackMelee" GetHit="WarBearGetHit" Die="WarBearDie"/>
+  </UNIT-COFTW_SUMMON_WAR_BEAR>
+
+  <UNIT-COFTW_SUMMON_BOAR Figures="1" OriginalScaleValue="70">
+    <DescriptionInfo Name="DES_COFTW_BOAR" Description="DES_COFTW_BOAR_DES" Graphic="Boar" />
+    <Race VALUE="RACE-REALM_NATURE"/>
+    <Marker VALUE="IconBoar"/>
+
+    <Tags Amount="3" Tag="TAG-MOVEMENT_POINTS"/>
+    <Tags Amount="1" Tag="TAG-CAN_WALK"/>
+
+<!--
+    <Tags Amount="2" Tag="TAG-UPKEEP_MANA"/>
+-->
+    <NaturalHealing VALUE="TRUE"/>
+    <GainsXP VALUE="FALSE"/>
+
+    <Tags Amount="7" Tag="TAG-MELEE_ATTACK"/>
+    <Tags Amount="5" Tag="TAG-DEFENCE"/>
+    <Tags Amount="6" Tag="TAG-RESIST"/>
+    <Tags Amount="8" Tag="TAG-HIT_POINTS"/>
+    <Tags Amount="0.4" Tag="TAG-MELEE_ATTACK_CHANCE"/>
+    <Tags Amount="0.4" Tag="TAG-DEFENCE_CHANCE"/>
+
+    <Tags Amount="1" Tag="TAG-FANTASTIC_CLASS"/>
+
+    <Skills VALUE="SKILL-MELEE_ATTACK"/>
+    <Skills VALUE="SKILL-ENCHANTED_WEAPON1"/>
+    <Skills VALUE="SKILL-ARMOR_PIERCING"/>
+    <Skills VALUE="SKILL-STUN"/>
+
+    <Tags Amount="1" Tag="TAG-MELEE_UNIT"/>
+    <Tags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+    <Audio Move="BoarMove" AttackMelee="BoarAttackMelee" GetHit="BoarGetHit" Die="BoarDie"/>
+  </UNIT-COFTW_SUMMON_BOAR>
+
+  <UNIT-COFTW_SUMMON_FAT_RAT Figures="1" OriginalScaleValue="70">
+    <DescriptionInfo Name="DES_COFTW_FAT_RAT" Description="DES_COFTW_FAT_RAT_DES" Graphic="FatRat" />
+    <Race VALUE="RACE-REALM_NATURE"/>
+    <Marker VALUE="IconFatRat"/>
+
+    <Tags Amount="3" Tag="TAG-MOVEMENT_POINTS"/>
+    <Tags Amount="1" Tag="TAG-CAN_WALK"/>
+<!--
+    <Tags Amount="2" Tag="TAG-UPKEEP_MANA"/>
+-->
+    <NaturalHealing VALUE="TRUE"/>
+    <GainsXP VALUE="FALSE"/>
+
+    <Tags Amount="10" Tag="TAG-MELEE_ATTACK"/>
+    <Tags Amount="5" Tag="TAG-DEFENCE"/>
+    <Tags Amount="6" Tag="TAG-RESIST"/>
+    <Tags Amount="8" Tag="TAG-HIT_POINTS"/>
+    <Tags Amount="0.3" Tag="TAG-MELEE_ATTACK_CHANCE"/>
+    <Tags Amount="0.3" Tag="TAG-DEFENCE_CHANCE"/>
+
+    <Tags Amount="1" Tag="TAG-FANTASTIC_CLASS"/>
+
+    <Skills VALUE="SKILL-MELEE_ATTACK"/>
+    <Skills VALUE="SKILL-ENCHANTED_WEAPON1"/>
+    <Skills VALUE="SKILL-POISON_IMMUNITY"/>
+    <Skills VALUE="SKILL-POISON_4_ADDON2"/>
+    <Skills VALUE="SKILL-CAUSE_FEAR"/>
+    <Skills VALUE="SKILL-BLEEDING_2_OWNER"/>
+    <Skills VALUE="SKILL-EARTH_WALKER"/>
+
+    <Tags Amount="1" Tag="TAG-MELEE_UNIT"/>
+    <Tags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+    <Audio Move="FatRatMove" AttackMelee="FatRatAttackMelee" GetHit="FatRatGetHit" Die="FatRatDie"/>
+  </UNIT-COFTW_SUMMON_FAT_RAT>
+</DB_SUBRACE>

@@ -1,0 +1,59 @@
+﻿<PROTOTYPE_LOCATION>	
+	<E_NODE_TYPE Type="enum" Name="ENodeType">	
+		<None/>	
+		<Chaos/>	
+		<Nature/>	
+		<Sorcery/>	
+	</E_NODE_TYPE>
+	
+	<E_LOCATION_TYPE Type="enum" Name="ELocationType">
+		<None/>
+		<Node/>
+		<WeakLair/>
+		<Lair/>
+		<StrongLair/>
+		<Ruins/>
+		<PlaneTower/>
+		<MidGameLair/>		
+		<!-- multiple of those are spread across the map on water hexes -->
+		<WeakWaterLair/>
+		<WaterLair/>
+		<StrongWaterLair/>
+		<!-- Each unique location is generate one time for each plane-->
+		<WaterArcanusUnique/>
+		<WaterMyrrorUnique/>
+		<!-- Boss lair are generated from events-->
+		<BossLair/>
+	</E_LOCATION_TYPE>
+	
+	<LOCATION Name="Location">
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>
+		<LocationType Name="locationType" Type="E_LOCATION_TYPE"  Required="FALSE"/>
+		<!-- script used to spawn creatures for defence purposes -->
+		<GuardianCreationScript Name="guardianCreationScript" Type="string" Required="FALSE"/>
+		<!-- script trigerred to spawn rampaging creatures or riders -->
+		<RampagingScript Name="rampagingScript" Type="string" Required="FALSE"/>
+		<LocationEvent Name="locationEvent" Type="LOCATION_EVENT" Required="FALSE"/>	
+		<Dlc Name="dlc" Type="string" Required="FALSE"/>
+		<UnitBonus Name="unitBonus" Type="ArrayENCHANTMENT" Required="FALSE"/>
+		<CustomBattleMap Name="customBattleMap" Type="string" Required="FALSE"/>
+		<CustomBattleLighting Name="customBattleLighting" Type="float" Required="FALSE"/>
+		
+	</LOCATION>
+		
+	<MAGIC_NODE Name="MagicNode" Extends="Location">
+		<NodeType Name="nodeType" Type="E_NODE_TYPE" Required="TRUE"/>
+		
+		<CustomTerrainType Name="customTerrainType" Type="TERRAIN" Required="TRUE"/>
+		<PowerRange Name="powerRange" Type="INT_RANGE" Required="TRUE"/>
+		
+		<!-- Ench applied to all units in influence range -->
+		<UnitBonus Name="unitBonus" Type="ArrayENCHANTMENT" Required="TRUE"/>
+	</MAGIC_NODE>
+	
+	<LOCATION_EVENT  Name="LocationEvent">
+		<Module Name="module" Type="string" Required="TRUE"/>
+		<Adventure Name="adventure" Type="int" Required="TRUE"/>
+	</LOCATION_EVENT>
+	
+</PROTOTYPE_LOCATION>

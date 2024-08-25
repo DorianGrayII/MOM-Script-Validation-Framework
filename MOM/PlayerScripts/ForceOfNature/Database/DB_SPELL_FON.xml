@@ -1,0 +1,20 @@
+﻿<DB_SPELL>
+    <SPELL-FORCE_OF_NATURE WorldCost="50">
+        <DescriptionInfo Name="DES_FORCE_OF_NATURE" Description="DES_FORCE_OF_NATURE_DES" Graphic="SpellForceOfNature"/>
+        <ResearchCost VALUE="400"/>
+        <Realm VALUE="Nature"/>
+        <Rarity VALUE="Uncommon"/>
+        <TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+        <TargetingScript VALUE="STAR_FriendlyNonFantastic_Unit"/>
+        <WorldScript VALUE="SWG_ForceOfNature"/>
+        <StringData VALUE="SKILL-FORCE_OF_NATURE1"/>
+        <StringData VALUE="SKILL-FORCE_OF_NATURE2"/>
+        <StringData VALUE="SKILL-FORCE_OF_NATURE3"/>
+        <AIWorldEvaluationScript VALUE="SWAI_ForceOfNature"/>
+        <!-- Use same effect as ChaosChannels -->
+        <CastEffect VALUE="Effect_ChaosChannels"/>
+        <!-- Use same audio as ChaosChannels -->
+        <AudioEffect VALUE="SpellChaosChannels"/>
+        <InvalidTarget VALUE="DES_FORCE_OF_NATURE_TARGET"/>
+    </SPELL-FORCE_OF_NATURE>
+</DB_SPELL>

@@ -1,0 +1,107 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC1_FR Language="Français">
+		<!-- DLC 1 descriptions --> 
+		<Loc Key="DES_RAASS" Value="Raa'ss" />
+		<Loc Key="DES_RAASS_DES" Value="Raa'ss est un puissant sorcier draconien rempli de rage et de tourment qui peut être canalisé dans la conquête avec une précision mortelle. Il est le maître de la magie du Chaos et de la Mort et un seigneur de guerre fantastique dont les invocations sont d'une grande puissance. Il refuse de parader en tenue humanoïde et abhorre son supposé jumeau, Sss'ra. Il est dit que la véritable origine de Raa'ss est imprégnée de malice, qu'il est en fait un sombre reflet de Sss'ra devenu réalité..." />
+		<Loc Key="DES_RAASS_QUOTE" Value="Osez m'appeler un simple reflet, et je vous défierai!" />
+		
+		<Loc Key="DES_BIANKA" Value="Bianka" />
+		<Loc Key="DES_BIANKA_DES" Value="Bianka a atteint les plus hauts rangs de la noblesse naine grâce à sa détermination inébranlable et à sa maîtrise incontestée de la magie des runes. En tant que tailleur de pierre, Bianka montre également son affinité presque surnaturelle avec la pierre. Originaire de Myrror, la grande magicienne cherche à prouver son droit de naissance en tant que maître en maniant trois écoles de magie distinctes, la sorcellerie, le chaos et la nature. " />
+		<Loc Key="DES_BIANKA_QUOTE" Value="Mon pouvoir est forgé dans la tourmente, infusé dans la force runique et gravé dans la pierre éternelle. Personne ne peut le briser !" />
+		
+		<Loc Key="DES_TLACHTGA" Value="Tlachtga" />
+		<Loc Key="DES_TLACHTGA_DES" Value="Tlachtga a maîtrisé les arts de la magie de la nature alors qu'elle n'était qu'un bébé et est devenue l'un des plus grands druides de ses terres sombres. La maîtrise de Tlachtga de la face moins bénigne du cercle de la vie l'a attirée vers Myrror où la malice de la nature peut être apprivoisée et contrôlée. Elle est également une puissante invocatrice de nature, rendant les invocations de nature 30% moins chères et commençant son voyage avec une unité d'ours de guerre." />
+		<Loc Key="DES_TLACHTGA_QUOTE" Value="Le côté sombre de la nature nourrit mon pouvoir, alors restez à l'écart ou soyez dévorés par elle.!" />
+		
+		<Loc Key="DES_CORAX" Value="Corax" />
+		<Loc Key="DES_CORAX_DES" Value="Corax Blancplumage a emprunté le chemin des ténèbres et du crime dans sa jeunesse, mais il affirme avoir été inspiré par son père éclairé pour changer son destin. Il a donc littéralement changé de plumes et revendiqué la Vie comme son domaine. Corax cherche à apporter sa sagesse aux lieux obscurs, par la force s'ils refusent. Il maîtrise la magie de la vie et, en tant que porteur de vie, il peut ressusciter les morts et leur donner des capacités de guérison." />
+		<Loc Key="DES_CORAX_QUOTE" Value="Cherchez la lumière avec moi, créature sombre, car elle t'apportera la paix et le pouvoir." />
+
+		<Loc Key="DES_RAASS_GREETINGS" Value="Agenouillez-vous devant moi, créature inférieure ! Nous sommes peut-être civilisés maintenant, mais la tourmente changera bientôt cela et le sang coulera."/>
+		<Loc Key="DES_BIANKA_GREETINGS" Value="Bienvenu ! Je suis la gardienne de runes Bianka, aînée de ma famille, maître des pierres . Puissent nos relations rester inébranlables jusqu'à l'heure de l'épreuve finale."/>
+		<Loc Key="DES_TLACHTGA_GREETINGS" Value="Salut, je m'appelle Tlachtga, la magie est mon jeu, haha. Puissions-nous bien jouer, sorcier et que le meilleur peau verte gagne. "/>
+		<Loc Key="DES_CORAX_GREETINGS" Value="Salutations, Sorcier. Je suis connu sous le nom de Corax Blancplumage et je ne cherche pas la violence, jusqu'à ce que celle-ci devienne le seul moyen. "/>
+
+	    <Loc Key="DES_TOADSWORTH" Value="Toadsworth le Dompteur de sanglier" />
+		<Loc Key="DES_TOADSWORTH1" Value="Frogsworth le Dompteur de sanglier" />
+		<Loc Key="DES_TOADSWORTH2" Value="Face verte le Dompteur de sanglier" />
+		<Loc Key="DES_TOADSWORTH3" Value="Gros Gobbo le Dompteur de sanglier" />
+		<Loc Key="DES_TOADSWORTH4" Value="Furlover le Dompteur de sanglier" />
+		<Loc Key="DES_TOADSWORTH_DES" Value="{0} est un héros quelque peu improbable, qui s'est hissé au rang de champion alors que tout laissait présager un destin contraire. Également connu sous le nom de Towdi, il a passé des années dans la servitude, apparemment dépourvu de tout talent. Et pourtant, que ce soit par pure chance, par détermination ou par un marché diabolique, il est maintenant un maître dompteur de sangliers qui reste fidèle à un maître qui le respecte." />
+		<Loc Key="DES_JOTUN" Value="Kolga le Troll de glace" />
+		<Loc Key="DES_JOTUN1" Value="Imor le Troll de glace" />
+		<Loc Key="DES_JOTUN2" Value="Fala le Troll de glace" />
+		<Loc Key="DES_JOTUN3" Value="Gryla le Troll de glace" />
+		<Loc Key="DES_JOTUN4" Value="Mjoll le Troll de glace" />
+		<Loc Key="DES_JOTUN_DES" Value="{0}, également connu sous le nom du Maudit, est un héros solitaire, isolé à jamais par la glace froide qui emprisonne son corps. Certains disent qu'il cherche à servir les sorciers dans l'espoir qu'ils lèvent sa malédiction. Quelle que soit la véritable raison, après des décennies d'isolement, le troll héros a appris à maîtriser sa malédiction du froid et prête désormais son aide à un maître digne de ce nom." />
+	    <Loc Key="DES_BJORN" Value="Bjorn Né du feu" />
+		<Loc Key="DES_BJORN1" Value="Ours Né du feu" />
+		<Loc Key="DES_BJORN2" Value="Niedzwiedz Né du feu" />
+		<Loc Key="DES_BJORN3" Value="Teddy Né du feu" />
+		<Loc Key="DES_BJORN4" Value="Grizzly Né du feu" />
+		<Loc Key="DES_BJORN_DES" Value="{0} est un héros bestial féroce qui a joué avec le feu et s'est fait brûler. L'enfer dévorant aurait tué la plupart des gens, mais {0} n'est pas comme les autres. Sa volonté de se battre lui a permis de survivre et d'émerger en tant que créature du Chaos, fusionnant à jamais avec les flammes brûlantes qui ont maintenant faim de ses ennemis." />
+	
+		<Loc Key="DES_GOBLINS" Value="Gobelins" />
+		<Loc Key="DES_GOBLINS_DES" Value="Les Gobelins sont de petits humanoïdes verts ayant une grande affinité avec la nature et la maîtrise des bêtes. Certains les décrivent comme primitifs, et en effet les Gobelins privilégient les structures tribales et les habitats naturels plutôt que les avancées de la civilisation. Ils ont une affinité particulière avec la faune de la terre, et sont connus pour leur capacité à apprivoiser les animaux et leur magie druidique." />
+        <Loc Key="DES_GOBLINS_PRODUCTION" Value="Taux de croissance : très rapide (taux de base de +20 personne/tour)\nRestricions de construction : ne peut pas construire de guildes de sages, de chantiers navals ou de parthénons.\nAutres modificateurs : -1 d'armure{ICON:ArmourIconNormal} et la compétence Marcheur de la Terre pour les unités de base (sauf les constructions).\nCoût des unités de colons et d'archers x 0,8 de production{ICON:ProductionIcon}.\nUnités raciales : {LINK:UNIT-GOB_BOAR_RIDER} Cavaliers de sanglier {ICON:BoarRider}{END_LINK}, {LINK:UNIT-GOB_DRUIDS} Druides {ICON:Druid}{END_LINK}, {LINK:UNIT-GOB_BEASTMASTER} Maîtres des bêtes{ICON:Beastmaster}{END_LINK}" />		
+
+		<Loc Key="DES_GOBLIN_SETTLERS" Value="Colons gobelins" />
+		<Loc Key="DES_GOBLIN_SPEARMEN" Value="Lanciers gobelins" />
+		<Loc Key="DES_GOBLIN_SWORDSMEN" Value="Epéistes gobelins" />		
+		<Loc Key="DES_GOBLIN_BOWMEN" Value="Archers gobelins" />
+		<Loc Key="DES_GOBLIN_SHAMANS" Value="Chamanes gobelins" />
+		<Loc Key="DES_BOAR_RIDER" Value="Cavaliers de sanglier" />
+		<Loc Key="DES_BOAR_RIDER_DES" Value="Une cavalerie gobeline d'élite, du moins c'est ce qu'ils disent. Les étrangers les décriront comme un groupe hétéroclite de gobelins légèrement dérangés chevauchant des sangliers féroces et bien entraînés." />
+		<Loc Key="DES_DRUIDS" Value="Druides" />
+		<Loc Key="DES_DRUIDS_DES" Value="Unité spéciale de sorciers gobelins avec attaque magique à distance. Les druides sont connus pour leur grande affinité avec la nature et peuvent même demander l'aide des ours de guerre." />
+		<Loc Key="DES_BEASTMASTER" Value="Le maître des bêtes" />
+		<Loc Key="DES_BEASTMASTER_DES" Value="Une unité d'élite gobeline avec une forte attaque à distance et le vol. Le maître des bêtes prétend qu'ils peuvent dompter les bêtes les plus fortes, mais tout ce qu'il a à sa disposition est une vermine obèse..." />
+
+		<Loc Key="DES_FANTASTIC_WARLORD" Value="Seigneur de guerre fantastique"/>
+		<Loc Key="DES_TRAIT_FANTASTIC_WARLORD_DES" Value="La maîtrise des troupes fantastiques permet au magicien d'augmenter {ICON:MeleeIconNormal}, {ICON:RangedIconNormal}, {ICON:ArmourIconNormal}, {ICON:ResistanceIconNormal} et les attaques de souffle de toutes les créatures invoquées sous leur contrôle de +1.\n\n-Seigneur de guerre fantastique coûte 1 pioche."/>
+		<Loc Key="DES_ENCH_FANTASTIC_WARLORD_DES" Value="La maîtrise des troupes fantastiques permet au magicien d'augmenter {ICON:MeleeIconNormal}, {ICON:RangedIconNormal}, {ICON:ArmourIconNormal}, {ICON:ResistanceIconNormal} et les attaques de souffle de toutes les créatures invoquées sous leur contrôle de +1."/>
+		<Loc Key="DES_STONEMASON" Value="Tailleur de pierre"/>
+		<Loc Key="DES_STONEMASON_DES" Value="La maîtrise de l'art de la taille de pierre permet au capitole du Sorcier et à toutes les colonies nouvellement construites de commencer par un mur de pierre. De plus, le capital gagne +10{ICON:ProductionIcon} de production, et toutes les unités de la race du capitole du Sorcier ont la compétence ingénieur, ce qui leur permet de construire des routes.\n\n-Tailleur de pierre 1 pioche."/>
+		<Loc Key="DES_LIFEBRINGER" Value="Porteur de vie"/>
+		<Loc Key="DES_LIFEBRINGER_DES" Value="La maîtrise de la vie permet au sorcier de commencer la partie avec les puissants sorts de résurrection et de soins. L’apporteur de vie offre également une réduction de 25% pour lancer les sorts Résurrection, Guérir et Guérir en masse. De plus, toutes les unités de la race des capitoles sous le contrôle du sorcier gagnent la compétence de guérison.\n\n- Le sorcier doit avoir déjà sélectionné au moins 4 livres de sorts de vie.\n\n-L’apporteur de vie coûte 1 choix."/>
+		<Loc Key="DES_HERO_MAGNET" Value="J'ai besoin d'un héros !"/>
+		<Loc Key="DES_HERO_MAGNET_DES" Value="Plus besoin d'attendre la fin de la nuit pour trouver un héros. Si vous avez besoin d'un héros maintenant, c'est le trait qu'il vous faut. Commencez la partie avec les sorts d'invocation de héros et d'invocation de champion et bénéficiez d'une réduction de 25 % pour les lancer. De plus, cette caractéristique vous permet de faire un choix supplémentaire lors de l'invocation et/ou du recrutement des héros.\n\n-J’ai besoin d’un héros ! coûte 1 choix."/>
+		<Loc Key="DES_NATURE_SUMMONER" Value="Invocateur de la nature"/>
+		<Loc Key="DES_NATURE_SUMMONER_DES" Value="Le pouvoir de la nature permet au sorcier de commencer la partie avec une unité d'ours de guerre. De plus, le sorcier commence la partie avec tous les sorts d'invocation de la Nature et toutes les invocations de la Nature sont 50% moins chères à entretenir.\n\n-Ne peut pas prendre les traits Conjurateur ou Canalisateur en même temps.\n\n-Le sorcier doit avoir déjà sélectionné au moins 4 livres de sorts de nature.\n\n-L'invocateur de la nature coûte 2 choix."/>
+
+		<Loc Key="DES_SUMMON_BOAR" Value="Le sanglier"/>
+		<Loc Key="DES_SUMMON_BOAR_DES" Value="Invoque un sanglier enragé dans la bataille. Le sanglier est un redoutable combattant en mêlée{ICON:MeleeIconNormal} et peut également assommer son ennemi."/>
+		<Loc Key="DES_DLC_BOAR" Value="Le sanglier" />
+		<Loc Key="DES_DLC_BOAR_DES" Value="Un sanglier déchaîné appelé au combat par les dompteurs de sangliers les plus habiles. Le sanglier est un redoutable combattant en mêlée{ICON:MeleeIconNormal} et peut également assommer son ennemi." />		
+		<Loc Key="DES_SUMMON_FAT_RAT" Value="Un gros rat"/>
+		<Loc Key="DES_SUMMON_FAT_RAT_DES" Value="Invoque un gros rat empoisonné dans la bataille. Sa morsure provoque des saignements et son visage hideux peut effrayer l'ennemi."/>
+		<Loc Key="DES_DLC_FAT_RAT" Value="Un gros rat" />
+		<Loc Key="DES_DLC_FAT_RAT_DES" Value="Un gros rat est une créature étrangement sournoise qui vient de terres plus sombres que celles de Myrror. Sa morsure provoque des saignements et son visage hideux peut effrayer l'ennemi. " />
+
+		<Loc Key="DES_CURSED" Value="Maudits"/>
+		<Loc Key="DES_CURSED_DES" Value="Les maudits diminuent la résistance des unités amies{ICON:ResistanceIconNormal}, y compris les maudits eux-mêmes, par -1, mais aussi les unités ennemies (sur le champ de bataille) par -2"/>
+		<Loc Key="DES_CURSED_UNIT" Value="Maudits"/>
+		<Loc Key="DES_CURSED_UNIT_DES" Value="Cette unité est affectée par la capacité des maudits."/>
+		<Loc Key="DES_FOODIE" Value="Alimentation"/>
+		<Loc Key="DES_FOODIE_DES" Value="Le héros aime la nourriture et n'accepte que la nourriture comme entretien (3 par tour), ce qui le rend plus fort (+1 d'attaque, +1 d'armure + 1 de résistance, +10% de chance de frapper. Au plus haut niveau, ce bonus est porté à +2)."/>
+		<Loc Key="DES_BLEEDING_2_OWNER" Value="Saignement 2"/>
+		<Loc Key="DES_BLEEDING_2_OWNER_DES" Value="L'unité attaquée avec saignement reçoit des dégâts égaux à la valeur de la compétence jusqu'à ce qu'elle réussisse un test de résistance{ICON:ResistanceIconNormal}."/>
+		<Loc Key="DES_BLEEDING_UNIT" Value="Saignement {0}"/>
+		<Loc Key="DES_BLEEDING_UNIT_DES" Value="Cette unité est affectée par la capacité de saignement."/>
+		<Loc Key="DES_EARTH_WALKER" Value="Marcheur de la Terre"/>
+		<Loc Key="DES_EARTH_WALKER_DES" Value="Le marcheur de la terre permet à toutes les unités empilées avec lui de traverser les marécages, le désert et la toundra au prix d'un point de mouvement par hexagone. Il immunise également les unités contre le sort Terre à boue."/>
+
+		<Loc Key="DES_RES_MAMMOTH" Value="Mammouth"/>
+		<Loc Key="DES_RES_MAMMOTH_DES" Value="De grands mammifères à fourrure avec des défenses coûteuses et beaucoup de viande. Fournit +1 d'alimentation ({ICON:FoodIcon}) +1 d'or ({ICON:GoldIcon}) à la ville voisine.\nPeut être transformé en gibier sauvage à l'aide du sort Transformer."/>
+		<Loc Key="DES_STUN" Value="Assommer"/>
+		<Loc Key="DES_STUN_DES" Value="En cas d'échec du jet de résistance {ICON:ResistanceIconNormal}, la mêlée de l'unité ennemie cible {ICON:MeleeIconNormal} et les attaques à distance {ICON:RangedIconNormal} sont réduits de moitié pour un tour."/>
+	
+		<Loc Key="DES_REALM_SYNERGY" Value="Synergie" />
+		<Loc Key="DES_REALM_SYNERGY_DES" Value="Cette unité n'appartient à aucun royaume, mais est tissée de la synergie de tous. Les unités ne sont généralement invoquées que par des compétences spéciales." />
+		
+		<Loc Key="DES_SUMMON_WAR_BEARS" Value="Ours de guerre"/>
+		<Loc Key="DES_SUMMON_WAR_BEARS_DES" Value="Invoque les redoutables ours de guerre sur le champ de bataille."/>
+		
+		<Loc Key="DES_STONEMASON_ENCH_DES" Value="La ville est confiée à un tailleur de pierre, ce qui lui permet de recevoir gratuitement un mur de pierre et de bénéficier d'une aide financière de +10{ICON:ProductionIcon} de production." />
+	</LOCALIZATION-DLC1_FR>
+</DB_LOCALIZATION>

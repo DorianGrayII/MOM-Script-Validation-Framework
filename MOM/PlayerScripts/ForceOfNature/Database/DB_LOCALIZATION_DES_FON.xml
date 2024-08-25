@@ -1,0 +1,12 @@
+﻿<DB_LOCALIZATION>
+    <LOCALIZATION-DES_EN-FON Language="English">
+        <Loc Key="DES_FORCE_OF_NATURE" Value="Force Of Nature"/>
+        <Loc Key="DES_FORCE_OF_NATURE_DES" Value="Nature mutation, where the target normal unit or normal hero receives one of the following mutations: Ironskin armour (+3{ICON:ArmourIconNormal} armour), Pathfinding, or Poison Touch. Once affected by this spell, the creature can never be Force Of Nature mutated again."/>
+        <Loc Key="DES_FORCE_OF_NATURE_TARGET" Value="Non-fantastic unit or hero"/>
+        <Loc Key="DES_FORCE_OF_NATURE1_DES" Value="Adds Ironskin armour (+3 armour)"/>
+        <Loc Key="DES_FORCE_OF_NATURE2_DES" Value="Adds Pathfinding"/>
+        <Loc Key="DES_FORCE_OF_NATURE3_DES" Value="Adds Poison Touch"/>
+        <Loc Key="DES_TAG_POISON_TOUCH" Value="Poison Touch"/>
+        <Loc Key="DES_TAG_POISON_TOUCH_DES" Value="Adds Poison 4 Attack to the Unit"/>
+    </LOCALIZATION-DES_EN-FON>
+</DB_LOCALIZATION>

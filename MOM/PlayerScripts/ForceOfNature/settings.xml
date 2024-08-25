@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>fon</prefix>
+    <name>Force of Nature</name>
+    <title>[Spell] Force of Nature</title>
+
+    <description>
+This is a Nature-themed 'Chaos Channel'-like spell, but for the Nature school.
+
+Force of Nature provides for 1 of the following unit buffs:
+
+1.  Ironskin (+3 Armor)
+2.  Pathfinding
+3.  Poison-Touch (str 4 poison melee attack)
+
+Pathfinding will only apply to non-pathfinding unit.
+Poison-Touch will only apply to non-ranged units.
+
+If a unit is inappropriately randomly selected for the above, then that choice will be disgarded and another buff will be selected.
+
+Additionally, unlike Chaos Channels, unit icons are distinct for the 3 different bestowed attributes, making it easier to see what each unit actually does.
+
+    </description>
+
+    <author>DorianGray</author>
+    <version>1.0.8</version>
+    <icon>fon:fon.png</icon>
+
+</ModSettings>

@@ -1,0 +1,29 @@
+﻿<DB_PLANE>
+
+	<PLANE-ARCANUS>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>	
+		<TypeName VALUE="Arcanus"/>
+		<Race VALUE="RACE-BARBARIANS"/>
+		<Race VALUE="RACE-GNOLLS"/>
+		<Race VALUE="RACE-HALFLINGS"/>
+		<Race VALUE="RACE-HIGH_ELVES"/>
+		<Race VALUE="RACE-HIGH_MEN"/>
+		<Race VALUE="RACE-KLACKONS"/>
+		<Race VALUE="RACE-LIZARDMEN"/>
+		<Race VALUE="RACE-NOMADS"/>
+		<Race VALUE="RACE-ORCS"/>
+		<Race VALUE="RACE-SOULTRAPPED"/>
+		<Race VALUE="RACE-BLUEORCS"/>
+	</PLANE-ARCANUS>
+	<PLANE-MYRROR>
+		<DescriptionInfo Name="DES_PLACEHOLDER" Description="DES_PLACEHOLDER_DES" Graphic="IconPlaceholder"/>	
+		<TypeName VALUE="Myrror"/>
+		<Race VALUE="RACE-BEASTMEN"/>
+		<Race VALUE="RACE-DARK_ELVES"/>
+		<Race VALUE="RACE-DRACONIANS"/>
+		<Race VALUE="RACE-DWARVES"/>
+		<Race VALUE="RACE-TROLLS"/>
+		<Race VALUE="RACE-GOBLINS"/>
+	</PLANE-MYRROR>
+	
+</DB_PLANE>

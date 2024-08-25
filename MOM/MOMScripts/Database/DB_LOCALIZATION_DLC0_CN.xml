@@ -1,0 +1,45 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC0_CN Language="中文">
+		<!-- DLC 0 descriptions -->
+
+		<!-- WIZARDS --> 
+
+        <Loc Key="DES_BLADUD" Value="布拉杜德" />
+		<Loc Key="DES_BLADUD_DES" Value="布拉杜德曾经是一名伟大的兽人将军, 同时也是一位传奇之王. 他曾与凶残的王后贝利特一起统治了数个世纪, 之后两人分道扬镳, 布拉杜德最终继承了巫师的衣钵. 布拉杜德不堪兽人同类所背负的平庸和耻辱, 并决心证明这样的想法是错误的. 通过黑暗兽人死灵法术, 这名巫师获得了强大的力量, 并决心利用这股力量将他的人民打造为一支无畏的死亡军队. 布拉杜德领导下的兽人可以吸取敌人的生命力, 而巫师本人还能够从他倒下的兽人部队中获得力量. 在这股力量的加持下, 布拉杜德必然将走向他的大师之路." />
+		<Loc Key="DES_BLADUD_QUOTE" Value="长久以来, 我的族人一直被称为弱者, 而现在兽人将通过死亡崛起并征服一切!" />	
+		<Loc Key="DES_BLADUD_GREETINGS" Value="你好, 我是布拉杜德. 我期待着向你证明我的实力, 但现在, 我们可以谈谈."/>
+		
+		<Loc Key="DES_BLADUD_GREETINGS_BELIT_1" Value="所以是命运最终迫使你面对我, 贝利特. 我很快就会证明, 你这个被诅咒的存在连真正的兽人都不如!"/>
+        <Loc Key="DES_BLADUD_GREETINGS_BELIT_2" Value="贝利特, 你这个奸诈的恶魔, 说话啊."/>
+
+		<!-- TRAITS -->
+		<Loc Key="DES_ORCOMANCER" Value="兽人死灵法师" />
+		<Loc Key="DES_ORCOMANCER_DES" Value="兽人死灵法师精通亡灵法术, 但只能掌控兽人的生命之力. 战斗中每有一个兽人成员死亡, 兽人死灵法师获得+5施法者技能(该加成效果可超过上限). 其控制下的每一个兽人都将获得死亡免疫和次级生命窃取技能.\n\n兽人死灵法师只能选择兽人种族开始游戏.\n\n无法与其他种族专有特质同时选择.\n\n-巫师必须选择了至少1本死亡领域法术书\n\n-兽人死灵法师消耗2个选择." />
+		<Loc Key="DES_NECROMANCER" Value="死灵法师" />
+		<Loc Key="DES_NECROMANCER_DES" Value="死灵法师透过死亡的面纱为自己汲取力量. 巫师在每场战斗开始时将获得黑暗降临效果并获得一个新的亡灵英雄法术. 通过该法术, 他们能够将死去的英雄作为亡灵从死亡中召唤回来(英雄将重新回归, 但会被黑暗法术所改变).\n\n-巫师必须已经选择了至少3本死亡领域法术书.\n\n-死灵法师消耗1个选择."/>
+		<Loc Key="DES_TRAIT_DEATH_EATER" Value="食死徒" />
+		<Loc Key="DES_TRAIT_DEATH_EATER_DES" Value="食死徒可以从死者身上吸取能量并滋养他们的死亡领域部队. 战斗胜利后, 属于死亡领域的所有单位将恢复50%生命值(但不会复活已死亡的单位).\n\n-巫师必须已经选择了至少3本死亡领域法术书.\n\n-食死徒消耗2个选择." />
+		<!-- RACE --> 
+ 
+		
+        <!-- UNITS -->
+	
+		
+		<!-- SKILLS --> 
+		<Loc Key="DES_SKILL_DEATH_EATER" Value="食死徒" />
+		<Loc Key="DES_SKILL_DEATH_EATER_DES" Value="在食死徒指挥下的死亡领域单位能够在战斗胜利后恢复50%生命值."/>
+		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2" Value="次级生命窃取1" />
+		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2_DES" Value="对于生命窃取攻击(被攻击的单位获得的抗性等于生命窃取的等级)每一点抵抗失败{ICON:ResistanceIconNormal}时, 防守方-1{ICON:HitIconNormal}命中而进攻方+1{ICON:HitIconNormal}. 主要由生命窃取杀死的单位将被复活为亡灵(死亡免疫将无视该效果). 生命窃取效果会在其他绝大多数攻击前触发." />
+      
+		<!-- BUILDINGS -->
+		
+		<!-- RES --> 
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_UNDEAD_HERO" Value="亡灵英雄"/>
+		<Loc Key="DES_UNDEAD_HERO_DES" Value="召唤一名阵亡的英雄重新为您效力, 但他们将以亡灵形态出现, 因此无法获得经验值. 他们还将获得次级生命窃取技能. 每位英雄只能使用该法术一次." />
+
+		<!-- Other-->
+			
+	</LOCALIZATION-DLC0_CN>
+</DB_LOCALIZATION>

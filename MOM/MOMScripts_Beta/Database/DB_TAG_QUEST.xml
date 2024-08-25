@@ -1,0 +1,345 @@
+﻿<DB_TAG_QUEST>
+
+	<TAG-QUEST_PLACEHOLDER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_PLACEHOLDER>
+  
+  <TAG-QUEST_PIRATES_PARLEE1>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_PIRATES_PARLEE1>
+    <TAG-QUEST_PIRATES_PARLEE2>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_PIRATES_PARLEE2>
+    <TAG-QUEST_BANDIT1>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_BANDIT1>
+    <TAG-QUEST_BANDIT2>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_BANDIT2>
+    <TAG-QUEST_1>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_1>  
+    <TAG-QUEST_SCHOLAR>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_SCHOLAR>
+  <TAG-QUEST_BANK>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_BANK>	
+    <TAG-QUEST_AUREUS1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_AUREUS1>
+   <TAG-QUEST_AUREUS2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_AUREUS2>
+    <TAG-QUEST_BAGHTRU1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_BAGHTRU1>
+    <TAG-QUEST_BAGHTRU2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_BAGHTRU2>
+    <TAG-QUEST_BSHAN1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_BSHAN1>
+    <TAG-QUEST_BSHAN2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_BSHAN2>
+    <TAG-QUEST_BRAX1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_BRAX1>
+    <TAG-QUEST_BRAX2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_BRAX2>
+    <TAG-QUEST_FANG1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_FANG1>
+    <TAG-QUEST_FANG2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_FANG2>
+    <TAG-QUEST_GRAY1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_GRAY1>
+    <TAG-QUEST_GRAY2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_GRAY2>
+    <TAG-QUEST_GUNT1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_GUNT1>
+    <TAG-QUEST_GUNT2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_GUNT2>
+    <TAG-QUEST_JAER1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_JAER1>
+    <TAG-QUEST_JAER2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_JAER2>
+    <TAG-QUEST_MALLEUS1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_MALLEUS1>
+    <TAG-QUEST_MALLEUS2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_MALLEUS2>
+    <TAG-QUEST_MARCUS1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_MARCUS1>
+    <TAG-QUEST_MARCUS2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_MARCUS2>
+    <TAG-QUEST_MORGANA1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_MORGANA1>
+    <TAG-QUEST_MORGANA2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_MORGANA2>
+    <TAG-QUEST_RAKIR1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_RAKIR1>
+    <TAG-QUEST_RAKIR2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_RAKIR2>
+    <TAG-QUEST_RAYWIND1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_RAYWIND1>
+    <TAG-QUEST_RAYWIND2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_RAYWIND2>
+    <TAG-QUEST_SERENA1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_SERENA1>
+    <TAG-QUEST_SERENA2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_SERENA2>
+    <TAG-QUEST_SHALLA1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_SHALLA1>
+    <TAG-QUEST_SHALLA2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_SHALLA2>
+    <TAG-QUEST_SHIN1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_SHIN1>
+    <TAG-QUEST_SHIN2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_SHIN2>
+    <TAG-QUEST_SHURI1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_SHURI1>
+    <TAG-QUEST_SHURI2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_SHURI2>
+    <TAG-QUEST_SPYDER1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_SPYDER1>
+    <TAG-QUEST_SPYDER2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_SPYDER2>
+    <TAG-QUEST_TAKI1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_TAKI1>
+    <TAG-QUEST_TAKI2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_TAKI2>
+    <TAG-QUEST_THERIA1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_THERIA1>
+    <TAG-QUEST_THERIA2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_THERIA2>
+    <TAG-QUEST_TUMU1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_TUMU1>
+    <TAG-QUEST_TUMU2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_TUMU2>
+    <TAG-QUEST_VALANA1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_VALANA1>
+    <TAG-QUEST_VALANA2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_VALANA2>
+    <TAG-QUEST_YRAM1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_YRAM1>
+    <TAG-QUEST_YRAM2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_YRAM2>
+    <TAG-QUEST_ZALDRON1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_ZALDRON1>
+    <TAG-QUEST_ZALDRON2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_ZALDRON2>
+    <TAG-QUEST_ARENA_WIN>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_ARENA_WIN>
+    <TAG-QUEST_ARENA_LOSE>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_ARENA_LOSE>
+    <TAG-QUEST_ARENA_SURR>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_ARENA_SURR>
+    <TAG-QUEST_AERIE1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_AERIE1>
+    <TAG-QUEST_AERIE2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_AERIE2>
+    <TAG-QUEST_ALORRA1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_ALORRA1>
+    <TAG-QUEST_ALORRA2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_ALORRA2>
+    <TAG-QUEST_DETH1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_DETH1>
+    <TAG-QUEST_DETH2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_DETH2>
+    <TAG-QUEST_ELANA1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_ELANA1>
+    <TAG-QUEST_ELANA2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_ELANA2>
+    <TAG-QUEST_MORTU1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_MORTU1>
+    <TAG-QUEST_MORTU2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_MORTU2>
+    <TAG-QUEST_MYSTIC1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_MYSTIC1>
+    <TAG-QUEST_MYSTIC2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_MYSTIC2>
+    <TAG-QUEST_RAVASHACK1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_RAVASHACK1>
+    <TAG-QUEST_RAVASHACK2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_RAVASHACK2>
+    <TAG-QUEST_ROLAND1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_ROLAND1>
+    <TAG-QUEST_ROLAND2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_ROLAND2>
+    <TAG-QUEST_HAROLD1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_HAROLD1>
+    <TAG-QUEST_HAROLD2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_HAROLD2>
+    <TAG-QUEST_TORIN1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_TORIN1>
+    <TAG-QUEST_TORIN2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_TORIN2>
+    <TAG-QUEST_WARRAX1>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_WARRAX1>
+    <TAG-QUEST_WARRAX2>
+    <DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>
+  </TAG-QUEST_WARRAX2>
+  <TAG-QUEST_TOWER_D>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TOWER_D>
+  <TAG-QUEST_TOWER_S>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TOWER_S>
+  <TAG-QUEST_TOWER_C>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TOWER_C>
+  <TAG-QUEST_TOWER_L>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TOWER_L>
+  <TAG-QUEST_TOWER_N>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TOWER_N>
+  <TAG-QUEST_TOWER_SYN>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TOWER_SYN>
+  <TAG-QUEST_TOWER_D1>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TOWER_D1>
+  <TAG-QUEST_TOWER_S1>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TOWER_S1>
+  <TAG-QUEST_TOWER_C1>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TOWER_C1>
+  <TAG-QUEST_TOWER_N1>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TOWER_N1>
+  <TAG-QUEST_TOWER_L1>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TOWER_L1>
+  <TAG-QUEST_TOWER_SYN1>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TOWER_SYN1>
+  <TAG-QUEST_RACE_BARB>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_BARB>
+  <TAG-QUEST_RACE_GNOLL>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_GNOLL>
+  <TAG-QUEST_RACE_HMAN>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_HMAN>
+  <TAG-QUEST_RACE_HELF>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_HELF>
+  <TAG-QUEST_RACE_BEAST>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_BEAST>
+  <TAG-QUEST_RACE_ORC>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_ORC>
+  <TAG-QUEST_RACE_HALFL>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_HALFL>
+  <TAG-QUEST_RACE_LIZ>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_LIZ>
+  <TAG-QUEST_RACE_NOMAD>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_NOMAD>
+  <TAG-QUEST_RACE_DELF>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_DELF>
+  <TAG-QUEST_RACE_TROLL>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_TROLL>
+  <TAG-QUEST_RACE_DRAC>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_DRAC>
+  <TAG-QUEST_RACE_DWARF>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_DWARF>
+  <TAG-QUEST_RACE_KLACK>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_KLACK>
+  <TAG-QUEST_TAKEN_NODE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TAKEN_NODE>
+  <TAG-QUEST_RACE_GOB>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_GOB>
+  <TAG-QUEST_RACE_SOUL>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_RACE_SOUL>
+  <TAG-QUEST_TECH_DUN>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_TECH_DUN>
+  <TAG-QUEST_DISASTER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-QUEST_DISASTER>
+  <TAG-QUEST_RACE_BLUEORCS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+  </TAG-QUEST_RACE_BLUEORCS>
+	
+
+</DB_TAG_QUEST>

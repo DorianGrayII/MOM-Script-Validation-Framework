@@ -1,0 +1,45 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC0_ES Language="Español">
+		<!-- DLC 0 descriptions -->
+
+		<!-- WIZARDS --> 
+
+        <Loc Key="DES_BLADUD" Value="Bladud" />
+		<Loc Key="DES_BLADUD_DES" Value="Bladud era un gran general orco para luego convertirse en un rey legendario. Gobernó a sus iguales con su feroz reina Belit durante siglos, antes de que los dos se separaran y Bladud reclamara el manto de Mago. Desafiando el estigma de la mediocracia de sus parientes orcos, Bladud estaba decidido a demostrar que estaban equivocados. A través de las artes oscuras de la ormancia, el Mago obtuvo un gran poder y decidió usarlo todo con el único fin de elevar a su pueblo desde lo mundano hasta convertirlo en un intrépido ejército de la Muerte. Los orcos bajo el liderazgo de Bladud pueden alimentarse de la fuerza vital de sus enemigos y el propio Mago obtiene fuerza de sus ejércitos de orcos caídos. Con tal poder, los orcos seguramente conducirán a Bladud al nivel de Maestría."/>
+		<Loc Key="DES_BLADUD_QUOTE" Value="Durante mucho tiempo mis parientes han sido llamados débiles, pero ahora los orcos se levantarán gracias a la Muerte y conquistarán todo." />	
+		<Loc Key="DES_BLADUD_GREETINGS" Value="Saludos, soy Bladud. Espero poder demostrarte mi dominación, aunque de momento podemos hablar."/>
+		
+		<Loc Key="DES_BLADUD_GREETINGS_BELIT_1" Value="Y por eso el destino te obligó a enfrentarte conmigo, Belit. Estoy deseando demostrar que tu maldita existencia es inferior a la de un verdadero orco."/>
+        <Loc Key="DES_BLADUD_GREETINGS_BELIT_2" Value="Belit, demonio traicionera, habla."/>
+
+		<!-- TRAITS -->
+		<Loc Key="DES_ORCOMANCER" Value="Orcmancer" />
+		<Loc Key="DES_ORCOMANCER_DES" Value="El Orcmancer es un maestro de la nigromancia pero solo está en sintonía con la fuerza vital de los orcos. Por cada figura de orco en el ejército que muere, el Orcmancer recibe +5 de habilidad de lanzador en combate (el bonus puede superar el máximo). Cada orco bajo su mando también recibe las habilidades Inmunidad a la Muerte y Robo de Vida Menor.\n\n El Orcmancer puede comenzar la partida solo con Orcos.\n\nNo se puede tomar con otros rasgos exclusivos de la raza.\n\n-El Mago ya debe haber seleccionado al menos 1 Libro de hechizos de Muerte\n\n-Orcmancer cuesta 2 selecciones." />
+		<Loc Key="DES_NECROMANCER" Value="Necromancer" />
+		<Loc Key="DES_NECROMANCER_DES" Value="El Necromancer busca cruzar el velo de la muerte en su beneficio. El Mago comienza cada batalla en la Oscuridad y con un nuevo hechizo de Héroe No Muerto. Con el hechizo pueden llamar a un héroe caído de entre los muertos, como sirviente no-muerto (el héroe regresa, pero cambiado por el hechizo de canales negros).\n\n-El mago ya debe haber seleccionado al menos 3 libros de hechizos de muerte\n \n-Necromancer cuesta 1 elección."/>
+		<Loc Key="DES_TRAIT_DEATH_EATER" Value="Mortífagos" />
+		<Loc Key="DES_TRAIT_DEATH_EATER_DES" Value="Los Mortífagos pueden reciclar sus fuerzas caídas para alimentar a sus ejércitos del reino de la Muerte. Después de una batalla ganada, todas las unidades que pertenecen al reino de la Muerte recuperan un 50% de salud (esto no resucita a las unidades caídas).\n\n-El mago ya debe haber seleccionado al menos 3 libros de hechizos de la muerte.\n\n-El Mortífago cuesta 2 selecciones."/>
+		<!-- RACE --> 
+ 
+		
+        <!-- UNITS -->
+	
+		
+		<!-- SKILLS --> 
+		<Loc Key="DES_SKILL_DEATH_EATER" Value="Mortífago" />
+		<Loc Key="DES_SKILL_DEATH_EATER_DES" Value="Las unidades del reino de la muerte bajo el mando del Mortífago recuperan un 50%de salud después de una batalla ganada."/>
+		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2" Value="Robo de vida menor 1" />
+		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2_DES" Value="Por cada punto de resistencia {ICON:ResistanceIconNormal} fallida contra el ataque de robo de vida (la unidad atacada obtiene + resistencia igual al nivel de robo de vida), el defensor pierde -1{ICON:HitIconNormal} mientras el atacante gana +1{ICON:HitIconNormal}. Las unidades muertas principalmente por robo de vida regresan como muertos vivientes (la Inmunidad a la Muerte protege contra esto). El robo de vida sucede antes que la mayoría del resto de ataques." />
+      
+		<!-- BUILDINGS -->
+		
+		<!-- RES --> 
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_UNDEAD_HERO" Value="Héroe no-muerto"/>
+		<Loc Key="DES_UNDEAD_HERO_DES" Value="Puedes volver a llamar a un héroe caído para que te preste servicio, pero ahora será un no-muerto, por lo que ya no ganará experiencia. También obtendrá la habilidad Robo de Vida Menor. Solo puedes usar el hechizo una vez por héroe." />
+
+		<!-- Other-->
+			
+	</LOCALIZATION-DLC0_ES>
+</DB_LOCALIZATION>

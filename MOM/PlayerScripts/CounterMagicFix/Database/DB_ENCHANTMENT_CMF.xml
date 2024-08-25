@@ -1,0 +1,49 @@
+﻿<DB_ENCHANTMENT>
+    <ENCH-COUNTER_MAGIC AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+        <DescriptionInfo Name="DES_COUNTER_MAGIC" Description="DES_COUNTER_MAGIC_DES" Graphic="SpellCounterMagic"/>
+        <EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddCounterMagic"/>
+        <EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveCounterMagic2"/>
+        <EnchantmentScript TriggerType="BattleEndEffect" Script="ECH_EndBattleCounterMagic" />
+        <EnchantmentScript TriggerType="None" FIntData="10" />
+        <LifeTime VALUE="-1"/>
+        <EnchLastingEffect VALUE="Placeholder"/>
+        <EnchCategory VALUE="Positive"/>
+        <Realm VALUE="Sorcery"/>
+    </ENCH-COUNTER_MAGIC>
+    <ENCH-LIFE_FORCE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+        <DescriptionInfo Name="DES_LIFE_FORCE" Description="DES_LIFE_FORCE_DES" Graphic="SpellLifeForce"/>
+        <EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddCounterMagic"/>
+        <EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveCounterMagic2"/>
+        <EnchantmentScript TriggerType="None" FIntData="500" />
+        <UpkeepCost VALUE="10"/>
+        <LifeTime VALUE="-1"/>
+        <EnchLastingEffect VALUE="Placeholder"/>
+        <EnchCategory VALUE="Positive"/>
+        <Realm VALUE="Life"/>
+        <WorldEnchantment VALUE="TRUE"/>
+    </ENCH-LIFE_FORCE>
+    <ENCH-TRANQUILITY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+        <DescriptionInfo Name="DES_TRANQUILITY" Description="DES_TRANQUILITY_DES" Graphic="SpellTranquility"/>
+        <EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddCounterMagic"/>
+        <EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveCounterMagic2"/>
+        <EnchantmentScript TriggerType="None" FIntData="500" />
+        <UpkeepCost VALUE="10"/>
+        <LifeTime VALUE="-1"/>
+        <EnchLastingEffect VALUE="Placeholder"/>
+        <EnchCategory VALUE="Positive"/>
+        <Realm VALUE="Life"/>
+        <WorldEnchantment VALUE="TRUE"/>
+    </ENCH-TRANQUILITY>
+    <ENCH-SUPPRESS_MAGIC AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+        <DescriptionInfo Name="DES_SUPPRESS_MAGIC" Description="DES_SUPPRESS_MAGIC_DES" Graphic="SpellSuppressMagic"/>
+        <EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddCounterMagic"/>
+        <EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveCounterMagic2"/>
+        <EnchantmentScript TriggerType="None" FIntData="500" />
+        <UpkeepCost VALUE="50"/>
+        <LifeTime VALUE="-1"/>
+        <EnchLastingEffect VALUE="Placeholder"/>
+        <EnchCategory VALUE="Positive"/>
+        <Realm VALUE="Sorcery"/>
+        <WorldEnchantment VALUE="TRUE"/>
+    </ENCH-SUPPRESS_MAGIC>
+</DB_ENCHANTMENT>

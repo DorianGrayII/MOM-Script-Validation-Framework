@@ -1,0 +1,170 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC2_ES Language="Español">
+		<!-- DLC 2 descriptions -->
+
+		<!-- WIZARDS --> 
+		<Loc Key="DES_NINESEVEN" Value="Nineseven" />
+		<Loc Key="DES_NINESEVEN_DES" Value="Sería difícil decirlo ahora, con todos los reemplazos mecánicos y baratijas tecnomágicas que oscurecen la mayor parte del origen orgánico, pero Nineseven fue una vez un archimaga elfa erudita. A lo largo de su vida eterna quedó fascinada con la metalistería de los enanos y las infinitas posibilidades de la alquimia y su poder de transmutar. Algunos dicen que es la progenitora de la tecnomagia, otros afirman que simplemente la dominó."/>
+		<Loc Key="DES_NINESEVEN_QUOTE" Value="La carne ya no me ata, ahora la magia corre a través de mis cables. ¡Soy la Tecnomaestra y llegaré a más!" />
+		<Loc Key="DES_MORIQUE" Value="Morique" />
+		<Loc Key="DES_MORIQUE_DES" Value="Morique alma-demoníaca, o la poseída, es una hechicera élfica oscura de gran y peligroso poder. Como sugiere su apodo, comparte su cuerpo con un poderoso demonio. Ya sea que la unión se deba al entendimiento mutuo o una infestación parasitaria, la ambición de Morique no termina con domesticar a su demonio con la Muerte. El Caos, en la punta de sus dedos, busca demostrar su dominio final sobre todos los demás magos, especialmente su demonio rival, Tauron."/>
+		<Loc Key="DES_MORIQUE_QUOTE" Value="¡He dominado lo infernal y ahora somos más poderosos que cualquier mago!" />
+		<Loc Key="DES_GRENDEL" Value="Grendel" />
+		<Loc Key="DES_GRENDEL_DES" Value="Grendel puede ser uno de los mejores magos, sin duda el mejor de su clase, pero su firme creencia es que el poder hace lo correcto. A menudo afirma que cualquier cosa puede someterse a golpes, incluso la magia misma. Grendel, por supuesto, usa los conceptos básicos de las artes arcanas y se mete en la naturaleza cuando es necesario, pero confía principalmente en el poder físico de sus tropas."/>
+		<Loc Key="DES_GRENDEL_QUOTE" Value="¡Haré que sus cabezas brillen sin magia y luego verán quién es el Maestro!" />
+
+		<Loc Key="DES_NINESEVEN_GREETINGS" Value="La fórmula habitual requiere que salude, aunque veo poco sentido en tal cortesía considerando nuestro juego final. Soy Nineseven, podemos hablar ahora."/>
+		<Loc Key="DES_MORIQUE_GREETINGS" Value="Te saludamos. Nosotros no, soy Morique y estoy aquí para dominar esta prueba, pero hasta que llegue ese momento, hablemos."/>
+		<Loc Key="DES_GRENDEL_GREETINGS" Value="Oh. Nada de cosas divertidas conmigo. Soy Grendel, te venceré."/>
+
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_1" Value="Un cordial saludo para ti. Soy Tauron... Mori, eres tú. Siempre dijiste que me desafiarías aquí, pero nunca quise que esto sucediera. Pero por ahora al menos, amor mío, podemos hablar sin malicia."/>
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_2" Value="Mori, mi corazón sangra por lo que debemos soportar... De momento hablemos."/>
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_1" Value="¡Somos nosotros, Morique, como te dijimos cuando nuestros caminos infernales se separaron, nosotros, yo, estoy aquí para mostrarte mi verdadero poder! Aunque ahora que estás ante mí, mi querido diablo rojo, me entristece que deba ser así..."/>
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_2" Value="Mi diablo rojo, la batalla final se avecina. Pronto sólo quedará sangre entre nosotros, y no en el buen sentido precisamente..."/>
+
+
+		<!-- TRAITS -->
+        <Loc Key="DES_TECHMASTER" Value="Tecnomaestro" />
+		<Loc Key="DES_TECHMASTER_DES" Value="Permite al mago dominar los poderes arcanos de la tecnomagia, un arte místico que anima objetos mecánicos a través de la magia rúnica, la alquimia y el uso prohibido de almas vivientes. El mago Tecnomaestro comienza con un Dron Explorador, así como su hechizo de invocación y el hechizo Buscador de Poder. Además, obtienen una bonificación de +5 % a la investigación.\n\n-El mago debe tener al menos 3 libros de hechizos en dos reinos diferentes.\n\n-Tecnomaestro cuesta 2 elecciones." />
+        <Loc Key="DES_DEMONOLOGIST" Value="Demonólogo" />
+		<Loc Key="DES_DEMONOLOGIST_DES" Value="El Demonólogo comienza el juego con la unidad de un Demonio de las Sombras Menores a su mando. También obtiene un hechizo único de invocación de un Demonio de las Sombras Menores y el hechizo Posesión.\n\n- El Mago debe tener el rasgo de conjurador.\n\n-El mago ya debe haber seleccionado al menos 1 libro de hechizos de la Muerte y 1 libro de hechizos del Caos.\n\n-El demonólogo cuesta 1 elección."/>
+		<Loc Key="DES_MYRRAN_REFUGEE" Value="Refugiado de Myrran" />
+		<Loc Key="DES_MYRRAN_REFUGEE_DES" Value="Permite que el Mago comience el juego con una raza de Myrran en Arcanus, lo que le da una ventaja significativa, porque las razas de Myrran suelen ser más fuertes.\n\n-El refugiado de Myrran cuesta 2 elecciones."/>
+		<Loc Key="DES_IMPROVED_WARLORD" Value="Señor de la Guerra veterano" />
+		<Loc Key="DES_IMPROVED_WARLORD_DES" Value="Permite que el Mago se convierta en un Señor de la Guerra veterano, capaz de entrenar a los ejércitos con mayor eficiencia. El veterano otorga +1XP extra cada turno a las unidades no fantásticas bajo su mando y comienza con una unidad de espadachín de la raza inicial.\n\n- El mago debe tener el rasgo de Señor de la Guerra.\n\n-Señor de la Guerra veterano cuesta 1 elección."/>
+		<Loc Key="DES_ANTI_MAGIC" Value="¡La fuerza lo hace bien!" />
+		<Loc Key="DES_ANTI_MAGIC_DES" Value="El Mago cree en la superioridad de la destreza física sobre la inteligencia de la magia. Todas las unidades no fantásticas (incluidos los héroes no fantásticos) ganan +3 de Resistencia. También obtienen Regeneración en Batalla, un nueva habilidad que permite a las unidades sanar en combate +2 HP por turno (la habilidad se acumula con Regeneración).\n\n- El mago no debe tener más de 2 libros de hechizos.\n\n-¡La fuerza lo hace bien! cuesta 5 selecciones. "/>
+
+		<!-- RACE --> 
+		<Loc Key="DES_SOULTRAPPED" Value="Soultrapped" />
+		<Loc Key="DES_SOULTRAPPED_DES" Value="Los Soultrapped son una raza de construcciones que fueron víctimas de la experimentación de los enanos con la magia de las runas oscuras, que unían almas conscientes a los cuerpos mecánicos, alimentados por materia orgánica. O al menos esa es la versión oficial. Los Soultrapped afirman que su despertar provino de una fuente divina y que no son un subproducto del juego de otro. En cualquier caso, los Soultrapped combinan la máquina y el hombre de manera inquietante, pero es una raza que prefiere la paz y la prosperidad a la guerra." />
+		<Loc Key="DES_SOULTRAPPED_PRODUCTION" Value="Tasa de crecimiento: muy lenta (tasa base de -30 personas/turno)\nRestricciones de construcción: no se pueden construir Gremio de Mercaderes, Escuela de Guerra, Oráculo, Gremio de Animistas y Astilleros\nOtros modificadores: +4{ICON:ArmourIconNormal} de armadura, -1{ICON:ResistanceIconNormal} de resistencia, habilidad de Trituramuros para las unidades.\nLas unidades cuestan x2 de producción{ICON:ProductionIcon}.\nLas ciudades de los Soultrapped ganan +5 de crecimiento de población por cada mineral en el área de la ciudad .\nUnidades de raza: {LINK:UNIT-SOUL_CANNON} Cañón Alma{ICON:SoulCannon}{END_LINK} {LINK:UNIT-SOUL_BOMBER} Yeet{ICON:Bomber}{END_LINK} {LINK:UNIT-SOUL_GOLEM} Desalmado{ICON:FleshGolem}{END_LINK} {LINK:UNIT-SOUL_SUB_TRIREME} Subtrirreme{ICON:Submarine}{END_LINK}" />
+		<Loc Key="DES_REALM_TECH" Value="Tecnomago" />
+		<Loc Key="DES_REALM_TECH_DES" Value="Esta unidad sirve al único reino de Tecnomagia." />
+		
+        <!-- UNITS -->
+		<Loc Key="DES_TIMUR" Value="Timur el Tiromuerto" />
+		<Loc Key="DES_TIMUR1" Value="Fade el Tiromuerto" />
+		<Loc Key="DES_TIMUR2" Value="Albino el Tiromuerto" />
+		<Loc Key="DES_TIMUR3" Value="Pale el Tiromuerto" />
+		<Loc Key="DES_TIMUR4" Value="Floyd el Tiromuerto" />
+		<Loc Key="DES_TIMUR_DES" Value="Nacido como un albino ciego y despojado del don de los elfos oscuros para la magia oscura, {0} fue rechazado y despreciado por su gente. Pero esto lo hizo ser más decidido. Fue engañado por un padre adoptivo, y juntos emprendieron un peligroso viaje para demostrar que {0} todavía podía ser el asesino más letal. A través de la tecnología mágica, su ojo ahora ve más allá de los límites mortales y, aunque aún no puede manejar la magia oscura, su tiro de francotirador tecnológico es una fuerza oscura en sí misma."/>
+		<Loc Key="DES_BILLIE" Value="Billie el Pistolero" />
+		<Loc Key="DES_BILLIE1" Value="Tipi el Pistolero" />
+		<Loc Key="DES_BILLIE2" Value="Calamity el Pistolero" />
+		<Loc Key="DES_BILLIE3" Value="Annie la Pistolera" />
+		<Loc Key="DES_BILLIE4" Value="Jessi la Pistolera" />
+		<Loc Key="DES_BILLIE_DES" Value="{0}, es una alegre joven de mediana estatura que gusta a todos. Después de alcanzar los rangos más altos entre los honderos e inspirada por su hermana, Teria, {0} emprendió una búsqueda para encontrar su propio nicho. La búsqueda la llevó a descubrir las maravillas de Tecnomagia y, por lo tanto, se convirtió en la primera persona Pistolera de Arcanus. Cabalgando sobre su fiel jabalí, Nibbles, ahora es una de las mejores armas de alquiler que cualquier mago podría desear." />
+		<Loc Key="DES_OLDMANE" Value="Oldmane Quijahierro"/>
+		<Loc Key="DES_OLDMANE1" Value="Hakuna Quijahierro"/>
+		<Loc Key="DES_OLDMANE2" Value="Snarl Quijahierro"/>
+		<Loc Key="DES_OLDMANE3" Value="Hidegnarl Quijahierro"/>
+		<Loc Key="DES_OLDMANE4" Value="Gnarlfang Quijahierro"/>
+		<Loc Key="DES_OLDMANE_DES" Value="{0}, fue una vez el más grande y mayor de los generales gnoll, hasta que los elfos oscuros lo capturaron. Los darklings torturaron al guerrero durante años, vaciando su cuerpo hasta dejarlo irreconocible. Y, sin embargo, por casualidad o por el destino, los gritos de un niño le dieron a {0} las ganas de luchar de nuevo, escapó de sus captores, rescató a su hijo adoptivo, Timur, y juntos se embarcaron en un viaje de renacimiento. Así, mediante el uso de tecnomagia , Oldmane fue rehecho con carne de metal con la que se le conoce hoy."/>
+		<Loc Key="DES_MOMA_ILDE" Value="Moma e Ilde" />
+		<Loc Key="DES_MOMA_ILDE1" Value="Mama y Kiddo" />
+		<Loc Key="DES_MOMA_ILDE2" Value="Muti y Liebli"/>
+		<Loc Key="DES_MOMA_ILDE3" Value="Mumsie y Gir" />
+		<Loc Key="DES_MOMA_ILDE4" Value="Mere y Pettit" />
+		<Loc Key="DES_MOMA_ILDE_DES" Value="La niña enana es joven, pero sigue siendo una guardiana de runas formidable con una historia trágica detrás. Perdió a su madre en un terrible accidente de laboratorio que involucró a la Tecnomagia. Poco después de la explosión, que incineró a su madre, la niña encontró un Soultrapped errante, que pareció reconocer a la pequeña enana. La niña estaba convencida de que el alma atrapada era la de su madre y ha jurado encontrar una manera de revertir lo que le sucedió. Hasta entonces, {0} responde a la llamada de aquellos que manejan la poderosa tecnomagia, esperando que sirviéndoles aprendan lo que necesitan."/>
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS" Value="Demonios de las Sombras Menores"/>
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS_DES" Value="Los Demonios de las Sombras Menores responden a la llamada de un Demonólogo y les sirven fielmente. Pueden atacar desde el aire{ICON:MovementFlyingIcon} tanto con melé {ICON:MeleeIconNormal} como con magia a distancia {ICON:DeathIcon}{ICON:RangedIconNormal}."/>
+
+        <Loc Key="DES_SOUL_SETTLER" Value="Colono Soultrapped" />
+		<Loc Key="DES_SOUL_ENGINEERS" Value="Ingenieros Soultrapped" />
+		<Loc Key="DES_SOUL_ENGINEERS_DES" Value="Los ingenieros son una unidad no combatiente. Son especialistas entrenados para construir caminos y también pueden ayudarte a derribar muros enemigos. Los ingenieros Soultrapped también pueden reparar construcciones con la habilidad Reparar."/>
+		<Loc Key="DES_SOUL_SPEARMEN" Value="Lanceros Soultrapped"/>
+		<Loc Key="DES_SOUL_SWORDSMEN" Value="Espadachines Soultrapped" />
+		<Loc Key="DES_SOUL_HALBERDIERS" Value="Alabarderos Soultrapped" />
+		<Loc Key="DES_SOUL_CAVALRY" Value="Caballería Soultrapped" />
+		<Loc Key="DES_SOUL_PRIESTS" Value="Tecnosacerdotes Soultrapped" />
+		<Loc Key="DES_SOUL_PRIESTS_DES" Value="Unidad de ataque mágico a distancia con habilidades curativas. A diferencia de los magos, que estudian hechizos, los sacerdotes obtienen su poder de la oración y la devoción a una deidad. Los tecnosacerdotes también tienen la capacidad de reconstruir construcciones derribadas en batalla."/>
+		<Loc Key="DES_SOUL_BOMBER" Value="Yeet"/>
+		<Loc Key="DES_SOUL_BOMBER_DES" Value="El yeet es un Soultrapped peculiar, con la forma de una mano humanoide hecha para lanzar. Su único propósito en la batalla es liberar una bomba magnética y así exterminar al enemigo con ún único bombazo."/>
+		<Loc Key="DES_SOUL_BOMB" Value="Bomba Magnética"/>
+		<Loc Key="DES_SOUL_BOMB_DES" Value="¡La bomba magnética está fusionada con una poderosa tecnología mágica que la hace explotar justo en la cara del enemigo! A menos que le disparen primero, es solo una pieza redonda de metal animado..."/>
+		<Loc Key="DES_SOUL_CANNON" Value="Cañón de Almas" />
+		<Loc Key="DES_SOUL_CANNON_DES" Value="El cañón de almas es una obra maestra de la tecnología. Es una unidad de disparo distancia bastante fuerte de los Soultrapped."/>
+		<Loc Key="DES_SOUL_GOLEM" Value="Desalmados" />
+		<Loc Key="DES_SOUL_GOLEM_DES" Value="El golem de carne es un trozo de carne reanimada sin alma, impulsado por fuerzas misteriosas de Tecnomagia empleadas por los ingenieros y sacerdotes Soultrapped. Algunos dicen que el golem de carne es una respuesta terrible a los golems esclavizados creados por los enanos..." />
+		<Loc Key="DES_SOUL_SUB_TRIREME" Value="Subtrirreme" />
+		<Loc Key="DES_SOUL_SUB_TRIREME_DES" Value="El subtrirreme puede viajar grandes distancias bajo la superficie de los mares. Es una unidad autónoma de los Soultrapped, pero no les importa servir como transportador." />
+		<Loc Key="DES_CYBER_SPRITE_DES" Value="El tecnoduende es una amalgama extraña y alarmante de maravilla técnica e infusión mágica. Donde antes era un duende común, la criatura se ha convertido en un sirviente a distancia, volador y vibrador tecnológico de los magos tecnomágicos." />
+		<Loc Key="DES_SCOUTING_PROBE_DES" Value="El dron explorador, serie 53N3X, es una pieza de metal y vidrio al que la tecnomagia le dio vida. Bajo la dirección del Mago, el dron puede volar alto y ver más lejos que la mayoría de los seres biológicos o incluso que los seres espectrales."/>
+        <Loc Key="DES_ENGINEERING_PROBE_DES" Value="Un dron multipropósito, serie 53N3X2, diseñado para todo tipo de usos. Su designación principal es la ingeniería, por lo que puede construir caminos, pero también es más rápido que las unidades normales y puede fusionarse con nodos. " />
+
+		
+		<!-- SKILLS --> 
+        <Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH" Value="Techmagic Ataque a distancia" />
+		<Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH_DES" Value="Los ataques a distancia de esta unidad están mágicamente imbuidos de Tecnomagia. Son precisos a cualquier distancia y no sufren penalizaciones en la probabilidad de acertar{ICON:ToHitBonusIcon} según el alcance. El ataque evitará completamente la Inmunidad de misil y la Inmunidad mágica del objetivo y es Perforador de Armadura."/>
+		<Loc Key="DES_DOUBLESHOT" Value="Disparo doble" />
+		<Loc Key="DES_DOUBLESHOT_DES" Value="Al más puro estilo de los pistoleros, el disparo doble permite al héroe disparar dos veces en su ronda, con un ataque a distancia normal."/>
+		<Loc Key="DES_SUMMON_BOMB" Value="Lanzamiento de Bomba Magnética"/>
+		<Loc Key="DES_SUMMON_BOMB_DES" Value="Invoca la bomba magnética, una unidad de un solo disparo que inflige daño mortal, pero que es muy frágil."/>
+		<Loc Key="DES_BOMBER_BOOM" Value="Tecnoexplosión"/>
+		<Loc Key="DES_BOMBER_BOOM_DES" Value="Una poderosa explosión de fuego tecnológico que daña su fuente. Provoca un ataque de fuego mágico de fuerza 20 que golpea a cada figura de la unidad objetivo."/>
+		<Loc Key="DES_PIERCING_BITE" Value="Mordisco perforador {0}" />
+		<Loc Key="DES_PIERCING_BITE_DES" Value="Un feroz mordisco en melé que inflige daño perforante después de su turno de ataque y después de cualquier contraataque."/>
+		<Loc Key="DES_GNOLL_GENERAL" Value="Jinete-Lobo Alpha" />
+		<Loc Key="DES_GNOLL_GENERAL_DES" Value="Los generales del ejército Gnoll lideran las manadas de jinetes-lobos con gran unidad. Como tal, el héroe recibe una bonificación de +1{ICON:ArmourIconNormal} de armadura por cada dos unidades de jinetes-lobos en su ejército. Las unidades de jinetes-lobos a su vez obtienen un +1{ICON:MeleeIconNormal} en ataque de melé en presencia del alfa."/>
+		<Loc Key="DES_GNOLL_GENERAL_BONUS_DES" Value="Esta unidad se ve afectada por la habilidad Jinete-Lobo Alpha. El héroe recibe una bonificación de +1{ICON:ArmourIconNormal} en armadura por cada dos unidades de jinetes-lobos en su ejército. Las unidades de jinetes-lobos en su turno obtienen un +1{ICON:MeleeIconNormal} en ataque de melé en presencia del alfa."/>
+		<Loc Key="DES_GNOLL_GENERAL_BONUS" Value="Jinete-Lobo Alpha" />
+		<Loc Key="DES_MECHANICIAN" Value="Reparar" />
+		<Loc Key="DES_MECHANICIAN_DES" Value="La habilidad permite la reparación de construcciones mecánicas y aumenta la curación natural de las unidades de construcción apiladas con ella hasta el 50% de su salud máxima cada turno."/>
+		<Loc Key="DES_LIGHTNING_WEAKNESS" Value="Vulnerabilidad a rayos" />
+		<Loc Key="DES_LIGHTNING_WEAKNESS_DES" Value="La unidad atrae rayos y es propensa a su daño. Cuando se enfrenta a un ataque de tipo rayo, el propietario de la debilidad debe defenderse contra la cantidad de daño generado por la fuente aumentada en un 100%." />
+		<Loc Key="DES_MINOR_REGENERATION" Value="Regeneración en combate" />
+		<Loc Key="DES_MINOR_REGENERATION_DES" Value="Acelera el proceso de curación natural del cuerpo, permitiéndole curar 2 puntos de vida{ICON:HitIconNormal} por turno de combate. La habilidad no funciona fuera de batalla (la habilidad se acumula con Regeneración)" />	
+				
+		<!-- RES --> 
+		<Loc Key="DES_RES_ORICHALCUM" Value="Oricalco" />
+		<Loc Key="DES_RES_ORICHALCUM_DES" Value="El oricalco es un recurso raro, solo se puede obtener después de agotarse una Tecnomazmorra o usando Tecnomagia. Reduce el coste de construcción de edificios y unidades en un 20% y agrega +3 de Poder." />
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_SCOUTING_PROBE" Value="Dron Explorador" />
+		<Loc Key="DES_SCOUTING_PROBE_SUMMON_DES" Value="Invoca al dron explorador serie 53N3X, una unidad voladora {ICON:MovementFlyingIcon} con muy buenas capacidades de exploración, pero poca durabilidad."/>
+		<Loc Key="DES_CYBER_SPRITE" Value="Duende Tecnológico" />
+		<Loc Key="DES_CYBER_SPRITE_SUMMON_DES" Value="Invoca una unidad de duendes tecnológicos, {ICON:MovementFlyingIcon} hadas mecánicas voladoras con un ataque a distancia Tecnomágico. Te servirán hasta la muerte o el final de la batalla."/>
+		<Loc Key="DES_POWER_SEEKER" Value="Buscapoder" />
+		<Loc Key="DES_POWER_SEEKER_DES" Value="El poderoso hechizo Tecnomágico busca todos los nodos de poder en el plano elegido y los hace visibles en su mapa. Una vez descubiertos, los nodos también se marcarán como explorados y sus defensores podrán ser inspeccionados antes de entrar." />
+		<Loc Key="DES_DETECT_MINERALS" Value="Extraer Minerales" />
+		<Loc Key="DES_DETECT_MINERALS_DES" Value="El hechizo encuentra minerales ocultos en las profundidades de la tierra y los saca a la superficie, lo que permite al Mago agregar un nuevo recurso en un hexágono elegido. Un nuevo mineral solo puede generarse en un hexágono que está al menos a una casilla de distancia de otro recurso."/>
+		<Loc Key="DES_TECHCARNATION" Value="Tecnoencarnación" />
+		<Loc Key="DES_TECHCARNATION_DES" Value="El poderoso hechizo de tecnoencarnación llama al servicio a la inusual campeona conocida como Moma e Ilde. Esta heroína dual responde a los magos que manejan Tecnomagia a cambio de enriquecer su conocimiento de este nuevo arte arcano. La campeona dual no puede ser resucitada, solo invocada nuevamente una vez se pierda (es una heroína fantástica, por lo que no se verá afectada por hechizos dirigidos a unidades y héroes normales)." />
+		<Loc Key="DES_MASS_SHIELD" Value="Escudo masivo" />
+		<Loc Key="DES_MASS_SHIELD_DES" Value="Escudo masivo otorga a todas las unidades aliadas en el campo de batalla la habilidad Escudo grande, a menos que ya la tengan. Esto proporciona +2{ICON:ArmourIconNormal} en armadura contra todos los ataques a distancia."/>
+		<Loc Key="DES_AFINITY_FOR_MINERALS" Value="Alimentados por minerales" />
+		<Loc Key="DES_AFINITY_FOR_MINERALS_DES" Value="Los Soultrapped tienen una afinidad particular por los minerales. Cada recurso mineral dentro de los límites de una ciudad Soultrapped aumenta el crecimiento de la población en +5."/>
+		<Loc Key="DES_RECONSTRUCT" Value="Reconstruir" />
+		<Loc Key="DES_RECONSTRUCT_DES" Value="El hechizo Reconstruir repara las unidades construidas caídas, devolviéndoles la salud al completo. Pero, la unidad reconstruida desaparecerá después de que finalice la batalla, incluso si usas otros hechizos para resucitar a los muertos."/>
+		<Loc Key="DES_RECONSTRUCT_NAME_DES" Value="Unidad reconstruida temporalmente" />
+		<Loc Key="DES_MAGIC_BULLET" Value="Bala mágica" />
+		<Loc Key="DES_MAGIC_BULLET_DES" Value="Bala Mágica agrega +2 de munición a una unidad no fantástica con ataque de rango normal y hace que el ataque ignore la inmunidad del arma. El bonus puede aumentar la munición máxima natural de la unidad y puede recargar la munición que falte. La bonificación aumenta a +3 para las Construcciones." />
+		<Loc Key="DES_HERO_TRAINING" Value="Entrenamiento de héroe" />
+		<Loc Key="DES_HERO_TRAINING_DES" Value="A través del ingenio de los tecnomagos, los héroes se entrenan instantáneamente. Cada héroe al servicio del mago se convierte en capitán." />
+		<Loc Key="DES_TECH_DUNGEON_UNITS" Value="Tecnomazmorra" />
+		<Loc Key="DES_TECH_DUNGEON_UNITS_DES" Value="Una tecnomazmorra es la guarida de los Soultrapped rebeldes. Dentro de la guarida, el enemigo atrapado gana bonificaciones de combate." />
+        <Loc Key="DES_ENGINEERING_PROBE" Value="Dron multipropósito"/>
+		<Loc Key="DES_ENGINEERING_PROBE_SUMMON_DES" Value="Invoca un dron multipropósito, serie 53N3X2. Designación de la unidad principal: exploración de ingeniería. Las funciones secundarias incluyen: función de fusión y movimiento incrementado."/>
+        <Loc Key="DES_MASS_PIERCING_SPELL" Value="Intercambio afilado"/>
+        <Loc Key="DES_MASS_PIERCING_SPELL_DES" Value="El intercambio afilado agrega un efecto de perforación de armadura (reduce a la mitad la efectividad del índice de armadura del defensor) a todas las unidades aliadas en el campo de batalla, pero requiere que el lanzador sacrifique 5{ICON:HitIconNormal} puntos de vida."/>
+        <Loc Key="DES_MASS_PIERCING" Value="Afilado"/>
+        <Loc Key="DES_MASS_PIERCING_DES" Value="Las unidades afiladas ganan el efecto de perforación de armadura (reduce a la mitad la efectividad del valor de armadura del defensor)."/>
+        <Loc Key="DES_FAIR_EXCHANGE" Value="Intercambio justo"/>
+        <Loc Key="DES_FAIR_EXCHANGE_DES" Value="Todo en la vida tiene un precio, por lo que es una cuestión de equilibrio. Aquellos que dominan el Intercambio justo otorgan a su Mago 5 Habilidades de invocación por cada 2 de daño que recibe la unidad."/>
+        <Loc Key="DES_ENCH_IMPROVED_WARLORD_DES" Value="El Señor de la Guerra veterano mejora las unidades no fantásticas bajo su mando, por lo que ganan +1XP por turno."/>
+        <Loc Key="DES_ENCH_ANTI_MAGIC_DES" Value="Esta unidad se niega a ser tocada por la magia y gana Resistencia Mágica (+3 de Resistencia) y Regeneración en Combate (+2 de Curación por turno solo en combate) en su Mago."/>
+        <Loc Key="DES_CASTING_BLOCK_SPELL" Value="Sacrificio de corazon"/>
+        <Loc Key="DES_CASTING_BLOCK_SPELL_DES" Value="Al sacrificar 2 de vida, la unidad lanzadora bloquea la habilidad de lanzar hechizos en batalla para el Mago contrario durante 1 turno."/>
+        <Loc Key="DES_CASTING_BLOCK" Value="Invocación bloqueada"/>	  
+        <Loc Key="DES_CASTING_BLOCK_DES" Value="La habilidad del mago de invocación es bloqueda por un turno."/>
+        <Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS" Value="Demonios de las sombras menores"/>	  
+        <Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS_DES" Value="Invoca a tu servicio una unidad infernal voladora {ICON:MovementFlyingIcon}: los demonios de las sombras menores. Posee tanto ataques de melé {ICON:MeleeIconNormal} como de magia a distancia {ICON:DeathIcon}{ICON:RangedIconNormal}."/>
+
+
+		<!-- Other-->
+		<Loc Key="DES_HERO_TRAINING_TARGET" Value="Solo unidades héroe."/>
+		<Loc Key="DES_NORMAL_UNIT_WITH_RANGE_MISSILE_ATTACK" Value="Unidad normal con ataque de misiles a distancia."/>
+		<Loc Key="DES_TECH_DUNGEON" Value="Tecnomazmorra"/>		
+	</LOCALIZATION-DLC2_ES>
+</DB_LOCALIZATION>

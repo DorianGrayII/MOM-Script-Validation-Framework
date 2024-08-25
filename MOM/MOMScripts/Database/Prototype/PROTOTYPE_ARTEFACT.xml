@@ -1,0 +1,62 @@
+﻿<PROTOTYPE_ARTEFACT>		
+	<E_EQUIPMENT_TYPE Type="enum" Name="EEquipmentType">		
+		<None value = "0"/>		
+				
+		<Sword value = "1"/>  
+		<Mace value = "2"/>  
+		<Axe value = "4"/>  
+		<Bow value = "8"/>  
+		<Staff value = "16"/>  
+		<Wand value = "32"/>  
+		<Platemail value = "64"/>  
+		<Chainmail value = "128"/>  
+		<Shield value = "256"/>  
+		<Jewellery value = "512"/>  
+		<Cloak value = "1024"/>  
+		<Helm value = "2048"/>  
+		<Gauntlet value = "4096"/>  
+		<Orb value = "8192"/>  		
+	</E_EQUIPMENT_TYPE>	
+	
+	<!--Specific slot allowing hero to equip any item of the type to be inserted. Item type defines which powers item may contain -->
+	<ARTEFACT_SLOT Name="ArtefactSlot">
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="TRUE"/>
+		<ETypes Name="eTypes" Type="ArrayE_EQUIPMENT_TYPE" Required="FALSE"/>		
+	</ARTEFACT_SLOT>
+	
+	<!--Single "level" of the power.-->
+	<ARTEFACT_POWER Name="ArtefactPower">
+		<Cost Name="cost" Type="int" Required="TRUE"/>
+		<Skill Name="skill" Type="SKILL" Required="TRUE"/>
+		<ETypes Name="eTypes" Type="ArrayE_EQUIPMENT_TYPE" Required="FALSE"/>
+	</ARTEFACT_POWER>
+	
+	<!--Power set is used to identify powers to exclude possibility of using few level of the same set on single item. Ie Attack +1 and Attack +2-->
+	<ARTEFACT_POWER_SET Name="ArtefactPowerSet">
+		<Power Name="power" Type="ArrayARTEFACT_POWER" Required="TRUE"/>
+		<!--tags required on the Wizard, before wizard can use spells to craft the items with it.  -->
+		<RequiredTag Name="requiredTag" Type="ArrayCOUNTED_TAG" Required="FALSE"/>
+	</ARTEFACT_POWER_SET>
+	
+	<ARTEFACT_GRAPHIC Name="ArtefactGraphic">		
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="TRUE"/>		
+		<RequiredPower Name="requiredPower" Type="ArrayARTEFACT_POWER" Required="FALSE"/>
+		<RequiredPowerSet Name="requiredPowerSet" Type="ArrayARTEFACT_POWER_SET" Required="FALSE"/>		
+	</ARTEFACT_GRAPHIC>			
+	
+	<ARTEFACT_PREFAB Name="ArtefactPrefab">		
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="TRUE"/>		
+		<Cost Name="cost" Type="int" Required="TRUE"/>
+		<EType Name="eType" Type="E_EQUIPMENT_TYPE" Required="TRUE"/>				
+		
+		<!--list of alternative graphics applied based on the powers on the artefact-->
+		<AlternativeGraphic Name="alternativeGraphic" Type="ArrayARTEFACT_GRAPHIC" Required="FALSE"/>		
+	</ARTEFACT_PREFAB>
+	
+	<ARTEFACT Name="Artefact">		
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="TRUE"/>
+		<EType Name="eType" Type="E_EQUIPMENT_TYPE" Required="TRUE" />		
+		<Power Name="power" Type="ArrayARTEFACT_POWER" Required="FALSE"/>		
+	</ARTEFACT>
+		
+</PROTOTYPE_ARTEFACT>

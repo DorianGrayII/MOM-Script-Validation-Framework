@@ -1,0 +1,25 @@
+﻿<PROTOTYPE_TAG>	
+	<E_TAG_TYPE Type="enum" Name="ETagType">
+		<None/>
+		<Wizard/>
+		<Item/>
+		<Unit/>
+	</E_TAG_TYPE>
+	
+
+	<TAG Name="Tag">		
+		<UseCount Name="useCount" Type="bool" Required="FALSE"/>		
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>
+		<!-- Parent of the tag, automatically acquired with this tag. -->
+		<!-- ie: Parent of the "Death Magic" is "Magic" and one can seek "Magic" on an entity regardless of which type it is	-->	
+		<Parent Name="parent" Type="TAG" Required="FALSE"/>
+		<TagType Name="tagType" Type="E_TAG_TYPE"  Required="FALSE"/>
+		<CanGoNegative Name="canGoNegative" Type="bool"  Required="FALSE"/>
+	</TAG>
+		
+	<COUNTED_TAG Name="CountedTag">
+		<Amount Name="amount" Type="FInt" Required="TRUE"/>
+		<Tag Name="tag" Type="TAG" Required="TRUE"/>
+	</COUNTED_TAG>
+	
+</PROTOTYPE_TAG>

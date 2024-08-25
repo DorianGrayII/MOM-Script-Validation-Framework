@@ -1,0 +1,46 @@
+﻿<PROTOTYPE_TOWN>	
+	<TOWN Name="Town">		
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>	
+		<Graphic Name="graphic" Type="TOWN_GRAPHIC" Required="FALSE"/>			
+		<Race Name="race" Type="RACE" Required="TRUE"/>
+				
+		<Worker Name="worker" Type="TOWN_POPULATION" Required="TRUE"/>		
+		<Farmer Name="farmer" Type="TOWN_POPULATION" Required="TRUE"/>				
+		<Rebel Name="rebel" Type="TOWN_POPULATION" Required="TRUE"/>		
+		<PopulationGrowth Name="populationGrowth" Type="int" Required="TRUE"/>
+		<OutpostGrowth Name="outpostGrowth" Type="int" Required="TRUE"/>
+		<!-- Some towns gain tax multiplier, foe example Dwarf town have x2 -->
+		<TaxMultiplier Name="taxMultiplier" Type="FInt" Required="TRUE"/>
+				
+		<!-- List of buildings which can be build in town, -->
+		<!-- their avaliability is filtered additionally by buildign requirements -->
+		<PossibleBuildings Name="possibleBuildings" Type="ArrayBUILDING" Required="TRUE"/>
+		<!-- Table of modifiers to resource bonusses which are town-wide -->
+		<!-- (without special buildings which can modify it further)  -->
+		<!-- for example Dwarf town have increased bonus values for many resources -->
+		<BuildingResourceBonus Name="buildingResourceBonus" Type="ArrayBUILDING_RESOURCE_BONUS" Required="FALSE"/>			
+		<Dlc Name="dlc" Type="string" Required="FALSE"/>
+		<!-- Enchantment that start with town then it is created -->
+		<EnchantmentData Name="enchantmentData" Type="ArrayENCHANTMENT" Required="FALSE"/>
+	</TOWN>
+	
+	<!-- Population unit look and attributes-->
+	<TOWN_POPULATION Name="TownPopulation">
+		<Graphic Name="graphic" Type="string" Required="FALSE"/>
+		<!--flat production bonus e.g +2-->
+		<Production Name="production" Type="FInt" Required="FALSE"/>
+		<!--flat food production bonus e.g +2-->
+		<Farmer Name="farmer" Type="FInt" Required="FALSE"/>
+		<!--flat power production bonus e.g +2-->
+		<PowerProduction Name="powerProduction" Type="FInt" Required="FALSE"/>
+	</TOWN_POPULATION>	
+	
+	<TOWN_GRAPHIC Name="TownGraphic">
+		<Outpost Name="outpost" Type="string" Required="TRUE"/>
+		<Settlement Name="settlement" Type="string" Required="TRUE"/>
+		<Hamlet Name="hamlet" Type="string" Required="TRUE"/>
+		<Village Name="village" Type="string" Required="TRUE"/>
+		<Town Name="town" Type="string" Required="TRUE"/>	
+		<City Name="city" Type="string" Required="TRUE"/>		
+	</TOWN_GRAPHIC>
+</PROTOTYPE_TOWN>

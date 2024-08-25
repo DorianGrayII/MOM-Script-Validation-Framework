@@ -1,0 +1,468 @@
+﻿<DB_WIZARD>
+	<RELATIONSHIP-HARMONY MinValue="100">
+		<DescriptionInfo Name="DES_HARMONY" Description="DES_PLACEHOLDER_DES" Graphic="Placeholder"/>
+	</RELATIONSHIP-HARMONY>
+	<RELATIONSHIP-FRIENDLY MinValue="80">
+		<DescriptionInfo Name="DES_RELATIONSHIP_FRIENDLY" Description="DES_PLACEHOLDER_DES" Graphic="Placeholder"/>
+	</RELATIONSHIP-FRIENDLY>
+	<RELATIONSHIP-PEACEFUL MinValue="60">
+		<DescriptionInfo Name="DES_RELATIONSHIP_PEACEFUL" Description="DES_PLACEHOLDER_DES" Graphic="Placeholder"/>
+	</RELATIONSHIP-PEACEFUL>
+	<RELATIONSHIP-CALM MinValue="40">
+		<DescriptionInfo Name="DES_RELATIONSHIP_CALM" Description="DES_PLACEHOLDER_DES" Graphic="Placeholder"/>
+	</RELATIONSHIP-CALM>
+	<RELATIONSHIP-RELAXED MinValue="20">
+		<DescriptionInfo Name="DES_RELATIONSHIP_RELAXED" Description="DES_PLACEHOLDER_DES" Graphic="Placeholder"/>
+	</RELATIONSHIP-RELAXED>
+	<RELATIONSHIP-NEUTRAL MinValue="0">
+		<DescriptionInfo Name="DES_RELATIONSHIP_NEUTRAL" Description="DES_PLACEHOLDER_DES" Graphic="Placeholder"/>
+	</RELATIONSHIP-NEUTRAL>
+	<RELATIONSHIP-UNEASE MinValue="-20">
+		<DescriptionInfo Name="DES_RELATIONSHIP_UNEASE" Description="DES_PLACEHOLDER_DES" Graphic="Placeholder"/>
+	</RELATIONSHIP-UNEASE>
+	<RELATIONSHIP-RESTLESS MinValue="-40">		
+		<DescriptionInfo Name="DES_RELATIONSHIP_RESTLESS" Description="DES_PLACEHOLDER_DES" Graphic="Placeholder"/>
+	</RELATIONSHIP-RESTLESS>
+	<RELATIONSHIP-TENSE MinValue="-60" >
+		<DescriptionInfo Name="DES_RELATIONSHIP_TENSE" Description="DES_PLACEHOLDER_DES" Graphic="Placeholder"/>
+	</RELATIONSHIP-TENSE>
+	<RELATIONSHIP-TROUBLED MinValue="-80">
+		<DescriptionInfo Name="DES_RELATIONSHIP_TROUBLED" Description="DES_PLACEHOLDER_DES" Graphic="Placeholder"/>
+	</RELATIONSHIP-TROUBLED>
+	<RELATIONSHIP-HATE MinValue="-100">
+		<DescriptionInfo Name="DES_RELATIONSHIP_HATE" Description="DES_PLACEHOLDER_DES" Graphic="Placeholder"/>
+	</RELATIONSHIP-HATE>
+	
+	
+	
+	<PERSONALITY-MANIACAL>
+		<DescriptionInfo Name="DES_PERSONALITY_MANIACAL" Description="DES_PERSONALITY_MANIACAL_DES" Graphic="Placeholder"/>	
+		<TriggerFactorTags Amount="1" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="1" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="2" Tag="TAG-DEATH_MAGIC_BOOK" />		
+		<TriggerFactorTags Amount="1" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="1" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="1" Tag="TAG-TRAIT_ALCHEMY" />
+		
+		<Hostility VALUE="40"/>
+		<WorldHostileCasting VALUE="40"/>
+		<ReactionTooNegativeDiplomacy VALUE="50"/>
+		<ReactionTooPositiveDiplomacy VALUE="-25"/>
+	</PERSONALITY-MANIACAL>
+	<PERSONALITY-RUTHLESS>
+		<DescriptionInfo Name="DES_PERSONALITY_RUTHLESS" Description="DES_PERSONALITY_RUTHLESS_DES" Graphic="Placeholder"/>	
+		<TriggerFactorTags Amount="2" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="2" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="3" Tag="TAG-DEATH_MAGIC_BOOK" />		
+		<TriggerFactorTags Amount="1" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="1" Tag="TAG-NATURE_MAGIC_BOOK" />
+        <TriggerFactorTags Amount="2" Tag="TAG-TRAIT_WARLORD" />
+        <TriggerFactorTags Amount="1" Tag="TAG-TRAIT_CHARISMATIC" />		
+		<TriggerFactorTags Amount="2" Tag="TAG-TRAIT_CHANNELER" />
+		
+		<Hostility VALUE="20"/>
+		<WorldHostileCasting VALUE="40"/>
+		<ReactionTooNegativeDiplomacy VALUE="10"/>
+		<ReactionTooPositiveDiplomacy VALUE="-10"/>
+	</PERSONALITY-RUTHLESS>
+	<PERSONALITY-LAWFUL>
+		<DescriptionInfo Name="DES_PERSONALITY_LAWFUL" Description="DES_PERSONALITY_LAWFUL_DES" Graphic="Placeholder"/>	
+		<TriggerFactorTags Amount="2" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="1" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="1" Tag="TAG-DEATH_MAGIC_BOOK" />		
+		<TriggerFactorTags Amount="2" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="4" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="3" Tag="TAG-TRAIT_NATURE_MASTERY" />
+		<TriggerFactorTags Amount="1" Tag="TAG-TRAIT_SAGE_MASTERY" /> 
+		
+		<Hostility VALUE="0"/>
+		<WorldHostileCasting VALUE="0"/>
+		<ReactionTooNegativeDiplomacy VALUE="40"/>
+		<ReactionTooPositiveDiplomacy VALUE="0"/>
+	</PERSONALITY-LAWFUL>
+	
+	<PERSONALITY-AGGRESSIVE>
+		<DescriptionInfo Name="DES_PERSONALITY_AGGRESSIVE" Description="DES_PERSONALITY_AGGRESSIVE_DES" Graphic="Placeholder"/>	
+		<TriggerFactorTags Amount="3" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="2" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="1" Tag="TAG-DEATH_MAGIC_BOOK" />		
+		<TriggerFactorTags Amount="2" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="1" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="3" Tag="TAG-TRAIT_WARLORD" />
+        <TriggerFactorTags Amount="2" Tag="TAG-TRAIT_SORCERY_MASTERY" />		
+		<TriggerFactorTags Amount="2" Tag="TAG-TRAIT_CONJURER" /> 
+		
+		<Hostility VALUE="40"/>
+		<WorldHostileCasting VALUE="10"/>
+		<ReactionTooNegativeDiplomacy VALUE="0"/>
+		<ReactionTooPositiveDiplomacy VALUE="0"/>
+	</PERSONALITY-AGGRESSIVE>
+	
+	<PERSONALITY-CHAOTIC>
+		<DescriptionInfo Name="DES_PERSONALITY_CHAOTIC" Description="DES_PERSONALITY_CHAOTIC_DES" Graphic="Placeholder"/>	
+		<TriggerFactorTags Amount="1" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="4" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="2" Tag="TAG-DEATH_MAGIC_BOOK" />		
+		<TriggerFactorTags Amount="1" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="1" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="3" Tag="TAG-TRAIT_CHAOS_MASTERY" /> 
+		
+		<Hostility VALUE="30"/>
+		<WorldHostileCasting VALUE="10"/>
+		<ReactionTooNegativeDiplomacy VALUE="20"/>
+		<ReactionTooPositiveDiplomacy VALUE="-20"/>
+	</PERSONALITY-CHAOTIC>
+	
+	<PERSONALITY-PEACEFUL>
+		<DescriptionInfo Name="DES_PERSONALITY_PEACEFUL" Description="DES_PERSONALITY_PEACEFUL_DES" Graphic="Placeholder"/>	
+		<TriggerFactorTags Amount="1" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="1" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="1" Tag="TAG-DEATH_MAGIC_BOOK" />		
+		<TriggerFactorTags Amount="3" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="2" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<TriggerFactorTags Amount="3" Tag="TAG-TRAIT_DIVINE_POWER" /> 
+		
+		<Hostility VALUE="-20"/>
+		<WorldHostileCasting VALUE="-20"/>
+		<ReactionTooNegativeDiplomacy VALUE="-80"/>
+		<ReactionTooPositiveDiplomacy VALUE="80"/>
+	</PERSONALITY-PEACEFUL>
+	
+	<TREATY-WAR>
+		<DescriptionInfo Name="DES_WAR" Description="DES_WAR_DES" Graphic="Placeholder"/>	
+			
+		<!-- Is agreement from both sides required to start this treaty -->
+		<AgreementRequired VALUE="FALSE" />
+		
+		<TreatyEvaluationScript VALUE="TRE_WarEvaluation"/>		
+		<TreatyStartScript VALUE="TRE_WarStart"/>
+		<TreatyEndScript VALUE="TRE_WarEnd"/>
+	</TREATY-WAR>
+		
+	<TREATY-ALLIANCE>
+		<DescriptionInfo Name="DES_ALLIANCE" Description="DES_ALLIANCE_DES" Graphic="Placeholder"/>	
+			
+		<!-- Is agreement from both sides required to start this treaty -->
+		<AgreementRequired VALUE="TRUE" />
+		<Length VALUE="30" />
+		
+		<TreatyEvaluationScript VALUE="TRE_AllianceEvaluation"/>				
+		<TreatyTurnScript VALUE="TRE_AllianceUpdate"/>
+		<TreatyBreakScript VALUE="TRE_AllianceBreak"/>	
+	</TREATY-ALLIANCE>
+	
+	<TREATY-RESEARCH>
+		<DescriptionInfo Name="DES_RESEARCH_TREATY" Description="DES_RESEARCH_TREATY_DES" Graphic="Placeholder"/>	
+			
+		<!-- Is agreement from both sides required to start this treaty -->
+		<AgreementRequired VALUE="TRUE" />
+		<Length VALUE="30" />
+		
+		<TreatyEvaluationScript VALUE="TRE_ResearchEvaluation"/>		
+		<TreatyStartScript VALUE="TRE_ResearchStart"/>
+		<TreatyBreakScript VALUE="TRE_ResearchBreak"/>
+		<TreatyEndScript VALUE="TRE_ResearchEnd"/>
+	</TREATY-RESEARCH>
+	
+	<TREATY-TRADE>
+		<DescriptionInfo Name="DES_TRADE_TREATY" Description="DES_TRADE_TREATY_DES" Graphic="Placeholder"/>	
+			
+		<!-- Is agreement from both sides required to start this treaty -->
+		<AgreementRequired VALUE="TRUE" />
+		<Length VALUE="30" />
+		
+		<TreatyEvaluationScript VALUE="TRE_TradeEvaluation"/>		
+		<TreatyStartScript VALUE="TRE_TradeStart"/>
+		<TreatyBreakScript VALUE="TRE_TradeBreak"/>
+		<TreatyEndScript VALUE="TRE_TradeEnd"/>
+	</TREATY-TRADE>
+	
+
+	
+	<WIZARD-MERLIN>
+		<DescriptionInfo Name="DES_MERLIN" Description="DES_MERLIN_DES" Graphic="MerlinPortrait"/>	
+		<Quote VALUE="DES_MERLIN_QUOTE" />
+		<PersonalGreeting VALUE="DES_MERLIN_GREETINGS" />
+		<Icon VALUE="MerlinPortrait" />
+		<Background VALUE="Merlin_Bg" />
+		<Tags Amount="5" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<Tags Amount="5" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-SAGE_MASTERY" />
+	</WIZARD-MERLIN>
+	<WIZARD-RAVEN>
+		<DescriptionInfo Name="DES_RAVEN" Description="DES_RAVEN_DES" Graphic="RavenPortrait"/>	
+		<Quote VALUE="DES_RAVEN_QUOTE" />
+		<PersonalGreeting VALUE="DES_RAVEN_GREETINGS" />
+		<Icon VALUE="RavenPortrait" />
+		<Background VALUE="Raven_Bg" />
+		<Tags Amount="6" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<Tags Amount="5" Tag="TAG-NATURE_MAGIC_BOOK" />
+	</WIZARD-RAVEN>
+	<WIZARD-SHAREE>
+		<DescriptionInfo Name="DES_SHAREE" Description="DES_SHAREE_DES" Graphic="ShareePortrait"/>	
+		<Quote VALUE="DES_SHAREE_QUOTE" />
+		<PersonalGreeting VALUE="DES_SHAREE_GREETINGS" />
+		<Icon VALUE="ShareePortrait" />
+		<Background VALUE="Sharee_Bg" />
+		<Tags Amount="5" Tag="TAG-DEATH_MAGIC_BOOK" />
+		<Tags Amount="5" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-CONJURER" />
+	</WIZARD-SHAREE>
+	<WIZARD-LO_PAN>
+		<DescriptionInfo Name="DES_LO_PAN" Description="DES_LO_PAN_DES" Graphic="LoPanPortrait"/>	
+		<Quote VALUE="DES_LO_PAN_QUOTE" />
+		<PersonalGreeting VALUE="DES_LO_PAN_GREETINGS" />
+		<Icon VALUE="LoPanPortrait" />
+		<Background VALUE="LoPan_Bg" />
+		<Tags Amount="5" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<Tags Amount="5" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-CHANNELER" />
+	</WIZARD-LO_PAN>
+	<WIZARD-JAFAR>
+		<DescriptionInfo Name="DES_JAFAR" Description="DES_JAFAR_DES" Graphic="JafarPortrait"/>	
+		<Quote VALUE="DES_JAFAR_QUOTE" />
+		<PersonalGreeting VALUE="DES_JAFAR_GREETINGS" />
+		<Icon VALUE="JafarPortrait" />
+		<Background VALUE="Jafar_Bg" />
+		<Tags Amount="9" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-ALCHEMY" />
+	</WIZARD-JAFAR>
+	<WIZARD-OBERIC>
+		<DescriptionInfo Name="DES_OBERIC" Description="DES_OBERIC_DES" Graphic="ObericPortrait"/>	
+		<Quote VALUE="DES_OBERIC_QUOTE" />
+		<PersonalGreeting VALUE="DES_OBERIC_GREETINGS" />
+		<Icon VALUE="ObericPortrait" />
+		<Background VALUE="Oberic_Bg" />
+		<Tags Amount="5" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<Tags Amount="5" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-MANA_FOCUSING" />
+	</WIZARD-OBERIC>
+	<WIZARD-RJAK>
+		<DescriptionInfo Name="DES_RJAK" Description="DES_RJAK_DES" Graphic="RjakPortrait"/>	
+		<Quote VALUE="DES_RJAK_QUOTE" />
+		<PersonalGreeting VALUE="DES_RJAK_GREETINGS" />
+		<Icon VALUE="RjakPortrait" />
+		<Background VALUE="Rjak_Bg" />
+		<Tags Amount="9" Tag="TAG-DEATH_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-INFERNAL_POWER" />
+	</WIZARD-RJAK>
+	<WIZARD-SSSRA>
+		<DescriptionInfo Name="DES_SSSRA" Description="DES_SSSRA_DES" Graphic="Sssra2Portrait"/>	
+		<Quote VALUE="DES_SSSRA_QUOTE" />
+		<PersonalGreeting VALUE="DES_SSSRA_GREETINGS" />
+		<Icon VALUE="Sssra2Portrait" />
+		<Background VALUE="Sssra2_Bg" />
+		<Tags Amount="4" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<Tags Amount="5" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-MYRRAN" />
+	</WIZARD-SSSRA>
+	<WIZARD-TAURON>
+		<DescriptionInfo Name="DES_TAURON" Description="DES_TAURON_DES" Graphic="TauronPortrait"/>	
+		<Quote VALUE="DES_TAURON_QUOTE" />
+		<PersonalGreeting VALUE="DES_TAURON_GREETINGS" />
+		<AssociateInitialGreeting Wizard="WIZARD-MORIQUE" Greeting="DES_TAURON_GREETINGS_MORIQUE_1"/>
+		<AssociateGreeting Wizard="WIZARD-MORIQUE" Greeting="DES_TAURON_GREETINGS_MORIQUE_2"/>
+		<Icon VALUE="TauronPortrait" />
+		<Background VALUE="Tauron_Bg" />
+		<Tags Amount="10" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-CHAOS_MASTERY" />
+	</WIZARD-TAURON>
+	<WIZARD-FREYA>
+		<DescriptionInfo Name="DES_FREYA" Description="DES_FREYA_DES" Graphic="FreyaPortrait"/>	
+		<Quote VALUE="DES_FREYA_QUOTE" />
+		<PersonalGreeting VALUE="DES_FREYA_GREETINGS" />
+		<Icon VALUE="FreyaPortrait" />
+		<Background VALUE="Freya_Bg" />
+		<Tags Amount="10" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-NATURE_MASTERY" />
+	</WIZARD-FREYA>
+	<WIZARD-HORUS>
+		<DescriptionInfo Name="DES_HORUS" Description="DES_HORUS_DES" Graphic="HorusPortrait"/>	
+		<Quote VALUE="DES_HORUS_QUOTE" />
+		<PersonalGreeting VALUE="DES_HORUS_GREETINGS" />
+		<Icon VALUE="HorusPortrait" />
+		<Background VALUE="Horus_Bg" />
+		<Tags Amount="5" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<Tags Amount="5" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-ARCHMAGE" />
+	</WIZARD-HORUS>
+	<WIZARD-ARIEL>
+		<DescriptionInfo Name="DES_ARIEL" Description="DES_ARIEL_DES" Graphic="ArielPortrait"/>	
+		<Quote VALUE="DES_ARIEL_QUOTE" />
+		<PersonalGreeting VALUE="DES_ARIEL_GREETINGS" />
+		<Icon VALUE="ArielPortrait" />
+		<Background VALUE="Ariel_Bg" />
+		<Tags Amount="10" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-CHARISMATIC" />
+	</WIZARD-ARIEL>
+	<WIZARD-TLALOC>
+		<DescriptionInfo Name="DES_TLALOC" Description="DES_TLALOC_DES" Graphic="TlalocPortrait"/>	
+		<Quote VALUE="DES_TLALOC_QUOTE" />
+		<PersonalGreeting VALUE="DES_TLALOC_GREETINGS" />
+		<Icon VALUE="TlalocPortrait" />
+		<Background VALUE="Tlaloc_Bg" />
+		<Tags Amount="5" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<Tags Amount="4" Tag="TAG-DEATH_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-WARLORD" />
+	</WIZARD-TLALOC>
+	<WIZARD-KALI>
+		<DescriptionInfo Name="DES_KALI" Description="DES_KALI_DES" Graphic="KaliPortrait"/>	
+		<Quote VALUE="DES_KALI_QUOTE" />
+		<PersonalGreeting VALUE="DES_KALI_GREETINGS" />
+		<Icon VALUE="KaliPortrait" />
+		<Background VALUE="Kali_Bg" />
+		<Tags Amount="5" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<Tags Amount="5" Tag="TAG-DEATH_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-ARTIFICER" />
+	</WIZARD-KALI>
+	<WIZARD-RAASS Dlc="Dlc1">
+		<DescriptionInfo Name="DES_RAASS" Description="DES_RAASS_DES" Graphic="RaassPortrait"/>	
+		<Quote VALUE="DES_RAASS_QUOTE" />
+		<PersonalGreeting VALUE="DES_RAASS_GREETINGS" />
+		<Icon VALUE="RaassPortrait" />
+		<Background VALUE="Raass_Bg" />
+		<Tags Amount="4" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<Tags Amount="4" Tag="TAG-DEATH_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-FANTASTIC_WARLORD" />
+		<Trait VALUE="TRAIT-MYRRAN" />
+	</WIZARD-RAASS>
+	<WIZARD-BIANKA Dlc="Dlc1">
+		<DescriptionInfo Name="DES_BIANKA" Description="DES_BIANKA_DES" Graphic="BiankaPortrait"/>	
+		<Quote VALUE="DES_BIANKA_QUOTE" />
+		<PersonalGreeting VALUE="DES_BIANKA_GREETINGS" />
+		<Icon VALUE="BiankaPortrait" />
+		<Background VALUE="Bianka_Bg" />
+		<Tags Amount="3" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<Tags Amount="2" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<Tags Amount="2" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-MYRRAN" />
+		<Trait VALUE="TRAIT-STONEMASON" />
+		<Trait VALUE="TRAIT-RUNEMASTER" />
+	</WIZARD-BIANKA>
+	<WIZARD-TLACHTGA Dlc="Dlc1">
+		<DescriptionInfo Name="DES_TLACHTGA " Description="DES_TLACHTGA_DES" Graphic="TlachtgaPortrait"/>	
+		<Quote VALUE="DES_TLACHTGA_QUOTE" />
+		<PersonalGreeting VALUE="DES_TLACHTGA_GREETINGS" />
+		<Icon VALUE="TlachtgaPortrait" />
+		<Background VALUE="Tlachtga_Bg" />
+		<Tags Amount="8" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-MYRRAN" />
+		<Trait VALUE="TRAIT-NATURE_SUMMONER" />
+	</WIZARD-TLACHTGA >
+	<WIZARD-CORAX Dlc="Dlc1">
+		<DescriptionInfo Name="DES_CORAX" Description="DES_CORAX_DES" Graphic="CoraxPortrait"/>	
+		<Quote VALUE="DES_CORAX_QUOTE" />
+		<PersonalGreeting VALUE="DES_CORAX_GREETINGS" />
+		<Icon VALUE="CoraxPortrait" />
+		<Background VALUE="Corax_Bg" />
+		<Tags Amount="8" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-MYRRAN" />
+		<Trait VALUE="TRAIT-LIFEBRINGER" />
+	</WIZARD-CORAX>
+	<WIZARD-MORIQUE Dlc="Dlc2">
+		<DescriptionInfo Name="DES_MORIQUE" Description="DES_MORIQUE_DES" Graphic="MoriquePortrait"/>	
+		<Quote VALUE="DES_MORIQUE_QUOTE" />
+		<PersonalGreeting VALUE="DES_MORIQUE_GREETINGS" />
+		<AssociateInitialGreeting Wizard="WIZARD-TAURON" Greeting="DES_MORIQUE_GREETINGS_TAURON_1"/>
+		<AssociateGreeting Wizard="WIZARD-TAURON" Greeting="DES_MORIQUE_GREETINGS_TAURON_2"/>
+		<Icon VALUE="MoriquePortrait" />
+		<Background VALUE="Morique_Bg" />
+		<Tags Amount="5" Tag="TAG-DEATH_MAGIC_BOOK" />
+		<Tags Amount="2" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-DEMONOLOGIST" />
+		<Trait VALUE="TRAIT-CONJURER"/>
+		<Trait VALUE="TRAIT-MYRRAN_REFUGEE" />
+	</WIZARD-MORIQUE>
+	<WIZARD-NINESEVEN Dlc="Dlc2">
+		<DescriptionInfo Name="DES_NINESEVEN" Description="DES_NINESEVEN_DES" Graphic="NinesevenPortrait"/>	
+		<Quote VALUE="DES_NINESEVEN_QUOTE" />
+		<PersonalGreeting VALUE="DES_NINESEVEN_GREETINGS" />
+		<Icon VALUE="NinesevenPortrait" />
+		<Background VALUE="Nineseven_Bg" />
+		<Tags Amount="3" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<Tags Amount="4" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-TECHMASTER"/>
+		<Trait VALUE="TRAIT-ALCHEMY" />
+	</WIZARD-NINESEVEN>
+	<WIZARD-GRENDEL Dlc="Dlc2">
+		<DescriptionInfo Name="DES_GRENDEL" Description="DES_GRENDEL_DES" Graphic="GrendelPortrait"/>	
+		<Quote VALUE="DES_GRENDEL_QUOTE" />
+		<PersonalGreeting VALUE="DES_GRENDEL_GREETINGS" />
+		<Icon VALUE="GrendelPortrait" />
+		<Background VALUE="Grendel_Bg" />
+		<Tags Amount="1" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-IMPROVED_WARLORD" />
+		<Trait VALUE="TRAIT-ANTI_MAGIC"/>
+		<Trait VALUE="TRAIT-MYRRAN_REFUGEE"/>
+		<Trait VALUE="TRAIT-WARLORD"/>
+	</WIZARD-GRENDEL>
+	
+	<WIZARD-BLADUD Dlc="Dlc0">
+		<DescriptionInfo Name="DES_BLADUD" Description="DES_BLADUD_DES" Graphic="BladudPortrait"/>	
+		<Quote VALUE="DES_BLADUD_QUOTE" />
+		<PersonalGreeting VALUE="DES_BLADUD_GREETINGS" />
+		<AssociateInitialGreeting Wizard="WIZARD-BELIT" Greeting="DES_BLADUD_GREETINGS_BELIT_1"/>
+        <AssociateGreeting Wizard="WIZARD-BELIT" Greeting="DES_BLADUD_GREETINGS_BELIT_2"/>
+		<Icon VALUE="BladudPortrait" />
+		<Background VALUE="Bladud_Bg" />
+		<Tags Amount="9" Tag="TAG-DEATH_MAGIC_BOOK" />				
+		<Trait VALUE="TRAIT-ORCOMANCER" />		
+	</WIZARD-BLADUD>
+	
+	<WIZARD-BELIT Dlc="Dlc3">
+		<DescriptionInfo Name="DES_BELIT" Description="DES_BELIT_DES" Graphic="BelitPortrait"/>	
+		<Quote VALUE="DES_BELIT_QUOTE" />
+		<PersonalGreeting VALUE="DES_BELIT_GREETINGS" />
+		<AssociateInitialGreeting Wizard="WIZARD-BLADUD" Greeting="DES_BELIT_GREETINGS_BLADUD_1"/>
+        <AssociateGreeting Wizard="WIZARD-BLADUD" Greeting="DES_BELIT_GREETINGS_BLADUD_2"/>
+		<Icon VALUE="BelitPortrait" />
+		<Background VALUE="Belit_Bg" />
+		<Tags Amount="3" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<Tags Amount="3" Tag="TAG-DEATH_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-SWIFT_SEALEGS" />
+		<Trait VALUE="TRAIT-THE_PIRATE"/>
+	</WIZARD-BELIT>
+
+	<WIZARD-HORATIO Dlc="Dlc3">
+		<DescriptionInfo Name="DES_HORATIO" Description="DES_HORATIO_DES" Graphic="HoratioPortrait"/>	
+		<Quote VALUE="DES_HORATIO_QUOTE" />
+		<PersonalGreeting VALUE="DES_HORATIO_GREETINGS" />
+		<AssociateInitialGreeting Wizard="WIZARD-GAYN" Greeting="DES_HORATIO_GREETINGS_GAYN_1"/>
+		<AssociateGreeting Wizard="WIZARD-GAYN" Greeting="DES_HORATIO_GREETINGS_GAYN_2"/>
+		<Icon VALUE="HoratioPortrait" />
+		<Background VALUE="Horatio_Bg" />
+		<Tags Amount="4" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<Tags Amount="3" Tag="TAG-CHAOS_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-SWIFT_SEALEGS" />
+		<Trait VALUE="TRAIT-TACTITIAN" />
+	</WIZARD-HORATIO>
+
+	<WIZARD-QUEEN_XARXLA  Dlc="Dlc3">
+		<DescriptionInfo Name="DES_QUEEN_XARXLA" Description="DES_QUEEN_XARXLA_DES" Graphic="QueenXarxlaPortrait"/>	
+		<Quote VALUE="DES_QUEEN_XARXLA_QUOTE" />
+		<PersonalGreeting VALUE="DES_QUEEN_XARXLA_GREETINGS" />
+		<Icon VALUE="QueenXarxlaPortrait" />
+		<Background VALUE="QueenXarxla_Bg" />
+		<Tags Amount="2" Tag="TAG-SORCERY_MAGIC_BOOK" />
+		<Tags Amount="3" Tag="TAG-LIFE_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-KLACKON_SUPREMACY"/>
+		<Trait VALUE="TRAIT-POWER_PEOPLE"/>
+		<Trait VALUE="TRAIT-WARLORD" />
+
+	</WIZARD-QUEEN_XARXLA>
+
+	<WIZARD-GAYN  Dlc="Dlc3">
+		<DescriptionInfo Name="DES_GAYN" Description="DES_GAYN_DES" Graphic="GaynPortrait"/>	
+		<Quote VALUE="DES_GAYN_QUOTE" />
+		<PersonalGreeting VALUE="DES_GAYN_GREETINGS" />
+		<AssociateInitialGreeting Wizard="WIZARD-HORATIO" Greeting="DES_GAYN_GREETINGS_HORATIO_1"/>
+		<AssociateGreeting Wizard="WIZARD-HORATIO" Greeting="DES_GAYN_GREETINGS_HORATIO_2"/>
+		<Icon VALUE="GaynPortrait" />
+		<Background VALUE="Gayn_Bg" />
+		<Tags Amount="4" Tag="TAG-NATURE_MAGIC_BOOK" />
+		<Tags Amount="4" Tag="TAG-DEATH_MAGIC_BOOK" />
+		<Trait VALUE="TRAIT-SWIFT_SEALEGS" />
+		<Trait VALUE="TRAIT-SEA_HUNTER"/>
+	</WIZARD-GAYN>
+	
+</DB_WIZARD>

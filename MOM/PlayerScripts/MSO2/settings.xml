@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>mso2</prefix>
+    <name>More Starting Options 2</name>
+    <title>More Starting Options 2</title>
+
+    <description>
+This is a cleanup/fix of the previous Mod by eddieballgame
+==========================
+
+New Starting Spellbook Options
+-------------------------
+- Added 15 Spellbooks (Difficulty -50)
+- Added 14 Spellbooks (Difficulty -30)
+- Added 13 Spellbooks (Difficulty -10)
+
+New Starting Hero Options
+-------------------------
+- "B'Shan the Dervish"
+- "Brax the Dwarf" (new) (Diff -10)
+- "Gunther the Barbarian" (new) (Diff -10)
+- "Zaldron the Sage" (new) (Diff -10)
+- "Rakir the Beastmaster" (new) (Diff -10)
+- "Valana the Bard" (new) (Diff -10)
+- "Bahgtru the Orc" (new) (Diff -10)
+- "Serena the Healer" (new) (Diff -10)
+- "Shuri the Huntress" (new) (Diff -10)
+- "Theria the Thief" (new) (Diff -10)
+- "Greyfairer the Druid" (new) (Diff -50)
+- "Taki the Monk" (new) (Diff -50)
+- "Reywind the Warrior Mage" (new) (Diff -50)
+- "Malleus the Magician" (new) (Diff -50)
+- "Tumu the Assassin" (new) (Diff -50)
+- "Jaer the Wind Mage" (new) (Diff -70)
+- "Marcus the Ranger" (new) (Diff -70)
+- "Fang the Draconian" (new) (Diff -70)
+- "Morgana the Witch" (new) (Diff -70)
+- "Aureus the Golden One" (new) (Diff -70)
+- "Shin Bo the Assassin" (new) (Diff -90)
+- "Spyder the Rogue" (new) (Diff -90)
+- "Shalla the Amazon" (new) (Diff -90)
+
+New Town Distance Options
+-------------------------
+- Added Town Distance 6 (Diff 60)
+- Added Town Distance 7 (Diff 70)
+- Added Town Distance 8 (Diff 80)
+- Added Town Distance 9 (Diff 90)
+- Added Town Distance 10 (Diff 100)
+- Added Town Distance 11 (Diff 110)
+- Added Town Distance 12 (Diff 120)
+- Added Town Distance 13 (Diff 130)
+- Added Town Distance 14 (Diff 140)
+
+New Town Growth Options
+-----------------------
+- Added Town Growth x2.0 multiplier
+
+New (in-game) Tax Incomes and Rebellion rates
+---------------------------------------------
+- Added Income of 3.5 with Rebellion of 0.70
+- Added Income of 4.0 with Rebellion of 0.80
+- Added Income of 4.5 with Rebellion of 0.90
+    </description>
+
+    <author>DorianGray</author>
+    <version>1.0.14</version>
+    <icon>mso2:mso2.jpg</icon>
+
+</ModSettings>

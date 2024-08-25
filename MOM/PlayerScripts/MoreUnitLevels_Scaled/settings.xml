@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>iux</prefix>
+    <name>More Unit Levels (Scaled)</name>
+    <title>[Util] More Unit Levels (Scaled)</title>
+
+    <description>
+NOTE: this Mod serves as a replacement and is NOT compatible with "More Unit Levels".  It will need to be disabled or uninstalled.
+
+Based off of the "Increased Unit XP" Mod by Kilgore; however, with maximum attributes increase at max level scaled to approximately 200% (in most cases) of baseline values.
+
+For example (SCALED max increase vs UNSCALED vs baseline)
+- Resist (+6 vs +10 (lvl 20) vs +5 (lvl 6))
+- Melee Attack (+6 vs +10 (lvl 20) vs +3 (lvl 6))
+- Range Attack (ditto)
+- Throw Bonus (ditto)
+- FireBreath Bonus (ditto)
+- Defense (+4 vs +7 (lvl 20) vs +2 (lvl 6))
+- HitPoints (+4 vs +6 (lvl 20) vs +2 (lvl 6))
+- Attack Chance (+0.4 vs +0.4 (lvl 20) vs +0.3 (lvl 6)) (remains same as prevous mod)
+
+This Mod increases the base number of levels a unit can obtain (in most cases) to 18.
+
+However, Level 19 and 20 are obtainable with Warlord trait and/or the Crusade Spell.
+    </description>
+    <author>DorianGray</author>
+    <version>1.0.2</version>
+    <icon>iux:iux.png</icon>
+
+</ModSettings>

@@ -1,0 +1,26 @@
+﻿<PROTOTYPE>
+	<BUILDING Name="Building">		
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>		
+		<ParentBuildingRequired Name="parentBuildingRequired" Type="ArrayBUILDING" Required="FALSE"/>
+		<!-- Table of additional resource bonusses which are add to town bonus for specific resources -->
+		<BuildingResourceBonus Name="buildingResourceBonus" Type="ArrayBUILDING_RESOURCE_BONUS" Required="FALSE"/>
+
+		<!-- Build cost in production -->
+		<BuildCost Name="buildCost" Type="int" Required="TRUE"/>
+		<!-- Upkeep cost in gold -->
+		<UpkeepCost Name="upkeepCost" Type="int" Required="TRUE"/>
+		<!-- Upkeep cost in power -->
+		<UpkeepManaCost Name="upkeepManaCost" Type="int" Required="FALSE"/>
+		<!-- Enchantment is "skill" apply on city, wizzard etc.-->
+		<Enchantments Name="enchantments" Type="ArrayENCHANTMENT" Required="FALSE"/>
+		<Tags Name="tags" Type="ArrayTAG" Required="FALSE"/>
+		<MarineBuilding Name="marineBuilding" Type="bool" Required="FALSE"/>
+	</BUILDING>
+	
+	<BUILDING_RESOURCE_BONUS Name="BuildingResourceBonus">		
+		<!-- resource for which bonus is applied -->
+		<Resource Name="resource" Type="RESOURCE" Required="TRUE"/>				
+		<!-- array of the bonuses for the resouurce -->
+		<BonusTypes Name="bonusTypes" Type="RESOURCE_BONUS_TYPE" Required="TRUE"/>		
+	</BUILDING_RESOURCE_BONUS>
+</PROTOTYPE>

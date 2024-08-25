@@ -1,0 +1,590 @@
+﻿<DB_TAG>
+
+	<TAG-DEBUG_TAG>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-DEBUG_TAG>
+	<TAG-PLACEHOLDER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-PLACEHOLDER>
+	<TAG-EVENT_ONLY_UNIT>
+		<DescriptionInfo Name="DES_EVENT_ONLY_UNIT" Description="DES_EVENT_ONLY_UNIT_DES" Graphic="IconPlaceholder"/>		
+	</TAG-EVENT_ONLY_UNIT>
+	<TAG-UNRECRUITABLE_UNIT>
+		<DescriptionInfo Name="DES_UNRECRUITABLE_UNIT" Description="DES_UNRECRUITABLE_UNIT_DES" Graphic="IconPlaceholder"/>
+	</TAG-UNRECRUITABLE_UNIT>
+
+	<TAG-MY_TAG>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MY_TAG>
+	
+	<TAG-MY_TAG2>
+		<DescriptionInfo Name="DES_TAG_MY_TAG2" Description="DES_TAG_MY_TAG_DES2" Graphic="IconPlaceholder3"/>	
+		<Parent	VALUE="TAG-MY_TAG"/>
+	</TAG-MY_TAG2>
+	
+	<!-- Magic books indicator-->
+	<TAG-MAGIC_BOOK>
+		<DescriptionInfo Name="DES_MAGIC_BOOK" Description="DES_MAGIC_BOOK_DES" Graphic="IconPlaceholder2"/>		
+	</TAG-MAGIC_BOOK>	
+	<TAG-ARCANE_BOOK>
+		<DescriptionInfo Name="DES_LIFE_MAGIC_BOOK" Description="DES_LIFE_MAGIC_BOOK_DES" Graphic="IconPlaceholder2"/>	
+		<Parent VALUE="TAG-MAGIC_BOOK" />
+	</TAG-ARCANE_BOOK>
+	<TAG-TECH_BOOK>
+		<DescriptionInfo Name="DES_LIFE_MAGIC_BOOK" Description="DES_LIFE_MAGIC_BOOK_DES" Graphic="IconPlaceholder2"/>	
+		<Parent VALUE="TAG-MAGIC_BOOK" />
+	</TAG-TECH_BOOK>
+	<TAG-LIFE_MAGIC_BOOK>
+		<DescriptionInfo Name="DES_LIFE_MAGIC_BOOK" Description="DES_LIFE_MAGIC_BOOK_DES" Graphic="IconPlaceholder2"/>	
+		<Parent VALUE="TAG-MAGIC_BOOK" />
+	</TAG-LIFE_MAGIC_BOOK>
+	<TAG-NATURE_MAGIC_BOOK>
+		<DescriptionInfo Name="DES_NATURE_MAGIC_BOOK" Description="DES_NATURE_MAGIC_BOOK_DES" Graphic="IconPlaceholder2"/>			
+		<Parent VALUE="TAG-MAGIC_BOOK" />
+	</TAG-NATURE_MAGIC_BOOK>
+	<TAG-SORCERY_MAGIC_BOOK>
+		<DescriptionInfo Name="DES_SORCERY_BOOK_MAGIC" Description="DES_SORCERY_MAGIC_BOOK_DES" Graphic="IconPlaceholder2"/>			
+		<Parent VALUE="TAG-MAGIC_BOOK" />
+	</TAG-SORCERY_MAGIC_BOOK>
+	<TAG-CHAOS_MAGIC_BOOK>
+		<DescriptionInfo Name="DES_CHAOS_MAGIC_BOOK" Description="DES_CHAOS_MAGIC_BOOK_DES" Graphic="IconPlaceholder2"/>			
+		<Parent VALUE="TAG-MAGIC_BOOK" />
+	</TAG-CHAOS_MAGIC_BOOK>
+	<TAG-DEATH_MAGIC_BOOK>
+		<DescriptionInfo Name="DES_DEATH_MAGIC_BOOK" Description="DES_DEATH_MAGIC_BOOK_DES" Graphic="IconPlaceholder2"/>			
+		<Parent VALUE="TAG-MAGIC_BOOK" />
+	</TAG-DEATH_MAGIC_BOOK>
+	
+	<!-- Unit function indicator-->
+	<TAG-SETTLER_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-SETTLER_UNIT>
+	<TAG-ENGINEER_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-ENGINEER_UNIT>
+	<TAG-PURIFER_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-PURIFER_UNIT>
+	<TAG-MELDER_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MELDER_UNIT>
+	<TAG-PRIEST_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-PRIEST_UNIT>
+	<TAG-MAGICIAN_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MAGICIAN_UNIT>
+	<TAG-SHAMAN_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-SHAMAN_UNIT>
+	<TAG-MECHANICAL_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MECHANICAL_UNIT>
+	<TAG-MELEE_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MELEE_UNIT>
+	<TAG-MAGIC_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MAGIC_UNIT>
+	<TAG-MOUNTED_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MOUNTED_UNIT>
+	<TAG-RANGED_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-RANGED_UNIT>
+	<TAG-CONSTRUCTION_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-CONSTRUCTION_UNIT>
+	<TAG-SHIP>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-SHIP>
+	<!-- TOWN_STARTING_DEFENDER needs to be used for one unit from the town. That unit becomes the first town defender and is created when the city is established.-->
+	<TAG-TOWN_STARTING_DEFENDER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-TOWN_STARTING_DEFENDER>
+	<!-- Tags TOWN_DEFENDER 1, 2, 3, and 4 are used to create a defence group for the neutral town.-->
+	<TAG-TOWN_DEFENDER_1>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-TOWN_DEFENDER_1>
+	<TAG-TOWN_DEFENDER_2>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-TOWN_DEFENDER_2>
+	<TAG-TOWN_DEFENDER_3>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-TOWN_DEFENDER_3>
+	<TAG-TOWN_DEFENDER_4>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-TOWN_DEFENDER_4>
+	<TAG-MYRRAN_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-MYRRAN_UNIT>
+	<TAG-PRAYER_ON_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-PRAYER_ON_UNIT>
+	<TAG-HIGH_PRAYER_ON_UNIT>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-HIGH_PRAYER_ON_UNIT>
+	<TAG-LAIR_EXCLUSION>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-LAIR_EXCLUSION>
+	
+	<!-- Unit Genre-->
+	<TAG-MALE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MALE>
+	<TAG-FEMALE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-FEMALE>
+	<TAG-UNKNOWN>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-UNKNOWN>
+	
+	<!-- Hero Affiliation-->
+	<TAG-HERO_LIFE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-HERO_LIFE>
+	<TAG-HERO_DEATH>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-HERO_DEATH>
+
+	
+	<!-- Unit class-->
+	<TAG-UNIT_CLASS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-UNIT_CLASS>
+	<TAG-NORMAL_CLASS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-UNIT_CLASS"/>
+	</TAG-NORMAL_CLASS>
+	<TAG-FANTASTIC_CLASS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-UNIT_CLASS"/>	
+	</TAG-FANTASTIC_CLASS>
+	<TAG-HERO_CLASS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-UNIT_CLASS"/>	
+	</TAG-HERO_CLASS>
+	<TAG-CHAMPION_CLASS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-HERO_CLASS"/>	
+	</TAG-CHAMPION_CLASS>
+	<TAG-RARE_CLASS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-UNIT_CLASS"/>	
+	</TAG-RARE_CLASS>
+
+	<!-- Unit Stats-->
+	<TAG-MOVEMENT_POINTS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MOVEMENT_POINTS>
+	<TAG-CAN_WALK>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-CAN_WALK>
+	<TAG-CAN_SWIM>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-CAN_SWIM>
+	<TAG-CAN_FLY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-CAN_FLY>
+	<TAG-MOUNTAINEER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MOUNTAINEER>
+	<TAG-FORESTER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-FORESTER>
+	<TAG-EARTH_WALKER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-EARTH_WALKER>
+	<TAG-NON_CORPOREAL>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-NON_CORPOREAL>
+	<TAG-PATHFINDING>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-PATHFINDING>
+	<TAG-TRANSPORTER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-TRANSPORTER>
+	<TAG-WIND_MASTERY_POSITIVE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-WIND_MASTERY_POSITIVE>
+	<TAG-WIND_MASTERY_NEGATIVE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-WIND_MASTERY_NEGATIVE>
+	<TAG-MELEE_ATTACK>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MELEE_ATTACK>
+	<TAG-MELEE_ATTACK_CHANCE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MELEE_ATTACK_CHANCE>
+	<TAG-RANGE_ATTACK>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-RANGE_ATTACK>
+	<TAG-RANGE_ATTACK_CHANCE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-RANGE_ATTACK_CHANCE>
+	<TAG-DEFENCE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-DEFENCE>
+	<TAG-DEFENCE_CHANCE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-DEFENCE_CHANCE>
+	<TAG-RESIST>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-RESIST>
+	<TAG-HIT_POINTS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-HIT_POINTS>
+	<TAG-AMMUNITION>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-AMMUNITION>
+	<TAG-WALL_CRUSHER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-WALL_CRUSHER>
+	<TAG-LONG_RANGE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-LONG_RANGE>
+	<TAG-NORMAL_RANGE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-NORMAL_RANGE>
+	<TAG-MAGIC_RANGE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MAGIC_RANGE>
+	<TAG-MAGIC_CHAOS_RANGE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-MAGIC_RANGE"/>
+	</TAG-MAGIC_CHAOS_RANGE>
+	<TAG-MAGIC_NATURE_RANGE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-MAGIC_RANGE"/>
+	</TAG-MAGIC_NATURE_RANGE>
+	<TAG-MAGIC_SORCERY_RANGE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-MAGIC_RANGE"/>
+	</TAG-MAGIC_SORCERY_RANGE>
+	<TAG-MAGIC_LIFE_RANGE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-MAGIC_RANGE"/>
+	</TAG-MAGIC_LIFE_RANGE>
+	<TAG-MAGIC_DEATH_RANGE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-MAGIC_RANGE"/>
+	</TAG-MAGIC_DEATH_RANGE>
+	<TAG-MAGIC_TECH_RANGE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-MAGIC_RANGE"/>
+	</TAG-MAGIC_TECH_RANGE>
+	<TAG-BOULDER_RANGE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-BOULDER_RANGE>
+	<TAG-INVISIBILITY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-INVISIBILITY>
+	<!-- Additional Def/ immunities-->
+	<TAG-COLD_IMMUNITY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-COLD_IMMUNITY>
+	<TAG-DEATH_IMMUNITY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-DEATH_IMMUNITY>
+	<TAG-FIRE_IMMUNITY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-FIRE_IMMUNITY>
+	<TAG-ILLUSIONS_IMMUNITY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-ILLUSIONS_IMMUNITY>
+	<TAG-MAGIC_IMMUNITY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MAGIC_IMMUNITY>
+	<TAG-MISSILE_IMMUNITY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-MISSILE_IMMUNITY>
+	<TAG-POISON_IMMUNITY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-POISON_IMMUNITY>
+	<TAG-STONING_IMMUNITY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-STONING_IMMUNITY>
+	<TAG-WEAPON_IMMUNITY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-WEAPON_IMMUNITY>
+	<TAG-LARGE_SHIELD>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-LARGE_SHIELD>
+	<TAG-RESIST_ELEMENTS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-RESIST_ELEMENTS>
+	<TAG-ELEMENTAL_ARMOR>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-ELEMENTAL_ARMOR>
+	<TAG-BLESS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-BLESS>
+	<TAG-RIGHTEOUSNESS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-RIGHTEOUSNESS>
+	<TAG-CAUSE_FEAR>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-CAUSE_FEAR>
+	<!-- TAG-UNDEAD in original game-->
+	<TAG-REANIMATED>
+		<DescriptionInfo Name="DES_TAG_MY_TAG || oMom Undead" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-REANIMATED>
+	<TAG-STASIS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-STASIS>
+	<TAG-HASTE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-HASTE>
+	<TAG-METEOR_STORM_AFFECTED>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-METEOR_STORM_AFFECTED>
+	<!-- That tag show "!" mark to player that building outpost is risky based on current circumstances -->
+	<TAG-OUTPOST_WARNING>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-OUTPOST_WARNING>
+	<!-- Weapon Types-->
+	<TAG-ENCHANTED_WEAPON>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-ENCHANTED_WEAPON>
+	<!-- Hidden Unit Stats-->
+	<TAG-THROW_BONUS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-THROW_BONUS>
+	<TAG-FIRE_BREATH_BONUS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-FIRE_BREATH_BONUS>
+	<TAG-DOOM_GAZE_BONUS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-DOOM_GAZE_BONUS>
+	<TAG-HEALER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-HEALER>
+	<TAG-MECHANICIAN>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-MECHANICIAN>
+	<TAG-SIGHT_RANGE_BONUS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-SIGHT_RANGE_BONUS>
+	<TAG-PLANE_SHIFTER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-PLANE_SHIFTER>
+	<TAG-TELEPORTING>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TELEPORTING>
+	<TAG-MANA_POINTS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-MANA_POINTS>
+	<TAG-REGENERATION>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-REGENERATION>
+	<TAG-MINOR_REGENERATION>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-MINOR_REGENERATION>
+	<TAG-SPELL_LOCK>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-SPELL_LOCK>
+	<TAG-SPELL_SAVE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-SPELL_SAVE>
+	<TAG-CHAOS_WEAPON>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-CHAOS_WEAPON>
+	<TAG-CASTER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-CASTER>
+	<TAG-FAIR_EXCHANGE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-FAIR_EXCHANGE>
+	<TAG-LIGHTNING_WEAKNESS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-LIGHTNING_WEAKNESS>
+	<TAG-DEATH_EATER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-DEATH_EATER>
+	
+
+	<!-- Unit Cost-->
+	<TAG-UPKEEP_GOLD>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-UPKEEP_GOLD>
+	<TAG-UPKEEP_MANA>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-UPKEEP_MANA>
+	<TAG-UPKEEP_FOOD>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-UPKEEP_FOOD>
+	<TAG-HIRING_COST>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-HIRING_COST>
+	
+	
+	<!-- Buildings function indicator-->
+	<TAG-PRODUCTION>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+	</TAG-PRODUCTION>
+	<TAG-POWER_PRODUCTION>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-PRODUCTION"/>		
+	</TAG-POWER_PRODUCTION>
+	<TAG-GOLD_PRODUCTION>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-PRODUCTION"/>		
+	</TAG-GOLD_PRODUCTION>
+	<TAG-FOOD_PRODUCTION>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-PRODUCTION"/>		
+	</TAG-FOOD_PRODUCTION>
+	<TAG-INCREASE_PRODUCTION>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-PRODUCTION"/>		
+	</TAG-INCREASE_PRODUCTION>
+	<TAG-RESEARCH_PRODUCTION>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>		
+		<Parent VALUE="TAG-PRODUCTION"/>		
+	</TAG-RESEARCH_PRODUCTION>
+	<TAG-MILITARY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-MILITARY>
+	<TAG-UNREST>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-UNREST>
+	<TAG-RELIGIOUS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-RELIGIOUS>
+	<TAG-DIVINE_INFERNAL_BONUS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-DIVINE_INFERNAL_BONUS>
+	<TAG-MAGICAL>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-MAGICAL>
+	<TAG-WIND_WALKING>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-WIND_WALKING>
+	<TAG-BLEEDING>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-BLEEDING>
+	<TAG-BOMBER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-BOMBER>
+	<TAG-HERO_TECH>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-HERO_TECH>
+	
+	<TAG-TRAIT_ALCHEMY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_ALCHEMY>
+	<TAG-TRAIT_ARCHMAGE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_ARCHMAGE>
+	<TAG-TRAIT_ARTIFICER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_ARTIFICER>
+	<TAG-TRAIT_CHANNELER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_CHANNELER>
+	<TAG-TRAIT_CHAOS_MASTERY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_CHAOS_MASTERY>
+	<TAG-TRAIT_CHARISMATIC>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_CHARISMATIC>
+	<TAG-TRAIT_CONJURER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_CONJURER>
+	<TAG-TRAIT_DIVINE_POWER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_DIVINE_POWER>
+	<TAG-TRAIT_FAMOUS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_FAMOUS>
+	<TAG-TRAIT_INFERNAL_POWER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_INFERNAL_POWER>
+	<TAG-TRAIT_MANA_FOCUSING>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_MANA_FOCUSING>
+	<TAG-TRAIT_MYRRAN>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_MYRRAN>
+	<TAG-TRAIT_NATURE_MASTERY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_NATURE_MASTERY>
+	<TAG-TRAIT_NODE_MASTERY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_NODE_MASTERY>
+	<TAG-TRAIT_RUNEMASTER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_RUNEMASTER>
+	<TAG-TRAIT_SAGE_MASTERY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_SAGE_MASTERY>
+	<TAG-TRAIT_SORCERY_MASTERY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_SORCERY_MASTERY>
+	<TAG-TRAIT_WARLORD>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_WARLORD>
+	<TAG-TRAIT_FANTASTIC_WARLORD>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_FANTASTIC_WARLORD>
+	<TAG-TRAIT_STONEMASON>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_STONEMASON>
+	<TAG-TRAIT_LIFEBRINGER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_LIFEBRINGER>
+	<TAG-TRAIT_HERO_MAGNET>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_HERO_MAGNET>
+	<TAG-TRAIT_NATURE_SUMMONER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_NATURE_SUMMONER>
+	<TAG-TRAIT_TECHMASTER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_TECHMASTER>
+	<TAG-TRAIT_DEMONOLOGIST>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_DEMONOLOGIST>
+	<TAG-TRAIT_ORCOMANCER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_ORCOMANCER>
+	<TAG-TRAIT_MYRRAN_REFUGEE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_MYRRAN_REFUGEE>
+	<TAG-TRAIT_IMPROVED_WARLORD>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_IMPROVED_WARLORD>
+	<TAG-TRAIT_ANTI_MAGIC>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_ANTI_MAGIC>
+	<TAG-TRAIT_NECROMANCER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_NECROMANCER>
+	<TAG-TRAIT_DEATH_EATER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_DEATH_EATER>
+	<TAG-TRAIT_SWIFT_SEALEGS>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TRAIT_SWIFT_SEALEGS>
+	<TAG-KLACKON_SUPREMACY>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-KLACKON_SUPREMACY>
+	<TAG-POWER_PEOPLE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-POWER_PEOPLE>
+	<TAG-THE_PIRATE>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-THE_PIRATE>
+	<TAG-TACTITIAN>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-TACTITIAN>
+	<TAG-SEA_HUNTER>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-SEA_HUNTER>
+	<TAG-WATER_BOSS_1>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-WATER_BOSS_1>
+	<TAG-WATER_BOSS_2>
+		<DescriptionInfo Name="DES_TAG_MY_TAG" Description="DES_TAG_MY_TAG_DES" Graphic="IconPlaceholder"/>			
+	</TAG-WATER_BOSS_2>
+</DB_TAG>

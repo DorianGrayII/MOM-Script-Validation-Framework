@@ -1,0 +1,45 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC0_IT Language="Italiano">
+		<!-- DLC 0 descriptions -->
+
+		<!-- WIZARDS --> 
+
+        <Loc Key="DES_BLADUD" Value="Bladud" />
+		<Loc Key="DES_BLADUD_DES" Value="Bladud divenne prima un rinomato generale orchesco, poi un re leggendario. Governò la sua stirpe per secoli assieme alla feroce regina Belit, finché i due non si separarono quando Bladud adottò i panni di Stregone. Avverso allo stigma della mediocrazia seguito dalla società orchesca, Bladud ambiva a dimostrarne le falle. Si servì delle arti oscure dell'orcomanzia per acquisire enormi poteri che impiegò per elevare il suo popolo oltre la sfera mondana e trasformarlo in un inarrestabile esercito della Morte. Gli Orchi che obbediscono a Bladud possono nutrirsi della forza vitale dei loro nemici, mentre lo Stregone trae potere dai propri orchi caduti in battaglia. Questo potere rende Bladud un avversario temibile." />
+		<Loc Key="DES_BLADUD_QUOTE" Value="Il mio popolo è stato definito debole per troppo tempo... ma presto gli orchi domeranno la Morte e conquisteranno ogni cosa!" />	
+		<Loc Key="DES_BLADUD_GREETINGS" Value="Salve, il mio nome è Bladud. Presto dovrai sottometterti al mio dominio... ma per ora possiamo parlare. "/>
+		
+		<Loc Key="DES_BLADUD_GREETINGS_BELIT_1" Value="E così il fato ci ha riuniti, Belit. Non vedo l'ora di dimostrare la tua inferiorità rispetto a un vero orco!"/>
+        <Loc Key="DES_BLADUD_GREETINGS_BELIT_2" Value="Belit, razza di infame... parla."/>
+
+		<!-- TRAITS -->
+		<Loc Key="DES_ORCOMANCER" Value="Orcomante" />
+		<Loc Key="DES_ORCOMANCER_DES" Value="L'Orcomante è un maestro delle arti oscure più affini alla forza vitale degli orchi. Per ogni componente orchesco ucciso nel suo esercito, l'Orcomante ottiene +5 capacità di lancio in battaglia (il bonus può superare la soglia massima). Ogni orco sotto il suo comando riceve le abilità 'Immunità alla Morte' e 'Prosciugamento Vitale'.\n\n-L'Orcomante deve iniziare la partita con gli Orchi.\n\n-Lo Stregone deve aver già selezionato almeno 1 Tomo della Morte.\n\n-Il tratto 'Orcomante' costa 2 punti." />
+		<Loc Key="DES_NECROMANCER" Value="Negromante" />
+		<Loc Key="DES_NECROMANCER_DES" Value="Il Negromante ambisce a sfruttare il velo della morte a proprio vantaggio. Lo Stregone inizia ogni battaglia avvolto da Oscurità e disponendo di un nuovo incantesimo Non Morto. L'incantesimo permette di resuscitare un eroe defunto e trasformarlo in un servitore non morto.\n\n-Lo Stregone deve aver già selezionato almeno 3 Tomi della Morte.\n\n-Il tratto 'Negromante' costa 1 punto."/>
+		<Loc Key="DES_TRAIT_DEATH_EATER" Value="Mangiamorte" />
+		<Loc Key="DES_TRAIT_DEATH_EATER_DES" Value="Il Mangiamorte può riciclare le sue truppe cadute per alimentare i propri eserciti della Morte. Dopo una battaglia vinta, tutte le unità appartenenti al regno della Morte ripristinano 50% salute (questo effetto non resuscita le unità morte).\n\n-Lo Stregone deve aver già selezionato almeno 3 Tomi della Morte.\n\n-Il tratto 'Mangiamorte' costa 2 punti. " />
+		<!-- RACE --> 
+ 
+		
+        <!-- UNITS -->
+	
+		
+		<!-- SKILLS --> 
+		<Loc Key="DES_SKILL_DEATH_EATER" Value="Mangiamorte" />
+		<Loc Key="DES_SKILL_DEATH_EATER_DES" Value="Le unità del regno della Morte sotto il comando del Mangiamorte ripristinano 50% salute quando vincono una battaglia."/>
+		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2" Value="Rubavita Minore 1" />
+		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2_DES" Value="Per ogni punto di resistenza {ICON:ResistanceIconNormal} fallita contro l’attacco Rubavita (l’unità attaccata riceve + resistenza pari al livello di Rubavita), il difensore perde -1{ICON:HitIconNormal} salute, mentre l’attaccante ne ottiene +1{ICON:HitIconNormal}. Le unità uccise da Rubavita resuscitano come non morti (ma l’immunità alla morte protegge da questo effetto). L’effetto di Rubavita si attiva prima della maggior parte degli altri attacchi." />
+      
+		<!-- BUILDINGS -->
+		
+		<!-- RES --> 
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_UNDEAD_HERO" Value="Eroe Non Morto"/>
+		<Loc Key="DES_UNDEAD_HERO_DES" Value="Puoi richiamare un eroe defunto al tuo servizio, ma costui sarà ora un non morto e non potrà più ottenere esperienza. Otterrà inoltre l'abilità 'Rubavita Minore'. Puoi usare questo incantesimo soltanto una volta per eroe." />
+
+		<!-- Other-->
+			
+	</LOCALIZATION-DLC0_IT>
+</DB_LOCALIZATION>

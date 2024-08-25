@@ -1,0 +1,16 @@
+﻿<DB_SKILL>
+
+	<SKILL-CHAOS_CHANNELS1 Domain="Chaos">
+		<DescriptionInfo Name="DES_CHAOS_CHANNELS" Description="DES_CHAOS_CHANNELS1_DES" Graphic="skillCcfDemonSkin"/>
+		<Script TriggerType="AttributeChange" Priority="0"
+				ActivatorMainScript="ACTPass_ChaosChannels1"/>
+	</SKILL-CHAOS_CHANNELS1>
+	<SKILL-CHAOS_CHANNELS2 Domain="Chaos">
+		<DescriptionInfo Name="DES_CHAOS_CHANNELS" Description="DES_CHAOS_CHANNELS2_DES" Graphic="skillCcfFlight"/>
+		<Script TriggerType="AttributeChange" Priority="0"
+				ActivatorMainScript="ACTPass_ChaosChannels2"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_UnitUpdateMove"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_UnitUpdateMove"/>
+	</SKILL-CHAOS_CHANNELS2>
+
+</DB_SKILL>

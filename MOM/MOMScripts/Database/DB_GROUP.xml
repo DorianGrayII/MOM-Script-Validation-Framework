@@ -1,0 +1,621 @@
+﻿<DB_GROUP>
+	<GROUP-FLYING_DEMONS>
+		<Race VALUE="RACE-REALM_CHAOS"/>
+		<RequiredTags Amount="1" Tag="TAG-CAN_FLY"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-FLYING_DEMONS>
+	
+	<GROUP-DEMONS>
+		<Race VALUE="RACE-REALM_CHAOS"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-DEMONS>
+	
+	<GROUP-BANDITS_GROUP>
+		<Race VALUE="RACE-BARBARIANS"/>
+		<Race VALUE="RACE-GNOLLS"/>
+		<Race VALUE="RACE-ORCS"/>
+		<OptionalTags Amount="1" Tag="TAG-MELEE_UNIT"/>
+		<OptionalTags Amount="1" Tag="TAG-RANGED_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-BANDITS_GROUP>
+	
+	<GROUP-SPEARMEN>
+		<Units VALUE="UNIT-BARB_SPEARMEN"/>
+		<Units VALUE="UNIT-GNO_SPEARMEN"/>
+		<Units VALUE="UNIT-HALF_SPEARMEN"/>
+		<Units VALUE="UNIT-KLKN_SPEARMEN"/>
+		<Units VALUE="UNIT-LIZ_SPEARMEN"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-SPEARMEN>
+	
+	<GROUP-BANDITS>
+		<Units VALUE="UNIT-BSTM_SPEARMEN"/>
+		<Units VALUE="UNIT-BSTM_SPEARMEN"/>
+		<Units VALUE="UNIT-BSTM_BOWMEN"/>
+		<Units VALUE="UNIT-NTR_WAR_BEARS"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-BANDITS>
+	
+	
+	
+	<GROUP-STR_BARB>
+		<Units VALUE="UNIT-BARB_BERSERKERS"/>
+		<Units VALUE="UNIT-BARB_SPEARMEN"/>
+		<Units VALUE="UNIT-BARB_SPEARMEN"/>
+		<Units VALUE="UNIT-BARB_BOWMEN"/>
+		<Units VALUE="UNIT-BARB_BOWMEN"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-STR_BARB>
+	
+	<GROUP-CHAOS_DUNGEON>
+		<Race VALUE="RACE-REALM_CHAOS"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-CHAOS_DUNGEON>
+	
+	<GROUP-DEATH_DUNGEON>
+		<Race VALUE="RACE-REALM_DEATH"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-DEATH_DUNGEON>
+	
+	<GROUP-NATURE_DUNGEON>
+		<Race VALUE="RACE-REALM_NATURE"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-NATURE_DUNGEON>
+	
+	<GROUP-SORCERY_DUNGEON>
+		<Race VALUE="RACE-REALM_SORCERY"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-SORCERY_DUNGEON>
+	
+	<GROUP-CHAOS_DEATH_DEMONS_DUNGEON>
+		<Race VALUE="RACE-REALM_CHAOS"/>
+        <Race VALUE="RACE-REALM_DEATH"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-CHAOS_DEATH_DEMONS_DUNGEON>
+	
+	<GROUP-BARBARIANS>
+		<Race VALUE="RACE-BARBARIANS"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-BARBARIANS>
+	
+	<GROUP-GNOLLS>
+		<Race VALUE="RACE-GNOLLS"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-GNOLLS>
+	<GROUP-HALFLINGS>
+		<Race VALUE="RACE-HALFLINGS"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-HALFLINGS>
+	<GROUP-HIGH_ELVES>
+		<Race VALUE="RACE-HIGH_ELVES"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-HIGH_ELVES>
+	<GROUP-HIGH_MEN>
+		<Race VALUE="RACE-HIGH_MEN"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-HIGH_MEN>
+	<GROUP-KLACKONS>
+		<Race VALUE="RACE-KLACKONS"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-KLACKONS>
+	<GROUP-LIZARDMEN>
+		<Race VALUE="RACE-LIZARDMEN"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-LIZARDMEN>
+	<GROUP-NOMADS>
+		<Race VALUE="RACE-NOMADS"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-NOMADS>
+	<GROUP-ORCS>
+		<Race VALUE="RACE-ORCS"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-ORCS>
+	<GROUP-BEASTMEN>
+		<Race VALUE="RACE-BEASTMEN"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-BEASTMEN>
+	<GROUP-DARK_ELVES>
+		<Race VALUE="RACE-DARK_ELVES"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-DARK_ELVES>
+	<GROUP-DRACONIANS>
+		<Race VALUE="RACE-DRACONIANS"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-DRACONIANS>
+	<GROUP-DWARVES>
+		<Race VALUE="RACE-DWARVES"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-DWARVES>
+	<GROUP-TROLLS>
+		<Race VALUE="RACE-TROLLS"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-TROLLS>
+	<GROUP-GOBLINS>
+		<Race VALUE="RACE-GOBLINS"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SHIP"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-GOBLINS>
+	
+	<GROUP-CHAMPION_WARRAX>
+        <Heroes VALUE="HERO-WARRAX"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-CHAMPION_WARRAX>
+	<GROUP-CHAMPION_MYSTIC_X>
+        <Heroes VALUE="HERO-MYSTIC_X"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-CHAMPION_MYSTIC_X>
+	<GROUP-CHAMPION_AERIE>
+        <Heroes VALUE="HERO-AERIE"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-CHAMPION_AERIE>
+	<GROUP-CHAMPION_DETH_STRYKE>
+        <Heroes VALUE="HERO-DETH_STRYKE"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-CHAMPION_DETH_STRYKE>
+	<GROUP-CHAMPION_ELANA>
+        <Heroes VALUE="HERO-ELANA"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-CHAMPION_ELANA>
+	<GROUP-CHAMPION_ROLAND>
+        <Heroes VALUE="HERO-ROLAND"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-CHAMPION_ROLAND>
+	<GROUP-CHAMPION_MORTU>
+        <Heroes VALUE="HERO-MORTU"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-CHAMPION_MORTU>
+	<GROUP-CHAMPION_ALORRA>
+        <Heroes VALUE="HERO-ALORRA"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-CHAMPION_ALORRA>
+	<GROUP-CHAMPION_SIR_HAROLD>
+        <Heroes VALUE="HERO-SIR_HAROLD"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-CHAMPION_SIR_HAROLD>
+	<GROUP-CHAMPION_RAVASHACK>
+        <Heroes VALUE="HERO-RAVASHACK"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-CHAMPION_RAVASHACK>
+	<GROUP-CHAMPION_TORIN>
+        <Heroes VALUE="HERO-TORIN"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-CHAMPION_TORIN>
+	<GROUP-HERO_BRAX>
+        <Heroes VALUE="HERO-BRAX"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_BRAX>
+	<GROUP-HERO_GUNTHER>
+        <Heroes VALUE="HERO-GUNTHER"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_GUNTHER>
+	<GROUP-HERO_ZALDRON>
+        <Heroes VALUE="HERO-ZALDRON"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_ZALDRON>
+	<GROUP-HERO_BSHAN>
+        <Heroes VALUE="HERO-BSHAN"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_BSHAN>
+	<GROUP-HERO_RAKIR>
+        <Heroes VALUE="HERO-RAKIR"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_RAKIR>
+	<GROUP-HERO_VALANA>
+        <Heroes VALUE="HERO-VALANA"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_VALANA>
+	<GROUP-HERO_BAHGTRU>
+        <Heroes VALUE="HERO-BAHGTRU"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_BAHGTRU>
+	<GROUP-HERO_SERENA>
+        <Heroes VALUE="HERO-SERENA"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_SERENA>
+	<GROUP-HERO_SHURI>
+        <Heroes VALUE="HERO-SHURI"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_SHURI>
+	<GROUP-HERO_THERIA>
+        <Heroes VALUE="HERO-THERIA"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_THERIA>
+	<GROUP-HERO_GREYFAIRER>
+        <Heroes VALUE="HERO-GREYFAIRER"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_GREYFAIRER>
+	<GROUP-HERO_TAKI>
+        <Heroes VALUE="HERO-TAKI"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_TAKI>
+	<GROUP-HERO_REYWIND>
+        <Heroes VALUE="HERO-REYWIND"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_REYWIND>
+	<GROUP-HERO_MALLEUS>
+        <Heroes VALUE="HERO-MALLEUS"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_MALLEUS>
+	<GROUP-HERO_TUMU>
+        <Heroes VALUE="HERO-TUMU"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_TUMU>
+	<GROUP-HERO_JAER>
+        <Heroes VALUE="HERO-JAER"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_JAER>
+	<GROUP-HERO_MARCUS>
+        <Heroes VALUE="HERO-MARCUS"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_MARCUS>
+	<GROUP-HERO_FANG>
+        <Heroes VALUE="HERO-FANG"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_FANG>
+	<GROUP-HERO_MORGANA>
+        <Heroes VALUE="HERO-MORGANA"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_MORGANA>
+	<GROUP-HERO_AUREUS>
+        <Heroes VALUE="HERO-AUREUS"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_AUREUS>
+	<GROUP-HERO_SHIN_BO>
+        <Heroes VALUE="HERO-SHIN_BO"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_SHIN_BO>
+	<GROUP-HERO_SPYDER>
+        <Heroes VALUE="HERO-SPYDER"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_SPYDER>
+	<GROUP-HERO_SHALLA>
+        <Heroes VALUE="HERO-SHALLA"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_SHALLA>
+	<GROUP-HERO_YRAMRAG>
+        <Heroes VALUE="HERO-YRAMRAG"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_YRAMRAG>
+	
+	
+	
+	<GROUP-DTH_DUNGEON>
+		<Units VALUE="UNIT-DTH_DEATH_KNIGHTS"/>
+		<Units VALUE="UNIT-DTH_WRAITHS"/>
+		<Units VALUE="UNIT-DTH_WRAITHS"/>
+		<Units VALUE="UNIT-DTH_GHOULS"/>
+		<Units VALUE="UNIT-DTH_GHOULS"/>
+		<Units VALUE="UNIT-DTH_GHOULS"/>
+		<Units VALUE="UNIT-DTH_GHOULS"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-DTH_DUNGEON>
+	
+	<GROUP-HEROES>
+		<RequiredTags Amount="1" Tag="TAG-HERO_CLASS"/>
+		<MaxHeroesCount VALUE="2"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-HEROES>
+	<GROUP-CHAMPIONS>
+		<RequiredTags Amount="1" Tag="TAG-CHAMPION_CLASS"/>
+		<MaxHeroesCount VALUE="2"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-CHAMPIONS>
+	<!-- DLC 1-->
+
+    <GROUP-HERO_TOADSWORTH Dlc="Dlc1">
+        <Heroes VALUE="HERO-TOADSWORTH"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_TOADSWORTH>
+	<!-- DLC 2-->
+	<GROUP-TECH_1_DUNG Dlc="Dlc2">
+		<Units VALUE="UNIT-SOUL_BOMBER_DUNG"/>
+		<Units VALUE="UNIT-SOUL_PRIESTS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_GOLEM_DUNG"/>
+		<Units VALUE="UNIT-SOUL_CANNON_DUNG"/>
+		<Units VALUE="UNIT-TECH_CYBER_SPRITE"/>
+		<Units VALUE="UNIT-SOUL_CANNON_DUNG"/>
+		<Units VALUE="UNIT-SOUL_GOLEM_DUNG"/>
+		<Units VALUE="UNIT-SOUL_PRIESTS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_BOMBER_DUNG"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-TECH_1_DUNG>
+	<GROUP-TECH_2_DUNG Dlc="Dlc2">
+		<Units VALUE="UNIT-SOUL_CAVALRY_DUNG"/>
+		<Units VALUE="UNIT-SOUL_CANNON_DUNG"/>
+		<Units VALUE="UNIT-SOUL_HALBERDIERS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_CANNON_DUNG"/>
+		<Units VALUE="UNIT-SOUL_GOLEM_DUNG"/>
+		<Units VALUE="UNIT-SOUL_CANNON_DUNG"/>
+		<Units VALUE="UNIT-SOUL_HALBERDIERS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_CANNON_DUNG"/>
+		<Units VALUE="UNIT-SOUL_CAVALRY_DUNG"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-TECH_2_DUNG>
+	<GROUP-TECH_3_DUNG Dlc="Dlc2">
+		<Units VALUE="UNIT-SOUL_CAVALRY_DUNG"/>
+		<Units VALUE="UNIT-SOUL_HALBERDIERS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_GOLEM_DUNG"/>
+		<Units VALUE="UNIT-SOUL_PRIESTS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_BOMBER_DUNG"/>
+		<Units VALUE="UNIT-SOUL_HALBERDIERS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_CAVALRY_DUNG"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-TECH_3_DUNG>
+	<GROUP-TECH_4_DUNG Dlc="Dlc2">
+		<Units VALUE="UNIT-SOUL_GOLEM_DUNG"/>
+		<Units VALUE="UNIT-SOUL_HALBERDIERS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_GOLEM_DUNG"/>
+		<Units VALUE="UNIT-SOUL_PRIESTS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_GOLEM_DUNG"/>
+		<Units VALUE="UNIT-SOUL_CANNON_DUNG"/>
+		<Units VALUE="UNIT-SOUL_GOLEM_DUNG"/>
+		<Units VALUE="UNIT-SOUL_CANNON_DUNG"/>
+		<Units VALUE="UNIT-SOUL_GOLEM_DUNG"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-TECH_4_DUNG>
+	<GROUP-TECH_5_DUNG Dlc="Dlc2">
+		<Units VALUE="UNIT-SOUL_CAVALRY_DUNG"/>
+		<Units VALUE="UNIT-SOUL_HALBERDIERS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_PRIESTS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_BOMBER_DUNG"/>
+		<Units VALUE="UNIT-SOUL_PRIESTS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_HALBERDIERS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_HALBERDIERS_DUNG"/>
+		<Units VALUE="UNIT-SOUL_CAVALRY_DUNG"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-TECH_5_DUNG>
+	<GROUP-TECH_WEAK_DUNG Dlc="Dlc2">		
+		<Units VALUE="UNIT-SOUL_CAVALRY_DUNG"/>	
+		<Units VALUE="UNIT-SOUL_CAVALRY_DUNG"/>	
+		<Units VALUE="UNIT-SOUL_CAVALRY_DUNG"/>	
+		<Units VALUE="UNIT-SOUL_HALBERDIERS_DUNG"/>	
+		<Units VALUE="UNIT-SOUL_HALBERDIERS_DUNG"/>	
+		<Units VALUE="UNIT-SOUL_HALBERDIERS_DUNG"/>	
+		<Units VALUE="UNIT-SOUL_PRIESTS_DUNG"/>	
+	<CreationScript VALUE="EventGroup"/>	
+	</GROUP-TECH_WEAK_DUNG>
+	<GROUP-SOUL Dlc="Dlc2">
+		<Race VALUE="RACE-SOULTRAPPED"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-SOUL>
+	<GROUP-REALM_TECH Dlc="Dlc2">
+		<Race VALUE="RACE-REALM_TECH"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-REALM_TECH>
+
+	<GROUP-HERO_TIMUR Dlc="Dlc2">
+        <Heroes VALUE="HERO-TIMUR"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_TIMUR>
+		<GROUP-HERO_MOMA_ILDE Dlc="Dlc2">
+        <Heroes VALUE="HERO-MOMA_ILDE"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_MOMA_ILDE>
+		<GROUP-HERO_OLDMANE Dlc="Dlc2">
+        <Heroes VALUE="HERO-OLDMANE"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_OLDMANE>
+		<GROUP-HERO_BILLY Dlc="Dlc2">
+        <Heroes VALUE="HERO-BILLY"/>
+        <CreationScript VALUE="EventGroup"/>
+    </GROUP-HERO_BILLY>
+
+
+   <GROUP-HERO_TOADSWORTH_QUEST Dlc="Dlc2">
+        <Heroes VALUE="HERO-TOADSWORTH_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_TOADSWORTH_QUEST>
+   <GROUP-HERO_SHIN_BO_QUEST Dlc="Dlc2">
+        <Heroes VALUE="HERO-SHIN_BO_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_SHIN_BO_QUEST>	
+   <GROUP-HERO_SHURI_QUEST Dlc="Dlc2">
+        <Heroes VALUE="HERO-SHURI_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_SHURI_QUEST>	
+   <GROUP-HERO_ALORRA_QUEST Dlc="Dlc2">
+        <Heroes VALUE="HERO-ALORRA_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_ALORRA_QUEST>	
+   <GROUP-HERO_HAROLD_QUEST Dlc="Dlc2">
+        <Heroes VALUE="HERO-SIR_HAROLD_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_HAROLD_QUEST>
+   <GROUP-HERO_BJORN_QUEST Dlc="Dlc2">
+        <Heroes VALUE="HERO-BJORN_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_BJORN_QUEST>
+   <GROUP-HERO_BRAX_QUEST Dlc="Dlc2">
+        <Heroes VALUE="HERO-BRAX_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_BRAX_QUEST>
+	<GROUP-HERO_TORIN_QUEST Dlc="Dlc2">
+        <Heroes VALUE="HERO-TORIN_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_TORIN_QUEST>
+	<!-- DLC 3-->
+	<GROUP-BLUEORCS Dlc="Dlc3">
+		<Race VALUE="RACE-BLUEORCS"/>
+		<ForbiddenTags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-SETTLER_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-EVENT_ONLY_UNIT"/>
+		<ForbiddenTags Amount="1" Tag="TAG-LAIR_EXCLUSION"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-BLUEORCS>
+	<GROUP-REEF_DUNG Dlc="Dlc3">
+		<Units VALUE="UNIT-B_ORC_SWORDSMEN_DUNG"/>
+		<Units VALUE="UNIT-B_ORC_CAVALRY_DUNG"/>
+		<Units VALUE="UNIT-B_ORC_BOWMEN_DUNG"/>
+		<Units VALUE="UNIT-B_ORC_SHAMANS_DUNG"/>
+		<Units VALUE="UNIT-B_ORC_RUSALKA_DUNG"/>
+		<Units VALUE="UNIT-B_ORC_BLACKSPARROW_DUNG"/>
+		<Units VALUE="UNIT-B_ORC_GHOSTSHIP_DUNG"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-REEF_DUNG>
+	<GROUP-CAVE_DUNG Dlc="Dlc3">
+		<Units VALUE="UNIT-B_ORC_RUSALKA_DUNG2"/>
+		<Units VALUE="UNIT-B_ORC_SEA_CREATURE_DUNG2"/>
+		<Units VALUE="UNIT-PHANTOM_WARRIORS_DUNG2"/>
+		<Units VALUE="UNIT-NAGAS_DUNG2"/>
+		<Units VALUE="UNIT-GIANT_SPIDERS_DUNG2"/>
+		<Units VALUE="UNIT-WRAITHS_DUNG2"/>
+		<Units VALUE="UNIT-ZOMBIES_DUNG2"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-CAVE_DUNG>
+	<GROUP-KRAKEN_DUNG Dlc="Dlc3">
+		<Units VALUE="UNIT-TENTACLES1"/>
+		<Units VALUE="UNIT-TENTACLES2"/>
+		<Units VALUE="UNIT-TENTACLES3"/>
+		<Units VALUE="UNIT-TENTACLES5"/>
+		<Units VALUE="UNIT-TENTACLES6"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-KRAKEN_DUNG>
+	
+	<GROUP-KRAKEN_DUNG_2 Dlc="Dlc3">
+		<Units VALUE="UNIT-TENTACLES1"/>
+		<Units VALUE="UNIT-TENTACLES1"/>
+		<Units VALUE="UNIT-TENTACLES2"/>
+		<Units VALUE="UNIT-TENTACLES3"/>
+		<Units VALUE="UNIT-TENTACLES5"/>
+		<Units VALUE="UNIT-TENTACLES4"/>
+		<Units VALUE="UNIT-TENTACLES4"/>
+		<Units VALUE="UNIT-TENTACLES6"/>
+		<CreationScript VALUE="EventGroup"/>
+	</GROUP-KRAKEN_DUNG_2>
+	
+	<GROUP-WATER_LAIR_REWARD Dlc="Dlc3">
+		<Units VALUE="UNIT-WRAITHS_DUNG2"/>
+		<Units VALUE="UNIT-NAGAS_DUNG2"/>
+		<Units VALUE="UNIT-B_ORC_SEA_CREATURE_DUNG2"/>
+		<Units VALUE="UNIT-B_ORC_RUSALKA_DUNG"/>
+		<Units VALUE="UNIT-B_ORC_GHOSTSHIP_DUNG"/>
+		<Units VALUE="UNIT-B_ORC_BLACKSPARROW_DUNG"/>
+		<Heroes VALUE="HERO-SLITHERS"/>
+		<Heroes VALUE="HERO-BIG_BERTA"/>
+		<Heroes VALUE="HERO-FANG"/>
+		<Heroes VALUE="HERO-JAER"/>
+	</GROUP-WATER_LAIR_REWARD>
+
+  <GROUP-HERO_FANG_QUEST Dlc="Dlc3">
+        <Heroes VALUE="HERO-FANG_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_FANG_QUEST>
+  <GROUP-HERO_WUSP_QUEST Dlc="Dlc3">
+        <Heroes VALUE="HERO-PHYM_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_WUSP_QUEST>
+  <GROUP-HERO_AUREUS_QUEST Dlc="Dlc3">
+        <Heroes VALUE="HERO-AUREUS_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_AUREUS_QUEST>
+  <GROUP-HERO_RAVASHACK_QUEST Dlc="Dlc3">
+        <Heroes VALUE="HERO-RAVASHACK_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_RAVASHACK_QUEST>
+  <GROUP-HERO_YRAMRAG_QUEST Dlc="Dlc3">
+        <Heroes VALUE="HERO-YRAMRAG_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_YRAMRAG_QUEST>
+  <GROUP-HERO_BERTA_QUEST Dlc="Dlc3">
+        <Heroes VALUE="HERO-BIG_BERTA_QUEST"/>
+        <CreationScript VALUE="PredefinedGroup"/>
+    </GROUP-HERO_BERTA_QUEST>
+</DB_GROUP>

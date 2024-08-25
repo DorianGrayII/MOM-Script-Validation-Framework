@@ -1,0 +1,44 @@
+﻿<DB_LOCALIZATION>
+    <LOCALIZATION-UI_EN_MSO2 Language="English">
+        <Loc Key="UI_MSO2_BSHAN" Value = "B'Shan the Dervish"/>
+        <Loc Key="UI_BRAX" Value = "Brax the Dwarf"/>
+        <Loc Key="UI_GUNTHER" Value = "Gunther the Barbarian"/>
+        <Loc Key="UI_ZALDRON" Value = "Zaldron the Sage"/>
+        <Loc Key="UI_RAKIR" Value = "Rakir the Beastmaster"/>
+        <Loc Key="UI_VALANA" Value = "Valana the Bard"/>
+        <Loc Key="UI_BAHGTRU" Value = "Bahgtru the Orc"/>
+        <Loc Key="UI_SERENA" Value = "Serena the Healer"/>
+        <Loc Key="UI_SHURI" Value = "Shuri the Huntress"/>
+        <Loc Key="UI_THERIA" Value = "Theria the Thief"/>
+        <Loc Key="UI_GREYFAIRER" Value = "Greyfairer the Druid"/>
+        <Loc Key="UI_TAKI" Value="Taki the War Monk"/>
+        <Loc Key="UI_REYWIND" Value="Reywind the Warrior Mage"/>
+        <Loc Key="UI_MALLEUS" Value="Malleus the Magician"/>
+        <Loc Key="UI_TUMU" Value="Tumu the Assassin"/>
+        <Loc Key="UI_JAER" Value="Jaer the Wind Mage"/>
+        <Loc Key="UI_MARCUS" Value="Marcus the Ranger" />
+        <Loc Key="UI_FANG" Value="Fang the Draconian" />
+        <Loc Key="UI_MORGANA" Value="Morgana the Witch" />
+        <Loc Key="UI_AUREUS" Value="Aureus the Golden One"/>
+        <Loc Key="UI_SHIN_BO" Value="Shin Bo the Assassin"/>
+        <Loc Key="UI_SPYDER" Value="Spyder the Rogue"/>
+        <Loc Key="UI_SHALLA" Value="Shalla the Amazon"/>
+        <Loc Key="UI_TOWN_DISTANCE_6" Value="6 tiles"/>
+        <Loc Key="UI_TOWN_DISTANCE_7" Value="7 tiles"/>
+        <Loc Key="UI_TOWN_DISTANCE_8" Value="8 tiles"/>
+        <Loc Key="UI_TOWN_DISTANCE_9" Value="9 tiles"/>
+        <Loc Key="UI_TOWN_DISTANCE_10" Value="10 tiles"/>
+        <Loc Key="UI_TOWN_DISTANCE_11" Value="11 tiles"/>
+        <Loc Key="UI_TOWN_DISTANCE_12" Value="12 tiles"/>
+        <Loc Key="UI_TOWN_DISTANCE_13" Value="13 tiles"/>
+        <Loc Key="UI_TOWN_DISTANCE_14" Value="14 tiles"/>
+        <Loc Key="UI_MSO2_TOWN_GROW_MULTIPLIER_1" Value="x1.0 Growth"/>
+        <Loc Key="UI_MSO2_TOWN_GROW_MULTIPLIER_1_25" Value="x1.25 Growth"/>
+        <Loc Key="UI_MSO2_TOWN_GROW_MULTIPLIER_1_5" Value="x1.5 Growth"/>
+        <Loc Key="UI_MSO2_TOWN_GROW_MULTIPLIER_2_0" Value="x2.0 Growth"/>
+<!-- following is a fix to the tooltip -->
+        <Loc Key="UI_WORLD_SIZE_DES" Value = "Size of the Arcanus and Myrror planes.\n\nSmall planes - 2816 hexes\nMedium planes - 4160 hexes\nLarge planes - 6144 hexes"/>
+<!-- following is to provide more descriptive string than default -->
+        <Loc Key="UI_MSO2_CASTING_SKILL_MULTIPLIER_0" Value ="Cost Reduction (0%)" />
+   </LOCALIZATION-UI_EN_MSO2>
+</DB_LOCALIZATION>

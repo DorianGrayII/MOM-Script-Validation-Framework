@@ -1,0 +1,172 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC2_IT Language="Italiano">
+		<!-- DLC 2 descriptions -->
+
+		<!-- WIZARDS --> 
+		<Loc Key="DES_NINESEVEN" Value="Novesette" />
+		<Loc Key="DES_NINESEVEN_DES" Value="Può essere difficile da credersi per via di tutti i rimpiazzi meccanici e gli innesti tecnomagici che ne mascherano le origini organiche, ma in passato Novesette era una rinomata arcimaga elfica. Nel corso dei suoi eterni studi maturò un forte interesse per i metalli nanici e per l'infinito potenziale delle trasmutazioni alchemiche. Alcuni la credono la progenitrice della tecnomagia, mentre altri la ritengono una semplice erede del sapere." />
+		<Loc Key="DES_NINESEVEN_QUOTE" Value="Ho rinunciato alla carne, ora soltanto la magia scorre nei miei cavi. Oggi sono la Tecnocrate, domani sarò una divinità!" />		
+		<Loc Key="DES_MORIQUE" Value="Morique" />
+		<Loc Key="DES_MORIQUE_DES" Value="Morique l'indemoniata, o la posseduta, è un'elfa oscura dai temibili poteri. Come suggerisce il nome, ella condivide il proprio corpo con un potente demone. Non è chiaro se questa unione sia frutto di un patto consenziente o di un'intrusione parassitaria. Morique non ambisce soltanto a sottomettere il suo demone: userà i poteri della Morte e del Caos per dimostrare la sua superiorità a tutti gli altri Stregoni... e soprattutto al suo rivale Tauron." />
+		<Loc Key="DES_MORIQUE_QUOTE" Value="Ho domato e assorbito la furia degli inferi... ora nessuno Stregone può sperare di opporsi al Nostro potere congiunto!" />
+		<Loc Key="DES_GRENDEL" Value="Grendel" />
+		<Loc Key="DES_GRENDEL_DES" Value="Grendel potrebbe essere uno degli Stregoni più forti, il migliore della sua specie, ma è un irremovibile sostenitore della legge del più forte. Sostiene spesso che ogni cosa può essere sottomessa... anche la magia. Grendel si serve dei fondamenti delle arti arcane e conosce le basi dell'affinità Naturale, ma si affida principalmente alla forza fisica delle sue truppe." />
+		<Loc Key="DES_GRENDEL_QUOTE" Value="Non ho bisogno della magia per insegnarvi una lezione... così vedremo chi è il vero Maestro, qui!" />
+
+		<Loc Key="DES_NINESEVEN_GREETINGS" Value="La consuetudine esige che io ti saluti... ma non capisco il senso di certe formalità, dato l'obiettivo finale di entrambi. Sono Novesette... parliamo pure, per ora."/>
+		<Loc Key="DES_MORIQUE_GREETINGS" Value="Ti saluto, Stregone. Noi... no,  io sono Morique, e intendo vincere questa gara. Ma parliamo pure... finché possiamo."/>
+		<Loc Key="DES_GRENDEL_GREETINGS" Value="Oh, Stregone. Non tentare strani scherzi con me. Sono Grendel, colui che ti sconfiggerà."/>
+
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_1" Value="I miei saluti. Mi chiamo Tauron... oh, Mori... sei tu. Dicevi sempre di volermi sfidare qui, ma speravo non sarebbe mai successo davvero. Almeno per ora, amore mio, permettici di parlare senza malizia."/>
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_2" Value="Mori, mi piange il cuore al pensiero di quanto ci attende... parliamo, per adesso."/> 
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_1" Value="Siamo noi... Morique. Come ti dissi prima che le nostre strade si separassero, noi... io ti dimostrerò il mio vero potere! Ma ora che ti vedo, mio diavolo scarlatto, confesso che questa nostra sorte mi rattrista..."/>
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_2" Value="Mio diavolo scarlatto, la battaglia finale incombe. Presto soltanto il sangue scorrerà tra di noi...  cattivo sangue..."/>
+
+
+		<!-- TRAITS -->
+        <Loc Key="DES_TECHMASTER" Value="Tecnocrate" />
+		<Loc Key="DES_TECHMASTER_DES" Value="Permette allo Stregone di brandire i poteri della Tecnomagia, un'arte mistica che anima gli oggetti meccanici tramite magia runica, alchimia e manipolazione delle anime. Lo Stregone Tecnocrate inizia la partita con un Drone Ricognitore, il relativo incantesimo di evocazione e l'incantesimo 'Cercapotere'. Inoltre, ottiene un bonus di +5% Ricerca.\n\n- Lo Stregone deve aver già selezionato almeno 3 Tomi di due Regni diversi.\n\n-Il tratto 'Tecnocrate' costa 2 punti." />
+        <Loc Key="DES_DEMONOLOGIST" Value="Demonologia" />
+		<Loc Key="DES_DEMONOLOGIST_DES" Value="Il Demonologo inizia la partita con un Demone delle Ombre Minore sotto il suo comando, il relativo incantesimo di evocazione e l'incantesimo 'Possessione'.\n\n-Lo Stregone deve disporre del tratto 'Invocatore'.\n\n-Lo Stregone deve aver già selezionato almeno 1  Tomo della Morte e 1 Tomo del Caos.\n\n-Il tratto 'Demonologia' costa 1 punto." />
+		<Loc Key="DES_MYRRAN_REFUGEE" Value="Profugo di Myrran" />
+		<Loc Key="DES_MYRRAN_REFUGEE_DES" Value="Permette allo Stregone di iniziare la partita con una razza di Myrran sul piano di Arcanus, conferendogli un netto vantaggio (le razze di Myrran sono più forti).\n\n-Il tratto 'Profugo di Myrran' costa 2 punti."/>
+		<Loc Key="DES_IMPROVED_WARLORD" Value="Generale Veterano" />
+		<Loc Key="DES_IMPROVED_WARLORD_DES" Value="Permette allo Stregone di diventare un Generale Veterano, aumentando la sua efficienza nell'addestramento delle truppe. Il veterano conferisce +1 XP ad ogni turno alle unità non fantastiche sotto il suo comando e inizia la partita con uno spadaccino della sua razza di partenza.\n\n- Lo Stregone deve disporre del tratto 'Generale'.\n\n-Il tratto 'Generale Veterano' costa 1 punto."/>
+		<Loc Key="DES_ANTI_MAGIC" Value="Legge del più Forte" />
+		<Loc Key="DES_ANTI_MAGIC_DES" Value="Lo Stregone crede nella superiorità della forza fisica sulle arti arcane. Tutte le unità non fantastiche (inclusi gli eroi non fantastici) ottengono +3 Resistenza. Ottengono inoltre 'Rigenerazione Tattica', abilità che gli consente di ripristinare +2 PS ad ogni turno di combattimento (cumulabile con 'Rigenerazione').\n\n- Lo Stregone non deve avere più di 2 Tomi.\n\n-Il tratto 'Legge del più Forte' costa 5 punti."/>
+
+		<!-- RACE --> 
+        <Loc Key="DES_SOULTRAPPED" Value="Ricettacoli" />
+		<Loc Key="DES_SOULTRAPPED_DES" Value="I ricettacoli sono una razza di costrutti sottoposti ad empi esperimenti runici per mano dei nani, esperimenti che miravano a vincolare anime senzienti a corpi meccanici alimentati da materia organica... o perlomeno così si crede: i ricettacolo sostengono invece che il loro risveglio deriva dalla volontà divina e non accettano di essere visti come il sottoprodotto di un altro popolo. In ogni caso, per quanto questa combinazione tra uomo e macchina possa risultare inquietante, i ricettacoli preferiscono pace e prosperità alla guerra." />
+		<Loc Key="DES_SOULTRAPPED_PRODUCTION" Value="Tasso di crescita: molto lento (tasso base di -30 cittadini/turno)\nEdifici vietati: Gilda dei Mercanti, Accademia Militare, Oracolo, Gilda degli Animisti, Cantiere Navale\nAltri modificatori: +4{ICON:ArmourIconNormal} armatura, -1{ICON:ResistanceIconNormal} resistenza,  abilità 'Demolitore' alle unità.\nLe unità costano x 2,0 produzione{ICON:ProductionIcon}.\nLe città dei ricettacoli ottengono +5 crescita di popolazione per ogni minerale presente entro la loro area di influenza.\nUnità razziali: {LINK:UNIT-SOUL_CANNON} Cannone delle Anime{ICON:SoulCannon}{END_LINK}, {LINK:UNIT-SOUL_BOMBER} Yeet{ICON:Bomber}{END_LINK}, {LINK:UNIT-SOUL_GOLEM} Senz'Anima{ICON:FleshGolem}{END_LINK}, {LINK:UNIT-SOUL_SUB_TRIREME} Subtrireme{ICON:Submarine}{END_LINK}" />
+		<Loc Key="DES_REALM_TECH" Value="Tecnomagia" />
+		<Loc Key="DES_REALM_TECH_DES" Value="Questa unità serve il regno speciale della Tecnomagia." />
+		
+        <!-- UNITS -->
+		<Loc Key="DES_TIMUR" Value="Timur il Cecchino" />
+		<Loc Key="DES_TIMUR1" Value="Fade il Cecchino" />
+		<Loc Key="DES_TIMUR2" Value="Albino il Cecchino" />
+		<Loc Key="DES_TIMUR3" Value="Pale il Cecchino" />
+		<Loc Key="DES_TIMUR4" Value="Floyd il Cecchino" />
+		<Loc Key="DES_TIMUR_DES" Value="Nato albino, cieco e privo dell'affinità per la magia nera che caratterizza gli elfi oscuri, {0} è sempre stato scansato e disprezzato dal suo popolo... ma ciò è servito soltanto a rafforzare la sua determinazione. Fu cresciuto da un padre adottivo finché i due decisero di affrontare un pericoloso viaggio per dimostrare al mondo che {0} è il più letale tra gli assassini. La tecnomagia gli consente di vedere oltre gli orizzonti dei mortali, ed egli compensa la mancanza di capacità arcane con le sue abilità di cecchino." />
+		<Loc Key="DES_BILLIE" Value="Billie la Pistolera" />
+		<Loc Key="DES_BILLIE1" Value="Tipi la Pistolera" />
+		<Loc Key="DES_BILLIE2" Value="Calamity la Pistolera" />
+		<Loc Key="DES_BILLIE3" Value="Annie la Pistolera" />
+		<Loc Key="DES_BILLIE4" Value="Jessi la Pistolera" />
+		<Loc Key="DES_BILLIE_DES" Value="{0} è un vivace e giovane mezzuomo capace di conquistarsi le simpatie di chiunque l'incontri. Una volta diventata un'impeccabile fromboliera, ed ispirata dalla sorella Teria, {0} è partita alla ricerca della propria passione. Il viaggio l'ha portata a scoprire le meraviglie della Tecnomagia e a diventare la primissima pistolera di Arcanus. In sella al suo fedel cinghiale, Nibbles, ella è tra i più abili mercenari che uno Stregone potrebbe volere al suo fianco." />		
+		<Loc Key="DES_OLDMANE" Value="Oldmane Faucediferro" />
+		<Loc Key="DES_OLDMANE1" Value="Hakuna Faucediferro" />
+		<Loc Key="DES_OLDMANE2" Value="Snarl Faucediferro" />
+		<Loc Key="DES_OLDMANE3" Value="Hidegnarl Faucediferro" />
+		<Loc Key="DES_OLDMANE4" Value="Gnarlfang Faucediferro" />
+		<Loc Key="DES_OLDMANE_DES" Value="Un tempo {0} era il più anziano ed esperto tra i generali degli gnoll, finché non venne catturato dagli elfi oscuri. I rapitori lo torturarono per anni, mutilando il suo corpo fino a renderlo irriconoscibile... ma per volontà del fato, le grida di un giovane ragazzo diedero a {0} la volontà di tornare a lottare, sfuggendo ai rapitori e salvando il figlio adottivo, Timur, con cui ora viaggia alla ricerca della redenzione. Grazie alla Tecnomagia, {0} è guarito dalle sue ferite ed è diventato una temibile macchina da guerra." />
+		<Loc Key="DES_MOMA_ILDE" Value="Moma e Ilde" />
+		<Loc Key="DES_MOMA_ILDE1" Value="Mama e Kiddo"  />
+		<Loc Key="DES_MOMA_ILDE2" Value="Muti e Liebli"/>
+		<Loc Key="DES_MOMA_ILDE3" Value="Mumsie e Gir" />
+		<Loc Key="DES_MOMA_ILDE4" Value="Mere e Pettit" />
+		<Loc Key="DES_MOMA_ILDE_DES" Value="Nonostante la giovane età, la ragazza nanica è un'abile runologa con un passato tragico. Perse la madre durante un terribile incidente di laboratorio atto a studiare la Tecnomagia. Dopo che l'esplosione incenerì sua madre, la ragazza si imbatté in un ricettacolo solitario che parve riconoscerla e seguirla ovunque. La ragazza si è convinta che il ricettacolo non è altri che sua madre, e ha giurato di trovare un modo per liberarlo dalla sua prigione di metallo. Fino ad allora, {0} risponderanno alla chiamata di chi brandisce i poteri della Tecnomagia, sperando che al suo fianco potranno apprendere ciò di cui hanno bisogno." />
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS" Value="Demoni delle Ombre Minori"/>
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS_DES" Value="I Demoni delle Ombre Minori rispondono al richiamo dei Demonologi servendoli fedelmente. Colpiscono dall'alto{ICON:MovementFlyingIcon} con attacchi ravvicinati{ICON:MeleeIconNormal} e magici a distanza{ICON:DeathIcon}{ICON:RangedIconNormal}."/>
+
+        <Loc Key="DES_SOUL_SETTLER" Value="Coloni - Ricettacoli" />
+		<Loc Key="DES_SOUL_ENGINEERS" Value="Ingegneri - Ricettacoli" />
+		<Loc Key="DES_SOUL_ENGINEERS_DES" Value="Gli ingegneri sono unità incapaci di combattere. Si tratta di specialisti capaci di costruire strade e demolire le mura nemiche. Gli ingegneri dei Ricettacoli possono curare i costrutti alleati con l'abilità 'Riparazione'." />
+		<Loc Key="DES_SOUL_SPEARMEN" Value="Lancieri - Ricettacoli"/>
+		<Loc Key="DES_SOUL_SWORDSMEN" Value="Spadaccini - Ricettacoli" />
+		<Loc Key="DES_SOUL_HALBERDIERS" Value="Alabardieri - Ricettacoli" />
+		<Loc Key="DES_SOUL_CAVALRY" Value="Cavalieri - Ricettacoli" />
+		<Loc Key="DES_SOUL_PRIESTS" Value="Tecnosacerdoti - Ricettacoli" />       
+		<Loc Key="DES_SOUL_PRIESTS_DES" Value="Unità dotata di attacchi magici a distanza e abilità curative. Diversamente dai maghi, che studiano gli incantesimi, i sacerdoti ricavano la loro energia dalla preghiera e dalla loro devozione per una divinità. I tecnosacerdoti possono anche ricostruire i costrutti alleati caduti in battaglia."/>
+		<Loc Key="DES_SOUL_BOMBER" Value="Yeet"/>
+		<Loc Key="DES_SOUL_BOMBER_DES" Value="Lo yeet è un bizzarro ricettacolo a forma di mano umanoide. Il suo unico ruolo in battaglia è rilasciare la magnibomba per sterminare il nemico con un unico, spaventoso botto!" />
+		<Loc Key="DES_SOUL_BOMB" Value="Magnibomba"/>
+		<Loc Key="DES_SOUL_BOMB_DES" Value="La magnibomba è pregna di meccanismi Tecnomagici che la fanno esplodere al contatto col nemico... a meno che questo non la colpisca per primo, riducendola ad un'innocua sfera di metallo animato..." />
+		<Loc Key="DES_SOUL_CANNON" Value="Cannone delle Anime" />
+		<Loc Key="DES_SOUL_CANNON_DES" Value="Il cannone delle anime è un capolavoro di sinergia tecnologica e magica, nonché una temibile unità da tiro." />
+		<Loc Key="DES_SOUL_GOLEM" Value="Senz'Anima" />
+		<Loc Key="DES_SOUL_GOLEM_DES" Value="Il golem di carne è un ammasso di materia organica rianimata e mossa dalla Tecnomagia di ingegneri e sacerdoti dei Ricettacoli. Alcuni affermano che il golem non è altro che una parodia di quelli costruiti dai nani..." />
+		<Loc Key="DES_SOUL_SUB_TRIREME" Value="Subtrireme" />
+		<Loc Key="DES_SOUL_SUB_TRIREME_DES" Value="La subtrireme può percorrere grandi distanze sotto le superfici marine. Si tratta di un ricettacolo autonomo, ma capace di fungere anche da trasporto." />
+		<Loc Key="DES_CYBER_SPRITE_DES" Value="Una strana ed allarmante amalgamazione di prodigi tecnologici e infusioni magiche. Quello che in passato era un comune spiritello, oggi è diventato un incrollabile araldo della Tecnomagia." />
+		<Loc Key="DES_SCOUTING_PROBE_DES" Value="Il drone ricognitore, serie 53N3X, è un automa di vetro e metallo animato dalla Tecnomagia. Diretto dallo Stregone, il drone può raggiungere grandi altezze e vedere più lontano di qualsiasi altro osservatore biologico o spettrale." />
+        <Loc Key="DES_ENGINEERING_PROBE_DES" Value="Un drone multifunzione, serie 53N3X2, rinomato per la sua flessibilità. In qualità di ingegnere può costruire strade, ma si sposta più rapidamente delle unità normali ed è in grado di fondersi coi nodi." />
+
+		
+		<!-- SKILLS --> 
+        <Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH" Value="Attacco a Distanza (Tecnomagia)" />		
+		<Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH_DES" Value="Gli attacchi a distanza di questa unità sono pregni di Tecnomagia. La distanza dal bersaglio non influisce sulla loro precisione e non ne riduce le prob. di colpire{ICON:ToHitBonusIcon}. Questi attacchi ignorano l'Immunità ai Proiettili e l'Immunità Magica dei loro bersagli e godono di Penetrazione Armatura." /> 
+		<Loc Key="DES_DOUBLESHOT" Value="Doppio Colpo" />
+		<Loc Key="DES_DOUBLESHOT_DES" Value="Permette all'eroe di sparare due volte nello stesso turno usando un normale attacco a distanza." />
+		<Loc Key="DES_SUMMON_BOMB" Value="Rilascio della Magnibomba"/>
+		<Loc Key="DES_SUMMON_BOMB_DES" Value="Evoca la magnibomba, unità assai fragile ma capace di infliggere danni mortali facendosi esplodere a contatto col nemico." />
+		<Loc Key="DES_BOMBER_BOOM" Value="Tecnoesplosione"/>
+		<Loc Key="DES_BOMBER_BOOM_DES" Value="Una potente esplosione che danneggia la sua sorgente. Infligge ingenti danni magici a tutti i componenti dell'unità bersagliata." />
+		<Loc Key="DES_PIERCING_BITE" Value="Morsa Penetrante {0}" />
+		<Loc Key="DES_PIERCING_BITE_DES" Value="Un feroce colpo in mischia che infligge danni penetranti dopo l'attacco ed eventuali contrattacchi." />
+		<Loc Key="DES_GNOLL_GENERAL" Value="Cavalcalupi Alfa" />
+		<Loc Key="DES_GNOLL_GENERAL_DES" Value="I generali gnoll cavalcano sempre alla testa dei loro branchi di cavalcalupi. Come tale, l'eroe gode di +1{ICON:ArmourIconNormal} armatura ogni 2 cavalcalupi presenti nel suo esercito. Inoltre, le unità di cavalcalupi ottengono +1{ICON:MeleeIconNormal} attacco ravvicinato in presenza dell'alfa." />
+		<Loc Key="DES_GNOLL_GENERAL_BONUS_DES" Value="Questa unità è affetta dall'abilità 'Cavalcalupi Alfa'. L'eroe riceve un bonus di +1{ICON:ArmourIconNormal} armatura ogni 2 cavalcalupi presenti nel suo esercito. Inoltre, le unità di cavalcalupi ottengono +1{ICON:MeleeIconNormal} attacco ravvicinato in presenza dell'alfa." />
+		<Loc Key="DES_GNOLL_GENERAL_BONUS" Value="Cavalcalupi Alfa" />
+		<Loc Key="DES_MECHANICIAN" Value="Riparazione" />
+		<Loc Key="DES_MECHANICIAN_DES" Value="Questa abilità permette di riparare i costrutti meccanici e aumenta le capacità rigenerative dei costrutti colpiti al 50% della loro salute massima ad ogni turno." />
+		<Loc Key="DES_LIGHTNING_WEAKNESS" Value="Vulnerabilità all'Elettricità" />
+		<Loc Key="DES_LIGHTNING_WEAKNESS_DES" Value="L'unità attira l'elettricità ed è vulnerabile ai suoi danni. Quando viene colpita da un attacco elettrico, i danni inflitti all'unità sono aumentati del 100%." />
+		<Loc Key="DES_MINOR_REGENERATION" Value="Rigenerazione Tattica" />
+		<Loc Key="DES_MINOR_REGENERATION_DES" Value="Accelera i processi di guarigione delle unità, permettendo di ripristinare +2 {ICON:HitIconNormal} ad ogni turno di combattimento. Questa abilità funziona soltanto in combattimento ed è cumulabile con 'Rigenerazione'" />	
+		
+		
+		<!-- RES --> 
+		<Loc Key="DES_RES_ORICHALCUM" Value="Orichalcum" />
+		<Loc Key="DES_RES_ORICHALCUM_DES" Value="L'Orichalcum è una risorsa rara, ottenibile soltanto esplorando un Tecnosepolcro o usando la Tecnomagia. Riduce il costo di costruzione di strutture ed unità del 20% e conferisce +3 Potere." />
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_SCOUTING_PROBE" Value="Drone Ricognitore" />
+		<Loc Key="DES_SCOUTING_PROBE_SUMMON_DES" Value="Evoca un drone ricognitore, serie 53N3X, piccolo costrutto animato dagli spiriti elementali. Unità volante {ICON:MovementFlyingIcon} utile per esplorare ma molto fragile." />
+		<Loc Key="DES_CYBER_SPRITE" Value="Tecnofata" />
+		<Loc Key="DES_CYBER_SPRITE_SUMMON_DES" Value="Evoca un'unità di tecnofate, folletti meccanici volanti {ICON:MovementFlyingIcon} dotati di attacchi a distanza Tecnomagici. Ti obbediranno fino alla morte o alla fine della battaglia." />
+		<Loc Key="DES_POWER_SEEKER" Value="Cercapotere" />
+		<Loc Key="DES_POWER_SEEKER_DES" Value="Un potente incantesimo Tecnomagico che rivela tutti i Nodi Energetici del piano selezionato, rendendoli visibili sulla mappa. Una volta scoperti, i nodi vengono segnalati come 'esplorati', permettendoti di studiarne i difensori prima di entrare." />
+		<Loc Key="DES_DETECT_MINERALS" Value="Estrazione Mineraria" />
+		<Loc Key="DES_DETECT_MINERALS_DES" Value="Questo incantesimo svela i minerali nascosti nel sottosuolo e li fa emergere in superficie, permettendo allo Stregone di aggiungere una nuova risorsa sulla casella bersagliata. È possibile generare nuovi minerali soltanto su caselle non adiacenti ad altre risorse già esistenti." />
+		<Loc Key="DES_TECHCARNATION" Value="Tecnoincarnazione" />
+		<Loc Key="DES_TECHCARNATION_DES" Value="Questo potente incantesimo evoca gli improbabili campioni Moma ed Ilde. Si tratta di un duplice Eroe che obbedisce agli Stregoni che si servono della Tecnomagia al fine di apprendere i segreti di questa misteriosa arte arcana. Non è possibile resuscitare questo eroe, ma è possibile rievocarlo dopo la sua morte (si tratta di un eroe fantastico, immune agli incantesimi che colpiscono unità ed eroi normali)." />
+		<Loc Key="DES_MASS_SHIELD" Value="Scudo di Massa" />
+		<Loc Key="DES_MASS_SHIELD_DES" Value="Questo incantesimo conferisce l'abilità 'Scudo Ampio' a tutte le unità alleate sul campo, fornendo +2{ICON:ArmourIconNormal} armatura contro tutti gli attacchi a distanza." />
+		<Loc Key="DES_AFINITY_FOR_MINERALS" Value="Alimentazione Mineraria" />
+		<Loc Key="DES_AFINITY_FOR_MINERALS_DES" Value="I ricettacoli sono particolarmente affini ai Minerali. Ogni risorsa Minerale presente entro i confini di una città di ricettacoli ne aumenta la crescita della popolazione di +5." />
+		<Loc Key="DES_RECONSTRUCT" Value="Ricostruzione" />
+		<Loc Key="DES_RECONSTRUCT_DES" Value="L'incantesimo di Ricostruzione può riparare le unità di costrutti cadute in battaglia, ripristinandone tutta la salute. Tuttavia, ogni unità ricostruita scomparirà al termine della battaglia." />
+		<Loc Key="DES_RECONSTRUCT_NAME_DES" Value="Unità Ricostruita Temporanea" />
+		<Loc Key="DES_MAGIC_BULLET" Value="Proiettile Magico" />
+		<Loc Key="DES_MAGIC_BULLET_DES" Value="Questo incantesimo conferisce +2 Munizioni ad un'unità non fantastica dotata di normali attacchi a distanza, permettendole di ignorare eventuali immunità alle Armi. Il bonus può aumentare le munizioni massime del bersaglio colpito. Il bonus aumenta a +3 se il bersaglio è un Costrutto." />
+		<Loc Key="DES_HERO_TRAINING" Value="Addestramento Eroico" />
+		<Loc Key="DES_HERO_TRAINING_DES" Value="L'ingegno dei Tecnomagi accelera l'addestramento degli eroi. Ogni eroe al servizio dello Stregone diventa un capitano." />
+		<Loc Key="DES_TECH_DUNGEON_UNITS" Value="Tecnosepolcro" />
+		<Loc Key="DES_TECH_DUNGEON_UNITS_DES" Value="Il Tecnosepolcro è la tana di un'orda di ricettacoli ribelli. I nemici situati al suo interno godono di alcuni bonus in combattimento." />
+        <Loc Key="DES_ENGINEERING_PROBE" Value="Drone Multifunzione"/>
+		<Loc Key="DES_ENGINEERING_PROBE_SUMMON_DES" Value="Evoca un drone multifunzione, serie 53N3X2. Ruolo primario: ingegneria. Funzioni secondarie: fusione e movimento accelerato." />
+        <Loc Key="DES_MASS_PIERCING_SPELL" Value="Scambio Tagliente"/>
+        <Loc Key="DES_MASS_PIERCING_SPELL_DES" Value="Questo incantesimo conferisce l'effetto 'Penetrazione Armatura' (che dimezza l'armatura dei bersagli nemici) a tutte le unità alleate presenti in battaglia, ma chi lo lancia deve sacrificare 5{ICON:HitIconNormal} PS."/>
+        <Loc Key="DES_MASS_PIERCING" Value="Tagliente"/>
+        <Loc Key="DES_MASS_PIERCING_DES" Value="Le unità ottengono l'effetto 'Penetrazione Armatura' (che dimezza l'armatura dei bersagli nemici)."/>
+        <Loc Key="DES_FAIR_EXCHANGE" Value="Scambio Equo"/>
+        <Loc Key="DES_FAIR_EXCHANGE_DES" Value="Ogni cosa ha un prezzo e va bilanciata di conseguenza. Le unità che detengono 'Scambio Equo' conferiscono al loro Stregone 5 Punti Lancio ogni 2 danni subiti."/>
+        <Loc Key="DES_ENCH_IMPROVED_WARLORD_DES" Value="Il Generale Veterano ispira le unità non fantastiche sotto il suo comando, che ricevono +1 XP per turno."/>
+        <Loc Key="DES_ENCH_ANTI_MAGIC_DES" Value="Questa unità rifiuta il tocco della Magia e ottiene Resistenza Magica (+3 Resistenza) e 'Rigenerazione Tattica' (+2 PS per turno di combattimento) dal proprio Stregone."/>
+        <Loc Key="DES_CASTING_BLOCK_SPELL" Value="Sacrificio Vitale"/>
+        <Loc Key="DES_CASTING_BLOCK_SPELL_DES" Value="Sacrifica 2 PS per impedire allo Stregone avversario di lanciare incantesimi per 1 turno."/>
+        <Loc Key="DES_CASTING_BLOCK" Value="Lancio Bloccato"/>	  
+        <Loc Key="DES_CASTING_BLOCK_DES" Value="La Capacità di Lancio dello Stregone è bloccata per 1 turno."/>
+        <Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS" Value="Demoni delle Ombre Minori"/>	  
+        <Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS_DES" Value="Evoca un'unità di Demoni delle Ombre Minori, unità infernali volanti {ICON:MovementFlyingIcon} dotate di attacchi ravvicinati {ICON:MeleeIconNormal} e a distanza magici {ICON:DeathIcon}{ICON:RangedIconNormal}."/>
+
+
+		<!-- Other-->
+		<Loc Key="DES_HERO_TRAINING_TARGET" Value="Solo unità eroiche."/>
+		<Loc Key="DES_NORMAL_UNIT_WITH_RANGE_MISSILE_ATTACK" Value="Unità normale con attacchi a distanza."/>
+		<Loc Key="DES_TECH_DUNGEON" Value="Tecnosepolcro"/>
+		
+	</LOCALIZATION-DLC2_IT>
+</DB_LOCALIZATION>

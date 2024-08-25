@@ -1,0 +1,198 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC3_PL Language="Polski">
+		<!-- DLC 3 descriptions -->
+		
+		<!-- WIZARDS -->
+		<Loc Key="DES_BELIT" Value="Belit" />
+		<Loc Key="DES_BELIT_DES" Value="Niegdyś potężna władczyni orków o boku Bladuda, Belit nie podobało się, że jej krewni złagodnieli w imię cywilizowanego zachowania. Zamiast tego chciała, by przywrócili do czasów krwi i podbojów. Niestety, zdrada ze strony królewskiego rodu, a może przekleństwo od wzgardzonego kochanka, sprowadziła wielką klątwę, która zamieniła Belit i jej pirackich krewnych w upiorne orki. Jednak dla Belit bycie przeklętą nie było przeszkodą. Pogodziła się ze swoim nowym stanem i rzuci wyzwanie każdemu, kto uzna go za słabość. Królowa piratów preferuje burzenie zamiast przejmowania miast i sowicie za to nagradza. Opanowała domeny Śmierci i Czarów i pragnie pokazać wszystkim innym Czarodziejom moc swego przeklętego przeznaczenia!" />
+		<Loc Key="DES_BELIT_QUOTE" Value="Zwą mnie Niosącą Klątwę, przeklętą, zdrajczynią. Jestem tym wszystkim, jestem królową mórz i niebawem będę też władczynią całego świata!" />
+
+		<Loc Key="DES_BELIT_GREETINGS" Value="Witaj Czarodzieju, jestem Belit - królowa mórz. Mów, co masz na myśli, zanim zawiodą nas słowa."/>
+		<Loc Key="DES_BELIT_GREETINGS_BLADUD_1" Value="Dobrze wyglądasz Bladudzie, i ja, jak widzisz, również mam się nieźle, mimo twej złośliwej klątwy. Niemniej, porozmawiajmy teraz, zanim wyrwę ci wnętrzności i nakarmię nimi ryby..."/>
+		<Loc Key="DES_BELIT_GREETINGS_BLADUD_2" Value="Mów... mężusiu."/>
+
+		<Loc Key="DES_HORATIO" Value="Sir Horatio" />
+		<Loc Key="DES_HORATIO_DES" Value="Sir Horatio to znany dowódca marynarki, który wzniósł się wysoko ponad swoje stanowisko i znacznie przekroczył oczekiwania swoich raczej mniej cywilizowanych pobratymców. Szczęśliwy w służbie żołnierskiej, Horatio szybko zdał sobie sprawę, że gry, w które grają inni Czarodzieje, stawiają go w niekorzystnej pozycji i zagrażają jego obowiązkom i załodze. Następnie zdobył mistrzostwo w domenie Czarów, co pozwoliło mu prawdziwie ujarzmić morza i samemu zostać Czarodziejem. Awansując do rangi Poskramiacza Morza, teraz może poszczycić się mianem mistrza Taktyki, który potrafi zastawiać zasadzki na swoich wrogów i dowodzić potężnymi flotami morskimi. Horatio jest zdeterminowany udowodnić, że jego żołnierska dyscyplina i wyszkolenie wyniosą go do rangi Mistrza Magii." />
+		<Loc Key="DES_HORATIO_QUOTE" Value="Dla honoru i chwały przejmę dowodzenie i poprowadzę wszystkich do wielkiego zwycięstwa!" />
+
+		<Loc Key="DES_HORATIO_GREETINGS" Value="Pozdrawiam Cię, Czarodzieju! Jestem Sir Horatio, do usług, przynajmniej na razie."/>
+		<Loc Key="DES_HORATIO_GREETINGS_GAYN_1" Value="Gayn, bracie! Nadszedł czas rywalizacji, lecz wiem, że walczyć będziemy z honorem! Rozmawiajmy więc, zanim nie nadejdzie czas ostatecznej bitwy."/>
+		<Loc Key="DES_HORATIO_GREETINGS_GAYN_2" Value="Gayn, porozmawiajmy ze sobą szczerze."/>
+
+		<Loc Key="DES_QUEEN_XARXLA" Value="Królowa Xar’xla" />
+		<Loc Key="DES_QUEEN_XARXLA_DES" Value="Jako najwyżej królowej roju, rolą Xarl’xli było władać milionami klakonów, ale jej przeznaczenie okazało się jeszcze większe. Po odkryciu swych magicznych zdolności i obserwując moc tych, którzy taką dzierżą, królowa postanowiła zostać najwyższym czarodziejem. Korzystając z mocy głownego ula, Xar’xla wkrótce dołączyła do gry i upatrzyła sobie innych użytkowników wiedzy tajemnej, którzy mogliby dołączyć do jej królewskiego ula. Daremne wysiłki stawiania oporu są przez nią postrzegane jako zwykła uciążliwość." />
+		<Loc Key="DES_QUEEN_XARXLA_QUOTE" Value="Jesteśmy jednością, i wy nią będziecie, gdy zwyciężymy." />
+
+		<Loc Key="DES_QUEEN_XARXLA_GREETINGS" Value="Witamy cię, Czarodzieju. Jesteśmy jednością w wielu, nazywaj nas Xar'xla."/>
+
+		<Loc Key="DES_GAYN" Value="Gayn" />
+		<Loc Key="DES_GAYN_DES" Value="Jako dumny przedstawiciel rodu jaszczuroludzi, Gayn zawsze widział się jako obrońca mórz. W młodości służył jako najemnik na niejednym statku i, razem z Horatio, brał udział w wielu morskich bitwach. Lecz nadszedł dzień, w którym zmierzył się z prawdziwym zagrożeniem ze strony Czarodziejów i zdał sobie sprawę, że musi stać się lepszy niż reszta, by faktycznie móc bronić ukochanych wód. Wyposażony w magię Śmierci i Natury, Gayn chroni wody i nagina morza do swej woli. Jest znany ze swojego upodobania do polowania na piratów i groźne morskie bestie, czym zasłużył sobie na tytuł Morski Łowca. Lata doświadczenia jako marynarz przynoszą teraz korzyści jego podwładnym dając im większą prędkość na wodzie i przewagę w walce morskiej." />
+		<Loc Key="DES_GAYN_QUOTE" Value="Tak wielu chciałoby zawłaszczyć sobie moje morza. Nadszedł czas, abym pokazał im moją moc, nadszedł czas, abym został panem wszystkiego." />
+
+		<Loc Key="DES_GAYN_GREETINGS" Value="Witaj, jestem Gayn. Choć niebawem możemy być wrogami, pomówmy teraz w pokoju."/>
+		<Loc Key="DES_GAYN_GREETINGS_HORATIO_1" Value="Sir Horatio, a więc ostatecznie się spotykamy. Bracia broni, a wkrótce wrogowie. Lecz przyjmijmy ten znany los z radością i honorem."/>
+		<Loc Key="DES_GAYN_GREETINGS_HORATIO_2" Value="Sir Horatio, to przyjemność rozmawiać z tobą, nawet teraz."/>
+
+		
+		<!-- TRAIT --> 
+		<Loc Key="DES_KLACKON_SUPREMACY" Value="Władca Ula"/>
+		<Loc Key="DES_KLACKON_SUPREMACY_DES" Value="Władca ula łączy się z klakońskim kolektywem, aby podnieść swą wydajność. Czarodziej otrzymuje +5 do Umiejętności Czarowania za każdą sojuszniczą klakońską jednostkę biorącą udział w bitwie. Dodatkowo, klakoni rządzeni przez tego Czarodzieja nie są już tak bardzo nielubieni przez inne rasy i klakoński bohater, Ph'ym Filomata, przyłącza się na początku gry.\n\n-Ta zdolność działa jedynie podczas grania rasą klakonów.\n\n-Władca Ula kosztuje 2 punkty."/>
+        <Loc Key="DES_SWIFT_SEALEGS" Value="Wilk Morski"/>
+        <Loc Key="DES_SWIFT_SEALEGS_DES" Value="Wilk Morski zapewnia wszystkim bezcielesnym i pływającym jednostkom kontrolowanym przez Czarodzieja +1 punkt ruchu na mapie świata. Dodatkowo, statki zbudowane lub zdobyte pod czujnym okiem Wilka Morskiego rozpoczynają swą podróż z wyższym poziomem doświadczenia (o 3 poziomy) oraz są 20% tańsze w konstrukcji.\n\n-Wilk Morski kosztuje 2 punkty."/>	
+        <Loc Key="DES_POWER_PEOPLE" Value="Moc od Ludzi"/>
+        <Loc Key="DES_POWER_PEOPLE_DES" Value="Twoi wierni poddani są wyjątkowo wyczuleni na magię. Mając Moc od Ludzi, rasa mieszkańców stolicy daje Czarodziejowi +1 Mocy za każdego mieszkańca.\n\n-Moc od Ludzi kosztuje 2 punkty."/>	
+        <Loc Key="DES_THE_PIRATE" Value="Pirat"/>
+        <Loc Key="DES_THE_PIRATE_DES" Value="Czarodziej-Pirat rozwija się dzięki podbojom i najazdom. Kiedy zdecyduje się zniszczyć podbite miasto, dostaje dodatkowe Złoto oraz inną nagrodę zależną od wielkości miasta. Ponadto, Czarodziej otrzyma za podbój jednostkę Uwiązanego. Sława Czarodzieja będzie rosła za niszczenie miast, lecz będzie maleć za ich przejmowanie.\nUWAŻAJ, gdyż zdolność Pirat spowoduje Piracką Rebelię w twoich miastach, jeśli będziesz ich mieć więcej niż 6!\n\n- Pirat kosztuje 3 punkty."/>	
+        <Loc Key="DES_TACTITIAN" Value="Taktyk"/>
+        <Loc Key="DES_TACTITIAN_DES" Value="Jako wspaniały Taktyk, Czarodziej może lepiej planować potyczki i dlatego jednostki pod jego kontrolą otrzymują +1 punkt ruchu w czasie bitwy. Dodatkowo, Czarodziej daje przewagę swoim jednostkom, co powoduje, że zawsze będą zaczynać bitwę jako pierwsi, niezależnie od tego, czy atakują, czy się bronią (za wyjątkiem ataku na stolice innych czarodziejów - tam wieża będzie strzelać jako pierwsza)\n\n-Taktyk kosztuje 2 punkty."/>	
+        <Loc Key="DES_ADMIRAL" Value="Mistrz Okrętownictwa"/>
+        <Loc Key="DES_ADMIRAL_DES" Value="Statki wybudowane lub zdobyte pod czujnym okiem mistrza okrętownictwa rozpoczynają swoją służbę z wyższym poziomem doświadczenia (o 3 poziomy)."/>	
+        <Loc Key="DES_SEA_HUNTER" Value="Morski Łowca"/>
+        <Loc Key="DES_SEA_HUNTER_DES" Value="Czarodziej ze zdolnością Morski Łowca daje znaczne bonusy swoim jednostkom w czasie bitew na wodzie. Wszystkie jednostki pod dowództwem Czarodzieja w czasie bitwy otrzymują +2 do wszystkich statystyk (z wyłączeniem punktów życia) oraz umiejętność pływania.\n\n-Morski Łowca kosztuje 1 punkt."/>	
+        <Loc Key="DES_WATER_BOSS_1" Value="Serce Krakena'"/>
+        <Loc Key="DES_WATER_BOSS_1_DES" Value="Serca Krakena to potężny magiczny organ. Czarodziej, który go posiądzie, otrzymuje 25% zniżki do badań nad wszystkimi zaklęciami z domeny tajemnej."/>
+        <Loc Key="DES_WATER_BOSS_2" Value="Oko Krakena"/>
+        <Loc Key="DES_WATER_BOSS_2_DES" Value="Oko Krakena jest silnym magicznym składnikiem. Pozwala Czarodziejowi na obniżenie kosztu zaklęć z domeny tajemnej o 25% (za wyjątkiem zaklęć Zaczaruj Przedmiot oraz Stwórz Artefakt)."/>
+		
+		<!-- RACE --> 
+		<Loc Key="DES_BLUEORCS" Value="Łupieżcy" />
+		<Loc Key="DES_BLUEORCS_DES" Value="Łupieżcy byli niegdyś częścią orczych klanów, które nie chciały wyzbyć się swojej wojennej natury. Renegaci wyruszyli na morza, aby rabować i więzić swych wrogów, stając się piratami budzącymi grozę na obu planach. To jednak nie koniec ich historii - pewnego dnia mroczna, bezlitosna klątwa skazała wszystkich piratów na wieczne nie-życie! I tak powstali Łupieżcy - widmowe istoty napędzane chciwością i zazdrością ku żywym. Ta zazdrość jest tak głęboka, że produkują ogromne ilości jedzenia, których nie są w stanie pochłonąć." />
+		<Loc Key="DES_BLUEORCS_PRODUCTION" Value="Przyrost populacji: szybki (podstawowo +15 ludzi/turę)\nOgraniczenia dotyczące budynków: nie mogą budować Stoczni, Fantastycznych Stajni, Katedr ani Uniwersytetów.\nInne modyfikatory: +1{ICON:MeleeIconNormal} do walki wręcz dla jednostek (z wyłączeniem jednostek nie-rasowych), Bezcielesność (z wyłączeniem jednostek nie-rasowych) oraz zdolność Płaszcz Strachu (z wyłaczeniem Uwiązanego, Rusałki, Kapitana Blacksparrow, Statku Widmo).\nJednostki rasowe: {LINK:UNIT-B_ORC_RUSALKA} Rusałka {ICON:Rusalka}{END_LINK} {LINK:UNIT-B_ORC_BLACKSPARROW} Kapitan {ICON:Blacksparrow}{END_LINK} {LINK:UNIT-B_ORC_SEA_CREATURE} Stwór Morski {ICON:SeaCreature}{END_LINK} {LINK:UNIT-B_ORC_GHOSTSHIP} Statek Widmo {ICON:Ghostship}{END_LINK}"/>
+        <Loc Key="DES_PIRATE_DUNG" Value="Piraci" />
+		<Loc Key="DES_PIRATE_DUNG_DES" Value="Jednostka jest częścią plagi piratów, która opanowała morza. Piraci znani są z tego, że gromadzą wielkie skarby i zaciekle ich chronią w swoich legowiskach." />
+		
+		
+		<!-- BUILDINGS -->
+		<Loc Key="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD" Value="Przeklęta Stocznia"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD_DES" Value="Przeklęta stocznia, w której pracują duchy stoczniowców, produkuje teraz statki widmo, mogące poruszać się także po lądzie."/>
+		<Loc Key="DES_BUILDING_BLUEORCS_RAIDERS_HUT" Value="Chata Najeźdźców"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_RAIDERS_HUT_DES" Value="Chata najeźdźców pozwala piratom zdobywać łupy morskie dla swojego miasta.\n\nEfekty: Dodaje +3{ICON:FoodIcon} żywności oraz +3{ICON:GoldIcon} złota.\n\nWYMAGA LINII BRZEGOWEJ"/>
+		
+		
+		<!-- UNITS -->
+		<Loc Key="DES_BLUEORCS_SETTLER_SETTLERS" Value="Łupieżcy Osadnicy"/>
+		<Loc Key="DES_BLUEORCS_TRIREME" Value="Upiorna Trirema"/>
+		<Loc Key="DES_BLUEORCS_TRIREME_DES" Value="Upiorny statek jest niematerialny, co pozwala przeklętnym piratom najeżdżać zarówno cele morskie jak i lądowe."/>
+		<Loc Key="DES_BLUEORCS_SWORDSMEN" Value="Łupieżcy Awanturnicy"/>
+		<Loc Key="DES_BLUEORCS_CAVALRY" Value="Łupieżcy Kawalerzyści"/>
+		<Loc Key="DES_BLUEORCS_BOWMEN" Value="Łupieżcy Łucznicy"/>
+		<Loc Key="DES_BLUEORCS_SHAMANS" Value="Łupieżcy Szamani"/>
+		<Loc Key="DES_BLUEORCS_RUSALKA" Value="Rusałka"/>
+		<Loc Key="DES_BLUEORCS_RUSALKA_DES" Value="Rusałka to egzotyczna nimfa wodna, schwytana przez upiornych korsarzy i zmuszona przez nich do bezustannego tańca. Jest potężną czarodziejką, która może olśnić pole bitwy."/>
+		<Loc Key="DES_BLUEORCS_SEA_CREATURE" Value="Stwór Morski"/>
+		<Loc Key="DES_BLUEORCS_SEA_CREATURE_DES" Value="Stwór morski to zmutowana bestia z głębin, zobowiązana służyć kapitanom pirackiej floty swoimi silnymi uderzeniami w zwarciu i kamieniącym spojrzeniem. Potrafi też przyzwać Cyklon z Rekinami."/>
+		<Loc Key="DES_BLUEORCS_BLACK_SPARROW" Value="Kapitan"/>
+		<Loc Key="DES_BLUEORCS_BLACK_SPARROW_DES" Value="Nie ma statku pirackiego bez przerażającego kapitana. Uwięziony w swojej przeklętej, widmowej formie, zmutowany przez głębokie morze, prowadzi swoją śmiercionośną załogę do plądrowania i grabieży. Kapitan trzyma kajdany, które zmuszają niezliczonych więźniów do służby piratom."/>
+		<Loc Key="DES_BLUEORCS_GHOSTSHIP" Value="Statek Widmo"/>
+		<Loc Key="DES_BLUEORCS_GHOSTSHIP_DES" Value="Statek Widmo to wcielenie klątwy Łupieżców. Piekielny statek z głębin oceanów odpowiada na wezwanie swoich skazanych na zagładę braci, by zdobyć dusze poległych."/>
+		<Loc Key="DES_BLUEORCS_LEASHED" Value="Uwiązany"/>
+		<Loc Key="DES_BLUEORCS_LEASHED_DES" Value="Uwiązani to nieszczęsne dusze, które zostały złapane przez przeklętych piratów i przemieniony w nowe stworzenia z głębin oceanu. Ci nieszczęśnicy, jako byli mieszkańcy miast, posiadają zaskakujące umiejętności, takie jak inżynieria i zwiad."/>
+		<Loc Key="DES_SOR_WATER_ELEMENTAL" Value="Cyklon z Rekinami"/>
+		<Loc Key="DES_SOR_WATER_ELEMENTAL_DES" Value="Cyklon z rekinami to przerażająca siła z morskich głębkin, przyzwana aby siać zniszczenie na polu bitwy."/>
+		<Loc Key="DES_TENTACLE" Value="Macka Krakena"/>
+		<Loc Key="DES_TENTACLE_DES" Value="Kraken to legendarna morska bestia, tak wielka i przerażająca, że możesz co najwyżej walczyć z jej mackami z nadzieją, że zostawi cię w spokoju, gdy je pokonasz!"/>
+		
+	    <!-- HERO -->
+		<Loc Key="DES_PHYM" Value="Ph'ym Filomata"/>
+		<Loc Key="DES_PHYM1" Value="Ant'man Filomata"/>
+		<Loc Key="DES_PHYM2" Value="La'ng Filomata"/>
+		<Loc Key="DES_PHYM3" Value="Og'rad Filomata"/>
+		<Loc Key="DES_PHYM4" Value="Za'yn Filomata"/>
+		<Loc Key="DES_PHYM_DES" Value="{0} w przeszłości był jednym z wielu lojalnych członków ula, starającym się jak najlepiej służyć swej królowej i ciągle poszukując mądrości. Ale osiągając swój cel doskonałości, stał się także indywidualnością, osobliwością wśród swoich krewnych. Widząc rosnącą siłę i niezłomność bohatera, królowa postanowiła obdarzyć go wolnością. W końcu ul może stać się tylko silniejszy dzięki doświadczeniu wniesionemu przez takie jednostki. Chociaż {0} woli pracować dla swojej królowej, będzie służył każdemu czarodziejowi, który pozwoli mu doznać nowych doświadczeń."/>
+		<Loc Key="DES_SLITHERS" Value="Slithers Postrach Głębin"/>
+		<Loc Key="DES_SLITHERS1" Value="Scales Postrach Głębin"/>
+		<Loc Key="DES_SLITHERS2" Value="Slicer Postrach Głębin"/>
+		<Loc Key="DES_SLITHERS3" Value="Syrin Postrach Głębin"/>
+		<Loc Key="DES_SLITHERS4" Value="Shells Postrach Głębin"/>
+		<Loc Key="DES_SLITHERS_DES" Value="{0} to wprawiona jaszczuroludzka wojowniczka władająca dwiema broniami, szczególnie wytrenowana w polowaniu na przeciwników poruszających się po morzach. Jej wierzchowiec jest zaczarowany pradawną morską magią, przez co {0} może przenosić całą armię po wodzie, ścigając piratów i wszystkich, którzy ośmielą się stanąc jej na drodze. Bohater będzie wiernym najemnikiem dla każdego Czarodzieja, którego uzna za godnego, lub który uiści odpowiednią opłatę."/>
+		<Loc Key="DES_BIG_BERTA" Value="Wielka Berta"/>
+		<Loc Key="DES_BIG_BERTA1" Value="Mocarna Marta"/>
+		<Loc Key="DES_BIG_BERTA2" Value="Kaśka Kulozgniatacz"/>
+		<Loc Key="DES_BIG_BERTA3" Value="Malutka Luśka"/>
+		<Loc Key="DES_BIG_BERTA4" Value="Okrągła Balbina"/>
+		<Loc Key="DES_BIG_BERTA_DES" Value="{0} to od zawsze był porządny kawał orczej baby o silnym ramieniu i zamiłowaniu do kulek, armatnich oczywiście. {0} postrzega klątwę Łupieżców za dar, gdyż dzięki niej stała się jeszcze mocniejsza. {0} w przeszłości wywarła wrażenie na wielu załogach statków, wielokrotnie zdobywając tytuł kapitana. Obecnie ta doświadczona kanonierka szuka nowych wyzwań i dobrej zabawy jako najemnik. Będzie służyć każdemu Czarodziejowi, który dobrze płaci i sprawi, że nie będzie nudno."/>
+		<Loc Key="DES_WUSP" Value="Wu'sp"/>
+		<Loc Key="DES_WUSP_DES" Value="Wu'sp jest zawziętym i lojalnym sługą wielkiego ula klakonów. Nigdy nie będzie służyć jako bohater, ale próbuje dopaść Ph'yma i sprowadzić go z powrotem przed wymiar sprawiedliwości!"/>
+		
+		<!-- ENCHANTMENTS --> 
+		<Loc Key="DES_POWER_PEOPLE_ENCH_DES" Value="To miasto produkuje +1 Mocy za każdego mieszkańca dzięki zdolności Moc od Ludzi."/>
+        <Loc Key="DES_TACTITIAN_ENCH_DES" Value="Pod okiem Taktyka, ta jednostka otrzymuje +1 punkt ruchu w walce."/>	
+		<Loc Key="DES_WATER_SPEED" Value="Strumienie Szybkości"/>	
+        <Loc Key="DES_WATER_SPEED_DES" Value="Strumienie Szybkości dają +1 punkt ruchu na mapie świata jednostkom potrafiącym pływać."/>	
+        <Loc Key="DES_ADMIRAL_ENCH_DES" Value="Wszystkie statki pod dowództwem Mistrza Okrętownictwa otrzymują +3 poziomy doświadczenia."/>	
+		<Loc Key="DES_WATER_SPEED_ENCH_DES" Value="Wilk Morski daje +1 punkt ruchu na mapie świata jednostkom potrafiącym pływać."/>	
+		<Loc Key="DES_AMBUSH" Value="Taktyczna Zasadzka"/>
+		<Loc Key="DES_AMBUSH_ENCH_DES" Value="Taktyczna Zasadzka pozwala armii zawsze rozpoczynać bitwę jako pierwszej."/>	
+        <Loc Key="DES_SHALLOW_WATER" Value="Płytka Woda"/>	
+        <Loc Key="DES_SHALLOW_WATER_DES" Value="To pole bitwy jest na płytkiej wodzie, co powoduje, że jednostki, które nie potrafią pływać ani latać, otrzymują umiejętność chodzenia po wodzie, a więc będą mogły poruszać się po polu bitwy."/>	
+        <Loc Key="DES_SEA_HUNTER_ENCH_DES" Value="Wszystkie jednostki pod dowództwem Morskiego Łowcy otrzymują w czasie bitwy +2 do wszystkich statystyk (z wyjątkiem punktów życia) oraz umiejętność pływania."/>
+		<Loc Key="DES_WIND_CAVE_ENCH" Value="Wiatr Śmierci"/>
+		<Loc Key="DES_WIND_CAVE_ENCH_DES" Value="Wiatr Śmierci dmie z mrożącą mocą przeklętych mórz, powodując ciągłą lawinę ze sklepienia jaskini. W każdej turze jest 5% szans, że skały zabiorą jakiejś z twoich jednostek 50% aktualnych punktów życia (zaokrąglając w górę, maksymalnie 2 jednostki na turę). Wiatr jest tak silny, że wszystkie typy ataków zasięgowych otrzymują -10%{ICON:ToHitBonusIcon} szans do trafienia oraz powodują, że Latanie {ICON:MovementFlyingIcon} jest niemożliwe."/>	
+		<Loc Key="DES_PIRATE_CURSE_ENCH" Value="Klątwa Piratów"/>
+		<Loc Key="DES_PIRATE_CURSE_ENCH_DES" Value="Klątwa Piratów unosi się nad polem bitwy. Armia atakująca otrzymuje -1{ICON:ResistanceIconNormal} do odporności i -1 punkt ruchu dla wszystkich jednostek. Klątwa powoduje również, że bitwa trwa tylko 20 tur!"/>	
+		<Loc Key="DES_IMMOVABLE_OBJECTS" Value="Niezmienny Teren"/>
+		<Loc Key="DES_IMMOVABLE_OBJECTS_DES" Value="Niektóre obiekty na mapie są tak przesiąknięte starożytną mocą, że nie można się po nich poruszać  ani wpływać na nie w żaden sposób, zwyczajny czy magiczny."/>	
+		<Loc Key="DES_MASS_WATER_WALKING_UNIT" Value="Niesiony przez Fale"/>
+		<Loc Key="DES_MASS_WATER_WALKING_UNIT_DES" Value="Ta jednostka jest niesiona po wodzie przez inną jednostkę z umiejętnością Jeździec Fal. Dopóki obie jednostki są w tej samej grupie, ta jednostka otrzymuje umiejętność pływania."/>
+		<Loc Key="DES_KLACKON_SUPREMACY_ENCH" Value="Władca Ula"/>
+		<Loc Key="DES_KLACKON_SUPREMACY_ENCH_DES" Value="Władca ula otrzymuje +5 Umiejętności Czarowania za każdą sojuszniczą jednostkę z rasy klakonów na polu bitwy."/>
+		
+		<!-- SKILLS --> 
+		<Loc Key="DES_GHOSTSHIP_TERROR" Value="Widmowy Terror"/>
+		<Loc Key="DES_GHOSTSHIP_TERROR_DES" Value="Widmowy Terror powoduje, że każda wroga jednostka na polu bitwy musi wykonać udany rzut na odporność (na +1 odporności {ICON:ResistanceIconNormal}) w każdej turze lub zostanie przerażona w tej turze i niezdolna do wykonania jakiejkolwiek akcji."/>
+		<Loc Key="DES_MUD_ATTACK" Value="Błotny Urok"/>
+		<Loc Key="DES_MUD_ATTACK_DES" Value="Zauroczona jednostka ma nieodparte wrażenie, że powinna tańczyć, a nie walczyć. W rzeczywistości, przy każdym ataku (wręcz lub zasięgowym), gdy zaatakowana jednostka wykona nieudany rzut na odporność {ICON:ResistanceIconNormal}, ziemia pod jej stopami zmienia się w błoto, co powoduje utratę 1 punktu ruchu na 1 turę (kolejne ataki zakończone nieudanym rzutem zwiększają długość trwania tego efektu)."/>	
+        <Loc Key="DES_MUD_DES" Value="Ta jednostka otrzymała błotny urok i czuje, że powinna tańczyć zamiast walczyć. Za każdym razem, gdy wykona nieudany rzut na odporność {ICON:ResistanceIconNormal}), traci 1 punkt ruchu na 1 turę (kolejne ataki zakończone nieudanym rzutem zwiększają długość trwania tego efektu)."/>		
+		<Loc Key="DES_MASS_WATER_WALKING" Value="Jeździec Fal"/>
+        <Loc Key="DES_MASS_WATER_WALKING_DES" Value="Ta jednostka jest niesiona po wodzie dzięki swojej umiejętności Jeździec Fal. Zarówno ona, jak i jednostki podróżujące z nią w jednej grupie, otrzymują umiejętność pływania."/>		
+        <Loc Key="DES_MASS_WATER_WALKING_SKILL_DES" Value="Jeździec Fal z łatwością porusza się po wodzie i może zabrać innych ze sobą. Zarówno ona, jak i jednostki podróżujące z nią w jednej grupie, otrzymują umiejętność pływania."/>
+		<Loc Key="DES_HIVEMIND" Value="Umysł Roju"/>
+		<Loc Key="DES_HIVEMIND_DES" Value="Ten bohater jest połączony z klakońską świadomością ula. Otrzymuje bonusy za każdą jednostkę klakonów podróżującą wraz z nim w grupie."/>
+		<Loc Key="DES_SHACKLE_MASTER" Value="Władca Okowów"/>
+		<Loc Key="DES_SHACKLE_MASTER_DES" Value="Władca Okowów sprawuje kontrolę nad pojmanymi jednostkami. Pojmani - Stwór Morski, Rusałka i Uwiązany - otrzymują +10% {ICON:ToHitBonusIcon} szans na trafienie."/>
+		<Loc Key="DES_SHACKLED" Value="Pojmana Jednostka"/>
+		<Loc Key="DES_SHACKLED_DES" Value="Władca Okowów sprawuje kontrolę nad pojmanymi jednostkami. Ta jednostka jest jedną z pojmanych i otrzymuje +10% {ICON:ToHitBonusIcon} szans na trafienie."/>
+		
+		<!-- RES --> 
+		<Loc Key="DES_RES_FISH" Value="Ryby"/>
+		<Loc Key="DES_RES_FISH_DES" Value="Dodają +2 {ICON:FoodIcon} Żywności oraz zmniejszają koszt produkcji jednostek o 10%.\nNie mogą być zmienione za pomocą zaklęcia Przeobrażenie, ale można uzyskać z nich zasoby zaklęciem Morskie Żniwa."/>
+		<Loc Key="DES_RES_PEARLS" Value="Perły Oceanu"/>
+		<Loc Key="DES_RES_PEARLS_DES" Value="Dodają +3 {ICON:PowerIcon} Mocy oraz +3 {ICON:GoldIcon} Złota w najbliższym mieście.\nNie mogą być zmienione za pomocą zaklęcia Przeobrażenie, ale można uzyskać z nich zasoby zaklęciem Morskie Żniwa."/>
+		<Loc Key="DES_RES_REEF" Value="Rafa"/>
+		<Loc Key="DES_RES_REEF_DES" Value="Dodaje +2 {ICON:GoldIcon} Złota i zmniejsza koszt produkcji budynków w najbliższym mieście o 20%.\nNie może być zmieniona za pomocą zaklęcia Przeobrażenie, ale można uzyskać z niej zasoby zaklęciem Morskie Żniwa."/>
+				
+		<!-- SPELLS AND ENCH -->
+		<Loc Key="DES_WATER_ELEMENTAL" Value="Cyklon z Rekinami"/>
+		<Loc Key="DES_WATER_ELEMENTAL_DES" Value="Przywołuje przerażają siłę z głębin morskich, Cyklon z rekinami, stworzoną, aby siać zniszczenie na polu bitwy."/>
+		<Loc Key="DES_BARRAGE" Value="Ostrzał"/>
+		<Loc Key="DES_BARRAGE_DES" Value="Jednostka wykonuje zabójczy ostrzał wrogich jednostek. Wszystkie wrogie jednostki na polu bitwy zostają trafione magicznym ognistym atakiem o sile 5."/>
+		<Loc Key="DES_CONSTANTSTORM" Value="Niekończący się Sztorm"/>
+		<Loc Key="DES_CONSTANTSTORM_DES" Value="Niekończący się Sztorm pustoszy pole bitwy. W każdej turze jedna losowa jednostka atakującej armii zostaje trafiona atakiem błyskawic o sile 10."/>
+		<Loc Key="DES_SEA_HARVEST" Value="Morskie Żniwa"/>
+		<Loc Key="DES_SEA_HARVEST_DES" Value="Morskie Żniwa przemieniają morski surowiec, dając +10{ICON:CastingSkillIcon} do postępu Umiejętności Czarowania, + 0-50 {ICON:ManaIcon} Many oraz + 50-100 {ICON:GoldIcon} Złota.\nUwaga: Zebrany surowiec zostanie zniszczony. Wskazanie surowca znajdującego się w obrębie miasta przeciwnika ma 20% szans na powodzenie."/>
+		<Loc Key="DES_SEA_HARVEST_TARGET" Value="Wskaż pole z Rybami, Perłami lub Rafą."/>
+		<Loc Key="DES_SHIP_DISCOUNT" Value="Wilk Morski"/>
+		<Loc Key="DES_SHIP_DISCOUNT_DES" Value="Jako Wilk Morski, Czarodziej potrafi zainspirować wspaniałych rzemieślników i budowniczych okrętów, którzy potrafią budować okręty o 20% taniej."/>
+		<Loc Key="DES_HIVEMIND_UNIT" Value="Połączony z ulem"/>
+		<Loc Key="DES_HIVEMIND_UNIT_DES" Value="Ta jednostka jest połączona z ulem i dostaje +10% szansy na obronę."/>
+
+		<!--LAIRS -->
+		<Loc Key="DES_WIND_CAVE" Value="Wietrzne Jaskinie"/>
+		<Loc Key="DES_REEF_TREASURE_ISLAND" Value="Wyspa Skarbów"/>
+		<Loc Key="DES_WATER_BOSS_LAIR_1" Value="Leże Krakena"/>
+		<Loc Key="DES_WATER_BOSS_LAIR_2" Value="Leże Krakena"/>
+		
+		<!--LAIR UNITS -->
+        <Loc Key="DES_PIR_GIANT_SPIDERS" Value="Pirackie Pająki" />
+		<Loc Key="DES_PIR_GIANT_SPIDERS_DES" Value="Ośmionożni obrońcy natury dowodzeni przez Piratów. Pająki polegają na swoim jadowitym ugryzieniu i zaklęci rzucania sieci, które wspierają ich szybkie ataki w zwarciu {ICON:MeleeIconNormal}. Ich słabością jest nieduża obrona, więc najlepiej jest spróbować uderzyć ich jako pierwszych." />
+	    <Loc Key="DES_PIR_PHANTOM_WARRIORS" Value="Pirackie Widma" />
+		<Loc Key="DES_PIR_PHANTOM_WARRIORS_DES" Value="Widmowi wojownicy przyzywani w walce przez Piratów, są podstawową jednostką do walki wręcz {ICON:MeleeIconNormal}, która potrafi uderzyć przeciwnika zdradliwym, ilozorycznym atakiem, pomijającym obronę."/>
+		<Loc Key="DES_PIR_NAGAS" Value="Pirackie Nagi" />
+		<Loc Key="DES_PIR_NAGAS_DES" Value="Stworzone przez Piratów nagi dysponują trującym dotykiem, który wspomaga ich szybki atak w zwarciu {ICON:MeleeIconNormal}." />
+		<Loc Key="DES_PIR_ZOMBIES" Value="Pirackie Zombie" />
+		<Loc Key="DES_PIR_ZOMBIES_DES" Value="Dzięki Pladze Mocy Piratów zombie otrzymały swóje przeznaczenie. Te nieumarłe potwory walczą w zwarciu {ICON:MeleeIconNormal} i, choć dysponują niewielką siłą, są przyzwoitym mięsem armatnim." />
+		<Loc Key="DES_PIR_WRAITHS" Value="Pirackie Upiory" />
+		<Loc Key="DES_PIR_WRAITHS_DES" Value="Wezwane do służby przez Piratów, upiory są bezcielesnymi wojownikami walczącymi w zwarciu {ICON:MeleeIconNormal}, posiadającymi zdolność kradnięcia życia, a tym samym tworzenia nieumarłych sług." />
+
+	</LOCALIZATION-DLC3_PL>
+</DB_LOCALIZATION>

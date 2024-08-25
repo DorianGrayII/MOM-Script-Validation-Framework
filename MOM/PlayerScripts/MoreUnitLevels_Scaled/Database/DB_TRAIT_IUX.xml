@@ -1,0 +1,12 @@
+﻿<DB_TRAIT>
+	<TRAIT-WARLORD Cost="2">
+		<DescriptionInfo Name="DES_WARLORD" Description="DES_WARLORD_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_Warlord"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_WARLORD"/>
+	</TRAIT-WARLORD>
+	<TRAIT-FANTASTIC_WARLORD Dlc="Dlc1" Cost="1">
+		<DescriptionInfo Name="DES_FANTASTIC_WARLORD" Description="DES_TRAIT_FANTASTIC_WARLORD_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_FantasticWorlord"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_FANTASTIC_WARLORD"/>
+	</TRAIT-FANTASTIC_WARLORD>
+</DB_TRAIT>

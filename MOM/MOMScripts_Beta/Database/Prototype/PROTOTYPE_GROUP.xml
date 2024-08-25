@@ -1,0 +1,15 @@
+﻿<PROTOTYPE_GROUP>			
+	
+	<GROUP Name="Group">
+		<Race Name="race" Type="ArrayRACE" Required="FALSE"/>
+		<Units Name="Units" Type="ArrayUNIT" Required="FALSE"/>
+		<Heroes Name="heroes" Type="ArrayHERO" Required="FALSE"/>
+		<MaxHeroesCount Name="maxHeroesCount" Type="int" Required="FALSE"/>
+		<RequiredTags Name="requiredTags" Type="ArrayCOUNTED_TAG" Required="FALSE"/>
+		<OptionalTags Name="optionalTags" Type="ArrayCOUNTED_TAG" Required="FALSE"/>
+		<ForbiddenTags Name="forbiddenTags" Type="ArrayCOUNTED_TAG" Required="FALSE"/>
+		<CreationScript Name="creationScript" Type="string" Required="FALSE"/>	
+		<Dlc Name="dlc" Type="string" Required="FALSE"/>
+	</GROUP>
+	
+</PROTOTYPE_GROUP>

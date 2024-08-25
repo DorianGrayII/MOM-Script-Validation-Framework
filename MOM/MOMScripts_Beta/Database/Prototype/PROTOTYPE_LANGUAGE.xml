@@ -1,0 +1,9 @@
+﻿<PROTOTYPE_LANGUAGE>
+
+	<LANGUAGE Name="Language">		
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="TRUE"/>
+		<NameSuffix Name="nameSuffix" Type="string" Required="TRUE"/>
+		<LanguageID Name="languageID" Type="string" Required="TRUE"/>
+	</LANGUAGE>
+	
+</PROTOTYPE_LANGUAGE>

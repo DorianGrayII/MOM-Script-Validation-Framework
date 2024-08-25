@@ -1,0 +1,1510 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-UI_EN Language="English">	
+		<Loc Key="UI_LOADING" Value="Loading..." />
+		<Loc Key="UI_CONTINUE" Value="Continue"/>
+		<Loc Key="UI_NEW_GAME" Value="New Game"/>
+		<Loc Key="UI_EDITOR" Value="Editor"/>
+		<Loc Key="UI_SETTINGS" Value="Settings"/>
+		<Loc Key="UI_EXIT" Value="Exit"/>
+		<Loc Key="UI_CLOSE" Value="Close"/>
+		<Loc Key="UI_CANCEL" Value="Cancel"/>
+		<Loc Key="UI_CONFIRM" Value="Confirm"/>
+		<Loc Key="UI_VERSION" Value="VERSION"/>
+		<Loc Key="UI_ENTER_NAME" Value="Enter Name"/>
+		<Loc Key="UI_ENTER_NAME2" Value="Enter new name:"/>
+		<Loc Key="UI_ENTER_TEXT" Value="Enter text..."/>
+		<Loc Key="UI_COMBAT" Value="Combat"/>
+		<Loc Key="UI_ATTACKERS" Value="Attackers"/>
+		<Loc Key="UI_DEFENDERS" Value="Defenders"/>
+		<Loc Key="UI_DONT_ENGAGE" Value="Don't Engage"/>
+		<Loc Key="UI_AUTO_COMBAT" Value="Auto Combat"/>
+		<Loc Key="UI_MANUAL_COMBAT" Value="Manual Combat"/>
+		<Loc Key="UI_OKAY" Value="Okay"/>
+		<Loc Key="UI_OK" Value="OK"/>
+		<Loc Key="UI_DETAILS" Value="Details"/>
+		<Loc Key="UI_TURN" Value="Turn"/>
+		<Loc Key="UI_OF_50" Value="of 50"/>
+		<Loc Key="UI_ADJUST_DIFFICULTY" Value="Adjust Difficulty"/>
+		<Loc Key="UI_PRESETS" Value="Presets"/>
+		<Loc Key="UI_SCORE_MULTIPLIER" Value="Score Multiplier:"/>
+		<Loc Key="UI_EASY_50" Value="Easy (100%)"/>
+		<Loc Key="UI_NORMAL_100" Value="Normal (150%)"/>
+		<Loc Key="UI_HARD_150" Value="Hard (200%)"/>
+		<Loc Key="UI_CUSTOM" Value="Custom"/>
+		<Loc Key="UI_MAKE_A_SELECTION" Value="Make a selection..."/>
+		<Loc Key="UI_SELECT_AN_ADVENTURE" Value="Select an Adventure"/>
+		<Loc Key="UI_SEARCH" Value="Search..."/>
+		<Loc Key="UI_BACK_TO_MODULES" Value="Back to Modules"/>
+		<Loc Key="UI_EDIT_ADVENTURE" Value="Edit Adventure"/>
+		<Loc Key="UI_CLONE_TO_MODULE" Value="Select a module to clone to:"/>
+		<Loc Key="UI_CLONE_ADVENTURE" Value="Clone Adventure"/>
+		<Loc Key="UI_LEAVE" Value="Leave"/>
+		<Loc Key="UI_ADVENTURE" Value="Adventure"/>
+		<Loc Key="UI_BATTLE" Value="Battle"/>
+		<Loc Key="UI_TRADE" Value="Trade"/>
+		<Loc Key="UI_ENCHANTMENT" Value="Enchantment"/>
+		<Loc Key="UI_SPAWN_LOCATION" Value="Spawn Location"/>
+		<Loc Key="UI_RELAY" Value="Relay"/>
+		<Loc Key="UI_END" Value="End"/>
+		<Loc Key="UI_NODE_SEARCH" Value="Node Search"/>
+		<Loc Key="UI_SELECT_AN_IMAGE" Value="Select an Image"/>
+		<Loc Key="UI_IMAGE_INSTRUCTIONS" Value="Note: The optimal image size is 1250x1500px. Other sizes with similar aspect ratio can be used too. Using Image with different aspect ratio will result in the image being distorted.\n\nTo add new images to this list, place them in \ExternalAssets\AdventureGraphics, located in your game folder.\n\nUse .png or .jpg formats only!"/>
+		<Loc Key="UI_LOGIC_EDITOR" Value="Logic Editor"/>
+		<Loc Key="UI_FILTERS" Value="Filters"/>
+		<Loc Key="UI_PROCESSING" Value="Processing"/>
+		<Loc Key="UI_RESULTS" Value="Results"/>
+		<Loc Key="UI_EXIT_LOGIC" Value="Exit Logic"/>
+		<Loc Key="UI_SELECT_MODULE" Value="Select a Module"/>
+		<Loc Key="UI_EXIT_AND_SAVE" Value="Exit and Save"/>
+		<Loc Key="UI_EDIT_MODULE" Value="Edit Module"/>
+		<Loc Key="UI_END_TURN" Value="End Turn"/>
+		<Loc Key="UI_PATCH_NOTES" Value="Patch Notes"/>		
+		<Loc Key="UI_CHANGE_PROFILE" Value="Change Profile"/>		
+		<Loc Key="UI_HELLO_PLAYERNAME" Value="Hello, {0}"/>
+		<Loc Key="UI_PROFILES" Value="Profiles"/>
+		<Loc Key="UI_SELECT" Value="Select"/>
+		<Loc Key="UI_NEW_PROFILE" Value="New Profile"/>
+		<Loc Key="UI_RENAME" Value="Rename"/>
+		<Loc Key="UI_DELETE" Value="Delete"/>
+		<Loc Key="UI_SELECT_WIZARD" Value="Select Wizard"/>
+		<Loc Key="UI_MAGIC_AND_TRAITS" Value="Magic and Traits"/>
+		<Loc Key="UI_WORLD_QUALITY" Value="World Quality"/>
+		<Loc Key="UI_BATTLE_SUMMARY" Value="Battle Summary"/>
+		<Loc Key="UI_VICTORY" Value="Victory!"/>
+		<Loc Key="UI_DEFEAT" Value="Defeat!"/>
+		<Loc Key="UI_YOUR_TURN" Value="Your Turn!"/>
+		<Loc Key="UI_ENEMY_TURN" Value="Enemy's Turn!"/>
+		<Loc Key="UI_MELEE" Value="Melee:"/>
+		<Loc Key="UI_RANGED" Value="Ranged:"/>
+		<Loc Key="UI_ARMOUR" Value="Armour:"/>
+		<Loc Key="UI_RESISTANCE" Value="Resistance:"/>
+		<Loc Key="UI_FIGURES" Value="Figures:"/>
+		<Loc Key="UI_HITS" Value="Hits:"/>
+		<Loc Key="UI_MOVEMENT" Value="Movement:"/>
+		<Loc Key="UI_UPKEEP" Value="Upkeep:"/>
+		<Loc Key="UI_DISMISS" Value="Dismiss"/>
+		<Loc Key="UI_ADD_A_NODE" Value="Add a Node"/>
+		<Loc Key="UI_ACTIVE_GLOBAL_ENCHANTMENTS" Value="Active Global Enchantments"/>
+		<Loc Key="UI_MAGIC" Value="Magic"/>
+		<Loc Key="UI_ALCHEMY" Value="Alchemy"/>
+		<Loc Key="UI_ALCHEMY_DES" Value="Alchemy is the knowledge how to turn Gold to Mana or vice versa. Wizards with Alchemy Trait are able to convert with 1:1 ratio, those without it will only yield half of the selected substance. "/>
+		<Loc Key="UI_TRANSMUTE_GOLD_TO_MANA" Value="Transmute Gold to Mana"/>
+		<Loc Key="UI_TRANSMUTE_MANA_TO_GOLD" Value="Transmute Mana to Gold"/>
+		<Loc Key="UI_TRANSMUTE" Value="Transmute"/>
+		<Loc Key="UI_POWER" Value="Power"/>
+		<Loc Key="UI_POWER_DES" Value="Power comes from your Fortress, Spellbooks, magic nodes, religious town buildings, and some races' townsfolk. It is used to generate Mana, research spells and increase the Casting Skill.\n\nYou can adjust how your Power is assigned for each purpose by clicking on the vials."/>
+		<Loc Key="UI_POWER2_DES" Value="Used to generate Mana, research spells and increase Casting Skill."/>
+		<Loc Key="UI_MANA" Value="Mana:"/>
+		<Loc Key="UI_RESEARCH" Value="Research"/>
+		<Loc Key="UI_RESEARCH_DES" Value="Directly affects the speed of learning new spells. Can be increased by assigning more Power to the green vial, constructing building such as Library, Sages' Guild, University and Wizards' Guild or hiring heroes with the Sage ability."/>
+		<Loc Key="UI_SKILL" Value="Skill"/>
+		<Loc Key="UI_CASTING_SKILL" Value="Casting Skill:"/>
+		<Loc Key="UI_CASTING_SKILL2" Value="Casting Skill"/>
+		<Loc Key="UI_MANA_RESERVE" Value="Mana Reserve:"/>
+		<Loc Key="UI_MANA_RESERVE2" Value="Mana Reserve"/>
+		<Loc Key="UI_MANA_RESERVE_DES" Value="Mana points available for spellcasting. Can be increased by assigning Power points to Mana (yellow vial)."/>
+		<Loc Key="UI_POWER_BASE" Value="Power Base:"/>
+		<Loc Key="UI_CASTING" Value="Casting:"/>
+		<Loc Key="UI_RESEARCHING" Value="Researching:"/>
+		<Loc Key="UI_SUMMON_TO" Value="Summon to:"/>
+		<Loc Key="UI_GLOBAL_TAXES_AND_UNREST" Value="Global Taxes and Unrest"/>
+		<Loc Key="UI_TOWNS" Value="Towns"/>
+		<Loc Key="UI_UNITS" Value="Units"/>
+		<Loc Key="UI_CITIZENS" Value="Citizens"/>
+		<Loc Key="UI_ALL_CITIZENS" Value="All Citizens:"/>
+		<Loc Key="UI_FARMERS" Value="Farmers"/>
+        <Loc Key="UI_FARMERS_DES" Value="Farmers feed your population.\n-1 Food {ICON:FoodIcon} is needed to sustain each citizen.\nEach 2 surplus Food is turned into 1 Gold {ICON:GoldIcon} at the end of turn.\nEvery farmer also adds 0.5 production {ICON:ProductionIcon}.\n\n-Note: Only farmers producing surplus Food can become workers.\n-Food deficit in a city will cause {COLOR:#42C100}starvation {END_COLOR} and decrease its population."/>
+		<Loc Key="UI_FARMERS_MIN" Value="You cannot lower the number of farmers below the minimum that is necessary to support the town's population."/>
+		<Loc Key="UI_WORKERS" Value="Workers"/>
+		<Loc Key="UI_WORKERS_DES" Value="Workers' job is to provide production points, which the town uses to construct buildings and recruit units.\n\n-Note: Only farmers producing surplus Food can become workers."/>		
+		<Loc Key="UI_REBELS" Value="Rebels"/>
+		<Loc Key="UI_REBELS_DES" Value="Rebels generate no Food, Gold or Production in the town but still consume food. As unrest increases, more Rebels will surface.\n\nRebels can be reduced by constructing religious buildings, unrest reduction spells or a garrison of non-fantastic units at -1 Rebel reduction per 2 units."/>
+		<Loc Key="UI_RESOURCES" Value="Resources"/>
+		<Loc Key="UI_CONSTRUCTION_QUEUE" Value="Construction Queue"/>
+		<Loc Key="UI_BUY" Value="Buy"/>
+		<Loc Key="UI_NEXT_IN_QUEUE" Value="Next in Queue:"/>
+		<Loc Key="UI_BUILD" Value="Build"/>
+		<Loc Key="UI_CONSTRUCTION_MANAGER" Value="Construction Manager"/>
+		<Loc Key="UI_BUILDINGS" Value="Buildings"/>
+		<Loc Key="UI_REQUIRES" Value="Requires:"/>
+		<Loc Key="UI_ALLOWS" Value="Allows:"/>
+		<Loc Key="UI_EQUIP_ITEMS" Value="Equip Items"/>
+		<Loc Key="UI_FORTRESS_VAULT" Value="Fortress Vault"/>
+		<Loc Key="UI_RESEARCH_SPELLS" Value="Research Spells"/>
+		<Loc Key="UI_RESEARCH_SPELLS2" Value="Research Spells ({0})"/>
+		<Loc Key="UI_WORLD_SPELL" Value="World Spell"/>
+		<Loc Key="UI_COMBAT_SPELL" Value="Combat Spell"/>
+		<Loc Key="UI_SPELL_TYPE" Value="Spell Type:"/>
+		<Loc Key="UI_TARGET" Value="Target:"/>
+		<Loc Key="UI_SUMMON" Value="Summon"/>
+		<Loc Key="UI_UNIT_ENCHANTMENT" Value="Unit Enchantment"/>
+		<Loc Key="UI_UNIT_CURSE" Value="Unit Curse"/>
+		<Loc Key="UI_TOWN_ENCHANTMENT" Value="Town Enchantment"/>
+		<Loc Key="UI_TOWN_CURSE" Value="Town Curse"/>
+		<Loc Key="UI_INSTANT" Value="Instant"/>
+		<Loc Key="UI_CASTING_COST" Value="Casting Cost:"/>
+		<Loc Key="UI_UPKEEP_COST2" Value="Upkeep Cost:"/>
+		<Loc Key="UI_SELECT_A_SPELL" Value="Select a Spell"/>
+		<Loc Key="UI_YOUR_PROPERTY" Value="Your Property"/>
+		<Loc Key="UI_YOUR_OFFER" Value="Your Offer"/>
+		<Loc Key="UI_THEIR_PROPERTY" Value="Their Property"/>
+		<Loc Key="UI_THEIR_OFFER" Value="Their Offer"/>
+		<Loc Key="UI_MAINTENANCE" Value="Maintenance:"/>
+		<Loc Key="UI_ACCEPT" Value="Accept"/>
+		<Loc Key="UI_CHOICES" Value="Choices"/>
+		<Loc Key="UI_VIDEO" Value="Video"/>
+		<Loc Key="UI_VIDEO_SETTINGS" Value="Video Settings"/>
+		<Loc Key="UI_AUDIO" Value="Audio"/>
+		<Loc Key="UI_AUDIO_SETTINGS" Value="Audio Settings"/>
+		<Loc Key="UI_OTHER" Value="Other"/>
+		<Loc Key="UI_OTHER_SETTINGS" Value="Other Settings"/>
+		<Loc Key="UI_CREDITS" Value="Credits"/>
+		<Loc Key="UI_RESOLUTION_OPTIONS" Value="Resolution"/>
+		<Loc Key="UI_REFRESH_RATE" Value="Frame Rate Limits"/>
+		<Loc Key="UI_REFRESH_CAP_NONE" Value="None"/>
+		<Loc Key="UI_REFRESH_CAP_30" Value="30 FPS"/>
+		<Loc Key="UI_REFRESH_CAP_60" Value="60 FPS"/>
+		<Loc Key="UI_MUSIC_VOLUME" Value="Music Volume"/>
+		<Loc Key="UI_SFX_VOLUME" Value="SFX Volume"/>
+		<Loc Key="UI_SELECT_RACE_AND_BANNER" Value="Select Race and Banner"/>
+		<Loc Key="UI_ARCANIAN_RACES" Value="Arcanian Races"/>
+		<Loc Key="UI_MYRRAN_RACES" Value="Myrran Races"/>
+		<Loc Key="UI_PRODUCTION_PER_FARMER" Value="Production per Farmer:"/>
+		<Loc Key="UI_PRODUCTION_PER_WORKER" Value="Production per Worker:"/>
+		<Loc Key="UI_PRODUCTION_PER_REBEL" Value="Production per Rebel:"/>
+		<Loc Key="UI_APPLIES_ENCHANTMENTS" Value="Applies Enchantments:"/>
+		<Loc Key="UI_SHOW_ON_HUD" Value="Show on HUD"/>
+		<Loc Key="UI_CAST_SPELLS" Value="Cast\nSpells"/>
+		<Loc Key="UI_CAST_SPELLS2" Value="Cast Spells ({0})"/>
+		<Loc Key="UI_WARNING" Value="Warning"/>
+		<Loc Key="UI_FOOD_UPKEEP_FAILING" Value="Master, your towns do not produce enough Food to sustain all your units. Perhaps you can reassign workers to produce more Food?\n\nIf you continue, some units will abandon you!"/>
+		<Loc Key="UI_MANA_UPKEEP_FAILING" Value="Master, your towns do not produce enough Mana to sustain all your units. Perhaps you can reassign your Power to increase Mana production?\n\nIf you continue, some units will abandon you!"/>
+		<Loc Key="UI_CAST" Value="Cast"/>
+		<Loc Key="UI_CASTING_TIME" Value="Casting Time:"/>
+		<Loc Key="UI_NEUTRAL_UNITS" Value="Neutral Units"/>
+		<Loc Key="UI_SELECT_TARGET" Value="Select Target"/>
+		<Loc Key="UI_ARTEFACTS" Value="Artefacts"/>
+		<Loc Key="UI_TOTAL_UPKEEP" Value="Total Upkeep"/>
+		<Loc Key="UI_HEROES" Value="Heroes"/>
+		<Loc Key="UI_ARMIES" Value="Armies"/>
+		<Loc Key="UI_SELECT_TARGET2" Value="Select target:"/>
+		<Loc Key="UI_CASTINGS_SPELL" Value="Casting spell"/>
+		<Loc Key="UI_UNUSED_ARTEFACTS" Value="Unused Artefacts"/>
+		<Loc Key="UI_MANAGE_ARTEFACTS" Value="Manage Artefacts"/>
+		<Loc Key="UI_LOCATION_AWARD" Value="Location Award"/>
+		<Loc Key="UI_SELECT_A_SPELL_WARD_TO_CAST" Value="Select a Spell Ward to cast"/>
+		<Loc Key="UI_NATURE_WARD" Value="Nature Ward"/>
+		<Loc Key="UI_SORCERY_WARD" Value="Sorcery Ward"/>
+		<Loc Key="UI_CHAOS_WARD" Value="Chaos Ward"/>
+		<Loc Key="UI_LIFE_WARD" Value="Life Ward"/>
+		<Loc Key="UI_DEATH_WARD" Value="Death Ward"/>
+		<Loc Key="UI_SELECT_AN_ENCHANTMENT_TO_DISJUNCT" Value="Select an enchantment to disjunct"/>
+		<Loc Key="UI_SELECT_TARGET_FOR_DRAIN_POWER" Value="Select target for Drain Power"/>
+		<Loc Key="UI_SELECT_TARGET_FOR" Value="Select target for "/>
+		<Loc Key="UI_LOSES" Value="loses"/>
+		<Loc Key="UI_POINTS_OF_MANA" Value="point(s) of Mana."/>
+		<Loc Key="UI_POINTS_OF_CASTING_SKILL" Value="point(s) of Casting Skill."/>
+		<Loc Key="UI_CREATE_ARTEFACT" Value="Create Artefact"/>
+		<Loc Key="UI_ENCHANT_ITEM" Value="Enchant Item"/>
+		<Loc Key="UI_SWORD" Value="Sword"/>
+		<Loc Key="UI_WAND" Value="Wand"/>
+		<Loc Key="UI_MACE" Value="Mace"/>
+		<Loc Key="UI_MISC" Value="Misc"/>
+		<Loc Key="UI_AXE" Value="Axe"/>
+		<Loc Key="UI_SHIELD" Value="Shield"/>
+		<Loc Key="UI_BOW" Value="Bow"/>
+		<Loc Key="UI_CHAIN" Value="Chainmail"/>
+		<Loc Key="UI_STAFF" Value="Staff"/>
+		<Loc Key="UI_PLATE" Value="Platemail"/>
+		<Loc Key="UI_COST" Value="Cost:"/>
+		<Loc Key="UI_ONLY_FOUR_POWERS_MAY_BE_ENCHANTED_INTO_AN_ITEM" Value="Only four powers may be enchanted into an item!"/>		
+		<Loc Key="UI_SHIFT_FAILED" Value="Shift Failed"/>
+		<Loc Key="UI_DESTINATION_INVALID" Value="Destination Invalid"/>
+		<Loc Key="UI_DESTINATION_OCCUPIED" Value="Destination Occupied"/>
+		<Loc Key="UI_DESTINATION_UNAVAILABLE" Value="Destination Unavailable"/>
+		<Loc Key="UI_TARGETING_FAILED" Value="Targeting Failed"/>
+		<Loc Key="UI_TARGET_UNAVAILABLE" Value="Target Unavailable"/>
+		<Loc Key="UI_LOADING_BATTLE" Value="Loading Battle..."/>
+		<Loc Key="UI_OPT_EN_ADVANCED" Value="Advanced"/>
+		<Loc Key="UI_OPT_EN_BEGINNER" Value="Beginner"/>
+		<Loc Key="UI_OPT_EN_SKILLED" Value="Skilled"/>
+		<Loc Key="UI_OPT_EN_MASTER" Value="Master"/>
+		<Loc Key="UI_OPT_EN_WEAK" Value="Weak - 0.5"/>
+		<Loc Key="UI_OPT_EN_NORMAL" Value="Normal - 1.0"/>
+		<Loc Key="UI_OPT_EN_POWERFUL" Value="Powerful - 1.5"/>
+		<Loc Key="UI_OPT_EN_MIGHTY" Value="Mighty - 2.0"/>
+		<Loc Key="UI_OPT_EN_OVERPOWERING" Value="Overpowering - 2.5"/>
+		<Loc Key="UI_BACK" Value="Back"/>
+		<Loc Key="UI_NEW_OUTPOST_FOUNDED" Value="New Outpost Founded"/>
+		<Loc Key="UI_ALL_TOWNS" Value="All Towns"/>
+		<Loc Key="UI_AMMO" Value="Ammo:"/>
+		<Loc Key="UI_CASTS" Value="casts"/>
+		<Loc Key="UI_MELEE2" Value="Melee Attack"/>
+		<Loc Key="UI_MELEE2_DES" Value="Represents the number of attack rolls each figure performs during a single melee attack action.\n\n{ICON:MeleeIconAdded} represents a bonus due to spells or special abilities.\n\n {ICON:MeleeIconMissing} represents a minus."/>
+		<Loc Key="UI_MELEE3_DES" Value="Represents the number of attack rolls each figure performs during a single melee attack action."/>
+		<Loc Key="UI_RANGED2" Value="Ranged Attack"/>
+		<Loc Key="UI_RANGED2_DES" Value="Represents the number of attack rolls each figure performs during a single ranged attack action.\n\n{ICON:RangedIconAdded} represents a bonus due to spells or special abilities.\n\n{ICON:RangedIconMissing} represents a minus."/>
+		<Loc Key="UI_RANGED3_DES" Value="Represents the number of attack rolls each figure performs during a single ranged attack action."/>
+		<Loc Key="UI_ARMOUR2" Value="Armour"/>
+		<Loc Key="UI_ARMOUR2_DES" Value="Represents the number of defence rolls each figure performs during a single defence action. Defence rolls are performed to reduce damage from melee and ranged attacks as well as some offensive spells.\n\n{ICON:ArmourIconAdded} represents a bonus due to spells or special abilities.\n\n {ICON:ArmourIconMissing} represents a minus."/>
+		<Loc Key="UI_ARMOUR3_DES" Value="Represents the number of defence rolls each figure performs during a single defence action. Defence rolls are performed to reduce damage from melee and ranged attacks as well as some offensive spells."/>
+		<Loc Key="UI_RESIST2" Value="Resistance"/>
+		<Loc Key="UI_RESIST2_DES" Value="Represents the ability to withstand ill effects of enemy attacks and spells. Each point increases the chance to resist such effects by 10%.\n\n{ICON:ResistanceIconAdded} represents a bonus due to spells or special abilities.\n\n {ICON:ResistanceIconMissing} represents a minus."/>
+		<Loc Key="UI_RESIST3_DES" Value="Represents the ability to withstand ill effects of enemy attacks and spells. Each point increases the chance to resist such effects by 10%."/>
+		<Loc Key="UI_FIGURES2" Value="Number of Figures"/>
+		<Loc Key="UI_FIGURES2_DES" Value="Represents the number of individual characters or entities that form the unit. Any missing figures will reduce the combat effectiveness of the unit.\n\n{ICON:FigureIconMissing} represents missing figures.\n\nMissing figures will gradually recover between overland turns."/>
+		<Loc Key="UI_FIGURES3_DES" Value="Represents the number of individual characters or entities that form the unit. Any missing figures will reduce the combat effectiveness of the unit."/>
+		<Loc Key="UI_HITS2" Value="Hits per Figure"/>
+		<Loc Key="UI_HITS2_DES" Value="Represents the number of hits each figure can take before being killed or destroyed. Damage is assigned to the top figure.\n\n{ICON:HitIconAdded} represents a bonus due to spells or special abilities - all figures have their Hit Points increased.\n\n{ICON:HitIconMissing} represents a point of damage taken by the top figure.\n\nMost units recover Hit Points gradually between overland turns or they can be healed using spells or other effects."/>
+		<Loc Key="UI_HITS3_DES" Value="Represents the number of hits each figure can take before being killed or destroyed. "/>
+		<Loc Key="UI_AMMO2" Value="Ammunition"/>
+		<Loc Key="UI_AMMO2_DES" Value="Indicates how many shots can be fired by the unit (this also applies to units with ranged magical attacks).\nOnce the Ammunition is depleted, the unit can only perform melee attacks."/>
+		<Loc Key="UI_MANA2" Value="Mana"/>
+		<Loc Key="UI_MANA2_DES" Value="The current Mana, note that your Casting Skill{ICON:CastingSkillIcon} may limit how much you may use in combat."/>
+		<Loc Key="UI_MOVEMENT2" Value="Movement"/>
+		<Loc Key="UI_MOVEMENT2_DES" Value="The number of movement points that can be spent on travel through overland map tiles each turn but also the number of action points during battle.\n\n{ICON:MovementWalkingIcon} Ground Movement\n\n{ICON:MovementSwimmingIcon} Water Movement \n\n{ICON:MovementFlyingIcon} Air Movement"/>
+		<Loc Key="UI_MOVEMENT3_DES" Value="The number of movement points that can be spent on travel through overland map tiles each turn but also the number of action points during battle."/>
+		<Loc Key="UI_UPKEEP2" Value="Upkeep"/>
+		<Loc Key="UI_UPKEEP2_DES" Value="Indicates the maintenance cost of the unit in Gold {ICON:GoldIcon}, Food {ICON:FoodIcon} and/or Mana {ICON:ManaIcon} each turn. If the cost cannot be paid, the unit will be disbanded."/>
+		<Loc Key="UI_TOTAL_HEALTH" Value="Total Unit Health"/>
+		<Loc Key="UI_TOTAL_HEALTH_DES" Value="Shows the percentage health of the entire unit."/>
+		<Loc Key="UI_CASTING_SKILL2_DES" Value="Indicates the maximum cost of spells that can be cast by you during this combat. It also influences how much maximum Mana{ICON:ManaIcon} you may add to a spells' power (for spells that can be boosted)."/>
+		<Loc Key="UI_CASTING_SKILL3_DES" Value="On the overland map, Casting Skill indicates how much maximum Mana can be spent for spellcasting each turn.\n\nIn combat, it determines the maximum casting cost and Mana pool you may use during an entire battle."/>
+		<Loc Key="UI_CASTING_SKILL_PROGRESS" Value="Casting Skill Progress"/>
+		<Loc Key="UI_CASTING_SKILL_PROGRESS_DES" Value="Each new point of Casting Skill costs your current Casting Skill x2.\n\nOnce the progress bar fills up, you will gain +1 Casting Skill.\n\nTo improve your Casting Skill, invest Power points into Casting Skill improvement (red vial)."/>
+		<Loc Key="UI_CASTING_RANGE" Value="Casting Range"/>
+		<Loc Key="UI_CASTING_RANGE_DES" Value="A multiplier that affects the Mana cost of your spells in battle. The farther away the combat is from the Wizard fortress, the greater the multiplier."/>
+		<Loc Key="UI_SAVE_GAME" Value="Save Game"/>
+		<Loc Key="UI_LOAD_GAME" Value="Load Game"/>
+		<Loc Key="UI_QUIT_TO_MENU" Value="Quit To Menu"/>
+		<Loc Key="UI_QUIT_GAME" Value="Quit Game"/>
+		<Loc Key="UI_THE_ARMIES_OF" Value="The Armies of "/>
+		<Loc Key="UI_BASE_VALUE" Value="Base Value"/>
+		<Loc Key="UI_TOTAL_VALUE" Value="Total Value"/>
+		<Loc Key="UI_A_MERCHANT_ARRIVES" Value="A merchant arrives and offers a magic {0} for sale. The price is only {1} Gold pieces."/>
+		<Loc Key="UI_GOLD_INCOME" Value="Gold"/>
+		<Loc Key="UI_GOLD_INCOME_DES" Value="Shows your current Gold reserve and income per turn. If Gold reserve falls below 0, units will be disbanded to reduce expenditure."/>
+		<Loc Key="UI_MANA_INCOME" Value="Mana"/>
+		<Loc Key="UI_MANA_INCOME_DES" Value="Shows your current Mana reserve and income per turn. If Mana reserve falls below 0, units will be disbanded to reduce expenditure."/>
+		<Loc Key="UI_FOOD" Value="Food"/>
+		<Loc Key="UI_FOOD_DES" Value="Needed to sustain your citizens and normal units."/>
+		<Loc Key="UI_FOOD_INCOME" Value="Food produced/consumed"/>
+		<Loc Key="UI_FOOD_INCOME_DES" Value="Used to feed your armies. If Food supply falls below 0, units will be disbanded. Excess is not stockpiled - each 2 surplus Food is turned into 1 Gold at the end of turn."/>
+		<Loc Key="UI_FOOD_INCOME2_DES" Value="Food is used to feed the town's population as well as your armies. It is not stockpiled.\n\nIf Food supply does not meet demand, the town will starve and its population will decrease.\nEach 2 surplus Food is always turned into 1 Gold {ICON:GoldIcon}"/>
+		<Loc Key="UI_FAME" Value="Fame"/>
+		<Loc Key="UI_FAME_DES" Value="Fame is your reputation. Heroes are more likely to join famous Wizards and merchants are more likely to offer artefacts to them. Fame also decreases troop maintenance cost by 1 Gold for each point of Fame."/>
+		<Loc Key="UI_GOLD" Value="Gold"/>
+		<Loc Key="UI_GOLD_DES" Value="Used for unit upkeep, purchasing new units or buildings, hiring heroes. Fame reduces unit upkeep cost."/>
+		<Loc Key="UI_GOLD_PER_TURN" Value="Gold per turn"/>
+		<Loc Key="UI_GOLD_DETAILS_FOOD" Value="Food to Gold"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_RESOURCES" Value="Towns - Resources"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_TAXES" Value="Towns - Taxes"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_UPKEEP" Value="Towns - Upkeep"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_PRODUCTION" Value="Towns - Production"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_INCOME" Value="Towns - Other Income"/>
+		<Loc Key="UI_GOLD_DETAILS_UNITS_UPKEEP" Value="Units - Upkeep"/>
+		<Loc Key="UI_GOLD_DETAILS_UNITS_UPKEEP_FAME" Value="Fame - Unit Upkeep"/>
+		<Loc Key="UI_GOLD_DETAILS_UNITS_INCOME" Value="Units - Income"/>
+		<Loc Key="UI_GOLD_DETAILS_ROAD_NETWORK" Value="Road Network - Income"/>
+		<Loc Key="UI_FOOD_DETAILS_TOWN_INCOME" Value="Towns - Other Income"/>		
+		<Loc Key="UI_FOOD_DETAILS_UNITS_INCOME" Value="Units - Income"/>
+		<Loc Key="UI_FOOD_DETAILS_UNITS_UPKEEP" Value="Upkeep"/>
+		<Loc Key="UI_FOOD_DETAILS_CHEAT" Value="Cheat"/>
+		<Loc Key="UI_MANA_DETAILS_POWER" Value="From power"/>
+		<Loc Key="UI_MANA_DETAILS_INCOME_BONUS" Value="Bonus"/>
+		<Loc Key="UI_MANA_DETAILS_TOWN_UPKEEP" Value="Towns - Upkeep"/>
+		<Loc Key="UI_MANA_DETAILS_TOWN_INCOME" Value="Towns - Income"/>
+		<Loc Key="UI_MANA_DETAILS_UNITS_UPKEEP" Value="Units - Upkeep"/>		
+		<Loc Key="UI_MANA_DETAILS_UNITS_INCOME" Value="Units - Income"/>
+		<Loc Key="UI_MANA_CHANNELER_DISCOUNT" Value="Channeler discount"/>
+		<Loc Key="UI_MANA_CONJUER_DISCOUNT" Value="Conjurer discount"/>
+		<Loc Key="UI_MANA_NATURE_SUMMONER_DISCOUNT" Value="Nature Summoner discount"/>
+		<Loc Key="UI_MANA_DETAILS_ENCHANTMENTS" Value="Enchantments"/>
+		<Loc Key="UI_MANA_DETAILS_CHEAT" Value="Cheat"/>
+		<Loc Key="UI_MANA_DETAILS_ENCHANTMENTS_DISCOUNT" Value="Enchantments discount"/>
+		<Loc Key="UI_POWER_DETAILS_TOWN_INCOME" Value="Towns - Income"/>
+		<Loc Key="UI_POWER_DETAILS_NODE_INCOME" Value="Nodes - Income"/>
+		<Loc Key="UI_POWER_DETAILS_VOLCANO_INCOME" Value="Volcano - Income"/>
+		<Loc Key="UI_POWER_DETAILS_CHEAT" Value="Cheat"/>
+		<Loc Key="UI_RESEARCH_DETAILS_POWER" Value="Power"/>
+		<Loc Key="UI_RESEARCH_DETAILS_SAGE_MASTERY" Value="Sage Mastery - Income"/>
+		<Loc Key="UI_RESEARCH_DETAILS_TOWN_INCOME" Value="Towns - Income"/>
+		<Loc Key="UI_RESEARCH_DETAILS_UNITS_INCOME" Value="Units - Income"/>
+		<Loc Key="UI_RESEARCH_DETAILS_CHEAT" Value="Cheat"/>
+		<Loc Key="UI_PRODUCTION" Value="Production"/>
+		<Loc Key="UI_PRODUCTION_DES" Value="Production points are used to construct buildings and train units. The more production points your citizens produce, the quicker construction will progress."/>
+		<Loc Key="UI_PRODUCTION2_DES" Value="Used to construct buildings and train units."/>
+		<Loc Key="UI_PRODUCTION_PER_TURN" Value="Production per turn"/>
+		<Loc Key="UI_SUMMONING_LOCATION" Value="Summoning Location"/>
+		<Loc Key="UI_SUMMONING_LOCATION_DES" Value="This is where your Summoning Circle is located, and where summoned units will appear.\n\nThe location of your Summoning Circle can be changed by casting the Summoning Circle spell."/>
+		<Loc Key="UI_CURRENTLY_CASTING" Value="Currently Casting"/>
+		<Loc Key="UI_CURRENTLY_CASTING_DES" Value="Shows the spell that is currently being cast. Depending on your Casting Skill and Mana cost of the chosen spell, casting may take more than 1 turn. You will be notified when the spell is ready."/>
+		<Loc Key="UI_CURRENTLY_RESEARCHING" Value="Currently Researching"/>
+		<Loc Key="UI_CURRENTLY_RESEARCHING_DES" Value="Shows your current research focus. Research speed depends directly on Research Points, which are generated by assigning Power points to Research (green vial)."/>
+		<Loc Key="UI_VALUE" Value="Value:"/>
+		<Loc Key="UI_SET_AMOUNT" Value="Set Amount"/>
+		<Loc Key="UI_SELECT_A_UNIT_OR_BUILDING" Value="Select a building from the left column or a unit from the right column to view details."/>
+		<Loc Key="UI_POPULATION" Value="Population"/>
+		<Loc Key="UI_POPULATION_DES" Value="The number of people inhabiting this city and it's growth per turn.\n\nEach 1000 can be assigned a job of a farmer or a worker on the Citizens panel.\n\nMax Population shown is the starting max and can be modified by various factors, like spells or buildings."/>
+		<Loc Key="UI_UNREST" Value="Unrest"/>
+		<Loc Key="UI_UNREST_DES" Value="The percentage of unrest in this city, it takes into account global unrest, as well as any other modifications. Unrest generates Rebels.\n\nUnrest is modified by the tax rate, racial tensions (based on the location of your Fortress), persistent enchantments and garrisoned units."/>
+		<Loc Key="UI_CITIZENS_DES" Value="The number of citizens is based on population (1 for each 1000). Citizens by default are farmers that farm Food {ICON:FoodIcon} but can be assigned a job of a worker to increase production {ICON:ProductionIcon}. Unrest may also cause citizens to become rebels who refuse to work and do not produce anything."/>
+		<Loc Key="UI_INCOME_FROM_TAXES" Value="Income from Taxes"/>
+		<Loc Key="UI_INCOME_FROM_TAXES_DES" Value="{COLOR:#910D0D}The Tax Rate is set for ALL of your cities.{END_COLOR}\n\nThis is the total amount of Gold you receive from taxes from all your towns per turn.\nIncome is based on tax rate and number of citizens. Higher taxes increase global unrest."/>
+		<Loc Key="UI_GLOBAL_UNREST" Value="Global Unrest"/>
+		<Loc Key="UI_GLOBAL_UNREST_DES" Value="Shows the percentage of townsfolk unhappy with the current tax rate (this is added to the individual town's unrest calculations)."/>
+		<Loc Key="UI_ON" Value="on"/>
+		<Loc Key="UI_BELONGING_TO" Value="belonging to"/>
+		<Loc Key="UI_ITEM_PAY_TO_TRANSFER" Value="To send this item to the chosen hero, you need to use your magic powers.\nThe cost is:"/>
+		<Loc Key="UI_YOUR_MANA_RESERVE_IS" Value="Your Mana reserve is:"/>
+		<Loc Key="UI_YOU_DO_NOT_HAVE_ENOUGH_MANA" Value="You do not have enough Mana!"/>
+		<Loc Key="UI_CASTING_SPELL_BLAST_INFO" Value="To counter this spell, you must pay as much mana as the casting wizard already has invested into it."/>
+		<Loc Key="UI_EQUIP_ARTEFACTS" Value="Equip Artefacts"/>
+		<Loc Key="UI_QUIT_WITH_SAVE" Value="Save &amp; Quit"/>
+		<Loc Key="UI_QUIT_WITHOUT_SAVE" Value="Quit without saving"/>
+		<Loc Key="UI_QUIT_GAME_DESCRIPTION" Value="Do you want to save your game?"/>
+		<Loc Key="UI_SAVE" Value="Save"/>
+		<Loc Key="UI_ENTER_SAVE_NAME" Value="Enter Save Name"/>
+		<Loc Key="UI_LOAD" Value="Load"/>
+		<Loc Key="UI_UNKNOWN_COST" Value="???"/>
+		<Loc Key="UI_SPECIAL" Value="???"/>
+		<Loc Key="UI_BONUSES" Value="Bonuses"/>
+		<Loc Key="UI_SPELLS" Value="Spells"/>
+		<Loc Key="UI_LIFE" Value="Life"/>
+		<Loc Key="UI_DEATH" Value="Death"/>
+		<Loc Key="UI_NATURE" Value="Nature"/>
+		<Loc Key="UI_SORCERY" Value="Sorcery"/>
+		<Loc Key="UI_CHAOS" Value="Chaos"/>
+		<Loc Key="UI_REQUIRED" Value="Required"/>
+		<Loc Key="UI_ENTER_NAME_ERROR" Value="Please enter a Wizard name."/>
+		<Loc Key="UI_NAME_AND_PORTRAIT" Value="Portrait and Name"/>
+		<Loc Key="UI_NAME" Value="Name:"/>
+		<Loc Key="UI_NEXT" Value="Next"/>
+		<Loc Key="UI_TRAITS_AND_MAGIC" Value="Traits and Magic Spellbooks"/>
+		<Loc Key="UI_PICKS" Value="Picks:"/>
+		<Loc Key="UI_SPELLS_TO_PICK" Value="Spells to pick:"/>
+		<Loc Key="UI_COMMON" Value="Common:"/>
+		<Loc Key="UI_COMMON2" Value="Common"/>
+		<Loc Key="UI_UNCOMMON" Value="Uncommon:"/>
+		<Loc Key="UI_UNCOMMON2" Value="Uncommon"/>
+		<Loc Key="UI_RARE" Value="Rare:"/>
+		<Loc Key="UI_RARE2" Value="Rare"/>
+		<Loc Key="UI_VERYRARE" Value="Very Rare"/>
+		<Loc Key="UI_ENCHANTMENTS_YOU_CONTROL" Value="Enchantments You Control"/>
+		<Loc Key="UI_NO_INFORMATION_AVAILABLE" Value="No Information Available"/>
+		<Loc Key="UI_UNITS_DISBANDED" Value="Units Disbanded"/>
+		<Loc Key="UI_UNITS_DISBANDED_DES" Value="Master, I have sad news! Some units deserted from your army because of Gold, Food or Mana shortages!"/>
+		<Loc Key="UI_THE_CITIES_OF" Value="The Cities of {0}"/>
+		<Loc Key="UI_GO_TO_CITY" Value="Go To City"/>
+		<Loc Key="UI_START_EVENT" Value="Start Event"/>
+		<Loc Key="UI_START_SCRIPT" Value="Start Script"/>
+		<Loc Key="UI_INVALID_TARGET" Value="Invalid Target"/>
+		<Loc Key="UI_USE_PICKS_ERROR" Value="You need to use all your picks to proceed"/>		
+		<Loc Key="UI_LIFE_AND_DEATH_ERROR" Value="You can not select both Life and Death magic"/>
+		<Loc Key="UI_SELECT_MORE_SPELLS" Value="You need to select more spells for this realm."/>
+		<Loc Key="UI_HISTORY" Value="History"/>
+		<Loc Key="UI_MIRROR" Value="Mirror"/>
+		<Loc Key="UI_TRAITS" Value="Traits"/>
+		<Loc Key="UI_TRAITS_DES" Value="Special abilities of the wizard. New traits can be acquired from clearing out very difficult locations.\n\nThe number of traits is limited to 6."/>
+		<Loc Key="UI_WEALTH" Value="Wealth"/>
+		<Loc Key="UI_ARMY_STAT" Value="Army Strength"/>
+		<Loc Key="UI_RESEARCH_STAT" Value="Research"/>
+		<Loc Key="UI_MAGIC_STAT" Value="Magic Power"/>
+		<Loc Key="UI_TOWNS_STAT" Value="Number of Towns"/>
+		<Loc Key="UI_TIME" Value="Time"/>
+		<Loc Key="UI_HISTORY_OF_WIZARDS_POWER" Value="History of a Wizard's power"/>
+		<Loc Key="UI_HELP_MYRRAN_RACES" Value="Myrran Races"/>
+		<Loc Key="UI_HELP_MYRRAN_RACES_DES" Value="Myrran Races can only be selected if the Wizard has the Myrran trait."/>
+		<Loc Key="UI_VERSUS" Value="VS."/>
+		<Loc Key="UI_SEND_FAMILIAR" Value="Send Familiar"/>
+		<Loc Key="UI_COMMAND_PERSONALLY" Value="Command Personally"/>
+		<Loc Key="UI_COMBAT_TEXT1" Value="Familiar says: &quot;Master, if you let me command your troops, these are the outcomes I predict:&quot;"/>
+		<Loc Key="UI_COMBAT_TEXT2" Value="Do you want to take command personally, leave it to your familiar or perhaps not engage at all?"/>
+		<Loc Key="UI_COMBAT_TEXT3" Value="Allow your familiar to use Mana {ICON:ManaIcon} to increase your chance of victory."/>
+		<Loc Key="UI_DRAW" Value="Draw!"/>
+		<Loc Key="UI_RETREAT" Value="Retreat!"/>
+		<Loc Key="UI_INDEPENDENT" Value="Independent"/>
+		<Loc Key="UI_ENCHANTMENTS" Value="Enchantments"/>
+		<Loc Key="UI_YES" Value="Yes"/>
+		<Loc Key="UI_NO" Value="No"/>
+		<Loc Key="UI_CAN_BE_DISPELLED" Value="Can be dispelled"/>
+		<Loc Key="UI_DURATION" Value="Duration"/>
+		<Loc Key="UI_CONTROLLER" Value="Controller"/>
+		<Loc Key="UI_UPKEEP_COST" Value="Upkeep cost"/>
+		<Loc Key="UI_GLOBAL" Value="Global"/>
+		<Loc Key="UI_NORMAL_WEAPON" Value="Normal Weapon"/>
+		<Loc Key="UI_NORMAL_WEAPON_DES" Value="This unit is equipped with a normal weapon that provides no additional bonuses."/>
+		<Loc Key="UI_ENCHANTED_WEAPON" Value="Enchanted Weapon"/>
+		<Loc Key="UI_ENCHANTED_WEAPON_DES" Value="This unit has an enchanted weapon from a spell or their special ability."/>
+		<Loc Key="UI_SKILLS" Value="Skills"/>
+		<Loc Key="UI_SKILLS_DES" Value="Skills are special abilities that give units a specific advantage."/>
+		<Loc Key="UI_ENCHANTMENTS_DES" Value="Enchantments are positive or negative effects applied with magical spells. Not all enchantments can be dispelled!"/>
+		<Loc Key="UI_BUILDING_CONSTRUCTED_IN" Value = "Building constructed in {0}"/>
+		<Loc Key="UI_BUILDING_DEMOLISHED_IN" Value = "Building demolished in {0}"/>
+		<Loc Key="UI_TURNS" Value = "{0} Turns"/>
+		<Loc Key="UI_FOOD_PRODUCTION_INCREASED_IN" Value = "Food production increased in {0}"/>
+		<Loc Key="UI_FOOD_PRODUCTION_DECREASED_IN" Value = "Food production decreased in {0}"/>
+		<Loc Key="UI_CITY_ACQUIRED" Value = "City acquired"/>
+		<Loc Key="UI_CITY_LOST" Value = "City lost"/>
+		<Loc Key="UI_FAME_INCREASED" Value = "Fame increased"/>
+		<Loc Key="UI_FAME_DECREASED" Value = "Fame decreased"/>
+		<Loc Key="UI_GOLD_GAINED" Value = "Gold gained"/>
+		<Loc Key="UI_GOLD_LOST" Value = "Gold lost"/>
+		<Loc Key="UI_MANA_GAINED" Value = "Mana gained"/>
+		<Loc Key="UI_MANA_LOST" Value = "Mana lost"/>
+		<Loc Key="UI_POPULATION_GAINED_IN" Value = "Population gained in {0}"/>
+		<Loc Key="UI_POPULATION_LOST_IN" Value = "Population lost in {0}"/>
+		<Loc Key="UI_POWER_INCREASED" Value = "Power increased in {0}"/>
+		<Loc Key="UI_POWER_DECREASED" Value = "Power decreased in {0}"/>
+		<Loc Key="UI_PRODUCTION_BOOST_IN " Value = "Production boost in {0}"/>
+		<Loc Key="UI_PRODUCTION_SETBACK_IN" Value = "Production setback in {0}"/>
+		<Loc Key="UI_UNREST_INCREASED_IN" Value="Unrest increased in {0}"/>
+		<Loc Key="UI_UNREST_DECREASED_IN" Value="Unrest decreased in {0}"/>
+		<Loc Key="UI_RESEARCH_BOOST" Value = "Research boost"/>
+		<Loc Key="UI_RESEARCH_SETBACK" Value = "Research setback"/>
+		<Loc Key="UI_ENCHANTMENT_APPLIED" Value = "Enchantment applied"/>
+		<Loc Key="UI_ENCHANTMENT_REMOVED" Value = "Enchantment removed"/>
+		<Loc Key="UI_SPELL_LEARNED" Value = "Spell learned"/>
+		<Loc Key="UI_SPELLBOOK_ACQUIRED" Value = "Spellbook acquired"/>
+		<Loc Key="UI_HERO_JOINED" Value = "Hero joined"/>
+		<Loc Key="UI_HERO_LEFT" Value = "Hero left"/>
+		<Loc Key="UI_ITEM_GAINED" Value = "Item gained"/>
+		<Loc Key="UI_ITEM_LOST" Value = "Item lost"/>
+		<Loc Key="UI_A_RESOURCE_HAS_BEEN_DISCOVERED_NEAR" Value = "Discovered near {0}"/>
+		<Loc Key="UI_A_RESOURCE_HAS_BEEN_DESTROYED_NEAR" Value = "Destroyed near {0}"/>
+		<Loc Key="UI_UNIT_RECRUITED" Value = "Unit recruited"/>
+		<Loc Key="UI_UNIT_DISBANDED" Value = "Unit disbanded"/>
+		<Loc Key="UI_TRAIT_GAINED" Value = "Trait gained"/>
+		<Loc Key="UI_HERO_ABILITIES_IMPROVED" Value = "Hero abilities improved"/>
+		<Loc Key="UI_HERO_ABILITIES_IMPAIRED" Value = "Hero abilities impaired"/>
+		<Loc Key="UI_UNIT_ABILITIES_IMPROVED" Value = "Unit abilities improved"/>
+		<Loc Key="UI_UNIT_ABILITIES_IMPAIRED" Value = "Unit abilities impaired"/>
+		<Loc Key="UI_UNIT_DIED" Value = "Unit Died"/>
+		<Loc Key="UI_HERO_DIED" Value = "Hero Died"/>
+		<Loc Key="UI_SAVE_OR_DISCARD" Value="You are leaving the editor. Do you wish to save your changes or discard them?"/>
+		<Loc Key="UI_DISCARD_AND_EXIT" Value="Discard and Exit"/>
+		<Loc Key="UI_SAVE_AND_EXIT" Value="Save and Exit"/>
+		<Loc Key="UI_STAY_AND_EDIT" Value="Stay and Edit"/>
+		<Loc Key="UI_GLOBAL_ENCHANTMENTS" Value="Global Enchantments"/>
+		<Loc Key="UI_CHANCE_TO_HIT" Value="Chance to Hit"/>
+		<Loc Key="UI_CHANCE_TO_HIT_MELEE" Value="Chance to Hit - Melee"/>
+		<Loc Key="UI_CHANCE_TO_HIT_MELEE_DES" Value="Represents the success chance of a single melee attack roll."/>
+		<Loc Key="UI_CHANCE_TO_HIT_RANGED" Value="Chance to Hit - Ranged"/>
+		<Loc Key="UI_CHANCE_TO_HIT_RANGED_DES" Value="Represents the success chance of a single ranged attack roll."/>
+		<Loc Key="UI_CHANCE_TO_DEFEND" Value="Chance to Defend"/>
+		<Loc Key="UI_CHANCE_TO_DEFEND_DES" Value="Represents the success chance of a single defence roll to prevent a single point of damage from an incoming conventional attack."/>
+		<Loc Key="UI_CHANCE_TO_RESIST" Value="Chance to Resist"/>
+		<Loc Key="UI_CHANCE_TO_RESIST_DES" Value="Represents the cumulative chance to resist ill effects of enemy attacks and spells."/>
+		<Loc Key="UI_REJECT" Value="Reject"/>
+		<Loc Key="UI_HIRE" Value="Hire"/>
+		<Loc Key="UI_INVALID_NEW_TOWN_LOCATION" Value="The location you have chosen for your new town is not valid.\n\n- The minimum distance between towns has to be {0} tiles, and\n\n- Towns cannot be built on water tiles."/>
+		<Loc Key="UI_MONEY_UPKEEP_FAILING" Value="You are running out of Gold. To keep your balance above 0, you may need to increase taxes, reassign workers and/or sell buildings and units.\n\nIf you continue, you will be forced to sell units and/or buildings. "/>
+		<Loc Key="UI_COMBAT_OUTCOMES" Value="Combat Outcomes"/>
+		<Loc Key="UI_COMBAT_OUTCOMES_DES" Value="Shows the possible battle outcomes and their likelihood - from total defeat to flawless victory. One roll will be made to determine the outcome."/>
+		<Loc Key="UI_SUMMONS_UNITS" Value="Summons Units:"/>
+		<Loc Key="UI_SAVE_SUCCESSFUL" Value = "Save Successful"/>
+		<Loc Key="UI_ERROR" Value = "Error"/>
+		<Loc Key="UI_SET_SAVE_NAME" Value = "Please enter a save name"/>
+		<Loc Key="UI_SPELLBOOKS" Value = "Spellbooks"/>
+		<Loc Key="UI_LIFE_SPELLBOOKS" Value = "Life Spellbooks"/>
+		<Loc Key="UI_DEATH_SPELLBOOKS" Value = "Death Spellbooks"/>
+		<Loc Key="UI_NATURE_SPELLBOOKS" Value = "Nature Spellbooks"/>
+		<Loc Key="UI_SORCERY_SPELLBOOKS" Value = "Sorcery Spellbooks"/>
+		<Loc Key="UI_CHAOS_SPELLBOOKS" Value = "Chaos Spellbooks"/>
+		<Loc Key="UI_ALL_SPELLBOOKS" Value = "All Spellbooks"/>
+		<Loc Key="UI_SETTLEMENT_CONQUERED" Value = "Master, you have conquered this settlement. Now, you can decide its fate!"/>
+		<Loc Key="UI_HAMLET_CONQUERED" Value = "Master, you have conquered this hamlet. Now, you can decide its fate!"/>
+		<Loc Key="UI_VILLAGE_CONQUERED" Value = "Master, you have conquered this village. Now, you can decide its fate!"/>
+		<Loc Key="UI_TOWN_CONQUERED" Value = "Master, you have conquered this town. Now, you can decide its fate!"/>
+		<Loc Key="UI_CITY_CONQUERED" Value = "Master, you have conquered this city. Now, you can decide its fate!"/>		
+		<Loc Key="UI_TOWN_CONQUERED2" Value = "What are your orders?"/>
+		<Loc Key="UI_RAZE_OUTCOME" Value = "{0} is destroyed."/>
+		<Loc Key="UI_KEEP_OUTCOME" Value = "{0} comes under your control."/>
+		<Loc Key="UI_RAZE_TOWN" Value = "Raze {0}"/>
+		<Loc Key="UI_KEEP_TOWN" Value = "Keep {0}"/>
+		<Loc Key="UI_RAZE" Value = "Raze"/>
+		<Loc Key="UI_KEEP" Value = "Keep"/>
+		<Loc Key="UI_NEARBY_RESOURCES" Value = "Nearby resources:"/>
+		<Loc Key="UI_OUTPOST_CONQUERED" Value = "Master, you have conquered this outpost. Unfortunately, it was destroyed during the skirmish."/>
+		<Loc Key="UI_HAS_LEVELED_UP" Value = "{0} has leveled up!"/>
+		<Loc Key="UI_CANNOT_BUILD_CITY_WATER" Value = "Towns cannot be built on water."/>
+		<Loc Key="UI_CANNOT_BUILD_CITY_LOCATION" Value = "Unsuitable town site - tile is occupied by another location."/>
+		<Loc Key="UI_CANNOT_BUILD_CITY_PROXIMITY" Value = "Unsuitable town site - there is an existing town within {0} tiles."/>
+		<Loc Key="UI_MAXIMUM_POPULATION" Value = "Maximum population:"/>
+		<Loc Key="UI_MAX" Value = "Max:"/>
+		<Loc Key="UI_PRODUCTION_BONUS" Value = "Production bonus:"/>
+		<Loc Key="UI_CHOOSE_SPELL_COST" Value = "Choose Spell Cost"/>
+		<Loc Key="UI_CONFIRM_DISBAND" Value = "Are you sure you want to disband this unit?"/>
+		<Loc Key="UI_DISBAND" Value = "Disband"/>
+		<Loc Key="UI_FAME_AWARDED" Value = "Your Fame increases by"/>
+		<Loc Key="UI_FAME_LOST" Value = "Your Fame decreases by"/>
+		<Loc Key="UI_COUNTER_MAGIC" Value = "Spell Countered"/>
+		<Loc Key="UI_SPELL_COUNTERED" Value = "Your spell has been countered by an existing enchantment."/>
+		<Loc Key="UI_UHH" Value = "Uhh..."/>
+		<Loc Key="UI_GAME_SAVED" Value = "Game Saved"/>
+		<Loc Key="UI_DISCARD" Value = "Discard"/>
+		<Loc Key="UI_DISCARD_SPELL_SURE" Value = "Are you sure you wish to discard this spell? The Mana you have paid for it will be lost."/>
+		<Loc Key="UI_NOTIFICATION_CONSTRUCTION_COMPLETE" Value = "Construction Complete"/>
+		<Loc Key="UI_NOTIFICATION_CONSTRUCTION_COMPLETE_DES" Value = "{0} has finished construction.\n{ICON:LMB} View town.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_SUMMON_COMPLETE" Value = "Summon Complete"/>
+		<Loc Key="UI_NOTIFICATION_SUMMON_COMPLETE_DES" Value = "You have finished summoning {0}.\n{ICON:LMB} View {0}.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_TOWN_LOST" Value = "Town Lost"/>
+		<Loc Key="UI_NOTIFICATION_TOWN_LOST_DES" Value = "You have lost {0}.\n{ICON:LMB} Show town.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_BLOCKED" Value = "Spell Blocked"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_BLOCKED_DES" Value = "One of your opponents tried attacking you with a spell but your protective enchantment has blocked the attempt.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_TOWN" Value = "Town Affected"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_TOWN_DES" Value = "An opponent has cast a spell on {0}.\n{ICON:LMB} Show town.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_UNIT" Value = "Unit Affected"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_UNIT_DES" Value = "An opponent has cast a spell on one of your units.\n{ICON:LMB} Show unit.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_RESEARCH_AVAILABLE" Value = "Research Available"/>
+		<Loc Key="UI_NOTIFICATION_RESEARCH_AVAILABLE_DES" Value = "You can start research on a new spell.\n{ICON:LMB} Open Research.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_OUTPOST_TO_TOWN" Value = "Outpost Expanded"/>
+		<Loc Key="UI_NOTIFICATION_OUTPOST_TO_TOWN_DES" Value = "Outpost {0} has grown big enough to turn into a Hamlet. You can now manage its production.\n{ICON:LMB} View town.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_CASTING_COMPLETE_DES" Value = "Your spell is ready.\n{ICON:LMB} Cast spell.\n{ICON:RMB} Dismiss."/>		
+		<Loc Key="UI_NOTIFICATION_CRAFTING_COMPLETE_DES" Value = "Your artefact is ready.\n{ICON:LMB} View.\n{ICON:RMB} Dismiss."/>	
+		<Loc Key="UI_NOTIFICATION_UNIT_LEVEL_UP_DES" Value = "Your {0} has leveled up.\n{ICON:LMB} View.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_STARVATION" Value = "Starvation"/>
+		<Loc Key="UI_NOTIFICATION_STARVATION_DES" Value = "Not enough Food is produced in {0} and its population is declining.\n{ICON:LMB} View.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_RAISED_UNDEAD" Value = "Undead Unit Raised"/>
+		<Loc Key="UI_NOTIFICATION_RAISED_UNDEAD_DES" Value = "{0} has been raised from the dead and joins your army!\n{ICON:LMB} View.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_QUEUE_COMPLETE" Value = "Queue Complete"/>
+		<Loc Key="UI_NOTIFICATION_QUEUE_COMPLETE_DES" Value = "Construction queue in {0} is empty, this town will now build Housing.\n{ICON:LMB} View town.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_BUTTON_GAME" Value = "Game Options ({0})"/>
+		<Loc Key="UI_BUTTON_GAME2" Value = "Game Options"/>
+		<Loc Key="UI_BUTTON_DIPLOMACY" Value = "Diplomacy ({0})"/>
+		<Loc Key="UI_BUTTON_DIPLOMACY2" Value = "Diplomacy"/>
+		<Loc Key="UI_BUTTON_MAGIC" Value = "Magic ({0})"/>
+		<Loc Key="UI_BUTTON_MAGIC2" Value = "Magic"/>
+		<Loc Key="UI_BUTTON_ARMIES" Value = "Armies ({0})"/>
+		<Loc Key="UI_BUTTON_ARMIES2" Value = "Armies"/>
+		<Loc Key="UI_BUTTON_CITIES" Value = "Cities ({0})"/>
+		<Loc Key="UI_BUTTON_CITIES2" Value = "Cities"/>
+		<Loc Key="UI_BUTTON_INFO" Value = "Wizard Info ({0})"/>
+		<Loc Key="UI_BUTTON_INFO2" Value = "Wizard Info"/>
+		<Loc Key="UI_BUTTON_ARCANUS" Value = "View Arcanus Plane ({0})"/>
+		<Loc Key="UI_BUTTON_MYRROR" Value = "View Myrror Plane ({0})"/>
+		<Loc Key="UI_BUTTON_SURVEYOR" Value = "Toggle Surveyor Mode ({0})"/>
+		<Loc Key="UI_SELL" Value = "Sell"/>
+		<Loc Key="UI_SELL_BUILDING_SURE" Value = "Are you sure you wish to sell this building for {ICON:GoldIcon}{0}?"/>
+		<Loc Key="UI_SELL_BUILDING_STOP_CRAFT" Value="If you sell this building it will cease the production of your {0}."/>
+		<Loc Key="UI_WELCOME" Value="Welcome, {0}"/>
+		<Loc Key="UI_WELCOME_DES" Value="I welcome you, oh great {0}!\nIf you could spare a moment of your time for your lowly servant, I would like to present you with the world manipulators I prepared for your arrival.\n\n(TURN ON TUTORIALS)"/>
+		<Loc Key="UI_CAN_NOT_SELL" Value="You can not sell your {0}."/>
+		<Loc Key="UI_CAN_NOT_SELL_DEPENDENCY" Value="You can not sell this building because your {0} depends on it."/>
+		<Loc Key="UI_CAN_NOT_SELL_ENCHANTMENT" Value="You can not sell this building because it is the result of an active enchantment."/>
+		<Loc Key="UI_CONFIRM_RAZE_FAME_COST" Value="Are you sure you wish to raze this town? It will cost {0} Fame."/>
+		<Loc Key="UI_CONFIRM_RAZE_OUTPOST" Value="Are you sure you wish to raze this outpost? Note that you will not regain the settler unit."/>
+		<Loc Key="UI_RELATIONS" Value="Relations"/>
+		<Loc Key="UI_TREATIES" Value="Treaties"/>
+		<Loc Key="UI_PERSONALITY" Value="Personality"/>
+		<Loc Key="UI_OBJECTIVE" Value="Objective"/>		
+		<Loc Key="UI_NO_UNKNOW_LOCATIONS" Value="There were no unknown locations within the range of the spell."/>		
+		<Loc Key="UI_INVALID_SPELL_TARGET" Value="This unit is not a valid target for the spell\n(The target could be immune to the type of spell cast or the effect is already present on the target)."/>
+		<Loc Key="UI_ENCH_INVALID_SPELL_TARGET_" Value="Only one copy of this enchantment is permitted on the target."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_BATTLE" Value="There is no target available for this spell."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_WIZARD" Value="There is no wizard that you can target with this spell."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_RAISE_DEAD" Value="There are no units that can be brought back from dead with this spell."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_ANIMATE_DEAD" Value="There are no units that can be brought back from dead with this spell."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_GLOBAL" Value="There are no units that can be affected by this spell."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_HEX" Value="This is not a valid location for this spell."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_HEX_OR_GLOBAL" Value="There is no target available for this spell or the selected location is invalid."/>
+		<Loc Key="UI_HERO_LIMIT" Value="Hero limit reached."/>
+		<Loc Key="UI_INFO" Value = "Info"/>
+		
+		<Loc Key="UI_SPECIAL_ACTIONS" Value="Special Actions"/>
+		<Loc Key="UI_BUILD_OUTPOST" Value="Build Outpost ({KEY_ACTION:UI_BUILD_OUTPOST2})"/>
+		<Loc Key="UI_BUILD_OUTPOST_DES" Value="Construct an Outpost which turns into a Hamlet after several turns. A unit with Settler skill is required to perform this action."/>
+		<Loc Key="UI_BUILD_ROAD" Value="Build Road ({KEY_ACTION:UI_BUILD_ROAD2})"/>
+		<Loc Key="UI_BUILD_ROAD_DES" Value="Roads decrease ground movement costs and increase revenue in connected towns. A unit with Engineer skill is required to perform this action."/>
+		<Loc Key="UI_INSTANT2" Value="(Instant)"/>
+		<Loc Key="UI_MELD_WITH_NODE" Value="Meld with Node ({KEY_ACTION:UI_MELD_WITH_NODE2})"/>
+		<Loc Key="UI_MELD_WITH_NODE_DES" Value="Attempt to gain control of the magic node. Your unit will be destroyed regardless of the melding being successful or not. A unit with Melder skill is required to perform this action."/>
+		<Loc Key="UI_UPGRADE_NODE" Value="Upgrade Node ({KEY_ACTION:UI_MELD_WITH_NODE2})"/>
+		<Loc Key="UI_CHANCE" Value="Chance:"/>
+		<Loc Key="UI_PURIFY" Value="Purify ({KEY_ACTION:UI_PURIFY2})"/>
+		<Loc Key="UI_PURIFY_DES" Value="Removes Corruption from this tile, returning it to its natural state. A unit with Purifier skill is required to perform this action."/>
+		<Loc Key="UI_HELD_BY" Value="Held by {0}"/>
+		
+		<Loc Key="UI_TOGGLE_GUARD" Value="Guard ({0})"/>
+		<Loc Key="UI_TOGGLE_GUARD_DES" Value="Order this army to guard. They will not prompt you for further orders until you retract the guard order or an enemy appears in their range of sight."/>
+		<Loc Key="UI_TOGGLE_SKIP" Value="Wait ({0})"/>
+		<Loc Key="UI_TOGGLE_SKIP_DES" Value="Order this army to wait for orders until the next turn."/>
+		<Loc Key="UI_BUTTON_BUILD" Value="Special Actions"/>
+		<Loc Key="UI_BUTTON_BUILD_DES" Value="Allows to perform a special action (building an outpost, building a road, melding with a node or puryfing a corrupted tile), provided that the army contains a unit capable of such action."/>
+		<Loc Key="UI_BUTTON_TRAVEL" Value="Travel"/>
+		<Loc Key="UI_BUTTON_TRAVEL_DES" Value="Allows the army to travel to another plane, provided that it possess the relevant ability."/>
+		<Loc Key="UI_TOOLTIP_CAPITAL" Value="Capital City"/>
+		<Loc Key="UI_TOOLTIP_CAPITAL_DES" Value="Your fortress is located in this city. If you lose it, you will be banished or defeated."/>
+		<Loc Key="UI_UNEXPLORED" Value="Unexplored"/>
+		<Loc Key="UI_FIGURES_DIED" Value="figure(s) died"/>
+		<Loc Key="UI_RECEIVED" Value="received"/>
+		<Loc Key="UI_UNIT_DESTROYED" Value="unit destroyed"/>
+		<Loc Key="UI_BUTTON_COMBAT_LOG" Value="Combat log ({0})"/>
+		<Loc Key="UI_COMBAT_LOG_DMG" Value="({0} dmg)"/>
+		<Loc Key="UI_COMBAT_LOG_NO_FIGURES" Value="(received {0})"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURE" Value="1 figure died (received {0})"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURES" Value="{1} figures died (received {0})"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURE_RESURRECTED" Value="{1} received {0} (1 figure resurrected)"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURES_RESURRECTED" Value="{2} received {0} ({1} figures resurrected)"/>
+		<Loc Key="UI_HP_GAINED" Value="{ICON:HitIconNormal}{0}"/>
+		<Loc Key="UI_HP_LOST" Value="{ICON:HitIconMissing}{0}"/>
+		<Loc Key="UI_VS" Value="VS"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT" Value="&lt;#{3}&gt;{0}&lt;/color&gt; cast {1} on &lt;#{4}&gt;{2}&lt;/color&gt; {5}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_BATTLEFIELD" Value="&lt;#{2}&gt;{0}&lt;/color&gt; cast {1} on the battlefield"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST" Value="&lt;#{2}&gt;{0}&lt;/color&gt; cast {1}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT2_VS" Value="&lt;#{3}&gt;{0}&lt;/color&gt; vs &lt;#{4}&gt;{2}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT2_FRIENDLY" Value="&lt;#{3}&gt;{0}&lt;/color&gt; aids &lt;#{4}&gt;{2}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT2" Value="&lt;#{3}&gt;{0}&lt;/color&gt; casts {1} on &lt;#{4}&gt;{2}'s &lt;/color&gt;units"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_BATTLEFIELD2" Value="&lt;#{2}&gt;{0}&lt;/color&gt; casts {1} on the battlefield"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST2" Value="&lt;#{2}&gt;{0}&lt;/color&gt; cast {1}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_COUNTERED" Value ="{0} has been countered"/>
+		<Loc Key="UI_COMBAT_LOG_TURN" Value="&lt;#{1}&gt;{0}'s&lt;/color&gt; turn"/>
+		<Loc Key="UI_COMBAT_LOG_WALL_DESTROYED" Value="A segment of city wall is destroyed"/>
+		<Loc Key="UI_COMBAT_LOG_WALL_ATTACK" Value="&lt;#{1}&gt;{0}'s&lt;/color&gt; attack the city walls"/>
+		<Loc Key="UI_COMBAT_LOG_DESTROYED" Value="&lt;#{1}&gt;{0}'s&lt;/color&gt; destroyed"/>
+		<Loc Key="UI_WIZARD_CASTS" Value="{0} casts"/>
+		<Loc Key="UI_BUTTON_RETREAT" Value="Flee"/>
+		<Loc Key="UI_BUTTON_AUTO_COMBAT" Value="Autocombat"/>
+		<Loc Key="UI_POWER_INCOME" Value="Power Income"/>
+		<Loc Key="UI_POWER_INCOME_DES" Value="Shows the Power production in this town.\n\nPower is used to generate Mana, research spells and increase Casting Skill.\n\nYou can adjust how your Power is assigned for each purpose on the Magic screen."/>
+		<Loc Key="UI_RESEARCH_INCOME" Value="Research Income"/>
+		<Loc Key="UI_RESEARCH_INCOME_DES" Value="Shows the Research production in this town."/>
+		<Loc Key="UI_GOLD_INCOME2" Value="Gold Income"/>
+		<Loc Key="UI_GOLD_INCOME2_DES" Value="Gold production of the town is derived mainly from taxes (therefore population growth will impact it).\n\nThe income can also be increased by trade goods, resources (minerals), buildings and some terrain types (shoreline and river)."/>
+		<Loc Key="UI_NO_RESOURCES" Value="No valuable resources nearby."/>
+		<Loc Key="UI_ENCHANTMENTS_ON_WORLD" Value="Enchantments On World"/>
+		<Loc Key="UI_ENCHANTMENTS_ON_YOU" Value="Enchantments On You"/>
+		<Loc Key="UI_ON_WORLD" Value="On World"/>
+		<Loc Key="UI_ON_YOU" Value="On You"/>
+		<Loc Key="UI_YOU_CONTROL" Value="You Control"/>
+		<Loc Key="UI_ALL_SPELLS" Value="All Spells"/>
+		<Loc Key="UI_LIFE_SPELLS" Value="Life Spells"/>
+		<Loc Key="UI_NATURE_SPELLS" Value="Nature Spells"/>
+		<Loc Key="UI_CHAOS_SPELLS" Value="Chaos Spells"/>
+		<Loc Key="UI_DEATH_SPELLS" Value="Death Spells"/>
+		<Loc Key="UI_SORCERY_SPELLS" Value="Sorcery Spells"/>
+		<Loc Key="UI_ARCANE_SPELLS" Value="Arcane Spells"/>
+		<Loc Key="UI_WORLD_SPELLS" Value="World Spells"/>
+		<Loc Key="UI_COMBAT_SPELLS" Value="Combat Spells"/>
+		<Loc Key="UI_HERO_RECRUIT" Value="This hero would like to join you in exchange for 100 {ICON:GoldIcon}"/>
+		<Loc Key="UI_HERO_JOIN" Value="Thank you for freeing me, I will happily join your cause, if that is your wish?"/>
+		<Loc Key="UI_JOIN" Value="Join"/>
+		<Loc Key="UI_RIVAL_WIZARD" Value="Rival Wizard"/>
+		<Loc Key="UI_CITY_RESOURCES" Value="City Resources"/>
+		<Loc Key="UI_SURVEYOR" Value="Surveyor"/>
+		<Loc Key="UI_BEGIN" Value="Begin"/>
+		<Loc Key="UI_DEFENDERS_NEEDED" Value="Defenders Needed"/>
+		<Loc Key="UI_RESET_TUTORIALS" Value="Reset Tutorials"/>
+		<Loc Key="UI_DISABLE_TUTORIALS" Value="Disable Tutorials"/>
+		<Loc Key="UI_DELETE_SAVE" Value="Delete Save"/>
+		<Loc Key="UI_DELETE_SAVE_DESCRIPTION" Value="Are you sure you want to delete this save file?"/>
+		<Loc Key="UI_UNKNOWN_TOWN_UNITS" Value="Defenders Unknown"/>
+		<Loc Key="UI_UNKNOWN_WIZARD" Value="Unknown"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT" Value="Casting Spells"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE1" Value="This book contains all spells that you have learned so far, oh Wise One."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE2" Value="It may be a lot of page flipping to find the spell you're looking for, but you can view spells from a specific domain, just use these bookmarks."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE3" Value="In order to cast a spell, first select it from the left page. If casting can be performed, you will see the Cast button here."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE4" Value="Some spells can only be cast while on the world map, others - only during combat. This is indicated here:"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE5" Value="Casting requires magical energy called Mana {ICON:ManaIcon}. Each spell costs Mana to cast and some effects need Mana each turn for upkeep."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE6" Value="On the world map, casting time depends on your Casting Skill {ICON:CastingSkillIcon} - the higher the skill, the more Mana you can spend each turn. With a high enough skill, even some world spells can be cast instantly!"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE7" Value="In combat, casting is always instant, but your Casting Skill limits how much Mana you can spend during the entire encounter."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT" Value="Map Controls"/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE1A" Value="Thank you, your magnificence! I will only take a moment."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE1B" Value="Move the map with"/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE1C" Value="or {ICON:MMB}"/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE2A" Value="Left click to select a unit or location."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE2B" Value="Right click to move selected army on the map."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE3" Value="Each army will ask for orders every turn so if you want them to wait where they are, tell them to wait or guard."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE4A" Value="Double click on your city to view it and manage its production."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE4B" Value="Let's do that now, your Highness."/>
+		<Loc Key="UI_MAGIC_TUT" Value="Magic"/>
+		<Loc Key="UI_MAGIC_TUT_PAGE1" Value="This area lets you assign your Power points, view enchantments and use Alchemy to turn Mana into Gold and vice versa."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE2" Value="These vials, your Greatness, show what proportion of your Power {ICON:PowerIcon} is used for each purpose - increasing your Mana reserve {ICON:ManaIcon}, researching spells {ICON:ResearchIcon} or improving your Casting Skill {ICON:CastingSkillIcon}."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE3" Value="You may always adjust these proportions by clicking on the vials. Clicking on the padlock will lock the value in place."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE4" Value="Both you and your rivals will likely cast various enchantments, affecting units, towns, the world and yourselves. You can view them here."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE5" Value="Most enchantments that you control cost you Mana each turn to upkeep, but you can cancel them with the {ICON:ButtonCancel} button."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE6" Value="If you have a surplus of Gold or Mana, Alchemy allows you to turn one into the other."/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT" Value="Defenders Needed!"/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT_PAGE1" Value="Your Excellence, as your advisor I feel obligated to point out that some of your towns are not defended."/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT_PAGE2" Value="Even in peaceful times there may be bandits roaming around. If another army marches into an undefended town, it is immediately lost!"/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT_PAGE3" Value="Consider training a unit or summoning a magical creature to provide defence. Sometimes even a single unit, with the help of your powerful spells, can prevent a disaster."/>
+		<Loc Key="UI_OUTPOSTS_TUT" Value="Outposts"/>
+		<Loc Key="UI_OUTPOSTS_TUT_PAGE1" Value="Any newly found settlements are initially outposts and need some time to evolve to become a town. Until then, you cannot assign production orders."/>
+		<Loc Key="UI_OUTPOSTS_TUT_PAGE2" Value="How quickly an outpost becomes a town depends on terrain,  nearby resources and a bit of luck - the progress is shown here."/>
+		<Loc Key="UI_OUTPOSTS_TUT_PAGE3" Value="It is wise to keep some defences - undefended towns are easy prey for bandits and rival Wizards!"/>
+		<Loc Key="UI_PREBATTLE_TUT" Value="Battle"/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE1" Value="I see you're considering a skirmish, Master - excellent! Let me tell you what to expect."/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE2" Value="Your and your opponent's forces are shown here - you can view each unit's strength by hovering your wand over it."/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE3" Value="Here, you can see the odds that I think you, oh Greatest One, have in this battle."/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE4" Value="Consider your chances and decide what to do now - take command over your units personally, let me lead your forces (auto-combat) or do not engage."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT" Value="Researching Spells"/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE1" Value="Spells are an essential part of your fight for arcane supremacy - you are to become a Master of Magic, after all!"/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE2" Value="To expand your spell selection, you need to do research. The selection is limited to 8 spells but new ones will become available as you progress. "/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE3" Value="Remember, the Spell of Mastery is your final goal and it will only appear after you researched most of your other spells. Acquiring new Spellbooks will give you new spells to research."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE4" Value="Research takes time - how much, depends on the number of Research points {ICON:ResearchIcon} you produce and the spell's complexity. More powerful spells usually take longer."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE5" Value="Now, select a spell from the left page and you can see details on the right. Click the Research button to confirm. You will be notified when the work is complete."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT" Value="Town Management"/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE1" Value="This, your Excellence, is your glorious town. I will quickly show you around, if you allow."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE2" Value="Global Taxes and Unrest section lets you decide how high the taxes are for all towns. High taxes yield more Gold {ICON:GoldIcon}, but also more unrest {ICON:UnrestIcon}. Unhappy citizens turn into rebels and do not work."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE3" Value="This section shows all your towns, along with their current production, Gold {ICON:GoldIcon} they bring you, population {ICON:PopulationIcon} and unrest {ICON:UnrestIcon}."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE4" Value="Here you can find units that are currently stationed in this town. It's a good idea to keep some defenders. If your capital is conquered, you may lose it all!"/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE5" Value="The Citizens panel allows you to assign jobs to this town's population. Any non-rebelling citizen who is not a worker, will default to a farmer."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE6" Value="This section shows any resources in the town's catchment area. These resources provide various bonuses and are always good to have."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE7" Value="This panel shows you the construction queue of this town. Production speed depends on production points {ICON:ProductionIcon} generated by your citizens. You can also use Gold to speed things up."/>
+		<Loc Key="UI_CONSTRUCTION_TUT" Value="Construction"/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE1" Value="This place allows you to set up a construction queue for this town - pick from either buildings (on the left) or units (on the right)."/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE2A" Value="Hover your wand over a building or unit to learn more about its purpose or characteristics."/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE2B" Value="Click to add an item to the construction queue."/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE3" Value="Greyed out buildings and units have prerequisites - they require other structures to be present in the town before you can construct them."/>
+		<Loc Key="UI_OPT_ULTRALOW" Value="UltraLow"/>
+		<Loc Key="UI_OPT_HIGH" Value="High"/>
+		<Loc Key="UI_OPT_MEDIUM" Value="Medium"/>
+		<Loc Key="UI_OPT_LOW" Value="Low"/>
+		<Loc Key="UI_STOP_CASTING_TITLE" Value="Stop casting"/>
+		<Loc Key="UI_STOP_CASTING_DESC" Value="Are you sure you want to stop casting {0} and lose {1} invested Mana?"/>
+		<Loc Key="UI_STOP_CASTING" Value="Stop casting"/>
+		<Loc Key="UI_TILE_CORRUPTED" Value="Tile corrupted"/>
+		<Loc Key="UI_ROOM_ENEMYDEFEATED" Value="Enemy Defeated!"/>
+		<Loc Key="UI_ROOM_UNITSUMMONED" Value="{0} Summoned"/>
+		<Loc Key="UI_ROOM_SPELLRESEARCHED" Value="Spell Researched:"/>
+		<Loc Key="UI_ROOM_SPELLRESEARCHED2" Value="{0}"/>
+		<Loc Key="UI_ROOM_DEFEATBYWIZARD" Value = "Defeated by {0}"/>
+		<Loc Key="UI_ROOM_DEFEATBYNEUTRALS" Value = "Defeated by neutrals"/>
+		<Loc Key="UI_UNIT_MOVEMENT_PROMPT" Value = "Units are awaiting orders!"/>
+		<Loc Key="UI_SPELL_CAST_PROMPT" Value = "You have a spell ready!"/>
+		<Loc Key="UI_GROUND_MOVEMENT" Value = "Ground Movement"/>
+		<Loc Key="UI_GROUND_MOVEMENT_DES" Value = "Walking allows unit to move on ground tiles"/>
+		<Loc Key="UI_GROUND_ONLY_MOVEMENT" Value = "Ground Movement Only"/>
+		<Loc Key="UI_GROUND_ONLY_MOVEMENT_DES" Value = "This unit is not permitted to move over water tiles."/>
+		<Loc Key="UI_WATER_MOVEMENT" Value = "Water Movement"/>
+		<Loc Key="UI_WATER_MOVEMENT_DES" Value = "Swimming allows units to move over water tiles."/>
+		<Loc Key="UI_WATER_ONLY_MOVEMENT" Value = "Water Movement Only"/>
+		<Loc Key="UI_WATER_ONLY_MOVEMENT_DES" Value = "This unit is not permitted to move over ground tiles."/>
+		<Loc Key="UI_FLYING_MOVEMENT" Value = "Flying"/>
+		<Loc Key="UI_FLYING_MOVEMENT_DES" Value = "Flying units ignore terrain movement costs and may not be attacked in melee unless the attacking unit is flying or possesses a Breath Attack, Gaze Attack, or Thrown Attack. Ground units may still retaliate to a flying unit when attacked."/>
+		<Loc Key="UI_CITY_MANAGER_TUT" Value = "Town Manager"/>
+		<Loc Key="UI_CITY_MANAGER_TUT_PAGE1" Value = "Here you can view at a glance all towns that belong to you, my Master."/>
+		<Loc Key="UI_CITY_MANAGER_TUT_PAGE2" Value = "When you click on a town you can view its location in the world as well as any enchantments that affect it."/>
+		<Loc Key="UI_HERO_EQUIP_TUT" Value = "Equipping Artefacts"/>
+		<Loc Key="UI_HERO_EQUIP_TUT_PAGE1" Value = "Any artefacts (magical items) you create, acquire from searching ruins or lairs, or purchase from merchants, are stored here, in your Fortress' vault."/>
+		<Loc Key="UI_HERO_EQUIP_TUT_PAGE2" Value = "They can be equipped by heroes (if you employ any), provided that they have an equipment slot matching the type of the item. Simply drag and drop an item onto a hero to equip."/>
+		<Loc Key="UI_HERO_EQUIP_TUT_PAGE3" Value = "Any items that you deem not useful to you, can be either destroyed to gain Mana, or traded with rival Wizards."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT" Value = "Unit Information"/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE1" Value = "Here you can find detailed information about a particular unit."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE2" Value = "Its statistics, hit points, movement, upkeep and other details are shown on the centre panel."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE3" Value = "On the left you can check the unit's race, experience points, Spellbook (for casters) and equipped items (for heroes)."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE4" Value = "If you deem a unit's upkeep too expensive, you can disband it by pressing this button."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE5" Value = "And finally, in this area you can see special skills of the unit as well as any enchantments that affect them."/>
+		<Loc Key="UI_FANTASTIC_UNIT" Value = "Fantastic Unit"/>
+		<Loc Key="UI_FANTASTIC_UNIT_DES" Value = "This is a fantastic unit - one that has been summoned, created or transformed by magic. Fantastic units do not gain experience points, do not receive leadership bonuses from heroes and do not reduce unrest in towns like normal units do, but their attacks bypass other units' weapon immunity."/>
+		<Loc Key="UI_ARMY_MANAGER_TUT" Value = "Army Manager"/>
+		<Loc Key="UI_ARMY_MANAGER_TUT_PAGE1" Value = "Here you can view all armies that serve under your banner, hired heroes and unused magical items."/>
+		<Loc Key="UI_ARMY_MANAGER_TUT_PAGE2" Value = "Select an army to see where it is located in the world."/>
+		<Loc Key="UI_VIEW_ARMY" Value = "View Army"/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT" Value = "Mirror, Graph and Victory"/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE1" Value = "The Mirror shows the most important information about you, oh great Wizard."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE2" Value = "Traits, which are your special abilities, are displayed here. New traits can sometimes be acquired as treasure from clearing out very difficult locations."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE3" Value = "Your Spellbooks, which allow you to research and cast spells from their corresponding domains, are here. These too can be obtained from treasure."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE4" Value = "If you'd like to know how your power compares to rival Wizards, click the History button. You can only see the power of Wizards you have already met."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE5" Value = "The Victory section will show you your progress towards claiming the title of Master of Magic and thus - winning the game."/>
+		<Loc Key="UI_NO_VALID_TARGET" Value = "No Valid Target"/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET" Value = "There is no target available for this spell. You will need to dismiss the spell or change it to another if a valid target does not become available by the end of this turn."/>
+		<Loc Key="UI_AUTOSAVE" Value = "Autosave"/>
+		<Loc Key="UI_AUTOSAVE_FREQUENCY_OFF" Value = "Off"/>
+		<Loc Key="UI_AUTOSAVE_FREQUENCY_ONE" Value = "Every turn"/>
+		<Loc Key="UI_AUTOSAVE_FREQUENCY" Value = "Every {0} turns"/>
+		<Loc Key="UI_BATTLE_TUT" Value = "Battle"/>		
+		<Loc Key="UI_BATTLE_TUT_PAGE1" Value = "I see you have chosen to lead your troops personally, oh Great One. A few words of advice from me, if I may...?"/>		
+		<Loc Key="UI_BATTLE_TUT_PAGE2" Value = "Defending group is on the left and the attacking group is on the right. Defenders always go first and they win if they are not defeated within 50 turns."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE3" Value = "During your turn, you can issue orders to units you control in any order. Each unit has a limited number of actions ({ICON:MovementIcon}) that is used for both movement and attack."/>		
+		<Loc Key="UI_BATTLE_TUT_PAGE4" Value = "Wizards that participate in the battle can cast spells once per turn. You can do that too, provided you have enough Mana, spell power and the right spells, of course. Click this button to see your Spellbook."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE5" Value = "Sometimes enemy forces can be too strong and it may be wise to retreat rather than face death. Be warned that escaping may also result in heavy losses."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE6" Value = "If you need additional explanations about battle mechanics, look at the notes I've prepared for you."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE7" Value = "Oh, almost forgot - if you'd like to get detailed information about any unit, click on it with {ICON:LMB}.\n\nGood luck, Master!"/>
+		<Loc Key="UI_NOT_AVAILABLE" Value = "N/A"/>
+		<Loc Key="UI_DIFF_WIZARD_PICKS" Value = "Your Wizard Picks"/>
+		<Loc Key="UI_DIFF_WIZARD_PICKS_DES" Value = "How many points you can spend on Spellbooks and Wizard traits."/>
+		<Loc Key="UI_DIFF_STARTING_GOLD" Value = "Starting Gold"/>
+		<Loc Key="UI_DIFF_STARTING_GOLD_DES" Value = "How much Gold {ICON:GoldIcon} will you have at your disposal at the start of the game."/>
+		<Loc Key="UI_DIFF_AI_SKILL" Value = "AI Skill"/>
+		<Loc Key="UI_DIFF_AI_SKILL_DES" Value = "How well the computer-controlled players will make use of their available resources and how smart will they behave during battles.\n\nNote that on Skilled level, the AI will be very aggressive and may require a lot of bribing not to go to war immediately.\n\nOn Master lvl the enemy Wizards will begin the game with very poor relations to you and will likely declare war almost immediately! You may attempt bribery, but War will still be inevitable sooner rather than later."/>
+		<Loc Key="UI_DIFF_NEUTRAL_ARMIES" Value = "Neutral Armies"/>
+		<Loc Key="UI_DIFF_NEUTRAL_ARMIES_DES" Value = "Strength and spawning frequency of neutral armies roaming the world."/>
+		<Loc Key="UI_DIFF_LAIR_DEFENCE" Value = "Lair Defence"/>
+		<Loc Key="UI_DIFF_LAIR_DEFENCE_DES" Value = "Strength of neutral armies defending lairs."/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS" Value = "Special Events"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_DES" Value = "Special events that occur in the world, ranging from an earthquake to a random gift. Choose from:\nOld Original Unmodified - events like they were in the original game, with no player input.\nOriginal Updated - modified to give the player choices in the events.\nOriginal Updated and New events, created for the remake."/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_NONE" Value = "None"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_ORIGINAL" Value = "Old Original Unmodified"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_ORIGINAL_MODIFIED" Value = "Original Updated"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_ORIGINAL_AND_NEW" Value = "Updated and New events"/>
+		<Loc Key="UI_DIFF_MAGIC_INTENSITY" Value = "Magic Intensity"/>
+		<Loc Key="UI_DIFF_MAGIC_INTENSITY_DES" Value = "How much Power {ICON:PowerIcon} is gained for each controlled power node."/>
+		<Loc Key="UI_BATTLE_MP_TERRAIN_COSTS" Value = "Battle Movement Cost"/>
+		<Loc Key="UI_BATTLE_MP_TERRAIN_COSTS_DES" Value = "Set the maximum cost of movement over difficult terrain in battle."/>
+		<Loc Key="UI_ALL_TERRAIN_COST_1" Value = "All tiles cost 1"/>
+		<Loc Key="UI_MAX_COST_2" Value = "Maximum cost is 2"/>
+		<Loc Key="UI_FULL_TERRAIN_COST" Value = "Full cost"/>	
+		<Loc Key="UI_WORLD_SIZE" Value = "World Size"/>	
+		<Loc Key="UI_WORLD_SIZE_DES" Value = "Size of the Arcanus and Myrror planes.\n\nSmall planes - 1408 hexes\nMedium planes - 2080 hexes\nLarge planes - 2880 hexes"/>	
+		<Loc Key="UI_ADD_HERO" Value = "Add Starting Hero"/>	
+		<Loc Key="UI_ADD_HERO_DES" Value = "You will begin your game with the selected hero in your army."/>	
+		<Loc Key="UI_BSHAN" Value = "B'shan"/>
+		<Loc Key="UI_V_SMALL" Value = "Very Small"/>
+		<Loc Key="UI_SMALL" Value = "Small"/>
+		<Loc Key="UI_MEDIUM" Value = "Medium"/>
+		<Loc Key="UI_LARGE" Value = "Large"/>
+		<Loc Key="UI_INITIAL_ECONOMY" Value = "Initial Economy"/>	
+		<Loc Key="UI_INITIAL_ECONOMY_DES" Value = "On easy setting you will begin the game with a granary, shrine and a settler in your capital.\n\nOn medium setting you start with a granary and a settler.\n\nOn hard setting you start with no extras."/>	
+		<Loc Key="UI_EASY" Value="Easy"/>
+		<Loc Key="UI_NORMAL" Value="Normal"/>
+		<Loc Key="UI_HARD" Value="Hard"/>
+		<Loc Key="UI_AI_WIZARDS" Value="Number of AI wizards"/>
+		<Loc Key="UI_AI_WIZARDS_DES" Value="How many computer-controlled opponents will you face during the game."/>		
+		<Loc Key="UI_CURRENT_TURN" Value = "Current turn:"/>
+		<Loc Key="UI_JANUARY" Value = "January"/>
+		<Loc Key="UI_FEBRUARY" Value = "February"/>
+		<Loc Key="UI_MARCH" Value = "March"/>
+		<Loc Key="UI_APRIL" Value = "April"/>
+		<Loc Key="UI_MAY" Value = "May"/>
+		<Loc Key="UI_JUNE" Value = "June"/>
+		<Loc Key="UI_JULY" Value = "July"/>
+		<Loc Key="UI_AUGUST" Value = "August"/>
+		<Loc Key="UI_SEPTEMBER" Value = "September"/>
+		<Loc Key="UI_OCTOBER" Value = "October"/>
+		<Loc Key="UI_NOVEMBER" Value = "November"/>
+		<Loc Key="UI_DECEMBER" Value = "December"/>
+		<Loc Key="UI_STARVATION" Value = "Starvation!"/>
+		<Loc Key="UI_STARVATION2" Value = "Starvation"/>
+		<Loc Key="UI_STARVATION_DES" Value = "This town is using more Food than it is producing and its population is declining. Increase the Food production by assigning more people to farming or constructing buildings that produce Food."/>
+		<Loc Key="UI_HUD2_TUT" Value = "Other Useful Information"/>
+		<Loc Key="UI_HUD2_TUT_PAGE1" Value = "I see you have already found the End Turn button, Your Grace.\nBut there are still a few useful manipulators I wanted to bring to your attention."/>
+		<Loc Key="UI_HUD2_TUT_PAGE2" Value = "First, surveyor. This handy tool will tell you all about a tile you hover over. Press {ICON:Tab} to access it quickly."/>
+		<Loc Key="UI_HUD2_TUT_PAGE3" Value = "You should also know how to switch your view between Arcanus and Myrror. Press {ICON:P} or use this button, just mind it will be a while before your units can freely travel between planes."/>
+		<Loc Key="UI_HUD2_TUT_PAGE4" Value = "Your goal is to become the Master of Magic. To do that, you need to either eliminate rival Wizards or be the first to cast the Spell of Mastery."/>
+		<Loc Key="UI_HUD2_TUT_PAGE5" Value = "If you need more details about a particular item, just hover your wand above it or press {ICON:RMB}."/>
+		<Loc Key="UI_DISMISS_UNIT" Value = "Disband Unit"/>
+		<Loc Key="UI_DISMISS_UNIT_DES" Value = "Permanently removes this unit from your army."/>
+		<Loc Key="UI_HERO_EQUIPMENT" Value = "Hero's Equipment"/>
+		<Loc Key="UI_HERO_EQUIPMENT_DES" Value = "Allows to assign artefacts to this character."/>
+		<Loc Key="UI_SPELLBOOK" Value = "Spellbook"/>
+		<Loc Key="UI_SPELLBOOK_DES" Value = "View spells that this character can cast."/>
+		<Loc Key="DES_MOVEMENT_ALLOWANCE" Value = "Movement Allowance"/>
+		<Loc Key="DES_MOVEMENT_ALLOWANCE_DES" Value = "Used for movement, attacks and casting spells.\nMelee attack costs 50% of a unit's maximum {ICON:MovementIcon}.\nRanged attack costs 10 {ICON:MovementIcon} and casting a spell costs all of the remaining {ICON:MovementIcon}.\n\nAs long as the unit has at least 1 {ICON:MovementIcon}, it can perform an action."/>
+		<Loc Key="DES_BUTTON_WAIT" Value = "End Turn ({0})"/>
+		<Loc Key="DES_BUTTON_WAIT_DES" Value = "Skip any remaining actions for all your units and end your turn."/>
+		<Loc Key="DES_BUTTON_NEXT_UNIT" Value = "Next Unit ({0})"/>
+		<Loc Key="DES_BUTTON_NEXT_UNIT_DES" Value = "Select the next unit that still has movement allowance left."/>
+		<Loc Key="UI_BUTTON_MOVE" Value = "Continue Movement ({0})"/>
+		<Loc Key="UI_BUTTON_MOVE_DES" Value = "Order this army to carry on any previously planned movement."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT" Value = "Fortress Lost"/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE1" Value = "Misfortune, Master! Hostile forces have conquered your capital and destroyed your fortress and summoning circle!"/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE2" Value = "I can see you have already started casting the Spell of Return, which will build a new fortress in one of your remaining towns."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE3" Value = "In case you do not control any towns, you have 10 turns to conquer one or you will be defeated."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE4" Value = "If you need to generate Mana for the spell, use Alchemy, smash a magical item or try finding Mana crystals in loot."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE5" Value = "Remember - until you have your fortress back, you are not able to cast any other spells and you no longer collect Power and Research from your nodes and buildings."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE6" Value = "Best of luck, Master! Do not let this minor setback stop you on your way to victory!"/>
+		<Loc Key="UI_WIZARD_STARTED_SOM" Value = "{0} has started casting the Spell of Mastery!"/>
+		<Loc Key="UI_YOU_STARTED_SOM" Value = "You have started casting the Spell of Mastery!"/>
+		<Loc Key="UI_SPELLBOOKS_TOOLTIP_DES" Value = "Spellbooks allow you to research new spells from their domains. Additionally:\n- {INDENT:5%}Each Spellbook adds +1 Power {ICON:PowerIcon}{END_INDENT}\n- {INDENT:5%}Each starting Spellbooks adds +2 Casting Skill {ICON:CastingSkillIcon}{END_INDENT}\n- {INDENT:5%}Every Spellbook above the 6th adds +5% to the Research Points {ICON:ResearchIcon} invested into deciphering the spells of that domain, and also reduces their casting cost by -5%."/>
+		<Loc Key="UI_TOOLTIP_WORLD_SPELL" Value = "World Spell"/>
+		<Loc Key="UI_TOOLTIP_WORLD_SPELL_DES" Value = "Can be cast during your turn on the world map."/>
+		<Loc Key="UI_TOOLTIP_COMBAT_SPELL" Value = "Combat Spell"/>
+		<Loc Key="UI_TOOLTIP_COMBAT_SPELL_DES" Value = "This type of spell can be cast during combat and its effect does not persist when the combat ends."/>
+		<Loc Key="UI_CAST_SPELLS3" Value = "Cast Spells"/>
+		<Loc Key="UI_TOOLTIP_NATURE" Value = "Nature Spell"/>
+		<Loc Key="UI_TOOLTIP_LIFE" Value = "Life Spell"/>
+		<Loc Key="UI_TOOLTIP_DEATH" Value = "Death Spell"/>
+		<Loc Key="UI_TOOLTIP_CHAOS" Value = "Chaos Spell"/>
+		<Loc Key="UI_TOOLTIP_SORCERY" Value = "Sorcery Spell"/>
+		<Loc Key="UI_TOOLTIP_ARCANE" Value = "Arcane Spell"/>
+		<Loc Key="UI_TOOLTIP_SUMMON" Value = "Summon"/>
+		<Loc Key="UI_TOOLTIP_SUMMON_DES" Value = "Summons a unit that will follow your orders. On the world map, the unit will appear at the Summoning Circle's location, while in combat - nearby allied units."/>
+		<Loc Key="UI_TOOLTIP_ENCHANTMENT" Value = "Enchantment"/>
+		<Loc Key="UI_TOOLTIP_ENCHANTMENT_DES" Value = "Enchantments are lasting effects applied either to a specific target, or the world. When cast from the world map, they usually require Mana for upkeep, when cast in combat, the upkeep is not required, but the effect ends after the battle is concluded."/>
+		<Loc Key="UI_TOOLTIP_INSTANT" Value = "Instant"/>
+		<Loc Key="UI_TOOLTIP_INSTANT_DES" Value = "Instant spells resolve their effects immediately and require no upkeep."/>
+		<Loc Key="UI_TOOLTIP_CASTING_COST" Value = "Casting Cost"/>
+		<Loc Key="UI_TOOLTIP_CASTING_COST_DES" Value = "Mana {ICON:ManaIcon} cost to cast this spell. For spells that can be cast both from the world map and during combat, these costs are usually different, because battle spells' cost can be affected by the casting range {ICON:CastingRangeIcon} (the distance from the Wizard fortress)."/>
+		<Loc Key="UI_TOOLTIP_TARGET" Value = "Target"/>
+		<Loc Key="UI_TOOLTIP_TARGET_DES" Value = "Indicates who, or what is the spell usable on. Note: Occasionally, the target can have immunity to a particular spell type."/>
+		<Loc Key="UI_TOOLTIP_CASTING_TIME" Value = "Casting Time"/>
+		<Loc Key="UI_TOOLTIP_CASTING_TIME_DES" Value = "Shows how many turns it takes to complete casting of this spell. Casting time depends on your Casting Skill {ICON:CastingSkillIcon}, your current Mana{ICON:ManaIcon} reserves and the spell's complexity."/>
+		<Loc Key="UI_TOOLTIP_UPKEEP_COST" Value = "Upkeep Cost"/>
+		<Loc Key="UI_TOOLTIP_UPKEEP_COST_DES" Value = "Amount of Mana {ICON:ManaIcon} per turn needed to sustain the summoned unit or enchantment (Wizard Traits such as Channeler and Conjurer may affect this).\nIf the cost cannot be paid, the unit is dissolved or the enchantment cancelled."/>
+		<Loc Key="UI_TOOLTIP_COMMON_SPELL" Value = "Common Spell"/>
+		<Loc Key="UI_TOOLTIP_UNCOMMON_SPELL" Value = "Uncommon Spell"/>
+		<Loc Key="UI_TOOLTIP_RARE_SPELL" Value = "Rare Spell"/>
+		<Loc Key="UI_TOOLTIP_VRARE_SPELL" Value = "Very Rare Spell"/>
+		<Loc Key="UI_SCORE_MULTIPLIER2" Value = "Score Multiplier"/>
+		<Loc Key="UI_SCORE_MULTIPLIER_DES" Value = "When the game ends, your score will be multiplied by this value."/>
+		<Loc Key="UI_INSUFFICIENT_CASTING_SKILL" Value = "Insufficient {ICON:CastingSkillIcon}"/>
+		<Loc Key="UI_INSUFFICIENT_MANA" Value = "Insufficient {ICON:ManaIcon}"/>		
+		<Loc Key="UI_ISSUE_ENCOUNTERED" Value = "Error"/>
+		<Loc Key="UI_ISSUE_ENCOUNTERED_DES" Value = "A critical issue has been encountered. Further saves have been turned off to ensure previous, valid saves are not overriden. Try using F8 to send us a bug report if you like. Please restart the application before continuing (older saves will not work properly if you do not restart)."/>		
+		<Loc Key="UI_REPORT_A_BUG" Value = "Report a Bug"/>		
+		<Loc Key="UI_REPORT_A_BUG1" Value="Use this form to report a problem with the game. A screenshot of the game, the latest save file and log will be attached to this report along with your comment and will be sent to our bug tracker. We do not collect any personal information."/>
+		<Loc Key="UI_REPORT_A_BUG2" Value="Please describe your problem with as much detail as you can in the field below. If possible, include steps on how to reproduce, as these greatly improve the chance of being able to fix the problem."/>
+		<Loc Key="UI_REPORT_A_BUG3" Value="Thank you for taking the time to write this report!"/>
+		<Loc Key="UI_REPORT_A_BUG4" Value="- Love, MuHa Games team"/>
+		<Loc Key="UI_TITLE" Value="Title"/>
+		<Loc Key="UI_BUG_DESC_HERE" Value="Bug description goes here."/>
+		<Loc Key="UI_SEND" Value="Send"/>		
+		<Loc Key="UI_SELECT_CATEGORY" Value="Select Category"/>	
+		<Loc Key="UI_BUTTON_BUG_REPORT" Value="Report a Bug"/>	
+		<Loc Key="UI_BUTTON_BUG_REPORT2" Value="Report a Bug ({0})"/>	
+		<Loc Key="UI_EARTH_GATE_TARGET" Value="Earth Gate - Select Target Town"/>	
+		<Loc Key="UI_MANA_TRADE_DES" Value="Magical energy used to cast spells."/>	
+		<Loc Key="UI_FLEE" Value="Flee"/>	
+		<Loc Key="UI_VICTORY2" Value="Victory"/>
+		<Loc Key="UI_VICTORY_PROGRESS" Value="Victory Progress"/>
+		<Loc Key="UI_ELIMINATE_ALL_RIVALS" Value="Eliminate all rivals"/>
+		<Loc Key="UI_OR" Value="OR"/>
+		<Loc Key="UI_RESEARCH_AND_CAST_SOM" Value="Research and cast the Spell of Mastery"/>
+		<Loc Key="UI_PAUSE_MENU" Value="Pause Menu"/>
+		<Loc Key="UI_ALCHEMY_TUT" Value="Alchemy"/>
+		<Loc Key="UI_ALCHEMY_TUT_PAGE1" Value="If you are running out of Gold {ICON:GoldIcon} but have a surplus of Mana {ICON:ManaIcon} (or vice versa), why not turn one into the other?"/>
+		<Loc Key="UI_ALCHEMY_TUT_PAGE2" Value="Gold and Mana are needed to upkeep your buildings and units, running out of either of them means losses."/>
+		<Loc Key="UI_ALCHEMY_TUT_PAGE3" Value="Head over to your Magic panel and Transmute your surplus resource. It may not be a permanent solution, but will give you time to figure one out."/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_COST" Value="Research Cost"/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_COST_DES" Value="Number of research points required to complete this spell."/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_TIME" Value="Research Time"/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_TIME_DES" Value="Number of turns it will take to research this spell, based on the number of research points you produce each turn."/>
+		<Loc Key="UI_TOOLTIP_CASTING_SKILL_COST" Value="Casting Skill Cost"/>
+		<Loc Key="UI_TOOLTIP_CASTING_SKILL_COST_DES" Value="Indicates how much Casting Skill will be used to cast this spell."/>
+		<Loc Key="UI_GAME_OPTIONS" Value="Game Options"/>
+		<Loc Key="UI_OPT_CRASH" Value="Crash / freeze / softlock"/>
+		<Loc Key="UI_OPT_BUG" Value="Bug"/>
+		<Loc Key="UI_OPT_GAMEPLAY-BALANCE" Value="Gameplay - Balance"/>
+		<Loc Key="UI_OPT_GAMEPLAY-OTHER" Value="Gameplay - Other"/>
+		<Loc Key="UI_OPT_OTHER" Value="Other Issue"/>
+		<Loc Key="UI_SENDING" Value="Sending..."/>
+		<Loc Key="UI_NONE" Value="---"/>
+		<Loc Key="UI_SMASH_ARTEFACT" Value="Smash Artefact"/>
+		<Loc Key="UI_SMASH_ARTEFACT_DES" Value="Are you sure you want to destroy {0}?\n\n{1} {ICON:ManaIcon} will be added to your Mana pool."/>
+		<Loc Key="UI_NODE_TUT" Value="Magic Nodes"/>
+		<Loc Key="UI_NODE_TUT_PAGE1" Value="Master, we have found a power node! What are these, you ask?"/>
+		<Loc Key="UI_NODE_TUT_PAGE2" Value="Magic node is a place full of magical power. Whoever controls it, can tap into this Power and gain it for themselves."/>
+		<Loc Key="UI_NODE_TUT_PAGE3" Value="Nodes come in three varieties: Nature, Chaos and Sorcery, and are always protected by magical creatures and spell barriers of their domain."/>
+		<Loc Key="UI_NODE_TUT_PAGE4" Value="To conquer a neutral node, you first need to defeat its protectors and then perform a special action called melding."/>
+		<Loc Key="UI_NODE_TUT_PAGE5" Value="Only two creatures can meld - Magic Spirit and Guardian Spirit. These can be summoned with the appropriate spell."/>
+		<Loc Key="UI_NODE_TUT_PAGE6" Value="Be aware even a melded node can still be taken over by a rival Wizard's spirit."/>
+		<Loc Key="UI_PRESS_F8_TO_REPORT" Value="Press F8 to report a bug"/>
+		<Loc Key="UI_GO_TO_UNIT" Value="Go To Unit"/>
+		<Loc Key="UI_EARTH_GATE_NO_MP" Value="To use Earth Gate, each selected unit must have at least 1 movement point."/>
+		<Loc Key="UI_BUTTON_USE_EARTH_GATE" Value="Use Earth Gate"/>
+		<Loc Key="UI_BUTTON_USE_EARTH_GATE_DES" Value="Instantly teleport units to another town on the same plane with Earth Gate enchantment for the cost of 1 movement point."/>
+		<Loc Key="UI_EXP" Value="EXP"/> <!--experience points-->
+		<Loc Key="UI_EXPERIENCE" Value="Experience:"/>
+		<Loc Key="UI_CAPITAL_LOST1" Value="Misfortune, Master! Hostile forces have conquered your capital and destroyed your fortress and summoning circle!\n\nI can see you have already started casting the Spell of Return, which will let you build a new fortress in one of your remaining towns.\n\nIn case you do not control any towns, you have 10 turns to conquer one or you will be defeated."/>
+		<Loc Key="UI_CAPITAL_LOST2" Value="Until you have your fortress back, you are not able to generate Mana, perform research, increase your spell power or cast any other spells.\n\nIf you do not have enough Mana to complete the Spell of Return, use Alchemy, smash a magical item or try finding Mana crystals in lairs and ruins.\n\nBest of luck, Master! Do not let this minor setback stop you on your way to victory."/>
+		<Loc Key="UI_YOU_ARE_BANISHED" Value="Banished!"/>
+		<Loc Key="UI_YOU_ARE_BANISHED_DES" Value="You are banished and have lost all your towns! If you do fail to conquer or build another town before the time runs out, you will be defeated."/>
+		<Loc Key="DES_SAVE_WARNING" Value="Incompatible Save Warning"/>
+		<Loc Key="DES_SAVE_WARNING_DES" Value="This save file has been created with a different game version. It may not load correctly or you may experience issues when playing.\n\nSaved version: {0}\n\nCurrent version: {1}"/>
+		<Loc Key="UI_YOU_CAN_CAST_ONLY_ONCE_PER_TURN" Value="You can only cast spells once per round."/>
+		<Loc Key="UI_UNIT_YOU_CAN_CAST_ONLY_ONCE_PER_TURN" Value="This unit has used up all of their Movement Allowance {ICON:MovementIcon} and cannot cast a spell until their next turn."/>
+		<Loc Key="UI_SUMMONING_SPELLS" Value="Summoning Spells"/>
+		<Loc Key="UI_UNIT_SPELLS" Value="Unit Spells"/>
+		<Loc Key="UI_OTHER_SPELLS" Value="Other Spells"/>
+		<Loc Key="UI_BUTTON_BATTLE_HELP" Value="Help"/>
+		<Loc Key="UI_BATTLE_HELP" Value="Battle Help"/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS" Value="Casting Spells"/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS1" Value="To cast a spell, click the Spellbook button at the bottom centre of the HUD. If your army has any spellcasting units, you will have the choice to select them here."/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS2" Value="Casting spells during combat works a bit differently than on the overland map."/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS3" Value="{ICON:BulletPoint}{INDENT:5%}You have a single casting action each round.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}To cast a spell, you need to have enough Mana {ICON:ManaIcon} and Casting Skill {ICON:CastingSkillIcon}.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}The amount of Mana needed to cast a spell greatly depends on the casting range {ICON:CastingRangeIcon} - the distance of the battlefield from your fortress. The further away it is - the more expensive your spells become. Mana costs are paid from your personal Mana pool.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Casting Skill limits the total cost of spells you can cast during the battle. The Casting Skill cost equals the spell's base Mana cost (so not taking distance to fortress into account). The Casting Skill pool is replenished in every combat.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}If the spell is not countered or resisted, its effects are applied instantly.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Creatures summoned during combat are destroyed when the battle ends, and any enchantments applied to units are dispelled.{END_INDENT}"/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS" Value="Melee Attacks"/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS1" Value="Standing next to an enemy unit allows you to perform a melee attack. Normally, during a melee attack, the defending unit performs a counter attack at the same time meaning that units deal damage to each other simultanously (It is possible that both the attacker and the defender units are eliminated!)."/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS2" Value="Each type of attack has a particular initiative. Special attacks (such as Thrown or Fire Breath), may have a different initiative and assign their additional damage before or after the regular melee damage is dealt. Damage from a special attack may eliminate the enemy unit before it is able to retaliate."/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS3" Value="Flying units cannot be targeted with a walking or swimming unit's melee attack, unless the attacker possesses a certain special attack (Breath Attack, Thrown Attack or Gaze Attack). The melee unit, however, can perform a counter attack when attacked by a flying unit."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS" Value="Ranged Attacks"/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS1" Value="Units with Ranged Attack {ICON:RangedIconNormal} and available Ammunition {ICON:AmmoIcon} may perform a ranged attack on a target that is at least two tiles away. The target must be visible and not behind the Wall of Darkness. Ranged attacks do not provoke retaliation from the attacked unit. "/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS2" Value="Physical ranged attacks (such as missile {ICON:MissileIcon} or boulder {ICON:BoulderIcon}) become less effective with distance, suffering -10% Hit Chance {ICON:ToHitRangedBonusIcon} after each 3 tiles of distance."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS3" Value="Long range units, such as the Catapult or the Warship, suffer a maximum of -10% Hit Chance {ICON:ToHitRangedBonusIcon} due to distance."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS4" Value="Magical ranged attacks {ICON:LifeIcon} {ICON:DeathIcon} {ICON:NatureIcon} {ICON:ChaosIcon} {ICON:SorceryIcon} {ICON:TechIcon} do not suffer range penalties."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS5" Value="Most special attacks, such as Gaze Attacks or Breath Attacks, may not be delivered with a ranged attack. Touch Attacks will usually apply."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE" Value="Movement Allowance"/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE1" Value="Movement Allowance {ICON:MovementIcon} is based on the unit's Movement Points on the overland map. In combat, it is used for both movement and attacking."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE2" Value="The cost of ground movement {ICON:MovementWalkingIcon} depends on the tile that the unit tries to enter. Some terrains have a movement cost higher than 1. It is possible to enter a tile costing more than the unit's remaining Movement Allowance {ICON:MovementIcon} if that movement depletes the unit's Movement Allowance."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE3" Value="Water movement {ICON:MovementSwimmingIcon} and flying movement {ICON:MovementFlyingIcon} always costs 1 point of Movement Allowance {ICON:MovementIcon}. Units that have solely water movement may not perform movement over land tiles."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE4" Value="The cost to initiate a melee attack is equal to half of the unit's maximum Movement Allowance {ICON:MovementIcon}, or any remaining Movement Allowance  {ICON:MovementIcon} after moving the unit, whichever is greater. It is possible to perform two spearate melee attacks during the unit's turn, if that unit remains stationary. Units may also move before or after attacking."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE5" Value="The cost to perform a ranged attack is 10 Movement Allowance points {ICON:MovementIcon} or any remaining Movement Allowance points {ICON:MovementIcon}, whichever is greater. It is possible to move the unit and perform a ranged attack for the remainder of its Movement Allowance {ICON:MovementIcon}."/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE" Value="Armour and Resistance"/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE1" Value="Armour {ICON:ArmourIconNormal} and Resistance {ICON:ResistanceIconNormal} are used to negate the effects of enemy's attacks."/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE2" Value="Armour {ICON:ArmourIconNormal} works against melee and ranged attacks of all types but also against spells that hit and deal direct damage, such as a Fire Bolt."/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE3" Value="Resistance {ICON:ResistanceIconNormal} works against enemy spells that affect the unit by applying lasting enchantments, such as Black Sleep. Depending on the spell or enchantment, a Resistance roll may be made once (upon being targeted), every turn (when trying to cancel the effect) or not at all. "/>
+		<Loc Key="UI_BANISHED_CANNOT_CAST" Value="You are banished and unable to cast any spells until you complete the Spell of Return."/>
+		<Loc Key="UI_YOU_HAVE_WON" Value="You are victorious! You have proven yourself superior to all the Wizards."/>
+		<Loc Key="UI_YOU_ARE_MASTER_OF_MAGIC" Value="You cast the ancient Spell of Mastery and thus banish any remaining rivals from your realms. The coveted title of Master of Magic is now unquestionably yours. May your magical reign be eternal and magnanimous."/>
+		<Loc Key="UI_YOU_ARE_MASTER_OF_MAGIC2" Value="You banished rival wizards from your realms. The coveted title of Master of Magic is now unquestionably yours. May your magical reign be eternal and magnanimous."/>
+		<Loc Key="UI_NO_SUMMONING_CIRCLE_UNIT_DES" Value="You cannot cast this spell because you do not have the Summoning Circle or the target is not a unit."/>
+		<Loc Key="UI_NO_SUMMONING_CIRCLE_HERO_DES" Value="You cannot cast this spell because you do not have the Summoning Circle or the target is not a hero unit."/>
+		<Loc Key="UI_ATTACK" Value="Attack"/>
+		<Loc Key="UI_ATTACKER" Value="Attacker"/>
+		<Loc Key="UI_DEFENSE" Value="Defence"/>
+		<Loc Key="UI_DEFENDER" Value="Defender"/>
+		<Loc Key="UI_GOLD_TRADE_DES" Value="Gold is the universal language of trade."/>	
+		<Loc Key="UI_INTERESTED" Value="Interested"/>	
+		<Loc Key="UI_INTERESTED_DES" Value="The other party is interested in acquiring this item and is willing to pay a bit more for it."/>	
+		<Loc Key="UI_NOT_INTERESTED" Value="Not interested"/>	
+		<Loc Key="UI_NOT_INTERESTED_DES" Value="The other party does not have a lot of interest in acquiring this item. They are still willing to buy it, but will pay less for it."/>	
+		<Loc Key="UI_FIRE_BREATH" Value="Fire Breath 3"/>	
+		<Loc Key="UI_OF_THE" Value="of the"/> <!--used in hall of fame, ie. Merlin of the Klackons-->		
+		<Loc Key="UI_HALL_OF_FAME" Value="Hall of Fame"/>	
+		<Loc Key="UI_RARITY" Value="Rarity"/>	
+		<Loc Key="UI_BATTLE_OUTCOME1" Value="Total Defeat"/>	
+		<Loc Key="UI_BATTLE_OUTCOME1_DES" Value="Your army will LOSE the battle and there will be NO survivors."/>
+		<Loc Key="UI_BATTLE_OUTCOME2" Value="Win - Heavy Losses"/>	
+		<Loc Key="UI_BATTLE_OUTCOME2_DES" Value="Your army will WIN the battle, but many units will be KILLED and the surviving ones will likely be heavily WOUNDED."/>
+		<Loc Key="UI_BATTLE_OUTCOME3" Value="Win - Moderate Losses"/>	
+		<Loc Key="UI_BATTLE_OUTCOME3_DES" Value="Your army will WIN the battle, but a number of units may be KILLED and the surviving ones will likely be WOUNDED."/>
+		<Loc Key="UI_BATTLE_OUTCOME4" Value="Win - Small Losses"/>	
+		<Loc Key="UI_BATTLE_OUTCOME4_DES" Value="Your army will WIN the battle, but some units will be WOUNDED and some may be KILLED."/> 
+		<Loc Key="UI_BATTLE_OUTCOME5" Value="Win - Negligible Losses"/>	
+		<Loc Key="UI_BATTLE_OUTCOME5_DES" Value="Your army will WIN the battle, without losing any units, but some units might be lightly wounded."/>
+		<Loc Key="UI_SAVE_FAILED" Value="Save Failed"/>
+		<Loc Key="UI_GAME_IS_DAMAGED_CANNOT_SAVE" Value="Master, I am very sorry but the current game's data is corrupted and it cannot be saved."/>
+		<Loc Key="UI_HAS_BEEN_DEFEATED_BY" Value="has been defeated!\nBanished by "/> <!--used when another wizard gets defeated, ie. Tauron has been defeated by Merlin-->
+		<Loc Key="UI_NEUTRAL_ARMIES" Value="Neutral Armies"/>
+		<Loc Key="UI_WORLD_CASTING_SKILL" Value="Casting Skill"/>
+		<Loc Key="UI_WORLD_CASTING_SKILL_DES" Value="Shows how much Mana can still be spent on casting spells this turn.\nIf a spell costs less than your maximum Casting Skill, it can be cast instantly, provided you have enough remaining Casting Skill and Mana."/>
+		<Loc Key="UI_CANCEL_ENCHANTMENT" Value="Cancel Enchantment"/>
+		<Loc Key="UI_PRODUCTION_TURNS_LEFT" Value="Turns Left"/>
+		<Loc Key="UI_PRODUCTION_TURNS_LEFT_DES" Value="Shows the number of turns remaining to complete this production task.\n\nNote: Housing and trade goods are ongoing projects of indefinite duration, and will persist until canceled."/>
+		<Loc Key="UI_PRODUCTION_BUY" Value="Buy"/>
+		<Loc Key="UI_PRODUCTION_BUY_DES" Value="Pay the indicated amount of Gold to reduce the production time to 1 turn."/>
+		<Loc Key="UI_TRADE_TUT" Value="Trade"/>
+		<Loc Key="UI_TRADE_TUT_PAGE1" Value="This is the trade panel, where you can exchange various goods with rival Wizards or select them as offer during events."/>
+		<Loc Key="UI_TRADE_TUT_PAGE2" Value="These sections show the items that are available for trade, left side is yours, right side is the other Wizard's."/>
+		<Loc Key="UI_TRADE_TUT_PAGE3" Value="The centre sections show items currently selected for exchange or giveaway. Use your left mouse button to drag and drop items to place them in the offer section."/>
+		<Loc Key="UI_TRADE_TUT_PAGE4" Value="The value of each offer depends on the items but it is modified based on how interested the other party is in selling or acquiring the selected goods."/>
+		<Loc Key="UI_TRADE_TUT_PAGE5" Value="This interest is indicated by little green and red arrows shown next to the price."/>
+		<Loc Key="UI_TRADE_TUT_PAGE6" Value="The other party will agree to trade if your offer's value is equal or better than their offer's value."/>
+		<Loc Key="UI_TRADE_TUT_PAGE7" Value="Offering a better deal or giving gifts to the other Wizard will slightly increase their relationship with you."/>
+		<Loc Key="UI_MANAGED_BY_FAMILIAR" Value="Managed by familiar"/>
+		<Loc Key="UI_TOOLTIP_MANAGED_BY_FAMILIAR" Value="Managed by familiar"/>
+		<Loc Key="UI_TOOLTIP_MANAGED_BY_FAMILIAR_DES" Value="Your familiar shall manage the town production.\n\nThey will build:\nThe strongest available defensive unit, if the current unit count is lower than 1 + townPop/5\nAvailable Food producing building, if the town has more than 50% population as farmers\nAnd economic (Food, production or Gold) buildings, as long as the population is lower than 5.\nThen, any cheapest available building until the list is exhausted and defaults to housing.\n\nYou may change/add your own choices and the familiar will prioritise them."/>
+		<Loc Key="UI_CAST_SPELL" Value="Cast Spell"/>
+		<Loc Key="UI_MOVE_ARMY" Value="Move Army"/>
+		<Loc Key="UI_PICK_RESEARCH" Value="Pick Research"/>
+		<Loc Key="UI_AI_ANIMATION_SPEED" Value="Animation Speed - AI Units"/>
+		<Loc Key="UI_BACKGROUND" Value="- Background"/>
+		<Loc Key="UI_CLICK_TO_DISMANTLE" Value="Dismantle for Mana"/>
+		<Loc Key="UI_YOU_HAVE_NO_BATTLE_SPELLS" Value="You have no battle spells in your spellbook."/>
+		<Loc Key="UI_NODE_POWER" Value="Power: "/>
+		<Loc Key="UI_RESEARCH2" Value="Research:"/>
+		<Loc Key="UI_TOOLTIP_CUSTOM_WIZARD" Value="Custom Wizard"/>
+		<Loc Key="UI_TOOLTIP_ARMY_SIZE" Value="Army Size"/>
+		<Loc Key="UI_TOOLTIP_ARMY_SIZE_DES" Value="Shows the current and maximum number of units in the army.\n\nWhen the army is full, no other units can join it but it will still be possible to summon or take over enemy units during combat."/>
+		<Loc Key="UI_TOOLTIP_NO_UNCOMMON" Value="Uncommon Spells"/>
+		<Loc Key="UI_TOOLTIP_NO_UNCOMMON_DES" Value="Uncommon spells are not available because your Wizard does not have enough spellbooks in this realm.\n\nTo select from uncommon spells you need at least 10 spellbooks."/>
+		<Loc Key="UI_TOOLTIP_NO_RARE" Value="Rare Spells"/>
+		<Loc Key="UI_TOOLTIP_NO_RARE_DES" Value="Rare Spells are not available because your Wizard does not have enough spellbooks in this realm.\n\nTo select from rare spells you need at least 11 spellbooks."/>
+		<Loc Key="UI_AFFORDABLE_SPELLS" Value="Affordable Spells"/>
+		<Loc Key="UI_MELEE_WEAPON" Value="Melee Weapon"/>
+		<Loc Key="UI_MELEE_WEAPON_DES" Value="May hold a sword, an axe or a mace."/>
+		<Loc Key="UI_MELEE_RANGED_WEAPON" Value="Melee or Ranged Weapon"/>
+		<Loc Key="UI_MELEE_RANGED_WEAPON_DES" Value="May hold a sword, an axe, a mace, a bow or a crossbow."/>
+		<Loc Key="UI_STAFF_WEAPON" Value="Caster Weapon"/>
+		<Loc Key="UI_STAFF_WEAPON_DES" Value="May hold a staff or a wand."/>
+		<Loc Key="UI_MELEE_CASTER_WEAPON" Value="Melee or Caster Weapon"/>
+		<Loc Key="UI_MELEE_CASTER_WEAPON_DES" Value="May hold a sword, an axe, a mace, a staff or a wand."/>
+		<Loc Key="UI_ARMOR_SLOT" Value="Armour"/>
+		<Loc Key="UI_ARMOR_SLOT_DES" Value="May hold a shield, a chainmail or a platemail."/>
+		<Loc Key="UI_MISC_SLOT" Value="Miscellaneous Item"/>
+		<Loc Key="UI_MISC_SLOT_DES" Value="May hold jewellery, a cloak, a helm, a gauntlet or an orb."/>
+		<Loc Key="UI_SELECT_LANGUAGE" Value="Select Language"/>
+		<Loc Key="UI_SUMMONING_CIRCLE_LOCATION" Value="Summoning Circle - New Location"/>
+		<Loc Key="UI_SUMMONING_CIRCLE_LOCATION_DES" Value="Your Summoning Circle has been moved to {0} because {1} has been conquered or destroyed.\n{ICON:LMB} Show town.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_SOM_PLAYER_CASTING_INFO" Value="Your Greatness,\n\nIf you manage to complete casting this spell, you will be victorious! But be aware that other wizards know this and will do whatever is in their power to stop you."/>
+		<Loc Key="UI_SOM_ENEMY_CASTING_INFO" Value="Your Greatness,\n\nIf {0} casts this spell, they will be victorious and all other wizards will be eliminated! Do whatever you can to stop that wizard, before it is too late!"/>
+		<Loc Key="UI_HAS_BEEN_BANISHED" Value="has been banished by"/>
+		<Loc Key="UI_WIZARD_BANISHED_INFO" Value="Master,\n\nOne of your opponents has lost their Fortress and are now banished. They must cast the Spell of Return and before they do, they are not able to cast anything else. Perhaps you could use their vulnerability to your advantage?"/>
+		<Loc Key="UI_FOLLOW_ENEMY_MOVEMENT" Value="Follow Enemy Movement"/>
+		<Loc Key="UI_DEVELOPED_BY" Value="Developed by"/>
+		<Loc Key="UI_LEAD_PROGRAMMER" Value="Lead Programmer"/>
+		<Loc Key="UI_PROGRAMMERS" Value="Programmers"/>
+		<Loc Key="UI_UI_AND_ART_LEAD" Value="UI &amp; Art Lead"/>
+		<Loc Key="UI_2D_ARTISTS" Value="2D Artists"/>
+		<Loc Key="UI_3D_ARTISTS" Value="3D Artists"/>
+		<Loc Key="UI_WRITING_AND_LEAD_QUEST_DESIGN" Value="Narrative Design"/>
+		<Loc Key="UI_QUEST_DESIGN_ASSISTANT" Value="Quest Design Assistant"/>
+		<Loc Key="UI_LEAD_GAME_DESIGN" Value="Lead Game Design"/>
+		<Loc Key="UI_LEAD_QA" Value="Lead QA"/>
+		<Loc Key="UI_ADDITIONAL_QA" Value="Additional QA"/>
+		<Loc Key="UI_MUSIC" Value="Music"/>
+		<Loc Key="UI_PUBLISHED_BY" Value="Published By"/>
+		<Loc Key="UI_PRODUCERS" Value="Producers"/>
+		<Loc Key="UI_THANK_YOU_FOR_PLAYING" Value="Thank you for playing!"/>
+		<Loc Key="UI_ENEMY_TURN2" Value="Enemy's Turn"/>
+		<Loc Key="UI_WIZARD_DEFEATED" Value="{0} Defeated!"/>
+		<Loc Key="UI_WIZARDS_DEFEATED" Value="Wizards Defeated!"/>
+		<Loc Key="UI_END_GAME" Value="End Game"/>
+		<Loc Key="UI_KEEP_PLAYING" Value="Keep Playing"/>
+		<Loc Key="UI_ROAD" Value="Road"/>
+		<Loc Key="UI_START_CONVERSATION" Value="Start conversation"/>
+		<Loc Key="UI_CHECK_WIZARDS_DETAILS" Value="Check wizard's details"/>
+		<Loc Key="UI_LOADING_HINT1" Value="Hint: Your units can get killed or wounded when retreating from a battle with a stronger enemy."/>
+		<Loc Key="UI_LOADING_HINT2" Value="Hint: Rebels do not contribute to their town's production but will still require food."/>
+		<Loc Key="UI_LOADING_HINT3" Value="Hint: If you're short on gold, but have plenty of mana (or vice versa) - use Alchemy to turn one into the other."/>
+		<Loc Key="UI_LOADING_HINT4" Value="Hint: Some units can be immune to certain types of attacks or magic - check their stats for details."/>
+		<Loc Key="UI_LOADING_HINT5" Value="Hint: Magic nodes give powerful enchantments to fantastic units of a node's type (including those controlled by you!)."/>
+		<Loc Key="UI_LOADING_HINT6" Value="Hint: Magic nodes try to dispel all spells you cast unless they belong to that node's domain."/>
+		<Loc Key="UI_LOADING_HINT7" Value="Hint: When you're not able to pay unit upkeep because of gold, mana or food shortages, your units will abandon you."/>
+		<Loc Key="UI_LOADING_HINT8" Value="Hint: Flying units cannot be targeted with normal melee attacks unless the attacker is flying or possesses a Breath Attack, Gaze Attack, or Thrown Attack."/>
+		<Loc Key="UI_LOADING_HINT9" Value="Hint: Other Wizards will immediately go to war with anyone who begins casting the Spell of Mastery, no matter how friendly their relations were before."/>
+		<Loc Key="UI_LOADING_HINT10" Value="Hint: Be careful when moving your units nearby towns belonging to other Wizards. Such actions will worsen your relations and may eventually lead to war."/>
+		<Loc Key="UI_LOADING_HINT11" Value="Hint: Remember that if things go wrong, you can cast the Rewind Time spell (also known as Load the Game spell)."/>
+		<Loc Key="UI_LOADING_HINT12" Value="Hint: Each town has a range of 2 hexes and this does not change throughout the game. Settle where you can gain the most."/>
+		<Loc Key="UI_LOADING_HINT13" Value="Hint: Most units (except those belonging to Death realm) can heal naturally and regain 5% of Hit Points per turn, even when moving."/>
+		<Loc Key="UI_LOADING_HINT14" Value="Hint: Losing your capital city is a serious blow, keep it well defended."/>
+		<Loc Key="UI_LOADING_HINT15" Value="Hint: Your fortress in the capital can shoot magical bolts at attacking enemies, the bolts' power depend on the number and type of your spellbooks."/>
+		<Loc Key="UI_LOADING_HINT16" Value="Hint: Conquering a magic node is only the first step - send a Magic Spirit or a Guardian Spirit to meld with it so you can tap into the node's power."/>
+		<Loc Key="UI_LOADING_HINT17" Value="Hint: One of the ways to reduce unrest in towns is to keep non-fantastic units in the town's garrison."/>
+		<Loc Key="UI_LOADING_HINT18" Value="Hint: Some terrain's special resources can be changed into others with the Transmute spell."/>
+		<Loc Key="UI_LOADING_HINT19" Value="Hint: You can have up to 6 heroes. You can dismiss any one you don't like and wait for a new offer or cast one of the hero summoning spells to get a new one."/>
+		<Loc Key="UI_LOADING_HINT20" Value="Hint: During battle, terrain type does NOT impact a unit's defense, chance to hit or visibility."/>
+		<Loc Key="UI_LOADING_HINT21" Value="Hint: Invisible units can only be attacked by units standing right next to them."/>
+		<Loc Key="UI_LOADING_HINT22" Value="Hint: Fantastic units don't gain experience or reduce unrest in towns they are located in."/>
+		<Loc Key="UI_LOADING_HINT23" Value="Hint: At the start of combat you will always have your full casting skill, no matter what you have cast before in this turn."/>
+		<Loc Key="UI_COMBAT_SPEED" Value="Combat Speed"/>
+		<Loc Key="UI_COMBAT_SPEED_DES" Value="Unit and effects animation speed."/>
+		<Loc Key="UI_IMPORT" Value="Import Module Text"/>
+		<Loc Key="UI_EXPORT" Value="Export Module Text"/>
+		<Loc Key="UI_BUNDLE_MODE" Value="Bundle Mode"/>
+		<Loc Key="UI_SINGLE_MODE" Value="Single Mode"/>
+		<Loc Key="UI_WHICH_FORM_OF_EXPORT" Value="Note - the import/export tools are not suitable for copying modules to give to other players as the output files do not contain all event data, just text.\n\nPlease select which form of export you would like to use:\n\nSingle Mode - exports only the currently selected module while keeping text structure.\n\nBundle Mode - all toggled modules are exported as one BundleBlock prepared for localisation."/>
+		<Loc Key="UI_WHICH_FORM_OF_IMPORT" Value="Note - the import/export tools are not suitable for copying modules to give to other players as the output files do not contain all event data, just text.\n\nPlease select which form of import you would like to use:\n\nSingle Mode - import text only for the currently selected module.\n\nBundle Mode - import text from BundleBlock file."/>
+		<Loc Key="UI_SPECIAL_THANKS" Value="Special Thanks"/>
+		<Loc Key="UI_SPECIAL_THANKS_DES1" Value="to our Discord moderators:"/>
+		<Loc Key="UI_SPECIAL_THANKS_DES2" Value="to our dedicated MuHa supporters as well as the great Master of Magic fans who have welcomed us into their midst,"/>
+		<Loc Key="UI_SPECIAL_THANKS_DES3" Value="also to each and every participant in the Beta tests and all the people who provided invaluable input and suggestions to help us improve this game. We love you all!"/>
+		<Loc Key="UI_MELDED_BY" Value="Melded by {0}"/>
+		<Loc Key="UI_IMPORTED_MODULE" Value="Module import complete."/>
+		<Loc Key="UI_IMPORT_ERROR" Value="Error - Module has not been imported correctly. Check output_log.txt to see errors."/>
+		<Loc Key="UI_IMPORTED_MODULE_BLOCK" Value="Module budle import complete."/>
+		<Loc Key="UI_IMPORT_MODULE_BLOCK_WITH_ERRORS" Value="Error - Module bundle has not been imported correctly. Check output_log.txt to see errors."/>
+		<Loc Key="UI_EXPORTED_MODULE" Value="Module export complete."/>
+		<Loc Key="UI_EXPORT_ERROR" Value="Error - Module has not been exported."/>
+		<Loc Key="UI_EXPORTED_MODULE_BLOCK" Value="Module budle export complete."/>
+		<Loc Key="UI_EXPORT_MODULE_BLOCK_WITH_ERRORS" Value="Error - Module bundle has not been exported."/>
+		<Loc Key="UI_QUICK_START" Value="Quick Start"/>
+		<Loc Key="UI_MANA_INVESTED" Value="Mana Invested:"/>
+		<Loc Key="UI_WIZARD_NOT_CASTING" Value="Nothing to blast"/>
+		<Loc Key="UI_WIZARD_NOT_CASTING_DES" Value="This wizard is not casting any spell at the moment. Nothing to blast here..."/>
+		<Loc Key="UI_HOTKEYS" Value="Hotkeys"/>
+		<Loc Key="UI_NEXT_UNIT" Value="Next unit"/>
+		<Loc Key="UI_SHOW_HIDE_SURVEYOR" Value="Toggle surveyor"/>
+		<Loc Key="UI_END_TURN2" Value="Confirm / End turn"/>
+		<Loc Key="UI_MOVE_CAMERA_NORTH" Value="Move camera north"/>
+		<Loc Key="UI_MOVE_CAMERA_WEST" Value="Move camera west"/>
+		<Loc Key="UI_MOVE_CAMERA_SOUTH" Value="Move camera south"/>
+		<Loc Key="UI_MOVE_CAMERA_EAST" Value="Move camera east"/>
+		<Loc Key="UI_CHANGE_PLANE" Value="Change plane"/>
+		<Loc Key="UI_OPEN_RESEARCH" Value="Open research"/>
+		<Loc Key="UI_OPEN_PAUSE_MENU" Value="Cancel / Open pause menu"/>
+		<Loc Key="UI_BUILD_OUTPOST2" Value="Build outpost (settlers)"/>
+		<Loc Key="UI_BUILD_ROAD2" Value="Build road (engineers)"/>
+		<Loc Key="UI_TOGGLE_GUARD2" Value="Toggle guard (army)"/>
+		<Loc Key="UI_TOGGLE_SKIP2" Value="Toggle skip (army)"/>
+		<Loc Key="UI_CONTINUE_MOVEMENT" Value="Continue movement (army)"/>
+		<Loc Key="UI_COMBAT_LOGBOOK" Value="Combat logbook"/>
+		<Loc Key="UI_CREATE_BUG_REPORT" Value="Create bug report"/>
+		<Loc Key="UI_OPEN_WIZARD_INFO" Value="Open wizard info"/>
+		<Loc Key="UI_OPEN_CITY_MANAGER" Value="Open city manager"/>
+		<Loc Key="UI_OPEN_ARMY_MANAGER" Value="Open army manager"/>
+		<Loc Key="UI_OPEN_DIPLOMACY" Value="Open diplomacy"/>
+		<Loc Key="UI_OPEN_MAGIC" Value="Open magic"/>
+		<Loc Key="UI_CAST_SPELLS4" Value="Cast spells"/>
+		<Loc Key="UI_NOTIFICATION_GROUP_DROWN" Value="Units destroyed"/>
+		<Loc Key="UI_NOTIFICATION_GROUP_DROWN_DES" Value="Units in your army were destroyed, because they did not have the movement type necessary for the tile they were on.\n{ICON:LMB} View town.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NUMBER_OF_TRAITS_PICKED" Value="{0} of 6 traits picked."/> <!--ie. 3 of 6 traits picked -->
+		<Loc Key="UI_ENCH_DUPLICATE" Value="This hero has active enchantment(s) that will be cancelled if you equip this item:"/>		
+		<Loc Key="UI_ENCHANTED_ROAD" Value="Enchanted Road"/>		
+		<Loc Key="UI_SUCCESS" Value="Success!"/>		
+		<Loc Key="UI_ENCHANTMENT_DISPELLED" Value="Enchantment Dispelled!"/>		
+		<Loc Key="UI_ENCHANTMENT_REMOVED_SUCCESSFULLY" Value="Master, good news! {COLOR:#00a710}{0}{END_COLOR} has been dispelled successfully."/>
+		<Loc Key="UI_ENCHANTMENTS_REMOVED_SUCCESSFULLY" Value="Master, good news! {COLOR:#00a710}{0}{END_COLOR} have been dispelled successfully."/>
+		<Loc Key="UI_AI_ENCHANTMENT_REMOVED_SUCCESSFULLY" Value="Master, the enemy wizard has used their magic and dispelled {COLOR:#c84c26}{0}{END_COLOR}."/>
+		<Loc Key="UI_AI_ENCHANTMENT_REMOVED_SUCCESSFULLY_FROM" Value="Master, the enemy wizard has used their magic and dispelled {COLOR:#c84c26}{0}{END_COLOR} from {COLOR:#c84c26}{1}{END_COLOR}."/>
+		<Loc Key="UI_DISPEL_FAILED" Value="Dispel Failed"/>
+		<Loc Key="UI_FAILED_TO_REMOVE_ENCHANTMENT" Value="I am sorry Master, but the attempt to dispel {COLOR:#c84c26}{0}{END_COLOR} has failed."/>
+		<Loc Key="UI_AI_FAILED_TO_REMOVE_ENCHANTMENT" Value="Master, the enemy wizard has tried to dispel {COLOR:#c84c26}{0}{END_COLOR} but failed."/>
+		<Loc Key="UI_NO_ENCHANTMENTS_REMOVED" Value="I am sorry Master, but your spell has failed to remove any enchantments."/>
+		<Loc Key="UI_AI_NO_ENCHANTMENTS_REMOVED" Value="Master, the enemy wizard has tried to dispel an enchantment but failed."/>
+		<Loc Key="UI_HERO_SUMMONING_FAILED" Value="Hero Summoning Failed"/>
+        <Loc Key="UI_HERO_LIST_FULL" Value="I am sorry Master, but the attempt to summon a hero has failed. Your army cannot employ more than 6 heroes."/>
+        <Loc Key="UI_HERO_NOT_AVAILABLE" Value="I am sorry Master, but the attempt to summon a hero has failed. There are no more heroes alive that could come and serve you."/>
+        <Loc Key="UI_SPELLBLAST_SUCCESSFUL" Value="Master, good news! You have managed to successfully blast {COLOR:#c84c26}{0}{END_COLOR} before your enemy finished casting it."/>
+        <Loc Key="UI_SPELLBLAST_INSUFFICIENT_MANA" Value="You do not have enough mana to blast this spell."/>
+        <Loc Key="UI_SPELL_READY" Value="Spell Ready"/>
+        <Loc Key="UI_SPELL_READY_DES" Value="You have a spell ready to cast. Decide what to do with it before you begin casting another one."/>
+        <Loc Key="UI_MATCH_OFFER" Value="Match"/> <!--used in trade transfer when transferring money or mana: match offer of the other wizard-->
+        <Loc Key="UI_TRADED_QTY" Value="Traded Quantity:"/>
+        <Loc Key="UI_SELECT_AN_ENCHANTMENT_TO_BIND" Value="Select an enchantment"/>
+        <Loc Key="UI_AUTOSAVE_ERROR" Value="Autosave Error"/>
+        <Loc Key="UI_FILE_WRITE_FORBIDDEN" Value="Saving failed - writing to the save file has been blocked by the operating system. This might be due to external software (such as antivirus or firewall), or hardware issues."/>
+        <Loc Key="UI_COMBAT_TEXT4" Value="What are your orders, Your Greatness?"/>
+        <Loc Key="UI_ZOOM_IN" Value="Zoom in"/>
+        <Loc Key="UI_ZOOM_OUT" Value="Zoom out"/>
+        <Loc Key="UI_NOTIFICATION_AI_CASTS_SPELL" Value="A rival wizard has cast a spell!"/>
+        <Loc Key="UI_FOCUS_ON_UNITS_BATTLE" Value="Focus Camera on Units in Battle"/>
+        <Loc Key="UI_AUTO_END_TURN" Value="Toggle Auto-End Turn"/>
+        <Loc Key="UI_AUTO_END_TURN_BATTLE" Value="Auto-End Turn in Battle"/>
+        <Loc Key="UI_PLAYER_ANIMATION_SPEED" Value="Animation Speed - Player's Units"/>
+        <Loc Key="UI_CAMERA_FOLLOW" Value="Toggle Camera Follow"/>
+        <Loc Key="UI_MAP_EDGESCROLLING" Value="Map Edgescrolling"/>
+        <Loc Key="UI_NUMBER_OF_NEUTRAL_TOWNS" Value="Number of Neutral Towns"/>
+        <Loc Key="UI_NUMBER_OF_NEUTRAL_TOWNS_DES" Value="Set how many neutral towns you want to be present in the world."/>
+        <Loc Key="UI_FEW" Value="Few"/>
+        <Loc Key="UI_AVERAGE" Value="Average"/>
+        <Loc Key="UI_MANY" Value="Many"/>
+        <Loc Key="UI_CEO" Value="CEO"/> <!--Chief Executive Officer-->
+        <Loc Key="UI_CFO" Value="CFO"/> <!--Chief Financial Officer-->
+        <Loc Key="UI_CMO" Value="CMO"/> <!--Chief Marketing Officer-->
+        <Loc Key="UI_TECHNICAL_DIRECTOR" Value="Technical Director"/>
+        <Loc Key="UI_CREATIVE_DIRECTOR" Value="Creative Director"/>
+        <Loc Key="UI_EXECUTIVE_PRODUCER" Value="Executive Producer"/>
+        <Loc Key="UI_SENIOR_PRODUCER" Value="Senior Producer"/>
+        <Loc Key="UI_ASSISTANT_PRODUCER" Value="Assistant Producer"/>
+        <Loc Key="UI_ADDITIONAL_PRODUCTION" Value="Additional Production"/>
+        <Loc Key="UI_SENIOR_BRAND_MANAGER" Value="Senior Brand Manager"/>
+        <Loc Key="UI_JUNIOR_BRAND_MANAGER" Value="Junior Brand Manager"/>
+        <Loc Key="UI_SOCIAL_MEDIA_STRATEGIST" Value="Social Media Strategist"/>
+        <Loc Key="UI_COMMUNITY_MANAGER" Value="Community Manager"/>
+        <Loc Key="UI_MEDIA_RELATIONS" Value="Media Relations"/>
+        <Loc Key="UI_MEDIA_RELATIONS_FOR_SPAIN_AND_LATIN_AMERICA" Value="Media Relations for Spain and Latin America"/>
+        <Loc Key="UI_PRODUCTION_DESIGN" Value="Production Design"/>
+        <Loc Key="UI_PRODUCTION_ART_ASSISTANT" Value="Production Art Assistant"/>
+        <Loc Key="UI_E_COMMERCE" Value="E-Commerce"/>
+        <Loc Key="UI_MANUAL_LAYOUT" Value="Manual Layout"/>
+        <Loc Key="UI_OPERATIONS_LEAD" Value="Operations Lead"/>
+        <Loc Key="UI_OPERATIONS_TEAM" Value="Operations Team"/>
+        <Loc Key="UI_HEAD_OF_ACCOUNTS" Value="Head of Accounts"/>
+        <Loc Key="UI_ADMIN_ASSISTANT" Value="Admin Assistant"/>
+        <Loc Key="UI_CUSTOMER_SUPPORT_STAFF" Value="Customer Support Staff"/>
+        <Loc Key="UI_WEB_DEVELOPMENT" Value="Web Development"/>
+        <Loc Key="UI_CEO_MATRIX_GAMES_LLC" Value="CEO, Matrix Games LLC"/>
+        <Loc Key="UI_PROJECT_MANAGER" Value="Project Manager"/>
+        <Loc Key="UI_TORIN_ALREADY_IN_SERVICE" Value="You already have this mighty Hero in your service, Master!"/>
+        <Loc Key="UI_REPEAT" Value="Repeat"/>
+        <Loc Key="UI_TOOLTIP_REPEAT" Value="Repeat production of this unit indefinitely."/>
+        <Loc Key="UI_AI_ENCHANTMENTS_REMOVED_SUCCESSFULLY_FROM_GLOBAL" Value="Master, the enemy wizard has used their magic and dispelled {COLOR:#c84c26}{0}{END_COLOR}."/>
+        <Loc Key="UI_THE_PROGRAMMER" Value="The Programmer"/>
+        <Loc Key="UI_ADDITIONAL_CODING" Value="Additional Coding"/>
+        <Loc Key="UI_FANMADE_LOCALISATION" Value="Fan-made Localisation"/>
+        <Loc Key="UI_ITALIAN" Value="Enrico Pizzolato - Italian"/>
+		<Loc Key="UI_NOTIFICATION_AI_CASTS_GLOBAL_SPELL_DES" Value="A rival wizard has cast a global spell!\n{ICON:LMB} Show details.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_ARMY_DES" Value="A rival wizard has cast a spell on one of your armies.\n{ICON:LMB} Show army.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_WIZARD_DES" Value="A rival wizard has cast a spell on you.\n{ICON:LMB} Show details.\n{ICON:RMB} Dismiss."/>
+		<Loc Key="UI_BUTTON_AUTO_COMBAT_SPELLCASTING" Value="Autocombat Spellcasting"/>
+		<Loc Key="UI_GREAT_UNSUMMONING_OUTCOME" Value="Number of unsummoned units: {0}"/>
+		<Loc Key="UI_DEATH_WISH_OUTCOME" Value="Number of units killed by Death Wish: {0}"/>
+		<Loc Key="UI_CHANGE_CASTING_TITLE" Value="Changing Cast Spell"/>
+		<Loc Key="UI_CHANGE_CASTING_DES" Value="You are casting {0} and have already invested {1} Mana into it. If you change the spell, this Mana will be lost. Are you sure?"/>
+		<Loc Key="UI_CHANGE_CASTING" Value="Change"/>
+		<Loc Key="UI_MODS" Value="Mods"/>
+		<Loc Key="UI_MOD_MANAGER" Value="Mod Manager"/>
+		<Loc Key="UI_MOVE_UP" Value="Move Up"/>
+		<Loc Key="UI_MOVE_DOWN" Value="Move Down"/>
+		<Loc Key="UI_PUBLISH" Value="Publish"/>
+		<Loc Key="UI_VISIBILITY" Value="Visibility"/>
+		<Loc Key="UI_UPLOADING" Value="Uploading"/>
+		<Loc Key="UI_NIGHTSHADE_DISPEL_SUCCESS" Value="The wise men in {0} used Nightshade to dispel {1}."/>
+		<Loc Key="UI_NIGHTSHADE_DISPEL_FAILURE" Value="The wise men in {0} tried dispelling a harmful enchantment with Nightshade but the attempt has failed."/>
+		<Loc Key="UI_ADDITIONAL_CONTENT" Value="Additional Content"/>
+		<Loc Key="UI_SAVE_DLC1" Value="DLC Content"/>
+		<Loc Key="UI_SAVE_DLC1_DES" Value="This saved game uses 'Through the Myrror' content."/> <!--do not localise the 'Through the Myrror' part - this is the DLC title and should stay in English -->
+		<Loc Key="UI_ASSIGN_KEY" Value="Assign a new hotkey to"/>
+		<Loc Key="UI_ROAD_PLANNING" Value="Plot a route to build the road. {ICON:LMB} to confirm, {ICON:RMB} to cancel."/>
+		<Loc Key="UI_NOT_ASSIGNED" Value="[Not assigned]"/> <!-- hotkey not assigned -->
+		<Loc Key="UI_DEFAULTS" Value="Defaults"/> <!-- reset to default hotkeys -->
+		<Loc Key="DES_SAVE_VERSION_INFO" Value="Save Version Info"/>
+		<Loc Key="DES_SAVE_VERSION_INFO_DES" Value="This save file has been created with a different game version but it may still load correctly.\n\nSaved version: {0}\n\nCurrent version: {1}"/>
+		<Loc Key="UI_PURIFY2" Value="Purify"/>
+		<Loc Key="UI_MELD_WITH_NODE2" Value="Meld with node"/>
+		<Loc Key="UI_ACTIVE_ENCH_WARNING" Value="Active Enchantment Warning"/>
+		<Loc Key="UI_ACTIVE_ENCH_WARNING_DES" Value="There is an active enchantment that is very likely to destroy any newly built outposts."/>
+		<Loc Key="UI_COMBAT_LOG_FORTRESS_BOLT" Value="The Fortress attacks &lt;#{1}&gt;{0}&lt;/color&gt; with '{2}'"/>
+		<Loc Key="UI_ENCHANT_ITEM_LIMITS" Value="Items can have up to 5 Powers, including one guaranteed and 4 added at creation."/>
+		<Loc Key="UI_FAME_STAT" Value="Fame"/>
+		<Loc Key="UI_GOLD_INCOME_STAT" Value="Gold Income"/>
+		<Loc Key="UI_FOOD_INCOME_STAT" Value="Food Income"/>
+		<Loc Key="UI_MANA_INCOME_STAT" Value="Mana Income"/>
+		<Loc Key="UI_REFRESH_CAP_120" Value="120 FPS"/>
+		<Loc Key="UI_REFRESH_CAP_144" Value="144 FPS"/>
+		<Loc Key="UI_REFRESH_CAP_160" Value="160 FPS"/>
+		<Loc Key="UI_THROUGH_THE_MYRROR" Value="Through the Myrror"/>
+		<Loc Key="UI_THROUGH_THE_MYRROR_DES" Value="Enable or disable the additional content added with the Through the Myrror update."/>
+		<Loc Key="DES_SAVE_WARNING_DLC_DES" Value="This save file has been created with a different game version or different DLC setup. Loading will not be possible.\n\nSaved version: {0}\n\nCurrent version: {1}{2}"/>
+		<Loc Key="UI_NEUTRAL" Value="Neutral"/>
+		<Loc Key="UI_MAGIC_NODES" Value="Magic Nodes"/>
+		<Loc Key="UI_TOWERS_OF_WIZARDRY" Value="Towers of Wizardry"/>
+		<Loc Key="UI_ARCANUS_PLANE" Value="Arcanus Plane"/>
+		<Loc Key="UI_MYRROR_PLANE" Value="Myrror Plane"/>
+		<Loc Key="UI_TERRAIN_FEATURES" Value="Terrain features"/>
+		<Loc Key="UI_BUTTON_BIG_MAP" Value="Cartographer ({0})"/>
+		<Loc Key="UI_OPEN_CARTOGRAPHER" Value="Open Cartographer"/>
+		<Loc Key="UI_FASTER_LOADING" Value="Faster Loading"/>
+		<Loc Key="UI_FASTER_LOADING_DES" Value="Toggles the faster loading mode, which decreases loading times for existing games. Please note that this is an experimental feature and uses a lot of hard drive space!"/>
+		<Loc Key="UI_NONE2" Value="None"/>
+		<Loc Key="UI_MOD_DUPLICATION_NONE_WILL_BE_LOADED" Value="Two mods with identical name have been detected and they cannot be loaded. Please exit the game and uninstall the duplicated mod before proceeding. More details about mod conflicts can be found in GameLog."/>
+		<Loc Key="UI_SAVE_DLC2_DES" Value="This saved game uses 'Rise of the Soultrapped' content."/> <!--do not localise the 'Rise of the Soultrapped' part - this is the DLC title and should stay in English -->
+		<Loc Key="UI_HIGH_UNREST" Value="High Unrest"/>
+		<Loc Key="UI_HIGH_UNREST_DES" Value="Unrest in this town has exceeded 30%. Lower the tax rate, build religious buildings or keep more non-fantastic units in the garrison."/>
+		<Loc Key="UI_DISPLAY" Value="Display"/> <!--for listing available display screens in settings, ie. Display 1-->
+		<Loc Key="UI_CHANGE_NEED_RESTART" Value="Display changes will be applied after the game is restarted."/>
+		<Loc Key="UI_RISE_OF_THE_SOULTRAPPED" Value="Rise of the Soultrapped"/>
+		<Loc Key="UI_RISE_OF_THE_SOULTRAPPED_DES" Value="Enable or disable the additional content added with the 'Rise of the Soultrapped' update."/>
+		<Loc Key="UI_TOOLTIP_TECH" Value = "Techmagic Spell"/>
+		<Loc Key="UI_TECH_SPELLS" Value = "Techmagic Spells"/>
+		<Loc Key="UI_MOD_REQ_FAILED1" Value="Mod: {0} fails requirement: {1}"/>
+		<Loc Key="UI_MOD_REQ_FAILED2" Value="Mod: {0} needs to be after its requirement: {1}"/>
+		<Loc Key="UI_MOD_REQ_FAILED3" Value="Mod: {0} requirement inactive: {1}"/>
+		<Loc Key="UI_NOT_ENOUGH_SPACE_OR_ICON_TOO_BIG" Value="Mod icon is too big or the user has exceeded their Steam Cloud quota. Remove some items and try again."/>
+		<Loc Key="UI_SPELLS_AND_SKILLS" Value="Skills and Spells"/>
+		<Loc Key="UI_FREE_ADDONS" Value="Free Addons"/>
+		<Loc Key="UI_FREE_ADDONS_DES" Value="Enable or disable the additional content added with various free updates.\nThe free addons may include various additional content, like extra setting options or even free Wizards.\n\nSome of the content includes:\n\n-Population growth settings.\n-Increasing distance needed to build towns."/>
+		<Loc Key="UI_SAVE_DLC0_DES" Value="This saved game uses content from the free addons."/>
+		<Loc Key="UI_CONSTRUCT_UNIT" Value="Construct"/>
+		<Loc Key="UI_CONSTRUCT_UNIT_DES" Value="This is a construct - a mechanical, or mechanically augmented unit."/>
+		<Loc Key="UI_NOT_ENOUGHT_HP" Value="This spell requires the caster to sacrifice more health points than they currently have."/>
+		<Loc Key="UI_SPELLCASTING_BLOCKED" Value="Your spellcasting is blocked by an enchantment."/>
+		<Loc Key="UI_TOWN_MAP_ALWAYS_ON" Value="Town Map Always On"/>
+		<Loc Key="UI_MODS_RESTART_REQUIRED" Value="Restart Required.\nYou have changed the mods settings.\nYou must restart the game for the changes to take effect."/>
+		<Loc Key="UI_MID_GAME_AWAKE" Value="Mid-game Soultrapped Threat"/>
+		<Loc Key="UI_MID_GAME_AWAKE_DES" Value="Allow additional Tech dungeons to appear during mid-game. These dungeons will produce roaming Soultrapped armies that will pose additional danger. They are more aggressive than typical roaming units and will seek out strongest Wizards.\n\nReduced Intensity - spawns a few Tech Dungeons during late-game (turn 300).\n\nNormal Intensity - spawns a few Tech Dungeons during mid-game (turn 250).\n\nIncreased Intensity - spawns many Tech Dungeons during early mid-game (turn 150).\n\nMaximum Intensity - spawns many Tech Dungeons during early game (turn 100)."/>
+		<Loc Key="UI_MID_LATE" Value="Reduced Intensity"/>
+		<Loc Key="UI_MID_AWAKENING" Value="Normal Intensity"/>
+		<Loc Key="UI_MID_STORM" Value="Increased Intensity"/>
+		<Loc Key="UI_MID_APOCALYPSE" Value="Maximum Intensity"/>
+		<Loc Key="UI_DLC_DIFFERENCES_DETECTED" Value="\n\nDLC: DLC Differences detected."/>
+		<Loc Key="UI_DIFFICULTY_SETTINGS" Value="Difficulty Settings"/>
+		<Loc Key="UI_SEE_DIFFICULTY" Value="See Difficulty"/>
+		<Loc Key="UI_WORLD_FAV" Value="World Favourites"/>
+		<Loc Key="UI_WORLD_FAV_DES" Value="A list of favourite World spells."/>
+		<Loc Key="UI_BATTLE_FAV" Value="Battle Favourites"/>
+		<Loc Key="UI_BATTLE_FAV_DES" Value="A list of favourite Battle spells."/>
+		<Loc Key="UI_QUICK_SAVE" Value="Quick Save"/>
+		<Loc Key="UI_QUICK_LOAD" Value="Quick Load"/>
+		<Loc Key="UI_TOWN_DISTANCE" Value="Minimum Distance Between Towns"/>
+		<Loc Key="UI_TOWN_DISTANCE_DES" Value="Set the minimum distance between towns. This setting does not affect the catchment area of towns."/>
+		<Loc Key="UI_TOWN_DISTANCE_4" Value="4 tiles"/>
+		<Loc Key="UI_TOWN_DISTANCE_5" Value="5 tiles"/>
+		<Loc Key="UI_CLICK_TO_ADD_FAV" Value="Click to add this spell to favourites."/>
+		<Loc Key="UI_QUICK_SAVE_SUCCESS" Value="Quick Save successful."/>
+		<Loc Key="UI_LOADING_HINT24" Value="Hint: You can use F5 to quick save and F6 to quick load a game. Hotkeys can be changed in Settings."/>
+		<Loc Key="UI_SOULTRAPPED_LAIR" Value="Tech Dungeons"/>
+		<Loc Key="UI_OUR_TOWN_GROW_MULTIPLIER" Value="Population growth - own towns"/>
+		<Loc Key="UI_OUR_TOWN_GROW_MULTIPLIER_DES" Value="Allows you to increase the population growth in towns you control by the selected multiplier."/>
+		<Loc Key="UI_TOWN_GROW_MULTIPLIER_1_25" Value="x1.25"/>
+		<Loc Key="UI_TOWN_GROW_MULTIPLIER_1_5" Value="x1.5"/>
+		<Loc Key="UI_FOE_TOWN_GROW_MULTIPLIER" Value="Population growth - enemy towns"/>
+		<Loc Key="UI_FOE_TOWN_GROW_MULTIPLIER_DES" Value="Allows you to increase the population growth in towns your enemies control by the selected multiplier."/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER" Value="Lair Density"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_DES" Value="Set the number of lairs and dungeons that appear on the world map at the start of the game."/>
+		<Loc Key="UI_LAIR_NONE" Value="None "/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_1" Value="Some (10%)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_25" Value="Few (25%)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_5" Value="Halved (50%)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_7" Value="Reduced (70%)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_1" Value="Normal (100%)"/>
+		<Loc Key="UI_NEW_MODULE" Value="New Module"/>
+		<Loc Key="UI_CLONE_MODULE" Value="Clone Selected Module"/>
+		<Loc Key="UI_RENAME_MODULE" Value="Rename Selected Module"/>
+		<Loc Key="UI_IMPORT_MODULE" Value="Import Module"/>
+		<Loc Key="UI_EXPORT_MODULE" Value="Export Selected Module"/>
+		<Loc Key="UI_TEST_MODULE" Value="Test Selected Module"/>
+		<Loc Key="UI_TEST_MODULE_DES" Value="Check if the selected module contains adventures."/>
+		<Loc Key="UI_DELETE_MODULE" Value="Delete Selected Module"/>
+		<Loc Key="UI_NEW_ADVENTURE" Value="New Adventure"/>
+		<Loc Key="UI_CLONE_ADVENTURE2" Value="Clone Selected Adventure"/>
+		<Loc Key="UI_CLONE_ADVENTURE_TO_MODULE" Value="Clone Adventure to Another Module"/>
+		<Loc Key="UI_RENAME_ADVENTURE" Value="Rename Selected Adventure"/>
+		<Loc Key="UI_DELETE_ADVENTURE" Value="Delete Selected Adventure"/>
+		<Loc Key="UI_SAVE_ADVENTURE" Value="Save Changes"/>
+		<Loc Key="UI_SEARCH_FOR_NODE" Value="Search for Node Number"/>
+		<Loc Key="UI_SORT_BY" Value="Sort by"/>
+		<Loc Key="UI_SORT_BY_NAME" Value="Name"/>
+		<Loc Key="UI_SORT_BY_RACE" Value="Race"/>
+		<Loc Key="UI_SORT_BY_POPULATION" Value="Population"/>
+		<Loc Key="UI_SORT_BY_FOOD_INCOME" Value="Food Income"/>
+		<Loc Key="UI_SORT_BY_GOLD_INCOME" Value="Gold Income"/>
+		<Loc Key="UI_SORT_BY_PRODUCTION_INCOME" Value="Production Income"/>
+		<Loc Key="UI_SORT_BY_REBELS" Value="Number of Rebels"/>
+		<Loc Key="UI_SORT_BY_DATE" Value="Acquisition Date"/>
+		<Loc Key="UI_SELECT_VISIBILITY" Value="Select Visibility"/>
+		<Loc Key="UI_PUBLIC" Value="Public"/>
+		<Loc Key="UI_FRIENDS_ONLY" Value="Friends Only"/>
+		<Loc Key="UI_PRIVATE" Value="Private"/>
+		<Loc Key="UI_FULLSCREEN_MODE" Value="Fullscreen Mode"/>
+		<Loc Key="UI_ARCANUS_GAMMA" Value="Arcanus Gamma"/>
+		<Loc Key="UI_MYRROR_GAMMA" Value="Myrror Gamma"/>
+		<Loc Key="UI_WIZARD_RETURNED" Value="Wizard Returned"/>
+		<Loc Key="UI_WIZARD_RETURNED_DES" Value="Master, {0} has finished casting the Spell of Return. Their fortress and Summoning Circle are back and they can cast other spells now."/>
+		<Loc Key="UI_DESCRIPTION_TOO_LONG" Value="The mod's description exceeds Workshop's character limit (~7000 characters). It has been truncated to allow uploading."/>
+		<Loc Key="UI_TOWN_GROW_MULTIPLIER_1" Value="x1.0"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER" Value="Casting Skill Cost"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_DES" Value="This option reduces the required casting skill points for increasing the Casting Skill. So, a 10% reduction will reduce the cost from 100 to 90 and so on."/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_1" Value="Cost reduction (10%)"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_25" Value="Cost reduction (25%)"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_5" Value="Cost reduction (50%)"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_75" Value="Cost reduction (75%)"/>
+		<Loc Key="UI_THIS_GAME_LACK_QUICK_SAVE" Value="There is no quick save file to load!"/>
+		<Loc Key="UI_WATER_LAIR_NUMBER_MULTIPLIER" Value="Water Lair Density"/>
+		<Loc Key="UI_WATER_LAIR_NUMBER_MULTIPLIER_DES" Value="Set the number of water lairs that appear on the world map at the start of the game."/>		
+		<Loc Key="UI_OF" Value="of"/>
+		<Loc Key="UI_SPELL_ALREADY_ACTIVE" Value="This spell is already active on the battlefield."/>
+		<Loc Key="UI_TOOLTIP_GLOBALSGRID" Value="Show/Hide Global Enchantments"/>
+		<Loc Key="UI_TOOLTIP_GLOBALSGRID_DES" Value="This panel shows enchantments affecting you and the world."/>
+		<Loc Key="UI_BANISHED_WIZARD" Value="Banished Wizard"/>
+		<Loc Key="UI_BANISHED_WIZARD_DES" Value="This wizard has lost their Fortress and Summoning Circle. They are unable to cast any spell other than the Spell of Return."/>
+		<Loc Key="UI_SEA_HARVEST_FAILED" Value="Failed Harvest"/>
+		<Loc Key="UI_SEA_HARVEST_FAILED_DES" Value="The Sea Harvest failed."/>
+		<Loc Key="UI_SKILL_GAINED" Value="Skill gained"/>		
+		<Loc Key="UI_TOWN_UNREST_FROM_TAX" Value="From tax rate"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_TENSION" Value="From racial tensions"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_ENCHANTMENTS" Value="From enchantments"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_ENCHANTMENTS_MULTIPLIER" Value="From enchantments (%)"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_TRAITS" Value="From traits"/>
+		<Loc Key="UI_TOWN_REBEL_REDUCTION_FROM_WIZARD" Value="Rebels reduction (wizard)"/>
+		<Loc Key="UI_TOWN_REBEL_REDUCTION_FROM_GARRISON" Value="Rebels reduction (garrison)"/>
+		<Loc Key="UI_TOWN_FOOD_PRODUCTION" Value="From production"/>
+		<Loc Key="UI_TOWN_FOOD_RESOURCE_BONUS" Value="From resource bonus"/>
+		<Loc Key="UI_TOWN_FOOD_ENCHANTMENTS" Value="From enchantments"/>
+		<Loc Key="UI_TOWN_FOOD_ENCHANTMENT_MULTIPLIER" Value="From enchantments (%)"/>
+		<Loc Key="UI_TOWN_RESEARCH_FROM_ENCHANTMENTS" Value="From enchantments"/>
+		<Loc Key="UI_TOWN_POWER_FROM_RELIGIOUS" Value="From religious buildings"/>
+		<Loc Key="UI_TOWN_POWER_FROM_DARK_RITUAL" Value="From Dark Rituals"/>
+		<Loc Key="UI_TOWN_POWER_FROM_LIFE_AND_DEATH_MOON" Value="From Light/Dark Moon"/>
+		<Loc Key="UI_TOWN_POWER_FROM_TRAITS" Value="From traits"/>
+		<Loc Key="UI_TOWN_POWER_FROM_POPULATION" Value="From population"/>
+		<Loc Key="UI_TOWN_POWER_FROM_RESOURCES" Value="From resources"/>
+		<Loc Key="UI_TOWN_POWER_FROM_POWER_NODES" Value="From magic nodes"/>
+		<Loc Key="UI_TOWN_POWER_FROM_ENCHANTMENTS" Value="From enchantments"/>
+		<Loc Key="UI_TOWN_POWER_FROM_ENCHANTMENT_MULTIPLIERS" Value="From enchantments (%)"/>
+		<Loc Key="UI_TOWN_PRODUCTION_BASE" Value="Base production"/>
+		<Loc Key="UI_TOWN_PRODUCTION_AREA_BONUS" Value="Area bonus"/>
+		<Loc Key="UI_TOWN_PRODUCTION_ENCHANTMENT_BONUS" Value="Enchantment bonus"/>
+		<Loc Key="UI_TOWN_PRODUCTION_ENCHANTMENT_MULTIPLIER_BONUS" Value="Enchantment multiplier bonus"/>
+		<Loc Key="UI_REQUIREMENTS_NOT_MET" Value="At least one item has been removed from the queue, because its pre-requisite has not been built and is not in the build queue ahead of it."/>
+		<Loc Key="UI_SEA_HARVEST_SUCCESS" Value="Successful Harvest"/>
+		<Loc Key="UI_SEA_HARVEST_SUCCESS_DES" Value="You collect the ocean's bounty and gain: {0}{ICON:CastingSkillIcon} Casting Skill progress points, {1}{ICON:ManaIcon} Mana, {2}{ICON:GoldIcon} Gold."/>
+		<Loc Key="UI_CITY_LOOTED" Value="City Raid"/>
+		<Loc Key="UI_CITY_LOOTED_DES" Value="Before the city is razed to the ground, the pirates rampage through the streets, looting anything they can grab and call treasure!"/>
+		<Loc Key="UI_TRADE_HAPPINESS" Value="Trade Happiness"/>
+		<Loc Key="UI_TRADE_HAPPINESS_DES" Value="Shows how happy the other wizard is with this trade. If your offer's value is lower than theirs, they may still accept the trade but your relationship will worsen. Likewise, your relationship will improve if your offer's value is higher than theirs.\nThe other wizard's likeliness of accepting an unfavorable deal is based on their relationship with you and their fear of you. Happiness from a trade offer is determined by the other wizard's economical status and research advancement."/>
+		<Loc Key="UI_CASTING_SKILL_GAINED" Value="Casting Skill gained"/>
+		<Loc Key="UI_CASTING_SKILL_LOST" Value="Casting Skill lost"/>
+		<Loc Key="UI_KRAKEN_LAIR" Value="Kraken's Lair"/>
+		<Loc Key="UI_SAVE_DLC3_DES" Value="This saved game uses 'Scourge of the Seas' content."/> <!--do not localise the 'Scourge of the Seas' part - this is the DLC title and should stay in English -->
+		<Loc Key="UI_BUTTON_RESOURCES" Value="Show/Hide Resources ({0})"/>
+		<Loc Key="UI_SHOW_HIDE_RESOURCES" Value="Show/Hide Resources"/>
+		<Loc Key="UI_EXTREME" Value="Extreme (250%)"/> <!--game difficulty level-->
+		<Loc Key="UI_REBELS_FROM_UNREST" Value="From unrest ({0}{ICON:PopulationIcon} x {1}{ICON:UnrestIcon})"/>
+		<Loc Key="UI_REBELS_MODIFIER_FROM_ENCHANTMENTS" Value="From enchantments and buildings"/>
+		<Loc Key="UI_SCOURGE_OF_THE_SEAS" Value="Scourge of the Seas"/>
+		<Loc Key="UI_SCOURGE_OF_THE_SEAS_DES" Value="Enable or disable the additional content added with the 'Scourge of the Seas' update."/>
+		<Loc Key="UI_CANNOT_MOVE_QUEUE_ITEM" Value="This queue item cannot be moved, because its pre-requisite must be built first."/>
+	</LOCALIZATION-UI_EN>
+</DB_LOCALIZATION>

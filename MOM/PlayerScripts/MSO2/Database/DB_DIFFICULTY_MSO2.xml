@@ -1,0 +1,131 @@
+<DB_DIFFICULTY>
+
+<!--
+     Score Multipliers below when using this Mod
+     ============================================
+     Easy    uses Collection 1 (100% Score Multiplier)
+     Normal  uses Collection 2 (159% Score Multiplier)
+     Hard    uses Collection 3 (209% Score Multiplier)
+     Extreme uses Collection 4 (247% Score Multiplier)
+
+     Collection="0" used to avoid being in existing collection
+-->
+    <DIFFICULTY-WIZARD_PICKS
+            Name="UI_DIFF_WIZARD_PICKS"
+            FullValue="10">
+        <TooltipName VALUE="UI_DIFF_WIZARD_PICKS"/>
+        <TooltipDescription VALUE="UI_DIFF_WIZARD_PICKS_DES"/>
+        <Setting Title="15" Value="15" Difficulty="-50" Collection="0"/>
+        <Setting Title="14" Value="14" Difficulty="-30" Collection="0"/>
+        <Setting Title="13" Value="13" Difficulty="-10" Collection="0"/>
+        <Setting Title="12" Value="12" Difficulty="10" Collection="1"/>
+        <Setting Title="11" Value="11" Difficulty="20" Collection="2"/>
+        <Setting Title="10" Value="10" Difficulty="30" Collection="3"/>
+    </DIFFICULTY-WIZARD_PICKS>
+
+    <DIFFICULTY-ADD_HERO
+            Name="UI_ADD_HERO"
+            FullValue="20">
+      <TooltipName VALUE="UI_ADD_HERO"/>
+      <TooltipDescription VALUE="UI_ADD_HERO_DES"/>
+      <Setting Title="UI_SHALLA" Value="HERO-SHALLA" Difficulty="-90" Collection="0"/>
+      <Setting Title="UI_SPYDER" Value="HERO-SPYDER" Difficulty="-90" Collection="0"/>
+      <Setting Title="UI_SHIN_BO" Value="HERO-SHIN_BO" Difficulty="-90" Collection="0"/>
+      <Setting Title="UI_AUREUS" Value="HERO-AUREUS" Difficulty="-70" Collection="0"/>
+      <Setting Title="UI_JAER" Value="HERO-JAER" Difficulty="-70" Collection="0"/>
+      <Setting Title="UI_MARCUS" Value="HERO-MARCUS" Difficulty="-70" Collection="0"/>
+      <Setting Title="UI_FANG" Value="HERO-FANG" Difficulty="-70" Collection="0"/>
+      <Setting Title="UI_MORGANA" Value="HERO-MORGANA" Difficulty="-70" Collection="0"/>
+      <Setting Title="UI_GREYFAIRER" Value="HERO-GREYFAIRER" Difficulty="-50" Collection="0"/>
+      <Setting Title="UI_TAKI" Value="HERO-TAKI" Difficulty="-50" Collection="0"/>
+      <Setting Title="UI_REYWIND" Value="HERO-REYWIND" Difficulty="-50" Collection="0"/>
+      <Setting Title="UI_MALLEUS" Value="HERO-MALLEUS" Difficulty="-50" Collection="0"/>
+      <Setting Title="UI_TUMU" Value="HERO-TUMU" Difficulty="-50" Collection="0"/>
+      <Setting Title="UI_BAHGTRU" Value="HERO-BAHGTRU" Difficulty="-10" Collection="0"/>
+      <Setting Title="UI_BRAX" Value="HERO-BRAX" Difficulty="-10" Collection="0"/>
+      <Setting Title="UI_GUNTHER" Value="HERO-GUNTHER" Difficulty="-10" Collection="0"/>
+      <Setting Title="UI_RAKIR" Value="HERO-RAKIR" Difficulty="-10" Collection="0"/>
+      <Setting Title="UI_SERENA" Value="HERO-SERENA" Difficulty="-10" Collection="0"/>
+      <Setting Title="UI_SHURI" Value="HERO-SHURI" Difficulty="-10" Collection="0"/>
+      <Setting Title="UI_THERIA" Value="HERO-THERIA" Difficulty="-10" Collection="0"/>
+      <Setting Title="UI_VALANA" Value="HERO-VALANA" Difficulty="-10" Collection="0"/>
+      <Setting Title="UI_ZALDRON" Value="HERO-ZALDRON" Difficulty="-10" Collection="0"/>
+      <Setting Title="UI_MSO2_BSHAN" Value="HERO-BSHAN" Difficulty="0" Collection="0" QuickStart="TRUE"/>
+      <Setting Title="UI_NONE2" Value="0" Difficulty="20" Collection="1"/>
+    </DIFFICULTY-ADD_HERO>
+
+    <DIFFICULTY-TOWN_DISTANCE
+            Name="UI_TOWN_DISTANCE"
+            FullValue="10"
+            Dlc="Dlc0">
+        <TooltipName VALUE="UI_TOWN_DISTANCE"/>
+        <TooltipDescription VALUE="UI_TOWN_DISTANCE_DES"/>
+        <Setting Title="UI_TOWN_DISTANCE_4" Value="4" Difficulty="10" Collection="1"/>
+        <Setting Title="UI_TOWN_DISTANCE_5" Value="5" Difficulty="40" Collection="4"/>
+        <Setting Title="UI_TOWN_DISTANCE_6" Value="6" Difficulty="60" Collection="5"/>
+        <Setting Title="UI_TOWN_DISTANCE_7" Value="7" Difficulty="70" Collection="5"/>
+        <Setting Title="UI_TOWN_DISTANCE_8" Value="8" Difficulty="80" Collection="5"/>
+        <Setting Title="UI_TOWN_DISTANCE_9" Value="9" Difficulty="90" Collection="5"/>
+        <Setting Title="UI_TOWN_DISTANCE_10" Value="10" Difficulty="100" Collection="5"/>
+        <Setting Title="UI_TOWN_DISTANCE_11" Value="11" Difficulty="110" Collection="5"/>
+        <Setting Title="UI_TOWN_DISTANCE_12" Value="12" Difficulty="120" Collection="5"/>
+        <Setting Title="UI_TOWN_DISTANCE_13" Value="13" Difficulty="130" Collection="5"/>
+        <Setting Title="UI_TOWN_DISTANCE_14" Value="14" Difficulty="140" Collection="5"/>
+    </DIFFICULTY-TOWN_DISTANCE>
+
+<!-- Also fixes combobox item ordering -->
+    <DIFFICULTY-OUR_TOWN_GROW_MULTIPLIER
+            Name="UI_OUR_TOWN_GROW_MULTIPLIER"
+            FullValue="10"
+            Dlc="Dlc0">
+        <TooltipName VALUE="UI_OUR_TOWN_GROW_MULTIPLIER"/>
+        <TooltipDescription VALUE="UI_OUR_TOWN_GROW_MULTIPLIER_DES"/>
+        <Setting Title="UI_MSO2_TOWN_GROW_MULTIPLIER_2_0" Value="2.0" Difficulty="0" Collection="0" />
+        <Setting Title="UI_MSO2_TOWN_GROW_MULTIPLIER_1_5" Value="1.5" Difficulty="10" Collection="1" QuickStart="TRUE"/>
+        <Setting Title="UI_MSO2_TOWN_GROW_MULTIPLIER_1_25" Value="1.25" Difficulty="20" Collection="2"/>
+        <Setting Title="UI_MSO2_TOWN_GROW_MULTIPLIER_1" Value="1" Difficulty="40" Collection="3"/>
+    </DIFFICULTY-OUR_TOWN_GROW_MULTIPLIER>
+
+<!-- Also fixes combobox item ordering -->
+    <DIFFICULTY-FOE_TOWN_GROW_MULTIPLIER
+            Name="UI_FOE_TOWN_GROW_MULTIPLIER"
+            FullValue="10"
+            Dlc="Dlc0">
+        <TooltipName VALUE="UI_FOE_TOWN_GROW_MULTIPLIER"/>
+        <TooltipDescription VALUE="UI_FOE_TOWN_GROW_MULTIPLIER_DES"/>
+        <Setting Title="UI_MSO2_TOWN_GROW_MULTIPLIER_1" Value="1" Difficulty="10" Collection="1"/>
+        <Setting Title="UI_MSO2_TOWN_GROW_MULTIPLIER_1_25" Value="1.25" Difficulty="20" Collection="3"/>
+        <Setting Title="UI_MSO2_TOWN_GROW_MULTIPLIER_1_5" Value="1.5" Difficulty="40" Collection="4" />
+        <Setting Title="UI_MSO2_TOWN_GROW_MULTIPLIER_2_0" Value="2.0" Difficulty="60" Collection="5" />
+    </DIFFICULTY-FOE_TOWN_GROW_MULTIPLIER>
+
+<!-- Fixes combobox item ordering -->
+    <DIFFICULTY-LAIR_NUMBER_MULTIPLIER
+            Name="UI_LAIR_NUMBER_MULTIPLIER"
+            FullValue="10"
+            Dlc="Dlc0">
+        <TooltipName VALUE="UI_LAIR_NUMBER_MULTIPLIER"/>
+        <TooltipDescription VALUE="UI_LAIR_NUMBER_MULTIPLIER_DES"/>
+        <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_1" Value="1.0" Difficulty="10" Collection="1"/>
+        <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_7" Value="0.7" Difficulty="10" Collection="2"/>
+        <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_5" Value="0.5" Difficulty="40" Collection="2"/>
+        <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_25" Value="0.25" Difficulty="60" Collection="3"/>
+        <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_1" Value="0.1" Difficulty="80" Collection="3"/>
+        <Setting Title="UI_LAIR_NONE" Value="-1" Difficulty="100" Collection="4"/>
+    </DIFFICULTY-LAIR_NUMBER_MULTIPLIER>
+
+<!-- Fixes combobox item ordering -->
+    <DIFFICULTY-CASTING_SKILL_MULTIPLIER
+            Name="UI_CASTING_SKILL_MULTIPLIER"
+            FullValue="10"
+            Dlc="Dlc0">
+        <TooltipName VALUE="UI_CASTING_SKILL_MULTIPLIER"/>
+        <TooltipDescription VALUE="UI_CASTING_SKILL_MULTIPLIER_DES"/>
+        <Setting Title="UI_CASTING_SKILL_MULTIPLIER_0_75" Value="0.25" Difficulty="10" Collection="1"/>
+        <Setting Title="UI_CASTING_SKILL_MULTIPLIER_0_5" Value="0.5" Difficulty="40" Collection="2"/>
+        <Setting Title="UI_CASTING_SKILL_MULTIPLIER_0_25" Value="0.75" Difficulty="60" Collection="2"/>
+        <Setting Title="UI_CASTING_SKILL_MULTIPLIER_0_1" Value="0.9" Difficulty="80" Collection="3"/>
+        <Setting Title="UI_MSO2_CASTING_SKILL_MULTIPLIER_0" Value="-1" Difficulty="100" Collection="4"/>
+    </DIFFICULTY-CASTING_SKILL_MULTIPLIER>
+
+</DB_DIFFICULTY>

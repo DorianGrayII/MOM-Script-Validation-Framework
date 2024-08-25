@@ -1,0 +1,16 @@
+﻿<PROTOTYPE_BUDGET_SCALING>
+
+	<TURN_TO_BUDGET Name="TurnToBudget">
+		<Turn Name="turn" Type="int" Required="TRUE"/>
+		<Budget Name="budget" Type="int" Required="TRUE"/>	
+	</TURN_TO_BUDGET>
+
+	<BUDGET_SCALING Name="BudgetScaling">
+		<TurnToBudget Name="turnToBudget" Type="ArrayTURN_TO_BUDGET" Required="TRUE"/>
+	</BUDGET_SCALING>
+
+	<BUDGET_VALUE Name="BudgetValue">
+		<Value Name="value" Type="int" Required="TRUE"/>
+	</BUDGET_VALUE>
+	
+</PROTOTYPE_BUDGET_SCALING>

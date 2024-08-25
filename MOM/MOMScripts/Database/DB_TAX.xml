@@ -1,0 +1,9 @@
+﻿<DB_TAX>
+	<TAX-NONE 	Income="0" 		Rebelion="0" />
+	<TAX-L1 	Income="0.5" 	Rebelion="0.10" />
+	<TAX-L2 	Income="1" 		Rebelion="0.20" />
+	<TAX-L3 	Income="1.5" 	Rebelion="0.30" />
+	<TAX-L4 	Income="2" 		Rebelion="0.45" />
+	<TAX-L5 	Income="2.5" 	Rebelion="0.60" />
+	<TAX-L6 	Income="3" 		Rebelion="0.75" />
+</DB_TAX>

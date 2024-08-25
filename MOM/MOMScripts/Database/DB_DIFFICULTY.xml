@@ -1,0 +1,223 @@
+<DB_DIFFICULTY>
+
+	<DIFFICULTY-WIZARD_PICKS 
+			Name="UI_DIFF_WIZARD_PICKS" 
+			FullValue="10">
+		<TooltipName VALUE="UI_DIFF_WIZARD_PICKS"/>
+		<TooltipDescription VALUE="UI_DIFF_WIZARD_PICKS_DES"/>
+		<Setting Title="12" Value="12" Difficulty="10" Collection="1"/>
+        <Setting Title="11" Value="11" Difficulty="20" Collection="2"/>
+        <Setting Title="10" Value="10" Difficulty="30" Collection="3"/>
+	</DIFFICULTY-WIZARD_PICKS>
+	
+	<DIFFICULTY-STARTING_GOLD 
+			Name="UI_DIFF_STARTING_GOLD" 
+			FullValue="10">
+		<TooltipName VALUE="UI_DIFF_STARTING_GOLD"/>
+		<TooltipDescription VALUE="UI_DIFF_STARTING_GOLD_DES"/>
+		<Setting Title="500" Value="500" Difficulty="0" Collection="0" QuickStart="TRUE"/>
+		<Setting Title="200" Value="200" Difficulty="5" Collection="0"/>
+		<Setting Title="160" Value="160" Difficulty="10" Collection="1"/>
+        <Setting Title="120" Value="120" Difficulty="20" Collection="2"/>
+        <Setting Title="80" Value="80" Difficulty="30" Collection="3"/>
+        <Setting Title="40" Value="40" Difficulty="40" Collection="4"/>
+	</DIFFICULTY-STARTING_GOLD>
+	
+	<DIFFICULTY-AI_SKILL
+			Name="UI_DIFF_AI_SKILL" 
+			FullValue="10">
+		<TooltipName VALUE="UI_DIFF_AI_SKILL"/>
+		<TooltipDescription VALUE="UI_DIFF_AI_SKILL_DES"/>
+		<Setting Title="EN_BEGINNER" Value="1" Difficulty="10" Collection="1"/>
+        <Setting Title="EN_ADVANCED" Value="2" Difficulty="20" Collection="2"/>
+        <Setting Title="EN_SKILLED" Value="3" Difficulty="30" Collection="3"/>
+        <Setting Title="EN_MASTER" Value="4" Difficulty="50" Collection="4"/>
+	</DIFFICULTY-AI_SKILL>
+	<DIFFICULTY-AI_WIZARDS
+			Name="UI_AI_WIZARDS" 
+			FullValue="10">
+		<TooltipName VALUE="UI_AI_WIZARDS"/>
+		<TooltipDescription VALUE="UI_AI_WIZARDS_DES"/>
+		<Setting Title="1" Value="1" Difficulty="0" Collection="0"/>
+        <Setting Title="2" Value="2" Difficulty="5" Collection="0"/>
+        <Setting Title="3" Value="3" Difficulty="10" Collection="1"/>        
+		<Setting Title="4" Value="4" Difficulty="20" Collection="2"/>        
+	</DIFFICULTY-AI_WIZARDS>
+	
+	<DIFFICULTY-NEUTRAL_ARMIES_SIZE
+			Name="UI_DIFF_NEUTRAL_ARMIES" 
+			FullValue="10">
+		<TooltipName VALUE="UI_DIFF_NEUTRAL_ARMIES"/>
+		<TooltipDescription VALUE="UI_DIFF_NEUTRAL_ARMIES_DES"/>
+		<Setting Title="EN_BEGINNER" Value="1" Difficulty="10" Collection="1"/>
+        <Setting Title="EN_ADVANCED" Value="2" Difficulty="20" Collection="2"/>
+        <Setting Title="EN_SKILLED" Value="3" Difficulty="30" Collection="3"/>
+        <Setting Title="EN_MASTER" Value="4" Difficulty="50" Collection="4"/>
+	</DIFFICULTY-NEUTRAL_ARMIES_SIZE>
+		
+	<DIFFICULTY-LAIR_DEFENCE
+			Name="UI_DIFF_LAIR_DEFENCE" 
+			FullValue="10">
+		<TooltipName VALUE="UI_DIFF_LAIR_DEFENCE"/>
+		<TooltipDescription VALUE="UI_DIFF_LAIR_DEFENCE_DES"/>
+		<Setting Title="EN_BEGINNER" Value="1" Difficulty="10" Collection="1"/>
+        <Setting Title="EN_ADVANCED" Value="2" Difficulty="20" Collection="2"/>
+        <Setting Title="EN_SKILLED" Value="3" Difficulty="30" Collection="3"/>
+        <Setting Title="EN_MASTER" Value="4" Difficulty="50" Collection="4"/>
+	</DIFFICULTY-LAIR_DEFENCE>
+	
+	<DIFFICULTY-MAGIC_INTENSITY
+			Name="UI_DIFF_MAGIC_INTENSITY" 
+			FullValue="10">
+		<TooltipName VALUE="UI_DIFF_MAGIC_INTENSITY"/>
+		<TooltipDescription VALUE="UI_DIFF_MAGIC_INTENSITY_DES"/>
+		<Setting Title="EN_OVERPOWERING" Value="2.5"  Difficulty="0" Collection="0"/>
+        <Setting Title="EN_MIGHTY" Value="2.0" Difficulty="10" Collection="1"/>
+        <Setting Title="EN_POWERFUL" Value="1.5" Difficulty="20" Collection="2"/>
+        <Setting Title="EN_NORMAL" Value="1.0" Difficulty="30" Collection="3"/>
+        <Setting Title="EN_WEAK" Value="0.5" Difficulty="40" Collection="4"/>
+	</DIFFICULTY-MAGIC_INTENSITY>
+	
+	<DIFFICULTY-SPECIAL_EVENTS
+			Name="UI_DIFF_SPECIAL_EVENTS" 
+			FullValue="10">
+		<TooltipName VALUE="UI_DIFF_SPECIAL_EVENTS"/>
+		<TooltipDescription VALUE="UI_DIFF_SPECIAL_EVENTS_DES"/>
+		<Setting Title="UI_DIFF_SPECIAL_EVENTS_NONE" Value="1" Difficulty="10" Collection="0"/>
+        <Setting Title="UI_DIFF_SPECIAL_EVENTS_ORIGINAL" Value="2" Difficulty="10" Collection="0"/>
+        <Setting Title="UI_DIFF_SPECIAL_EVENTS_ORIGINAL_MODIFIED" Value="3" Difficulty="10" Collection="0"/>
+        <Setting Title="UI_DIFF_SPECIAL_EVENTS_ORIGINAL_AND_NEW" Value="4" Difficulty="10" Collection="1"/>
+	</DIFFICULTY-SPECIAL_EVENTS>
+	<DIFFICULTY-BATTLE_MP_TERRAIN_COSTS
+			Name="UI_BATTLE_MP_TERRAIN_COSTS" 
+			FullValue="10">
+		<TooltipName VALUE="UI_BATTLE_MP_TERRAIN_COSTS"/>
+		<TooltipDescription VALUE="UI_BATTLE_MP_TERRAIN_COSTS_DES"/>
+		<Setting Title="UI_ALL_TERRAIN_COST_1" Value="1" Difficulty="10" Collection="1"/>
+        <Setting Title="UI_MAX_COST_2" Value="2" Difficulty="20" Collection="2"/>
+        <Setting Title="UI_FULL_TERRAIN_COST" Value="3" Difficulty="30" Collection="3"/>        
+	</DIFFICULTY-BATTLE_MP_TERRAIN_COSTS>
+	<DIFFICULTY-WORLD_SIZE
+			Name="UI_WORLD_SIZE" 
+			FullValue="10">
+		<TooltipName VALUE="UI_WORLD_SIZE"/>
+		<TooltipDescription VALUE="UI_WORLD_SIZE_DES"/>
+        <Setting Title="UI_LARGE" Value="0" Difficulty="5" Collection="0"/>   
+        <Setting Title="UI_MEDIUM" Value="1" Difficulty="10" Collection="1"/>  
+		<Setting Title="UI_SMALL" Value="2" Difficulty="20" Collection="2"/>   		
+		<Setting Title="UI_V_SMALL" Value="3" Difficulty="30" Collection="3"/>
+	</DIFFICULTY-WORLD_SIZE>
+	<DIFFICULTY-INITIAL_ECONOMY
+			Name="UI_INITIAL_ECONOMY" 
+			FullValue="5">
+		<TooltipName VALUE="UI_INITIAL_ECONOMY"/>
+		<TooltipDescription VALUE="UI_INITIAL_ECONOMY_DES"/>
+		<Setting Title="UI_EASY" Value="1" Difficulty="5" Collection="1" QuickStart="TRUE"/>  
+		<Setting Title="UI_NORMAL" Value="2" Difficulty="10" Collection="2"/>      	
+		<Setting Title="UI_HARD" Value="3" Difficulty="60" Collection="3"/>      	
+	</DIFFICULTY-INITIAL_ECONOMY>
+	<DIFFICULTY-ADD_HERO
+			Name="UI_ADD_HERO" 
+			FullValue="20">
+		<TooltipName VALUE="UI_ADD_HERO"/>
+		<TooltipDescription VALUE="UI_ADD_HERO_DES"/>
+		<Setting Title="UI_BSHAN" Value="HERO-BSHAN" Difficulty="0" Collection="0" QuickStart="TRUE"/>  
+		<Setting Title="UI_NONE" Value="0" Difficulty="20" Collection="1"/>      		
+	</DIFFICULTY-ADD_HERO>
+	
+	<DIFFICULTY-NEUTRAL_TOWN_COUNT
+			Name="UI_NUMBER_OF_NEUTRAL_TOWNS" 
+			FullValue="10">
+		<TooltipName VALUE="UI_NUMBER_OF_NEUTRAL_TOWNS"/>
+		<TooltipDescription VALUE="UI_NUMBER_OF_NEUTRAL_TOWNS_DES"/>
+		<Setting Title="UI_MANY" Value="1" Difficulty="10" Collection="1"/>
+        <Setting Title="UI_AVERAGE" Value="2" Difficulty="20" Collection="2"/>
+        <Setting Title="UI_FEW" Value="3" Difficulty="30" Collection="3"/>        
+		<Setting Title="UI_NONE2" Value="4" Difficulty="40" Collection="4"/>
+	</DIFFICULTY-NEUTRAL_TOWN_COUNT>
+	
+	<DIFFICULTY-AWAKE
+			Name="UI_MID_GAME_AWAKE" 
+			FullValue="10" 
+			Dlc="Dlc2">
+		<TooltipName VALUE="UI_MID_GAME_AWAKE"/>
+		<TooltipDescription VALUE="UI_MID_GAME_AWAKE_DES"/>
+		<Setting Title="UI_NONE" Value="0" Difficulty="10" Collection="1"/>
+		<Setting Title="UI_MID_LATE" Value="1" Difficulty="30" Collection="2"/>
+        <Setting Title="UI_MID_AWAKENING" Value="2" Difficulty="40" Collection="2"/>
+        <Setting Title="UI_MID_STORM" Value="3" Difficulty="60" Collection="3"/>
+		<Setting Title="UI_MID_APOCALYPSE" Value="4" Difficulty="80" Collection="4"/>
+	</DIFFICULTY-AWAKE>
+	
+	<DIFFICULTY-TOWN_DISTANCE
+			Name="UI_TOWN_DISTANCE" 
+			FullValue="10" 
+			Dlc="Dlc0">
+		<TooltipName VALUE="UI_TOWN_DISTANCE"/>
+		<TooltipDescription VALUE="UI_TOWN_DISTANCE_DES"/>
+		<Setting Title="UI_TOWN_DISTANCE_4" Value="4" Difficulty="10" Collection="1"/>
+        <Setting Title="UI_TOWN_DISTANCE_5" Value="5" Difficulty="40" Collection="4"/>        
+	</DIFFICULTY-TOWN_DISTANCE>
+	
+	<DIFFICULTY-OUR_TOWN_GROW_MULTIPLIER
+			Name="UI_OUR_TOWN_GROW_MULTIPLIER" 
+			FullValue="10" 
+			Dlc="Dlc0">
+		<TooltipName VALUE="UI_OUR_TOWN_GROW_MULTIPLIER"/>
+		<TooltipDescription VALUE="UI_OUR_TOWN_GROW_MULTIPLIER_DES"/>
+		<Setting Title="UI_TOWN_GROW_MULTIPLIER_1_5" Value="1.5" Difficulty="10" Collection="1" QuickStart="TRUE"/>
+		<Setting Title="UI_TOWN_GROW_MULTIPLIER_1_25" Value="1.25" Difficulty="20" Collection="2"/>
+        <Setting Title="UI_TOWN_GROW_MULTIPLIER_1" Value="1" Difficulty="40" Collection="3"/>        
+	</DIFFICULTY-OUR_TOWN_GROW_MULTIPLIER>
+	
+	<DIFFICULTY-FOE_TOWN_GROW_MULTIPLIER
+			Name="UI_FOE_TOWN_GROW_MULTIPLIER" 
+			FullValue="10" 
+			Dlc="Dlc0">
+		<TooltipName VALUE="UI_FOE_TOWN_GROW_MULTIPLIER"/>
+		<TooltipDescription VALUE="UI_FOE_TOWN_GROW_MULTIPLIER_DES"/> 
+        <Setting Title="UI_TOWN_GROW_MULTIPLIER_1" Value="1" Difficulty="10" Collection="1"/>  
+		<Setting Title="UI_TOWN_GROW_MULTIPLIER_1_25" Value="1.25" Difficulty="20" Collection="3"/> 
+		<Setting Title="UI_TOWN_GROW_MULTIPLIER_1_5" Value="1.5" Difficulty="40" Collection="4" />   
+	</DIFFICULTY-FOE_TOWN_GROW_MULTIPLIER>
+	
+	<DIFFICULTY-LAIR_NUMBER_MULTIPLIER
+			Name="UI_LAIR_NUMBER_MULTIPLIER" 
+			FullValue="10" 
+			Dlc="Dlc0">
+		<TooltipName VALUE="UI_LAIR_NUMBER_MULTIPLIER"/>
+		<TooltipDescription VALUE="UI_LAIR_NUMBER_MULTIPLIER_DES"/>
+        <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_1" Value="1.0" Difficulty="10" Collection="1"/>  		  
+		<Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_7" Value="0.7" Difficulty="10" Collection="2"/>
+		<Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_5" Value="0.5" Difficulty="40" Collection="2"/>  
+		<Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_25" Value="0.25" Difficulty="60" Collection="3"/> 
+		<Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_1" Value="0.1" Difficulty="80" Collection="3"/> 
+		<Setting Title="UI_LAIR_NONE" Value="-1" Difficulty="100" Collection="4"/>  
+	</DIFFICULTY-LAIR_NUMBER_MULTIPLIER>
+	<DIFFICULTY-WATER_LAIR_NUMBER_MULTIPLIER
+			Name="UI_WATER_LAIR_NUMBER_MULTIPLIER" 
+			FullValue="10" 
+			Dlc="Dlc3">
+		<TooltipName VALUE="UI_WATER_LAIR_NUMBER_MULTIPLIER"/>
+		<TooltipDescription VALUE="UI_WATER_LAIR_NUMBER_MULTIPLIER_DES"/>
+        <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_1" Value="1.0" Difficulty="10" Collection="1"/> 
+		<Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_7" Value="0.7" Difficulty="10" Collection="2"/>	
+		<Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_5" Value="0.5" Difficulty="40" Collection="2"/>
+	    <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_25" Value="0.25" Difficulty="60" Collection="3"/> 
+		<Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_1" Value="0.1" Difficulty="80" Collection="3"/> 
+		<Setting Title="UI_LAIR_NONE" Value="-1" Difficulty="100" Collection="4"/> 
+	</DIFFICULTY-WATER_LAIR_NUMBER_MULTIPLIER>
+	<DIFFICULTY-CASTING_SKILL_MULTIPLIER
+			Name="UI_CASTING_SKILL_MULTIPLIER" 
+			FullValue="10" 
+			Dlc="Dlc0">
+		<TooltipName VALUE="UI_CASTING_SKILL_MULTIPLIER"/>
+		<TooltipDescription VALUE="UI_CASTING_SKILL_MULTIPLIER_DES"/>
+        <Setting Title="UI_CASTING_SKILL_MULTIPLIER_0_75" Value="0.25" Difficulty="10" Collection="1"/>  
+		<Setting Title="UI_CASTING_SKILL_MULTIPLIER_0_5" Value="0.5" Difficulty="40" Collection="2"/>  
+		<Setting Title="UI_CASTING_SKILL_MULTIPLIER_0_25" Value="0.75" Difficulty="60" Collection="2"/> 
+		<Setting Title="UI_CASTING_SKILL_MULTIPLIER_0_1" Value="0.9" Difficulty="80" Collection="3"/>  
+        <Setting Title="UI_LAIR_NONE" Value="-1" Difficulty="100" Collection="4"/>  
+	</DIFFICULTY-CASTING_SKILL_MULTIPLIER>
+	
+</DB_DIFFICULTY>

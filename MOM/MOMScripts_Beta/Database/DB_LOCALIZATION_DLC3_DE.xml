@@ -1,0 +1,198 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC3_DE Language="Deutsch">
+		<!-- DLC 3 descriptions -->
+
+		<!-- WIZARDS -->
+		<Loc Key="DES_BELIT" Value="Belit"/>
+		<Loc Key="DES_BELIT_DES" Value="Belit, die einst als mächtige Königin an der Seite Bladuds über die Orks herrschte, war unzufrieden, da ihre Artgenossen immer zivilisierter wurden und verweichlichten. Daher versuchte sie, die Orks auf die alten Pfade blutiger Eroberungsfeldzüge zurückzuführen. Verrat an ihrer königlichen Blutlinie oder womöglich der Fluch einer verschmähten Liebe führte jedoch dazu, dass sich Belit und ihre Piraten in Geißeln verwandelten. Sie ließ sich dadurch jedoch nicht von ihrem Weg abbringen und nahm ihr Schicksal an. Emsig gründet sie nun neue Städte und stärkt ihre Untergebenen mit Segnungen. Wehe dem, der ihren Fluch für eine Schwäche hält, denn Belit wird denjenigen eines Besseren belehren ... Die Piratenkönigin ist über den Tod erhaben und eine Meisterin der Hexerei, die allen anderen Zauberern beweisen möchte, welche Macht der ihr auferlegte Fluch birgt!"/>
+		<Loc Key="DES_BELIT_QUOTE" Value="Man nennt mich die Fluchbringerin, die Verdammte, die Verräterin. Alles davon trifft zu, denn ich bin die Königin der Meere, und schon bald werde ich über die ganze Welt herrschen!"/>
+
+		<Loc Key="DES_BELIT_GREETINGS" Value="Seid gegrüßt. Ich bin Belit, die Königin der Meere. Sprecht frei heraus, solange Worte noch von Bedeutung sind."/>
+		<Loc Key="DES_BELIT_GREETINGS_BLADUD_1" Value="Bladud, Euch scheint es gut zu ergehen. Mir ebenso, wie Ihr sehen könnt - trotz Eures niederträchtigen Fluches. Lasst uns reden, bevor ich Euch die Eingeweide herausreißen werde, um sie an die Fische zu verfüttern ..."/>
+		<Loc Key="DES_BELIT_GREETINGS_BLADUD_2" Value="Ehemann ... Sprich."/>
+
+		<Loc Key="DES_HORATIO" Value="Sir Horatio"/>
+		<Loc Key="DES_HORATIO_DES" Value="Sir Horatio ist ein berühmter Flottenkommandant, der es weit gebracht hat, wenn man bedenkt, welchem Stand und eher unzivilisierten Volk er entstammt. Einst war er ein einfacher Soldat und zufrieden mit seinem Leben, doch als er erkannte, dass er und seine Männer lediglich Schachfiguren in den gefährlichen Ränkespielen von Zauberern waren, wollte er nicht länger dem Willen dieser mächtigen Persönlichkeiten ausgeliefert sein. Er widmete fortan seine Zeit den Studien und wurde ein Kundiger der höheren Magie, wodurch es ihm gelang, die Meere zu zähmen und selbst ein Zauberer zu werden. Seit er in den Rang eines Meeresbändigers aufgestiegen ist, kann er sich als hervorragender Taktiker und Meister der Meere rühmen, der in der Lage ist, seine Feinde in einen gewieften Hinterhalt zu locken und mächtige Flotten zu befehligen. Sir Horatio ist fest entschlossen zu beweisen, dass er dank seiner soldatischen Disziplin und Ausbildung das Zeug zu einem Meister hat."/>
+		<Loc Key="DES_HORATIO_QUOTE" Value="Für Ruhm und Ehre werde ich das Kommando übernehmen und alle zu einem großen Sieg führen!"/>
+
+		<Loc Key="DES_HORATIO_GREETINGS" Value="Ich grüße Euch! Mein Name lautet Sir Horatio, stets zu Diensten - zumindest vorerst."/>
+		<Loc Key="DES_HORATIO_GREETINGS_GAYN_1" Value="Gayn, mein Bruder! Die Zeit unserer Rivalität ist gekommen, doch ich weiß, dass wir uns weiterhin ehrenhaft verhalten werden. Mögen wir bis zur finalen Schlacht Worte und nicht Waffen sprechen lassen!"/>
+		<Loc Key="DES_HORATIO_GREETINGS_GAYN_2" Value="Gayn, lasst uns offen miteinander reden."/>
+
+		<Loc Key="DES_QUEEN_XARXLA" Value="Königin Xar'xla"/>
+		<Loc Key="DES_QUEEN_XARXLA_DES" Value="Als oberste Schwarmkönigin herrscht Xar'xla über Millionen von Klackonen, doch das Schicksal hatte sogar noch Größeres mit ihr vor: Als sie ihr Talent für Magie entdeckte und die Macht derer beobachtete, die magische Kräfte zu nutzen wissen, regte sich in ihr der Wunsch, die mächtigste Zauberin zu werden. Vom Meisterschwarm gestärkt und ermutigt beschloss sie schon bald, an dem großen Wettbewerb der Zauberer teilzunehmen. Sie setzte es sich zum Ziel, andere Zauberkundige dazu zu bringen, sich ihrem königlichen Schwarm anzuschließen. Wer es wagt, sich dem Willen der Königin zu widersetzen, ist dem Untergang geweiht ..."/>
+		<Loc Key="DES_QUEEN_XARXLA_QUOTE" Value="Wir sind alle eins, und auch Ihr werdet in diesem Einssein aufgehen, wenn wir obsiegt haben."/>
+
+		<Loc Key="DES_QUEEN_XARXLA_GREETINGS" Value="Wir grüßen Euch - wir, die vielen, die mit einer Stimme und aus einem Geist sprechen. Nennt uns Xar'xla."/>
+
+		<Loc Key="DES_GAYN" Value="Gayn"/>
+		<Loc Key="DES_GAYN_DES" Value="Gayn ist ein stolzes Echsenwesen, das sich schon immer als Hüter der Meere erachtet hat. In jungen Jahren diente Gayn als Söldner auf vielen Schiffen und kämpfte an der Seite von Horatio in unzähligen Seeschlachten. Doch dann kam der Tag, an dem ihm bewusst wurde, welche Gefahr von den Zauberern ausgeht, sodass er den Entschluss fasste, sein Leben dem Schutz der Meere zu verschreiben, die er so sehr liebt. Mit der Macht des Todes und der Natur schützt er seitdem die Gewässer und kann sie dank seiner Fähigkeiten zu seinem Vorteil nutzen. Er ist dafür bekannt, gerne Jagd auf Piraten und gefährliche Meereskreaturen zu machen, was ihm den Beinamen 'Jäger der Meere' eingebracht hat. Seine jahrelange Erfahrung als Seemann kommt nun denjenigen zugute, die unter seinem Kommando stehen, indem sie sich schneller über Wasser bewegen können und Vorteile in Seeschlachten erhalten."/>
+		<Loc Key="DES_GAYN_QUOTE" Value="So viele versuchen, meine Meere als die ihren zu beanspruchen. Es ist an der Zeit, ihnen meine Macht aufzuzeigen und der unangefochtene Herrscher zu werden."/>
+
+		<Loc Key="DES_GAYN_GREETINGS" Value="Seid gegrüßt, ich bin Gayn. Wenngleich wir bald Feinde sein könnten, sollten wir zumindest am heutigen Tage höflich miteinander verkehren."/>
+		<Loc Key="DES_GAYN_GREETINGS_HORATIO_1" Value="Sir Horatio, es musste so kommen, dass wir unter diesen Umständen aufeinandertreffen - Waffenbrüder, die sich schon bald als Feinde gegenüberstehen werden. Lasst uns dieses unausweichliche Schicksal frohgemut und würdevoll annehmen."/>
+		<Loc Key="DES_GAYN_GREETINGS_HORATIO_2" Value="Sir Horatio, selbst jetzt ist es mir eine Freude, mit Euch zu sprechen."/>
+
+
+		<!-- TRAIT --> 
+		<Loc Key="DES_KLACKON_SUPREMACY" Value="Schwarmführer"/>
+		<Loc Key="DES_KLACKON_SUPREMACY_DES" Value="Der Schwarmführer verbindet sich mit dem Kollektiv der Klackonen, um die Effizienz zu erhöhen. Der Zauberer erhält für jede verbündete Klackonen-Einheit in der Schlacht +5 Zauberfertigkeit. Zudem sind die Klackonen, über die er herrscht, bei anderen Völkern weniger unbeliebt und der Klackonen-Held Ph'ym der Gelehrsame schließt sich dem Zauberer zu Beginn des Spiels an.\n\n- Diese Spezialisierung ist nur beim Volk der Klackonen wirksam.\n\n- Kann nicht zusammen mit anderen exklusiven Spezialisierungen dieses Volkes ausgewählt werden.\n\n- 'Schwarmführer' kostet 2 Punkte."/>
+		<Loc Key="DES_SWIFT_SEALEGS" Value="Meister der Meere"/>
+		<Loc Key="DES_SWIFT_SEALEGS_DES" Value="Der Meister der Meere verleiht allen Einheiten mit der Fähigkeit 'Schwimmen' (einschließlich körperloser und übernatürlicher Einheiten) unter dem Kommando des Zauberers +1 Bewegungspunkt auf der Weltkarte. Darüber hinaus weisen Schiffe, die unter dem wachsamen Auge des Meisters der Meere gebaut oder erworben wurden, bereits zu Beginn eine erhöhte Stufe auf (+3 Stufen) und ihre Baukosten sind um 20 % verringert.\n\n- 'Meister der Meere' kostet 2 Punkte."/>
+		<Loc Key="DES_POWER_PEOPLE" Value="Macht des Volkes"/>
+		<Loc Key="DES_POWER_PEOPLE_DES" Value="Eure getreuen Untergebenen weisen eine außergewöhnliche Affinität zu Magie auf. Mit 'Macht des Volkes' generiert das Volk in der Hauptstadt des Zauberers +1 Zauberkraft pro Bevölkerungspunkt.\n\n- 'Macht des Volkes' kostet 2 Punkte."/>
+		<Loc Key="DES_THE_PIRATE" Value="Pirat"/>
+		<Loc Key="DES_THE_PIRATE_DES" Value="Der Pirat lebt von Eroberungen und Raubzügen. Wenn er eine feindliche Stadt zerstört, erhält er zusätzliches Gold und eine zusätzliche Belohnung, die von der Größe der Stadt abhängt. Zudem erhält der Zauberer durch den Raubzug eine Gebundenen-Einheit. Das Zerstören einer Stadt bringt ihm Ruhm ein, das Behalten einer Stadt hingegen verringert seinen Ruhm.\nACHTUNG: Die Spezialisierung 'Pirat' löst in Euren Städten ein Piratenaufstand-Ereignis aus, wenn Ihr mehr als 6 Städte besitzt!\n\n- 'Pirat' kostet 3 Punkte."/>
+		<Loc Key="DES_TACTITIAN" Value="Taktiker"/>
+		<Loc Key="DES_TACTITIAN_DES" Value="Als herausragender Taktiker ist der Zauberer in der Lage, seine Schlachten sorgfältig zu planen, wodurch er in der Schlacht allen Einheiten unter seinem Kommando +1 Bewegungspunkt verleiht. Zudem erhalten seine Truppen einen Vorteil, indem sie in der Schlacht immer zuerst zum Zug kommen - unabhängig davon, ob sie angreifen oder verteidigen. (Der Turm des verteidigenden Zauberers ist davon ausgenommen, daher wird er dennoch zuerst angreifen.)\n\n- 'Taktiker' kostet 2 Punkte."/>
+		<Loc Key="DES_ADMIRAL" Value="Kapitän"/>
+		<Loc Key="DES_ADMIRAL_DES" Value="Schiffe, die unter dem wachsamen Auge des Kapitäns gebaut oder erworben wurden, weisen bereits zu Beginn eine erhöhte Stufe auf (+3 Stufen)."/>
+		<Loc Key="DES_SEA_HUNTER" Value="Jäger der Meere"/>
+		<Loc Key="DES_SEA_HUNTER_DES" Value="Jäger der Meere verleihen ihren Truppen in Seeschlachten hohe Boni. Alle Einheiten unter dem Kommando des Zauberers erhalten in der Schlacht +2 auf alle Werte (außer auf die Trefferpunkte) und die Fähigkeit zu schwimmen.\n\n- 'Jäger der Meere' kostet 1 Punkt."/>
+		<Loc Key="DES_WATER_BOSS_1" Value="Krakenherz"/>
+		<Loc Key="DES_WATER_BOSS_1_DES" Value="Das Krakenherz ist ein mächtiges magisches Organ. Der Zauberer, der es sein Eigen nennt, profitiert von 25 % geringeren Forschungskosten für alle arkanen Zauber."/>
+		<Loc Key="DES_WATER_BOSS_2" Value="Krakenauge"/>
+		<Loc Key="DES_WATER_BOSS_2_DES" Value="Bei dem Krakenauge handelt es sich um eine wirkungsvolle magische Komponente, die es dem Zauberer ermöglicht, die Kosten für das Sprechen aller arkanen Zauber (außer 'Gegenstand bezaubern' und 'Artefakt erzeugen') um 25 % zu verringern."/>
+
+		<!-- RACE --> 
+		<Loc Key="DES_BLUEORCS" Value="Geißeln"/>
+		<Loc Key="DES_BLUEORCS_DES" Value="Die Geißeln gehörten einst Clans der Orks an und wollten im Gegensatz zu ihren Artgenossen nicht ihr kriegerisches Naturell verleugnen. Als Abtrünnige stachen sie in See, um zu plündern, zu brandschatzen und ihre Feinde gefangen zu nehmen, wodurch sie den Ruf als furchterregendste Piraten der beiden Reiche erlangten. Dies war allerdings nicht das Ende der Geschichte: Eines Tages fielen sie einem finsteren, unerbittlichen Fluch zum Opfer, der alle Piraten zum ewigen Untod verdammte! Dies war die Geburtsstunde der Geißeln: geisterhafte Wesen, die von Gier und Neid auf die Lebenden getrieben werden. Dieser Neid geht so weit, dass sie Unmengen an Nahrung produzieren, die sie selbst gar nicht verzehren können."/>
+		<Loc Key="DES_BLUEORCS_PRODUCTION" Value="Wachstumsrate: Hoch (Basisrate von +15 Bevölkerung/Runde)\nBau-Einschränkungen: Können keine Werften, Übernatürlichen Stallungen, Kathedralen und Universitäten bauen.\nAndere Modifikatoren: +1 Nahkampfangriff{ICON:MeleeIconNormal} für Einheiten (außer Einheiten ohne Volk), Körperlos (außer Einheiten ohne Volk) und Aura der Furcht (außer Gebundene, Rusalka, Kapitän und Geisterschiff).\nSpezialeinheiten: {LINK:UNIT-B_ORC_RUSALKA} Rusalka{ICON:Rusalka}{END_LINK} {LINK:UNIT-B_ORC_BLACKSPARROW} Kapitän{ICON:Blacksparrow}{END_LINK} {LINK:UNIT-B_ORC_SEA_CREATURE} Meereskreatur{ICON:SeaCreature}{END_LINK} {LINK:UNIT-B_ORC_GHOSTSHIP} Paragon-Geisterschiff{ICON:Ghostship}{END_LINK}"/>
+		<Loc Key="DES_PIRATE_DUNG" Value="Piraten"/>
+		<Loc Key="DES_PIRATE_DUNG_DES" Value="Diese Einheit gehört zu der Piratengeißel, die auf den Meeren ihr Unwesen treibt. Die Piraten sind dafür bekannt, in ihren Verstecken große Schätze zu horten und zu bewachen."/>
+
+
+		<!-- BUILDINGS -->
+		<Loc Key="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD" Value="Verfluchte Werft"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_GHOST_SHIPYARD_DES" Value="In der Verfluchten Werft sind die Geister von einstigen Hafenarbeitern damit beschäftigt, selbst an Land Gespensterschiffe zu bauen."/>
+		<Loc Key="DES_BUILDING_BLUEORCS_RAIDERS_HUT" Value="Raubhütte"/>
+		<Loc Key="DES_BUILDING_BLUEORCS_RAIDERS_HUT_DES" Value="Die Raubhütte ermöglicht es den Piraten, die Reichtümer der Meere für ihre Stadt zu plündern.\n\nEffekte: Erhalt von +3 Nahrung{ICON:FoodIcon} und +3 Gold{ICON:GoldIcon}.\n\nERFORDERT KÜSTE."/>
+
+
+		<!-- UNITS -->
+		<Loc Key="DES_BLUEORCS_SETTLER_SETTLERS" Value="Geißel-Siedler"/>
+		<Loc Key="DES_BLUEORCS_TRIREME" Value="Gespenster-Triere"/>
+		<Loc Key="DES_BLUEORCS_TRIREME_DES" Value="Dieses feinstoffliche Schiff ist nicht an die Materie gebunden und ermöglicht es den verfluchten Piraten, sowohl an Land als auch zur See auf Raubzüge zu gehen."/>
+		<Loc Key="DES_BLUEORCS_SWORDSMEN" Value="Geißel-Säbelkämpfer"/>
+		<Loc Key="DES_BLUEORCS_CAVALRY" Value="Geißel-Kavallerie"/>
+		<Loc Key="DES_BLUEORCS_BOWMEN" Value="Geißel-Bogenschützen"/>
+		<Loc Key="DES_BLUEORCS_SHAMANS" Value="Geißel-Schamanen"/>
+		<Loc Key="DES_BLUEORCS_RUSALKA" Value="Rusalka"/>
+		<Loc Key="DES_BLUEORCS_RUSALKA_DES" Value="Die Rusalka ist eine exotische Wassernymphe, die von den Gespensterpiraten gefangen genommen und gezwungen wurde, bis ans Ende aller Tage für sie zu tanzen. Es handelt sich dabei um eine mächtige Zauberkundige, die auf dem Schlachtfeld für Chaos sorgen kann."/>
+		<Loc Key="DES_BLUEORCS_SEA_CREATURE" Value="Meereskreatur"/>
+		<Loc Key="DES_BLUEORCS_SEA_CREATURE_DES" Value="Die Meereskreatur ist ein mutiertes Tiefseetier, das den Kapitänen der Piratenflotte mit seinen mächtigen Nahkampfangriffen und seinem Versteinernden Blick dienen muss. Zudem kann es einen Haifisch-Zyklon heraufbeschwören."/>
+		<Loc Key="DES_BLUEORCS_BLACK_SPARROW" Value="Kapitän"/>
+		<Loc Key="DES_BLUEORCS_BLACK_SPARROW_DES" Value="Jedes Piratenschiff braucht einen furchterregenden Kapitän. Kapitäne der Geißeln sind gefangen in ihrer verfluchten, geisterhaften Gestalt und wurden durch die tiefe See mutiert. Sie führen ihre todbringenden Schiffsmannschaften an, um zu plündern und zu brandschatzen. Zudem halten sie die Ketten, durch die unzählige Gefangene an die Piraten gebunden sind und ihnen dienen müssen."/>
+		<Loc Key="DES_BLUEORCS_GHOSTSHIP" Value="Paragon-Geisterschiff"/>
+		<Loc Key="DES_BLUEORCS_GHOSTSHIP_DES" Value="Paragon-Geisterschiffe sind der fleischgewordene Fluch der Geißeln. Es handelt sich dabei um infernalische, beseelte Schiffe direkt aus den Tiefen der Meere, die dem Ruf ihrer verdammten Brüder folgen, um die Seelen der Gefallenen zu holen."/>
+		<Loc Key="DES_BLUEORCS_LEASHED" Value="Die Gebundenen"/>
+		<Loc Key="DES_BLUEORCS_LEASHED_DES" Value="Bei den Gebundenen handelt es sich um jene unglückseligen Seelen, die von den verfluchten Piraten gefangen genommen und in absonderliche Kreaturen der Meerestiefen verwandelt wurden. Bei diesem Prozess verschmelzen einzelne Stadtbewohner zu einer Einheit, weswegen diese Kreaturen über erstaunliche Fähigkeiten verfügen und beispielsweise als Ingenieure oder Kundschafter fungieren können."/>
+		<Loc Key="DES_SOR_WATER_ELEMENTAL" Value="Haifisch-Zyklon"/>
+		<Loc Key="DES_SOR_WATER_ELEMENTAL_DES" Value="Der Haifisch-Zyklon ist eine furchterregende Manifestation der Kraft des Meeres und wird beschworen, um auf dem Schlachtfeld eine Spur der Verwüstung zu hinterlassen."/>
+		<Loc Key="DES_TENTACLE" Value="Krakententakel"/>
+		<Loc Key="DES_TENTACLE_DES" Value="Die Krake ist ein legendäres Seeungeheuer. Sie verfügt über eine solch bedrohliche Größe, dass man immer nur gegen ihre Tentakel kämpft und dabei die Hoffnung hegt, von der Krake selbst in Ruhe gelassen zu werden, sobald man sich die Tentakel erfolgreich vom Leib gehalten hat."/>
+
+		<!-- HERO -->
+		<Loc Key="DES_PHYM" Value="Ph'ym der Gelehrsame"/>
+		<Loc Key="DES_PHYM1" Value="Ant'man der Gelehrsame"/>
+		<Loc Key="DES_PHYM2" Value="La'ng der Gelehrsame"/>
+		<Loc Key="DES_PHYM3" Value="Og'rad der Gelehrsame"/>
+		<Loc Key="DES_PHYM4" Value="Za'yn der Gelehrsame"/>
+		<Loc Key="DES_PHYM_DES" Value="Früher war {0} nur einer von vielen treuen Angehörigen des Schwarms, der seiner Königin pflichtbewusst diente und stets bestrebt war, mehr Wissen zu erlangen. Auf dem Weg zum Gipfel der Weisheit hatte er auch eine individuelle Persönlichkeit entwickelt und war damit zu einem Sonderling unter seinesgleichen geworden. Der Königin war nicht entgangen, wie stark und entschlossen der Held geworden war, weswegen sie beschloss, ihm die Freiheit zu schenken. Sie wusste, dass der Schwarm von den gesammelten Erfahrungen eines solchen Individuums nur profitieren würde. Obwohl {0} seiner Königin nach wie vor treu ergeben ist, bietet er seine Dienste auch jedem Zauberer an, der seinen Erfahrungsschatz zu vergrößern verspricht."/>
+		<Loc Key="DES_SLITHERS" Value="Glitscha die Meeresgeißel"/>
+		<Loc Key="DES_SLITHERS1" Value="Schuppa die Meeresgeißel"/>
+		<Loc Key="DES_SLITHERS2" Value="Schnitta die Meeresgeißel"/>
+		<Loc Key="DES_SLITHERS3" Value="Syrin die Meeresgeißel"/>
+		<Loc Key="DES_SLITHERS4" Value="Austa die Meeresgeißel"/>
+		<Loc Key="DES_SLITHERS_DES" Value="{0} ist eine fähige Echsenkriegerin, die mit zwei Waffen gleichzeitig zu kämpfen weiß und speziell dafür ausgebildet wurde, Jagd auf Feinde zu machen, die das Meer befahren. Ihrem Reittier wohnt uralte ozeanische Magie inne, wodurch sie in der Lage ist, ihre gesamte Armee über das Wasser zu führen, um Piraten und alle anderen zu jagen, die es wagen, sich ihr in den Weg zu stellen. Diese Heldin hat sich den Beinamen 'Meeresgeißel' wahrlich verdient und stellt sich als treue Söldnerin in den Dienst eines jeden Zauberers, der ihrer würdig ist oder sein Geldsäckel weit genug zu öffnen vermag."/>
+		<Loc Key="DES_BIG_BERTA" Value="Bullige Berta"/>
+		<Loc Key="DES_BIG_BERTA1" Value="Mächtige Martha"/>
+		<Loc Key="DES_BIG_BERTA2" Value="Tretende Thea"/>
+		<Loc Key="DES_BIG_BERTA3" Value="Winzige Wilma"/>
+		<Loc Key="DES_BIG_BERTA4" Value="Brummende Bea"/>
+		<Loc Key="DES_BIG_BERTA_DES" Value="Die {0} ist eine stämmige, kräftige Orkfrau, die schon immer eine Vorliebe für dicke Dinger hatte, genauer gesagt für Kanonenkugeln. Sie sieht den Fluch der Geißeln als ein Geschenk, da sie durch ihn nur noch stärker wurde. Da die {0} in der Vergangenheit bei vielen Schiffsmannschaften Eindruck schinden konnte, wurde sie mehrere Male zur Kapitänin ernannt. Nun sucht diese im wahrsten Sinne des Wortes mit allen Wassern gewaschene Kanonierin nach einer neuen Herausforderung und etwas Spaß. Sie wird jedem Zauberer als Söldnerin dienen, der sie gut bezahlt und Abenteuer verspricht."/>
+		<Loc Key="DES_WUSP" Value="Wu'sp"/>
+		<Loc Key="DES_WUSP_DES" Value="Wu'sp ist eine inbrünstige und treu ergebene Dienerin des großen Klackonen-Schwarms, die als Heldin niemals eigenmächtig handeln würde. Sie macht Jagd auf Ph'ym, um ihn der Gerechtigkeit des Schwarms zuzuführen!"/>
+
+		<!-- ENCHANTMENTS --> 
+		<Loc Key="DES_POWER_PEOPLE_ENCH_DES" Value="Dank 'Macht des Volkes' generiert die Stadt +1 Zauberkraft pro Bevölkerungspunkt."/>
+		<Loc Key="DES_TACTITIAN_ENCH_DES" Value="Unter dem Blick des Taktikers erhält die Einheit +1 BP im Kampf."/>
+		<Loc Key="DES_WATER_SPEED" Value="Wasserflinkheit"/>
+		<Loc Key="DES_WATER_SPEED_DES" Value="Dank 'Wasserflinkheit' erhalten Einheiten mit der Fähigkeit zu schwimmen +1 BP auf der Weltkarte."/>
+		<Loc Key="DES_ADMIRAL_ENCH_DES" Value="Alle Schiffe unter dem Kommando des Kapitäns erhalten +3 Stufen."/>
+		<Loc Key="DES_WATER_SPEED_ENCH_DES" Value="Der Meister der Meere verleiht Einheiten mit der Fähigkeit zu schwimmen +1 BP auf der Weltkarte."/>
+		<Loc Key="DES_AMBUSH" Value="Taktischer Hinterhalt"/>
+		<Loc Key="DES_AMBUSH_ENCH_DES" Value="Dank des Taktikers kommt die Armee in der Schlacht immer zuerst zum Zug."/>
+		<Loc Key="DES_SHALLOW_WATER" Value="Seichtes Wasser"/>
+		<Loc Key="DES_SHALLOW_WATER_DES" Value="Dieses Schlachtfeld befindet sich in seichtem Wasser, sodass alle Einheiten, die nicht über die Fähigkeit 'Schwimmen' oder 'Fliegen' verfügen, 'Wasserläufer' erhalten und sich im Kampf durch das Wasser bewegen können."/>
+		<Loc Key="DES_SEA_HUNTER_ENCH_DES" Value="Alle Einheiten unter dem Kommando des Jägers der Meere erhalten in der Schlacht +2 auf alle Werte (außer auf die Trefferpunkte) und die Fähigkeit zu schwimmen."/>
+		<Loc Key="DES_WIND_CAVE_ENCH" Value="Wind des Todes"/>
+		<Loc Key="DES_WIND_CAVE_ENCH_DES" Value="Der Wind des Todes bläst mit der eisigen Kraft der verfluchten Meere und sorgt in der Höhle immer wieder für Steinschläge. In jeder Runde besteht eine Chance von 5 %, dass dadurch bis zu 2 Einheiten Schaden in Höhe von 50 % ihrer aktuellen Trefferpunkte erleiden (aufgerundet). Der Wind bläst so stark, dass die Trefferchance{ICON:ToHitBonusIcon} aller Arten von Fernkampfangriffen um 10 % verringert ist und keine Einheit die Fähigkeit zu fliegen{ICON:MovementFlyingIcon} nutzen kann."/>
+		<Loc Key="DES_PIRATE_CURSE_ENCH" Value="Piratenfluch"/>
+		<Loc Key="DES_PIRATE_CURSE_ENCH_DES" Value="Der Piratenfluch lastet auf dem Schlachtfeld. Alle Einheiten des Angreifers erhalten -1 Resistenz{ICON:ResistanceIconNormal} und -1 BP. Zudem sorgt der Fluch dafür, dass die Schlacht nach lediglich 20 Runden endet!"/>
+		<Loc Key="DES_IMMOVABLE_OBJECTS" Value="Unüberwindbares Gelände"/>
+		<Loc Key="DES_IMMOVABLE_OBJECTS_DES" Value="Einige Elemente der Karte sind so stark von einer uralten Macht durchdrungen, dass sie weder überwunden noch in irgendeiner Weise beeinflusst werden können - weder mit magischen noch mit weltlichen Mitteln."/>
+		<Loc Key="DES_MASS_WATER_WALKING_UNIT" Value="Vom Wasser getragen"/>
+		<Loc Key="DES_MASS_WATER_WALKING_UNIT_DES" Value="Die Einheit wird dank der Fertigkeit 'Wellenreiter' einer anderen Einheit vom Wasser getragen. Solange sich die Einheiten gemeinsam auf einem Feld befinden, besitzen sie die Fähigkeit zu schwimmen."/>
+		<Loc Key="DES_KLACKON_SUPREMACY_ENCH" Value="Schwarmführer"/>
+		<Loc Key="DES_KLACKON_SUPREMACY_ENCH_DES" Value="Der Schwarmführer-Zauberer erhält für jede verbündete Klackonen-Einheit in der Schlacht +5 Zauberfertigkeit."/>
+
+		<!-- SKILLS --> 
+		<Loc Key="DES_GHOSTSHIP_TERROR" Value="Gespenstischer Schrecken"/>
+		<Loc Key="DES_GHOSTSHIP_TERROR_DES" Value="Jede feindliche Einheit in der Schlacht muss in jeder Runde mit einer Probe widerstehen (mit +1 Resistenz{ICON:ResistanceIconNormal}). Misslingt die Probe, ist die Einheit in dieser Runde starr vor Schreck und kann keine Aktion durchführen."/>
+		<Loc Key="DES_MUD_ATTACK" Value="Schlammbezauberung"/>
+		<Loc Key="DES_MUD_ATTACK_DES" Value="Eine bezauberte Einheit hat das zwanghafte Verlangen, im Schlamm zu tanzen, anstatt zu kämpfen. Jedes Mal, wenn die Einheit angegriffen wird (Nahkampf/Fernkampf), muss sie mit einer Probe widerstehen{ICON:ResistanceIconNormal}. Misslingt die Probe, verwandelt sich der Boden unter den Füßen der Einheit zu Schlamm und sie verliert für 1 Runde 1 BP. (Weitere Angriffe und misslungene Proben erhöhen die Dauer."/>
+		<Loc Key="DES_MUD_DES" Value="Diese Einheit ist einer Schlammbezauberung zum Opfer gefallen, weswegen sie das zwanghafte Verlangen hat, im Schlamm zu tanzen, anstatt zu kämpfen. Jedes Mal, wenn es der Einheit nicht gelingt, mit einer Probe zu widerstehen{ICON:ResistanceIconNormal}, verliert sie für 1 Runde 1 BP. (Weitere Angriffe und misslungene Proben erhöhen die Dauer.)"/>
+		<Loc Key="DES_MASS_WATER_WALKING" Value="Wellenreiter"/>
+		<Loc Key="DES_MASS_WATER_WALKING_DES" Value="Diese Einheit wird dank ihrer Fertigkeit 'Wellenreiter' vom Wasser getragen. Die Einheit und alle Einheiten auf demselben Feld erhalten die Fähigkeit zu schwimmen."/>
+		<Loc Key="DES_MASS_WATER_WALKING_SKILL_DES" Value="Der Wellenreiter bewegt sich mit Leichtigkeit übers Wasser und verleiht diese Fähigkeit auch anderen Einheiten. Die Einheit und alle Einheiten auf demselben Feld erhalten die Fähigkeit zu schwimmen."/>
+		<Loc Key="DES_HIVEMIND" Value="Schwarmbewusstsein"/>
+		<Loc Key="DES_HIVEMIND_DES" Value="Der Held ist mit dem Schwarmbewusstsein der Klackonen verbunden und erhält Boni für jede Klackonen-Einheit, die mit ihm auf demselben Feld steht."/>
+		<Loc Key="DES_SHACKLE_MASTER" Value="Meister der Ketten"/>
+		<Loc Key="DES_SHACKLE_MASTER_DES" Value="Der Meister der Ketten kontrolliert seine gefangenen Truppen: Meereskreaturen, Rusalka und Gebundene erhalten +10 % auf die Trefferchance{ICON:ToHitBonusIcon}."/>
+		<Loc Key="DES_SHACKLED" Value="Einheit in Ketten"/>
+		<Loc Key="DES_SHACKLED_DES" Value="Der Meister der Ketten kontrolliert seine gefangenen Truppen. Diese Einheit ist in Ketten und erhält +10 % auf die Trefferchance{ICON:ToHitBonusIcon}."/>
+
+		<!-- RES --> 
+		<Loc Key="DES_RES_FISH" Value="Fische"/>
+		<Loc Key="DES_RES_FISH_DES" Value="Gewährt +2 Nahrung{ICON:FoodIcon} und verringert die Produktionskosten für Einheiten um 10 %.\nKann nicht mit 'Umwandeln' in eine andere Ressource umgewandelt werden, allerdings erhaltet Ihr mithilfe von 'Meeresernte' Ressourcen."/>
+		<Loc Key="DES_RES_PEARLS" Value="Perlen"/>
+		<Loc Key="DES_RES_PEARLS_DES" Value="Gewährt der nahe gelegenen Stadt +3 Zauberkraft{ICON:PowerIcon} und +3 Gold{ICON:GoldIcon}.\nKann nicht mit 'Umwandeln' in eine andere Ressource umgewandelt werden, allerdings erhaltet Ihr mithilfe von 'Meeresernte' Ressourcen."/>
+		<Loc Key="DES_RES_REEF" Value="Riff"/>
+		<Loc Key="DES_RES_REEF_DES" Value="Gewährt der nahe gelegenen Stadt +2 Gold{ICON:GoldIcon} und verringert dort die Produktionskosten für Gebäude um 20 %.\nKann nicht mit 'Umwandeln' in eine andere Ressource umgewandelt werden, allerdings erhaltet Ihr mithilfe von 'Meeresernte' Ressourcen."/>
+
+		<!-- SPELLS ADN ENCH -->
+		<Loc Key="DES_WATER_ELEMENTAL" Value="Haifisch-Zyklon"/>
+		<Loc Key="DES_WATER_ELEMENTAL_DES" Value="Entfesselt die furchterregende Kraft des Meeres in Form eines Haifisch-Zyklons, der auf dem Schlachtfeld eine Spur der Verwüstung hinterlässt."/>
+		<Loc Key="DES_BARRAGE" Value="Trommelfeuer"/>
+		<Loc Key="DES_BARRAGE_DES" Value="Die Einheit nimmt den Feind gnadenlos unter Beschuss. Alle feindlichen Einheiten im Kampf werden mit einem magischen Feuerangriff der Stärke 5 getroffen."/>
+		<Loc Key="DES_CONSTANTSTORM" Value="Tobendes Unwetter"/>
+		<Loc Key="DES_CONSTANTSTORM_DES" Value="Ein nicht enden wollendes Unwetter wütet auf dem Schlachtfeld, wobei in jeder Runde eine zufällige angreifende Einheit mit einem Blitzangriff der Stärke 10 getroffen wird."/>
+		<Loc Key="DES_SEA_HARVEST" Value="Meeresernte"/>
+		<Loc Key="DES_SEA_HARVEST_DES" Value="Durch 'Meeresernte' wird eine Ressource aus dem Meer umgewandelt, wodurch Ihr +10 auf den Zauberfertigkeit-Fortschritt{ICON:CastingSkillIcon}, 0 bis +50 Mana{ICON:ManaIcon} und +50 bis +100 Gold{ICON:GoldIcon} erhaltet.\nHinweis: Die geerntete Ressource wird daraufhin zerstört. Die Wahrscheinlichkeit, Ressourcen im Einzugsbereich einer gegnerischen Stadt erfolgreich umzuwandeln, beträgt 20 %."/>
+		<Loc Key="DES_SEA_HARVEST_TARGET" Value="Wählt als Ziel ein Wasserfeld mit Fischen, Perlen oder einem Riff als Ressource aus."/>
+		<Loc Key="DES_SHIP_DISCOUNT" Value="Meister der Meere"/>
+		<Loc Key="DES_SHIP_DISCOUNT_DES" Value="Als Meister der Meere ist der Zauberer für Schiffsbauer ein Quell der Inspiration, weswegen die Baukosten für Schiffe in Städten um 20 % reduziert sind."/>
+		<Loc Key="DES_HIVEMIND_UNIT" Value="Schwarmverbindung"/>
+		<Loc Key="DES_HIVEMIND_UNIT_DES" Value="Die Einheit ist mit dem Schwarmbewusstsein verbunden und weist daher eine um 10 % erhöhte Verteidigungschance auf."/>
+
+		<!--LAIRS -->
+		<Loc Key="DES_WIND_CAVE" Value="Windhöhlen"/>
+		<Loc Key="DES_REEF_TREASURE_ISLAND" Value="Schatzinsel"/>
+		<Loc Key="DES_WATER_BOSS_LAIR_1" Value="Krakendomäne"/>
+		<Loc Key="DES_WATER_BOSS_LAIR_2" Value="Krakendomäne"/>
+		
+		<!--LAIR UNITS -->
+        <Loc Key="DES_PIR_GIANT_SPIDERS" Value="Piratenspinnen" />
+		<Loc Key="DES_PIR_GIANT_SPIDERS_DES" Value="Die achtbeinigen Beschützer der Natur, die unter dem Joch der Piraten stehen, nutzen ihre giftige Berührung und den Zauber 'Spinnennetz', um ihre schnellen Nahkampfangriffe{ICON:MeleeIconNormal} zu garnieren. Die Schwäche dieser Spinnen ist ihre schlechte Verteidigung, sodass das beste Mittel gegen sie darin besteht, sie zuerst zu treffen." />
+		<Loc Key="DES_PIR_PHANTOM_WARRIORS" Value="Piratenphantome" />
+		<Loc Key="DES_PIR_PHANTOM_WARRIORS_DES" Value="Phantomkrieger werden von Piraten auf dem Schlachtfeld beschworen, um ihnen als einfache Nahkämpfer{ICON:MeleeIconNormal} zu dienen, die den Gegner mit einer trügerischen Illusionskraft angreifen und dabei seine Verteidigung ignorieren."/>
+		<Loc Key="DES_PIR_NAGAS" Value="Piratennagas" />
+		<Loc Key="DES_PIR_NAGAS_DES" Value="Die Nagas werden von Piraten beschworen und verstärken ihre schnellen Nahkampfangriffe{ICON:MeleeIconNormal} mit ihrer giftigen Berührung." />
+		<Loc Key="DES_PIR_ZOMBIES" Value="Piratenzombies" />
+		<Loc Key="DES_PIR_ZOMBIES_DES" Value="Belebt von der Macht der Piratengeißel erfüllen die Zombies ihren Zweck. Diese untoten Schergen sind Nahkämpfer{ICON:MeleeIconNormal}, die sich aufgrund ihrer geringen Stärke am ehesten als Kanonenfutter eignen." />
+		<Loc Key="DES_PIR_WRAITHS" Value="Piratengespenster" />
+		<Loc Key="DES_PIR_WRAITHS_DES" Value="Gespenster sind körperlose Nahkämpfer{ICON:MeleeIconNormal}, die Piraten mit ihrer Fähigkeit dienen, den Gegnern Lebenskraft zu entziehen und dabei untote Diener zu erschaffen." />
+
+	</LOCALIZATION-DLC3_DE>
+</DB_LOCALIZATION>

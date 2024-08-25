@@ -1,0 +1,108 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC1_ES Language="Español">
+		<!-- DLC 1 descriptions --> 
+		<Loc Key="DES_RAASS" Value="Raa'ss" />
+		<Loc Key="DES_RAASS_DES" Value="Raa'ss es un poderoso mago draconiano lleno de ira y agitación que puede canalizarse hacia la conquista con una precisión mortal. Es el maestro del caos y la magia de la muerte y un señor de la guerra fantástico cuyas invocaciones son de gran poder. Se niega a desfilar con ropa humanoide y aborrece a su supuesta gemela, Sss'ra. Se dice que el verdadero origen de Raa'ss está impregnado de malicia, que de hecho es un reflejo oscuro de Sss'ra vuelto a la vida..." />
+		<Loc Key="DES_RAASS_QUOTE" Value="¡Llámame un mero reflejo una vez más, te reto!" />
+
+		<Loc Key="DES_BIANKA" Value="Bianka" />
+		<Loc Key="DES_BIANKA_DES" Value="Bianka ascendió a los rangos más altos de la nobleza enana a través de su firme e inquebrantable determinación y dominio indiscutible de la magia rúnica. Como cantero, Bianka también muestra su afinidad casi antinatural con la piedra. Originaria de Myrror, la gran hechicera busca demostrar su derecho de nacimiento como Maestra manejando tres escuelas mágicas separadas, Hechicería, Caos y Naturaleza." />
+		<Loc Key="DES_BIANKA_QUOTE" Value="Mi poder está forjado con agitación, infundido con fuerza rúnica y grabado en piedra eterna. ¡Nadie puede desmoronarlo!" />
+	
+		<Loc Key="DES_TLACHTGA" Value="Tlachtga" />
+		<Loc Key="DES_TLACHTGA_DES" Value="Tlachtga dominó las artes de la magia de la Naturaleza cuando era un simple bebé y creció hasta convertirse en uno de los más grandes druidas de las tierras oscuras. El dominio de Tlachtga sobre la cara menos benigna del círculo de la vida la ha atraído a Myrror, donde la malicia puede ser domesticada y controlada. También es una poderosa invocadora de la Naturaleza, lo que hace que las invocaciones de ese tipo sean un 30 % más baratas. Comienza su viaje con una unidad de Osos de Guerra." />
+		<Loc Key="DES_TLACHTGA_QUOTE" Value="El lado más oscuro de la Naturaleza alimenta mi poder, ¡así que hazte a un lado o serás devorado por él!" />
+
+		<Loc Key="DES_CORAX" Value="Corax" />
+		<Loc Key="DES_CORAX_DES" Value="Corax Whitefeather solía caminar por el camino de la oscuridad y el crimen en su juventud, pero afirma haber sido inspirado por su padre en forma iluminada para cambiar su destino. Por lo tanto, literalmente cambió sus plumas y reclamó la Vida como dominio. Corax busca llevar su sabiduría a lugares oscuros, incluso por la fuerza si se niegan. Dirige la magia de la Vida y, como Traedor de Vida, puede resucitar a sus caídos y darles habilidades curativas." />
+		<Loc Key="DES_CORAX_QUOTE" Value="Busca la luz conmigo, criatura oscura, porque te traerá paz y poder." />
+
+		<Loc Key="DES_RAASS_GREETINGS" Value="¡Arrodíllate ante mí, criatura menor! Puede que ahora seamos civilizados, pero la confusión pronto cambiará esto y la sangre correrá."/>
+		<Loc Key="DES_BIANKA_GREETINGS" Value="¡Bienvenido! Soy Bianka, la guardiana de runas, mayor de mi familia, maestra de sone. Que nuestras relaciones se mantengan firmes hasta la hora de la prueba final."/>
+		
+		<Loc Key="DES_TLACHTGA_GREETINGS" Value="Hola, Tlachtga es el nombre, la magia es mi juego, jaja. Que juguemos bien, mago y que gane el mejor piel verde."/>
+		<Loc Key="DES_CORAX_GREETINGS" Value="Saludos, Mago. Soy conocido como Corax Whitefeather y no busco la violencia, a no ser que la violencia se convierta en el único camino."/>
+
+		<Loc Key="DES_TOADSWORTH" Value="Toadsworth el Domador de Jabalíes" />
+		<Loc Key="DES_TOADSWORTH1" Value="Frogsworth el Domador de Jabalíes" />
+		<Loc Key="DES_TOADSWORTH2" Value="Greenface el Domador de Jabalíes" />
+		<Loc Key="DES_TOADSWORTH3" Value="Big Gobbo el Domador de Jabalíes" />
+		<Loc Key="DES_TOADSWORTH4" Value="Roleover el Domador de Jabalíes" />		
+		<Loc Key="DES_TOADSWORTH_DES" Value="{0} es un héroe algo raro, que ascendió a las filas de los campeones a pesar de que todas las pruebas que apuntaban a un destino contrario. También conocido como Towdi, pasó años en servidumbre servil, aparentemente desprovisto de cualquier talento. Y, sin embargo, ya sea por pura suerte, determinación o un trato diabólico, ahora es un maestro domador de jabalíes que permanece leal a un maestro que le da respeto." />
+		<Loc Key="DES_JOTUN" Value="Kolga el Troll de Hielo"/>
+		<Loc Key="DES_JOTUN1" Value="Imor el Troll de Hielo"/>
+		<Loc Key="DES_JOTUN2" Value="Fala el Troll de Hielo"/>
+		<Loc Key="DES_JOTUN3" Value="Gryla el Troll de Hielo"/>
+		<Loc Key="DES_JOTUN4" Value="Mjoll el troll de Hielo"/>
+		<Loc Key="DES_JOTUN_DES" Value="{0}, también conocida como la Maldita, es una heroína solitaria, aislada para siempre por el frío hielo que atrapa su cuerpo. Algunos dicen que busca servir a los magos con la esperanza de que levanten su maldición. Cualquiera que sea la verdadera razón, después de décadas de aislamiento, el héroe troll aprendió a dominar su maldición fría y ahora presta su ayuda a un maestro digno." />
+		<Loc Key="DES_BJORN" Value="Bjorn el Nacido del Fuego" />
+		<Loc Key="DES_BJORN1" Value="Bear el Nacido del Fuego" />
+		<Loc Key="DES_BJORN2" Value="Niedzwiedz el Nacido del Fuego" />
+		<Loc Key="DES_BJORN3" Value="Teddy el Nacido del Fuego" />
+		<Loc Key="DES_BJORN4" Value="Grizzly el Nacido del Fuego" />
+		<Loc Key="DES_BJORN_DES" Value="{0} es un feroz héroe hombre-bestia que jugó con fuego y se quemó. El infierno devorador habría matado a la mayoría, pero {0} no es como la mayoría. Su pura voluntad de luchar hizo que sobreviviera y emergiera como una criatura del Caos, fusionada para siempre con llamas ardientes que ahora tienen hambre de sus enemigos." />	
+		
+		<Loc Key="DES_GOBLINS" Value="Goblins" />
+		<Loc Key="DES_GOBLINS_DES" Value="Los goblins son pequeños humanoides verdes con gran afinidad por la naturaleza y el dominio de las bestias. Algunos pueden describirlos como primitivos y, de hecho, los goblins prefieren las estructuras tribales y los hábitats naturales en lugar de los avances de la civilización. Tienen una particular afinidad con la fauna de la tierra, y son conocidos por domar bestias y la magia druídica."/>
+        <Loc Key="DES_GOBLINS_PRODUCTION" Value="Tasa de crecimiento: muy rápida (tasa base de +20 personas/turno)\nRestricciones de construcción: no se pueden construir Sage's Guilds, Astilleros o Partenones.\nOtros modificadores: -1 Armadura{ICON:ArmourIconNormal} y Earthwalker para unidades básicas (excepto construcciones).\nLas unidades Colono y Arquero cuestan x0,8 de producción{ICON:ProductionIcon}.\nUnidades raciales: {LINK:UNIT-GOB_BOAR_RIDER} Jinetes de Jabalíes {ICON:BoarRider}{END_LINK}, {LINK:UNIT-GOB_DRUIDS} Druidas {ICON:Druid}{END_LINK}, {LINK:UNIT-GOB_BEASTMASTER} Señor de las Bestias {ICON:Beastmaster}{END_LINK}" />
+		
+		<Loc Key="DES_GOBLIN_SETTLERS" Value="Goblin Colonos" />
+		<Loc Key="DES_GOBLIN_SPEARMEN" Value="Goblin con Lanza" />
+		<Loc Key="DES_GOBLIN_SWORDSMEN" Value="Goblin con Espadas" />
+		<Loc Key="DES_GOBLIN_BOWMEN" Value="Goblin con Arcos" />
+		<Loc Key="DES_GOBLIN_SHAMANS" Value="Goblin Chamanes" />
+		<Loc Key="DES_BOAR_RIDER" Value="Jinetes de jabalí" />
+		<Loc Key="DES_BOAR_RIDER_DES" Value="Una caballería goblin de élite, o eso dicen. Los forasteros los describirán como un variopinto grupo de duendes ligeramente trastornados montados en feroces jabalíes y bien entrenados." />
+		<Loc Key="DES_DRUIDS" Value="Druidas" />
+		<Loc Key="DES_DRUIDS_DES" Value="Unidad goblin con ataque mágico a distancia. Los druidas son conocidos por su afinidad superior con la Naturaleza e incluso pueden pedir ayuda a los Osos de Guerra." />
+		<Loc Key="DES_BEASTMASTER" Value="El Señor de las Bestias" />
+		<Loc Key="DES_BEASTMASTER_DES" Value="Unidad goblin de élite con fuerte ataque a distancia y vuelo. El Señor de las Bestias afirma que puede domesticar incluso a las bestias más poderosas, pero todo lo que tiene a su disposición es una alimaña obesa..." />
+
+		<Loc Key="DES_FANTASTIC_WARLORD" Value="Warlord Fantástico"/>
+		<Loc Key="DES_TRAIT_FANTASTIC_WARLORD_DES" Value="El dominio de las tropas fantásticas permite al Mago aumentar {ICON:MeleeIconNormal}, {ICON:RangedIconNormal}, {ICON:ArmourIconNormal}, {ICON:ResistanceIconNormal} y los ataques de aliento de todas las criaturas convocadas bajo su control en +1.\n\n-El Señor de la Guerra Fantástico cuesta 1 elección."/>
+		<Loc Key="DES_ENCH_FANTASTIC_WARLORD_DES" Value="El dominio de las tropas fantásticas permite al Mago aumentar {ICON:MeleeIconNormal}, {ICON:RangedIconNormal}, {ICON:ArmourIconNormal}, {ICON:ResistanceIconNormal} y los ataques de aliento de todas las criaturas convocadas bajo su control en +1."/>
+		<Loc Key="DES_STONEMASON" Value="Cantero"/>
+		<Loc Key="DES_STONEMASON_DES" Value="El dominio del arte de la construcción permite que el capitolio del Mago y todos los asentamientos recién construidos comiencen con un muro de piedra. Además, la capital gana +10{ICON:ProductionIcon} de producción y todas las unidades de la raza de la capital del mago tienen la habilidad ingeniero, lo que les permite construir caminos.\n\n-Cantero cuesta 1 selección."/>
+		<Loc Key="DES_LIFEBRINGER" Value="Traedor de Vida"/>
+		<Loc Key="DES_LIFEBRINGER_DES" Value="Maestría de la Vida permite al Mago comenzar la partida con los poderosos hechizos Resurrección y Sanación. Traedor de Vida también ofrece un descuento del 25% para lanzar Resurrección, Sanación y Curación masiva. Además, todas las unidades de raza de la capital bajo el control del Mago obtienen la habilidad de curación.\n\n-El Mago ya debe haber seleccionado al menos 4 Libros de hechizos de Vida.\n\n-Traedor de Vida cuesta 1 elección."/>
+		<Loc Key="DES_HERO_MAGNET" Value="¡Necesito un héroe!"/>
+		<Loc Key="DES_HERO_MAGNET_DES" Value="Nada de esperar más a un héroe hasta el final de la noche. Si necesitas un héroe ahora, este es el rasgo para ti. Comienza el juego con el hechizo Invocar héroe e Invocar campeón y obtén un 25% de descuento cuando lo hagas. Además, el rasgo permite una opción adicional cuando se invoca y/o recluta a héroes.\n\n-¡Necesito un héroe! Cuesta 1 elección."/>
+		<Loc Key="DES_NATURE_SUMMONER" Value="Invocador de Naturaleza"/>
+		<Loc Key="DES_NATURE_SUMMONER_DES" Value="El poder de la Naturaleza le permite al Mago comenzar el juego con una unidad de Osos de Guerra. Además, todas las invocaciones de Naturaleza son un 30% más baratas de mantener.\n\n-El Mago no puede tener rasgo de Conjurador y de Invocador de la Naturaleza al mismo tiempo.\n\n-El mago ya debe haber seleccionado al menos 4 libros de hechizos de la naturaleza.\n\n-El invocador de la naturaleza cuesta 2 selecciones."/>
+		
+		<Loc Key="DES_SUMMON_BOAR" Value="Jabalí"/>
+		<Loc Key="DES_SUMMON_BOAR_DES" Value="Invoca a un jabalí furioso a la batalla. El jabalí es un formidable luchador cuerpo a cuerpo{ICON:MeleeIconNormal} y también puede aturdir a su enemigo."/>
+		<Loc Key="DES_DLC_BOAR" Value="Jabalí" />
+		<Loc Key="DES_DLC_BOAR_DES" Value="Jabalí salvaje llamado al combate por los domadores de jabalíes más hábiles. El jabalí es un formidable luchador cuerpo a cuerpo{ICON:MeleeIconNormal} y también puede aturdir al enemigo." />
+		<Loc Key="DES_SUMMON_FAT_RAT" Value="Rata gorda"/>
+		<Loc Key="DES_SUMMON_FAT_RAT_DES" Value="Invoca a una rata gorda llena de veneno a la batalla. Su mordedura causará un fuerte sangrado. Su horrendo rostro puede causar miedo en el enemigo."/>
+		<Loc Key="DES_DLC_FAT_RAT" Value="Rata gorda" />
+		<Loc Key="DES_DLC_FAT_RAT_DES" Value="Una rata gorda es una criatura aparentemente tortuosa que proviene de tierras más oscuras que incluso Myrror. Su mordedura causará un fuerte sangrado. Su horrendo rostro puede causar miedo en el enemigo." />
+
+		<Loc Key="DES_CURSED" Value="Maldito"/>
+		<Loc Key="DES_CURSED_DES" Value="Maldito reduce la Resistencia{ICON:ResistanceIconNormal} de las unidades aliadas, incluidas las propias malditas, en -1, pero también las unidades enemigas (en el campo de batalla) en -2"/>
+		<Loc Key="DES_CURSED_UNIT" Value="Maldito"/>
+		<Loc Key="DES_CURSED_UNIT_DES" Value="Esta unidad se ve afectada por la habilidad Maldito."/>
+		<Loc Key="DES_FOODIE" Value="Foodie"/>
+		<Loc Key="DES_FOODIE_DES" Value="El héroe foodie ama la comida y solo aceptará esta como mantenimiento (3 por turno), esto lo hace más fuerte (+1 ataque, +1 armadura + 1 resistencia, +10% de probabilidad de impacto). En el nivel superior, esta bonificación aumenta a +2)."/>
+		<Loc Key="DES_BLEEDING_2_OWNER" Value="Sangrado 2"/>
+		<Loc Key="DES_BLEEDING_2_OWNER_DES" Value="La unidad atacada con sangrado recibe un daño igual al valor de la habilidad hasta que pasa una prueba de resistencia{ICON:ResistanceIconNormal}."/>
+		<Loc Key="DES_BLEEDING_UNIT" Value="Sangrado {0}"/>
+		<Loc Key="DES_BLEEDING_UNIT_DES" Value="Esta unidad se ve afectada por la habilidad Sangrado."/>
+		<Loc Key="DES_EARTH_WALKER" Value="Earthwalker"/>
+		<Loc Key="DES_EARTH_WALKER_DES" Value="Los Earthwalkers permiten que todas las unidades apiladas con ellos atraviesen pantanos, desiertos y tundras a un coste de 1 punto de movimiento por hexágono. También hace que las unidades sean inmunes al hechizo de Tierra a Barro."/>
+		
+		<Loc Key="DES_RES_MAMMOTH" Value="Mamut"/>
+		<Loc Key="DES_RES_MAMMOTH_DES" Value="Grandes mamíferos peludos con colmillos caros y mucha carne. Proporciona +1 de comida ({ICON:FoodIcon}) +1 de oro ({ICON:GoldIcon}) a la ciudad cercana.\nPuede ser transformado en Juego Salvaje usando el hechizo Transmutar."/>
+		<Loc Key="DES_STUN" Value="Aturdir"/>
+		<Loc Key="DES_STUN_DES" Value="En una tirada de Resistencia {ICON:ResistanceIconNormal} fallida, los ataques cuerpo a cuerpo {ICON:MeleeIconNormal} y a distancia {ICON:RangedIconNormal} de la unidad enemiga objetivo se reducen a la mitad durante un turno."/>
+
+		<Loc Key="DES_REALM_SYNERGY" Value="Sinergia" />
+		<Loc Key="DES_REALM_SYNERGY_DES" Value="Esta unidad no pertenece a ningún reino, pero está tejida a partir de la Sinergia de todos. Las unidades normalmente serán invocadas solo por habilidades especiales."/>
+
+		<Loc Key="DES_SUMMON_WAR_BEARS" Value="Osos de Guerra"/>
+		<Loc Key="DES_SUMMON_WAR_BEARS_DES" Value="Invoca a los temibles Osos de Guerra al campo de batalla."/>
+
+		<Loc Key="DES_STONEMASON_ENCH_DES" Value="La ciudad está bajo el cuidado de un Cantero, por lo que recibe un muro de piedra gratis y gana +10{ICON:ProductionIcon} de producción." />
+	</LOCALIZATION-DLC1_ES>
+</DB_LOCALIZATION>

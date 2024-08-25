@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F89BED4B-6659-470F-86B5-ACC785C1B0CF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MOMClassLibrary</RootNamespace>
+    <AssemblyName>MOMClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>MOMClassLibrary.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Master-Of-Magic\MoM_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PlayMaker, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Master-Of-Magic\MoM_Data\Managed\PlayMaker.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Master-Of-Magic\MoM_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Master-Of-Magic\MoM_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Program Files (x86)\Steam\steamapps\common\Master-Of-Magic\MoM_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="MOMScripts\Scripts\BattleAI.cs" />
+    <Compile Include="MOMScripts\Scripts\BattleAIScripts.cs" />
+    <Compile Include="MOMScripts\Scripts\BattleAutoResolveScripts.cs" />
+    <Compile Include="MOMScripts\Scripts\DiplomaticScripts.cs" />
+    <Compile Include="MOMScripts\Scripts\EditorScripts.cs" />
+    <Compile Include="MOMScripts\Scripts\EnchantmentScripts.cs" />
+    <Compile Include="MOMScripts\Scripts\GameplayScripts.cs" />
+    <Compile Include="MOMScripts\Scripts\GroupScripts.cs" />
+    <Compile Include="MOMScripts\Scripts\SkillScripts.cs" />
+    <Compile Include="MOMScripts\Scripts\SpellScripts.cs" />
+    <Compile Include="MOMScripts\Scripts\TestPack.cs" />
+    <Compile Include="MOMScripts\Scripts\TradeAIScripts.cs" />
+    <Compile Include="MOMScripts\Scripts\TraitScripts.cs" />
+    <Compile Include="MOMScripts\Scripts\UIScripts.cs" />
+    <Compile Include="PlayerScripts\CallOfTheWild\Scripts\SpellScripts_COTW.cs" />
+    <Compile Include="PlayerScripts\ChaosChannelsFix\Scripts\SpellScripts_CCF.cs" />
+    <Compile Include="PlayerScripts\CounterMagicFix\Scripts\EnchantmentScripts_CMF.cs" />
+    <Compile Include="PlayerScripts\CounterMagicFix\Scripts\GameplayScripts_CMF.cs" />
+    <Compile Include="PlayerScripts\CounterMagicFix\Scripts\SpellScripts_CMF.cs" />
+    <Compile Include="PlayerScripts\CounterMagicFix\Scripts\UserUtility_CMF.cs" />
+    <Compile Include="PlayerScripts\EarthToMud_AIFix\Scripts\SpellScripts_ETM.cs" />
+    <Compile Include="PlayerScripts\EarthToMud_AIFix\Scripts\UserUtility_ETM.cs" />
+    <Compile Include="PlayerScripts\EnduranceFix\Scripts\EnchantmentScripts_END.cs" />
+    <Compile Include="PlayerScripts\EnduranceFix\Scripts\UserUtility_END.cs" />
+    <Compile Include="PlayerScripts\ForceOfNature\Scripts\SkillScripts_FON.cs" />
+    <Compile Include="PlayerScripts\ForceOfNature\Scripts\SpellScripts_FON.cs" />
+    <Compile Include="PlayerScripts\ForceOfNature\Scripts\UserUtility_FON.cs" />
+    <Compile Include="PlayerScripts\MoreUnitLevels_Scaled\Scripts\SkillScripts_IUX.cs" />
+    <Compile Include="PlayerScripts\MoreUnitLevels_Scaled\Scripts\TraitScripts_IUX.cs" />
+    <Compile Include="PlayerScripts\VariableTerrainValues\Scripts\EnchantmentScripts_vtv.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MOMScripts\Database\DB_ARTEFACT.xml" />
+    <Content Include="MOMScripts\Database\DB_BOOKS_ADVANTAGE.xml" />
+    <Content Include="MOMScripts\Database\DB_BUDGET_SCALING.xml" />
+    <Content Include="MOMScripts\Database\DB_BUILDING.xml" />
+    <Content Include="MOMScripts\Database\DB_DIFFICULTY.xml" />
+    <Content Include="MOMScripts\Database\DB_ENCHANTMENT.xml" />
+    <Content Include="MOMScripts\Database\DB_GAMEPLAY_CONFIGURATION.xml" />
+    <Content Include="MOMScripts\Database\DB_GROUP.xml" />
+    <Content Include="MOMScripts\Database\DB_LANGUAGE.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DES.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DES_CN.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DES_DE.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DES_ES.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DES_FR.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DES_IT.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DES_PL.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC0.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC0_CN.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC0_DE.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC0_ES.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC0_FR.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC0_IT.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC0_PL.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC1.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC1_CN.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC1_DE.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC1_ES.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC1_FR.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC1_IT.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC1_PL.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC2.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC2_CN.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC2_DE.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC2_ES.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC2_FR.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC2_IT.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC2_PL.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC3.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI_CN.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI_DE.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI_ES.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI_FR.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI_IT.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI_PL.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCATION.xml" />
+    <Content Include="MOMScripts\Database\DB_PLANE.xml" />
+    <Content Include="MOMScripts\Database\DB_RACE.xml" />
+    <Content Include="MOMScripts\Database\DB_SKILL.xml" />
+    <Content Include="MOMScripts\Database\DB_SOUND.xml" />
+    <Content Include="MOMScripts\Database\DB_SOUND_DLC1.xml" />
+    <Content Include="MOMScripts\Database\DB_SOUND_DLC2.xml" />
+    <Content Include="MOMScripts\Database\DB_SPELL.xml" />
+    <Content Include="MOMScripts\Database\DB_SUBRACE.xml" />
+    <Content Include="MOMScripts\Database\DB_TAG.xml" />
+    <Content Include="MOMScripts\Database\DB_TAG_QUEST.xml" />
+    <Content Include="MOMScripts\Database\DB_TAX.xml" />
+    <Content Include="MOMScripts\Database\DB_TERRAIN.xml" />
+    <Content Include="MOMScripts\Database\DB_TERRAIN_RESOURCE.xml" />
+    <Content Include="MOMScripts\Database\DB_TOWN.xml" />
+    <Content Include="MOMScripts\Database\DB_TOWN_NAME.xml" />
+    <Content Include="MOMScripts\Database\DB_TRAIT.xml" />
+    <Content Include="MOMScripts\Database\DB_UNIT_LVL.xml" />
+    <Content Include="MOMScripts\Database\DB_WIZARD.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_ARTEFACT.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_BASE.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_BOOKS_ADVANTAGE.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_BUILDING.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_DIFFICULTY.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_ENCHANTMENT.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_GAMEPLAY_CONFIGURATION.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_GROUP.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_LANGUAGE.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_LOCALIZATION.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_LOCATION.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_PLANE.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_POWER_SCALING.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_RACE.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_SKILL.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_SOUND.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_SPELL.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_SUBRACE.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_TAG.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_TAX.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_TERRAIN.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_TERRAIN_RESOURCE.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_TOWN.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_TOWN_NAME.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_TRAIT.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_UNIT_LVL.xml" />
+    <Content Include="MOMScripts\Database\Prototype\PROTOTYPE_WIZARD.xml" />
+    <Content Include="MOMScripts\Database\ReadMe.txt" />
+    <Content Include="PlayerScripts\CallOfTheWild\cow_256.jpg" />
+    <Content Include="PlayerScripts\CallOfTheWild\Database\DB_LOCALIZATION_DES_COTW.xml" />
+    <Content Include="PlayerScripts\CallOfTheWild\Database\DB_LOCALIZATION_UI_COTW.xml" />
+    <Content Include="PlayerScripts\CallOfTheWild\Database\DB_SPELL_COTW.xml" />
+    <Content Include="PlayerScripts\CallOfTheWild\Database\DB_SUBRACE_COTW.xml" />
+    <Content Include="PlayerScripts\CallOfTheWild\Images\SpellCallOfTheWild.jpg" />
+    <Content Include="PlayerScripts\CallOfTheWild\Images\SpellCallOfTheWild_256.jpg" />
+    <Content Include="PlayerScripts\CallOfTheWild\settings.xml" />
+    <Content Include="PlayerScripts\ChaosChannelsFix\ccf.png" />
+    <Content Include="PlayerScripts\ChaosChannelsFix\Database\DB_LOCALIZATION_UI_CCF.xml" />
+    <Content Include="PlayerScripts\ChaosChannelsFix\Database\DB_SKILL_CCF.xml" />
+    <Content Include="PlayerScripts\ChaosChannelsFix\Images\skillCcfDemonSkin.png" />
+    <Content Include="PlayerScripts\ChaosChannelsFix\Images\skillCcfFlight.png" />
+    <Content Include="PlayerScripts\ChaosChannelsFix\settings.xml" />
+    <Content Include="PlayerScripts\CounterMagicFix\cmf.png" />
+    <Content Include="PlayerScripts\CounterMagicFix\Database\DB_ENCHANTMENT_CMF.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="PlayerScripts\CounterMagicFix\Database\DB_SPELL_CMF.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="PlayerScripts\CounterMagicFix\settings.xml" />
+    <Content Include="PlayerScripts\EarthToMud_AIFix\earthtomud.png" />
+    <Content Include="PlayerScripts\EarthToMud_AIFix\settings.xml" />
+    <Content Include="PlayerScripts\EnduranceFix\Database\DB_ENCHANTMENT_END.xml" />
+    <Content Include="PlayerScripts\EnduranceFix\endurance.png" />
+    <Content Include="PlayerScripts\EnduranceFix\settings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="PlayerScripts\ForceOfNature\Database\DB_LOCALIZATION_DES_FON.xml" />
+    <Content Include="PlayerScripts\ForceOfNature\Database\DB_LOCALIZATION_UI_FON.xml" />
+    <Content Include="PlayerScripts\ForceOfNature\Database\DB_SKILL_FON.xml" />
+    <Content Include="PlayerScripts\ForceOfNature\Database\DB_SPELL_FON.xml" />
+    <Content Include="PlayerScripts\ForceOfNature\Database\DB_TAG_FON.xml" />
+    <Content Include="PlayerScripts\ForceOfNature\fon.png" />
+    <Content Include="PlayerScripts\ForceOfNature\Images\skillFonIronSkin.png" />
+    <Content Include="PlayerScripts\ForceOfNature\Images\skillFonPathfinding.png" />
+    <Content Include="PlayerScripts\ForceOfNature\Images\skillFonPoison.png" />
+    <Content Include="PlayerScripts\ForceOfNature\Images\skillForceOfNature.png" />
+    <Content Include="PlayerScripts\ForceOfNature\Images\SpellForceOfNature.png" />
+    <Content Include="PlayerScripts\ForceOfNature\settings.xml" />
+    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\Database\DB_LOCALIZATION_DES_IUX.xml" />
+    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\Database\DB_TRAIT_IUX.xml" />
+    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\Database\DB_UNIT_LVL_IUX.xml" />
+    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\iux-readme.txt" />
+    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\iux.png" />
+    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\settings.xml" />
+    <Content Include="PlayerScripts\MSO2\Database\DB_DIFFICULTY_MSO2.xml" />
+    <Content Include="PlayerScripts\MSO2\Database\DB_LOCALIZATION_UI_MSO2.xml" />
+    <Content Include="PlayerScripts\MSO2\Database\DB_TAX_MSO2.xml" />
+    <Content Include="PlayerScripts\MSO2\mso2.jpg" />
+    <Content Include="PlayerScripts\MSO2\settings.xml" />
+    <Content Include="PlayerScripts\MyCustomWizard\Database\DB_LOCALIZATION_DES_MCW.xml" />
+    <Content Include="PlayerScripts\MyCustomWizard\Database\DB_WIZARD_MCW.xml" />
+    <Content Include="PlayerScripts\MyCustomWizard\Images\CustomPortrait.png" />
+    <Content Include="PlayerScripts\MyCustomWizard\Images\MyCustomWizardBg.jpg" />
+    <Content Include="PlayerScripts\MyCustomWizard\Images\MyCustomWizardBg2.jpg" />
+    <Content Include="PlayerScripts\MyCustomWizard\Images\MyCustomWizardBg_ReallyBig.jpg" />
+    <Content Include="PlayerScripts\MyCustomWizard\Images\MyCustomWizardPortrait.jpg" />
+    <Content Include="PlayerScripts\MyCustomWizard\mcw.jpg" />
+    <Content Include="PlayerScripts\MyCustomWizard\My Custom Wizard.txt" />
+    <Content Include="PlayerScripts\MyCustomWizard\settings.xml" />
+    <Content Include="PlayerScripts\VariableTerrainValues\Database\DB_LOCALIZATION_DES_VTV.xml" />
+    <Content Include="PlayerScripts\VariableTerrainValues\Database\DB_TERRAIN_VTV.xml" />
+    <Content Include="PlayerScripts\VariableTerrainValues\settings.xml" />
+    <Content Include="PlayerScripts\VariableTerrainValues\vtv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PlayerScripts\EarthToMud_AIFix\Database\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

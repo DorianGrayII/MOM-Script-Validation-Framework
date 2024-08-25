@@ -1,0 +1,172 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC2_PL Language="Polski">
+		<!-- DLC 2 descriptions -->
+
+		<!-- WIZARDS --> 
+		<Loc Key="DES_NINESEVEN" Value="Dziewięćsiedem" />
+		<Loc Key="DES_NINESEVEN_DES" Value="Trudno byłoby to teraz stwierdzić, biorąc pod uwagę wszystkie mechaniczne zamienniki i techmagiczne bibeloty ukrywające organiczne pochodzenie, ale Dziewięćsiedem był kiedyś elfim arcymagiem i uczonym. Przez całe swoje wieczne życie fascynowała się krasnoludzką obróbką metali i nieskończonymi możliwościami alchemii, która potrafi transmutować. Niektórzy twierdzą, że jest prekursorką techmagii, inni twierdzą, że po prostu doskonale ją opanowała." />
+		<Loc Key="DES_NINESEVEN_QUOTE" Value="Ciało już mnie nie ogranicza, magia przepływa teraz przez moje przewody. Jestem mistrzem techmagii i będę kimś więcej!" />		
+		<Loc Key="DES_MORIQUE" Value="Morique" />
+		<Loc Key="DES_MORIQUE_DES" Value="Morique 'demoniczna' lub 'opętana' jest czarodziejką mrocznych elfów o wielkiej, ale niebezpiecznej mocy. Jak sugeruje pseudonim, dzieli swoje ciało z potężnym demonem. Czy jest to związek oparty na wzajemnym zrozumieniu, czy też pasożytnictwie, pozostaje niejasne. Ambicje Morique nie kończą się na ujarzmieniu jej demona - mając Śmierć i Chaos na wyciągnięcie ręki, stara się okazać swoją ostateczną dominację nad wszystkimi innymi Czarodziejami, a zwłaszcza nad swoim demonicznym rywalem, Tauronem." />
+		<Loc Key="DES_MORIQUE_QUOTE" Value="Opanowałam moce piekielne i jesteśmy teraz potężniejsi, niż jakikolwiek inny czarodziej!" />
+		<Loc Key="DES_GRENDEL" Value="Grendel" />
+		<Loc Key="DES_GRENDEL_DES" Value="Grendel może być jednym z największych czarodziejów, z pewnością najlepszym w swoim rodzaju, ale głęboko wierzy, że to siła stanowi prawo. Często twierdzi, że wszystko można zmusić do uległości, nawet samą magię. Grendel oczywiście korzysta z podstaw sztuki magicznej i w razie potrzeby sięga po moc Natury, ale polega głównie na sile fizycznej swoich żołnierzy." />
+		<Loc Key="DES_GRENDEL_QUOTE" Value="Sprawię, że wasze głowy zabłyszczą bez użycia magii, a wtedy zobaczycie, kto jest Mistrzem!" />
+
+		<Loc Key="DES_NINESEVEN_GREETINGS" Value="Zwyczajowa formuła wymaga ode mnie powitania, chociaż nie widzę sensu w takiej uprzejmości, biorąc pod uwagę naszą grę końcową. Nazywam się Dziewięćsiedem, możemy teraz porozmawiać."/>
+		<Loc Key="DES_MORIQUE_GREETINGS" Value="Witamy cię, Czarodzieju. My... nie, ja jestem Morique i jestem tu, aby wygrać tę rywalizację, ale nim ta chwila nadejdzie - porozmawiajmy."/>
+		<Loc Key="DES_GRENDEL_GREETINGS" Value="O, Czarodziej. Żadnych sztuczek mi tutaj. Jestem Grendel, pokonam cię.."/>
+
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_1" Value="Witam cię serdecznie. Jestem Tauron... Mori, to Ty. Pamiętam, jak mówiłaś, że wyzwiesz mnie tutaj na pojedynek, ale wciąż miałem nadzieję, że do tego nie dojdzie. Przynajmniej na razie, moja kochana, możemy rozmawiać bez złośliwości."/>
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_2" Value="Mori, moje serce krwawi ze względu na to, co musimy przejść. Porozmawiajmy na razie."/> 
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_1" Value="To my, Morique, tak, jak mówiliśmy ci wtedy, gdy nasze piekielne drogi się rozeszły, my... ja jestem tu, aby okazać ci moją prawdziwą potęgę! Choć teraz, gdy stoisz tu przede mną, mój czerwony diable, jestem zasmucona, że taki jest nasz los..."/>
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_2" Value="Mój czerwony diable, ostateczna bitwa przed nami. Wkrótce między nami pozostanie tylko krew, i to nie w pozytywny sposób..."/>
+
+
+		<!-- TRAITS -->
+        <Loc Key="DES_TECHMASTER" Value="Techmistrz" />
+		<Loc Key="DES_TECHMASTER_DES" Value="Pozwala czarodziejowi opanować tajemne moce Techmagii, mistycznej sztuki, która ożywia mechaniczne obiekty za pomocą magii runicznej, alchemii i zakazanego użycia żywych dusz. Czarodziej Techmistrz zaczyna z jednostką Drona Zwiadowczego, a także zaklęciem go przywołującym i zaklęciem Poszukiwacz Mocy. Dodatkowo zyskuje premię +5% do Badań.\n\n-Czarodziej musi mieć co najmniej 3 książki w dwóch różnych domenach.\n\n-Techmistrz kosztuje 2 punkty."/>
+        <Loc Key="DES_DEMONOLOGIST" Value="Demonolog" />
+		<Loc Key="DES_DEMONOLOGIST_DES" Value="Demonolog rozpoczyna rozgrywkę z jednostką Pomniejszych Demonów Cienia pod swą kontrolą. Otrzymuje również unikalne zaklęcie Przyzwanie Pomniejszego Demona Cienia oraz Opętanie.\n\n-Czarodziej musi mieć zdolność Zaklinacz.\n\n-Czarodziej musi mieć wybraną co najmniej 1 książkę Śmierci oraz 1 książkę Chaosu.\n\n-Demonolog kosztuje 1 punkt."/>
+		<Loc Key="DES_MYRRAN_REFUGEE" Value="Myrrański Uchodźca" />
+		<Loc Key="DES_MYRRAN_REFUGEE_DES" Value="Pozwala Czarodziejowi na rozpoczęcie gry Myrrańską rasą na Arkanusie, co daje znaczną przewagę, gdyż Myrrańskie rasy są zazwyczaj silniejsze.\n\n-Myrrański Uchodźca kosztuje 2 punkty."/>
+		<Loc Key="DES_IMPROVED_WARLORD" Value="Wódz Weteran" />
+		<Loc Key="DES_IMPROVED_WARLORD_DES" Value="Pozwala Czarodziejowi stać się Wodzem Weteranem, który może szkolić swoje armie z większą wydajnością. W ten sposób weteran daje dodatkowe +1PD w każdej turze dowodzonym przez siebie jednostkom nie-fantastycznym i rozpoczyna grę z jednostką szermierzy z wybranej rasy początkowej.\n\n– Czarodziej musi mieć cechę Wódź.\n\n– Wódz Weteran kosztuje 1 punkt."/>
+		<Loc Key="DES_ANTI_MAGIC" Value="Siła stanowi prawo!" />
+		<Loc Key="DES_ANTI_MAGIC_DES" Value="Czarodziej wierzy w wyższość siły fizycznej nad umiejętnościami magicznymi. Wszystkie jednostki nie-fantastyczne (włączając w to nie-fantastycznych bohaterów) zyskują +3 do odporności. Dodatkowo otrzymują umiejętność Regeneracji Bojowej, która pozwala im leczyć się o +2 punkty zdrowia w każdej turze podczas walki (umiejętność ta łączy się z Regeneracją).\n\n- Czarodziej nie może mieć więcej niż 2 książki magiczne.\n\n- Siła stanowi prawo! kosztuje 5 punktów."/>
+
+		<!-- RACE --> 
+        <Loc Key="DES_SOULTRAPPED" Value="Przebudzeni" />
+		<Loc Key="DES_SOULTRAPPED_DES" Value="Przebudzeni to rasa konstruktów, która padła ofiarą krasnoludzkich eksperymentów z mroczną magią run, która związała świadome dusze z mechanicznymi ciałami, zasilanymi organiczną materią. Przynajmniej taka jest oficjalna wersja. Przebudzeni twierdzą, że ich świadomość pochodzi z boskiego źródła i że nie są efektem ubocznym czyjejś gry. Niezależnie od tego, Przebudzeni są połączeniem maszyny i magii w niepokojący sposób, ale jest to rasa, która preferuje pokój i dobrobyt ponad wojnę." />
+		<Loc Key="DES_SOULTRAPPED_PRODUCTION" Value="Przyrost populacji: bardzo wolny (podstawowo -30 ludzi/turę)\nOgraniczenia dotyczące budynków: nie mogą budować Gildii Kupców, Szkoła Wojenna, Wyroczni, Gildii Animistów ani Stocznia\nInne modyfikatory: +4{ICON:ArmourIconNormal} pancerza, -1{ICON:ResistanceIconNormal} odporności, umiejętność Kruszenie Murów dla jednostek.\nKoszt jednostek x2 {ICON:ProductionIcon}.\nMiasta przebudzonych dostają +5 do przyrostu populacji za każdy minerał w obrębie miasta.\nJednostki rasowe: {LINK:UNIT-SOUL_CANNON} Działo Dusz{ICON:SoulCannon}{END_LINK} {LINK:UNIT-SOUL_BOMBER} Cisk{ICON:Bomber}{END_LINK} {LINK:UNIT-SOUL_GOLEM} Bezduszny{ICON:FleshGolem}{END_LINK} {LINK:UNIT-SOUL_SUB_TRIREME} Podtryrema{ICON:Submarine}{END_LINK}" />
+		<Loc Key="DES_REALM_TECH" Value="Techmagia" />
+		<Loc Key="DES_REALM_TECH_DES" Value="Ta jednostka należy do unikatowej domeny Techmagii." />
+		
+        <!-- UNITS -->
+		<Loc Key="DES_TIMUR" Value="Timur, Śmiertelny Strzał" />
+		<Loc Key="DES_TIMUR1" Value="Fade, Śmiertelny Strzał" />
+		<Loc Key="DES_TIMUR2" Value="Albino, Śmiertelny Strzał" />
+		<Loc Key="DES_TIMUR3" Value="Pale, Śmiertelny Strzał" />
+		<Loc Key="DES_TIMUR4" Value="Floyd, Śmiertelny Strzał" />
+		<Loc Key="DES_TIMUR_DES" Value="Urodzony jako ślepy albinos, pozbawiony mrocznego elfiego daru do magii ciemności, {0} był odrzucany i pogardzany przez swoich ludzi. Ale to tylko zwiększyło jego determinację. Został przygarnięty przez adopcyjnego ojca, i razem wyruszyli w niebezpieczną podróż, aby udowodnić, że {0} wciąż może zostać najbardziej śmiercionośny zabójca. Dzięki techmagii jego oko widzi teraz lepiej niż oczy śmiertelników i, mimo że wciąż nie może posługiwać się magią ciemności, jego techmagiczny strzał snajperski jest sam w sobie mroczną siłą." />
+		<Loc Key="DES_BILLIE" Value="Billie, Rewolwerowiec" />
+		<Loc Key="DES_BILLIE1" Value="Tipi, Rewolwerowiec" />
+		<Loc Key="DES_BILLIE2" Value="Calamity, Rewolwerowiec" />
+		<Loc Key="DES_BILLIE3" Value="Annie, Rewolwerowiec" />
+		<Loc Key="DES_BILLIE4" Value="Jessi, Rewolwerowiec" />
+		<Loc Key="DES_BILLIE_DES" Value="{0}, to wesoły niziołek, lubiany praktycznie przez każdego, kto ją spotka. Po osiągnięciu najwyższych rang wśród procarzy i zainspirowana przez swoją siostrę Terię, {0} wyruszyła na poszukiwanie własnej niszy. Ta misja doprowadziła ją do odkrycia cudów Techmagii i tym samym stała się pierwszym rewolwerowcem Arcanus. Jadąc na swoim wiernym dziku zwanym Nibbles, jest teraz jedną z najlepszych spluw do wynajęcia, o jakiej marzy każdy Czarodziej." />		
+		<Loc Key="DES_OLDMANE" Value="Oldmane Żelazna Paszcza" />
+		<Loc Key="DES_OLDMANE1" Value="Hakuna Żelazna Paszcza" />
+		<Loc Key="DES_OLDMANE2" Value="Snarl Żelazna Paszcza" />
+		<Loc Key="DES_OLDMANE3" Value="Hidegnarl Żelazna Paszcza" />
+		<Loc Key="DES_OLDMANE4" Value="Gnarlfang Żelazna Paszcza" />
+		<Loc Key="DES_OLDMANE_DES" Value="{0} był niegdyś najlepszym i najstarszym generałem gnolli, aż do schwytania przez mroczne elfy. Mroczni torturowali wojownika przez lata, wyczerpując jego ciało nie do poznania. A jednak, przez przypadek lub przeznaczenie, krzyki młodego chłopca dały mu siły do ponownej walki. Uciekł porywaczom, uratował swojego adoptowanego syna, Timura, i razem wyruszyli w podróż odrodzenia. W ten sposób, dzięki zastosowaniu techmagii, Oldmane został przemieniony w znaną dziś grozę pół z ciała, pół z metalu." />
+		<Loc Key="DES_MOMA_ILDE" Value="Moma i Ilde" />
+		<Loc Key="DES_MOMA_ILDE1" Value="Mama i Kiddo"  />
+		<Loc Key="DES_MOMA_ILDE2" Value="Muti i Liebli"/>
+		<Loc Key="DES_MOMA_ILDE3" Value="Mumsie i Gir" />
+		<Loc Key="DES_MOMA_ILDE4" Value="Mere i Pettit" />
+		<Loc Key="DES_MOMA_ILDE_DES" Value="Krasnoludzka dziewczyna jest młodą, ale całkiem potężną strażniczką run z tragiczną historią. Straciła matkę w strasznym wypadku w laboratorium z udziałem Techmagii. Wkrótce po eksplozji, w której spłonęła jej mama, dziewczynka znalazła uwięzionego wędrującego przebudzonego, który zdawał się rozpoznawać małą krasnoludkę. Dziewczyna jest przekonana, że przebudzony to jej matka i przysięgła znaleźć sposób na odwrócenie tego, co się z nią stało. Do tego czasu, {0} przbywają na wezwanie tych, którzy władają potężną techmagią, mając nadzieję, że służąc im, dowiedzą się, czego potrzebują." />
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS" Value="Pomniejsze Demony Cienia"/>
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS_DES" Value="Pomniejsze Demony Cienia przybywają na wezwanie Demonologa i wiernie mu służą. Mogą atakować z powietrza {ICON:MovementFlyingIcon} zarówno w walce wręcz {ICON:MeleeIconNormal} jak i koszystając z magicznego ataku zasięgowego {ICON:DeathIcon}{ICON:RangedIconNormal}."/>
+
+        <Loc Key="DES_SOUL_SETTLER" Value="Przebudzeni Osadnicy" />
+		<Loc Key="DES_SOUL_ENGINEERS" Value="Przebudzeni Inżynierowie" />
+		<Loc Key="DES_SOUL_ENGINEERS_DES" Value="Inżynierowie są jednostką niewalczącą. Są specjalistami wyszkolonymi do budowy dróg, a także mogą ci pomóc w obalaniu murów wroga. Przebudzeni inżynierowie mogą również leczyć konstrukty za pomocą umiejętności Naprawa." />
+		<Loc Key="DES_SOUL_SPEARMEN" Value="Przebudzone Włócznioboty"/>
+		<Loc Key="DES_SOUL_SWORDSMEN" Value="Przebudzone Mieczoboty" />
+		<Loc Key="DES_SOUL_HALBERDIERS" Value="Przebudzeni Halabardnicy" />
+		<Loc Key="DES_SOUL_CAVALRY" Value="Przebudzona Kawaleria" />
+		<Loc Key="DES_SOUL_PRIESTS" Value="Przebudzeni Tech-kapłani" />       
+		<Loc Key="DES_SOUL_PRIESTS_DES" Value="Jednostka dysponująca magicznym atakiem zasięgowym z umiejętnością leczenia. W przeciwieństwie do magów, którzy studiują zaklęcia, kapłani czerpią swoją moc z modlitwy i oddania bóstwu. Tech-kapłani mają również możliwość odbudowy poległych konstruktów w bitwie."/>
+		<Loc Key="DES_SOUL_BOMBER" Value="Cisk"/>
+		<Loc Key="DES_SOUL_BOMBER_DES" Value="Cisk jest dość osobliwym przebudzonym, o kształcie humanoidalnej ręki stworzonej do rzucania. Jego jedynym przeznaczeniem w bitwie jest rzucanie magbomby i eksterminacja przeciwnika jednym, wspaniałym wybuchem." />
+		<Loc Key="DES_SOUL_BOMB" Value="Magbomba"/>
+		<Loc Key="DES_SOUL_BOMB_DES" Value="Magbombę spaja potężna Techmagia, która pozwala jej eksplodować przeciwnikowi w twarz. Chyba, że uda mu się ją wcześniej zestrzelić - wtedy staje się jedynie kupą animowanego złomu..." />
+		<Loc Key="DES_SOUL_CANNON" Value="Działo Dusz" />
+		<Loc Key="DES_SOUL_CANNON_DES" Value="Działo dusz jest arcydziełem technologii i magii, które połączone są w doskonałą synergiczną całość. Jest to potężna jednostka dystansowa należąca do przebudzonych." />
+		<Loc Key="DES_SOUL_GOLEM" Value="Bezduszny" />
+		<Loc Key="DES_SOUL_GOLEM_DES" Value="Ten golem ciała jest bezduszną kupą mięsa, ożywioną tajemniczymi mocami Techmagii przez przebudzonych inżynierów i kapłanów. Niektórzy mówią, że bezduszny jest horrendalną odpowiedzą na golemy stworzone przez krasnoludy..." />
+		<Loc Key="DES_SOUL_SUB_TRIREME" Value="Podtryrema" />
+		<Loc Key="DES_SOUL_SUB_TRIREME_DES" Value="Podtryrema może pokonywać duże dystanse pod powierzchnią wód. Jest autonomiczną jednostką przebudzonych, ale nie ma nic przeciwko temu, by służyć za transport." />
+		<Loc Key="DES_CYBER_SPRITE_DES" Value="Tech-wróżka to dziwne i niepokojące połączenie cudu techniki i podmuchu magii. Gdzie kiedyś była zwykła wróżka, tam jest teraz technologicznie usprawniona, latająca, strzeląca istota w służbie Czarodziejów Techmagii." />
+		<Loc Key="DES_SCOUTING_PROBE_DES" Value="Dron zwiadowczy z serii 53N3X jest konstrukcją z metalu i szkła przewołaną do życia za pomocą Techmagii. Pod dowództwem Czarodzieja, dron może latać na dużych wysokościach i widzieć dalej niż większość biologicznych a nawet widmowych istot." />
+        <Loc Key="DES_ENGINEERING_PROBE_DES" Value="Wielofunkcyjny dron z serii 53N3X2, zaprojektowany do misji wielozadaniowych. Jego głownym przeznaczeniem jest inżynieria, zatem może budować drogi, ale jest także szybszy niż zwykłe jednostki i może łączyć się z węzłami magii." />
+
+		
+		<!-- SKILLS --> 
+        <Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH" Value="Techmagiczny Atak Zasięgowy" />
+		<Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH_DES" Value="Ataki zasięgowe tej jednostki są nasycone Techmagią. Są celne na każdym dystansie i nie mają minusów do szansy na trafienie {ICON:ToHitBonusIcon} ze względu na dystans do celu. Ten atak całkowicie pominie odporność na pociski i odporność na magię celu oraz przebija pancerz." /> 
+		<Loc Key="DES_DOUBLESHOT" Value="Podwójny Strzał" />
+		<Loc Key="DES_DOUBLESHOT_DES" Value="W prawdziwym stylu rewolwerowca podwójny strzał pozwala bohaterowi strzelić dwa razy w rundzie, zwykłym atakiem dystansowym." />
+		<Loc Key="DES_SUMMON_BOMB" Value="Uwolnienie Magbomby"/>
+		<Loc Key="DES_SUMMON_BOMB_DES" Value="Przyzywa magbombę, jednostrzałową jednostkę zadającą śmiertelne obrażenia, ale bardzo podatną na ataki." />
+		<Loc Key="DES_BOMBER_BOOM" Value="Techsplozja"/> 
+		<Loc Key="DES_BOMBER_BOOM_DES" Value="Potężny wybuch tech-ognia, który uszkadza swoje źródło, powodując magiczny atak ogniem o sile 20, który trafia każdą figurę wskazanej jednostki." />
+		<Loc Key="DES_PIERCING_BITE" Value="Przebijające Ugryzienie {0}" />
+		<Loc Key="DES_PIERCING_BITE_DES" Value="Zaciekłe ugryzienie w zwarciu, które zadaje obrażenia przebijające po swojej turze ataku i po każdym kontrataku." />
+		<Loc Key="DES_GNOLL_GENERAL" Value="Wilczy Jeździec Alfa" />
+		<Loc Key="DES_GNOLL_GENERAL_DES" Value="Gnollowi generałowie armii prowadzą watahy wilczych jeźdźców z doskonałą jednością. Bohater otrzymuje bonusowe +1{ICON:ArmourIconNormal} pancerza za każde dwie jednostki wilczych jeźdźców w swojej armii. Jednostki wilczych jeźdźców z kolei otrzymują +1 do ataków wręcz {ICON:MeleeIconNormal} w obecności swojego alfy." />
+		<Loc Key="DES_GNOLL_GENERAL_BONUS_DES" Value="Ta jednostka jest pod wpływem umiejętności Wilczy Jeździec Alfa. Bohater otrzymuje bonusowe +1{ICON:ArmourIconNormal} pancerza za każde dwie jednostki wilczych jeźdźców w swojej armii. Jednostki wilczych jeźdźców z kolei otrzymują +1 do ataków wręcz {ICON:MeleeIconNormal} w obecności swojego alfy." />
+		<Loc Key="DES_GNOLL_GENERAL_BONUS" Value="Wilczy Jeździec Alfa" />
+		<Loc Key="DES_MECHANICIAN" Value="Naprawa" />
+		<Loc Key="DES_MECHANICIAN_DES" Value="Ta umiejętność pozwala naprawiać mechaniczne konstrukty, zwiększając natualne leczenie jednostek konstruktów znajdujących się z nimi w grupie o 50% swojego maksymalnego leczenia na turę." />
+		<Loc Key="DES_LIGHTNING_WEAKNESS" Value="Podatność na Pioruny" />
+		<Loc Key="DES_LIGHTNING_WEAKNESS_DES" Value="Jednostka przyciąga błyskawice i jest podatna na ich obrażenia. W obliczu ataku błyskawicy właściciel osłabienia musi bronić się przed zwiększeniem o 100% obrażeń generowanych przez źródło." />
+		<Loc Key="DES_MINOR_REGENERATION" Value="Regeneracja w Walce" />
+		<Loc Key="DES_MINOR_REGENERATION_DES" Value="Przyspiesza naturalny proces leczenia ciała, pozwalając mu wyleczyć 2 obrażenia {ICON:HitIconNormal} na turę walki. Umiejętność nie działa poza walką. (Kumuluje się z Regeneracją)" />	
+		
+		
+		<!-- RES --> 
+		<Loc Key="DES_RES_ORICHALCUM" Value="Oryszalk" />
+		<Loc Key="DES_RES_ORICHALCUM_DES" Value="Oryszalk to rzadki zasób, który można zdobyć tylko po wyczerpaniu Tech-lochów lub przy użyciu Techmagii. Zmniejsza koszt budowy budynków o 10%." />
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_SCOUTING_PROBE" Value="Dron Zwiadowczy" />
+		<Loc Key="DES_SCOUTING_PROBE_SUMMON_DES" Value="Przyzywa drona zwiadowczego z serii 53N3X. Jest to dziwaczny mały konstrukt napędzany iskrzącymi duszami żywiołaków powietrza. Jest jednostką latającą {ICON:MovementFlyingIcon} z doskonałymi umiejętnościami zwiadowczymi, lecz słabą wytrzymałością." />
+		<Loc Key="DES_CYBER_SPRITE" Value="Tech-wróżka" />
+		<Loc Key="DES_CYBER_SPRITE_SUMMON_DES" Value="Przyzywa jednostkę tech-wróżek, latających {ICON:MovementFlyingIcon} mechanicznych istot dyspnujących Techmagicznym atakiem zasięgowym. Będzie słuchać rozkazów Czarodzieja aż do śmierci lub zakończenia bitwy." />
+		<Loc Key="DES_POWER_SEEKER" Value="Poszukiwacz Mocy" />
+		<Loc Key="DES_POWER_SEEKER_DES" Value="Potężne zaklęcie Techmagii wyszukuje wszystkie Węzły Mocy na wybranym planie i pokazuje je twojej mapie. Po odkryciu węzły zostaną również oznaczone jako zbadane, dzięki czemu ich obrońcy będą znani przed wejściem do węzła." />
+		<Loc Key="DES_DETECT_MINERALS" Value="Wydobądź Minerały" />
+		<Loc Key="DES_DETECT_MINERALS_DES" Value="Zaklęcie wyszukuje minerały ukryte głęboko w ziemi i wydobywa je na powierzchnię, dzięki czemu Czarodziej może dodać nowy surowiec na wybranym polu. Nowy minerał może zostać rozstawiony tylko na polu oddalonym o co najmniej 1 od innego zasobu." />
+		<Loc Key="DES_TECHCARNATION" Value="Techinkarnacja" />
+		<Loc Key="DES_TECHCARNATION_DES" Value="Potężne zaklęcie techinkarnacji wzywa do służby niezwykłego bohatera zwanego Moma i Ilde. Ten podwójny bohater odpowiada na wezwanie Czarodzieja władającego Techmagią w zamian za wzbogacenie ich wiedzy na temat tej nowej tajemnej sztuki. Podwójnego czempiona nie można wskrzesić, można go tylko ponownie przywołać, gdy zostanie utracony (jest fantastycznym bohaterem, więc zaklęcia działające na zwykłe jednostki i bohaterów nie będą miały na niego wpływu)." />
+		<Loc Key="DES_MASS_SHIELD" Value="Masowa Osłona" />
+		<Loc Key="DES_MASS_SHIELD_DES" Value="Masowa Osłona daje umiejętność Duża Tarcza wszystkim przyjacielskim jednostkom na polu bitwy, chyba, że już ją posiadają. Umiejętność ta zapewnia +2 pancerza {ICON:ArmourIconNormal} przeciwko atakom dystansowym." />
+		<Loc Key="DES_AFINITY_FOR_MINERALS" Value="Zasilany Minerałami" />
+		<Loc Key="DES_AFINITY_FOR_MINERALS_DES" Value="Przebudzeni mają szczególne upodobanie do minerałów. Każdy surowiec mineralny w granicach miasta przebudzonych zwiększa przyrost populacji o +5." />
+		<Loc Key="DES_RECONSTRUCT" Value="Rekonstrukcja" />
+		<Loc Key="DES_RECONSTRUCT_DES" Value="Zaklęcie Rekonstrukcji naprawia zepsutą jednostkę konstrukta, w wyniku czego odzyskuje ona wszystkie punkty życia. Ale po zakończeniu walki ta jednostka zniknie, nawet jeśli skorzystasz z innych zaklęć do wskrzeszania umarłych." />
+		<Loc Key="DES_RECONSTRUCT_NAME_DES" Value="Tymczasowo Zrekonstruowana Jednostka" />
+		<Loc Key="DES_MAGIC_BULLET" Value="Magiczny Pocisk" />
+		<Loc Key="DES_MAGIC_BULLET_DES" Value="Magiczny Pocisk dodaje +2 amunicji wybranej nie-fantastycznej jednostce dysponującej zwykłym atakiem zasięgowym i sprawia, że może ona ignorować odporność na broń. Ten bonus może zwiększyć naturalne maksimum amunicji jednostki jak również uzupełniać zużytą animunicję. Bonus jest zwiększony do +3 dla konstruktów." />
+		<Loc Key="DES_HERO_TRAINING" Value="Szkolenie Bohatera" />
+		<Loc Key="DES_HERO_TRAINING_DES" Value="Dzięki pomysłowości Techmagów, bohaterowie lepiej rozumieją sprzęt, którego używają, dzięki czemu zostają natychmiast szkoleni. Każdy bohater w służbie Czarodzieja otrzymuje rangę kapitana." />
+		<Loc Key="DES_TECH_DUNGEON_UNITS" Value="Tech-loch" />
+		<Loc Key="DES_TECH_DUNGEON_UNITS_DES" Value="Tech-loch to siedziba zbuntowanych przebudzonych. W czasie bitwy w tej lokacji przebudzeni otrzymują bonusy do walki." />
+        <Loc Key="DES_ENGINEERING_PROBE" Value="Wielokoparka"/>
+		<Loc Key="DES_ENGINEERING_PROBE_SUMMON_DES" Value="Przyzywa dwuzadaniowego konstrukta z serii 53N3X2. Główne przeznaczenie - dron inżynieryjny. Funkcje drugorzędne obejmują: łączenie z węzłami mocy i zwiększoną prędkość ruchu." />
+        <Loc Key="DES_MASS_PIERCING_SPELL" Value="Ostra Wymiana"/>
+        <Loc Key="DES_MASS_PIERCING_SPELL_DES" Value="Ostra Wymiana dodaje efekt przebijania pancerza (wartość pancerza przeciwnika jest zmniejszona o połowę) wszystkim przyjacielskim jednostkom na polu bitwy, ale wymaga aby rzucający zaklęcie poświęcił 5 punktów życia {ICON:HitIconNormal}."/>
+        <Loc Key="DES_MASS_PIERCING" Value="Naostrzony"/>
+        <Loc Key="DES_MASS_PIERCING_DES" Value="Naostrzone jednostki zyskują efekt przebijania pancerza (wartość pancerza przeciwnika jest zmniejszona o połowę)."/>
+        <Loc Key="DES_FAIR_EXCHANGE" Value="Uczciwa Wymiana"/>
+        <Loc Key="DES_FAIR_EXCHANGE_DES" Value="Wszystko w życiu ma jakąś cenę, a sedno tkwi w ostrożnym balansowaniu. Ci, którzy opanowali Uczciwą Wymianę dodają swojemu Czarodziejowi 5 punktów Umiejętności Czarowania za każde 2 obrażenia, które otrzymają."/>
+        <Loc Key="DES_ENCH_IMPROVED_WARLORD_DES" Value="Wódz Weteran szkoli nie-fantastyczne jednostki pod swą kontrolą, dodając im +1PD na turę."/>
+        <Loc Key="DES_ENCH_ANTI_MAGIC_DES" Value="Ta jednostka nie daje się dotknąć magii i zyskuje Odporność na Magię (+3 odporności) oraz Regenerację (+1 naturalnej regeneracji i jednostki odzyskują pełne zdrowie po walce) lub Ulepszoną Regenerację (+1 ponad to, co daje Regeneracja) od swojego Czarodzieja."/>
+        <Loc Key="DES_CASTING_BLOCK_SPELL" Value="Poświęcenie Serca"/>
+        <Loc Key="DES_CASTING_BLOCK_SPELL_DES" Value="W zamian za poświęcenie 2 punktów zdrowia, jednostka rzucająca zaklęcie blokuje możliwość rzucania zaklęć wrogiemu Czarodziejowi w bitwie na 1 turę."/>
+        <Loc Key="DES_CASTING_BLOCK" Value="Rzucanie Zaklęć Zablokowane"/>	  
+        <Loc Key="DES_CASTING_BLOCK_DES" Value="Możliwość rzucania zaklęć została zablokowana na 1 turę."/>
+        <Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS" Value="Pomniejsze Demony Cienia"/>	  
+        <Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS_DES" Value="Przyzywa jednostkę piekielnych, latających {ICON:MovementFlyingIcon} Pomniejszych Demonów Cienia pod twą kontrolę. Posiadają one zarówno możliwość ataku wręcz {ICON:MeleeIconNormal} jak i magiczny atak zasięgowy {ICON:DeathIcon}{ICON:RangedIconNormal}. "/>
+
+
+		<!-- Other-->
+		<Loc Key="DES_HERO_TRAINING_TARGET" Value="Tylko bohaterowie."/>
+		<Loc Key="DES_NORMAL_UNIT_WITH_RANGE_MISSILE_ATTACK" Value="Zwyczajna jednostka z dystansowym atakiem pociskiem."/>
+		<Loc Key="DES_TECH_DUNGEON" Value="Tech-loch"/>
+		
+	</LOCALIZATION-DLC2_PL>
+</DB_LOCALIZATION>

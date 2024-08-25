@@ -1,0 +1,2172 @@
+﻿<DB_SKILL>
+	<SKILL_PACK-ANY_SKILLS>
+		<Skill VALUE="SKILL-LUCKY"/>
+		<Skill VALUE="SKILL-AGILITY"/>
+		<Skill VALUE="SKILL-ARCANE_POWER"/>
+		<Skill VALUE="SKILL-NOBLE"/>
+		<Skill VALUE="SKILL-BLADEMASTER"/>
+		<Skill VALUE="SKILL-CONSTITUTION"/>
+		<Skill VALUE="SKILL-MIGHT"/>
+		<Skill VALUE="SKILL-PRAYMASTER_GROUP"/>
+		<Skill VALUE="SKILL-ARMSMASTER_GROUP"/>
+		<Skill VALUE="SKILL-LEADERSHIP_GROUP"/>
+		<Skill VALUE="SKILL-CHARMED"/>
+		<Skill VALUE="SKILL-SAGE"/>
+		<Skill VALUE="SKILL-CASTER_5"/>
+		<Skill VALUE="SKILL-LEGENDARY"/>
+		<!--<Skill VALUE="SKILL-PEASANT"/>-->
+	</SKILL_PACK-ANY_SKILLS>
+	<SKILL_PACK-FIGHTER_SKILLS>
+		<Skill VALUE="SKILL-LUCKY"/>
+		<Skill VALUE="SKILL-AGILITY"/>
+		<Skill VALUE="SKILL-NOBLE"/>
+		<Skill VALUE="SKILL-BLADEMASTER"/>
+		<Skill VALUE="SKILL-CONSTITUTION"/>
+		<Skill VALUE="SKILL-MIGHT"/>
+		<Skill VALUE="SKILL-ARMSMASTER_GROUP"/>
+		<Skill VALUE="SKILL-LEADERSHIP_GROUP"/>
+		<Skill VALUE="SKILL-CHARMED"/>
+		<Skill VALUE="SKILL-LEGENDARY"/>
+	</SKILL_PACK-FIGHTER_SKILLS>
+	<SKILL_PACK-MAGE_SKILLS>
+		<Skill VALUE="SKILL-LUCKY"/>
+		<Skill VALUE="SKILL-ARCANE_POWER"/>
+		<Skill VALUE="SKILL-NOBLE"/>
+		<Skill VALUE="SKILL-PRAYMASTER_GROUP"/>
+		<Skill VALUE="SKILL-SAGE"/>
+		<Skill VALUE="SKILL-CASTER_5"/>
+		<Skill VALUE="SKILL-CHARMED"/>
+	</SKILL_PACK-MAGE_SKILLS>
+	<SKILL_PACK-ANY_SKILLS_NO_ARCANE_POWER>
+		<Skill VALUE="SKILL-LUCKY"/>
+		<Skill VALUE="SKILL-AGILITY"/>
+		<Skill VALUE="SKILL-NOBLE"/>
+		<Skill VALUE="SKILL-BLADEMASTER"/>
+		<Skill VALUE="SKILL-CONSTITUTION"/>
+		<Skill VALUE="SKILL-MIGHT"/>
+		<Skill VALUE="SKILL-PRAYMASTER_GROUP"/>
+		<Skill VALUE="SKILL-ARMSMASTER_GROUP"/>
+		<Skill VALUE="SKILL-LEADERSHIP_GROUP"/>
+		<Skill VALUE="SKILL-CHARMED"/>
+		<Skill VALUE="SKILL-SAGE"/>
+		<Skill VALUE="SKILL-CASTER_5"/>
+		<Skill VALUE="SKILL-LEGENDARY"/>
+		<!--<Skill VALUE="SKILL-PEASANT"/>-->
+	</SKILL_PACK-ANY_SKILLS_NO_ARCANE_POWER>
+	
+	<SKILL-MELEE_ATTACK>
+		<DescriptionInfo Name="DES_NORMAL_ATTACK" Description="DES_NORMAL_ATTACK_DES" Graphic="SkillMeleeAttack"/>
+		<Script TriggerType="BattleAttack" Priority="0" 
+				TriggerScript="ATRI_NormalAttack" 
+				ActivatorMainScript="ACT_ProduceNormalDamage"
+				ActivatorSecondaryScript="ACT_ApplyAttack"/>
+	</SKILL-MELEE_ATTACK>		
+    <SKILL-LIFE_STEALING_1 Domain="Death">
+        <DescriptionInfo Name="DES_LIFE_STEALING_ADDON2" Description="DES_LIFE_STEALING_ADDON2_DES" Graphic="SkillLifeStealing" Param="1"/>
+        <Script TriggerType="BattleAttack" Priority="0" 
+                TriggerScript="ATRI_NormalAttack"
+                ActivatorMainScript="ACT_ProduceLifeStealAttack"
+                ActivatorSecondaryScript="ACT_ApplyLifeStealingAttack"
+                FIntParam="1.0"
+                DamagePool="Undead"/>
+    </SKILL-LIFE_STEALING_1>	
+	<SKILL-LIFE_STEALING_1_RANGE HideSkill="TRUE" Domain="Chaos">
+		<DescriptionInfo Name="DES_LIFE_STEALING_MAGICAL_RANGE_ATTACK" Description="DES_LIFE_STEALING_MAGICAL_RANGE_ATTACK_DES" Graphic="SkillMagicChaosRangeAttack" Param="1"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MAGIC_CHAOS_RANGE" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MAGIC_CHAOS_RANGE" FIntParam="1.0"/>	
+		<Script TriggerType="BattleRangedAttack" Priority="0" 
+				TriggerScript="ATRI_NormalRangedAttack"
+				ActivatorMainScript="ACT_ProduceLifeStealAttack"
+				ActivatorSecondaryScript="ACT_ApplyLifeStealingAttack"
+				FIntParam="1.0"
+				DamagePool="Undead"/>
+	</SKILL-LIFE_STEALING_1_RANGE>
+    <SKILL-LIFE_STEALING_3 Domain="Death">
+        <DescriptionInfo Name="DES_LIFE_STEALING_ADDON2" Description="DES_LIFE_STEALING_ADDON2_DES" Graphic="SkillLifeStealing" Param="3"/>
+        <Script TriggerType="BattleAttack" Priority="0" 
+                TriggerScript="ATRI_NormalAttack"
+                ActivatorMainScript="ACT_ProduceLifeStealAttack"
+                ActivatorSecondaryScript="ACT_ApplyLifeStealingAttack"
+                FIntParam="3.0"
+                DamagePool="Undead"/>
+    </SKILL-LIFE_STEALING_3>
+    <SKILL-LIFE_STEALING_4 Domain="Death">
+        <DescriptionInfo Name="DES_LIFE_STEALING_ADDON2" Description="DES_LIFE_STEALING_ADDON2_DES" Graphic="SkillLifeStealing" Param="4"/>
+        <Script TriggerType="BattleAttack" Priority="0" 
+                TriggerScript="ATRI_NormalAttack"
+                ActivatorMainScript="ACT_ProduceLifeStealAttack"
+                ActivatorSecondaryScript="ACT_ApplyLifeStealingAttack"
+                FIntParam="4.0"
+                DamagePool="Undead"/>
+    </SKILL-LIFE_STEALING_4>
+    <SKILL-LIFE_STEALING_5 Domain="Death">
+        <DescriptionInfo Name="DES_LIFE_STEALING_ADDON2" Description="DES_LIFE_STEALING_ADDON2_DES" Graphic="SkillLifeStealing" Param="5"/>
+        <Script TriggerType="BattleAttack" Priority="0" 
+                TriggerScript="ATRI_NormalAttack"
+                ActivatorMainScript="ACT_ProduceLifeStealAttack"
+                ActivatorSecondaryScript="ACT_ApplyLifeStealingAttack"
+                FIntParam="5.0"
+                DamagePool="Undead"/>
+    </SKILL-LIFE_STEALING_5>
+	<SKILL-LIFE_STEALING_5_RANGE HideSkill="TRUE" Domain="Chaos">
+		<DescriptionInfo Name="DES_LIFE_STEALING_MAGICAL_RANGE_ATTACK" Description="DES_LIFE_STEALING_MAGICAL_RANGE_ATTACK_DES" Graphic="SkillMagicChaosRangeAttack" Param="5"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MAGIC_CHAOS_RANGE" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MAGIC_CHAOS_RANGE" FIntParam="1.0"/>	
+		<Script TriggerType="BattleRangedAttack" Priority="0" 
+				TriggerScript="ATRI_NormalRangedAttack"
+				ActivatorMainScript="ACT_ProduceLifeStealAttack"
+				ActivatorSecondaryScript="ACT_ApplyLifeStealingAttack"
+				FIntParam="5.0"
+				DamagePool="Undead"/>
+	</SKILL-LIFE_STEALING_5_RANGE>
+	<SKILL-CREATE_UNDEAD_MELEE_ATTACK>
+		<DescriptionInfo Name="DES_CREATE_UNDEAD_MELEE_ATTACK" Description="DES_CREATE_UNDEAD_MELEE_ATTACK_DES" Graphic="SkillCreateUndead"/>
+		<Script TriggerType="BattleAttack" Priority="0" 
+				TriggerScript="ATRI_NormalAttack" 
+				ActivatorMainScript="ACT_ProduceNormalDamage"
+				ActivatorSecondaryScript="ACT_ApplyAttack"
+				DamagePool="Undead" />
+	</SKILL-CREATE_UNDEAD_MELEE_ATTACK>
+	<SKILL-NORMAL_RANGE_ATTACK >
+		<DescriptionInfo Name="DES_NORMAL_RANGE_ATTACK" Description="DES_NORMAL_RANGE_ATTACK_DES" Graphic="SkillRangeAttack"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-NORMAL_RANGE" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-NORMAL_RANGE" FIntParam="1.0"/>	
+		<Script TriggerType="BattleRangedAttack" Priority="0" 
+				TriggerScript="ATRI_NormalRangedAttack" 
+				ActivatorMainScript="ACT_ProduceRangeNormalDamage"
+				ActivatorSecondaryScript="ACT_ApplyRangeAttack"/>
+	</SKILL-NORMAL_RANGE_ATTACK>
+	<SKILL-MAGIC_NATURE_RANGE_ATTACK Domain="Nature">
+		<DescriptionInfo Name="DES_MAGICAL_RANGE_ATTACK" Description="DES_MAGICAL_RANGE_ATTACK_DES" Graphic="SkillMagicNatureRangeAttack"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MAGIC_NATURE_RANGE" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MAGIC_NATURE_RANGE" FIntParam="1.0"/>	
+		<Script TriggerType="BattleRangedAttack" Priority="0" 
+				TriggerScript="ATRI_NormalRangedAttack" 
+				ActivatorMainScript="ACT_ProduceRangeNormalDamage"
+				ActivatorSecondaryScript="ACT_ApplyMagicRangeAttack"/>
+	</SKILL-MAGIC_NATURE_RANGE_ATTACK>
+	<SKILL-MAGIC_SORCERY_RANGE_ATTACK  Domain="Sorcery">
+		<DescriptionInfo Name="DES_MAGICAL_RANGE_ATTACK" Description="DES_MAGICAL_RANGE_ATTACK_DES" Graphic="SkillMagicSorceryRangeAttack"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MAGIC_SORCERY_RANGE" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MAGIC_SORCERY_RANGE" FIntParam="1.0"/>	
+		<Script TriggerType="BattleRangedAttack" Priority="0" 
+				TriggerScript="ATRI_NormalRangedAttack" 
+				ActivatorMainScript="ACT_ProduceRangeNormalDamage"
+				ActivatorSecondaryScript="ACT_ApplyMagicRangeAttack"/>
+	</SKILL-MAGIC_SORCERY_RANGE_ATTACK>
+	<SKILL-MAGIC_SORCERY_PIERCING_RANGE_ATTACK Domain="Sorcery">
+		<DescriptionInfo Name="DES_MAGICAL_RANGE_ATTACK" Description="DES_MAGICAL_RANGE_ATTACK_DES" Graphic="SkillMagicSorceryPiercingRangeAttack"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MAGIC_SORCERY_RANGE" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MAGIC_SORCERY_RANGE" FIntParam="1.0"/>	
+		<Script TriggerType="BattleRangedAttack" Priority="0" 
+				TriggerScript="ATRI_NormalRangedAttack" 
+				ActivatorMainScript="ACT_ProduceRangeNormalDamage"
+				ActivatorSecondaryScript="ACT_ApplyMagicRangeAttack"
+				BattleAttackEffect="Piercing" />
+	</SKILL-MAGIC_SORCERY_PIERCING_RANGE_ATTACK>
+	<SKILL-MAGIC_SORCERY_ILLUSION_RANGE_ATTACK Domain="Sorcery">
+		<DescriptionInfo Name="DES_MAGICAL_RANGE_ATTACK" Description="DES_MAGICAL_RANGE_ATTACK_DES" Graphic="SkillMagicSorceryIllusionRangeAttack"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MAGIC_SORCERY_RANGE" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MAGIC_SORCERY_RANGE" FIntParam="1.0"/>	
+		<Script TriggerType="BattleRangedAttack" Priority="0" 
+				TriggerScript="ATRI_NormalRangedAttack" 
+				ActivatorMainScript="ACT_ProduceRangeNormalDamage"
+				ActivatorSecondaryScript="ACT_ApplyMagicRangeAttack"
+				BattleAttackEffect="Illusion" />
+	</SKILL-MAGIC_SORCERY_ILLUSION_RANGE_ATTACK>
+	<SKILL-MAGIC_CHAOS_RANGE_ATTACK Domain="Chaos">
+		<DescriptionInfo Name="DES_MAGICAL_RANGE_ATTACK" Description="DES_MAGICAL_RANGE_ATTACK_DES" Graphic="SkillMagicChaosRangeAttack"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MAGIC_CHAOS_RANGE" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MAGIC_CHAOS_RANGE" FIntParam="1.0"/>	
+		<Script TriggerType="BattleRangedAttack" Priority="0" 
+				TriggerScript="ATRI_NormalRangedAttack" 
+				ActivatorMainScript="ACT_ProduceRangeNormalDamage"
+				ActivatorSecondaryScript="ACT_ApplyMagicRangeAttack"/>
+	</SKILL-MAGIC_CHAOS_RANGE_ATTACK>
+	<SKILL-BOULDER_RANGE_ATTACK >
+		<DescriptionInfo Name="DES_BOULDER_RANGE_ATTACK" Description="DES_BOULDER_RANGE_ATTACK_DES" Graphic="SkillBoulderRangeAttack"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-BOULDER_RANGE" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-BOULDER_RANGE" FIntParam="1.0"/>	
+		<Script TriggerType="BattleRangedAttack" Priority="0" 
+				TriggerScript="ATRI_NormalRangedAttack" 
+				ActivatorMainScript="ACT_ProduceRangedAreaAttack"
+				ActivatorSecondaryScript="ACT_ApplyBoulderAreaAttack"/>
+	</SKILL-BOULDER_RANGE_ATTACK>
+	<SKILL-FIRE_BREATH Domain="Chaos">
+		<DescriptionInfo Name="DES_FIRE_BREATH" Description="DES_FIRE_BREATH_DES" Graphic="SkillFireBreath"/>
+		<DescriptionScript VALUE="DSCR_FireBreath"/>
+		<Script TriggerType="BattleAttackAddon" Priority="3" 
+				TriggerScript="TRI_AddonAttack" 
+				ActivatorMainScript="ACT_BreathAttack"
+				ActivatorSecondaryScript="ACT_ApplyFireBreathAttack"
+				FIntParam="0.0" 
+				AllowMeleeVsFly="TRUE"/>
+	</SKILL-FIRE_BREATH>
+	<SKILL-LIGHTNING_BREATH Domain="Chaos">
+		<DescriptionInfo Name="DES_LIGHTNING_BREATH" Description="DES_LIGHTNING_BREATH_DES" Graphic="SkillLightningBreath"/>
+		<DescriptionScript VALUE="DSCR_LighteningBreath"/>
+		<Script TriggerType="BattleAttackAddon" Priority="3" 
+				TriggerScript="TRI_AddonAttack" 
+				ActivatorMainScript="ACT_LighteningBreathAttack"
+				ActivatorSecondaryScript="ACT_ApplyLightningBreathAttack"
+				FIntParam="0.0" 
+				AllowMeleeVsFly="TRUE"/>		
+	</SKILL-LIGHTNING_BREATH>
+	<SKILL-COLD_BREATH Domain="Nature">
+		<DescriptionInfo Name="DES_COLD_BREATH" Description="DES_COLD_BREATH_DES" Graphic="SkillColdBreath"/>
+		<DescriptionScript VALUE="DSCR_ColdBreath"/>
+		<Script TriggerType="BattleAttackAddon" Priority="3" 
+				TriggerScript="TRI_AddonAttack" 
+				ActivatorMainScript="ACT_BreathAttack"
+				ActivatorSecondaryScript="ACT_ApplyColdBreathAttack"
+				FIntParam="0.0" 
+				AllowMeleeVsFly="TRUE"/>		
+	</SKILL-COLD_BREATH>
+	<SKILL-THROWN >
+		<DescriptionInfo Name="DES_THROWN" Description="DES_THROWN_DES" Graphic="SkillThrown"/>
+		<DescriptionScript VALUE="DSCR_Throw"/>
+		<Script TriggerType="BattleAttackAddon" Priority="3" 
+				TriggerScript="TRI_AddonAttack" 
+				ActivatorMainScript="ACT_Throw"
+				ActivatorSecondaryScript="ACT_ApplyThrowAttack"
+				FIntParam="0.0"
+				AllowMeleeVsFly="TRUE"				
+				/>												
+	</SKILL-THROWN>
+	<SKILL-DEATH_GAZE_2 Domain="Death">
+		<DescriptionInfo Name="DES_DEATH_GAZE" Description="DES_DEATH_GAZE_DES" Graphic="SkillDeathGaze" Param="2"/>
+		<Script TriggerType="BattleAttackAddon" Priority="2" 
+				TriggerScript="TRI_AddonAttackEveryAttack" 
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyDeathAttack"
+				FIntParam="2.0"
+				AllowMeleeVsFly="TRUE"
+				/>		
+	</SKILL-DEATH_GAZE_2>
+	<SKILL-DEATH_GAZE_4 Domain="Death">
+		<DescriptionInfo Name="DES_DEATH_GAZE" Description="DES_DEATH_GAZE_DES" Graphic="SkillDeathGaze" Param="4"/>
+		<Script TriggerType="BattleAttackAddon" Priority="2" 
+				TriggerScript="TRI_AddonAttackEveryAttack" 
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyDeathAttack"
+				FIntParam="4.0"
+				AllowMeleeVsFly="TRUE"
+				/>		
+	</SKILL-DEATH_GAZE_4>
+	<SKILL-STONING_GAZE_1 Domain="Nature">
+		<DescriptionInfo Name="DES_STONING_GAZE" Description="DES_STONING_GAZE_DES" Graphic="SkillStoningGaze" Param="1"/>
+		<Script TriggerType="BattleAttackAddon" Priority="2" 
+				TriggerScript="TRI_AddonAttackEveryAttack" 
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyStoningAttack"
+				FIntParam="1.0"
+				DamagePool="Irreversible"
+				AllowMeleeVsFly="TRUE"
+				/>		
+	</SKILL-STONING_GAZE_1>
+	<SKILL-STONING_GAZE_2 Domain="Nature">
+		<DescriptionInfo Name="DES_STONING_GAZE" Description="DES_STONING_GAZE_DES" Graphic="SkillStoningGaze" Param="2"/>
+		<Script TriggerType="BattleAttackAddon" Priority="2" 
+				TriggerScript="TRI_AddonAttackEveryAttack" 
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyStoningAttack"
+				FIntParam="2.0"
+				DamagePool="Irreversible"
+				AllowMeleeVsFly="TRUE"
+				/>		
+	</SKILL-STONING_GAZE_2>
+	<SKILL-STONING_GAZE_4 Domain="Nature">
+		<DescriptionInfo Name="DES_STONING_GAZE" Description="DES_STONING_GAZE_DES" Graphic="SkillStoningGaze" Param="4"/>
+		<Script TriggerType="BattleAttackAddon" Priority="2" 
+				TriggerScript="TRI_AddonAttackEveryAttack" 
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyStoningAttack"
+				FIntParam="4.0"
+				DamagePool="Irreversible"
+				AllowMeleeVsFly="TRUE"/>		
+	</SKILL-STONING_GAZE_4>
+	<SKILL-DOOM_GAZE_4 Domain="Chaos">
+		<DescriptionInfo Name="DES_DOOM_GAZE" Description="DES_DOOM_GAZE_DES" Graphic="SkillDoomGaze"/>
+		<DescriptionScript VALUE="DSCR_DoomGaze"/>
+		<Script TriggerType="BattleAttackAddon" Priority="2" 
+				TriggerScript="TRI_AddonAttackEveryAttack" 
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyDoomAttack"
+				FIntParam="4.0"
+				AllowMeleeVsFly="TRUE"/>		
+	</SKILL-DOOM_GAZE_4>
+	<SKILL-DISPEL_EVIL Domain="Life">
+		<DescriptionInfo Name="DES_SKILL_DISPEL_EVIL" Description="DES_SKILL_DISPEL_EVIL_DES" Graphic="SpellDispelEvil"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2" 
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyDispelEvilAttack"
+				DamagePool="Irreversible"/>
+	</SKILL-DISPEL_EVIL>
+	<SKILL-POISON_1_ADDON2>
+		<DescriptionInfo Name="DES_POISON_ADDON2" Description="DES_POISON_ADDON2_DES" Graphic="SkillPoison" Param="1"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2ToAllNonAttackAddonsAttacks"
+				ActivatorMainScript="ACT_ProducePoisonAttack"
+				ActivatorSecondaryScript="ACT_ApplyPoisonAttack"
+				FIntParam="1.0"/>						
+	</SKILL-POISON_1_ADDON2>
+	<SKILL-POISON_1_ADDON2_UNDEAD>
+		<DescriptionInfo Name="DES_POISON_ADDON2" Description="DES_POISON_ADDON2_DES" Graphic="SkillPoison" Param="1"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2ToAllNonAttackAddonsAttacks"
+				ActivatorMainScript="ACT_ProducePoisonAttack"
+				ActivatorSecondaryScript="ACT_ApplyPoisonAttack"
+				FIntParam="1.0"
+				DamagePool="Undead"/>			
+	</SKILL-POISON_1_ADDON2_UNDEAD>
+	<SKILL-POISON_4_ADDON2>
+		<DescriptionInfo Name="DES_POISON_ADDON2" Description="DES_POISON_ADDON2_DES" Graphic="SkillPoison" Param="4"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2ToAllNonAttackAddonsAttacks"
+				ActivatorMainScript="ACT_ProducePoisonAttack"
+				ActivatorSecondaryScript="ACT_ApplyPoisonAttack"
+				FIntParam="4.0"/>						
+	</SKILL-POISON_4_ADDON2>
+	<SKILL-POISON_5_ADDON2>
+		<DescriptionInfo Name="DES_POISON_ADDON2" Description="DES_POISON_ADDON2_DES" Graphic="SkillPoison" Param="5"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2ToAllNonAttackAddonsAttacks"
+				ActivatorMainScript="ACT_ProducePoisonAttack"
+				ActivatorSecondaryScript="ACT_ApplyPoisonAttack"
+				FIntParam="5.0"/>						
+	</SKILL-POISON_5_ADDON2>
+	<SKILL-POISON_6_ADDON2>
+		<DescriptionInfo Name="DES_POISON_ADDON2" Description="DES_POISON_ADDON2_DES" Graphic="SkillPoison" Param="6"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2ToAllNonAttackAddonsAttacks"
+				ActivatorMainScript="ACT_ProducePoisonAttack"
+				ActivatorSecondaryScript="ACT_ApplyPoisonAttack"
+				FIntParam="6.0"/>						
+	</SKILL-POISON_6_ADDON2>
+	<SKILL-POISON_15_ADDON2>
+		<DescriptionInfo Name="DES_POISON_ADDON2" Description="DES_POISON_ADDON2_DES" Graphic="SkillPoison" Param="15"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2ToAllNonAttackAddonsAttacks"
+				ActivatorMainScript="ACT_ProducePoisonAttack"
+				ActivatorSecondaryScript="ACT_ApplyPoisonAttack"
+				FIntParam="15.0"/>						
+	</SKILL-POISON_15_ADDON2>
+	<SKILL-STONING_3_ADDON2 Domain="Nature">
+		<DescriptionInfo Name="DES_STONING_ADDON2" Description="DES_STONING_ADDON2_DES" Graphic="SkillStoning" Param="3"/>
+		<Script TriggerType="BattleAttackAddon" Priority="0" 
+				TriggerScript="TRI_AddonAttack"
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyStoningAttackPerAttackFigure"
+				FIntParam="3.0"
+				DamagePool="Irreversible"/>						
+	</SKILL-STONING_3_ADDON2>
+	<SKILL-MELEE_RANGE_ATTACK_ADDON2>
+        <DescriptionInfo Name="DES_NORMAL_ATTACK" Description="DES_NORMAL_ATTACK_DES" Graphic="SkillMeleeAttack"/>
+        <Script TriggerType="BattleAttackAddon2" Priority="0" 
+                TriggerScript="TRI_AddonAttack2ToAllNonAttackAddonsAttacks" 
+                ActivatorMainScript="ACT_ProduceNormalDamage"
+                ActivatorSecondaryScript="ACT_ApplyAttack"/>
+    </SKILL-MELEE_RANGE_ATTACK_ADDON2>
+	<SKILL-MELEE_ATTACK_ADDON2>
+		<DescriptionInfo Name="DES_NORMAL_ATTACK" Description="DES_NORMAL_ATTACK_DES" Graphic="SkillMeleeAttack"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_MeleeAttackAddon2" 
+				ActivatorMainScript="ACT_ProduceNormalDamage"
+				ActivatorSecondaryScript="ACT_ApplyAttack"/>
+	</SKILL-MELEE_ATTACK_ADDON2>
+	<SKILL-RANGE_ATTACK_ADDON2 HideSkill="TRUE" Domain="Chaos">
+		<DescriptionInfo Name="DES_MAGICAL_RANGE_ATTACK" Description="DES_MAGICAL_RANGE_ATTACK_DES" Graphic="SkillMagicChaosRangeAttack"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_RangeAttackAddon2" 
+				ActivatorMainScript="ACT_ProduceRangeNormalDamage"
+				ActivatorSecondaryScript="ACT_ApplyMagicRangeAttack"/>
+	</SKILL-RANGE_ATTACK_ADDON2>
+	<SKILL-LIFE_STEALING_1_ADDON2 Domain="Death">
+		<DescriptionInfo Name="DES_LESSER_LIFE_STEALING_ADDON2" Description="DES_LESSER_LIFE_STEALING_ADDON2_DES" Graphic="SkillLifeStealing" Param="1"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="3" 
+				TriggerScript="TRI_AddonAttack2"
+				ActivatorMainScript="ACT_ProduceLifeStealAttack"
+				ActivatorSecondaryScript="ACT_ApplyLifeStealingAttack"
+				FIntParam="-1.0"
+				DamagePool="Undead"/>
+	</SKILL-LIFE_STEALING_1_ADDON2>
+	<!--<SKILL-LIFE_STEALING_3_ADDON2 Domain="Death">
+		<DescriptionInfo Name="DES_LIFE_STEALING_ADDON2" Description="DES_LIFE_STEALING_ADDON2_DES" Graphic="SkillLifeStealing" Param="3"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2"
+				ActivatorMainScript="ACT_ProduceLifeStealAttack"
+				ActivatorSecondaryScript="ACT_ApplyLifeStealingAttack"
+				FIntParam="3.0"
+				DamagePool="Undead"/>
+	</SKILL-LIFE_STEALING_3_ADDON2>
+	<SKILL-LIFE_STEALING_4_ADDON2 Domain="Death">
+		<DescriptionInfo Name="DES_LIFE_STEALING_ADDON2" Description="DES_LIFE_STEALING_ADDON2_DES" Graphic="SkillLifeStealing" Param="4"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2"
+				ActivatorMainScript="ACT_ProduceLifeStealAttack"
+				ActivatorSecondaryScript="ACT_ApplyLifeStealingAttack"
+				FIntParam="4.0"
+				DamagePool="Undead"/>
+	</SKILL-LIFE_STEALING_4_ADDON2>
+	<SKILL-LIFE_STEALING_5_ADDON2 Domain="Death">
+		<DescriptionInfo Name="DES_LIFE_STEALING_ADDON2" Description="DES_LIFE_STEALING_ADDON2_DES" Graphic="SkillLifeStealing" Param="5"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2"
+				ActivatorMainScript="ACT_ProduceLifeStealAttack"
+				ActivatorSecondaryScript="ACT_ApplyLifeStealingAttack"
+				FIntParam="5.0"
+				DamagePool="Undead"/>
+	</SKILL-LIFE_STEALING_5_ADDON2>-->
+	<SKILL-IMMOLATION_4_ADDON2 Domain="Chaos">
+		<DescriptionInfo Name="DES_IMMOLATION_ADDON2" Description="DES_IMMOLATION_ADDON2_DES" Graphic="SkillImmolation" Param="4"/>
+		<Script TriggerType="BattleAttackAddon" Priority="0" 
+				TriggerScript="TRI_AddonAttackEveryAttack"
+				ActivatorMainScript="ACT_ProduceImmolationAttack"
+				ActivatorSecondaryScript="ACT_ApplyImmolationAttack"
+				FIntParam="4.0"/>
+	</SKILL-IMMOLATION_4_ADDON2>
+	<SKILL-IMMOLATION_5_ADDON2 Domain="Chaos">
+		<DescriptionInfo Name="DES_IMMOLATION_ADDON2" Description="DES_IMMOLATION_ADDON2_DES" Graphic="SkillImmolation" Param="5"/>
+		<Script TriggerType="BattleAttackAddon" Priority="0" 
+				TriggerScript="TRI_AddonAttack"
+				ActivatorMainScript="ACT_ProduceImmolationAttack"
+				ActivatorSecondaryScript="ACT_ApplyImmolationAttack"
+				FIntParam="5.0"/>
+	</SKILL-IMMOLATION_5_ADDON2>
+	<!-- Skill copy for enchantment use-->
+	<SKILL-ENCH_IMMOLATION_4_ADDON2 HideSkill="TRUE" Domain="Chaos">
+		<DescriptionInfo Name="DES_IMMOLATION_ADDON2" Description="DES_IMMOLATION_ADDON2_DES" Graphic="SkillImmolation" Param="4"/>
+		<Script TriggerType="BattleAttackAddon" Priority="0" 
+				TriggerScript="TRI_AddonAttackEveryAttack"
+				ActivatorMainScript="ACT_ProduceImmolationAttack"
+				ActivatorSecondaryScript="ACT_ApplyImmolationAttack"
+				FIntParam="4.0"/>
+	</SKILL-ENCH_IMMOLATION_4_ADDON2>
+	<SKILL-PLANE_SHIFT NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SKILL_PLANE_SHIFT" Description="DES_SKILL_PLANE_SHIFT_DES" Graphic="SkillPlaneShift"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-PLANE_SHIFTER" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-PLANE_SHIFTER" FIntParam="1.0"/>			
+	</SKILL-PLANE_SHIFT>
+	<SKILL-TO_HIT_10>
+		<DescriptionInfo Name="DES_TO_HIT" Description="DES_TO_HIT_DES" Graphic="SkillToHit10" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHit" 
+				FIntParam="0.1"/>	
+	</SKILL-TO_HIT_10>
+	<SKILL-TO_HIT_20>
+		<DescriptionInfo Name="DES_TO_HIT" Description="DES_TO_HIT_DES" Graphic="SkillToHit20" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHit" 
+				FIntParam="0.2"/>	
+	</SKILL-TO_HIT_20>
+	<SKILL-TO_HIT_30>
+		<DescriptionInfo Name="DES_TO_HIT" Description="DES_TO_HIT_DES" Graphic="SkillToHit30" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHit" 
+				FIntParam="0.3"/>	
+	</SKILL-TO_HIT_30>
+	<SKILL-LUCKY>
+		<DescriptionInfo Name="DES_LUCKY" Description="DES_LUCKY_DES" Graphic="SkillLucky"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_LuckUnit"/>
+	</SKILL-LUCKY>
+	<SKILL-ARMOR_PIERCING>
+		<DescriptionInfo Name="DES_ARMOR_PIERCING" Description="DES_ARMOR_PIERCING_DES" Graphic="SkillArmorPiercing"/>
+		<Script TriggerType="BattleStackModifier" Priority="0" 
+		TriggerScript="TRI_BattleAttackEffect"
+		BattleAttackEffect="Piercing"/>
+	</SKILL-ARMOR_PIERCING>
+	<SKILL-ILLUSION Domain="Sorcery">
+		<DescriptionInfo Name="DES_ILLUSION" Description="DES_ILLUSION_DES" Graphic="SkillIllusion"/>
+		<Script TriggerType="BattleStackModifier" Priority="0" 
+		TriggerScript="TRI_BattleAttackEffect"
+		BattleAttackEffect="Illusion"/>
+	</SKILL-ILLUSION>
+	<SKILL-FIRST_STRIKE>
+		<DescriptionInfo Name="DES_FIRST_STRIKE" Description="DES_FIRST_STRIKE_DES" Graphic="SkillFirstStrike"/>
+		<Script TriggerType="BattleStackModifier" Priority="0" 
+		TriggerScript="TRI_BattleAttackEffect"
+		BattleAttackEffect="FirstStrike"/>
+	</SKILL-FIRST_STRIKE>
+	<SKILL-NEGATIVE_FIRST_STRIKE>
+		<DescriptionInfo Name="DES_NEGATIVE_FIRST_STRIKE" Description="DES_NEGATIVE_FIRST_STRIKE_DES" Graphic="SkillNegateFirstStrike"/>
+		<Script TriggerType="BattleStackModifier" Priority="0" 
+		TriggerScript="TRI_BattleAttackEffect"
+		BattleAttackEffect="AntiFirstStrike"/>
+	</SKILL-NEGATIVE_FIRST_STRIKE>
+	
+	<SKILL-COLD_IMMUNITY>
+		<DescriptionInfo Name="DES_COLD_IMMUNITY" Description="DES_COLD_IMMUNITY_DES" Graphic="SkillColdImmunity"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-COLD_IMMUNITY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-COLD_IMMUNITY" FIntParam="1.0"/>
+	</SKILL-COLD_IMMUNITY>
+	<SKILL-DEATH_IMMUNITY>
+		<DescriptionInfo Name="DES_DEATH_IMMUNITY" Description="DES_DEATH_IMMUNITY_DES" Graphic="SkillDeathImmunity"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-DEATH_IMMUNITY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-DEATH_IMMUNITY" FIntParam="1.0"/>	
+	</SKILL-DEATH_IMMUNITY>
+	<SKILL-FIRE_IMMUNITY>
+		<DescriptionInfo Name="DES_FIRE_IMMUNITY" Description="DES_FIRE_IMMUNITY_DES" Graphic="SkillFireImmunity"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-FIRE_IMMUNITY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-FIRE_IMMUNITY" FIntParam="1.0"/>
+	</SKILL-FIRE_IMMUNITY>
+	<SKILL-ILLUSIONS_IMMUNITY>
+		<DescriptionInfo Name="DES_ILLUSIONS_IMMUNITY" Description="DES_ILLUSIONS_IMMUNITY_DES" Graphic="SkillIllusionsImmunity"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-ILLUSIONS_IMMUNITY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-ILLUSIONS_IMMUNITY" FIntParam="1.0"/>
+	</SKILL-ILLUSIONS_IMMUNITY>
+	<SKILL-MAGIC_IMMUNITY>
+		<DescriptionInfo Name="DES_SKILL_MAGIC_IMMUNITY" Description="DES_SKILL_MAGIC_IMMUNITY_DES" Graphic="SkillMagicImmunity"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MAGIC_IMMUNITY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MAGIC_IMMUNITY" FIntParam="1.0"/>
+	</SKILL-MAGIC_IMMUNITY>
+	<SKILL-MISSILE_IMMUNITY>
+		<DescriptionInfo Name="DES_MISSILE_IMMUNITY" Description="DES_MISSILE_IMMUNITY_DES" Graphic="SkillMissileImmunity"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MISSILE_IMMUNITY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MISSILE_IMMUNITY" FIntParam="1.0"/>
+	</SKILL-MISSILE_IMMUNITY>
+	<SKILL-POISON_IMMUNITY>
+		<DescriptionInfo Name="DES_POISON_IMMUNITY" Description="DES_POISON_IMMUNITY_DES" Graphic="SkillPoisonImmunity"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-POISON_IMMUNITY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-POISON_IMMUNITY" FIntParam="1.0"/>
+	</SKILL-POISON_IMMUNITY>
+	<SKILL-STONING_IMMUNITY>
+		<DescriptionInfo Name="DES_STONING_IMMUNITY" Description="DES_STONING_IMMUNITY_DES" Graphic="SkillStoningImmunity"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-STONING_IMMUNITY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-STONING_IMMUNITY" FIntParam="1.0"/>
+	</SKILL-STONING_IMMUNITY>
+	<SKILL-WEAPON_IMMUNITY>
+		<DescriptionInfo Name="DES_WEAPON_IMMUNITY" Description="DES_WEAPON_IMMUNITY_DES" Graphic="SkillWeaponImmunity"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-WEAPON_IMMUNITY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-WEAPON_IMMUNITY" FIntParam="1.0"/>
+	</SKILL-WEAPON_IMMUNITY>
+	<SKILL-LARGE_SHIELD>
+		<DescriptionInfo Name="DES_LARGE_SHIELD" Description="DES_LARGE_SHIELD_DES" Graphic="SkillLargeShield"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-LARGE_SHIELD" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-LARGE_SHIELD" FIntParam="1.0"/>
+	</SKILL-LARGE_SHIELD>
+	<SKILL-CAUSE_FEAR Domain="Death">
+		<DescriptionInfo Name="DES_CAUSE_FEAR" Description="DES_CAUSE_FEAR_DES" Graphic="SkillCauseFear"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-CAUSE_FEAR" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-CAUSE_FEAR" FIntParam="1.0"/>
+	</SKILL-CAUSE_FEAR>
+	<SKILL-HOLY_BONUS_GROUP_1 Domain="Life" 
+				OnJoinWithUnit="SJOIN_HolyBonus"
+				OnLeaveFromUnit="SLEAVE_HolyBonus">
+		<DescriptionInfo Name="DES_HOLY_BONUS" Description="DES_HOLY_BONUS_DES" Graphic="SkillHolyBonus" Param="+1"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-HOLY_BONUS_UNIT_1"/>
+	</SKILL-HOLY_BONUS_GROUP_1>
+	<SKILL-HOLY_BONUS_GROUP_2 Domain="Life" 
+				OnJoinWithUnit="SJOIN_HolyBonus"
+				OnLeaveFromUnit="SLEAVE_HolyBonus">
+		<DescriptionInfo Name="DES_HOLY_BONUS" Description="DES_HOLY_BONUS_DES" Graphic="SkillHolyBonus" Param="+2"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-HOLY_BONUS_UNIT_2"/>
+	</SKILL-HOLY_BONUS_GROUP_2>
+	<SKILL-RESIST_TO_ALL_GROUP_1 Domain="Life" 
+				OnJoinWithUnit="SJOIN_ResistToAllBonus"
+				OnLeaveFromUnit="SLEAVE_ResistToAllBonus">
+		<DescriptionInfo Name="DES_RESIST_TO_ALL_1" Description="DES_RESIST_TO_ALL_DES" Graphic="SkillResistToAll" Param="+1"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-RESIST_TO_ALL_UNIT_1"/>	
+	</SKILL-RESIST_TO_ALL_GROUP_1>
+	<SKILL-RESIST_TO_ALL_GROUP_2 Domain="Life" 
+				OnJoinWithUnit="SJOIN_ResistToAllBonus"
+				OnLeaveFromUnit="SLEAVE_ResistToAllBonus">
+		<DescriptionInfo Name="DES_RESIST_TO_ALL_2" Description="DES_RESIST_TO_ALL_DES" Graphic="SkillResistToAll" Param="+2"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-RESIST_TO_ALL_UNIT_2"/>	
+	</SKILL-RESIST_TO_ALL_GROUP_2>
+	<SKILL-REGENERATION Domain="Nature">
+		<DescriptionInfo Name="DES_REGENERATION" Description="DES_REGENERATION_DES" Graphic="SpellRegeneration"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-REGENERATION" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-REGENERATION" FIntParam="1.0"/>
+	</SKILL-REGENERATION>
+	<SKILL-LONG_RANGE>
+		<DescriptionInfo Name="DES_LONG_RANGE" Description="DES_LONG_RANGE_DES" Graphic="SkillLongRange"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-LONG_RANGE" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-LONG_RANGE" FIntParam="1.0"/>
+	</SKILL-LONG_RANGE>
+	<SKILL-WALL_CRUSHER>
+		<DescriptionInfo Name="DES_WALL_CRUSHER" Description="DES_WALL_CRUSHER_DES" Graphic="SkillWallCrusher"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-WALL_CRUSHER" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-WALL_CRUSHER" FIntParam="1.0"/>
+	</SKILL-WALL_CRUSHER>
+	<SKILL-SETTLER NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SKILL_SETTLER" Description="DES_SKILL_SETTLER_DES" Graphic="SkillSettler"/>
+		<!-- That skill is fake. Unit need to have tag already and skill is only for player information-->
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-SETTLER_UNIT" FIntParam="0.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-SETTLER_UNIT" FIntParam="0.0"/>
+	</SKILL-SETTLER>
+	<SKILL-ENGINEER NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SKILL_ENGINEER" Description="DES_SKILL_ENGINEER_DES" Graphic="SkillEngineer"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-ENGINEER_UNIT" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-ENGINEER_UNIT" FIntParam="1.0"/>
+	</SKILL-ENGINEER>
+	<SKILL-MELD NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SKILL_MELD" Description="DES_SKILL_MELD_DES" Graphic="SkillMeld"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MELDER_UNIT" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MELDER_UNIT" FIntParam="1.0"/>
+	</SKILL-MELD>
+	<SKILL-MELD_ADVANCED NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SKILL_MELD_ADVANCED" Description="DES_SKILL_MELD_ADVANCED_DES" Graphic="SkillMeld"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MELDER_UNIT" FIntParam="2.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MELDER_UNIT" FIntParam="2.0"/>
+	</SKILL-MELD_ADVANCED>
+	<SKILL-PURIFY NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SKILL_PURIFY" Description="DES_SKILL_PURIFY_DES" Graphic="SkillPurify"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-PURIFER_UNIT" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-PURIFER_UNIT" FIntParam="1.0"/>
+	</SKILL-PURIFY>
+	
+	<SKILL-ARCANE_POWER>
+		<DescriptionInfo Name="DES_ARCANE_POWER" Description="DES_ARCANE_POWER_DES" Graphic="SkillArcanePower"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ArcanePower"/>	
+		<VersionSuper VALUE="SKILL-ARCANE_POWER_SUPER"/>
+	</SKILL-ARCANE_POWER>
+	<SKILL-ARCANE_POWER_SUPER>
+		<DescriptionInfo Name="DES_ARCANE_POWER_SUPER" Description="DES_ARCANE_POWER_DES" Graphic="SkillArcanePowerSuper"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ArcanePowerSuper"/>	
+	</SKILL-ARCANE_POWER_SUPER>
+	<SKILL-AGILITY>
+		<DescriptionInfo Name="DES_AGILITY" Description="DES_AGILITY_DES" Graphic="SkillAgility"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_Agility"/>	
+		<VersionSuper VALUE="SKILL-AGILITY_SUPER"/>
+	</SKILL-AGILITY>
+	<SKILL-AGILITY_SUPER>
+		<DescriptionInfo Name="DES_AGILITY_SUPER" Description="DES_AGILITY_DES" Graphic="SkillAgilitySuper"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AgilitySuper"/>	
+	</SKILL-AGILITY_SUPER>
+	<SKILL-NOBLE NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_NOBLE" Description="DES_NOBLE_DES" Graphic="SkillNoble"/>
+		<Script TriggerType="IncomeChange" Priority="0" 
+				ActivatorMainScript="ACT_Noble"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_Noble"/>
+	</SKILL-NOBLE>
+	<SKILL-BLADEMASTER>
+		<DescriptionInfo Name="DES_BLADEMASTER" Description="DES_BLADEMASTER_DES" Graphic="SkillBlademaster"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_Blademaster"/>
+		<VersionSuper VALUE="SKILL-BLADEMASTER_SUPER"/>
+	</SKILL-BLADEMASTER>
+	<SKILL-BLADEMASTER_SUPER>
+		<DescriptionInfo Name="DES_BLADEMASTER_SUPER" Description="DES_BLADEMASTER_DES" Graphic="SkillBlademasterSuper"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_BlademasterSuper"/>
+	</SKILL-BLADEMASTER_SUPER>
+	<SKILL-CONSTITUTION>
+		<DescriptionInfo Name="DES_CONSTITUTION" Description="DES_CONSTITUTION_DES" Graphic="SkillConstitution"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_Constitution"/>
+		<VersionSuper VALUE="SKILL-CONSTITUTION_SUPER"/>
+	</SKILL-CONSTITUTION>
+	<SKILL-CONSTITUTION_SUPER>
+		<DescriptionInfo Name="DES_CONSTITUTION_SUPER" Description="DES_CONSTITUTION_DES" Graphic="SkillConstitutionSuper"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ConstitutionSuper"/>
+	</SKILL-CONSTITUTION_SUPER>
+	<SKILL-MIGHT>
+		<DescriptionInfo Name="DES_MIGHT" Description="DES_MIGHT_DES" Graphic="SkillMight"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_Might"/>
+		<VersionSuper VALUE="SKILL-MIGHT_SUPER"/>
+	</SKILL-MIGHT>
+	<SKILL-MIGHT_SUPER>
+		<DescriptionInfo Name="DES_MIGHT_SUPER" Description="DES_MIGHT_DES" Graphic="SkillMightSuper"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_MightSuper"/>
+	</SKILL-MIGHT_SUPER>
+	<SKILL-LEGENDARY NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_LEGENDARY" Description="DES_LEGENDARY_DES" Graphic="SkillLegendary"/>
+		<Script TriggerType="FameChange" Priority="0" 
+				ActivatorMainScript="ACT_Fame"/>
+		<VersionSuper VALUE="SKILL-LEGENDARY_SUPER"/>
+	</SKILL-LEGENDARY>
+	<SKILL-LEGENDARY_SUPER NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_LEGENDARY_SUPER" Description="DES_LEGENDARY_DES" Graphic="SkillLegendarySuper"/>
+		<Script TriggerType="FameChange" Priority="0" 
+				ActivatorMainScript="ACT_FameSuper"/>
+	</SKILL-LEGENDARY_SUPER>
+	<SKILL-PRAYMASTER_GROUP
+				OnJoinWithUnit="SJOIN_Praymaster"
+				OnLeaveFromUnit="SLEAVE_Praymaster">
+		<DescriptionInfo Name="DES_PRAYMASTER" Description="DES_PRAYMASTER_DES" Graphic="SkillPraymaster"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-PRAYMASTER_UNIT"/>
+		<VersionSuper VALUE="SKILL-PRAYMASTER_GROUP_SUPER"/>
+	</SKILL-PRAYMASTER_GROUP>
+	<SKILL-PRAYMASTER_GROUP_SUPER
+				OnJoinWithUnit="SJOIN_Praymaster"
+				OnLeaveFromUnit="SLEAVE_Praymaster">
+		<DescriptionInfo Name="DES_PRAYMASTER_SUPER" Description="DES_PRAYMASTER_DES" Graphic="SkillPraymaster"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-PRAYMASTER_UNIT"/>
+	</SKILL-PRAYMASTER_GROUP_SUPER>
+	<SKILL-LEADERSHIP_GROUP
+				OnJoinWithUnit="SJOIN_Leadership"
+				OnLeaveFromUnit="SLEAVE_Leadership">
+		<DescriptionInfo Name="DES_LEADERSHIP" Description="DES_LEADERSHIP_DES" Graphic="SkillLeadership"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-LEADERSHIP_UNIT"/>
+		<VersionSuper VALUE="SKILL-LEADERSHIP_GROUP_SUPER"/>
+	</SKILL-LEADERSHIP_GROUP>
+	<SKILL-LEADERSHIP_GROUP_SUPER
+				OnJoinWithUnit="SJOIN_Leadership"
+				OnLeaveFromUnit="SLEAVE_Leadership">
+		<DescriptionInfo Name="DES_LEADERSHIP_SUPER" Description="DES_LEADERSHIP_DES" Graphic="SkillLeadershipSuper"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-LEADERSHIP_UNIT"/>
+	</SKILL-LEADERSHIP_GROUP_SUPER>
+	<SKILL-ARMSMASTER_GROUP
+				OnJoinWithUnit="SJOIN_Armsmaster"
+				OnLeaveFromUnit="SLEAVE_Armsmaster" 
+				NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_ARMSMASTER" Description="DES_ARMSMASTER_DES" Graphic="SkillArmsmaster" Param="+2"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-ARMSMASTER_UNIT"/>
+		<VersionSuper VALUE="SKILL-ARMSMASTER_GROUP_SUPER"/>
+	</SKILL-ARMSMASTER_GROUP>
+	<SKILL-ARMSMASTER_GROUP_SUPER
+				OnJoinWithUnit="SJOIN_Armsmaster"
+				OnLeaveFromUnit="SLEAVE_Armsmaster"
+				NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_ARMSMASTER_SUPER" Description="DES_ARMSMASTER_DES" Graphic="SkillArmsmasterSuper"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-ARMSMASTER_UNIT"/>
+	</SKILL-ARMSMASTER_GROUP_SUPER>
+	<SKILL-HEALER>
+		<DescriptionInfo Name="DES_HEALER" Description="DES_HEALER_DES" Graphic="SkillHealer"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-HEALER" FIntParam="2.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-HEALER" FIntParam="2.0"/>
+	</SKILL-HEALER>
+	<SKILL-SCOUTING NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SCOUTING" Description="DES_SCOUTING_DES" Graphic="SkillScouting" Param="+1"/>
+		<DescriptionScript VALUE="DSCR_Scouting"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_Scouting"
+				FIntParam="0"/>
+	</SKILL-SCOUTING>
+	<SKILL-SCOUTING_2 NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SCOUTING" Description="DES_SCOUTING_DES" Graphic="SkillScouting" Param="+2"/>
+		<DescriptionScript VALUE="DSCR_Scouting"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_Scouting"
+				FIntParam="0"/>
+	</SKILL-SCOUTING_2>
+	<SKILL-CHARMED>
+		<DescriptionInfo Name="DES_CHARMED" Description="DES_CHARMED_DES" Graphic="SkillCharmed"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-RESIST" FIntParam="30.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-RESIST" FIntParam="30.0"/>
+	</SKILL-CHARMED>
+	<SKILL-SAGE NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SAGE" Description="DES_SAGE_DES" Graphic="SkillSage"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_Sage"/>
+		<VersionSuper VALUE="SKILL-SAGE_SUPER"/>
+	</SKILL-SAGE>
+	<SKILL-SAGE_SUPER NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SAGE_SUPER" Description="DES_SAGE_DES" Graphic="SkillSage"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_SageSuper"/>
+	</SKILL-SAGE_SUPER>
+	<SKILL-BLACK_CHANNELS Domain="Death">
+		<DescriptionInfo Name="DES_BLACK_CHANNELS" Description="DES_BLACK_CHANNELS_DES" Graphic="SkillBlackChannels"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_BlackChannels"/>
+	</SKILL-BLACK_CHANNELS>
+	<SKILL-CHAOS_CHANNELS1 Domain="Chaos">
+		<DescriptionInfo Name="DES_CHAOS_CHANNELS" Description="DES_CHAOS_CHANNELS1_DES" Graphic="SkillChaosChannels"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ChaosChannels1"/>
+	</SKILL-CHAOS_CHANNELS1>
+	<SKILL-CHAOS_CHANNELS2 Domain="Chaos">
+		<DescriptionInfo Name="DES_CHAOS_CHANNELS" Description="DES_CHAOS_CHANNELS2_DES" Graphic="SkillChaosChannels"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ChaosChannels2"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_UnitUpdateMove"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_UnitUpdateMove"/>
+	</SKILL-CHAOS_CHANNELS2>
+	<SKILL-CHAOS_CHANNELS3 Domain="Chaos">
+		<DescriptionInfo Name="DES_CHAOS_CHANNELS" Description="DES_CHAOS_CHANNELS3_DES" Graphic="SkillChaosChannels"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ChaosChannels3"/>
+	</SKILL-CHAOS_CHANNELS3>
+	<SKILL-MOUNTAINEER NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_MOUNTAINEER" Description="DES_MOUNTAINEER_DES" Graphic="SkillMountaneer"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MOUNTAINEER" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MOUNTAINEER" FIntParam="1.0"/>
+	</SKILL-MOUNTAINEER>
+	<SKILL-FORESTER NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_FORESTER" Description="DES_FORESTER_DES" Graphic="SkillForester"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-FORESTER" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-FORESTER" FIntParam="1.0"/>
+	</SKILL-FORESTER>
+	<SKILL-EARTH_WALKER Dlc="Dlc1" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_EARTH_WALKER" Description="DES_EARTH_WALKER_DES" Graphic="SkillEarthWalker"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-EARTH_WALKER" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-EARTH_WALKER" FIntParam="1.0"/>
+	</SKILL-EARTH_WALKER>
+	<SKILL-NON_CORPOREAL>
+		<DescriptionInfo Name="DES_NON_CORPOREAL" Description="DES_NON_CORPOREAL_DES" Graphic="SkillNonCorporeal"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_NonCorporeal" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_NonCorporeal"  FIntParam="1.0"/>
+	</SKILL-NON_CORPOREAL>
+	<SKILL-WIND_WALKING NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_WIND_WALKING" Description="DES_SKILL_WIND_WALKING_DES" Graphic="SkillWindWalking"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddEnchantment" StringData="ENCH-WIND_WALKING_OWNER_SKILL"/>
+	</SKILL-WIND_WALKING>
+	<SKILL-PATHFINDING NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_PATHFINDING" Description="DES_PATHFINDING_DES" Graphic="SkillPathfinding"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-PATHFINDING" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-PATHFINDING" FIntParam="1.0"/>
+	</SKILL-PATHFINDING>
+	<SKILL-TRANSPORTER NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TRANSPORTER" Description="DES_TRANSPORTER_DES" Graphic="SkillTransporter"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-TRANSPORTER" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-TRANSPORTER" FIntParam="1.0"/>
+	</SKILL-TRANSPORTER>
+	<SKILL-TELEPORTING>
+		<DescriptionInfo Name="DES_TELEPORTING" Description="DES_TELEPORTING_DES" Graphic="SkillTeleporting"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-TELEPORTING" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-TELEPORTING" FIntParam="1.0"/>
+	</SKILL-TELEPORTING>
+	<SKILL-MERGING>
+		<DescriptionInfo Name="DES_MERGING" Description="DES_MERGING_DES" Graphic="SkillMerging"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-TELEPORTING" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-TELEPORTING" FIntParam="1.0"/>
+	</SKILL-MERGING>
+	<SKILL-WEB_SPELL Domain="Nature">
+		<DescriptionInfo Name="DES_WEB" Description="DES_WEB_DES" Graphic="SpellWeb"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-WEB"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-WEB"/>
+	</SKILL-WEB_SPELL>
+	<SKILL-FIREBALL_SPELL Domain="Chaos">
+		<DescriptionInfo Name="DES_FIREBALL" Description="DES_FIREBALL_DES" Graphic="SpellFireball"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-FIREBALL"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-FIREBALL"/>
+	</SKILL-FIREBALL_SPELL>
+	<SKILL-DOOM_BOLT_SPELL Domain="Chaos">
+		<DescriptionInfo Name="DES_DOOM_BOLT" Description="DES_DOOM_BOLT_DES" Graphic="SpellDoomBolt"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-DOOM_BOLT"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-DOOM_BOLT"/>
+	</SKILL-DOOM_BOLT_SPELL>
+	<SKILL-HEALING_SPELL>
+		<DescriptionInfo Name="DES_HEALING" Description="DES_HEALING_DES" Graphic="SpellHealing"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-HEALING"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-HEALING"/>
+	</SKILL-HEALING_SPELL>
+	<SKILL-SUMMON_DEMONS Domain="Death">
+		<DescriptionInfo Name="DES_SUMMON_DEMONS" Description="DES_SUMMON_DEMONS_DES" Graphic="SpellSummonDemons"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-SUMMON_DEMONS"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-SUMMON_DEMONS"/>
+	</SKILL-SUMMON_DEMONS>
+	<SKILL-ENCHANTED_WEAPON1>
+		<DescriptionInfo Name="DES_ENCHANTED1_WEAPON" Description="DES_ENCHANTED1_WEAPON_DES" Graphic="SkillEnchantedWeapon1"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_EnchantedWeapon"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_EnchantedWeapon"/>
+	</SKILL-ENCHANTED_WEAPON1>
+	<SKILL-ENCHANTED_WEAPON2>
+		<DescriptionInfo Name="DES_ENCHANTED2_WEAPON" Description="DES_ENCHANTED2_WEAPON_DES" Graphic="SkillEnchantedWeapon2"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_EnchantedWeapon"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_EnchantedWeapon2"/>
+	</SKILL-ENCHANTED_WEAPON2>
+	<SKILL-ENCHANTED_WEAPON3>
+		<DescriptionInfo Name="DES_MITHRIL_WEAPON" Description="DES_MITHRIL_WEAPON_DES" Graphic="SkillEnchantedWeapon3"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_EnchantedWeapon"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_MithrilWeapon"/>
+	</SKILL-ENCHANTED_WEAPON3>
+	<SKILL-ENCHANTED_WEAPON4>
+		<DescriptionInfo Name="DES_ADAMANTINE_WEAPON" Description="DES_ADAMANTINE_WEAPON_DES" Graphic="SkillEnchantedWeapon4"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_EnchantedWeapon"/>
+		<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AdamantineWeapon"/>
+	</SKILL-ENCHANTED_WEAPON4>
+	<SKILL-CASTER_5>
+		<DescriptionInfo Name="DES_CASTER" Description="DES_CASTER_DES" Graphic="SkillCaster"/>
+		<DescriptionScript VALUE="DSCR_Caster"/>
+		<SkillApplicationScript TriggerType="Caster" Priority="0" ActivatorMainScript="SAPP_Empty" FIntParam="2.5"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" StringData="TAG-MANA_POINTS" FIntParam="5.0"/>
+		<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_Caster" 
+				StringData="TAG-MANA_POINTS"/>
+	</SKILL-CASTER_5>
+	<SKILL-CASTER_7_5>
+		<DescriptionInfo Name="DES_CASTER" Description="DES_CASTER_DES" Graphic="SkillCaster"/>
+		<DescriptionScript VALUE="DSCR_Caster"/>
+		<SkillApplicationScript TriggerType="Caster" Priority="0" ActivatorMainScript="SAPP_Empty"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" StringData="TAG-MANA_POINTS" FIntParam="7.5"/>
+		<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_Caster" 
+				StringData="TAG-MANA_POINTS"/>
+	</SKILL-CASTER_7_5>
+	<SKILL-CASTER_10>
+		<DescriptionInfo Name="DES_CASTER" Description="DES_CASTER_DES" Graphic="SkillCaster" />
+		<DescriptionScript VALUE="DSCR_Caster"/>
+		<SkillApplicationScript TriggerType="Caster" Priority="0" ActivatorMainScript="SAPP_Empty"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" StringData="TAG-MANA_POINTS" FIntParam="10.0"/>
+		<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_Caster" 
+				StringData="TAG-MANA_POINTS"/>
+	</SKILL-CASTER_10>
+	<SKILL-CASTER_12_5>
+		<DescriptionInfo Name="DES_CASTER" Description="DES_CASTER_DES" Graphic="SkillCaster" />
+		<DescriptionScript VALUE="DSCR_Caster"/>
+		<SkillApplicationScript TriggerType="Caster" Priority="0" ActivatorMainScript="SAPP_Empty"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" StringData="TAG-MANA_POINTS" FIntParam="12.5"/>
+		<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_Caster" 
+				StringData="TAG-MANA_POINTS"/>
+	</SKILL-CASTER_12_5>
+	<SKILL-CASTER_15>
+		<DescriptionInfo Name="DES_CASTER" Description="DES_CASTER_DES" Graphic="SkillCaster" />
+		<DescriptionScript VALUE="DSCR_Caster"/>
+		<SkillApplicationScript TriggerType="Caster" Priority="0" ActivatorMainScript="SAPP_Empty"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" StringData="TAG-MANA_POINTS" FIntParam="15.0"/>
+		<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_Caster" 
+				StringData="TAG-MANA_POINTS"/>
+	</SKILL-CASTER_15>
+	<SKILL-CASTER_20>
+		<DescriptionInfo Name="DES_CASTER" Description="DES_CASTER_DES" Graphic="SkillCaster" />
+		<DescriptionScript VALUE="DSCR_Caster"/>
+		<SkillApplicationScript TriggerType="Caster" Priority="0" ActivatorMainScript="SAPP_Empty"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" StringData="TAG-MANA_POINTS" FIntParam="20.0"/>
+		<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_Caster" 
+				StringData="TAG-MANA_POINTS"/>
+	</SKILL-CASTER_20>
+	<SKILL-CASTER_40>
+		<DescriptionInfo Name="DES_CASTER" Description="DES_CASTER_DES" Graphic="SkillCaster" />
+		<DescriptionScript VALUE="DSCR_Caster"/>
+		<SkillApplicationScript TriggerType="Caster" Priority="0" ActivatorMainScript="SAPP_Empty"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" StringData="TAG-MANA_POINTS" FIntParam="40.0"/>
+		<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_Caster" 
+				StringData="TAG-MANA_POINTS"/>
+	</SKILL-CASTER_40>
+	<SKILL-REANIMATED_SETTLER>
+		<DescriptionInfo Name="DES_REANIMATED_SETTLER" Description="DES_REANIMATED_SETTLER_DES" Graphic="SkillReanimatedSettler"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-SETTLER_UNIT" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-SETTLER_UNIT" FIntParam="1.0"/>
+	</SKILL-REANIMATED_SETTLER>
+	<SKILL-UNIT_LEVEL NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_UNIT_LEVEL" Description="DES_UNIT_LEVEL_DES" Graphic="SkillXP"/>
+		<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_UnitLevelUp"/>
+	</SKILL-UNIT_LEVEL>
+	<SKILL-HERO_LEVEL NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_HERO_LEVEL" Description="DES_HERO_LEVEL_DES" Graphic="SkillXP"/>
+		<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_HeroLevelUp"/>
+	</SKILL-HERO_LEVEL>
+	<SKILL-INVISIBILITY>
+		<DescriptionInfo Name="DES_INVISIBILITY" Description="DES_INVISIBILITY_DES" Graphic="SpellInvisibility"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_Invisibility" StringData="ENCH-INVISIBILITY_SKILL"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveInvisibility" StringData="ENCH-INVISIBILITY_SKILL"/>
+	</SKILL-INVISIBILITY>
+	<SKILL-FLIGHT>
+		<DescriptionInfo Name="DES_FLIGHT" Description="DES_FLIGHT_SKILL_DES" Graphic="SkillFlight"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-CAN_FLY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-CAN_FLY" FIntParam="1.0"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-SIGHT_RANGE_BONUS" FIntParam="1.0"/>
+	</SKILL-FLIGHT>
+	<SKILL-BLEEDING_2_OWNER Dlc="Dlc1">
+		<DescriptionInfo Name="DES_BLEEDING_2_OWNER" Description="DES_BLEEDING_2_OWNER_DES" Graphic="SkillBleeding"/>
+		<Script TriggerType="BattleAttackAddon" Priority="0" 
+				TriggerScript="TRI_AddonAttack"
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyBleeding"
+				FIntParam="2.0"
+				StringData="SKILL-BLEEDING_UNIT"/>
+	</SKILL-BLEEDING_2_OWNER>
+	<SKILL-BLEEDING_UNIT Dlc="Dlc1">
+		<DescriptionInfo Name="DES_BLEEDING_UNIT" Description="DES_BLEEDING_UNIT_DES" Graphic="SkillBleedingUnit"/>
+		<DescriptionScript VALUE="DSCR_Bleeding"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" StringData="TAG-BLEEDING" FIntParam="0.0"/>
+	</SKILL-BLEEDING_UNIT>
+	<SKILL-FOODIE Dlc="Dlc1" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_FOODIE" Description="DES_FOODIE_DES" Graphic="SkillFoodie"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_Foodie"/>
+	</SKILL-FOODIE>
+	<!--<SKILL-PEASANT Dlc="Dlc1" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_PEASANT" Description="DES_PEASANT_DES" Graphic="SkillPeasant"/>
+		<Script TriggerType="FoodChange" Priority="0" 
+				ActivatorMainScript="ACT_Peasant"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_Peasant"/>
+	</SKILL-PEASANT>-->
+	<SKILL-SUMMON_BOAR Dlc="Dlc1">
+		<DescriptionInfo Name="DES_SUMMON_BOAR" Description="DES_SUMMON_BOAR_DES" Graphic="SpellBoar"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-SUMMON_BOAR"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddManaIfNoCaster"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-SUMMON_BOAR"/>
+	</SKILL-SUMMON_BOAR>
+	<SKILL-SUMMON_FAT_RAT Dlc="Dlc1">
+		<DescriptionInfo Name="DES_SUMMON_FAT_RAT" Description="DES_SUMMON_FAT_RAT_DES" Graphic="SpellFatRat"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-SUMMON_FAT_RAT"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddManaIfNoCaster"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-SUMMON_FAT_RAT"/>
+	</SKILL-SUMMON_FAT_RAT>
+	<SKILL-CURSED Dlc="Dlc1">
+		<DescriptionInfo Name="DES_CURSED" Description="DES_CURSED_DES" Graphic="SkillCursed"/>
+		<Script TriggerType="BattleTurnStartEffect" Priority="0"
+				ActivatorMainScript="SKTurnTri_Cursed" StringData="ENCH-CURSED_UNIT" FIntParam="1.0"/>
+	</SKILL-CURSED>
+	<SKILL-SUMMON_WAR_BEARS Dlc="Dlc1">
+		<DescriptionInfo Name="DES_SUMMON_WAR_BEARS" Description="DES_SUMMON_WAR_BEARS_DES" Graphic="SpellWarBears"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-SUMMON_NTR_WAR_BEARS"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-SUMMON_NTR_WAR_BEARS"/>
+	</SKILL-SUMMON_WAR_BEARS>
+	<SKILL-STUN Dlc="Dlc1">
+		<DescriptionInfo Name="DES_STUN" Description="DES_STUN_DES" Graphic="SkillStun"/>
+		<Script TriggerType="BattleAttackAddon" Priority="0" 
+				TriggerScript="TRI_AddonAttack"
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyStun"
+				StringData="ENCH-STUN"/>
+	</SKILL-STUN>
+	<SKILL-LIGHTNING_WEAKNESS Dlc="Dlc2">
+		<DescriptionInfo Name="DES_LIGHTNING_WEAKNESS" Description="DES_LIGHTNING_WEAKNESS_DES" Graphic="SkillLightningWeakness"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-LIGHTNING_WEAKNESS" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-LIGHTNING_WEAKNESS" FIntParam="1.0"/>
+	</SKILL-LIGHTNING_WEAKNESS>
+	
+		
+	<SKILL-ITEM_MELEE_ATTACK_1>
+		<DescriptionInfo Name="DES_ITEM_MELEE_ATTACK" Description="DES_ITEM_MELEE_ATTACK_DES" Graphic="SkillMeleeAttack" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="1.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_ATTACK_1>
+	<SKILL-ITEM_MELEE_ATTACK_2>
+		<DescriptionInfo Name="DES_ITEM_MELEE_ATTACK" Description="DES_ITEM_MELEE_ATTACK_DES" Graphic="SkillMeleeAttack" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="2.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_ATTACK_2>
+	<SKILL-ITEM_MELEE_ATTACK_3>
+		<DescriptionInfo Name="DES_ITEM_MELEE_ATTACK" Description="DES_ITEM_MELEE_ATTACK_DES" Graphic="SkillMeleeAttack" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="3.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_ATTACK_3>
+	<SKILL-ITEM_MELEE_ATTACK_4>
+		<DescriptionInfo Name="DES_ITEM_MELEE_ATTACK" Description="DES_ITEM_MELEE_ATTACK_DES" Graphic="SkillMeleeAttack" Param="+4"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="4.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_ATTACK_4>
+	<SKILL-ITEM_MELEE_ATTACK_5>
+		<DescriptionInfo Name="DES_ITEM_MELEE_ATTACK" Description="DES_ITEM_MELEE_ATTACK_DES" Graphic="SkillMeleeAttack" Param="+5"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="5.0"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_ATTACK_5>
+	<SKILL-ITEM_MELEE_ATTACK_6>
+		<DescriptionInfo Name="DES_ITEM_MELEE_ATTACK" Description="DES_ITEM_MELEE_ATTACK_DES" Graphic="SkillMeleeAttack" Param="+6"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="6.0"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_ATTACK_6>
+	
+	<SKILL-ITEM_MELEE_ATTACK_1_AXE>
+		<DescriptionInfo Name="DES_ITEM_MELEE_ATTACK" Description="DES_ITEM_MELEE_ATTACK_AXE_DES" Graphic="SkillMeleeAttack" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="1.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-THROW_BONUS" FIntParam="1.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_ATTACK_1_AXE>
+	<SKILL-ITEM_MELEE_ATTACK_2_AXE>
+		<DescriptionInfo Name="DES_ITEM_MELEE_ATTACK" Description="DES_ITEM_MELEE_ATTACK_AXE_DES" Graphic="SkillMeleeAttack" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="2.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-THROW_BONUS" FIntParam="2.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_ATTACK_2_AXE>
+	<SKILL-ITEM_MELEE_ATTACK_3_AXE>
+		<DescriptionInfo Name="DES_ITEM_MELEE_ATTACK" Description="DES_ITEM_MELEE_ATTACK_AXE_DES" Graphic="SkillMeleeAttack" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="3.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-THROW_BONUS" FIntParam="3.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_ATTACK_3_AXE>
+	<SKILL-ITEM_MELEE_ATTACK_4_AXE>
+		<DescriptionInfo Name="DES_ITEM_MELEE_ATTACK" Description="DES_ITEM_MELEE_ATTACK_AXE_DES" Graphic="SkillMeleeAttack" Param="+4"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="4.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-THROW_BONUS" FIntParam="4.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_ATTACK_4_AXE>
+	<SKILL-ITEM_MELEE_ATTACK_5_AXE>
+		<DescriptionInfo Name="DES_ITEM_MELEE_ATTACK" Description="DES_ITEM_MELEE_ATTACK_AXE_DES" Graphic="SkillMeleeAttack" Param="+5"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="5.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-THROW_BONUS" FIntParam="5.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_ATTACK_5_AXE>
+	<SKILL-ITEM_MELEE_ATTACK_6_AXE>
+		<DescriptionInfo Name="DES_ITEM_MELEE_ATTACK" Description="DES_ITEM_MELEE_ATTACK_AXE_DES" Graphic="SkillMeleeAttack" Param="+6"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="6.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-THROW_BONUS" FIntParam="6.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_ATTACK_6_AXE>	
+	
+	<SKILL-ITEM_RANGE_ATTACK_1>
+		<DescriptionInfo Name="DES_ITEM_RANGE_ATTACK" Description="DES_ITEM_RANGE_ATTACK_DES" Graphic="SkillRangeAttack" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RANGE_ATTACK" FIntParam="1.0"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RANGE_ATTACK_1>
+	<SKILL-ITEM_RANGE_ATTACK_2>
+		<DescriptionInfo Name="DES_ITEM_RANGE_ATTACK" Description="DES_ITEM_RANGE_ATTACK_DES" Graphic="SkillRangeAttack" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RANGE_ATTACK" FIntParam="2.0"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RANGE_ATTACK_2>
+	<SKILL-ITEM_RANGE_ATTACK_3>
+		<DescriptionInfo Name="DES_ITEM_RANGE_ATTACK" Description="DES_ITEM_RANGE_ATTACK_DES" Graphic="SkillRangeAttack" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RANGE_ATTACK" FIntParam="3.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RANGE_ATTACK_3>
+	<SKILL-ITEM_RANGE_ATTACK_4>
+		<DescriptionInfo Name="DES_ITEM_RANGE_ATTACK" Description="DES_ITEM_RANGE_ATTACK_DES" Graphic="SkillRangeAttack" Param="+4"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RANGE_ATTACK" FIntParam="4.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RANGE_ATTACK_4>
+	<SKILL-ITEM_RANGE_ATTACK_5>
+		<DescriptionInfo Name="DES_ITEM_RANGE_ATTACK" Description="DES_ITEM_RANGE_ATTACK_DES" Graphic="SkillRangeAttack" Param="+5"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RANGE_ATTACK" FIntParam="5.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RANGE_ATTACK_5>
+	<SKILL-ITEM_RANGE_ATTACK_6>
+		<DescriptionInfo Name="DES_ITEM_RANGE_ATTACK" Description="DES_ITEM_RANGE_ATTACK_DES" Graphic="SkillRangeAttack" Param="+6"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RANGE_ATTACK" FIntParam="6.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RANGE_ATTACK_6>
+
+    <SKILL-ITEM_ATTACK_STRENGTH_1>
+		<DescriptionInfo Name="DES_ITEM_ATTACK_STRENGTH" Description="DES_ITEM_ATTACK_STRENGTH_DES" Graphic="SkillMeleeAttack" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="1.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RANGE_ATTACK" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_ATTACK_STRENGTH_1>
+	<SKILL-ITEM_ATTACK_STRENGTH_2>
+		<DescriptionInfo Name="DES_ITEM_ATTACK_STRENGTH" Description="DES_ITEM_ATTACK_STRENGTH_DES" Graphic="SkillMeleeAttack" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="2.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RANGE_ATTACK" FIntParam="2.0"/>		
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_ATTACK_STRENGTH_2>
+	<SKILL-ITEM_ATTACK_STRENGTH_3>
+		<DescriptionInfo Name="DES_ITEM_ATTACK_STRENGTH" Description="DES_ITEM_ATTACK_STRENGTH_DES" Graphic="SkillMeleeAttack" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="3.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RANGE_ATTACK" FIntParam="3.0"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_ATTACK_STRENGTH_3>
+	<SKILL-ITEM_ATTACK_STRENGTH_4>
+		<DescriptionInfo Name="DES_ITEM_ATTACK_STRENGTH" Description="DES_ITEM_ATTACK_STRENGTH_DES" Graphic="SkillMeleeAttack" Param="+4"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="4.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-ENCHANTED_WEAPON" FIntParam="1.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RANGE_ATTACK" FIntParam="4.0"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_ATTACK_STRENGTH_4>	
+	
+	<SKILL-ITEM_DEFENCE_1>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_1>
+	<SKILL-ITEM_DEFENCE_2>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="2.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_2>
+	<SKILL-ITEM_DEFENCE_3>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="3.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_3>
+	<SKILL-ITEM_DEFENCE_4>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+4"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="4.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_4>
+	
+	<SKILL-ITEM_LARGE_SHIELD>
+		<DescriptionInfo Name="DES_LARGE_SHIELD" Description="DES_LARGE_SHIELD_DES" Graphic="SkillLargeShield" Param="0"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-LARGE_SHIELD" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-LARGE_SHIELD" FIntParam="1.0"/>
+		<Stackable VALUE="TRUE"/>	
+	</SKILL-ITEM_LARGE_SHIELD>
+	<SKILL-ITEM_DEFENCE_1_SHIELD>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="1.0"/>
+		<Stackable VALUE="TRUE"/>	
+	</SKILL-ITEM_DEFENCE_1_SHIELD>
+	<SKILL-ITEM_DEFENCE_2_SHIELD>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="2.0"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_2_SHIELD>
+	<SKILL-ITEM_DEFENCE_3_SHIELD>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="3.0"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_3_SHIELD>
+	<SKILL-ITEM_DEFENCE_4_SHIELD>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+4"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="4.0"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_4_SHIELD>
+	<SKILL-ITEM_DEFENCE_5_SHIELD>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+5"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="5.0"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_5_SHIELD>
+	<SKILL-ITEM_DEFENCE_6_SHIELD>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+6"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="6.0"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_6_SHIELD>
+	
+	<SKILL-ITEM_DEFENCE_0_CHAINMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_0_CHAINMAIL>
+	<SKILL-ITEM_DEFENCE_1_CHAINMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_1_CHAINMAIL>
+	<SKILL-ITEM_DEFENCE_2_CHAINMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="2.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_2_CHAINMAIL>
+	<SKILL-ITEM_DEFENCE_3_CHAINMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="3.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_3_CHAINMAIL>
+	<SKILL-ITEM_DEFENCE_4_CHAINMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+4"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="4.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_4_CHAINMAIL>
+	<SKILL-ITEM_DEFENCE_5_CHAINMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+5"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="5.0"/>
+		<Stackable VALUE="TRUE"/>	
+	</SKILL-ITEM_DEFENCE_5_CHAINMAIL>
+	<SKILL-ITEM_DEFENCE_6_CHAINMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+6"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="6.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_6_CHAINMAIL>
+	
+	<SKILL-ITEM_DEFENCE_0_PLATEMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="2.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_0_PLATEMAIL>
+	<SKILL-ITEM_DEFENCE_1_PLATEMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_1_PLATEMAIL>
+	<SKILL-ITEM_DEFENCE_2_PLATEMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="2.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_2_PLATEMAIL>
+	<SKILL-ITEM_DEFENCE_3_PLATEMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="3.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_3_PLATEMAIL>
+	<SKILL-ITEM_DEFENCE_4_PLATEMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+4"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="4.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_4_PLATEMAIL>
+	<SKILL-ITEM_DEFENCE_5_PLATEMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+5"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="5.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_5_PLATEMAIL>
+	<SKILL-ITEM_DEFENCE_6_PLATEMAIL>
+		<DescriptionInfo Name="DES_ITEM_DEFENCE" Description="DES_ITEM_DEFENCE_DES" Graphic="SkillLargeShield" Param="+6"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-DEFENCE" FIntParam="6.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_DEFENCE_6_PLATEMAIL>
+	
+	<SKILL-ITEM_MELEE_TO_HIT_10>
+		<DescriptionInfo Name="DES_ITEM_MELEE_TO_HIT" Description="DES_ITEM_MELEE_TO_HIT_DES" Graphic="SkillToHitMelee10" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHitMelee" 
+				FIntParam="0.1"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_TO_HIT_10>
+	<SKILL-ITEM_MELEE_TO_HIT_20>
+		<DescriptionInfo Name="DES_ITEM_MELEE_TO_HIT" Description="DES_ITEM_MELEE_TO_HIT_DES" Graphic="SkillToHitMelee20" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHitMelee" 
+				FIntParam="0.2"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_TO_HIT_20>
+	<SKILL-ITEM_MELEE_TO_HIT_30>
+		<DescriptionInfo Name="DES_ITEM_MELEE_TO_HIT" Description="DES_ITEM_MELEE_TO_HIT_DES" Graphic="SkillToHitMelee30" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHitMelee" 
+				FIntParam="0.3"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MELEE_TO_HIT_30>	
+	
+	<SKILL-ITEM_RANGE_TO_HIT_10>
+		<DescriptionInfo Name="DES_ITEM_RANGE_TO_HIT" Description="DES_ITEM_RANGE_TO_HIT_DES" Graphic="SkillToHitRanged10" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHitRange" 
+				FIntParam="0.1"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RANGE_TO_HIT_10>
+	<SKILL-ITEM_RANGE_TO_HIT_20>
+		<DescriptionInfo Name="DES_ITEM_RANGE_TO_HIT" Description="DES_ITEM_RANGE_TO_HIT_DES" Graphic="SkillToHitRanged20" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHitRange" 
+				FIntParam="0.2"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RANGE_TO_HIT_20>
+	<SKILL-ITEM_RANGE_TO_HIT_30>
+		<DescriptionInfo Name="DES_ITEM_RANGE_TO_HIT" Description="DES_ITEM_RANGE_TO_HIT_DES" Graphic="SkillToHitRanged30" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHitRange" 
+				FIntParam="0.3"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RANGE_TO_HIT_30>	
+	
+	<SKILL-ITEM_TO_HIT_10>
+		<DescriptionInfo Name="DES_ITEM_TO_HIT" Description="DES_ITEM_TO_HIT_DES" Graphic="SkillToHit10" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHitMelee" 
+				FIntParam="0.1"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHitRange" 
+				FIntParam="0.1"/>	
+		<Stackable VALUE="TRUE"/>				
+	</SKILL-ITEM_TO_HIT_10>
+	<SKILL-ITEM_TO_HIT_20>
+		<DescriptionInfo Name="DES_ITEM_TO_HIT" Description="DES_ITEM_TO_HIT_DES" Graphic="SkillToHit20" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHitMelee" 
+				FIntParam="0.2"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_ToHitRange" 
+				FIntParam="0.2"/>		
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_TO_HIT_20>
+	
+	
+	
+	<SKILL-ITEM_MOVEMENT_POINTS_1>
+		<DescriptionInfo Name="DES_ITEM_MOVEMENT_POINTS" Description="DES_ITEM_MOVEMENT_POINTS_DES" Graphic="SkillMovementPoints" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MOVEMENT_POINTS" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MOVEMENT_POINTS_1>
+	<SKILL-ITEM_MOVEMENT_POINTS_2>
+		<DescriptionInfo Name="DES_ITEM_MOVEMENT_POINTS" Description="DES_ITEM_MOVEMENT_POINTS_DES" Graphic="SkillMovementPoints" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MOVEMENT_POINTS" FIntParam="2.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MOVEMENT_POINTS_2>
+	<SKILL-ITEM_MOVEMENT_POINTS_3>
+		<DescriptionInfo Name="DES_ITEM_MOVEMENT_POINTS" Description="DES_ITEM_MOVEMENT_POINTS_DES" Graphic="SkillMovementPoints" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MOVEMENT_POINTS" FIntParam="3.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MOVEMENT_POINTS_3>
+	<SKILL-ITEM_MOVEMENT_POINTS_4>
+		<DescriptionInfo Name="DES_ITEM_MOVEMENT_POINTS" Description="DES_ITEM_MOVEMENT_POINTS_DES" Graphic="SkillMovementPoints" Param="+4"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MOVEMENT_POINTS" FIntParam="4.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MOVEMENT_POINTS_4>	
+	
+	<SKILL-ITEM_RESIST_1>
+		<DescriptionInfo Name="DES_ITEM_RESIST" Description="DES_ITEM_RESIST_DES" Graphic="SkillResistance" Param="+1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RESIST" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RESIST_1>
+	<SKILL-ITEM_RESIST_2>
+		<DescriptionInfo Name="DES_ITEM_RESIST" Description="DES_ITEM_RESIST_DES" Graphic="SkillResistance" Param="+2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RESIST" FIntParam="2.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RESIST_2>
+	<SKILL-ITEM_RESIST_3>
+		<DescriptionInfo Name="DES_ITEM_RESIST" Description="DES_ITEM_RESIST_DES" Graphic="SkillResistance" Param="+3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RESIST" FIntParam="3.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RESIST_3>
+	<SKILL-ITEM_RESIST_4>
+		<DescriptionInfo Name="DES_ITEM_RESIST" Description="DES_ITEM_RESIST_DES" Graphic="SkillResistance" Param="+4"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RESIST" FIntParam="4.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RESIST_4>
+	<SKILL-ITEM_RESIST_5>
+		<DescriptionInfo Name="DES_ITEM_RESIST" Description="DES_ITEM_RESIST_DES" Graphic="SkillResistance" Param="+5"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RESIST" FIntParam="5.0"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RESIST_5>
+	<SKILL-ITEM_RESIST_6>
+		<DescriptionInfo Name="DES_ITEM_RESIST" Description="DES_ITEM_RESIST_DES" Graphic="SkillResistance" Param="+6"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RESIST" FIntParam="6.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_RESIST_6>
+	
+	<SKILL-ITEM_MANA_POINTS_5>
+		<DescriptionInfo Name="DES_ITEM_MANA_POINTS" Description="DES_ITEM_MANA_POINTS_DES" Graphic="SkillManaPoints" Param="+5"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="5.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MANA_POINTS_5>
+	<SKILL-ITEM_MANA_POINTS_10>
+		<DescriptionInfo Name="DES_ITEM_MANA_POINTS" Description="DES_ITEM_MANA_POINTS_DES" Graphic="SkillManaPoints" Param="+10"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="10.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MANA_POINTS_10>
+	<SKILL-ITEM_MANA_POINTS_15>
+		<DescriptionInfo Name="DES_ITEM_MANA_POINTS" Description="DES_ITEM_MANA_POINTS_DES" Graphic="SkillManaPoints" Param="+15"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="15.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MANA_POINTS_15>
+	<SKILL-ITEM_MANA_POINTS_20>
+		<DescriptionInfo Name="DES_ITEM_MANA_POINTS" Description="DES_ITEM_MANA_POINTS_DES" Graphic="SkillManaPoints" Param="+20"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="20.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_MANA_POINTS_20>
+	
+	<SKILL-ITEM_SPELL_SAVE_1>
+		<DescriptionInfo Name="DES_ITEM_SPELL_SAVE" Description="DES_ITEM_SPELL_SAVE_DES" Graphic="SkillSpellSave" Param="-1"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-SPELL_SAVE" FIntParam="1.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_SPELL_SAVE_1>
+	<SKILL-ITEM_SPELL_SAVE_2>
+		<DescriptionInfo Name="DES_ITEM_SPELL_SAVE" Description="DES_ITEM_SPELL_SAVE_DES" Graphic="SkillSpellSave" Param="-2"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-SPELL_SAVE" FIntParam="2.0"/>	
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_SPELL_SAVE_2>
+	<SKILL-ITEM_SPELL_SAVE_3>
+		<DescriptionInfo Name="DES_ITEM_SPELL_SAVE" Description="DES_ITEM_SPELL_SAVE_DES" Graphic="SkillSpellSave" Param="-3"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-SPELL_SAVE" FIntParam="3.0"/>
+		<Stackable VALUE="TRUE"/>	
+	</SKILL-ITEM_SPELL_SAVE_3>
+	<SKILL-ITEM_SPELL_SAVE_4>
+		<DescriptionInfo Name="DES_ITEM_SPELL_SAVE" Description="DES_ITEM_SPELL_SAVE_DES" Graphic="SkillSpellSave" Param="-4"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-SPELL_SAVE" FIntParam="4.0"/>
+		<Stackable VALUE="TRUE"/>
+	</SKILL-ITEM_SPELL_SAVE_4>		
+	
+	<SKILL-ITEM_FLAMING Domain="Chaos">
+		<DescriptionInfo Name="DES_ITEM_FLAMING" Description="DES_ITEM_FLAMING_DES" Graphic="SkillFlaming"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="3.0"/>
+	</SKILL-ITEM_FLAMING>
+	<SKILL-ITEM_FLAMING_AXE Domain="Chaos">
+		<DescriptionInfo Name="DES_ITEM_FLAMING" Description="DES_ITEM_FLAMING_DES" Graphic="SkillFlaming"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MELEE_ATTACK" FIntParam="3.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-THROW_BONUS" FIntParam="3.0"/>	
+	</SKILL-ITEM_FLAMING_AXE>		
+	<SKILL-ITEM_FLAMING_RANGE Domain="Chaos">
+		<DescriptionInfo Name="DES_ITEM_FLAMING" Description="DES_ITEM_FLAMING_DES" Graphic="SkillFlaming"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-RANGE_ATTACK" FIntParam="3.0"/>
+	</SKILL-ITEM_FLAMING_RANGE>
+	<SKILL-ITEM_LIGHTNING Domain="Chaos">
+		<DescriptionInfo Name="DES_ITEM_LIGHTNING" Description="DES_ITEM_LIGHTNING_DES" Graphic="SkillLightning"/>
+		<Script TriggerType="BattleStackModifier" Priority="0" 
+			TriggerScript="TRI_BattleAttackEffect"
+			BattleAttackEffect="Piercing"/>
+	</SKILL-ITEM_LIGHTNING>
+	<SKILL-ITEM_CHAOS Domain="Chaos">
+		<DescriptionInfo Name="DES_ITEM_CHAOS" Description="DES_ITEM_CHAOS_DES" Graphic="SkillChaos"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-CHAOS_WEAPON" FIntParam="1.0"/>
+	</SKILL-ITEM_CHAOS>
+	<SKILL-ITEM_DESTRUCTION Domain="Chaos">
+		<DescriptionInfo Name="DES_ITEM_DESTRUCTION" Description="DES_ITEM_DESTRUCTION_DES" Graphic="SkillDestruction"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2"
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyItemDestrucionAttack"
+				FIntParam="0.0"
+				DamagePool="Irreversible"/>	
+	</SKILL-ITEM_DESTRUCTION>
+	
+	<SKILL-ITEM_VAMPIRIC Domain="Death">
+		<DescriptionInfo Name="DES_ITEM_VAMPIRIC" Description="DES_ITEM_VAMPIRIC_DES" Graphic="SkillVampiric"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="3" 
+				TriggerScript="TRI_AddonAttack2"
+				ActivatorMainScript="ACT_ProduceLifeStealAttack"
+				ActivatorSecondaryScript="ACT_ApplyLifeStealingAttack"
+				FIntParam="0.0"
+				DamagePool="Undead"/>
+	</SKILL-ITEM_VAMPIRIC>
+	<SKILL-ITEM_DEATH Domain="Death">
+		<DescriptionInfo Name="DES_ITEM_DEATH" Description="DES_ITEM_DEATH_DES" Graphic="SkillDeath"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2"
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyItemDeathAttack"
+				FIntParam="3.0"/>	
+	</SKILL-ITEM_DEATH>
+	<SKILL-ITEM_POWER_DRAIN Domain="Death">
+		<DescriptionInfo Name="DES_ITEM_POWER_DRAIN" Description="DES_ITEM_POWER_DRAIN_DES" Graphic="SkillPowerDrain"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2"
+				ActivatorMainScript="ACT_ProducePowerDrainAttack"
+				ActivatorSecondaryScript="ACT_ApplyPowerDrainAttack"/>
+	</SKILL-ITEM_POWER_DRAIN>
+	<SKILL-ITEM_WRAITH_FORM Domain="Death">
+		<DescriptionInfo Name="DES_WRAITH_FORM" Description="DES_WRAITH_FORM_DES" Graphic="SpellWraithForm"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-NON_CORPOREAL" FIntParam="1.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-CAN_SWIM" FIntParam="1.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-WEAPON_IMMUNITY" FIntParam="1.0"/>	
+		<RelatedEnchantment VALUE="ENCH-WRAITH_FORM"/>
+	</SKILL-ITEM_WRAITH_FORM>
+	<SKILL-ITEM_CLOAK_OF_FEAR Domain="Death">
+		<DescriptionInfo Name="DES_CAUSE_FEAR" Description="DES_CAUSE_FEAR_DES" Graphic="SkillCauseFear"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-CAUSE_FEAR" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-CAUSE_FEAR" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-CLOAK_OF_FEAR"/>
+	</SKILL-ITEM_CLOAK_OF_FEAR>
+	<SKILL-ITEM_HOLY_AVENGER Domain="Life">
+		<DescriptionInfo Name="DES_ITEM_HOLY_AVENGER" Description="DES_ITEM_HOLY_AVENGER_DES" Graphic="SkillHolyAvenger"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+			TriggerScript="TRI_AddonAttack2" 
+			ActivatorMainScript="ACT_ProduceNoDamage"
+			ActivatorSecondaryScript="ACT_ApplyItemHolyAvengerAttack"
+			DamagePool="Irreversible"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-BLESS" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-BLESS"/>
+	</SKILL-ITEM_HOLY_AVENGER>
+	<SKILL-ITEM_TRUE_SIGHT Domain="Life">
+		<DescriptionInfo Name="DES_TRUE_SIGHT" Description="DES_TRUE_SIGHT_DES" Graphic="SpellTrueSight"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-ILLUSIONS_IMMUNITY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-ILLUSIONS_IMMUNITY" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-TRUE_SIGHT"/>
+	</SKILL-ITEM_TRUE_SIGHT>
+	<SKILL-ITEM_BLESS Domain="Life">
+		<DescriptionInfo Name="DES_BLESS" Description="DES_BLESS_DES" Graphic="SpellBless"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-BLESS" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-BLESS" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-BLESS"/>
+	</SKILL-ITEM_BLESS>
+	<SKILL-ITEM_RIGHTEOUSNESS Domain="Life">
+		<DescriptionInfo Name="DES_RIGHTEOUSNESS" Description="DES_RIGHTEOUSNESS_DES" Graphic="SpellRighteousness"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-RIGHTEOUSNESS" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-RIGHTEOUSNESS" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-RIGHTEOUSNESS"/>
+	</SKILL-ITEM_RIGHTEOUSNESS>
+	<SKILL-ITEM_INVULNERABILITY Domain="Life">
+		<DescriptionInfo Name="DES_INVULNERABILITY" Description="DES_INVULNERABILITY_DES" Graphic="SpellInvulnerability"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_Invulnerability" FIntParam="2.0"/>
+		<RelatedEnchantment VALUE="ENCH-INVULNERABILITY"/>
+	</SKILL-ITEM_INVULNERABILITY>
+	<SKILL-ITEM_ENDURANCE Domain="Life">
+		<DescriptionInfo Name="DES_ENDURANCE" Description="DES_ENDURANCE_DES" Graphic="SpellEndurance"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-MOVEMENT_POINTS" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-ENDURANCE"/>
+	</SKILL-ITEM_ENDURANCE>
+	<SKILL-ITEM_PLANE_SHIFT Domain="Life">
+		<DescriptionInfo Name="DES_PLANE_SHIFT" Description="DES_PLANE_SHIFT_DES" Graphic="SpellPlanarTravel"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-PLANE_SHIFTER" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-PLANE_SHIFTER" FIntParam="1.0"/>	
+		<RelatedEnchantment VALUE="ENCH-SPELL_PLANE_SHIFT"/>
+	</SKILL-ITEM_PLANE_SHIFT>
+	<SKILL-ITEM_LIONHEART Domain="Life">
+		<DescriptionInfo Name="DES_LIONHEART" Description="DES_LIONHEART_DES" Graphic="SpellLionheart"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-MELEE_ATTACK" FIntParam="3.0"/>		
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-RANGE_ATTACK" FIntParam="3.0"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-RESIST" FIntParam="3.0"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-HIT_POINTS" FIntParam="3.0"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-THROW_BONUS" FIntParam="3.0"/>
+		<RelatedEnchantment VALUE="ENCH-LIONHEART"/>	
+	</SKILL-ITEM_LIONHEART>
+	
+	<SKILL-ITEM_RESIST_ELEMENTS Domain="Nature">
+		<DescriptionInfo Name="DES_RESIST_ELEMENTS" Description="DES_RESIST_ELEMENTS_DES" Graphic="SpellResistElements"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-RESIST_ELEMENTS" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-RESIST_ELEMENTS"/>		
+	</SKILL-ITEM_RESIST_ELEMENTS>
+	<SKILL-ITEM_ELEMENTAL_ARMOR Domain="Nature">
+		<DescriptionInfo Name="DES_ELEMENTAL_ARMOR" Description="DES_ELEMENTAL_ARMOR_DES" Graphic="SpellElementalArmor"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-ELEMENTAL_ARMOR" FIntParam="1.0"/>	
+		<RelatedEnchantment VALUE="ENCH-ELEMENTAL_ARMOR"/>	
+	</SKILL-ITEM_ELEMENTAL_ARMOR>
+	<SKILL-ITEM_GIANT_STRENGTH Domain="Nature">
+		<DescriptionInfo Name="DES_GIANT_STRENGTH" Description="DES_GIANT_STRENGTH_DES" Graphic="SpellGiantStrength"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-MELEE_ATTACK" FIntParam="1.0"/>	
+		<RelatedEnchantment VALUE="ENCH-GIANT_STRENGTH"/>	
+	</SKILL-ITEM_GIANT_STRENGTH>
+	<SKILL-ITEM_GIANT_STRENGTH_AXE Domain="Nature">
+		<DescriptionInfo Name="DES_GIANT_STRENGTH" Description="DES_GIANT_STRENGTH_DES" Graphic="SpellGiantStrength"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-MELEE_ATTACK" FIntParam="1.0"/>	
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-THROW_BONUS" FIntParam="1.0"/>	
+		<RelatedEnchantment VALUE="ENCH-GIANT_STRENGTH"/>
+	</SKILL-ITEM_GIANT_STRENGTH_AXE>
+	<SKILL-ITEM_STONING Domain="Nature">
+		<DescriptionInfo Name="DES_ITEM_STONING" Description="DES_ITEM_STONING_DES" Graphic="SkillStoning"/>
+		<Script TriggerType="BattleAttackAddon" Priority="0" 
+				TriggerScript="TRI_AddonAttack"
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyStoningAttackPerAttackFigure"
+				FIntParam="1.0"
+				DamagePool="Irreversible"/>	
+	</SKILL-ITEM_STONING>
+	<SKILL-ITEM_WATER_WALKING Domain="Nature">
+		<DescriptionInfo Name="DES_WATER_WALKING" Description="DES_WATER_WALKING_DES" Graphic="SpellWaterWalking"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-CAN_SWIM" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-CAN_SWIM" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-WATER_WALKING"/>
+	</SKILL-ITEM_WATER_WALKING>
+	<SKILL-ITEM_REGENERATION Domain="Nature">
+		<DescriptionInfo Name="DES_REGENERATION" Description="DES_REGENERATION_DES" Graphic="SpellRegeneration"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-REGENERATION" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-REGENERATION" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-REGENERATION"/>
+	</SKILL-ITEM_REGENERATION>
+	<SKILL-ITEM_PATHFINDING Domain="Nature">
+		<DescriptionInfo Name="DES_PATH_FINDING" Description="DES_PATH_FINDING_DES" Graphic="SpellPathFinding"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-PATHFINDING" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-PATHFINDING" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-PATH_FINDING"/>
+	</SKILL-ITEM_PATHFINDING>
+	<SKILL-ITEM_MERGING Domain="Nature">
+		<DescriptionInfo Name="DES_MERGING" Description="DES_MERGING_DES" Graphic="SkillMerging"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-TELEPORTING" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-TELEPORTING" FIntParam="1.0"/>
+	</SKILL-ITEM_MERGING>
+	
+	<SKILL-ITEM_PHANTASMAL Domain="Sorcery">
+		<DescriptionInfo Name="DES_ILLUSION" Description="DES_ILLUSION_DES" Graphic="SkillIllusion"/>
+		<Script TriggerType="BattleStackModifier" Priority="0" 
+			TriggerScript="TRI_BattleAttackEffect"
+			BattleAttackEffect="Illusion"/>
+	</SKILL-ITEM_PHANTASMAL>
+	<SKILL-ITEM_GUARDIAN_WIND Domain="Sorcery">
+		<DescriptionInfo Name="DES_GUARDIAN_WIND" Description="DES_GUARDIAN_WIND_DES" Graphic="SkillMissileImmunity"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MISSILE_IMMUNITY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MISSILE_IMMUNITY" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-GUARDIAN_WIND"/>
+	</SKILL-ITEM_GUARDIAN_WIND>
+	<SKILL-ITEM_HASTE Domain="Sorcery">
+		<DescriptionInfo Name="DES_HASTE" Description="DES_HASTE_DES" Graphic="SpellHaste"/>
+		<Script TriggerType="BattleStartEffect" Priority="0" 
+			ActivatorMainScript="SKTurnTri_Haste"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_Haste"
+				FIntParam="1"/>
+		<RelatedEnchantment VALUE="ENCH-HASTE"/>
+	</SKILL-ITEM_HASTE>
+	<SKILL-ITEM_RESIST_MAGIC Domain="Sorcery">
+		<DescriptionInfo Name="DES_RESIST_MAGIC" Description="DES_RESIST_MAGIC_DES" Graphic="SpellResistMagic"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-RESIST" FIntParam="5.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-RESIST" FIntParam="5.0"/>
+		<RelatedEnchantment VALUE="ENCH-RESIST_MAGIC"/>
+	</SKILL-ITEM_RESIST_MAGIC>
+	<SKILL-ITEM_MAGIC_IMMUNITY Domain="Sorcery">
+		<DescriptionInfo Name="DES_SKILL_MAGIC_IMMUNITY" Description="DES_SKILL_MAGIC_IMMUNITY_DES" Graphic="SkillMagicImmunity"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MAGIC_IMMUNITY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MAGIC_IMMUNITY" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-MAGIC_IMMUNITY"/>
+	</SKILL-ITEM_MAGIC_IMMUNITY>
+	<SKILL-ITEM_FLIGHT Domain="Sorcery">
+		<DescriptionInfo Name="DES_FLIGHT" Description="DES_FLIGHT_DES" Graphic="SpellFlight"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-CAN_FLY" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-CAN_FLY" FIntParam="1.0"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_AddTag" 
+			StringData="TAG-SIGHT_RANGE_BONUS" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-FLIGHT"/>
+	</SKILL-ITEM_FLIGHT>
+	<SKILL-ITEM_INVISIBILITY Domain="Sorcery">
+		<DescriptionInfo Name="DES_INVISIBILITY" Description="DES_INVISIBILITY_DES" Graphic="SpellInvisibility"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_Invisibility" StringData="ENCH-INVISIBILITY_SKILL"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveInvisibility" StringData="ENCH-INVISIBILITY_SKILL"/>
+		<RelatedEnchantment VALUE="ENCH-INVISIBILITY_SPELL"/>
+	</SKILL-ITEM_INVISIBILITY>
+	
+	<SKILL-ITEM_SPELL_CHARGES_PSIONIC_BLAST_ADD_MANA>
+		<DescriptionInfo Name="DES_ADD_SPELL DES_PSIONIC_BLAST" Description="DES_PSIONIC_BLAST_DES" Graphic="SpellPsionicBlast"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-PSIONIC_BLAST"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-PSIONIC_BLAST"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="10.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_PSIONIC_BLAST_ADD_MANA>
+	<SKILL-ITEM_SPELL_CHARGES_HOLY_WORD_ADD_MANA>
+		<DescriptionInfo Name="DES_ADD_SPELL DES_HOLY_WORD" Description="DES_HOLY_WORD_DES" Graphic="SpellHolyWord"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-HOLY_WORD"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-HOLY_WORD"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="120.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_HOLY_WORD_ADD_MANA>
+	<SKILL-ITEM_SPELL_CHARGES_HIGH_PRAYER_ADD_MANA>
+		<DescriptionInfo Name="DES_ADD_SPELL DES_HIGH_PRAYER" Description="DES_HIGH_PRAYER_DES" Graphic="SpellHighPrayer"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-HIGH_PRAYER"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-HIGH_PRAYER"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="60.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_HIGH_PRAYER_ADD_MANA>
+	<SKILL-ITEM_SPELL_CHARGES_DISINTEGRATE_ADD_MANA>
+		<DescriptionInfo Name="DES_ADD_SPELL DES_DISINTEGRATE" Description="DES_DISINTEGRATE_DES" Graphic="SpellDisintegrate"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-DISINTEGRATE"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-DISINTEGRATE"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="50.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_DISINTEGRATE_ADD_MANA>
+	<SKILL-ITEM_SPELL_CHARGES_PHANTOM_BEAST_ADD_MANA>
+		<DescriptionInfo Name="DES_ADD_SPELL DES_PHANTOM_BEAST" Description="DES_PHANTOM_BEAST_DES" Graphic="SpellPhantomBeast"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-PHANTOM_BEAST"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-PHANTOM_BEAST"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="70.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_PHANTOM_BEAST_ADD_MANA>
+	<SKILL-ITEM_SPELL_CHARGES_CREATURE_BINDING_ADD_MANA>
+		<DescriptionInfo Name="DES_ADD_SPELL DES_CREATURE_BINDING" Description="DES_CREATURE_BINDING_DES" Graphic="SpellCreatureBinding"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-CREATURE_BINDING"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-CREATURE_BINDING"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="140.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_CREATURE_BINDING_ADD_MANA>
+	<SKILL-ITEM_SPELL_CHARGES_HOLY_WEAPON_ADD_MANA>
+		<DescriptionInfo Name="DES_ADD_SPELL DES_HOLY_WEAPON" Description="DES_HOLY_WEAPON_DES" Graphic="SpellHolyWeapon"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-HOLY_WEAPON"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-HOLY_WEAPON"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="20.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_HOLY_WEAPON_ADD_MANA>
+	<SKILL-ITEM_SPELL_CHARGES_MIND_STORM_ADD_MANA>
+		<DescriptionInfo Name="DES_ADD_SPELL DES_MIND_STORM" Description="DES_MIND_STORM_DES" Graphic="SpellMindStorm"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-MIND_STORM"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-MIND_STORM"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="70.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_MIND_STORM_ADD_MANA>
+	<SKILL-ITEM_SPELL_CHARGES_DISPEL_TRUE_ADD_MANA>
+		<DescriptionInfo Name="DES_ADD_SPELL DES_DISPEL_MAGIC_TRUE" Description="DES_DISPEL_MAGIC_TRUE_DES" Graphic="SpellDispelMagicTrue"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-DISPEL_MAGIC_TRUE"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-DISPEL_MAGIC_TRUE"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="20.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_DISPEL_TRUE_ADD_MANA>
+	<SKILL-ITEM_SPELL_CHARGES_CONFUSION_ADD_MANA>
+		<DescriptionInfo Name="DES_ADD_SPELL DES_CONFUSION" Description="DES_CONFUSION_DES" Graphic="SpellConfusion"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-CONFUSION"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-CONFUSION"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="30.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_CONFUSION_ADD_MANA>
+	<SKILL-ITEM_SPELL_CHARGES_INVISIBILITY_ADD_MANA>
+		<DescriptionInfo Name="DES_ADD_SPELL DES_INVISIBILITY" Description="DES_INVISIBILITY_DES" Graphic="SpellInvisibility"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-INVISIBILITY"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-INVISIBILITY"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="70.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_INVISIBILITY_ADD_MANA>
+	
+	<!-- DLC 0-->
+	<SKILL-DEATH_EATER>
+		<DescriptionInfo Name="DES_SKILL_DEATH_EATER" Description="DES_SKILL_DEATH_EATER_DES" Graphic="SkillDeathEater"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-DEATH_EATER" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-DEATH_EATER" FIntParam="1.0"/>			
+	</SKILL-DEATH_EATER>
+
+
+	<!-- DLC 2 -->
+	<SKILL-MAGIC_TECH_RANGE_ATTACK Dlc="Dlc2" Domain="Tech">
+		<DescriptionInfo Name="DES_MAGICAL_RANGE_ATTACK_TECH" Description="DES_MAGICAL_RANGE_ATTACK_TECH_DES" Graphic="SkillMagicTechRangeAttack"/>
+		<Script TriggerType="BattleRangedAttack" Priority="0" 
+				TriggerScript="ATRI_NormalRangedAttack" 
+				ActivatorMainScript="ACT_ProduceRangeNormalDamage"
+				ActivatorSecondaryScript="ACT_ApplyMagicRangeAttack"
+				BattleAttackEffect="Piercing" />
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" StringData="TAG-MAGIC_TECH_RANGE" FIntParam="1.0"/>
+	</SKILL-MAGIC_TECH_RANGE_ATTACK>
+	<SKILL-DOUBLESHOT Domain="Tech" Dlc="Dlc2">
+		<DescriptionInfo Name="DES_DOUBLESHOT" Description="DES_DOUBLESHOT_DES" Graphic="SkillDoubleshot"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddDoubleShot"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveDoubleShot"/>
+		<Script TriggerType="BattleRangedAttack" Priority="0" 
+				TriggerScript="ATRI_NormalRangedAttack" 
+				ActivatorMainScript="ACT_ProduceRangeNormalDamage"
+				ActivatorSecondaryScript="ACT_ApplyRangeAttack"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" StringData="TAG-NORMAL_RANGE" FIntParam="1.0"/>
+	</SKILL-DOUBLESHOT>
+	<SKILL-SUMMON_BOMB Dlc="Dlc2">
+		<DescriptionInfo Name="DES_SUMMON_BOMB" Description="DES_SUMMON_BOMB_DES" Graphic="SpellBomb"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-SUMMON_BOMB"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-SUMMON_BOMB"/>
+	</SKILL-SUMMON_BOMB>
+	<SKILL-BOMBER_BOOM Dlc="Dlc2">
+		<DescriptionInfo Name="DES_BOMBER_BOOM" Description="DES_BOMBER_BOOM_DES" Graphic="SkillBomberBoom"/>
+		<Script TriggerType="BattleAttack" Priority="0" 
+				TriggerScript="ATRI_NormalAttack" 
+				ActivatorMainScript="ACT_ProduceImmolationAttack"
+				ActivatorSecondaryScript="ACT_ApplyBombAttack" FIntParam="15.0"/>
+	</SKILL-BOMBER_BOOM>
+	<SKILL-BITE Dlc="Dlc2">
+		<DescriptionInfo Name="DES_PIERCING_BITE" Description="DES_PIERCING_BITE_DES" Graphic="SkillPiercingBite"/>
+		<DescriptionScript VALUE="DSCR_Bite"/>
+		<Script TriggerType="BattleAttackAddon" Priority="-3" 
+				TriggerScript="TRI_AddonAttack" 
+				ActivatorMainScript="ACT_Bite"
+				ActivatorSecondaryScript="ACT_ApplyBiteAttack"
+				FIntParam="6.0"
+				BattleAttackEffect="Piercing" />
+	</SKILL-BITE>
+	<SKILL-GNOLL_GENERAL Dlc="Dlc2"
+		OnJoinWithUnit="SJOIN_GnollGeneral"
+		OnLeaveFromUnit="SLEAVE_GnollGeneral">
+		<DescriptionInfo Name="DES_GNOLL_GENERAL" Description="DES_GNOLL_GENERAL_DES" Graphic="SkillGnollGeneral"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_GnollGeneral"
+				StringData="UNIT-GNO_WOLF_RIDERS" FIntParam="1.0"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-GNOLL_GENERAL_BONUS"/> 		
+	</SKILL-GNOLL_GENERAL>
+	<SKILL-FAIR_EXCHANGE Dlc="Dlc2">
+		<DescriptionInfo Name="DES_FAIR_EXCHANGE" Description="DES_FAIR_EXCHANGE_DES" Graphic="SkillFairExchange"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-FAIR_EXCHANGE" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-FAIR_EXCHANGE" FIntParam="1.0"/>	
+	</SKILL-FAIR_EXCHANGE>
+	
+	<SKILL-RECONSTRUCT_SPELL>
+		<DescriptionInfo Name="DES_RECONSTRUCT" Description="DES_RECONSTRUCT_DES" Graphic="SpellReconstruct"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-RECONSTRUCT"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-RECONSTRUCT"/>
+	</SKILL-RECONSTRUCT_SPELL>
+	<SKILL-MECHANICIAN>
+		<DescriptionInfo Name="DES_MECHANICIAN" Description="DES_MECHANICIAN_DES" Graphic="SkillMechanician"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MECHANICIAN" FIntParam="5.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MECHANICIAN" FIntParam="5.0"/>
+	</SKILL-MECHANICIAN>
+	<SKILL-MINOR_REGENERATION>
+		<DescriptionInfo Name="DES_MINOR_REGENERATION" Description="DES_MINOR_REGENERATION_DES" Graphic="SpellRegeneration"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-MINOR_REGENERATION" FIntParam="2.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-MINOR_REGENERATION" FIntParam="2.0"/>
+	</SKILL-MINOR_REGENERATION>
+
+	<!-- DLC 3 -->
+	<SKILL-HIVEMIND Dlc="Dlc3"
+		OnJoinWithUnit="SJOIN_Hivemind"
+		OnLeaveFromUnit="SLEAVE_Hivemind">
+		<DescriptionInfo Name="DES_HIVEMIND" Description="DES_HIVEMIND_DES" Graphic="SkillHivemind"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_Hivemind"
+				StringData="RACE-KLACKONS" FIntParam="1.0"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-HIVEMIND_UNIT"/> 	
+	</SKILL-HIVEMIND>	
+	<SKILL-CLOAK_OF_FEAR Dlc="Dlc3" Domain="Death">
+		<DescriptionInfo Name="DES_CAUSE_FEAR" Description="DES_CAUSE_FEAR_DES" Graphic="SkillCauseFear"/>
+		<SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-CAUSE_FEAR" FIntParam="1.0"/>
+		<SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-CAUSE_FEAR" FIntParam="1.0"/>
+		<RelatedEnchantment VALUE="ENCH-CLOAK_OF_FEAR"/>
+	</SKILL-CLOAK_OF_FEAR>
+	<SKILL-CONFUSION_SPELL Dlc="Dlc3">
+		<DescriptionInfo Name="DES_CONFUSION" Description="DES_CONFUSION_DES" Graphic="SpellConfusion"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-CONFUSION"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-CONFUSION"/>
+	</SKILL-CONFUSION_SPELL>
+	<SKILL-WATER_ELEMENTAL_SPELL Dlc="Dlc3">
+		<DescriptionInfo Name="DES_WATER_ELEMENTAL" Description="DES_WATER_ELEMENTAL_DES" Graphic="SpellWaterElemental"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-WATER_ELEMENTAL"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-WATER_ELEMENTAL"/>
+	</SKILL-WATER_ELEMENTAL_SPELL>
+	<SKILL-BARRAGE_SPELL Dlc="Dlc3">
+		<DescriptionInfo Name="DES_BARRAGE" Description="DES_BARRAGE_DES" Graphic="SpellSeaStorm"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-BARRAGE"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-BARRAGE"/>
+	</SKILL-BARRAGE_SPELL>
+	<SKILL-INVULNERABILITY Dlc="Dlc3" Domain="Life">
+		<DescriptionInfo Name="DES_INVULNERABILITY" Description="DES_INVULNERABILITY_DES" Graphic="SpellInvulnerability"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+			ActivatorMainScript="ACTPass_Invulnerability" FIntParam="2.0"/>
+		<RelatedEnchantment VALUE="ENCH-INVULNERABILITY"/>
+	</SKILL-INVULNERABILITY>
+	<SKILL-CHAOS_MELEE_ATTACK Dlc="Dlc3" Domain="Chaos">
+		<DescriptionInfo Name="DES_ITEM_CHAOS" Description="DES_ITEM_CHAOS_DES" Graphic="SkillChaos"/>
+		<Script TriggerType="AttributeChange" Priority="0" 
+				ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-CHAOS_WEAPON" FIntParam="1.0"/>
+	</SKILL-CHAOS_MELEE_ATTACK>
+	<SKILL-MASS_WATER_WALKING Dlc="Dlc3">
+		<DescriptionInfo Name="DES_MASS_WATER_WALKING" Description="DES_MASS_WATER_WALKING_SKILL_DES" Graphic="SkillMassWaterWalking"/>
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddEnchantment" StringData="ENCH-MASS_WATER_WALKING_OWNER"/>
+	</SKILL-MASS_WATER_WALKING>
+	<SKILL-MUD_ADDON2 Dlc="Dlc3">
+		<DescriptionInfo Name="DES_MUD_ATTACK" Description="DES_MUD_ATTACK_DES" Graphic="SkillMudAttack" Param="1"/>
+		<Script TriggerType="BattleAttackAddon2" Priority="0" 
+				TriggerScript="TRI_AddonAttack2ToAllNonAttackAddonsAttacks"
+				ActivatorMainScript="ACT_ProduceNoDamage"
+				ActivatorSecondaryScript="ACT_ApplyMudAttack"
+				FIntParam="1.0"
+				StringData="ENCH-MUD"/>
+	</SKILL-MUD_ADDON2>
+	<SKILL-GHOSTSHIP_TERROR>
+		<DescriptionInfo Name="DES_GHOSTSHIP_TERROR" Description="DES_GHOSTSHIP_TERROR_DES" Graphic="SkillGhostshipTerror"/>
+		<Script TriggerType="BattleStartEffect" Priority="0" 
+				ActivatorMainScript="SKTurnTri_GhostshipTerror" 
+				StringData="ENCH-TERROR_WIZZARD"/>
+	</SKILL-GHOSTSHIP_TERROR>
+	<SKILL-SHACKLE_MASTER  Dlc="Dlc3"
+				OnJoinWithUnit="SJOIN_ShackleMaster"
+				OnLeaveFromUnit="SLEAVE_ShackleMaster">
+		<DescriptionInfo Name="DES_SHACKLE_MASTER" Description="DES_SHACKLE_MASTER_DES" Graphic="SkillShackleMaster"/>
+		<Script TriggerType="GroupChange" Priority="0"
+				StringData="ENCH-SHACKLE_MASTER_UNIT"/>
+	</SKILL-SHACKLE_MASTER>
+	<SKILL-ITEM_SPELL_CHARGES_BARRAGE Dlc="Dlc3">
+		<DescriptionInfo Name="DES_ADD_SPELL DES_BARRAGE" Description="DES_BARRAGE_DES" Graphic="SpellSeaStorm"/>		
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-BARRAGE"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-BARRAGE"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="70.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_BARRAGE>
+	<SKILL-ITEM_SPELL_CHARGES_CALL_LIGHTNING2 Dlc="Dlc3">
+		<DescriptionInfo Name="DES_ADD_SPELL DES_CALL_LIGHTNING" Description="DES_CALL_LIGHTNING_DES" Graphic="SpellCallLightning"/>		
+		<SkillApplicationScript TriggerType="None" Priority="0" ActivatorMainScript="SAPP_AddSpell" StringData="SPELL-CALL_LIGHTNING2"/>
+		<SkillRemovalScript TriggerType="None" Priority="0" ActivatorMainScript="SREM_RemoveSpell" StringData="SPELL-CALL_LIGHTNING2"/>
+		<!--<Script TriggerType="AttributeChange" Priority="0" ActivatorMainScript="ACTPass_AddTag" 
+				StringData="TAG-MANA_POINTS" FIntParam="70.0"/>-->
+	</SKILL-ITEM_SPELL_CHARGES_CALL_LIGHTNING2>
+</DB_SKILL>

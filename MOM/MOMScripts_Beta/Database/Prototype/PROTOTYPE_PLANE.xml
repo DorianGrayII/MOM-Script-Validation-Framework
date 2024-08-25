@@ -1,0 +1,8 @@
+﻿<PROTOTYPE_PLANE>	
+	<PLANE Name="Plane">		
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>
+		<!-- Races that can be spawn in the plane-->
+		<Race Name="race" Type="ArrayRACE" Required="TRUE"/>
+		<TypeName Name="typeName" Type="string" Required="TRUE"/>
+	</PLANE>
+</PROTOTYPE_PLANE>

@@ -1,0 +1,3855 @@
+﻿<DB_SPELL>
+	<TARGET_TYPE-NONE>
+		<EnumType VALUE="None"/>
+		<DesType VALUE="DES_TARGET_TYPE_NONE"/>
+	</TARGET_TYPE-NONE>
+	<TARGET_TYPE-LOCATION_FRIENDLY>
+		<EnumType VALUE="TargetLocation"/>
+		<DesType VALUE="DES_TARGET_TYPE_LOCATION_FRIENDLY"/>
+	</TARGET_TYPE-LOCATION_FRIENDLY>
+	<TARGET_TYPE-LOCATION_ENEMY>
+		<EnumType VALUE="TargetLocation"/>
+		<DesType VALUE="DES_TARGET_TYPE_LOCATION_ENEMY"/>
+	</TARGET_TYPE-LOCATION_ENEMY>
+	<TARGET_TYPE-LOCATION_ENEMY_NODE>
+		<EnumType VALUE="TargetLocation"/>
+		<DesType VALUE="DES_TARGET_TYPE_LOCATION_ENEMY_NODE"/>
+	</TARGET_TYPE-LOCATION_ENEMY_NODE>
+	<TARGET_TYPE-UNIT>
+		<EnumType VALUE="TargetUnit"/>
+		<DesType VALUE="DES_TARGET_TYPE_UNIT"/>
+	</TARGET_TYPE-UNIT>
+	<TARGET_TYPE-UNIT_FRIENDLY>
+		<EnumType VALUE="TargetUnit"/>
+		<DesType VALUE="DES_TARGET_TYPE_UNIT_FRIENDLY"/>
+	</TARGET_TYPE-UNIT_FRIENDLY>
+	<TARGET_TYPE-UNIT_FRIENDLY_HERO>
+		<EnumType VALUE="TargetUnit"/>
+		<DesType VALUE="DES_TARGET_TYPE_UNIT_FRIENDLY_HERO"/>
+	</TARGET_TYPE-UNIT_FRIENDLY_HERO>
+	<TARGET_TYPE-UNIT_ENEMY>
+		<EnumType VALUE="TargetUnit"/>
+		<DesType VALUE="DES_TARGET_TYPE_UNIT_ENEMY"/>
+	</TARGET_TYPE-UNIT_ENEMY>
+	<TARGET_TYPE-GROUP_FRIENDLY>
+		<EnumType VALUE="TargetGroup"/>
+		<DesType VALUE="DES_TARGET_TYPE_GROUP_FRIENDLY"/>
+	</TARGET_TYPE-GROUP_FRIENDLY>
+	<TARGET_TYPE-GROUP_ENEMY>
+		<EnumType VALUE="TargetGroup"/>
+		<DesType VALUE="DES_TARGET_TYPE_GROUP_ENEMY"/>
+	</TARGET_TYPE-GROUP_ENEMY>
+	<TARGET_TYPE-WIZARD_OWN>
+		<EnumType VALUE="TargetWizard"/>
+		<DesType VALUE="DES_TARGET_TYPE_WIZARD_OWN"/>
+	</TARGET_TYPE-WIZARD_OWN>
+	<TARGET_TYPE-WIZARD_ENEMY>
+		<EnumType VALUE="TargetWizard"/>
+		<DesType VALUE="DES_TARGET_TYPE_WIZARD_ENEMY"/>
+	</TARGET_TYPE-WIZARD_ENEMY>
+	<TARGET_TYPE-HEX>
+		<EnumType VALUE="TargetHex"/>
+		<DesType VALUE="DES_TARGET_TYPE_HEX"/>
+	</TARGET_TYPE-HEX>
+	<TARGET_TYPE-GLOBAL>
+		<EnumType VALUE="TargetGlobal"/>
+		<DesType VALUE="DES_TARGET_TYPE_GLOBAL"/>
+	</TARGET_TYPE-GLOBAL>
+	<TARGET_TYPE-GLOBAL_ENCHANTMENT>
+		<EnumType VALUE="TargetGlobal"/>
+		<DesType VALUE="DES_TARGET_TYPE_GLOBAL"/>
+	</TARGET_TYPE-GLOBAL_ENCHANTMENT>
+	<TARGET_TYPE-SUMMON>
+		<EnumType VALUE="WorldSummon"/>
+		<DesType VALUE="DES_TARGET_TYPE_HEX"/> <!-- That is not mistake-->
+	</TARGET_TYPE-SUMMON>
+	<TARGET_TYPE-HEX_BATTLE_GLOBAL>
+		<EnumType VALUE="WorldHexBattleGlobal"/>
+		<DesType VALUE="DES_TARGET_TYPE_HEX_BATTLE_GLOBAL"/>
+	</TARGET_TYPE-HEX_BATTLE_GLOBAL>
+	<!-- Spell Pack -->
+	<SPELL_PACK-MYSTERY_X>
+		<Spell VALUE="SPELL-CONFUSION"/>
+	</SPELL_PACK-MYSTERY_X>
+	<SPELL_PACK-WARRAX>
+		<Spell VALUE="SPELL-FIRE_BOLT"/>
+	</SPELL_PACK-WARRAX>
+	<SPELL_PACK-AERIE>
+		<Spell VALUE="SPELL-PSIONIC_BLAST"/>
+		<Spell VALUE="SPELL-VERTIGO"/>
+		<Spell VALUE="SPELL-MIND_STORM"/>
+	</SPELL_PACK-AERIE>
+	<SPELL_PACK-ALORRA>
+		<Spell VALUE="SPELL-FLIGHT"/>
+		<Spell VALUE="SPELL-RESIST_MAGIC"/>
+	</SPELL_PACK-ALORRA>
+	<SPELL_PACK-ELANA>
+		<Spell VALUE="SPELL-DISPEL_EVIL"/>
+		<Spell VALUE="SPELL-HEALING"/>
+		<Spell VALUE="SPELL-PRAYER"/>
+		<Spell VALUE="SPELL-HOLY_WORD"/>
+	</SPELL_PACK-ELANA>
+	<SPELL_PACK-GREYFAIRER>
+		<Spell VALUE="SPELL-ICE_BOLT"/>
+		<Spell VALUE="SPELL-PETRIFY"/>
+		<Spell VALUE="SPELL-WEB"/>
+	</SPELL_PACK-GREYFAIRER>
+	<SPELL_PACK-JAER>
+		<Spell VALUE="SPELL-GUARDIAN_WIND"/>
+		<Spell VALUE="SPELL-WORD_OF_RECALL"/>
+	</SPELL_PACK-JAER>
+	<SPELL_PACK-MALLEUS>
+		<Spell VALUE="SPELL-FIRE_BOLT"/>
+		<Spell VALUE="SPELL-FIREBALL"/>
+		<Spell VALUE="SPELL-FLAME_STRIKE"/>
+		<Spell VALUE="SPELL-FIRE_ELEMENTAL"/>
+	</SPELL_PACK-MALLEUS>
+	<SPELL_PACK-MARCUS>
+		<Spell VALUE="SPELL-RESIST_ELEMENTS"/>
+		<Spell VALUE="SPELL-STONE_SKIN"/>
+	</SPELL_PACK-MARCUS>
+	<SPELL_PACK-MORGANA>
+		<Spell VALUE="SPELL-DARKNESS"/>
+		<Spell VALUE="SPELL-POSSESSION"/>
+		<Spell VALUE="SPELL-BLACK_PRAYER"/>
+		<Spell VALUE="SPELL-MANA_LEAK"/>
+	</SPELL_PACK-MORGANA>
+	<SPELL_PACK-RAKIR>
+		<Spell VALUE="SPELL-RESIST_ELEMENTS"/>
+	</SPELL_PACK-RAKIR>
+	<SPELL_PACK-RAVASHACK>
+		<Spell VALUE="SPELL-WEAKNESS"/>
+		<Spell VALUE="SPELL-BLACK_SLEEP"/>
+		<Spell VALUE="SPELL-ANIMATE_DEAD"/>
+		<Spell VALUE="SPELL-WRACK"/>
+	</SPELL_PACK-RAVASHACK>
+	<SPELL_PACK-REYWIND>
+		<Spell VALUE="SPELL-FLAME_BLADE"/>
+		<Spell VALUE="SPELL-SHATTER"/>
+		<Spell VALUE="SPELL-ELDRITCH_WEAPON"/>
+	</SPELL_PACK-REYWIND>
+	<SPELL_PACK-SERENA>
+		<Spell VALUE="SPELL-HEALING"/>
+	</SPELL_PACK-SERENA>
+	<SPELL_PACK-TORIN>
+		<Spell VALUE="SPELL-HEALING"/>
+		<Spell VALUE="SPELL-HOLY_ARMOR"/>
+		<Spell VALUE="SPELL-LIONHEART"/>
+	</SPELL_PACK-TORIN>
+	<SPELL_PACK-VALANA>
+		<Spell VALUE="SPELL-CONFUSION"/>
+		<Spell VALUE="SPELL-VERTIGO"/>
+	</SPELL_PACK-VALANA>
+	<SPELL_PACK-YRAMRAG>
+		<Spell VALUE="SPELL-LIGHTNING_BOLT"/>
+		<Spell VALUE="SPELL-DOOM_BOLT"/>
+		<Spell VALUE="SPELL-WARP_LIGHTNING"/>
+	</SPELL_PACK-YRAMRAG>
+	<SPELL_PACK-ZALDRON>
+		<Spell VALUE="SPELL-COUNTER_MAGIC"/>
+		<Spell VALUE="SPELL-DISPEL_MAGIC_TRUE"/>
+	</SPELL_PACK-ZALDRON>
+	<SPELL_PACK-AUREUS>
+		<Spell VALUE="SPELL-ELDRITCH_WEAPON"/>
+	</SPELL_PACK-AUREUS>
+
+	<SPELL_PACK-LIF_ARCH_ANGEL>
+	    <Spell VALUE="SPELL-DISPEL_EVIL"/>
+		<Spell VALUE="SPELL-HEALING"/>
+		<Spell VALUE="SPELL-PRAYER"/>
+		<Spell VALUE="SPELL-BLESS"/>
+		<Spell VALUE="SPELL-STAR_FIRES"/>
+		<Spell VALUE="SPELL-HOLY_WEAPON"/>
+		<Spell VALUE="SPELL-HOLY_ARMOR"/>
+		<Spell VALUE="SPELL-HEROISM"/>
+		<Spell VALUE="SPELL-TRUE_LIGHT"/>
+		<Spell VALUE="SPELL-TRUE_SIGHT"/>
+		<Spell VALUE="SPELL-RAISE_DEAD"/>
+		<Spell VALUE="SPELL-INVULNERABILITY"/>
+		<Spell VALUE="SPELL-LIONHEART"/>
+		<Spell VALUE="SPELL-RIGHTEOUSNESS"/>
+	</SPELL_PACK-LIF_ARCH_ANGEL>
+	<SPELL_PACK-SOR_DJINN>
+		<Spell VALUE="SPELL-RESIST_MAGIC"/>
+		<Spell VALUE="SPELL-COUNTER_MAGIC"/>
+		<Spell VALUE="SPELL-DISPEL_MAGIC_TRUE"/>
+		<Spell VALUE="SPELL-GUARDIAN_WIND"/>
+		<Spell VALUE="SPELL-PHANTOM_WARRIORS"/>
+		<Spell VALUE="SPELL-PSIONIC_BLAST"/>
+		<Spell VALUE="SPELL-CONFUSION"/>
+		<Spell VALUE="SPELL-SPELL_LOCK"/>
+		<Spell VALUE="SPELL-WORD_OF_RECALL"/>
+		<Spell VALUE="SPELL-BANISH"/>
+	</SPELL_PACK-SOR_DJINN>
+	<SPELL_PACK-CHA_EFREET>
+		<Spell VALUE="SPELL-FIRE_BOLT"/>
+		<Spell VALUE="SPELL-FIREBALL"/>
+		<Spell VALUE="SPELL-WARP_WOOD"/>
+		<Spell VALUE="SPELL-FIRE_ELEMENTAL"/>
+		<Spell VALUE="SPELL-LIGHTNING_BOLT"/>
+		<Spell VALUE="SPELL-SHATTER"/>
+		<Spell VALUE="SPELL-ELDRITCH_WEAPON"/>
+		<Spell VALUE="SPELL-DISRUPT"/>
+		<Spell VALUE="SPELL-WARP_CREATURE"/>
+	</SPELL_PACK-CHA_EFREET>
+	<SPELL_PACK-REANIMATE_LIF_ARCH_ANGEL>
+		<Spell VALUE="SPELL-WEAKNESS"/>
+		<Spell VALUE="SPELL-LIFE_DRAIN"/>
+		<Spell VALUE="SPELL-CLOAK_OF_FEAR"/>
+		<Spell VALUE="SPELL-BLACK_SLEEP"/>
+		<Spell VALUE="SPELL-MANA_LEAK"/>
+		<Spell VALUE="SPELL-TERROR"/>
+		<Spell VALUE="SPELL-DARKNESS"/>
+		<Spell VALUE="SPELL-BERSERK"/>
+		<Spell VALUE="SPELL-POSSESSION"/>
+		<Spell VALUE="SPELL-BLACK_PRAYER"/>
+		<Spell VALUE="SPELL-WALL_OF_DARKNESS"/>
+		<Spell VALUE="SPELL-WORD_OF_DEATH"/>
+	</SPELL_PACK-REANIMATE_LIF_ARCH_ANGEL>
+	<SPELL_PACK-REANIMATE_DJINN_EFREET>
+		<Spell VALUE="SPELL-WEAKNESS"/>
+		<Spell VALUE="SPELL-LIFE_DRAIN"/>
+		<Spell VALUE="SPELL-CLOAK_OF_FEAR"/>
+		<Spell VALUE="SPELL-BLACK_SLEEP"/>
+		<Spell VALUE="SPELL-MANA_LEAK"/>
+		<Spell VALUE="SPELL-TERROR"/>
+	</SPELL_PACK-REANIMATE_DJINN_EFREET>
+	
+	<!--Nature spells-->
+	<!--Common-->
+	<SPELL-EARTH_TO_MUD BattleCost="15">
+		<DescriptionInfo Name="DES_EARTH_TO_MUD" Description="DES_EARTH_TO_MUD_DES" Graphic="SpellEarthToMud"/>
+		<ResearchCost VALUE="20"/>
+		<FIntData VALUE="3"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetLandHex"/>
+		<BattleScript VALUE="SBH_MassSlow"/>
+		<EnchantmentData VALUE="ENCH-EARTH_TO_MUD"/>
+		<AIBattleEvaluationScript VALUE="SBAI_EarthToMud"/>
+		<CastEffect VALUE="Effect_EarthToMud"/>
+		<AudioEffect VALUE="SpellEarthToMud"/>
+		<InvalidTarget VALUE="DES_EARTH_TO_MUD_TARGET"/>
+	</SPELL-EARTH_TO_MUD>
+	<SPELL-RESIST_ELEMENTS WorldCost="25" BattleCost="5">
+		<DescriptionInfo Name="DES_RESIST_ELEMENTS" Description="DES_RESIST_ELEMENTS_DES" Graphic="SpellResistElements"/>
+		<ResearchCost VALUE="40" />
+		<UpkeepCost VALUE="1" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-RESIST_ELEMENTS"/>
+		<AIBattleEvaluationScript VALUE="SBAI_ResistElementals"/>
+		<AIWorldEvaluationScript VALUE="SWAI_ResistElementals"/>
+		<CastEffect VALUE="Effect_ResistElements"/>
+		<AudioEffect VALUE="SpellResistElements"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-RESIST_ELEMENTS>
+	<SPELL-WALL_OF_STONE WorldCost="50" >
+		<DescriptionInfo Name="DES_WALL_OF_STONE" Description="DES_WALL_OF_STONE_DES" Graphic="SpellWallOfStone"/>
+		<ResearchCost VALUE="60"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_AddBuildingWallOfStone"/>
+		<WorldScript VALUE="SWG_AddBuilding"/>
+		<BuildingData VALUE="BUILDING-CITY_WALLS"/>
+		<AIWorldEvaluationScript VALUE="SWAI_WallOfStone"/>
+		<CastEffect VALUE="Effect_WallOfStone"/>
+		<AudioEffect VALUE="SpellWallOfStone"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WALL_OF_STONE>
+	<SPELL-GIANT_STRENGTH WorldCost="40" BattleCost="8">
+		<DescriptionInfo Name="DES_GIANT_STRENGTH" Description="DES_GIANT_STRENGTH_DES" Graphic="SpellGiantStrength"/>
+		<ResearchCost VALUE="80"/>
+		<UpkeepCost VALUE="1" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-GIANT_STRENGTH"/>
+		<AIWorldEvaluationScript VALUE="SWAI_GiantStrength"/>
+		<CastEffect VALUE="Effect_GiantStrength"/>
+		<AudioEffect VALUE="SpellGiantStrength"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-GIANT_STRENGTH>
+	<SPELL-WEB BattleCost="10">
+		<DescriptionInfo Name="DES_WEB" Description="DES_WEB_DES" Graphic="SpellWeb"/>
+		<ResearchCost VALUE="100"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoNonCorporeal_Unit"/>
+		<BattleScript VALUE="SBG_Web"/>
+		<FIntData VALUE="3"/>
+		<EnchantmentData VALUE="ENCH-WEB"/>
+		<EnchantmentData VALUE="ENCH-WEB_NO_FLY"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Web"/>
+		<CastEffect VALUE="Effect_Web"/>
+		<AudioEffect VALUE="SpellWeb"/>
+	</SPELL-WEB>
+	<SPELL-WAR_BEARS WorldCost="70" >
+		<DescriptionInfo Name="DES_WAR_BEARS" Description="DES_WAR_BEARS_DES" Graphic="SpellWarBears"/>
+		<ResearchCost VALUE="130"/>
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-NTR_WAR_BEARS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WAR_BEARS>
+	<SPELL-STONE_SKIN WorldCost="50" BattleCost="10">
+		<DescriptionInfo Name="DES_STONE_SKIN" Description="DES_STONE_SKIN_DES" Graphic="SpellStoneSkin"/>
+		<ResearchCost VALUE="160"/>
+		<UpkeepCost VALUE="1" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-STONE_SKIN"/>
+		<AIWorldEvaluationScript VALUE="SWAI_StoneSkin"/>
+		<CastEffect VALUE="Effect_StoneSkin"/>
+		<AudioEffect VALUE="SpellStoneSkin"/>
+	</SPELL-STONE_SKIN>
+	<SPELL-WATER_WALKING WorldCost="50" >
+		<DescriptionInfo Name="DES_WATER_WALKING" Description="DES_WATER_WALKING_DES" Graphic="SpellWaterWalking"/>
+		<ResearchCost VALUE="190"/>
+		<UpkeepCost VALUE="1" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Common"/>		
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_WaterWalking"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-WATER_WALKING"/>
+		<AIWorldEvaluationScript VALUE="SWAI_WaterWalk"/>
+		<CastEffect VALUE="Effect_WaterWalking"/>
+		<AudioEffect VALUE="SpellWaterWalking"/>
+	</SPELL-WATER_WALKING>
+	<SPELL-SPRITES WorldCost="100" >
+		<DescriptionInfo Name="DES_SPRITES" Description="DES_SPRITES_DES" Graphic="SpellSprites"/>
+		<ResearchCost VALUE="220"/>
+		<UpkeepCost VALUE="3" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-NTR_SPRITES"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SPRITES>
+	<SPELL-EARTH_LORE WorldCost="30">
+		<DescriptionInfo Name="DES_EARTH_LORE" Description="DES_EARTH_LORE_DES" Graphic="SpellEarthLore"/>
+		<ResearchCost VALUE="250"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_WorldHex"/>
+		<WorldScript VALUE="SWO_EarthLore"/>
+		<AIWorldEvaluationScript VALUE="SWAI_IrrelevantForAI"/>
+		<CastEffect VALUE="Effect_EarthLore"/>
+        <AudioEffect VALUE="SpellEarthLore"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-EARTH_LORE>
+	<!--UnCommon-->
+	<SPELL-CRACKS_CALL BattleCost="25" UnitBattleCost="22">
+		<DescriptionInfo Name="DES_CRACKS_CALL" Description="DES_CRACKS_CALL_DES" Graphic="SpellCracksCall"/>
+		<ResearchCost VALUE="300"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_CracksCall"/>
+		<BattleScript VALUE="SBG_CrackCall"/>
+		<DamagePool VALUE="Irreversible"/>
+		<AIBattleEvaluationScript VALUE="SBAI_CracksCall"/>
+		<CastEffect VALUE="Effect_CracksCall"/>
+        <AudioEffect VALUE="SpellCracksCall"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CRACKS_CALL>
+	<SPELL-NATURES_EYE WorldCost="75">
+		<DescriptionInfo Name="DES_NATURES_EYE" Description="DES_NATURES_EYE_DES" Graphic="SpellNaturesEye"/>
+		<ResearchCost VALUE="350"/>
+		<UpkeepCost VALUE="1" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-NATURES_EYE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_IrrelevantForAI"/>
+		<CastEffect VALUE="Effect_NaturesEye"/>
+		<AudioEffect VALUE="SpellNaturesEye"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-NATURES_EYE>
+	<SPELL-ICE_BOLT BattleCost="10">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType ="DES_CHANGEABLE_COST_DAMAGE"/>
+		<DescriptionInfo Name="DES_ICE_BOLT" Description="DES_ICE_BOLT_DES" Graphic="SpellIceBolt"/>
+		<ResearchCost VALUE="400"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoColdImmu_Unit"/>
+		<FIntData VALUE="5"/>
+		<BattleScript VALUE="SBG_IceBolt"/>
+		<CastEffect VALUE="Effect_IceBolt"/>
+		<AudioEffect VALUE="SpellIceBolt"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ICE_BOLT>
+	<SPELL-GIANT_SPIDERS WorldCost="200">
+		<DescriptionInfo Name="DES_GIANT_SPIDERS" Description="DES_GIANT_SPIDERS_DES" Graphic="SpellGiantSpiders"/>
+		<ResearchCost VALUE="450"/>
+		<UpkeepCost VALUE="4" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-NTR_GIANT_SPIDERS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-GIANT_SPIDERS>
+	<SPELL-CHANGE_TERRAIN WorldCost="50">
+		<DescriptionInfo Name="DES_CHANGE_TERRAIN" Description="DES_CHANGE_TERRAIN_DES" Graphic="SpellChangeTerrain"/>
+		<ResearchCost VALUE="500"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_ChangeTerrain"/>
+		<WorldScript VALUE="SWO_ChangeTerrain"/>
+		<AIWorldEvaluationScript VALUE="SWAI_ChangeTerrain"/>
+		<CastEffect VALUE="Effect_ChangeTerrain"/>
+		<AudioEffect VALUE="SpellChangeTerrain"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CHANGE_TERRAIN>
+	<SPELL-PATH_FINDING WorldCost="50">
+		<DescriptionInfo Name="DES_PATH_FINDING" Description="DES_PATH_FINDING_DES" Graphic="SpellPathFinding"/>
+		<ResearchCost VALUE="560"/>
+		<UpkeepCost VALUE="1" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-PATH_FINDING"/>
+		<AIWorldEvaluationScript VALUE="SWAI_PathFinding"/>
+		<CastEffect VALUE="Effect_PathFinding"/>
+		<AudioEffect VALUE="SpellPathFinding"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-PATH_FINDING>
+	<SPELL-COCKATRICES WorldCost="275">
+		<DescriptionInfo Name="DES_COCKATRICES" Description="DES_COCKATRICES_DES" Graphic="SpellCockatrices"/>
+		<ResearchCost VALUE="620"/>
+		<UpkeepCost VALUE="8" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-NTR_COCKATRICES"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-COCKATRICES>
+	<SPELL-TRANSMUTE WorldCost="60">
+		<DescriptionInfo Name="DES_TRANSMUTE" Description="DES_TRANSMUTE_DES" Graphic="SpellTransmute"/>
+		<ResearchCost VALUE="680"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TransmuteResource"/>
+		<WorldScript VALUE="SWO_TransmuteResource"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Transmute"/>
+		<CastEffect VALUE="Effect_Transmute"/>
+		<AudioEffect VALUE="SpellTransmute"/>
+		<InvalidTarget VALUE="DES_TRANSMUTE_TARGET"/>
+	</SPELL-TRANSMUTE>
+	<SPELL-NATURES_CURES WorldCost="75">
+		<DescriptionInfo Name="DES_NATURES_CURES" Description="DES_NATURES_CURES_DES" Graphic="SpellNaturesCures"/>
+		<ResearchCost VALUE="740"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-GROUP_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyGroup"/>
+		<WorldScript VALUE="SWG_NaturesCures"/>
+		<AIWorldEvaluationScript VALUE="SWAI_NatureCurs"/>
+		<CastEffect VALUE="Effect_NaturesCures"/>
+		<AudioEffect VALUE="SpellNaturesCures"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-NATURES_CURES>
+	<SPELL-BASILISK WorldCost="325">
+		<DescriptionInfo Name="DES_BASILISK" Description="DES_BASILISK_DES" Graphic="SpellBasilisk"/>
+		<ResearchCost VALUE="800"/>
+		<UpkeepCost VALUE="7" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-NTR_BASILISK"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-BASILISK>
+	<!--Rare-->
+	<SPELL-ELEMENTAL_ARMOR WorldCost="175" BattleCost="35" UnitBattleCost="28">
+		<DescriptionInfo Name="DES_ELEMENTAL_ARMOR" Description="DES_ELEMENTAL_ARMOR_DES" Graphic="SpellElementalArmor"/>
+		<ResearchCost VALUE="880"/>
+		<UpkeepCost VALUE="5" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-ELEMENTAL_ARMOR"/>
+		<AIBattleEvaluationScript VALUE="SBAI_ElementalArmor"/>
+		<AIWorldEvaluationScript VALUE="SWAI_ElementalArmor"/>
+		<CastEffect VALUE="Effect_ElementalArmor"/>
+		<AudioEffect VALUE="SpellElementalArmor"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ELEMENTAL_ARMOR>
+	<SPELL-PETRIFY BattleCost="35" UnitBattleCost="28">
+		<DescriptionInfo Name="DES_PETRIFY" Description="DES_PETRIFY_DES" Graphic="SpellPetrify"/>
+		<ResearchCost VALUE="960"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoStoneImmu_Unit"/>
+		<BattleScript VALUE="SBG_Petrify"/>
+		<DamagePool VALUE="Irreversible"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Petrify"/>
+		<CastEffect VALUE="Effect_Petrify"/>
+		<AudioEffect VALUE="SpellPetrify"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-PETRIFY>
+	<SPELL-STONE_GIANT WorldCost="450">
+		<DescriptionInfo Name="DES_STONE_GIANT" Description="DES_STONE_GIANT_DES" Graphic="SpellStoneGiant"/>
+		<ResearchCost VALUE="1040"/>
+		<UpkeepCost VALUE="9" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-NTR_STONE_GIANT"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-STONE_GIANT>
+	<SPELL-IRON_SKIN WorldCost="200" BattleCost="40" UnitBattleCost="30">
+		<DescriptionInfo Name="DES_IRON_SKIN" Description="DES_IRON_SKIN_DES" Graphic="SpellIronSkin"/>
+		<ResearchCost VALUE="1120"/>
+		<UpkeepCost VALUE="5" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-IRON_SKIN"/>
+		<AIWorldEvaluationScript VALUE="SWAI_IronSkin"/>
+		<CastEffect VALUE="Effect_IronSkin"/>
+		<AudioEffect VALUE="SpellIronSkin"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-IRON_SKIN>
+	<SPELL-ICE_STORM WorldCost="200">
+		<DescriptionInfo Name="DES_ICE_STORM" Description="DES_ICE_STORM_DES" Graphic="SpellIceStorm"/>
+		<ResearchCost VALUE="1200"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-GROUP_ENEMY"/>
+		<FIntData VALUE="6"/>
+		<TargetingScript VALUE="STAR_EnemyGroup"/>
+		<WorldScript VALUE="SWG_IceStorm"/>
+		<AIWorldEvaluationScript VALUE="SWAI_IceStorm"/>
+		<CastEffect VALUE="Effect_IceStorm"/>
+		<AudioEffect VALUE="SpellIceStorm"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ICE_STORM>
+	<SPELL-EARTHQUAKE WorldCost="200">
+		<DescriptionInfo Name="DES_EARTHQUAKE" Description="DES_EARTHQUAKE_DES" Graphic="SpellEarthquake"/>
+		<ResearchCost VALUE="1300"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyTown"/>
+		<WorldScript VALUE="SWG_Earthquake"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Earthquake"/>
+		<CastEffect VALUE="Effect_Earthquake"/>
+		<AudioEffect VALUE="SpellEarthquake"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-EARTHQUAKE>
+	<SPELL-GORGONS WorldCost="600">
+		<DescriptionInfo Name="DES_GORGONS" Description="DES_GORGONS_DES" Graphic="SpellGorgons"/>
+		<ResearchCost VALUE="1400"/>
+		<UpkeepCost VALUE="15" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-NTR_GORGONS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-GORGONS>
+	<SPELL-MOVE_FORTRESS WorldCost="200">
+		<DescriptionInfo Name="DES_MOVE_FORTRESS" Description="DES_MOVE_FORTRESS_DES" Graphic="SpellMoveFortress"/>
+		<ResearchCost VALUE="1500"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_MoveFortress"/>
+		<AIWorldEvaluationScript VALUE="SWAI_MoveFortress"/>
+		<CastEffect VALUE="Effect_MoveFortress"/>
+		<AudioEffect VALUE="SpellMoveFortress"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-MOVE_FORTRESS>
+	<SPELL-GAIAS_BLESSING WorldCost="300">
+		<DescriptionInfo Name="DES_GAIAS_BLESSING" Description="DES_GAIAS_BLESSING_DES" Graphic="SpellGaiasBlessing"/>
+		<ResearchCost VALUE="1600"/>
+		<UpkeepCost VALUE="3" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTownNoOutpost"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-GAIAS_BLESSING"/>
+		<AIWorldEvaluationScript VALUE="SWAI_GaiasBlessing"/>
+		<CastEffect VALUE="Effect_GaiasBlessing"/>
+		<AudioEffect VALUE="SpellGaiasBlessing"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-GAIAS_BLESSING>
+	<SPELL-EARTH_ELEMENTAL BattleCost="60" UnitBattleCost="40">
+		<DescriptionInfo Name="DES_EARTH_ELEMENTAL" Description="DES_EARTH_ELEMENTAL_DES" Graphic="SpellEarthElemental"/>
+		<ResearchCost VALUE="1700"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetEmptyLandBattleHex"/>
+		<StringData VALUE="UNIT-NTR_EARTH_ELEMENTAL"/>
+		<BattleScript VALUE="SBH_BattleSummon"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-EARTH_ELEMENTAL>
+	<!--VRare-->
+	<SPELL-REGENERATION WorldCost="300" BattleCost="60" UnitBattleCost="40">
+		<DescriptionInfo Name="DES_REGENERATION" Description="DES_REGENERATION_DES" Graphic="SpellRegeneration"/>
+		<ResearchCost VALUE="1850"/>
+		<UpkeepCost VALUE="10" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-REGENERATION"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Regeneration"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Regeneration"/>
+		<CastEffect VALUE="Effect_Regeneration"/>
+		<AudioEffect VALUE="SpellRegeneration"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-REGENERATION>
+	<SPELL-BEHEMOTH WorldCost="700">
+		<DescriptionInfo Name="DES_BEHEMOTH" Description="DES_BEHEMOTH_DES" Graphic="SpellBehemoth"/>
+		<ResearchCost VALUE="2000"/>
+		<UpkeepCost VALUE="15" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-NTR_BEHEMOTH"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-BEHEMOTH>
+	<SPELL-ENTANGLE BattleCost="50" UnitBattleCost="33">
+		<DescriptionInfo Name="DES_ENTANGLE" Description="DES_ENTANGLE_DES" Graphic="SpellEntangle"/>
+		<ResearchCost VALUE="2250"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyBattlePlayer"/>
+		<BattleScript VALUE="SBW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-ENTANGLE"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Entangle"/>
+		<CastEffect VALUE="Effect_Entangle"/>
+		<BattleCastEffect VALUE="GlobalNature"/>
+		<AudioEffect VALUE=""/> <!--audio comes from enchantment script-->
+		<InvalidTarget VALUE=""/>
+	</SPELL-ENTANGLE>
+	<SPELL-NATURE_AWARENESS WorldCost="800">
+		<DescriptionInfo Name="DES_NATURE_AWARENESS" Description="DES_NATURE_AWARENESS_DES" Graphic="SpellNatureAwareness"/>
+		<ResearchCost VALUE="2500"/>
+		<UpkeepCost VALUE="7" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnWizard"/>
+		<WorldScript VALUE="SWW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-NATURE_AWARENESS"/>
+		<AIWorldEvaluationScript VALUE="SWAI_IrrelevantForAI"/>
+		<CastEffect VALUE="Effect_NatureAwareness"/>
+        <AdditionalGraphic VALUE="GlobalNatureAwareness"/>
+		<AudioEffect VALUE="SpellNatureAwareness"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-NATURE_AWARENESS>
+	<SPELL-CALL_LIGHTNING BattleCost="60" UnitBattleCost="40">
+		<DescriptionInfo Name="DES_CALL_LIGHTNING" Description="DES_CALL_LIGHTNING_DES" Graphic="SpellCallLightning"/>
+		<ResearchCost VALUE="3000"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyBattlePlayer"/>
+		<BattleScript VALUE="SBW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-CALL_LIGHTNING"/>
+		<AIBattleEvaluationScript VALUE="SBAI_CallLightning"/>
+		<CastEffect VALUE="Effect_CallLightning"/>
+		<BattleCastEffect VALUE="GlobalCallLightning"/>
+		<AudioEffect VALUE="SpellCallLightning"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CALL_LIGHTNING>
+	<SPELL-CALL_LIGHTNING2 UnitBattleCost="20">
+		<DescriptionInfo Name="DES_CALL_LIGHTNING" Description="DES_CALL_LIGHTNING_DES" Graphic="SpellCallLightning"/>
+		<ResearchCost VALUE="3000"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyBattlePlayer"/>
+		<BattleScript VALUE="SBW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-CALL_LIGHTNING"/>
+		<AIBattleEvaluationScript VALUE="SBAI_CallLightning"/>
+		<CastEffect VALUE="Effect_CallLightning"/>
+		<BattleCastEffect VALUE="GlobalCallLightning"/>
+		<AudioEffect VALUE="SpellCallLightning"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CALL_LIGHTNING2>
+	<SPELL-COLOSSUS WorldCost="800">
+		<DescriptionInfo Name="DES_COLOSSUS" Description="DES_COLOSSUS_DES" Graphic="SpellCollosus"/>
+		<ResearchCost VALUE="3500"/>
+		<UpkeepCost VALUE="17" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-NTR_COLOSSUS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-COLOSSUS>
+	<SPELL-EARTH_GATE WorldCost="250">
+		<DescriptionInfo Name="DES_EARTH_GATE" Description="DES_EARTH_GATE_DES" Graphic="SpellEarthGate"/>
+		<ResearchCost VALUE="4000"/>
+		<UpkeepCost VALUE="5" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-EARTH_GATE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Placeholder"/>
+		<CastEffect VALUE="Effect_EarthGate"/>
+		<AudioEffect VALUE="SpellEarthGate"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-EARTH_GATE>
+	<SPELL-HERB_MASTERY WorldCost="1000">
+		<DescriptionInfo Name="DES_HERB_MASTERY" Description="DES_HERB_MASTERY_DES" Graphic="SpellHerbMastery"/>
+		<ResearchCost VALUE="4500"/>
+		<UpkeepCost VALUE="10" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnWizard"/>
+		<WorldScript VALUE="SWW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-HERB_MASTERY"/>
+		<AIWorldEvaluationScript VALUE="SWAI_HerbMastery"/>
+		<CastEffect VALUE="Effect_HerbMastery"/>
+        <AdditionalGraphic VALUE="GlobalHerbMastery"/>
+		<AudioEffect VALUE="SpellHerbMastery"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-HERB_MASTERY>
+	<SPELL-GREAT_WYRM WorldCost="1000">
+		<DescriptionInfo Name="DES_GREAT_WYRM" Description="DES_GREAT_WYRM_DES" Graphic="SpellGreatWyrm"/>
+		<ResearchCost VALUE="5000"/>
+		<UpkeepCost VALUE="20" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-NTR_GREAT_WYRM"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-GREAT_WYRM>
+	<SPELL-NATURES_WRATH WorldCost="1250">
+		<DescriptionInfo Name="DES_NATURES_WRATH" Description="DES_NATURES_WRATH_DES" Graphic="SpellNaturesWrath"/>
+		<ResearchCost VALUE="6000"/>
+		<UpkeepCost VALUE="10" />
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-NATURES_WRATH_MAIN"/>
+		<AIWorldEvaluationScript VALUE="SWAI_NaturesWrath"/>
+		<CastEffect VALUE="Effect_NaturesWrath"/>
+        <AdditionalGraphic VALUE="GlobalNaturesWrath"/>
+		<AudioEffect VALUE="SpellNaturesWrath"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-NATURES_WRATH>
+
+	<!--Chaos spells-->
+	<!--Common-->
+	<SPELL-WARP_WOOD BattleCost="10">
+		<DescriptionInfo Name="DES_WARP_WOOD" Description="DES_WARP_WOOD_DES" Graphic="SpellWarpWood"/>
+		<ResearchCost VALUE="20"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_NonFantasticEnemyWithAmmoNoRighteousnessImmu_Unit"/>
+		<BattleScript VALUE="SBG_WarpWood"/>
+		<AIBattleEvaluationScript VALUE="SBAI_WarpWood"/>
+		<CastEffect VALUE="Effect_WarpWood"/>
+		<AudioEffect VALUE="SpellWarpWood"/>
+		<InvalidTarget VALUE="DES_WARP_WOOD_TARGET"/>
+	</SPELL-WARP_WOOD>
+	<SPELL-DISRUPT BattleCost="15">
+		<DescriptionInfo Name="DES_DISRUPT" Description="DES_DISRUPT_DES" Graphic="SpellDistrupt"/>
+		<ResearchCost VALUE="40"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_BattleWall"/>
+		<BattleScript VALUE="SBH_Disrupt"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Disrupt"/>
+		<CastEffect VALUE="Effect_Disrupt"/>
+		<AudioEffect VALUE="SpellDistrupt"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DISRUPT>
+	<SPELL-FIRE_BOLT BattleCost="5">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType ="DES_CHANGEABLE_COST_DAMAGE"/>
+		<DescriptionInfo Name="DES_FIRE_BOLT" Description="DES_FIRE_BOLT_DES" Graphic="SpellFireBolt"/>
+		<ResearchCost VALUE="60"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoFireImmu_Unit"/>
+		<FIntData VALUE="5"/>
+		<BattleScript VALUE="SBG_FireBolt"/>
+		<CastEffect VALUE="Effect_FireBolt"/>
+		<AudioEffect VALUE="SpellFireBolt"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-FIRE_BOLT>
+	<SPELL-HELL_HOUNDS WorldCost="40">
+		<DescriptionInfo Name="DES_HELL_HOUNDS" Description="DES_HELL_HOUNDS_DES" Graphic="SpellHellHounds"/>
+		<ResearchCost VALUE="80"/>
+		<UpkeepCost VALUE="1" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-CHA_HELL_HOUNDS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-HELL_HOUNDS>
+	<SPELL-CORRUPTION WorldCost="40">
+		<DescriptionInfo Name="DES_CORRUPTION" Description="DES_CORRUPTION_DES" Graphic="SpellCorruption"/>
+		<ResearchCost VALUE="100"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetLandHex"/>
+		<WorldScript VALUE="SWO_Corruption"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Corruption"/>
+		<CastEffect VALUE="Effect_Corruption"/>
+		<AudioEffect VALUE="SpellCorruption"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CORRUPTION>
+	<SPELL-ELDRITCH_WEAPON WorldCost="75" BattleCost="15">
+		<DescriptionInfo Name="DES_ELDRITCH_WEAPON" Description="DES_ELDRITCH_WEAPON_DES" Graphic="SpellEldritchWeapon"/>
+		<ResearchCost VALUE="130"/>
+		<UpkeepCost VALUE="1" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyNonFantastic_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-ELDRITCH_WEAPON"/>
+		<AIBattleEvaluationScript VALUE="SBAI_EldritchWeapon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_EldritchWeapon"/>
+		<CastEffect VALUE="Effect_EldritchWeapon"/>
+		<AudioEffect VALUE="SpellEldritchWeapon"/>
+		<InvalidTarget VALUE="DES_ELDRITCH_WEAPON_TARGET"/>
+	</SPELL-ELDRITCH_WEAPON>
+	<SPELL-WALL_OF_FIRE WorldCost="150" BattleCost="30" UnitBattleCost="24">
+		<DescriptionInfo Name="DES_WALL_OF_FIRE" Description="DES_WALL_OF_FIRE_DES" Graphic="SpellWallOfFire"/>
+		<ResearchCost VALUE="160"/>
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-HEX_BATTLE_GLOBAL"/>
+		<TargetingScript VALUE="STAR_WallFriendlyTownOrWallTownBattle"/>
+		<WorldScript VALUE="SWG_ApplyMagicWallEnchantment"/>
+		<BattleScript VALUE="SBG_ApplyMagicWallEnchantment"/>
+		<EnchantmentData VALUE="ENCH-WALL_OF_FIRE"/>
+		<AIBattleEvaluationScript VALUE="SBAI_WallOfFire"/>
+		<AIWorldEvaluationScript VALUE="SWAI_WallOfFire"/>
+		<CastEffect VALUE="Effect_WallOfFire"/>
+		<AudioEffect VALUE="SpellWallOfFire"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WALL_OF_FIRE>
+	<SPELL-SHATTER BattleCost="12">
+		<DescriptionInfo Name="DES_SHATTER" Description="DES_SHATTER_DES" Graphic="SpellShatter"/>
+		<ResearchCost VALUE="190"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoRighteousnessImmu_Unit"/>
+		<BattleScript VALUE="SBG_ResistCheckAgainstEnchantment"/>
+		<FIntData VALUE="0"/>
+		<EnchantmentData VALUE="ENCH-SHATTER"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Shatter"/>
+		<CastEffect VALUE="Effect_Shatter"/>
+		<AudioEffect VALUE="SpellShatter"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SHATTER>
+	<SPELL-WARP_CREATURE BattleCost="18" UnitBattleCost="16">
+		<DescriptionInfo Name="DES_WARP_CREATURE" Description="DES_WARP_CREATURE_DES" Graphic="SpellWarpCreature"/>
+		<ResearchCost VALUE="250"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoRighteousnessImmu_Unit"/>
+		<FIntData VALUE="1"/>
+		<BattleScript VALUE="SBG_WarpCreature"/>
+		<EnchantmentData VALUE="ENCH-WARP_CREATURE1"/>
+		<EnchantmentData VALUE="ENCH-WARP_CREATURE2"/>
+		<EnchantmentData VALUE="ENCH-WARP_CREATURE3"/>
+		<AIBattleEvaluationScript VALUE="SBAI_WarpCreature"/>
+		<CastEffect VALUE="Effect_WarpCreature"/>
+		<AudioEffect VALUE="SpellWarpCreature"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WARP_CREATURE>
+	<SPELL-FIRE_ELEMENTAL BattleCost="20" UnitBattleCost="18">
+		<DescriptionInfo Name="DES_FIRE_ELEMENTAL" Description="DES_FIRE_ELEMENTAL_DES" Graphic="SpellFireElemental"/>
+		<ResearchCost VALUE="250"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetEmptyLandBattleHex"/>
+		<StringData VALUE="UNIT-CHA_FIRE_ELEMENTAL"/>
+		<BattleScript VALUE="SBH_BattleSummon"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-FIRE_ELEMENTAL>
+	<!--UnCommon-->
+	<SPELL-LIGHTNING_BOLT BattleCost="10">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType ="DES_CHANGEABLE_COST_DAMAGE"/>
+		<DescriptionInfo Name="DES_LIGHTNING_BOLT" Description="DES_LIGHTNING_BOLT_DES" Graphic="SpellLightningBolt"/>
+		<ResearchCost VALUE="300"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoRighteousnessImmu_Unit"/>
+		<FIntData VALUE="5"/>
+		<BattleScript VALUE="SBG_LightningBolt"/>
+		<BattleAttackEffect VALUE="Piercing"/>
+		<CastEffect VALUE="Effect_LightningBolt"/>
+		<AudioEffect VALUE="SpellLightningBolt"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-LIGHTNING_BOLT>
+	<SPELL-FIRE_GIANT WorldCost="150">
+		<DescriptionInfo Name="DES_FIRE_GIANT" Description="DES_FIRE_GIANT_DES" Graphic="SpellFireGiant"/>
+		<ResearchCost VALUE="350"/>
+		<UpkeepCost VALUE="3" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-CHA_FIRE_GIANT"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-FIRE_GIANT>
+	<SPELL-CHAOS_CHANNELS WorldCost="50">
+		<DescriptionInfo Name="DES_CHAOS_CHANNELS" Description="DES_CHAOS_CHANNELS_DES" Graphic="SpellChaosChannels"/>
+		<ResearchCost VALUE="400"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyNonFantastic_Unit"/>
+		<WorldScript VALUE="SWG_ChaosChannels"/>
+		<StringData VALUE="SKILL-CHAOS_CHANNELS1"/>
+		<StringData VALUE="SKILL-CHAOS_CHANNELS2"/>
+		<StringData VALUE="SKILL-CHAOS_CHANNELS3"/>
+		<AIWorldEvaluationScript VALUE="SWAI_ChaosChannels"/>
+		<CastEffect VALUE="Effect_ChaosChannels"/>
+		<AudioEffect VALUE="SpellChaosChannels"/>
+		<InvalidTarget VALUE="DES_CHAOS_CHANNELS_TARGET"/>
+	</SPELL-CHAOS_CHANNELS>
+	<SPELL-FLAME_BLADE WorldCost="125" BattleCost="25" UnitBattleCost="22">
+		<DescriptionInfo Name="DES_FLAME_BLADE" Description="DES_FLAME_BLADE_DES" Graphic="SpellFlameBlade"/>
+		<ResearchCost VALUE="450"/>
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyNonFantastic_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-FLAME_BLADE"/>
+		<AIBattleEvaluationScript VALUE="SBAI_FlameBlade"/>
+		<AIWorldEvaluationScript VALUE="SWAI_FlameBlade"/>
+		<CastEffect VALUE="Effect_FlameBlade"/>
+		<AudioEffect VALUE="SpellFlameBlade"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-FLAME_BLADE>
+	<SPELL-GARGOYLES WorldCost="200">
+		<DescriptionInfo Name="DES_GARGOYLES" Description="DES_GARGOYLES_DES" Graphic="SpellGargoyles"/>
+		<ResearchCost VALUE="500"/>
+		<UpkeepCost VALUE="5" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-CHA_GARGOYLES"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-GARGOYLES>
+	<SPELL-FIREBALL BattleCost="15">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="3" DesType ="DES_CHANGEABLE_COST_DAMAGE"/>
+		<DescriptionInfo Name="DES_FIREBALL" Description="DES_FIREBALL_DES" Graphic="SpellFireball"/>
+		<ResearchCost VALUE="560"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoFireImmu_Unit"/>
+		<FIntData VALUE="5"/>
+		<BattleScript VALUE="SBG_FireBall"/>
+		<CastEffect VALUE="Effect_Fireball"/>
+		<AudioEffect VALUE="SpellFireball"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-FIREBALL>
+	<SPELL-DOOM_BAT WorldCost="300">
+		<DescriptionInfo Name="DES_DOOM_BAT" Description="DES_DOOM_BAT_DES" Graphic="SpellDoomBat"/>
+		<ResearchCost VALUE="620"/>
+		<UpkeepCost VALUE="8" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-CHA_DOOM_BAT"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DOOM_BAT>
+	<SPELL-RAISE_VOLCANO WorldCost="200">
+		<DescriptionInfo Name="DES_RAISE_VOLCANO" Description="DES_RAISE_VOLCANO_DES" Graphic="SpellRaiseVolcano"/>
+		<ResearchCost VALUE="680"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_RaiseVolcano"/>
+		<WorldScript VALUE="SWO_RaiseVolcano"/>
+		<AIWorldEvaluationScript VALUE="SWAI_RaiseVolcano"/>
+		<CastEffect VALUE="Effect_RaiseVolcano"/>
+		<AudioEffect VALUE="SpellRaiseVolcano"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-RAISE_VOLCANO>
+	<SPELL-IMMOLATION WorldCost="150" BattleCost="30" UnitBattleCost="24">
+		<DescriptionInfo Name="DES_IMMOLATION" Description="DES_IMMOLATION_DES" Graphic="SpellImmolation"/>
+		<ResearchCost VALUE="740"/>
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Immolation"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Immolation"/>
+		<EnchantmentData VALUE="ENCH-IMMOLATION"/>
+		<CastEffect VALUE="Effect_Immolation"/>
+		<AudioEffect VALUE="SpellImmolation"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-IMMOLATION>
+	<SPELL-CHIMERAS  WorldCost="350">
+		<DescriptionInfo Name="DES_CHIMERAS" Description="DES_CHIMERAS_DES" Graphic="SpellChimeras"/>
+		<ResearchCost VALUE="800"/>
+		<UpkeepCost VALUE="10" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-CHA_CHIMERAS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CHIMERAS>
+	<!--Rare-->
+	<SPELL-WARP_LIGHTNING BattleCost="35" UnitBattleCost="28">
+		<DescriptionInfo Name="DES_WARP_LIGHTNING" Description="DES_WARP_LIGHTNING_DES" Graphic="SpellWarpLightning"/>
+		<ResearchCost VALUE="880"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoRighteousnessImmu_Unit"/>
+		<FIntData VALUE="10"/>
+		<BattleScript VALUE="SBG_WarpLightning"/>
+		<BattleAttackEffect VALUE="Piercing"/>
+		<CastEffect VALUE="Effect_WarpLightning"/>
+		<AudioEffect VALUE="SpellWarpLightning"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WARP_LIGHTNING>
+	<SPELL-METAL_FIRES BattleCost="40" UnitBattleCost="30">
+		<DescriptionInfo Name="DES_METAL_FIRES" Description="DES_METAL_FIRES_DES" Graphic="SpellMetalFires"/>
+		<ResearchCost VALUE="960"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnBattlePlayer"/>
+		<BattleScript VALUE="SBW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-METAL_FIRES"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MetalFires"/>
+		<CastEffect VALUE="Effect_MetalFires"/>
+		<AudioEffect VALUE="SpellMetalFires"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-METAL_FIRES>
+	<SPELL-CHAOS_SPAWN WorldCost="500">
+		<DescriptionInfo Name="DES_CHAOS_SPAWN" Description="DES_CHAOS_SPAWN_DES" Graphic="SpellChaosSpawn"/>
+		<ResearchCost VALUE="1040"/>
+		<UpkeepCost VALUE="12" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-CHA_CHAOS_SPAWN"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CHAOS_SPAWN>
+	<SPELL-DOOM_BOLT BattleCost="40" UnitBattleCost="30">
+		<DescriptionInfo Name="DES_DOOM_BOLT" Description="DES_DOOM_BOLT_DES" Graphic="SpellDoomBolt"/>
+		<ResearchCost VALUE="1120"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoRighteousnessImmu_Unit"/>
+		<BattleScript VALUE="SBG_DoomBolt"/>
+		<CastEffect VALUE="Effect_DoomBolt"/>
+		<AudioEffect VALUE="SpellDoomBolt"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DOOM_BOLT>
+	<SPELL-MAGIC_VORTEX BattleCost="40" UnitBattleCost="30">
+		<DescriptionInfo Name="DES_MAGIC_VORTEX" Description="DES_MAGIC_VORTEX_DES" Graphic="SpellMagicVortex"/>
+		<ResearchCost VALUE="1200"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetEmptyBattleHex"/>
+		<BattleScript VALUE="SBH_SummonVortex"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MagicVortex"/>
+		<CastEffect VALUE="Effect_ChaosSpell"/>
+		<AudioEffect VALUE="SpellMagicVortex"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-MAGIC_VORTEX>
+	<SPELL-EFREET WorldCost="550">
+		<DescriptionInfo Name="DES_EFREET" Description="DES_EFREET_DES" Graphic="SpellEfreet"/>
+		<ResearchCost VALUE="1300"/>
+		<UpkeepCost VALUE="15" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-CHA_EFREET"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_MagicVortexLoop"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-EFREET>
+	<SPELL-FIRE_STORM WorldCost="250">
+		<DescriptionInfo Name="DES_FIRE_STORM" Description="DES_FIRE_STORM_DES" Graphic="SpellFireStorm"/>
+		<ResearchCost VALUE="1400"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-GROUP_ENEMY"/>
+		<FIntData VALUE="8"/>
+		<TargetingScript VALUE="STAR_EnemyGroup"/>
+		<WorldScript VALUE="SWG_FireStorm"/>
+		<AIWorldEvaluationScript VALUE="SWAI_FireStorm"/>
+		<CastEffect VALUE="Effect_FireStorm"/>
+		<AudioEffect VALUE="SpellFireStorm"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-FIRE_STORM>
+	<SPELL-WARP_REALITY BattleCost="50" UnitBattleCost="33">
+		<DescriptionInfo Name="DES_WARP_REALITY" Description="DES_WARP_REALITY_DES" Graphic="SpellWarpReality"/>
+		<ResearchCost VALUE="1500"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_Battle"/>
+		<BattleScript VALUE="SBW_ApplyBattleEnchantment"/>
+		<EnchantmentData VALUE="ENCH-WARP_REALITY"/>
+		<AIBattleEvaluationScript VALUE="SBAI_WarpReality"/>
+		<CastEffect VALUE="Effect_WarpReality"/>
+		<AudioEffect VALUE="SpellWarpReality"/>
+	</SPELL-WARP_REALITY>
+	<SPELL-FLAME_STRIKE BattleCost="60" UnitBattleCost="40">
+		<DescriptionInfo Name="DES_FLAME_STRIKE" Description="DES_FLAME_STRIKE_DES" Graphic="SpellFlameStrike"/>
+		<ResearchCost VALUE="1600"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyBattlePlayer"/>
+		<BattleScript VALUE="SBW_FlameStrike"/>
+		<FIntData VALUE="15"/>
+		<AIBattleEvaluationScript VALUE="SBAI_FlameStrike"/>
+		<CastEffect VALUE="Effect_FlameStrike"/>
+		<AudioEffect VALUE="SpellFlameStrike"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-FLAME_STRIKE>
+	<SPELL-CHAOS_RIFT WorldCost="300">
+		<DescriptionInfo Name="DES_CHAOS_RIFT" Description="DES_CHAOS_RIFT_DES" Graphic="SpellChaosRift"/>
+		<ResearchCost VALUE="1700"/>
+		<UpkeepCost VALUE="10" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-CHAOS_RIFT"/>
+		<AIWorldEvaluationScript VALUE="SWAI_ChaosRift"/>
+		<CastEffect VALUE="Effect_ChaosSpell"/>
+		<AudioEffect VALUE="SpellChaosRift"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CHAOS_RIFT>
+	<!--VRare-->
+	<SPELL-HYDRA WorldCost="650">
+		<DescriptionInfo Name="DES_HYDRA" Description="DES_HYDRA_DES" Graphic="SpellHydra"/>
+		<ResearchCost VALUE="1850"/>
+		<UpkeepCost VALUE="14" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-CHA_HYDRA"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-HYDRA>
+	<SPELL-DISINTEGRATE BattleCost="50" UnitBattleCost="33">
+		<DescriptionInfo Name="DES_DISINTEGRATE" Description="DES_DISINTEGRATE_DES" Graphic="SpellDisintegrate"/>
+		<ResearchCost VALUE="2000"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoRighteousnessImmu_Unit"/>
+		<BattleScript VALUE="SBG_Disintegrate"/>
+		<DamagePool VALUE="Irreversible"/>
+		<CastEffect VALUE="Effect_Disintegrate"/>
+		<AudioEffect VALUE="SpellDisintegrate"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DISINTEGRATE>
+	<SPELL-METEOR_STORM WorldCost="900">
+		<DescriptionInfo Name="DES_METEOR_STORM" Description="DES_METEOR_STORM_DES" Graphic="SpellMeteorStorm"/>
+		<ResearchCost VALUE="2250"/>
+		<UpkeepCost VALUE="10" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-METEOR_STORM_MAIN"/>
+		<AIWorldEvaluationScript VALUE="SWAI_MeteorStorm"/>
+		<CastEffect VALUE="Effect_MeteorStorm"/>
+        <AdditionalGraphic VALUE="GlobalMeteorStorm"/>
+		<AudioEffect VALUE="SpellMeteorStorm"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-METEOR_STORM>
+	<SPELL-GREAT_WASTING WorldCost="1000">
+		<DescriptionInfo Name="DES_GREAT_WASTING" Description="DES_GREAT_WASTING_DES" Graphic="SpellGreatWasting"/>
+		<ResearchCost VALUE="2500"/>
+		<UpkeepCost VALUE="20" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-GREAT_WASTING"/>
+		<AIWorldEvaluationScript VALUE="SWAI_GreatWasting"/>
+		<CastEffect VALUE="Effect_ChaosSpell"/>
+        <AdditionalGraphic VALUE="GlobalGreatWasting"/>
+		<AudioEffect VALUE="SpellGreatWasting"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-GREAT_WASTING>
+	<SPELL-CALL_CHAOS BattleCost="75" UnitBattleCost="50">
+		<DescriptionInfo Name="DES_CALL_CHAOS" Description="DES_CALL_CHAOS_DES" Graphic="SpellCallChaos"/>
+		<ResearchCost VALUE="3000"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<BattleScript VALUE="SBW_CallChaos"/>
+		<StringData VALUE="SKILL-CHAOS_CHANNELS1"/>
+		<StringData VALUE="SKILL-CHAOS_CHANNELS2"/>
+		<StringData VALUE="SKILL-CHAOS_CHANNELS3"/>
+		<StringData VALUE="ENCH-WARP_CREATURE1"/>
+		<StringData VALUE="ENCH-WARP_CREATURE2"/>
+		<StringData VALUE="ENCH-WARP_CREATURE3"/>
+		<AIBattleEvaluationScript VALUE="SBAI_CallChaos"/>
+		<CastEffect VALUE="Effect_ChaosSpell"/>
+		<AudioEffect VALUE=""/> <!--each spell effect has its own audio effect-->
+		<InvalidTarget VALUE=""/>
+	</SPELL-CALL_CHAOS>
+	<SPELL-CHAOS_SURGE WorldCost="1000">
+		<DescriptionInfo Name="DES_CHAOS_SURGE" Description="DES_CHAOS_SURGE_DES" Graphic="SpellChaosSurge"/>
+		<ResearchCost VALUE="3500"/>
+		<UpkeepCost VALUE="40" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-CHAOS_SURGE_GLOBAL"/>
+		<AIWorldEvaluationScript VALUE="SWAI_ChaosSurge"/>
+		<CastEffect VALUE="Effect_ChaosSurge"/>
+        <AdditionalGraphic VALUE="GlobalChaosSurge"/>
+		<AudioEffect VALUE="SpellChaosSurge"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CHAOS_SURGE>
+	<SPELL-DOOM_MASTERY WorldCost="1100">
+		<DescriptionInfo Name="DES_DOOM_MASTERY" Description="DES_DOOM_MASTERY_DES" Graphic="SpellDoomMastery"/>
+		<ResearchCost VALUE="4000"/>
+		<UpkeepCost VALUE="15" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnWizard"/>
+		<WorldScript VALUE="SWW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-DOOM_MASTERY_WIZARD"/>
+		<AIWorldEvaluationScript VALUE="SWAI_DoomMastery"/>
+		<CastEffect VALUE="Effect_ChaosSpell"/>
+        <AdditionalGraphic VALUE="GlobalDoomMastery"/>
+		<AudioEffect VALUE="SpellDoomMastery"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DOOM_MASTERY>
+	<SPELL-GREAT_DRAKE WorldCost="900">
+		<DescriptionInfo Name="DES_GREAT_DRAKE" Description="DES_GREAT_DRAKE_DES" Graphic="SpellGreatDrake"/>
+		<ResearchCost VALUE="4500"/>
+		<UpkeepCost VALUE="30" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-CHA_GREAT_DRAKE"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-GREAT_DRAKE>
+	<SPELL-CALL_THE_VOID WorldCost="500">
+		<DescriptionInfo Name="DES_CALL_THE_VOID" Description="DES_CALL_THE_VOID_DES" Graphic="SpellCallTheVoid"/>
+		<ResearchCost VALUE="5000"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyTown"/>
+		<WorldScript VALUE="SWG_CallTheVoid"/>
+		<AIWorldEvaluationScript VALUE="SWAI_CallTheVoid"/>
+		<CastEffect VALUE="Effect_CallTheVoid"/>
+		<AudioEffect VALUE="SpellCallTheVoid"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CALL_THE_VOID>
+	<SPELL-ARMAGEDDON WorldCost="1250">
+		<DescriptionInfo Name="DES_ARMAGEDDON" Description="DES_ARMAGEDDON_DES" Graphic="SpellArmageddon"/>
+		<ResearchCost VALUE="6000"/>
+		<UpkeepCost VALUE="40" />
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-ARMAGEDDON"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Armageddon"/>
+		<CastEffect VALUE="Effect_ChaosSpell"/>
+        <AdditionalGraphic VALUE="GlobalArmageddon"/>
+		<AudioEffect VALUE="SpellArmageddon"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ARMAGEDDON>
+
+	<!--Life spells-->
+	<!--Common-->
+	<SPELL-BLESS WorldCost="25" BattleCost="5">
+		<DescriptionInfo Name="DES_BLESS" Description="DES_BLESS_DES" Graphic="SpellBless"/>
+		<ResearchCost VALUE="20"/>
+		<UpkeepCost VALUE="1" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-BLESS"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Bless"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Bless"/>
+		<CastEffect VALUE="Effect_Bless"/>
+		<AudioEffect VALUE="SpellBless"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-BLESS>
+	<SPELL-STAR_FIRES BattleCost="5">
+		<DescriptionInfo Name="DES_STAR_FIRES" Description="DES_STAR_FIRES_DES" Graphic="SpellStarFires"/>
+		<ResearchCost VALUE="40"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyChaosDeath_Unit"/>
+		<FIntData VALUE="15"/>
+		<BattleScript VALUE="SBG_StarFires"/>
+		<CastEffect VALUE="Effect_StarFires"/>
+		<AudioEffect VALUE="SpellStarFires"/>
+		<InvalidTarget VALUE="DES_STAR_FIRES_TARGET"/>
+	</SPELL-STAR_FIRES>
+	<SPELL-ENDURANCE WorldCost="30">
+		<DescriptionInfo Name="DES_ENDURANCE" Description="DES_ENDURANCE_DES" Graphic="SpellEndurance"/>
+		<ResearchCost VALUE="60"/>
+		<UpkeepCost VALUE="1" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Endurance"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-ENDURANCE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Endurance"/>
+		<CastEffect VALUE="Effect_Endurance"/>
+		<AudioEffect VALUE="SpellEndurance"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ENDURANCE>
+	<SPELL-HOLY_WEAPON WorldCost="50" BattleCost="10">
+		<DescriptionInfo Name="DES_HOLY_WEAPON" Description="DES_HOLY_WEAPON_DES" Graphic="SpellHolyWeapon"/>
+		<ResearchCost VALUE="80"/>
+		<UpkeepCost VALUE="1" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_HolyWeapon"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-HOLY_WEAPON"/>
+		<AIBattleEvaluationScript VALUE="SBAI_HolyWeapon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_HolyWeapon"/>
+		<CastEffect VALUE="Effect_HolyWeapon"/>
+		<AudioEffect VALUE="SpellHolyWeapon"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-HOLY_WEAPON>
+	<SPELL-HEALING BattleCost="15">
+		<DescriptionInfo Name="DES_HEALING" Description="DES_HEALING_DES" Graphic="SpellHealing"/>
+		<ResearchCost VALUE="100"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyNoUndead_Unit"/>
+		<FIntData VALUE="5"/>
+		<BattleScript VALUE="SBG_Heal"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Healing"/>
+		<CastEffect VALUE="Effect_Healing"/>
+		<AudioEffect VALUE="SpellHealing"/>
+		<HealingSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE="DES_HEALING_TARGET"/>
+	</SPELL-HEALING>
+	<SPELL-HOLY_ARMOR WorldCost="90" BattleCost="18" UnitBattleCost="16">
+		<DescriptionInfo Name="DES_HOLY_ARMOR" Description="DES_HOLY_ARMOR_DES" Graphic="SpellHolyArmor"/>
+		<ResearchCost VALUE="130"/>
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyNonFantastic_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-HOLY_ARMOR"/>
+		<AIWorldEvaluationScript VALUE="SWAI_HolyArmor"/>
+		<CastEffect VALUE="Effect_HolyArmour"/>
+		<AudioEffect VALUE="SpellHolyArmor"/>
+		<InvalidTarget VALUE="DES_HOLY_ARMOR_TARGET"/>
+	</SPELL-HOLY_ARMOR>
+	<SPELL-JUST_CAUSE WorldCost="150">
+		<DescriptionInfo Name="DES_JUST_CAUSE" Description="DES_JUST_CAUSE_DES" Graphic="SpellJustCause"/>
+		<ResearchCost VALUE="160"/>
+		<UpkeepCost VALUE="3" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnWizard"/>
+		<WorldScript VALUE="SWW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-JUST_CAUSE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_JustCause"/>
+		<CastEffect VALUE="Effect_LifeSpell"/>
+        <AdditionalGraphic VALUE="GlobalJustCause"/>
+		<AudioEffect VALUE="SpellJustCause"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-JUST_CAUSE>
+	<SPELL-TRUE_LIGHT BattleCost="20" UnitBattleCost="18">
+		<DescriptionInfo Name="DES_TRUE_LIGHT" Description="DES_TRUE_LIGHT_DES" Graphic="SpellTrueLight"/>
+		<ResearchCost VALUE="190"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_Battle"/>
+		<BattleScript VALUE="SBW_ApplyBattleEnchantment"/>
+		<EnchantmentData VALUE="ENCH-TRUE_LIGHT_GLOBAL"/>
+		<AIBattleEvaluationScript VALUE="SBAI_TrueLight"/>
+		<AudioEffect VALUE="SpellTrueLight"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-TRUE_LIGHT>
+	<SPELL-GUARDIAN_SPIRIT WorldCost="80">
+		<DescriptionInfo Name="DES_GUARDIAN_SPIRIT" Description="DES_GUARDIAN_SPIRIT_DES" Graphic="SpellGuardianSpirit"/>
+		<ResearchCost VALUE="220"/>
+		<UpkeepCost VALUE="1" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-LIF_GUARDIAN_SPIRIT"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-GUARDIAN_SPIRIT>
+	<SPELL-HEROISM WorldCost="100" BattleCost="20" UnitBattleCost="18">
+		<DescriptionInfo Name="DES_HEROISM" Description="DES_HEROISM_DES" Graphic="SpellHeroism"/>
+		<ResearchCost VALUE="250"/>
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Heroism"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-HEROISM"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Heroism"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Heroism"/>
+		<CastEffect VALUE="Effect_Heroism"/>
+		<AudioEffect VALUE="SpellHeroism"/>
+		<InvalidTarget VALUE="DES_HEROISM_TARGET"/>
+	</SPELL-HEROISM>
+	<!--UnCommon-->
+	<SPELL-TRUE_SIGHT WorldCost="100" BattleCost="20" UnitBattleCost="18">
+		<DescriptionInfo Name="DES_TRUE_SIGHT" Description="DES_TRUE_SIGHT_DES" Graphic="SpellTrueSight"/>
+		<ResearchCost VALUE="300"/>
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantmentUpdateInvisibility"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-TRUE_SIGHT"/>
+		<AIBattleEvaluationScript VALUE="SBAI_TrueSight"/>
+		<AIWorldEvaluationScript VALUE="SWAI_TrueSight"/>
+		<CastEffect VALUE="Effect_TrueSight"/>
+		<AudioEffect VALUE="SpellTrueSight"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-TRUE_SIGHT>
+	<SPELL-PLANAR_TRAVEL WorldCost="125">
+		<DescriptionInfo Name="DES_PLANAR_TRAVEL" Description="DES_PLANAR_TRAVEL_DES" Graphic="SpellPlaneShift"/>
+		<ResearchCost VALUE="350"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-GROUP_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyGroup"/>
+		<WorldScript VALUE="SWG_PlanarTravel"/>
+		<AIWorldEvaluationScript VALUE="SWAI_PlanarTravel"/>
+		<CastEffect VALUE="Effect_PlaneShift"/>
+		<AudioEffect VALUE="SpellPlaneShift"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-PLANAR_TRAVEL>
+	<SPELL-RESURRECTION WorldCost="250">
+		<DescriptionInfo Name="DES_RESURRECTION" Description="DES_RESURRECTION_DES" Graphic="SpellResurrection"/>
+		<ResearchCost VALUE="400"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_Resurrection"/>
+		<WorldScript VALUE="SWS_Resurrection"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Resurrection"/>
+		<CastEffect VALUE="Effect_Resurrection"/>
+		<AudioEffect VALUE="SpellResurrection"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-RESURRECTION>
+	<SPELL-DISPEL_EVIL BattleCost="25" UnitBattleCost="22">
+		<DescriptionInfo Name="DES_DISPEL_EVIL" Description="DES_DISPEL_EVIL_DES" Graphic="SpellDispelEvil"/>
+		<ResearchCost VALUE="450"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyChaosDeath_Unit"/>
+		<BattleScript VALUE="SBG_DispelEvil"/>
+		<DamagePool VALUE="Irreversible"/>
+		<CastEffect VALUE="Effect_DispelEvil"/>
+		<AudioEffect VALUE="SpellDispelEvil"/>
+		<InvalidTarget VALUE="DES_DISPEL_EVIL_TARGET"/>
+	</SPELL-DISPEL_EVIL>
+	<SPELL-PLANAR_SEAL WorldCost="500">
+		<DescriptionInfo Name="DES_PLANAR_SEAL" Description="DES_PLANAR_SEAL_DES" Graphic="SpellPlanarSeal"/>
+		<ResearchCost VALUE="500"/>
+		<UpkeepCost VALUE="5" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-PLANAR_SEAL"/>
+		<AIWorldEvaluationScript VALUE="SWAI_PlanarSeal"/>
+		<CastEffect VALUE="Effect_LifeSpell"/>
+		<AdditionalGraphic VALUE="GlobalPlanarSeal"/>
+		<AudioEffect VALUE="SpellPlanarSeal"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-PLANAR_SEAL>
+	<SPELL-UNICORNS WorldCost="250">
+		<DescriptionInfo Name="DES_UNICORNS" Description="DES_UNICORNS_DES" Graphic="SpellUnicorns"/>
+		<ResearchCost VALUE="560"/>
+		<UpkeepCost VALUE="5" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-LIF_UNICORNS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-UNICORNS>
+	<SPELL-RAISE_DEAD BattleCost="35" UnitBattleCost="28">
+		<DescriptionInfo Name="DES_RAISE_DEAD" Description="DES_RAISE_DEAD_DES" Graphic="SpellRaiseDead"/>
+		<ResearchCost VALUE="620"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_RaiseDeath"/>
+		<BattleScript VALUE="SBG_RaiseDeath"/>
+		<AIBattleEvaluationScript VALUE="SBAI_RaiseDead"/>
+		<CastEffect VALUE="Effect_RaiseDead"/>
+		<AudioEffect VALUE="SpellRaiseDead"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-RAISE_DEAD>
+	<SPELL-PLANE_SHIFT WorldCost="150">
+		<DescriptionInfo Name="DES_PLANE_SHIFT" Description="DES_PLANE_SHIFT_DES" Graphic="SpellPlanarTravel"/>
+		<ResearchCost VALUE="680"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+   		<EnchantmentData VALUE="ENCH-SPELL_PLANE_SHIFT"/>
+		<AIWorldEvaluationScript VALUE="SWAI_PlaneShift"/>
+		<CastEffect VALUE="Effect_PlaneShift"/>
+		<AudioEffect VALUE="SpellPlanarTravel"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-PLANE_SHIFT>
+	<SPELL-HEAVENLY_LIGHT WorldCost="150">
+		<DescriptionInfo Name="DES_HEAVENLY_LIGHT" Description="DES_HEAVENLY_LIGHT_DES" Graphic="SpellHeavenlyLight"/>
+		<ResearchCost VALUE="740"/>
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-HEAVENLY_LIGHT"/>
+		<AIWorldEvaluationScript VALUE="SWAI_HeavenlyLight"/>
+		<CastEffect VALUE="Effect_HeavenlyLight"/>
+		<AudioEffect VALUE="SpellHeavenlyLight"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-HEAVENLY_LIGHT>
+	<SPELL-PRAYER BattleCost="30" UnitBattleCost="24">
+		<DescriptionInfo Name="DES_PRAYER" Description="DES_PRAYER_DES" Graphic="SpellPrayer"/>
+		<ResearchCost VALUE="800"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_BattlePrayerHighPrayer"/>
+		<BattleScript VALUE="SBW_ApplyBattleEnchantmentPrayerHighPrayer"/>
+		<EnchantmentData VALUE="ENCH-PRAYER_GLOBAL"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Prayer"/>
+		<CastEffect VALUE="Effect_Prayer"/>
+		<BattleCastEffect VALUE="GlobalPrayer"/>
+		<AudioEffect VALUE="SpellPrayer"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-PRAYER>
+	<!--Rare-->
+	<SPELL-LIONHEART WorldCost="200" BattleCost="40" UnitBattleCost="30">
+		<DescriptionInfo Name="DES_LIONHEART" Description="DES_LIONHEART_DES" Graphic="SpellLionheart"/>
+		<ResearchCost VALUE="880"/>
+		<UpkeepCost VALUE="4" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-LIONHEART"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Lionheart"/>
+		<CastEffect VALUE="Effect_Lionheart"/>
+		<AudioEffect VALUE="SpellLionheart"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-LIONHEART>
+	<SPELL-INCARNATION WorldCost="500">
+		<DescriptionInfo Name="DES_INCARNATION" Description="DES_INCARNATION_DES" Graphic="SpellIncarnation"/>
+		<ResearchCost VALUE="960"/>
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<TargetingScript VALUE="STAR_Incarnation"/>
+		<StringData VALUE="HERO-TORIN"/>
+		<WorldScript VALUE="SWS_SummonSpecificHero"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-INCARNATION>
+	<SPELL-INVULNERABILITY WorldCost="200" BattleCost="40" UnitBattleCost="30">
+		<DescriptionInfo Name="DES_INVULNERABILITY" Description="DES_INVULNERABILITY_DES" Graphic="SpellInvulnerability"/>
+		<ResearchCost VALUE="1040"/>
+		<UpkeepCost VALUE="5" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-INVULNERABILITY"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Invulnerability"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Invulnerability"/>
+		<CastEffect VALUE="Effect_Invulnerability"/>
+		<AudioEffect VALUE="SpellInvulnerability"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-INVULNERABILITY>
+	<SPELL-RIGHTEOUSNESS WorldCost="200" BattleCost="40" UnitBattleCost="30">
+		<DescriptionInfo Name="DES_RIGHTEOUSNESS" Description="DES_RIGHTEOUSNESS_DES" Graphic="SpellRighteousness"/>
+		<ResearchCost VALUE="1120"/>
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-RIGHTEOUSNESS"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Righteousness"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Righteousness"/>
+		<CastEffect VALUE="Effect_Righteousness"/>
+		<AudioEffect VALUE="SpellRighteousness"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-RIGHTEOUSNESS>
+	<SPELL-PROSPERITY WorldCost="250">
+		<DescriptionInfo Name="DES_PROSPERITY" Description="DES_PROSPERITY_DES" Graphic="SpellProsperity"/>
+		<ResearchCost VALUE="1200"/>
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-PROSPERITY"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Prosperity"/>
+		<CastEffect VALUE="Effect_Prosperity"/>
+		<AudioEffect VALUE="SpellProsperity"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-PROSPERITY>
+	<SPELL-ALTAR_OF_BATTLE WorldCost="300">
+		<DescriptionInfo Name="DES_ALTAR_OF_BATTLE" Description="DES_ALTAR_OF_BATTLE_DES" Graphic="SpellAltarOfBattle"/>
+		<ResearchCost VALUE="1300"/>
+		<UpkeepCost VALUE="5" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-ALTAR_OF_BATTLE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_AltarOfBattle"/>
+		<CastEffect VALUE="Effect_LifeSpell"/>
+		<AudioEffect VALUE="SpellAltarOfBattle"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ALTAR_OF_BATTLE>
+	<SPELL-ANGEL WorldCost="550">
+		<DescriptionInfo Name="DES_ANGEL" Description="DES_ANGEL_DES" Graphic="SpellAngel"/>
+		<ResearchCost VALUE="1400"/>
+		<UpkeepCost VALUE="15" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-LIF_ANGEL"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ANGEL>
+	<SPELL-STREAM_OF_LIFE WorldCost="300">
+		<DescriptionInfo Name="DES_STREAM_OF_LIFE" Description="DES_STREAM_OF_LIFE_DES" Graphic="SpellStreamOfLife"/>
+		<ResearchCost VALUE="1500"/>
+		<UpkeepCost VALUE="8" />
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-STREAM_OF_LIFE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_StreamOfLife"/>
+		<CastEffect VALUE="Effect_LifeSpell"/>
+		<AudioEffect VALUE="SpellStreamOfLife"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-STREAM_OF_LIFE>
+	<SPELL-MASS_HEALING BattleCost="50" UnitBattleCost="33">
+		<DescriptionInfo Name="DES_MASS_HEALING" Description="DES_MASS_HEALING_DES" Graphic="SpellMassHealing"/>
+		<ResearchCost VALUE="1600"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnBattlePlayer"/>
+		<BattleScript VALUE="SBW_MassHealing"/>
+		<FIntData VALUE="5"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MassHealing"/>
+		<CastEffect VALUE="Effect_MassHealing"/>
+		<BattleCastEffect VALUE="GlobalLife"/>
+		<HealingSpell VALUE="TRUE"/>
+		<AudioEffect VALUE="SpellMassHealing"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-MASS_HEALING>
+	<SPELL-HOLY_WORD BattleCost="60" UnitBattleCost="40">
+		<DescriptionInfo Name="DES_HOLY_WORD" Description="DES_HOLY_WORD_DES" Graphic="SpellHolyWord"/>
+		<ResearchCost VALUE="1700"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyBattlePlayer"/>
+		<BattleScript VALUE="SBW_HolyWord"/>
+		<DamagePool VALUE="Irreversible"/>
+		<AIBattleEvaluationScript VALUE="SBAI_HolyWord"/>
+		<CastEffect VALUE="Effect_HolyWord"/>
+		<AudioEffect VALUE="SpellHolyWord"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-HOLY_WORD>
+	<!--VRare-->
+	<SPELL-HIGH_PRAYER BattleCost="60" UnitBattleCost="40">
+		<DescriptionInfo Name="DES_HIGH_PRAYER" Description="DES_HIGH_PRAYER_DES" Graphic="SpellHighPrayer"/>
+		<ResearchCost VALUE="1850"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_BattlePrayerHighPrayer"/>
+		<BattleScript VALUE="SBW_ApplyBattleEnchantmentPrayerHighPrayer"/>
+		<EnchantmentData VALUE="ENCH-HIGH_PRAYER_GLOBAL"/>
+		<AIBattleEvaluationScript VALUE="SBAI_HighPrayer"/>
+		<CastEffect VALUE="Effect_HighPrayer"/>
+		<BattleCastEffect VALUE="GlobalPrayer"/>
+		<AudioEffect VALUE="SpellHighPrayer"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-HIGH_PRAYER>
+	<SPELL-INSPIRATIONS WorldCost="350">
+		<DescriptionInfo Name="DES_INSPIRATIONS" Description="DES_INSPIRATIONS_DES" Graphic="SpellInspirations"/>
+		<ResearchCost VALUE="2000"/>
+		<UpkeepCost VALUE="2"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-INSPIRATIONS"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Inspirations"/>
+		<CastEffect VALUE="Effect_Inspirations"/>
+		<AudioEffect VALUE="SpellInspirations"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-INSPIRATIONS>
+	<SPELL-ASTRAL_GATE WorldCost="350" >
+		<DescriptionInfo Name="DES_ASTRAL_GATE" Description="DES_ASTRAL_GATE_DES" Graphic="SpellAstralGate"/>
+		<ResearchCost VALUE="2250"/>
+		<UpkeepCost VALUE="5"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_AstralGate"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-ASTRAL_GATE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_IrrelevantForAI"/>
+		<CastEffect VALUE="Effect_LifeSpell"/>
+		<AudioEffect VALUE="SpellAstralGate"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ASTRAL_GATE>
+	<SPELL-HOLY_ARMS WorldCost="900">
+		<DescriptionInfo Name="DES_HOLY_ARMS" Description="DES_HOLY_ARMS_DES" Graphic="SpellHolyArms"/>
+		<ResearchCost VALUE="2500"/>
+		<UpkeepCost VALUE="10"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnWizard"/>
+		<WorldScript VALUE="SWW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-HOLY_ARMS"/>
+		<AIWorldEvaluationScript VALUE="SWAI_HolyArms"/>
+		<CastEffect VALUE="Effect_HolyWeapon"/>
+        <AdditionalGraphic VALUE="GlobalHolyArms"/>
+		<AudioEffect VALUE="SpellHolyArms"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-HOLY_ARMS>
+	<SPELL-CONSECRATION WorldCost="400">
+		<DescriptionInfo Name="DES_CONSECRATION" Description="DES_CONSECRATION_DES" Graphic="SpellConsecration"/>
+		<ResearchCost VALUE="3000"/>
+		<UpkeepCost VALUE="8"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_Consecration"/>
+		<EnchantmentData VALUE="ENCH-CONSECRATION"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Consecration"/>
+		<CastEffect VALUE="Effect_Consecration"/>
+		<AudioEffect VALUE="SpellConsecration"/>
+	</SPELL-CONSECRATION>
+	<SPELL-LIFE_FORCE WorldCost="1000">
+		<DescriptionInfo Name="DES_LIFE_FORCE" Description="DES_LIFE_FORCE_DES" Graphic="SpellLifeForce"/>
+		<ResearchCost VALUE="3500"/>
+		<UpkeepCost VALUE="10"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-LIFE_FORCE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_LifeForce"/>
+		<CastEffect VALUE="Effect_LifeSpell"/>
+        <AdditionalGraphic VALUE="GlobalLifeForce"/>
+		<AudioEffect VALUE="SpellLifeForce"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-LIFE_FORCE>
+	<SPELL-TRANQUILITY WorldCost="1000">
+		<DescriptionInfo Name="DES_TRANQUILITY" Description="DES_TRANQUILITY_DES" Graphic="SpellTranquility"/>
+		<ResearchCost VALUE="3500"/>
+		<UpkeepCost VALUE="10"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-TRANQUILITY"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Tranqulity"/>
+		<CastEffect VALUE="Effect_LifeSpell"/>
+        <AdditionalGraphic VALUE="GlobalTranquility"/>
+		<AudioEffect VALUE="SpellTranquility"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-TRANQUILITY>
+	<SPELL-CRUSADE WorldCost="1100">
+		<DescriptionInfo Name="DES_CRUSADE" Description="DES_CRUSADE_DES" Graphic="SpellCrusade"/>
+		<ResearchCost VALUE="4500"/>
+		<UpkeepCost VALUE="10"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnWizard"/>
+		<WorldScript VALUE="SWW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-CRUSADE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Crusade"/>
+		<CastEffect VALUE="Effect_LifeSpell"/>
+        <AdditionalGraphic VALUE="GlobalCrusade"/>
+		<AudioEffect VALUE="SpellCrusade"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CRUSADE>
+	<SPELL-ARCH_ANGEL WorldCost="950">
+		<DescriptionInfo Name="DES_ARCH_ANGEL" Description="DES_ARCH_ANGEL_DES" Graphic="SpellArchAngel"/>
+		<ResearchCost VALUE="5000"/>
+		<UpkeepCost VALUE="20"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-LIF_ARCH_ANGEL"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ARCH_ANGEL>
+	<SPELL-CHARM_OF_LIFE WorldCost="1250">
+		<DescriptionInfo Name="DES_CHARM_OF_LIFE" Description="DES_CHARM_OF_LIFE_DES" Graphic="SpellCharmOfLife"/>
+		<ResearchCost VALUE="6000"/>
+		<UpkeepCost VALUE="10"/>
+		<Realm VALUE="Life"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnWizard"/>
+		<WorldScript VALUE="SWW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-CHARM_OF_LIFE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_CharmOfLife"/>
+		<CastEffect VALUE="Effect_CharmOfLife"/>
+        <AdditionalGraphic VALUE="GlobalCharmOfLife"/>
+		<AudioEffect VALUE="SpellCharmOfLife"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CHARM_OF_LIFE>
+
+	<!--Death spells-->
+	<!--Common-->
+	<SPELL-SKELETONS WorldCost="25">
+		<DescriptionInfo Name="DES_SKELETONS" Description="DES_SKELETONS_DES" Graphic="SpellSkeletons"/>
+		<ResearchCost VALUE="20"/>
+		<UpkeepCost VALUE="1"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-DTH_SKELETONS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SKELETONS>
+	<SPELL-WEAKNESS BattleCost="5">
+		<DescriptionInfo Name="DES_WEAKNESS" Description="DES_WEAKNESS_DES" Graphic="SpellWeakness"/>
+		<ResearchCost VALUE="40"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoDeathImmus_Unit"/>
+		<BattleScript VALUE="SBG_ResistCheckAgainstEnchantment"/>
+		<FIntData VALUE="2"/>
+		<EnchantmentData VALUE="ENCH-WEAKNESS"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Weakness"/>
+		<CastEffect VALUE="Effect_Weakness"/>
+		<AudioEffect VALUE="SpellWeakness"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WEAKNESS>
+	<SPELL-DARK_RITUALS WorldCost="30">
+		<DescriptionInfo Name="DES_DARK_RITUALS" Description="DES_DARK_RITUALS_DES" Graphic="SpellDarkRituals"/>
+		<ResearchCost VALUE="60"/>
+		<UpkeepCost VALUE="1"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-DARK_RITUALS"/>
+		<AIWorldEvaluationScript VALUE="SWAI_DarkRituals"/>
+		<CastEffect VALUE="Effect_DarkRituals"/>
+		<AudioEffect VALUE="SpellDarkRituals"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DARK_RITUALS>
+	<SPELL-CLOAK_OF_FEAR WorldCost="60" BattleCost="12">
+		<DescriptionInfo Name="DES_CLOAK_OF_FEAR" Description="DES_CLOAK_OF_FEAR_DES" Graphic="SpellCloakOfFears"/>
+		<ResearchCost VALUE="80"/>
+		<UpkeepCost VALUE="1"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_CloakOfFear"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-CLOAK_OF_FEAR"/>
+		<AIBattleEvaluationScript VALUE="SBAI_CloakOfFear"/>
+		<AIWorldEvaluationScript VALUE="SWAI_CloakOfFear"/>
+		<CastEffect VALUE="Effect_CloakOfFear"/>
+		<AudioEffect VALUE="SpellCloakOfFears"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CLOAK_OF_FEAR>
+	<SPELL-BLACK_SLEEP BattleCost="15">
+		<DescriptionInfo Name="DES_BLACK_SLEEP" Description="DES_BLACK_SLEEP_DES" Graphic="SpellBlackSleep"/>
+		<ResearchCost VALUE="100"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoDeathImmus_Unit"/>
+		<FIntData VALUE="2"/>
+		<BattleScript VALUE="SBG_BlackSleep"/>
+		<EnchantmentData VALUE="ENCH-BLACK_SLEEP"/>
+		<AIBattleEvaluationScript VALUE="SBAI_BlackSleep"/>
+		<CastEffect VALUE="Effect_BlackSleep"/>
+		<AudioEffect VALUE="SpellBlackSleep"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-BLACK_SLEEP>
+	<SPELL-GHOULS WorldCost="80">
+		<DescriptionInfo Name="DES_GHOULS" Description="DES_GHOULS_DES" Graphic="SpellGhouls"/>
+		<ResearchCost VALUE="130"/>
+		<UpkeepCost VALUE="1"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-DTH_GHOULS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-GHOULS>
+	<SPELL-LIFE_DRAIN BattleCost="10">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="5" DesType="DES_CHANGEABLE_COST_RESIST_LOWERING"/>
+		<DescriptionInfo Name="DES_LIFE_DRAIN" Description="DES_LIFE_DRAIN_DES" Graphic="SpellLifeDrain"/>
+		<ResearchCost VALUE="160"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoDeathImmus_Unit"/>
+		<BattleScript VALUE="SBG_LifeDrain"/>
+		<DamagePool VALUE="Undead"/>
+		<AIBattleEvaluationScript VALUE="SBAI_LifeDrain"/>
+		<CastEffect VALUE="Effect_LifeDrain"/>
+		<AudioEffect VALUE="SpellLifeDrain"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-LIFE_DRAIN>
+	<SPELL-TERROR BattleCost="20" UnitBattleCost="18">
+		<DescriptionInfo Name="DES_TERROR" Description="DES_TERROR_DES" Graphic="SpellTerror"/>
+		<ResearchCost VALUE="190"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyBattlePlayer"/>
+		<BattleScript VALUE="SBW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-TERROR_WIZZARD"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Terror"/>
+		<CastEffect VALUE="Effect_Terror"/>
+		<BattleCastEffect VALUE="GlobalDeath"/>
+		<AudioEffect VALUE="SpellTerror"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-TERROR>
+	<SPELL-MANA_LEAK BattleCost="20" UnitBattleCost="18">
+		<DescriptionInfo Name="DES_MANA_LEAK" Description="DES_MANA_LEAK_DES" Graphic="SpellManaLeak"/>
+		<ResearchCost VALUE="220"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyBattlePlayer"/>
+		<BattleScript VALUE="SBW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-MANA_LEAK"/>
+		<AIBattleEvaluationScript VALUE="SBAI_ManaLeak"/>
+		<CastEffect VALUE="Effect_ManaLeak"/>
+		<BattleCastEffect VALUE="GlobalDeath"/>
+		<AudioEffect VALUE="SpellManaLeak"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-MANA_LEAK>
+	<SPELL-DARKNESS BattleCost="25" UnitBattleCost="22">
+		<DescriptionInfo Name="DES_DARKNESS" Description="DES_DARKNESS_DES" Graphic="SpellDarkness"/>
+		<ResearchCost VALUE="250"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_Battle"/>
+		<BattleScript VALUE="SBW_ApplyBattleEnchantment"/>
+		<EnchantmentData VALUE="ENCH-DARKNESS_BATTLE"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Darkness"/>
+		<CastEffect VALUE="Effect_Darkness"/>
+		<BattleCastEffect VALUE="GlobalDarkness"/>
+		<AudioEffect VALUE="SpellDarkness"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DARKNESS>
+	<!--UnCommon-->
+	<SPELL-DRAIN_POWER WorldCost="50">
+		<DescriptionInfo Name="DES_DRAIN_POWER" Description="DES_DRAIN_POWER_DES" Graphic="SpellDrainPower"/>
+		<ResearchCost VALUE="300"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyWizard"/>
+		<WorldScript VALUE="SWW_DrainPower"/>
+		<AIWorldEvaluationScript VALUE="SWAI_DrainPower"/>
+		<CastEffect VALUE="Effect_DeathSpell"/>
+		<AudioEffect VALUE="SpellDrainPower"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DRAIN_POWER>
+	<SPELL-POSSESSION BattleCost="30" UnitBattleCost="24">
+		<DescriptionInfo Name="DES_POSSESSION" Description="DES_POSSESSION_DES" Graphic="SpellPossession"/>
+		<ResearchCost VALUE="350"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_Possession"/>
+		<BattleScript VALUE="SBG_ResistCheckAgainstEnchantment"/>
+		<FIntData VALUE="1"/>
+		<EnchantmentData VALUE="ENCH-POSSESSION"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Possession"/>
+		<CastEffect VALUE="Effect_Possession"/>
+		<AudioEffect VALUE="SpellPossession"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-POSSESSION>
+	<SPELL-LYCANTHROPY WorldCost="180">
+		<DescriptionInfo Name="DES_LYCANTHROPY" Description="DES_LYCANTHROPY_DES" Graphic="SpellLycanthropy"/>
+		<ResearchCost VALUE="400"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyNormal_Unit"/>
+		<WorldScript VALUE="SWG_Lycanthropy"/>
+		<StringData VALUE="UNIT-DTH_WEREWOLVES"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Lycanthropy"/>
+		<CastEffect VALUE="Effect_Lycanthropy"/>
+		<AudioEffect VALUE="SpellLycanthropy"/>
+		<InvalidTarget VALUE="DES_LYCANTHROPY_TARGET"/>
+	</SPELL-LYCANTHROPY>
+	<SPELL-BLACK_PRAYER BattleCost="35" UnitBattleCost="28">
+		<DescriptionInfo Name="DES_BLACK_PRAYER" Description="DES_BLACK_PRAYER_DES" Graphic="SpellBlackPrayer"/>
+		<ResearchCost VALUE="450"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyBattlePlayer"/>
+		<BattleScript VALUE="SBW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-BLACK_PRAYER"/>
+		<AIBattleEvaluationScript VALUE="SBAI_BlackPrayer"/>
+		<CastEffect VALUE="Effect_BlackPrayer"/>
+		<AudioEffect VALUE="SpellBlackPrayer"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-BLACK_PRAYER>
+	<SPELL-BLACK_CHANNELS WorldCost="100">
+		<DescriptionInfo Name="DES_BLACK_CHANNELS" Description="DES_BLACK_CHANNELS_DES" Graphic="SpellBlackChannels"/>
+		<ResearchCost VALUE="500"/>
+		<UpkeepCost VALUE="1"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_BlackChannels"/>
+		<WorldScript VALUE="SWG_BlackChannels"/>
+		<StringData VALUE="SKILL-BLACK_CHANNELS"/>
+		<StringData VALUE="SKILL-COLD_IMMUNITY"/>
+		<StringData VALUE="SKILL-POISON_IMMUNITY"/>
+		<StringData VALUE="SKILL-ILLUSIONS_IMMUNITY"/>
+		<StringData VALUE="SKILL-DEATH_IMMUNITY"/>
+		<AIWorldEvaluationScript VALUE="SWAI_BlackChannels"/>
+		<CastEffect VALUE="Effect_BlackChannels"/>
+		<AudioEffect VALUE="SpellBlackChannels"/>
+		<InvalidTarget VALUE="DES_BLACK_CHANNELS_TARGET"/>
+	</SPELL-BLACK_CHANNELS>
+	<SPELL-NIGHT_STALKER WorldCost="250">
+		<DescriptionInfo Name="DES_NIGHT_STALKER" Description="DES_NIGHT_STALKER_DES" Graphic="SpellNightStalker"/>
+		<ResearchCost VALUE="560"/>
+		<UpkeepCost VALUE="1"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-DTH_NIGHT_STALKER"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-NIGHT_STALKER>
+	<SPELL-SUBVERSION WorldCost="100">
+		<DescriptionInfo Name="DES_SUBVERSION" Description="DES_SUBVERSION_DES" Graphic="SpellSubversion"/>
+		<ResearchCost VALUE="620"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyWizard"/>
+		<WorldScript VALUE="SWW_Subversion"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Subversion"/>
+		<CastEffect VALUE="Effect_DeathSpell"/>
+		<AudioEffect VALUE="SpellSubversion"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SUBVERSION>
+	<SPELL-WALL_OF_DARKNESS WorldCost="200" BattleCost="40" UnitBattleCost="30">
+		<DescriptionInfo Name="DES_WALL_OF_DARKNESS" Description="DES_WALL_OF_DARKNESS_DES" Graphic="SpellWallOfDarkness"/>
+		<ResearchCost VALUE="680"/>
+		<UpkeepCost VALUE="5"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-HEX_BATTLE_GLOBAL"/>
+		<TargetingScript VALUE="STAR_WallFriendlyTownOrWallTownBattle"/>
+		<WorldScript VALUE="SWG_ApplyMagicWallEnchantment"/>
+		<BattleScript VALUE="SBG_ApplyMagicWallEnchantment"/>
+		<EnchantmentData VALUE="ENCH-WALL_OF_DARKNESS"/>
+		<AIBattleEvaluationScript VALUE="SBAI_WallOfDarkness"/>
+		<AIWorldEvaluationScript VALUE="SWAI_WallOfDarkness"/>
+		<CastEffect VALUE="Effect_WallOfDarkness"/>
+		<AudioEffect VALUE="SpellWallOfDarkness"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WALL_OF_DARKNESS>
+	<SPELL-BERSERK BattleCost="30" UnitBattleCost="24">
+		<DescriptionInfo Name="DES_BERSERK" Description="DES_BERSERK_DES" Graphic="SpellBerserk"/>
+		<ResearchCost VALUE="740"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-BERSERK"/>
+		<CastEffect VALUE="Effect_Berserk"/>
+		<AudioEffect VALUE="SpellBerserk"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-BERSERK>
+	<SPELL-SHADOW_DEMONS WorldCost="325">
+		<DescriptionInfo Name="DES_SHADOW_DEMONS" Description="DES_SHADOW_DEMONS_DES" Graphic="SpellShadowDemons"/>
+		<ResearchCost VALUE="800"/>
+		<UpkeepCost VALUE="7"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-DTH_SHADOW_DEMONS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SHADOW_DEMONS>
+	<!--Rare-->
+	<SPELL-WRAITH_FORM WorldCost="150" BattleCost="30" UnitBattleCost="24">
+		<DescriptionInfo Name="DES_WRAITH_FORM" Description="DES_WRAITH_FORM_DES" Graphic="SpellWraithForm"/>
+		<ResearchCost VALUE="880"/>
+		<UpkeepCost VALUE="3"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-WRAITH_FORM"/>
+		<AIBattleEvaluationScript VALUE="SBAI_WraithForm"/>
+		<AIWorldEvaluationScript VALUE="SWAI_WraithForm"/>
+		<CastEffect VALUE="Effect_WraithForm"/>
+		<AudioEffect VALUE="SpellWraithForm"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WRAITH_FORM>
+	<SPELL-WRACK BattleCost="40" UnitBattleCost="30">
+		<DescriptionInfo Name="DES_WRACK" Description="DES_WRACK_DES" Graphic="SpellWrack"/>
+		<ResearchCost VALUE="960"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyBattlePlayer"/>
+		<BattleScript VALUE="SBW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-WRACK"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Wrack"/>
+		<CastEffect VALUE="Effect_Wrack"/>
+		<BattleCastEffect VALUE="GlobalDeath"/>
+		<AudioEffect VALUE="SpellWrack"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WRACK>
+	<SPELL-EVIL_PRESENCE WorldCost="100">
+		<DescriptionInfo Name="DES_EVIL_PRESENCE" Description="DES_EVIL_PRESENCE_DES" Graphic="SpellEvilPresence"/>
+		<ResearchCost VALUE="1040"/>
+		<UpkeepCost VALUE="4"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-EVIL_PRESENCE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_EvilPresence"/>
+		<CastEffect VALUE="Effect_EvilPresence"/>
+		<AudioEffect VALUE="SpellEvilPresence"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-EVIL_PRESENCE>
+	<SPELL-WRAITHS WorldCost="500">
+		<DescriptionInfo Name="DES_WRAITHS" Description="DES_WRAITHS_DES" Graphic="SpellWraiths"/>
+		<ResearchCost VALUE="1120"/>
+		<UpkeepCost VALUE="5"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-DTH_WRAITHS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WRAITHS>
+	<SPELL-CLOUD_OF_SHADOW WorldCost="150">
+		<DescriptionInfo Name="DES_CLOUD_OF_SHADOW" Description="DES_CLOUD_OF_SHADOW_DES" Graphic="SpellCloudOfShadow"/>
+		<ResearchCost VALUE="1200"/>
+		<UpkeepCost VALUE="3"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-CLOUD_OF_SHADOW"/>
+		<AIWorldEvaluationScript VALUE="SWAI_CloudOfShadow"/>
+		<CastEffect VALUE="Effect_CloudOfShadow"/>
+		<AudioEffect VALUE="SpellCloudOfShadow"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CLOUD_OF_SHADOW>
+	<SPELL-WARP_NODE WorldCost="75">
+		<DescriptionInfo Name="DES_WARP_NODE" Description="DES_WARP_NODE_DES" Graphic="SpellWarpNode"/>
+		<ResearchCost VALUE="1300"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_ENEMY_NODE"/>
+		<TargetingScript VALUE="STAR_EnemyNode"/>
+		<WorldScript VALUE="SWG_ApplyEnchantmentWarpNode"/>
+		<EnchantmentData VALUE="ENCH-WARP_NODE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_WarpNode"/>
+		<CastEffect VALUE="Effect_WarpNode"/>
+		<AudioEffect VALUE="SpellWarpNode"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WARP_NODE>
+	<SPELL-BLACK_WIND WorldCost="200">
+		<DescriptionInfo Name="DES_BLACK_WIND" Description="DES_BLACK_WIND_DES" Graphic="SpellBlackWind"/>
+		<ResearchCost VALUE="1400"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-GROUP_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyGroup"/>
+		<WorldScript VALUE="SWG_BlackWind"/>
+		<FIntData VALUE="1"/>
+		<AIWorldEvaluationScript VALUE="SWAI_BlackWind"/>
+		<CastEffect VALUE="Effect_BlackWind"/>
+		<AudioEffect VALUE="SpellBlackWind"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-BLACK_WIND>
+	<SPELL-ZOMBIE_MASTERY WorldCost="800">
+		<DescriptionInfo Name="DES_ZOMBIE_MASTERY" Description="DES_ZOMBIE_MASTERY_DES" Graphic="SpellZombieMastery"/>
+		<ResearchCost VALUE="1500"/>
+		<UpkeepCost VALUE="40"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnWizard"/>
+		<WorldScript VALUE="SWW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-ZOMBIE_MASTERY"/>
+		<AIWorldEvaluationScript VALUE="SWAI_ZombieMastery"/>
+		<CastEffect VALUE="Effect_DeathSpell"/>
+        <AdditionalGraphic VALUE="GlobalZombieMastery"/>
+		<AudioEffect VALUE="SpellZombieMastery"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ZOMBIE_MASTERY>
+	<SPELL-FAMINE WorldCost="200">
+		<DescriptionInfo Name="DES_FAMINE" Description="DES_FAMINE_DES" Graphic="SpellFamine"/>
+		<ResearchCost VALUE="1600"/>
+		<UpkeepCost VALUE="5"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-FAMINE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Famine"/>
+		<CastEffect VALUE="Effect_Famine"/>
+		<AudioEffect VALUE="SpellFamine"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-FAMINE>
+	<SPELL-CURSED_LANDS WorldCost="150">
+		<DescriptionInfo Name="DES_CURSED_LANDS" Description="DES_CURSED_LANDS_DES" Graphic="SpellCursedLands"/>
+		<ResearchCost VALUE="1700"/>
+		<UpkeepCost VALUE="2"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-CURSED_LANDS"/>
+		<AIWorldEvaluationScript VALUE="SWAI_CursedLands"/>
+		<CastEffect VALUE="Effect_CursedLands"/>
+		<AudioEffect VALUE="SpellCursedLands"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CURSED_LANDS>
+	<!--VRare-->
+	<SPELL-CRUEL_UNMINDING WorldCost="250">
+		<DescriptionInfo Name="DES_CRUEL_UNMINDING" Description="DES_CRUEL_UNMINDING_DES" Graphic="SpellCruelUnminding"/>
+		<ResearchCost VALUE="1850"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyWizard"/>
+		<WorldScript VALUE="SWW_CruelUnminding"/>
+		<AIWorldEvaluationScript VALUE="SWAI_CruelUnminding"/>
+		<CastEffect VALUE="Effect_DeathSpell"/>
+		<AudioEffect VALUE="SpellCruelUnminding"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CRUEL_UNMINDING>
+	<SPELL-WORD_OF_DEATH BattleCost="40" UnitBattleCost="30">
+		<DescriptionInfo Name="DES_WORD_OF_DEATH" Description="DES_WORD_OF_DEATH_DES" Graphic="SpellWordOfDeath"/>
+		<ResearchCost VALUE="2000"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoDeathImmus_Unit"/>
+		<BattleScript VALUE="SBG_WordOfDeath"/>
+		<FIntData VALUE="5"/>
+		<DamagePool VALUE="Irreversible"/>
+		<CastEffect VALUE="Effect_WordOfDeath"/>
+		<AudioEffect VALUE="SpellWordOfDeath"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WORD_OF_DEATH>
+	<SPELL-DEATH_KNIGHTS WorldCost="600">
+		<DescriptionInfo Name="DES_DEATH_KNIGHTS" Description="DES_DEATH_KNIGHTS_DES" Graphic="SpellDeathKnights"/>
+		<ResearchCost VALUE="2250"/>
+		<UpkeepCost VALUE="8"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-DTH_DEATH_KNIGHTS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DEATH_KNIGHTS>
+	<SPELL-DEATH_SPELL BattleCost="50" UnitBattleCost="33">
+		<DescriptionInfo Name="DES_DEATH_SPELL" Description="DES_DEATH_SPELL_DES" Graphic="SpellDeathSpell"/>
+		<ResearchCost VALUE="2500"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyBattlePlayer"/>
+		<BattleScript VALUE="SBW_DeathSpell"/>
+		<FIntData VALUE="2"/>
+		<DamagePool VALUE="Irreversible"/>
+		<CastEffect VALUE="Effect_DeathSpellSpell"/> <!--YES, this is correct, do not change-->
+		<AudioEffect VALUE="SpellDeathSpell"/>
+	</SPELL-DEATH_SPELL>
+	<SPELL-ANIMATE_DEAD BattleCost="50" UnitBattleCost="33">
+		<DescriptionInfo Name="DES_ANIMATE_DEAD" Description="DES_ANIMATE_DEAD_DES" Graphic="SpellAnimateDead"/>
+		<ResearchCost VALUE="3000"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_AnimateDeath"/>
+		<BattleScript VALUE="SBG_AnimateDeath"/>
+		<AIBattleEvaluationScript VALUE="SBAI_AnimatedDead"/>
+		<CastEffect VALUE="Effect_AnimateDead"/>
+		<AudioEffect VALUE="SpellAnimateDead"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ANIMATE_DEAD>
+	<SPELL-PESTILENCE WorldCost="350">
+		<DescriptionInfo Name="DES_PESTILENCE" Description="DES_PESTILENCE_DES" Graphic="SpellPestilence"/>
+		<ResearchCost VALUE="3500"/>
+		<UpkeepCost VALUE="5"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-PESTILENCE"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Pestilence"/>
+		<CastEffect VALUE="Effect_Pestilence"/>
+		<AudioEffect VALUE="SpellPestilence"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-PESTILENCE>
+	<SPELL-ETERNAL_NIGHT WorldCost="1000">
+		<DescriptionInfo Name="DES_ETERNAL_NIGHT" Description="DES_ETERNAL_NIGHT_DES" Graphic="SpellEternalNight"/>
+		<ResearchCost VALUE="4000"/>
+		<UpkeepCost VALUE="15"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-ETERNAL_NIGHT"/>
+		<AIWorldEvaluationScript VALUE="SWAI_EternalNight"/>
+        <AdditionalGraphic VALUE="GlobalEternalNight"/>
+		<AudioEffect VALUE="SpellEternalNight"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ETERNAL_NIGHT>
+	<SPELL-EVIL_OMENS WorldCost="1100">
+		<DescriptionInfo Name="DES_EVIL_OMENS" Description="DES_EVIL_OMENS_DES" Graphic="SpellEvilOmens"/>
+		<ResearchCost VALUE="4500"/>
+		<UpkeepCost VALUE="10"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-EVIL_OMENS"/>
+		<AIWorldEvaluationScript VALUE="SWAI_EvilOmens"/>
+		<CastEffect VALUE="Effect_DeathSpell"/>
+        <AdditionalGraphic VALUE="GlobalEvilOmens"/>
+		<AudioEffect VALUE="SpellEvilOmens"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-EVIL_OMENS>
+	<SPELL-DEATH_WISH WorldCost="500">
+		<DescriptionInfo Name="DES_DEATH_WISH" Description="DES_DEATH_WISH_DES" Graphic="SpellDeathWish"/>
+		<ResearchCost VALUE="5000"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<WorldScript VALUE="SWW_DeathWish"/>
+		<FIntData VALUE="0.0"/>
+		<AIWorldEvaluationScript VALUE="SWAI_DeathWish"/>
+		<CastEffect VALUE="Effect_DeathWish"/>
+		<AdditionalGraphic VALUE="GlobalDeathWish"/>
+		<AudioEffect VALUE="SpellDeathWish"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DEATH_WISH>
+	<SPELL-DEMON_LORD WorldCost="1000">
+		<DescriptionInfo Name="DES_DEMON_LORD" Description="DES_DEMON_LORD_DES" Graphic="SpellDemonLord"/>
+		<ResearchCost VALUE="6000"/>
+		<UpkeepCost VALUE="15"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-DTH_DEMON_LORD"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DEMON_LORD>
+
+	<!--Sorcery spells-->
+	<!--Common-->
+	<SPELL-RESIST_MAGIC WorldCost="25" BattleCost="5">
+		<DescriptionInfo Name="DES_RESIST_MAGIC" Description="DES_RESIST_MAGIC_DES" Graphic="SpellResistMagic"/>
+		<ResearchCost VALUE="20"/>
+		<UpkeepCost VALUE="1"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-RESIST_MAGIC"/>
+		<AIWorldEvaluationScript VALUE="SWAI_ResistMagic"/>
+		<CastEffect VALUE="Effect_ResistMagic"/>
+		<AudioEffect VALUE="SpellResistMagic"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-RESIST_MAGIC>
+	<SPELL-DISPEL_MAGIC_TRUE BattleCost="10">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+		<DescriptionInfo Name="DES_DISPEL_MAGIC_TRUE" Description="DES_DISPEL_MAGIC_TRUE_DES" Graphic="SpellDispelMagicTrue"/>
+		<ResearchCost VALUE="40"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT"/>
+		<TargetingScript VALUE="STAR_Dispel_Any_Unit"/>
+		<BattleScript VALUE="SBG_DispelMagic"/>
+		<FIntData VALUE="30"/>
+		<AIBattleEvaluationScript VALUE="SBAI_DispelMagic"/>
+		<DispelingSpell VALUE="TRUE"/>
+		<CastEffect VALUE="Effect_DispelMagic"/>
+		<AudioEffect VALUE="SpellDispelMagic"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DISPEL_MAGIC_TRUE>
+	<SPELL-FLOATING_ISLAND WorldCost="50">
+		<DescriptionInfo Name="DES_FLOATING_ISLAND" Description="DES_FLOATING_ISLAND_DES" Graphic="SpellFloatingIsland"/>
+		<ResearchCost VALUE="60"/>
+		<UpkeepCost VALUE="5"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-SOR_FLOATING_ISLAND"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-FLOATING_ISLAND>
+	<SPELL-GUARDIAN_WIND WorldCost="50" BattleCost="10" >
+		<DescriptionInfo Name="DES_GUARDIAN_WIND" Description="DES_GUARDIAN_WIND_DES" Graphic="SpellGuardianWind"/>
+		<ResearchCost VALUE="80"/>
+		<UpkeepCost VALUE="2"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-GUARDIAN_WIND"/>
+		<AIBattleEvaluationScript VALUE="SBAI_GuardianWind"/>
+		<AIWorldEvaluationScript VALUE="SWAI_GuardianWind"/>
+		<CastEffect VALUE="Effect_GuardianWind"/>
+		<AudioEffect VALUE="SpellGuardianWind"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-GUARDIAN_WIND>
+	<SPELL-PHANTOM_WARRIORS BattleCost="10">
+		<DescriptionInfo Name="DES_PHANTOM_WARRIORS" Description="DES_PHANTOM_WARRIORS_DES" Graphic="SpellPhantomWarriors"/>
+		<ResearchCost VALUE="100"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<StringData VALUE="UNIT-SOR_PHANTOM_WARRIORS"/>
+		<TargetingScript VALUE="STAR_TargetEmptyBattleHex"/>
+		<BattleScript VALUE="SBH_BattleSummon"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-PHANTOM_WARRIORS>
+	<SPELL-CONFUSION BattleCost="15">
+		<DescriptionInfo Name="DES_CONFUSION" Description="DES_CONFUSION_DES" Graphic="SpellConfusion"/>
+		<ResearchCost VALUE="130"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_Confusion"/>
+		<BattleScript VALUE="SBG_ResistCheckAgainstEnchantment"/>
+		<FIntData VALUE="4"/>
+		<EnchantmentData VALUE="ENCH-CONFUSION"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Confusion"/>
+		<CastEffect VALUE="Effect_Confusion"/>
+		<AudioEffect VALUE="SpellConfusion"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CONFUSION>
+	<SPELL-WORD_OF_RECALL WorldCost="20" BattleCost="20" UnitBattleCost="18">
+		<DescriptionInfo Name="DES_WORD_OF_RECALL" Description="DES_WORD_OF_RECALL_DES" Graphic="SpellWordOfRecall"/>
+		<ResearchCost VALUE="160"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_WordOfRecall"/>
+		<BattleScript VALUE="SBG_WordOfRecall"/>
+		<WorldScript VALUE="SWG_WordOfRecall"/>
+		<AIBattleEvaluationScript VALUE="SBAI_WordOfRecal"/>
+		<AIWorldEvaluationScript VALUE="SWAI_WordOfRecal"/>
+		<CastEffect VALUE="Effect_WordOfRecall"/>
+		<AudioEffect VALUE="SpellWordOfRecall"/>
+		<InvalidTarget VALUE="UI_NO_SUMMONING_CIRCLE_UNIT_DES"/>
+	</SPELL-WORD_OF_RECALL>
+	<SPELL-COUNTER_MAGIC BattleCost="10">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+		<DescriptionInfo Name="DES_COUNTER_MAGIC" Description="DES_COUNTER_MAGIC_DES" Graphic="SpellCounterMagic"/>
+		<ResearchCost VALUE="190"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_Battle"/>
+		<BattleScript VALUE="SBW_ApplyBattleEnchantment"/>
+		<EnchantmentData VALUE="ENCH-COUNTER_MAGIC"/>
+		<AIBattleEvaluationScript VALUE="SBAI_CounterMagic"/>
+		<DispelingSpell VALUE="TRUE"/>
+		<CastEffect VALUE="Effect_SorcerySpell"/>
+		<BattleCastEffect VALUE="GlobalSorcery"/>
+		<AudioEffect VALUE="SpellCounterMagic"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-COUNTER_MAGIC>
+	<SPELL-NAGAS WorldCost="100" >
+		<DescriptionInfo Name="DES_NAGAS" Description="DES_NAGAS_DES" Graphic="SpellNagas"/>
+		<ResearchCost VALUE="220"/>
+		<UpkeepCost VALUE="2"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-SOR_NAGAS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-NAGAS>
+	<SPELL-PSIONIC_BLAST BattleCost="10">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="2" DesType="DES_CHANGEABLE_COST_DAMAGE"/>
+		<DescriptionInfo Name="DES_PSIONIC_BLAST" Description="DES_PSIONIC_BLAST_DES" Graphic="SpellPsionicBlast"/>
+		<ResearchCost VALUE="250"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoMagicImmu_Unit"/>
+		<FIntData VALUE="5"/>
+		<BattleScript VALUE="SBG_PsionicBlast"/>
+		<BattleAttackEffect VALUE="Illusion"/>
+		<CastEffect VALUE="Effect_PsionicBlast"/>
+		<AudioEffect VALUE="SpellPsionicBlast"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-PSIONIC_BLAST>
+	<!--UnCommon-->
+	<SPELL-BLUR BattleCost="25" UnitBattleCost="22">
+		<DescriptionInfo Name="DES_BLUR" Description="DES_BLUR_DES" Graphic="SpellBlur"/>
+		<ResearchCost VALUE="300"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_Battle"/>
+		<BattleScript VALUE="SBW_ApplyBattleEnchantment"/>
+		<FIntData VALUE="0.1"/>
+		<EnchantmentData VALUE="ENCH-BLUR_GLOBAL"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Blur"/>
+		<CastEffect VALUE="Effect_Blur"/>
+		<BattleCastEffect VALUE="GlobalBlur"/>
+		<AudioEffect VALUE="SpellBlur"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-BLUR>
+	<SPELL-DISENCHANT_TRUE WorldCost="50" BattleCost="50" UnitBattleCost="33">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+		<DescriptionInfo Name="DES_DISENCHANT_TRUE" Description="DES_DISENCHANT_TRUE_DES" Graphic="SpellDisenchantTrue"/>
+		<ResearchCost VALUE="350"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-HEX_BATTLE_GLOBAL"/>
+		<FIntData VALUE="150"/>
+		<BattleScript VALUE="SBG_DisenchantArea"/>
+		<WorldScript VALUE="SWG_DisenchantArea"/>
+		<AIBattleEvaluationScript VALUE="SBAI_DisenchantTrue"/>
+		<AIWorldEvaluationScript VALUE="SWAI_DisenchantTrue"/>
+		<DispelingSpell VALUE="TRUE"/>
+		<CastEffect VALUE="Effect_Disenchant"/>
+		<BattleCastEffect VALUE="GlobalSorcery"/>
+		<AudioEffect VALUE="SpellDisenchant"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DISENCHANT_TRUE>
+	<SPELL-VERTIGO BattleCost="25" UnitBattleCost="22">
+		<DescriptionInfo Name="DES_VERTIGO" Description="DES_VERTIGO_DES" Graphic="SpellVertigo"/>
+		<ResearchCost VALUE="400"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoIlusionImmu_Unit"/>
+		<FIntData VALUE="2"/>
+		<BattleScript VALUE="SBG_ResistCheckAgainstEnchantment"/>
+		<EnchantmentData VALUE="ENCH-VERTIGO"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Vertigo"/>
+		<CastEffect VALUE="Effect_Vertigo"/>
+		<AudioEffect VALUE="SpellVertigo"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-VERTIGO>
+	<SPELL-SPELL_LOCK WorldCost="100" BattleCost="20" UnitBattleCost="18">
+		<DescriptionInfo Name="DES_SPELL_LOCK" Description="DES_SPELL_LOCK_DES" Graphic="SpellSpellLock"/>
+		<ResearchCost VALUE="450"/>
+		<UpkeepCost VALUE="1"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-SPELL_LOCK"/>
+		<AIBattleEvaluationScript VALUE="SBAI_SpellLock"/>
+		<AIWorldEvaluationScript VALUE="SWAI_SpellLock"/>
+		<CastEffect VALUE="Effect_SpellLock"/>
+		<AudioEffect VALUE="SpellSpellLock"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SPELL_LOCK>
+	<SPELL-ENCHANT_ROAD WorldCost="100">
+		<DescriptionInfo Name="DES_ENCHANT_ROAD" Description="DES_ENCHANT_ROAD_DES" Graphic="SpellEnchantRoad"/>
+		<ResearchCost VALUE="500"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetNormalRoad"/>
+		<!--<BattleScript VALUE="PlaceHolderScript"/>-->
+		<WorldScript VALUE="SWO_EnchantRoad"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Placeholder"/>
+		<CastEffect VALUE="Effect_EnchantRoad"/>
+		<AudioEffect VALUE="SpellEnchantRoad"/>
+		<InvalidTarget VALUE="DES_ENCHANT_ROAD_TARGET"/>
+	</SPELL-ENCHANT_ROAD>
+	<SPELL-FLIGHT WorldCost="125" BattleCost="25" UnitBattleCost="22">
+		<DescriptionInfo Name="DES_FLIGHT" Description="DES_FLIGHT_DES" Graphic="SpellFlight"/>
+		<ResearchCost VALUE="560"/>
+		<UpkeepCost VALUE="3"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-FLIGHT"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Flight"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Flight"/>
+		<CastEffect VALUE="Effect_Flight"/>
+		<AudioEffect VALUE="SpellFlight"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-FLIGHT>
+	<SPELL-WIND_MASTERY WorldCost="400">
+		<DescriptionInfo Name="DES_WIND_MASTERY" Description="DES_WIND_MASTERY_DES" Graphic="SpellWindMastery"/>
+		<ResearchCost VALUE="620"/>
+		<UpkeepCost VALUE="5"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-WIND_MASTERY"/>
+		<AIWorldEvaluationScript VALUE="SWAI_WindMastery"/>
+		<CastEffect VALUE="Effect_SorcerySpell"/>
+		<AudioEffect VALUE="SpellWindMastery"/>
+        <AdditionalGraphic VALUE="GlobalWindMastery"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WIND_MASTERY>
+	<SPELL-SPELL_BLAST WorldCost="50">
+		<DescriptionInfo Name="DES_SPELL_BLAST" Description="DES_SPELL_BLAST_DES" Graphic="SpellSpellBlast"/>
+		<ResearchCost VALUE="680"/>
+		<UpkeepCost VALUE="15"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_SpellBlast"/>
+		<WorldScript VALUE="SWW_SpellBlast"/>
+		<AIWorldEvaluationScript VALUE="SWAI_SpellBlast"/>
+		<CastEffect VALUE="Effect_SorcerySpell"/>
+		<AudioEffect VALUE="SpellSpellBlast"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SPELL_BLAST>
+	<SPELL-AURA_OF_MAJESTY WorldCost="400">
+		<DescriptionInfo Name="DES_AURA_OF_MAJESTY" Description="DES_AURA_OF_MAJESTY_DES" Graphic="SpellAuraOfMajesty"/>
+		<ResearchCost VALUE="740"/>
+		<UpkeepCost VALUE="5"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnWizard"/>
+		<WorldScript VALUE="SWW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-AURA_OF_MAJESTY"/>
+		<AIWorldEvaluationScript VALUE="SWAI_AuraOfMajesty"/>
+		<CastEffect VALUE="Effect_SorcerySpell"/>
+		<AudioEffect VALUE="SpellAuraOfMajesty"/>
+        <AdditionalGraphic VALUE="GlobalAuraOfMajesty"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-AURA_OF_MAJESTY>
+	<SPELL-PHANTOM_BEAST BattleCost="35" UnitBattleCost="28">
+		<DescriptionInfo Name="DES_PHANTOM_BEAST" Description="DES_PHANTOM_BEAST_DES" Graphic="SpellPhantomBeast"/>
+		<ResearchCost VALUE="800"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetEmptyBattleHex"/>
+		<StringData VALUE="UNIT-SOR_PHANTOM_BEAST"/>
+		<BattleScript VALUE="SBH_BattleSummon"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-PHANTOM_BEAST>
+	<!--Rare-->
+	<SPELL-DISJUNCTION_TRUE WorldCost="200">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+		<DescriptionInfo Name="DES_DISJUNCTION_TRUE" Description="DES_DISJUNCTION_TRUE_DES" Graphic="SpellDisjuntionTrue"/>
+		<ResearchCost VALUE="880"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL_ENCHANTMENT"/>
+		<WorldScript VALUE="SWW_Disjunction"/>
+		<FIntData VALUE="600"/>
+		<FIntData VALUE="3"/>
+		<AIWorldEvaluationScript VALUE="SWAI_DisjunctionTrue"/>
+		<DispelingSpell VALUE="TRUE"/>
+		<CastEffect VALUE="Effect_SorcerySpell"/>
+		<AudioEffect VALUE="SpellDisjuntion"/>
+		<ShowWizardsEnchantments VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DISJUNCTION_TRUE>
+	<SPELL-INVISIBILITY WorldCost="175" BattleCost="35" UnitBattleCost="28">
+		<DescriptionInfo Name="DES_INVISIBILITY" Description="DES_INVISIBILITY_DES" Graphic="SpellInvisibility"/>
+		<ResearchCost VALUE="960"/>
+		<UpkeepCost VALUE="10"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantmentUpdateInvisibility"/>
+		<WorldScript VALUE="SWG_Invisibility"/>
+		<EnchantmentData VALUE="ENCH-INVISIBILITY_SPELL"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Invisibility"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Invisibility"/>
+		<CastEffect VALUE="Effect_Invisibility"/>
+		<AudioEffect VALUE="SpellInvisibility"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-INVISIBILITY>
+	<SPELL-WIND_WALKING WorldCost="300">
+		<DescriptionInfo Name="DES_WIND_WALKING" Description="DES_WIND_WALKING_DES" Graphic="SpellWindWalking"/>
+		<ResearchCost VALUE="1040"/>
+		<UpkeepCost VALUE="12"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-WIND_WALKING_OWNER"/>
+		<AIWorldEvaluationScript VALUE="SWAI_WindWalking"/>
+		<CastEffect VALUE="Effect_WindWalking"/>
+		<AudioEffect VALUE="SpellWindWalking"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WIND_WALKING>
+	<SPELL-BANISH BattleCost="20" UnitBattleCost="18">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="15" DesType="DES_CHANGEABLE_COST_RESIST_LOWERING"/>
+		<DescriptionInfo Name="DES_BANISH" Description="DES_BANISH_DES" Graphic="SpellBanish"/>
+		<ResearchCost VALUE="1120"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyFantastic_Unit"/>
+		<FIntData VALUE="3"/>
+		<BattleScript VALUE="SBG_Banish"/>
+		<DamagePool VALUE="Irreversible"/>
+		<CastEffect VALUE="Effect_Banish"/>
+		<AudioEffect VALUE="SpellBanish"/>
+		<InvalidTarget VALUE="DES_BANISH_TARGET"/>
+	</SPELL-BANISH>
+	<SPELL-STORM_GIANT WorldCost="500" >
+		<DescriptionInfo Name="DES_STORM_GIANT" Description="DES_STORM_GIANT_DES" Graphic="SpellStormGiant"/>
+		<ResearchCost VALUE="1200"/>
+		<UpkeepCost VALUE="10"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-SOR_STORM_GIANT"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-STORM_GIANT>
+	<SPELL-AIR_ELEMENTAL BattleCost="50" UnitBattleCost="33">
+		<DescriptionInfo Name="DES_AIR_ELEMENTAL" Description="DES_AIR_ELEMENTAL_DES" Graphic="SpellAirElemental"/>
+		<ResearchCost VALUE="1300"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetEmptyBattleHex"/>
+		<StringData VALUE="UNIT-SOR_AIR_ELEMENTAL"/>
+		<BattleScript VALUE="SBH_BattleSummon"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-AIR_ELEMENTAL>
+	<SPELL-MIND_STORM BattleCost="35" UnitBattleCost="28">
+		<DescriptionInfo Name="DES_MIND_STORM" Description="DES_MIND_STORM_DES" Graphic="SpellMindStorm"/>
+		<ResearchCost VALUE="1400"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyNoIlusionImmu_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-MIND_STORM"/>
+		<CastEffect VALUE="Effect_MindStorm"/>
+		<AudioEffect VALUE="SpellMindStorm"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-MIND_STORM>
+	<SPELL-STASIS WorldCost="250">
+		<DescriptionInfo Name="DES_STASIS" Description="DES_STASIS_DES" Graphic="SpellStasis"/>
+		<ResearchCost VALUE="1500"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-GROUP_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyGroup"/>
+		<WorldScript VALUE="SWG_Stasis"/>
+		<FIntData VALUE="5"/>
+		<EnchantmentData VALUE="ENCH-STASIS"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Stasis"/>
+		<CastEffect VALUE="Effect_Stasis"/>
+		<AudioEffect VALUE="SpellStasis"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-STASIS>
+	<SPELL-MAGIC_IMMUNITY WorldCost="250" BattleCost="50" UnitBattleCost="33">
+		<DescriptionInfo Name="DES_MAGIC_IMMUNITY" Description="DES_MAGIC_IMMUNITY_DES" Graphic="SpellMagicImmunity"/>
+		<ResearchCost VALUE="1600"/>
+		<UpkeepCost VALUE="5"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-MAGIC_IMMUNITY"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MagicImmunity"/>
+		<AIWorldEvaluationScript VALUE="SWAI_MagicImmunity"/>
+		<CastEffect VALUE="Effect_MagicImmunity"/>
+		<AudioEffect VALUE="SpellMagicImmunity"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-MAGIC_IMMUNITY>
+	<SPELL-HASTE BattleCost="50" UnitBattleCost="33">
+		<DescriptionInfo Name="DES_HASTE" Description="DES_HASTE_DES" Graphic="SpellHaste"/>
+		<ResearchCost VALUE="1700"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Friendly_Unit"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-HASTE"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Haste"/>
+		<CastEffect VALUE="Effect_Haste"/>
+		<AudioEffect VALUE="SpellHaste"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-HASTE>
+	<!--VRare-->
+	<SPELL-DJINN WorldCost="650">
+		<DescriptionInfo Name="DES_DJINN" Description="DES_DJINN_DES" Graphic="SpellDjinn"/>
+		<ResearchCost VALUE="1850"/>
+		<UpkeepCost VALUE="17"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-SOR_DJINN"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DJINN>
+	<SPELL-SPELL_WARD WorldCost="350">
+		<DescriptionInfo Name="DES_SPELL_WARD" Description="DES_SPELL_WARD_DES" Graphic="SpellSpellWard"/>
+		<ResearchCost VALUE="2000"/>
+		<UpkeepCost VALUE="5"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/> <!-- That scr is not in use -->
+		<EnchantmentData VALUE="ENCH-SPELL_WARD_NATURE"/>
+		<EnchantmentData VALUE="ENCH-SPELL_WARD_SORCERY"/>
+		<EnchantmentData VALUE="ENCH-SPELL_WARD_CHAOS"/>
+		<EnchantmentData VALUE="ENCH-SPELL_WARD_LIFE"/>
+		<EnchantmentData VALUE="ENCH-SPELL_WARD_DEATH"/>
+		<EnchantmentData VALUE="ENCH-SPELL_WARD_ENFEEBLING_HEX"/>
+		<AIWorldEvaluationScript VALUE="SWAI_SpellWard"/>
+		<CastEffect VALUE="Effect_SpellWard"/>
+		<AudioEffect VALUE="SpellSpellWard"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SPELL_WARD>
+	<SPELL-CREATURE_BINDING BattleCost="70" UnitBattleCost="40">
+		<DescriptionInfo Name="DES_CREATURE_BINDING" Description="DES_CREATURE_BINDING_DES" Graphic="SpellCreatureBinding"/>
+		<ResearchCost VALUE="2250"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyFantastic_Unit"/>
+		<BattleScript VALUE="SBG_ResistCheckAgainstEnchantment"/>
+		<FIntData VALUE="2"/>
+		<EnchantmentData VALUE="ENCH-CREATURE_BINDING"/>
+		<AIBattleEvaluationScript VALUE="SBAI_CreatureBinding"/>
+		<CastEffect VALUE="Effect_CreatureBinding"/>
+		<AudioEffect VALUE="SpellCreatureBinding"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CREATURE_BINDING>
+	<SPELL-MASS_INVISIBILITY BattleCost="80" UnitBattleCost="50">
+		<DescriptionInfo Name="DES_MASS_INVISIBILITY" Description="DES_MASS_INVISIBILITY_DES" Graphic="SpellMassInvisibility"/>
+		<ResearchCost VALUE="2500"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_Battle"/>
+		<BattleScript VALUE="SBW_ApplyBattleEnchantmentUpdateVisibility"/>
+		<EnchantmentData VALUE="ENCH-MASS_INVISIBILITY"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MassInvisibility"/>
+		<CastEffect VALUE="Effect_Invisibility"/>
+		<BattleCastEffect VALUE="GlobalSorcery"/>
+		<AudioEffect VALUE="SpellInvisibility"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-MASS_INVISIBILITY>
+	<SPELL-GREAT_UNSUMMONING WorldCost="1000">
+		<DescriptionInfo Name="DES_GREAT_UNSUMMONING" Description="DES_GREAT_UNSUMMONING_DES" Graphic="SpellGreatUnsummoning"/>
+		<ResearchCost VALUE="3000"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<WorldScript VALUE="SWW_GreatUnsummoning"/>
+		<FIntData VALUE="3.0"/>
+		<AIWorldEvaluationScript VALUE="SWAI_GreatUnsummoning"/>
+		<CastEffect VALUE="Effect_GreatUnsummoning"/>
+		<AdditionalGraphic VALUE="GlobalGreatUnsummoning"/> 
+		<AudioEffect VALUE="SpellGreatUnsummoning"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-GREAT_UNSUMMONING>
+	<SPELL-SPELL_BINDING WorldCost="1000">
+		<DescriptionInfo Name="DES_SPELL_BINDING" Description="DES_SPELL_BINDING_DES" Graphic="SpellSpellBinding"/>
+		<ResearchCost VALUE="3500"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<WorldScript VALUE="SWW_SpellBinding"/>
+		<AIWorldEvaluationScript VALUE="SWAI_SpellBinding"/>
+		<CastEffect VALUE="Effect_SorcerySpell"/>
+		<AudioEffect VALUE="SpellSpellBinding"/>
+		<ShowWizardsEnchantments VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SPELL_BINDING>
+	<SPELL-FLYING_FORTRESS WorldCost="250">
+		<DescriptionInfo Name="DES_FLYING_FORTRESS" Description="DES_FLYING_FORTRESS_DES" Graphic="SpellFlyingFortress"/>
+		<ResearchCost VALUE="4000"/>
+		<UpkeepCost VALUE="25"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTownWithFortress"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-FLYING_FORTRESS"/>
+		<AIWorldEvaluationScript VALUE="SWAI_FlyingFortress"/>
+		<CastEffect VALUE="Effect_FlyingFortress"/>
+		<AudioEffect VALUE="SpellFlyingFortress"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-FLYING_FORTRESS>
+	<SPELL-SKY_DRAKE WorldCost="1000">
+		<DescriptionInfo Name="DES_SKY_DRAKE" Description="DES_SKY_DRAKE_DES" Graphic="SpellSkyDrake"/>
+		<ResearchCost VALUE="4500"/>
+		<UpkeepCost VALUE="25"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-SOR_SKY_DRAKE"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SKY_DRAKE>
+	<SPELL-SUPPRESS_MAGIC WorldCost="1250">
+		<DescriptionInfo Name="DES_SUPPRESS_MAGIC" Description="DES_SUPPRESS_MAGIC_DES" Graphic="SpellSuppressMagic"/>
+		<ResearchCost VALUE="5000"/>
+		<UpkeepCost VALUE="50"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-SUPPRESS_MAGIC"/>
+		<AIWorldEvaluationScript VALUE="SWAI_SuppressMagic"/>
+		<CastEffect VALUE="Effect_SorcerySpell"/>
+		<AudioEffect VALUE="SpellSuppressMagic"/>
+        <AdditionalGraphic VALUE="GlobalSuppressMagic"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SUPPRESS_MAGIC>
+	<SPELL-TIME_STOP WorldCost="1500">
+		<DescriptionInfo Name="DES_TIME_STOP" Description="DES_TIME_STOP_DES" Graphic="SpellTimeStop"/>
+		<ResearchCost VALUE="6000"/>
+		<UpkeepCost VALUE="200"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_GameMenager"/>
+		<WorldScript VALUE="SWW_ApplyGameManagerEnchantment"/>
+		<EnchantmentData VALUE="ENCH-TIME_STOP"/>		
+		<AIWorldEvaluationScript VALUE="SWAI_TimeStop"/>
+		<CastEffect VALUE="Effect_SorcerySpell"/>
+		<AudioEffect VALUE="SpellTimeStop"/>
+        <AdditionalGraphic VALUE="GlobalTimeStop"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-TIME_STOP>
+
+
+	<!--Arcane spells-->
+	<!--Common-->
+	<SPELL-MAGIC_SPIRIT ResearchExclusion="TRUE" WorldCost="30">
+		<DescriptionInfo Name="DES_MAGIC_SPIRIT" Description="DES_MAGIC_SPIRIT_DES" Graphic="SpellMagicSpirit"/>
+		<ResearchCost VALUE="0"/>
+		<UpkeepCost VALUE="1"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-ARC_MAGIC_SPIRIT"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-MAGIC_SPIRIT>
+	<SPELL-DISPEL_MAGIC BattleCost="10">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+		<DescriptionInfo Name="DES_DISPEL_MAGIC" Description="DES_DISPEL_MAGIC_DES" Graphic="SpellDispelMagic"/>
+		<ResearchCost VALUE="100"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT"/>
+		<TargetingScript VALUE="STAR_Dispel_Any_Unit"/>
+		<BattleScript VALUE="SBG_DispelMagic"/>
+		<FIntData VALUE="10"/>
+		<AIBattleEvaluationScript VALUE="SBAI_DispelMagic"/>
+		<DispelingSpell VALUE="TRUE"/>
+		<CastEffect VALUE="Effect_DispelMagic"/>
+		<AudioEffect VALUE="SpellDispelMagic"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DISPEL_MAGIC>
+	<SPELL-SPELL_OF_RETURN ResearchExclusion="TRUE" WorldCost="1000">
+		<DescriptionInfo Name="DES_SPELL_OF_RETURN" Description="DES_SPELL_OF_RETURN_DES" Graphic="SpellSpellOfReturn"/>
+		<ResearchCost VALUE="-1"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_SpellOfReturn"/>
+		<AIWorldEvaluationScript VALUE="SWAI_SpellOfReturn"/>
+		<CastEffect VALUE="Effect_ArcaneSpell"/>
+		<AudioEffect VALUE="SpellSpellOfReturn"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SPELL_OF_RETURN>
+	<SPELL-SUMMONING_CIRCLE WorldCost="50">
+		<DescriptionInfo Name="DES_SUMMONING_CIRCLE" Description="DES_SUMMONING_CIRCLE_DES" Graphic="SpellSummoningCircle"/>
+		<ResearchCost VALUE="150"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-LOCATION_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyTown"/>
+		<WorldScript VALUE="SWG_SummoningCircle"/>
+		<AIWorldEvaluationScript VALUE="SWAI_SummoningCircle"/>
+		<CastEffect VALUE="Effect_SummoningCircle"/>
+		<AudioEffect VALUE="SpellSummoningCircle"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SUMMONING_CIRCLE>
+	<!--UnCommon-->
+	<SPELL-DETECT_MAGIC WorldCost="200">
+		<DescriptionInfo Name="DES_DETECT_MAGIC" Description="DES_DETECT_MAGIC_DES" Graphic="EnchantmentDetectMagic"/>
+		<ResearchCost VALUE="400"/>
+		<UpkeepCost VALUE="3"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnWizard"/>
+		<WorldScript VALUE="SWW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-DETECT_MAGIC"/>
+		<AIWorldEvaluationScript VALUE="SWAI_IrrelevantForAI"/>
+		<CastEffect VALUE="Effect_ArcaneSpell"/>
+		<AudioEffect VALUE="SpellDetectMagic"/>
+        <AdditionalGraphic VALUE="GlobalDetectMagic"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DETECT_MAGIC>
+	<SPELL-SUMMON_HERO WorldCost="300">
+		<DescriptionInfo Name="DES_SUMMON_HERO" Description="DES_SUMMON_HERO_DES" Graphic="SpellSummonHero"/>
+		<ResearchCost VALUE="500"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<TargetingScript VALUE="STAR_SummonHero"/>
+		<WorldScript VALUE="SWS_SummonHero"/>
+		<AIWorldEvaluationScript VALUE="SWAI_SummonHero"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SUMMON_HERO>
+	<SPELL-RECALL_HERO BattleCost="20" UnitBattleCost="18">
+		<DescriptionInfo Name="DES_RECALL_HERO" Description="DES_RECALL_HERO_DES" Graphic="SpellRecallHero"/>
+		<ResearchCost VALUE="350"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY_HERO"/>
+		<TargetingScript VALUE="STAR_RecallHero"/>
+		<BattleScript VALUE="SBG_WordOfRecall"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Placeholder"/>
+		<CastEffect VALUE="Effect_RecallHero"/>
+		<AudioEffect VALUE="SpellRecallHero"/>
+		<InvalidTarget VALUE="UI_NO_SUMMONING_CIRCLE_HERO_DES"/>
+	</SPELL-RECALL_HERO>
+	<SPELL-DISENCHANT_AREA WorldCost="50" BattleCost="50" UnitBattleCost="33">
+		<ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+		<DescriptionInfo Name="DES_DISENCHANT_AREA" Description="DES_DISENCHANT_AREA_DES" Graphic="SpellDisenchantArea"/>
+		<ResearchCost VALUE="300"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-HEX_BATTLE_GLOBAL"/>
+		<FIntData VALUE="50"/>
+		<BattleScript VALUE="SBG_DisenchantArea"/>
+		<WorldScript VALUE="SWG_DisenchantArea"/>
+		<AIBattleEvaluationScript VALUE="SBAI_Placeholder"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Disenchant"/>
+		<DispelingSpell VALUE="TRUE"/>
+		<CastEffect VALUE="Effect_DisenchantArea"/>
+		<BattleCastEffect VALUE="GlobalArcane"/>
+		<AudioEffect VALUE="SpellDisenchantArea"/>
+		<BattleCastEffect VALUE="Placeholder"/>
+	</SPELL-DISENCHANT_AREA>
+	<SPELL-ENCHANT_ITEM WorldCost="50">
+		<DescriptionInfo Name="DES_ENCHANT_ITEM" Description="DES_ENCHANT_ITEM_DES" Graphic="SpellEnchantItem"/>
+		<ResearchCost VALUE="450"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<WorldScript VALUE="SWS_CraftArtefact"/>
+		<!-- Cost is based on item creation type and power. -->
+		<AIWorldEvaluationScript VALUE="SWAI_CreateEnchantItem"/>
+		<CastEffect VALUE="Effect_ArcaneSpell"/>
+		<AudioEffect VALUE="SpellEnchantItem"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-ENCHANT_ITEM>
+	<!--Rare-->
+	<SPELL-AWARENESS WorldCost="700">
+		<DescriptionInfo Name="DES_AWARENESS" Description="DES_AWARENESS_DES" Graphic="SpellAwareness"/>
+		<ResearchCost VALUE="600"/>
+		<UpkeepCost VALUE="3"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnWizard"/>
+		<WorldScript VALUE="SWW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-AWARENESS"/>
+		<AIWorldEvaluationScript VALUE="SWAI_IrrelevantForAI"/>
+		<CastEffect VALUE="Effect_Awareness"/>
+		<AudioEffect VALUE="SpellAwareness"/>
+        <AdditionalGraphic VALUE="GlobalAwareness"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-AWARENESS>
+	<SPELL-DISJUNCTION WorldCost="200" >
+		<ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+		<DescriptionInfo Name="DES_DISJUNCTION" Description="DES_DISJUNCTION_DES" Graphic="SpellDisjunction"/>
+		<ResearchCost VALUE="750"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL_ENCHANTMENT"/>
+		<WorldScript VALUE="SWW_Disjunction"/>
+		<FIntData VALUE="200"/>
+		<FIntData VALUE="1"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Disjunction"/>
+		<DispelingSpell VALUE="TRUE"/>
+		<CastEffect VALUE="Effect_ArcaneSpell"/>
+		<AudioEffect VALUE="SpellDisjunction"/>
+		<ShowWizardsEnchantments VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DISJUNCTION>
+	<SPELL-CREATE_ARTEFACT WorldCost="50">
+		<DescriptionInfo Name="DES_CREATE_ARTEFACT" Description="DES_CREATE_ARTEFACT_DES" Graphic="SpellCreateArtifact"/>
+		<ResearchCost VALUE="1000"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<WorldScript VALUE="SWS_CraftArtefact"/>
+		<!-- Cost is based on item creation type and power. -->
+		<AIWorldEvaluationScript VALUE="SWAI_CreateArtefactItem"/>
+		<CastEffect VALUE="Effect_ArcaneSpell"/>
+		<AudioEffect VALUE="SpellCreateArtifact"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CREATE_ARTEFACT>
+	<SPELL-SUMMON_CHAMPION WorldCost="750">
+		<DescriptionInfo Name="DES_SUMMON_CHAMPION" Description="DES_SUMMON_CHAMPION_DES" Graphic="SpellSummonChampion"/>
+		<ResearchCost VALUE="1250"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<TargetingScript VALUE="STAR_SummonChampion"/>
+		<WorldScript VALUE="SWS_SummonChampion"/>
+		<AIWorldEvaluationScript VALUE="SWAI_SummonChampion"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<TreasureExclude VALUE="TRUE"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SUMMON_CHAMPION>
+	<!--VRare-->
+	<SPELL-SPELL_OF_MASTERY WorldCost="5000">
+		<DescriptionInfo Name="DES_SPELL_OF_MASTERY" Description="DES_SPELL_OF_MASTERY_DES" Graphic="SpellSpellOfMastery"/>
+		<ResearchCost VALUE="59960"/> <!--  cost is lowered by moste of researched spell -->
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="VeryRare"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<!--<TargetingScript VALUE="PlaceHolderScript"/>-->
+		<WorldScript VALUE="SWW_SpellOfMastery"/>
+		<AIWorldEvaluationScript VALUE="SWAI_SpellOfMastery"/>
+		<CastEffect VALUE="Effect_ArcaneSpell"/>
+		<AudioEffect VALUE="SpellSpellOfMastery"/>
+		<TreasureExclude VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SPELL_OF_MASTERY>
+
+	<!-- Out of realms -->
+	<SPELL-SUMMON_DEMONS ResearchExclusion="TRUE" BattleCost="10">
+		<DescriptionInfo Name="DES_SUMMON_DEMONS" Description="DES_SUMMON_DEMONS_DES" Graphic="SpellSummonDemons"/>
+		<ResearchCost VALUE="1"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetEmptyBattleHex"/>
+		<StringData VALUE="UNIT-DTH_DEMON"/>
+		<BattleScript VALUE="SBH_BattleSummon"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SUMMON_DEMONS>
+	<SPELL-SUMMON_BOAR ResearchExclusion="TRUE" BattleCost="10">
+		<DescriptionInfo Name="DES_SUMMON_BOAR" Description="DES_SUMMON_BOAR_DES" Graphic="SpellBoar"/>
+		<ResearchCost VALUE="1"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetEmptyBattleHex"/>
+		<StringData VALUE="UNIT-SUMMON_BOAR"/>
+		<BattleScript VALUE="SBH_BattleSummon"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SUMMON_BOAR>
+	<SPELL-SUMMON_FAT_RAT ResearchExclusion="TRUE" BattleCost="10">
+		<DescriptionInfo Name="DES_SUMMON_FAT_RAT" Description="DES_SUMMON_FAT_RAT_DES" Graphic="SpellFatRat"/>
+		<ResearchCost VALUE="1"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetEmptyBattleHex"/>
+		<StringData VALUE="UNIT-SUMMON_FAT_RAT"/>
+		<BattleScript VALUE="SBH_BattleSummon"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SUMMON_FAT_RAT>
+	<SPELL-SUMMON_NTR_WAR_BEARS ResearchExclusion="TRUE" BattleCost="10">
+		<DescriptionInfo Name="DES_SUMMON_WAR_BEARS" Description="DES_SUMMON_WAR_BEARS_DES" Graphic="SpellWarBears"/>
+		<ResearchCost VALUE="1"/>
+		<Realm VALUE="Nature"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetEmptyBattleHex"/>
+		<StringData VALUE="UNIT-SUMMON_WAR_BEAR"/>
+		<BattleScript VALUE="SBH_BattleSummon"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SUMMON_NTR_WAR_BEARS>
+
+	
+	<!-- DLC 2 -->
+	<SPELL_PACK-MOMA_ILDE>
+		<Spell VALUE="SPELL-MAGIC_BULLET"/>
+		<Spell VALUE="SPELL-RECONSTRUCT"/>
+		<Spell VALUE="SPELL-MASS_SHIELD"/>
+		<!--<Spell VALUE="SPELL-INVIOLABILITY"/>-->
+		<Spell VALUE="SPELL-MASS_PIERCING"/>
+		<Spell VALUE="SPELL-CASTING_BLOCK"/>
+	</SPELL_PACK-MOMA_ILDE>
+	<!--<SPELL-INVIOLABILITY Dlc="Dlc2" ResearchExclusion="TRUE" UnitBattleCost="5">
+		<DescriptionInfo Name="DES_INVIOLABILITY" Description="DES_INVIOLABILITY_DES" Graphic="Placeholder"/>
+		<ResearchCost VALUE="1"/>
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_Inviolability"/>
+		<EnchantmentData VALUE="ENCH-ENCHANTED_ARMOR"/>
+		<FIntData VALUE="2"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-INVIOLABILITY>-->
+	<SPELL-MASS_PIERCING Dlc="Dlc2" ResearchExclusion="TRUE" UnitBattleCost="5">
+		<DescriptionInfo Name="DES_MASS_PIERCING_SPELL" Description="DES_MASS_PIERCING_SPELL_DES" Graphic="SpellMassPiercing"/>
+		<ResearchCost VALUE="1"/>
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_MassPiercing"/>
+		<BattleScript VALUE="SBW_ApplyWizardEnchantmentWithSacrifice"/>
+		<EnchantmentData VALUE="ENCH-MASS_PIERCING"/>
+		<FIntData VALUE="5"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MassPiercing"/>
+		<CastEffect VALUE="Effect_MassPiercing"/>
+		<AudioEffect VALUE="SpellMassPiercing"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-MASS_PIERCING>
+	<SPELL-CASTING_BLOCK Dlc="Dlc2" ResearchExclusion="TRUE" UnitBattleCost="5">
+		<DescriptionInfo Name="DES_CASTING_BLOCK_SPELL" Description="DES_CASTING_BLOCK_SPELL_DES" Graphic="SpellCastingBlock"/>
+		<ResearchCost VALUE="1"/>
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_CastingBlock"/>
+		<BattleScript VALUE="SBW_ApplyWizardEnchantmentWithSacrifice"/>
+		<EnchantmentData VALUE="ENCH-CASTING_BLOCK"/>
+		<FIntData VALUE="2"/>
+		<AIBattleEvaluationScript VALUE="SBAI_CastingBlock"/>
+		<BattleCastEffect VALUE="GlobalTech"/>
+		<CastEffect VALUE=""/>
+		<AudioEffect VALUE="SpellCastingBlock"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CASTING_BLOCK>
+	
+	<SPELL-SUMMON_BOMB Dlc="Dlc2" ResearchExclusion="TRUE" BattleCost="10">
+		<DescriptionInfo Name="DES_SUMMON_BOMB" Description="DES_SUMMON_BOMB_DES" Graphic="SpellBomb"/>
+		<ResearchCost VALUE="1"/>
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetEmptyBattleHex"/>
+		<StringData VALUE="UNIT-SOUL_BOMB"/>
+		<BattleScript VALUE="SBH_BattleSummon"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SUMMON_BOMB>
+	<!--Common tech-->
+	<SPELL-TECH_SCOUTING_PROBE Dlc="Dlc2" ResearchExclusion="TRUE" WorldCost="40">
+		<DescriptionInfo Name="DES_SCOUTING_PROBE" Description="DES_SCOUTING_PROBE_SUMMON_DES" Graphic="SpellScoutingProbe"/>
+		<ResearchCost VALUE="-1"/>
+		<UpkeepCost VALUE="1"/>
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-TECH_SCOUTING_PROBE"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-TECH_SCOUTING_PROBE>
+	<SPELL-TECH_ENGINEERING_PROBE Dlc="Dlc2" WorldCost="30">
+		<DescriptionInfo Name="DES_ENGINEERING_PROBE" Description="DES_ENGINEERING_PROBE_SUMMON_DES" Graphic="SpellEngineeringProbe"/>
+		<ResearchCost VALUE="120"/>
+		<UpkeepCost VALUE="2"/>
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-TECH_ENGINEERING_PROBE"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-TECH_ENGINEERING_PROBE>
+	<SPELL-POWER_SEEKER Dlc="Dlc2" ResearchExclusion="TRUE" WorldCost="20">
+		<DescriptionInfo Name="DES_POWER_SEEKER" Description="DES_POWER_SEEKER_DES" Graphic="SpellPowerSeeker"/>
+		<ResearchCost VALUE="-1"/>
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_WorldHex"/>
+		<WorldScript VALUE="SWO_PowerSeeker"/>
+		<AIWorldEvaluationScript VALUE="SWAI_IrrelevantForAI"/>
+		<CastEffect VALUE=""/>
+        <AudioEffect VALUE="SpellPowerSeeker"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-POWER_SEEKER>
+	<SPELL-CYBER_SPRITE Dlc="Dlc2" BattleCost="15">
+		<DescriptionInfo Name="DES_CYBER_SPRITE" Description="DES_CYBER_SPRITE_SUMMON_DES" Graphic="SpellCyberSprite"/>
+		<ResearchCost VALUE="120"/>
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<StringData VALUE="UNIT-TECH_CYBER_SPRITE"/>
+		<TargetingScript VALUE="STAR_TargetEmptyBattleHex"/>
+		<BattleScript VALUE="SBH_BattleSummon"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-CYBER_SPRITE>
+	<SPELL-MAGIC_BULLET Dlc="Dlc2" WorldCost="35" BattleCost="10">
+		<DescriptionInfo Name="DES_MAGIC_BULLET" Description="DES_MAGIC_BULLET_DES" Graphic="SpellMagicBullet"/>
+		<ResearchCost VALUE="60"/>
+		<UpkeepCost VALUE="1"/>
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="Common"/>
+		<UpkeepCost VALUE="1" />
+		<TargetType VALUE="TARGET_TYPE-UNIT_FRIENDLY"/>
+		<TargetingScript VALUE="STAR_FriendlyNormalUnitOrHeroNormalRange"/>
+		<BattleScript VALUE="SBG_ApplyEnchantment"/>
+		<WorldScript VALUE="SWG_ApplyEnchantment"/>
+		<EnchantmentData VALUE="ENCH-MAGIC_BULLET"/>
+		<AIBattleEvaluationScript VALUE="SBAI_AddAmmo"/>
+		<AIWorldEvaluationScript VALUE="SWAI_AddAmmo"/>
+		<CastEffect VALUE="Effect_MagicBullet"/>
+		<AudioEffect VALUE="SpellMagicBullet"/>
+		<InvalidTarget VALUE="DES_NORMAL_UNIT_WITH_RANGE_MISSILE_ATTACK"/>
+	</SPELL-MAGIC_BULLET>
+	<SPELL-HERO_TRAINING WorldCost="120" >
+		<DescriptionInfo Name="DES_HERO_TRAINING" Description="DES_HERO_TRAINING_DES" Graphic="SpellHeroTraining"/>
+		<ResearchCost VALUE="120"/>
+		<UpkeepCost VALUE="5" />
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnWizard"/>
+		<WorldScript VALUE="SWW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-HERO_TRAINING"/>
+		<AIWorldEvaluationScript VALUE="SWAI_HeroTraining"/>
+		<CastEffect VALUE="Effect_HeroTraining"/>
+		<AdditionalGraphic VALUE="GlobalHeroTraining"/>
+		<AudioEffect VALUE="SpellHeroTraining"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-HERO_TRAINING>
+	<!--Uncommon tech-->
+	<SPELL-MASS_SHIELD Dlc="Dlc2" BattleCost="25" UnitBattleCost="22">
+		<DescriptionInfo Name="DES_MASS_SHIELD" Description="DES_MASS_SHIELD_DES" Graphic="SpellMassShield"/>
+		<ResearchCost VALUE="300"/>
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_OWN"/>
+		<TargetingScript VALUE="STAR_OwnBattlePlayer"/>
+		<BattleScript VALUE="SBW_ApplyWizardEnchantment"/>
+		<EnchantmentData VALUE="ENCH-MASS_SHIELD"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MassShield"/>
+		<CastEffect VALUE="Effect_MassShield"/>
+		<BattleCastEffect VALUE=""/>
+		<AudioEffect VALUE="SpellMassShield"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-MASS_SHIELD>
+	<SPELL-RECONSTRUCT BattleCost="20" UnitBattleCost="18">
+		<DescriptionInfo Name="DES_RECONSTRUCT" Description="DES_RECONSTRUCT_DES" Graphic="SpellReconstruct"/>
+		<ResearchCost VALUE="350"/>
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="Uncommon"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_Reconstruct"/>
+		<BattleScript VALUE="SBG_Reconstruct"/>
+		<AIBattleEvaluationScript VALUE="SBAI_AnimatedDead"/>
+		<CastEffect VALUE="Effect_Reconstruct"/>
+		<AudioEffect VALUE="SpellReconstruct"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-RECONSTRUCT>
+	<!--Rare tech-->
+	<SPELL-TECHCARNATION Dlc="Dlc2" WorldCost="500">
+		<DescriptionInfo Name="DES_TECHCARNATION" Description="DES_TECHCARNATION_DES" Graphic="SpellTechcarnation"/>
+		<ResearchCost VALUE="960"/>
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<TargetingScript VALUE="STAR_Incarnation"/>
+		<StringData VALUE="HERO-MOMA_ILDE"/>
+		<WorldScript VALUE="SWS_SummonSpecificHero"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-TECHCARNATION>
+	<SPELL-DETECT_MINERALS Dlc="Dlc2" WorldCost="300">
+		<DescriptionInfo Name="DES_DETECT_MINERALS" Description="DES_DETECT_MINERALS_DES" Graphic="SpellDetectMinerals"/>
+		<ResearchCost VALUE="900"/>
+		<Realm VALUE="Tech"/>
+		<Rarity VALUE="Rare"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_DetectMinerals"/>
+		<WorldScript VALUE="SWO_DetectMinerals"/>
+		<AIWorldEvaluationScript VALUE="SWAI_DetectMinerals"/>
+		<CastEffect VALUE="Effect_DetectMinerals"/>
+		<AudioEffect VALUE="SpellDetectMinerals"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-DETECT_MINERALS>		
+	<SPELL-SUMMON_LESSER_SHADOW_DEMONS Dlc="Dlc2" ResearchExclusion="TRUE" WorldCost="60">
+		<DescriptionInfo Name="DES_SUMMON_LESSER_SHADOW_DEMONS" Description="DES_SUMMON_LESSER_SHADOW_DEMONS_DES" Graphic="SpellShadowDemons"/>
+		<ResearchCost VALUE="1"/>
+		<UpkeepCost VALUE="3"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-SUMMON"/>
+		<StringData VALUE="UNIT-DTH_LESSER_SHADOW_DEMONS"/>
+		<WorldScript VALUE="SWS_Summon"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Summon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-SUMMON_LESSER_SHADOW_DEMONS>
+	
+	<!-- DLC 0 -->
+	<SPELL-UNDEAD_HERO Dlc="Dlc0" ResearchExclusion="TRUE" WorldCost="60">
+		<DescriptionInfo Name="DES_UNDEAD_HERO" Description="DES_UNDEAD_HERO_DES" Graphic="SpellUndeadHero"/>
+		<ResearchCost VALUE="1"/>
+		<Realm VALUE="Death"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-GLOBAL"/>
+		<TargetingScript VALUE="STAR_UndeadHero"/>
+		<WorldScript VALUE="SWS_UndeadHero"/>
+		<StringData VALUE="SKILL-BLACK_CHANNELS"/>
+		<StringData VALUE="SKILL-COLD_IMMUNITY"/>
+		<StringData VALUE="SKILL-POISON_IMMUNITY"/>
+		<StringData VALUE="SKILL-ILLUSIONS_IMMUNITY"/>
+		<StringData VALUE="SKILL-DEATH_IMMUNITY"/>
+		<StringData VALUE="SKILL-LIFE_STEALING_1_ADDON2"/>
+		<AIWorldEvaluationScript VALUE="SWAI_Resurrection"/>
+		<CastEffect VALUE="Effect_UndeadHero"/>
+		<AudioEffect VALUE="SpellUndeadHero"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-UNDEAD_HERO>
+	
+	<!-- DLC 3 -->
+	<SPELL_PACK-PHYM>
+		<Spell VALUE="SPELL-PSIONIC_BLAST"/>
+		<Spell VALUE="SPELL-CONFUSION"/>
+	</SPELL_PACK-PHYM>
+	<SPELL-WATER_ELEMENTAL Dlc="Dlc3" ResearchExclusion="TRUE" UnitBattleCost="15">
+		<DescriptionInfo Name="DES_WATER_ELEMENTAL" Description="DES_WATER_ELEMENTAL_DES" Graphic="SpellWaterElemental"/>
+		<ResearchCost VALUE="1"/>
+		<Realm VALUE="Sorcery"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_TargetEmptyBattleHex"/>
+		<StringData VALUE="UNIT-SOR_WATER_ELEMENTAL"/> 
+		<BattleScript VALUE="SBH_BattleSummon"/>
+		<AIBattleEvaluationScript VALUE="SBAI_MeleeSummon"/>
+		<CastEffect VALUE="Effect_Summon"/>
+		<AudioEffect VALUE="SpellSummon"/>
+		<SummonFantasticUnitSpell VALUE="TRUE"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-WATER_ELEMENTAL>
+	<SPELL-BARRAGE Dlc="Dlc3" ResearchExclusion="TRUE" UnitBattleCost="15">
+		<DescriptionInfo Name="DES_BARRAGE" Description="DES_BARRAGE_DES" Graphic="SpellSeaStorm"/>
+		<ResearchCost VALUE="1"/>
+		<Realm VALUE="Chaos"/>
+		<Rarity VALUE="None"/>
+		<TargetType VALUE="TARGET_TYPE-WIZARD_ENEMY"/>
+		<TargetingScript VALUE="STAR_EnemyBattlePlayer"/>
+		<BattleScript VALUE="SBW_FlameStrike"/>
+		<FIntData VALUE="5"/>
+		<AIBattleEvaluationScript VALUE="SBAI_FlameStrike"/>
+		<CastEffect VALUE="Effect_FlameStrike"/>
+		<AudioEffect VALUE="SpellSeaStorm"/>
+		<InvalidTarget VALUE=""/>
+	</SPELL-BARRAGE>
+	<SPELL-SEA_HARVEST Dlc="Dlc3" WorldCost="40">
+		<DescriptionInfo Name="DES_SEA_HARVEST" Description="DES_SEA_HARVEST_DES" Graphic="SpellSeaHarvest"/>
+		<ResearchCost VALUE="300"/>
+		<Realm VALUE="Arcane"/>
+		<Rarity VALUE="Common"/>
+		<TargetType VALUE="TARGET_TYPE-HEX"/>
+		<TargetingScript VALUE="STAR_SeaHarvest"/>
+		<WorldScript VALUE="SWO_SeaHarvest"/>
+		<AIWorldEvaluationScript VALUE="SWAI_SeaHarvest"/>
+		<CastEffect VALUE="Effect_SeaHarvest"/>
+		<AudioEffect VALUE="SpellSeaHarvest"/>
+		<InvalidTarget VALUE="DES_SEA_HARVEST_TARGET"/>
+	</SPELL-SEA_HARVEST>	
+</DB_SPELL>

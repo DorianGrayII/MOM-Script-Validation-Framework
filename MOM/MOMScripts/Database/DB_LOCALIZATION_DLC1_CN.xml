@@ -1,0 +1,107 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC1_CN Language="中文">
+		<!-- DLC 1 descriptions --> 
+		<Loc Key="DES_RAASS" Value="拉斯" />
+		<Loc Key="DES_RAASS_DES" Value="拉斯是一名愤怒而强大的龙裔巫师, 能够以致命的攻击准确度征服敌人. 他是混沌与死亡系魔法的大师, 也是一名能够召唤强大生物的奇幻军阀. 他拒绝穿着人类服装, 并且憎恨他所谓的双胞胎兄弟斯拉. 传说拉斯源自于憎恨的深渊, 他是斯拉复活后的黑暗倒影..." />
+		<Loc Key="DES_RAASS_QUOTE" Value="区区倒影, 有本事再说一遍!" />
+		
+		<Loc Key="DES_BIANKA" Value="比安卡" />
+		<Loc Key="DES_BIANKA_DES" Value="比安卡凭借着她坚定不移的决心和对符文魔法无懈可击的掌控，跻身于矮人贵族的最高层. 作为一名石DES_LIFEBRINGER_DES匠, 比安卡表现出了对石头近乎不自然的亲和力. 这名伟大的巫师来自迈罗尔, 试图通过掌控三种独立的魔法, 即巫术, 混沌和自然来证明她与生俱来的地位." />
+		<Loc Key="DES_BIANKA_QUOTE" Value="我的力量由动荡所锻造, 注入了符文之力并镶嵌在永恒之石中. 没有人可以粉碎它!" />
+		
+		<Loc Key="DES_TLACHTGA" Value="塔拉齐伽" />
+		<Loc Key="DES_TLACHTGA_DES" Value="当塔拉其伽还是名婴儿时就掌握了自然魔法, 并成长为黑暗土地上最伟大的德鲁伊之一. 那里的人们厌恶这样的存在, 她也因此来到了迈罗尔, 因为可以驯服和控制大自然. 她也是一名强大的自然系召唤师, 能够使自然系召唤生物消耗降低50%, 并且能够在战争巨熊的陪伴下开始她的旅程." />
+		<Loc Key="DES_TLACHTGA_QUOTE" Value="大自然的阴暗面滋养着我的力量, 要么站在一旁, 要么被它吞噬!" />
+		
+		<Loc Key="DES_CORAX" Value="科拉克斯" />
+		<Loc Key="DES_CORAX_DES" Value="科拉克斯·白羽年轻时曾游走在黑暗和犯罪的道路上, 但之后他声称受到自己开明父亲的启发决定改变自己的命运. 因此, 他真正改变了自己的羽毛, 并以生命作为自己的魔法领域. 科拉克斯试图将他的智慧带到最黑暗的地方, 如果有人胆敢拒绝, 就使用武力. 他掌控着生命系魔法, 作为生命的使者, 他可以复活亡者并赋予他们治疗技能." />
+		<Loc Key="DES_CORAX_QUOTE" Value="和我一起寻找光明吧, 黑暗的生物们, 这将为你们带来和平与力量." />
+
+		<Loc Key="DES_RAASS_GREETINGS" Value="在我的面前跪下吧, 小东西! 我们现在可能会很文明, 但扰动很快就会改变这一点, 血流成河吧."/>
+		<Loc Key="DES_BIANKA_GREETINGS" Value="您好! 我是符文守护者比安卡, 族中长者, 索恩之主. 愿我们的关系经得起最后的考验."/>
+		<Loc Key="DES_TLACHTGA_GREETINGS" Value="嗨, 塔拉齐伽是我的名, 魔法是我的命. 哈. 愿我们拥有一场公平的竞争, 巫师. 但我更希望绿皮们能赢得最后的胜利."/>
+		<Loc Key="DES_CORAX_GREETINGS" Value="向您致敬, 巫师. 我是科拉克斯·白羽. 我不寻求暴力, 除非那是唯一的选择."/>
+
+	    <Loc Key="DES_TOADSWORTH" Value="野猪驯服者托兹沃斯" />
+		<Loc Key="DES_TOADSWORTH1" Value="野猪驯服者弗罗格斯沃斯" />
+		<Loc Key="DES_TOADSWORTH2" Value="野猪驯服者格林菲斯" />
+		<Loc Key="DES_TOADSWORTH3" Value="野猪驯服者比格戈波" />
+		<Loc Key="DES_TOADSWORTH4" Value="野猪驯服者弗拉沃" />
+		<Loc Key="DES_TOADSWORTH_DES" Value="{0}看上去不像是一名英雄, 尽管所有证据也都表明了这一切, 但他依然跻身于勇士行列. 他曾经是一名陶迪, 在卑微而又平平无奇的奴役生活中度过了很多年. 然而, 抛开纯粹的运气, 决心以及某个邪恶的交易, 他现在已经成为了一名野猪驯服者, 同时效忠着给予他身份的主人." />
+		<Loc Key="DES_JOTUN" Value="冰霜巨魔科尔加" />
+		<Loc Key="DES_JOTUN1" Value="冰霜巨魔伊莫尔" />
+		<Loc Key="DES_JOTUN2" Value="冰霜巨魔法拉" />
+		<Loc Key="DES_JOTUN3" Value="冰霜巨魔格里拉" />
+		<Loc Key="DES_JOTUN4" Value="冰霜巨魔姆乔尔" />
+		<Loc Key="DES_JOTUN_DES" Value="{0}, 即人们所熟知的诅咒者, 是一名孤独的英雄, 因为她永远被囚禁在一层冰冷之中. 有人说她之所以寻求为巫师服务, 是希望能够解除这个诅咒. 不管真正的原因是什么, 在经过数十年的孤独生活后, 这名巨魔英雄学会了驾驭自己的冰冷诅咒. 现在她准备向一位有价值的主人提供帮助" />
+	    <Loc Key="DES_BJORN" Value="火焰之子比乔恩" />
+		<Loc Key="DES_BJORN1" Value="火焰之子贝尔" />
+		<Loc Key="DES_BJORN2" Value="火焰之子涅兹德维兹" />
+		<Loc Key="DES_BJORN3" Value="火焰之子泰狄" />
+		<Loc Key="DES_BJORN4" Value="火焰之子格雷兹利" />
+		<Loc Key="DES_BJORN_DES" Value="{0}是一名凶猛的兽人英雄, 他的身上留有被火焰灼烧的痕迹. 吞噬一切的地狱烈火会杀死绝大多数人, 但{0}可不一样. 他纯粹的战斗意志使得他得以在烈焰中生存并成为混沌的造物, 永远与燃烧在敌人身上的火焰融为一体." />
+		
+		<Loc Key="DES_GOBLINS" Value="地精" />
+		<Loc Key="DES_GOBLINS_DES" Value="地精是身材矮小, 皮肤呈绿色的类人型生物, 对自然和野兽控制拥有极大的亲和力. 有些人可能将它们描述为原始生物, 但事实上地精们更喜欢部落群聚和自然栖息地, 而不是什么文明和进步. 他们对这片土地上的动物种群情有独钟, 以驯服野兽和德鲁伊魔法而闻名." />
+        <Loc Key="DES_GOBLINS_PRODUCTION" Value="增长率: 极快(基础速率+20人口/回合)\n建筑物限制: 无法修建贤者行会, 船坞或帕提农神庙.\n其他修饰符: 基础单位-1护甲{ICON:ArmourIconNormal}并拥有大地行者技能(构造体除外).\n殖民者和弓箭手单位消耗x0.8生产{ICON:ProductionIcon}.\n种族单位: {LINK:UNIT-GOB_BOAR_RIDER} 野猪骑手{ICON:BoarRider}{END_LINK},{LINK:UNIT-GOB_DRUIDS} 德鲁伊{ICON:Druid}{END_LINK},{LINK:UNIT-GOB_BEASTMASTER} 驯兽大师{ICON:Beastmaster}{END_LINK}" />		
+
+		<Loc Key="DES_GOBLIN_SETTLERS" Value="地精殖民者" />
+		<Loc Key="DES_GOBLIN_SPEARMEN" Value="地精长矛手" />
+		<Loc Key="DES_GOBLIN_SWORDSMEN" Value="地精剑士" />		
+		<Loc Key="DES_GOBLIN_BOWMEN" Value="地精弓箭手" />
+		<Loc Key="DES_GOBLIN_SHAMANS" Value="地精萨满祭司" />
+		<Loc Key="DES_BOAR_RIDER" Value="野猪骑手" />
+		<Loc Key="DES_BOAR_RIDER_DES" Value="精锐地精骑兵, 至少他们自己是这么说的. 外人将他们描述为一群骑着训练有素的凶猛野猪的疯子." />
+		<Loc Key="DES_DRUIDS" Value="德鲁伊" />
+		<Loc Key="DES_DRUIDS_DES" Value="拥有魔法远程攻击能力的特殊地精施法者单位. 德鲁伊以对自然的超强亲和力而闻名, 甚至可以向战争巨熊求助." />
+		<Loc Key="DES_BEASTMASTER" Value="驯兽大师" />
+		<Loc Key="DES_BEASTMASTER_DES" Value="一支精锐的地精部队, 拥有强大的远程攻击和飞行能力. 驯兽大师声称他们可以驯服最强大的野兽, 尽管其手下只有一只肥胖的虫子..." />
+
+		<Loc Key="DES_FANTASTIC_WARLORD" Value="奇幻领主"/>
+		<Loc Key="DES_TRAIT_FANTASTIC_WARLORD_DES" Value="对奇幻生物部队的掌控使巫师所有召唤生物的{ICON:MeleeIconNormal}, {ICON:RangedIconNormal}, {ICON:ArmourIconNormal}, {ICON:ResistanceIconNormal}以及吐息攻击+1.\n\n-奇幻领主消耗1个选择."/>
+		<Loc Key="DES_ENCH_FANTASTIC_WARLORD_DES" Value="对奇幻生物部队的掌控使巫师所有召唤生物的{ICON:MeleeIconNormal}, {ICON:RangedIconNormal}, {ICON:ArmourIconNormal}, {ICON:ResistanceIconNormal}以及吐息攻击+1."/>
+		<Loc Key="DES_STONEMASON" Value="石匠"/>
+		<Loc Key="DES_STONEMASON_DES" Value="对石匠技艺的精通允许巫师的首都和新建定居点都拥有一堵石墙. 此外, 首都获得+10{ICON:ProductionIcon}生产, 并且与巫师首都属于同一种族的所有单位都将获得工程师技能, 允许他们修建道路.\n\n-石匠消耗1个选择."/>
+		<Loc Key="DES_LIFEBRINGER" Value="生命使者"/>
+		<Loc Key="DES_LIFEBRINGER_DES" Value="对生命的掌控使巫师在游戏开始时拥有强大的复活和治疗法术. 生命使者将使巫师在施展复活术, 治疗术和群体治疗时的消耗降低25%. 此外, 巫师麾下所有的初始种族单位将获得治疗技能.\n\n-巫师必须已经选择至少4本生命领域法术书.\n\n-生命使者消耗1个选择."/>
+		<Loc Key="DES_HERO_MAGNET" Value="我需要一名英雄!"/>
+		<Loc Key="DES_HERO_MAGNET_DES" Value="不必整夜等待英雄的到来. 如果现在就需要一名英雄, 那么这就是您所需要的特质. 游戏开始时将拥有召唤英雄和召唤勇士技能并且召唤消耗降低25%. 此外, 该特质还将允许召唤和/或招募英雄时进行一次额外的选择.\n\n-我需要一名英雄! 消耗1个选择."/>
+		<Loc Key="DES_NATURE_SUMMONER" Value="自然召唤者"/>
+		<Loc Key="DES_NATURE_SUMMONER_DES" Value="大自然的力量让巫师在游戏开始时拥有战争巨熊单位. 此外, 巫师在游戏开始时拥有所有的自然系召唤法术且自然系召唤生物的维护消耗降低50%.\n\n-无法同时拥有咒法师或通灵师特质.\n\n-巫师必须选择了至少4本自然系法术书.\n\n-自然召唤者消耗2个选择."/>
+
+		<Loc Key="DES_SUMMON_BOAR" Value="野猪"/>
+		<Loc Key="DES_SUMMON_BOAR_DES" Value="召唤一只狂暴野猪加入战斗. 野猪是一种强大的近战{ICON:MeleeIconNormal}斗士并且能够击晕敌人."/>
+		<Loc Key="DES_DLC_BOAR" Value="野猪" />
+		<Loc Key="DES_DLC_BOAR_DES" Value="一只狂暴的野猪受到驯服者召唤而参加战斗. 野猪是一种强大的近战{ICON:MeleeIconNormal}斗士并且能够击晕敌人." />		
+		<Loc Key="DES_SUMMON_FAT_RAT" Value="大老鼠"/>
+		<Loc Key="DES_SUMMON_FAT_RAT_DES" Value="召唤一只能够施毒的大老鼠加入战斗. 它们的撕咬会导致流血, 其丑陋的面容也会让敌人陷入恐惧."/>
+		<Loc Key="DES_DLC_FAT_RAT" Value="大老鼠" />
+		<Loc Key="DES_DLC_FAT_RAT_DES" Value="这只肥大的老鼠是一种看似狡猾的生物, 来自比迈罗尔更加黑暗的领域. 它们的撕咬会导致流血, 其丑陋的面容也会让敌人陷入恐惧." />
+
+		<Loc Key="DES_CURSED" Value="诅咒者"/>
+		<Loc Key="DES_CURSED_DES" Value="诅咒者能够使友方单位, 甚至是他们自己的抗性{ICON:ResistanceIconNormal}降低1, 但使敌方单位(位于战场上)抗性降低2"/>
+		<Loc Key="DES_CURSED_UNIT" Value="诅咒者"/>
+		<Loc Key="DES_CURSED_UNIT_DES" Value="诅咒者受到了诅咒技能的影响."/>
+		<Loc Key="DES_FOODIE" Value="超级吃货"/>
+		<Loc Key="DES_FOODIE_DES" Value="这名英雄热爱食物并且只愿意将食物作为维护费用(3每回合), 这使得他更加强大(+1攻击, +1护甲, +1抗性, +10%命中几率. 满级时该加成效果提高至2)."/>
+		<Loc Key="DES_BLEEDING_2_OWNER" Value="流血 2"/>
+		<Loc Key="DES_BLEEDING_2_OWNER_DES" Value="受到流血攻击的单位将受到相当于技能数值的伤害, 直至通过了抗性{ICON:ResistanceIconNormal}试炼."/>
+		<Loc Key="DES_BLEEDING_UNIT" Value="流血{0}"/>
+		<Loc Key="DES_BLEEDING_UNIT_DES" Value="该单位受到流血影响."/>
+		<Loc Key="DES_EARTH_WALKER" Value="大地行者"/>
+		<Loc Key="DES_EARTH_WALKER_DES" Value="大地行者允许所有与之堆叠在一起的单位以每格1点移动消耗通过泥地, 沙漠以及苔原. 它还将使单位免疫尘土化泥法术效果."/>
+
+		<Loc Key="DES_RES_MAMMOTH" Value="猛犸"/>
+		<Loc Key="DES_RES_MAMMOTH_DES" Value="体型巨大, 毛茸茸的猛犸拥有昂贵的獠牙以及许多肉. 为附近城镇提供+1食物({ICON:FoodIcon}) +1黄金({ICON:GoldIcon}).\n能够通过转化法术变成野味."/>
+		<Loc Key="DES_STUN" Value="击晕"/>
+		<Loc Key="DES_STUN_DES" Value="如果抵抗{ICON:ResistanceIconNormal}失败, 目标敌方单位的近战{ICON:MeleeIconNormal}和远程{ICON:RangedIconNormal}攻击效果将减半一回合."/>
+	
+		<Loc Key="DES_REALM_SYNERGY" Value="协同" />
+		<Loc Key="DES_REALM_SYNERGY_DES" Value="单位将不再属于某个领域, 而是所有. 这些单位通常只能通过特殊技能召唤." />
+		
+		<Loc Key="DES_SUMMON_WAR_BEARS" Value="战争巨熊"/>
+		<Loc Key="DES_SUMMON_WAR_BEARS_DES" Value="将可怕的战争巨熊召唤至战场."/>
+		
+		<Loc Key="DES_STONEMASON_ENCH_DES" Value="该城市由石匠负责管理, 因此能够获得一堵免费的岩石之墙并获得+10{ICON:ProductionIcon}生产." />
+	</LOCALIZATION-DLC1_CN>
+</DB_LOCALIZATION>

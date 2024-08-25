@@ -1,0 +1,7 @@
+﻿<PROTOTYPE_TAX>					
+	<TAX Name="Tax">				
+		<Income Name="income" Type="FInt" Required="TRUE"/>
+		<Rebelion Name="rebelion" Type="FInt" Required="TRUE"/>
+	</TAX>
+	
+</PROTOTYPE_TAX>

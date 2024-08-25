@@ -1,0 +1,45 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC0_EN Language="English">
+		<!-- DLC 0 descriptions -->
+
+		<!-- WIZARDS --> 
+
+        <Loc Key="DES_BLADUD" Value="Bladud" />
+		<Loc Key="DES_BLADUD_DES" Value="Bladud used to be a great orc general, then a king of legend. He ruled his kin with his fierce queen Belit, for centuries, before the two parted ways and Bladud claimed the mantle of Wizard. Defiant of the stigma of mediocracy worn by his orc kin, Bladud was determined to prove it wrong. Through the dark arts of orcmancy, the Wizard has gained great power, and decided to use all of it solely for the purpose of uplifting his people from the mundane into a fearless army of Death. Orcs under Bladud’s leadership can feed off their enemies' life-force and the Wizard himself gains strength from his fallen orc armies. With such a power, the orcs are sure to lead Bladud to his Mastery." />
+		<Loc Key="DES_BLADUD_QUOTE" Value="Long has my kin been called weak, but now the orcs shall rise through Death and conquer all!" />	
+		<Loc Key="DES_BLADUD_GREETINGS" Value="Greetings, I am Bladud. I look forward to proving my dominance to you, but for now, we may speak. "/>
+		
+		<Loc Key="DES_BLADUD_GREETINGS_BELIT_1" Value="And so the fates forced you to face me, Belit. I am looking forward to proving your cursed existence inferior to a true orc!"/>
+        <Loc Key="DES_BLADUD_GREETINGS_BELIT_2" Value="Belit, you treacherous fiend, speak."/>
+
+		<!-- TRAITS -->
+		<Loc Key="DES_ORCOMANCER" Value="Orcmancer" />
+		<Loc Key="DES_ORCOMANCER_DES" Value="The Orcmancer is a master of necromancy but attuned only to the life force of the orcs. For every figure of an orc in the army that dies the Orcmancer receives +5 caster skill in combat (The bonus can go over the max). Every orc under their command also receives the Death Immunity and Lesser Life Steal skills.\n\n The Orcmancer can begin the game with Orcs only.\n\nCannot be taken with other race-exclusive traits.\n\n-The Wizard must have already selected at least 1 Death Spellbook\n\n-Orcmancer costs 2 picks." />
+		<Loc Key="DES_NECROMANCER" Value="Necromancer" />
+		<Loc Key="DES_NECROMANCER_DES" Value="The Necromancer seeks to cross the veil of death to their advantage. The Wizard begins every battle in Darkness and a new, Undead Hero spell. With the spell they can call a fallen hero back from the dead, as an undead servant (The hero returns, but changed by the black channels spell).\n\n-The Wizard must have already selected at least 3 Death Spellbooks\n\n-Necromancer costs 1 pick."/>
+		<Loc Key="DES_TRAIT_DEATH_EATER" Value="Death Eater" />
+		<Loc Key="DES_TRAIT_DEATH_EATER_DES" Value="The Death Eater can recycle their fallen forces in order to feed their Death realm armies. After a winning battle, all units belonging to Death realm regain 50% health (this does not resurrect fallen units).\n\n-The Wizard must have already selected at least 3 Death Spellbooks\n\n-Death Eater costs 2 picks. " />
+		<!-- RACE --> 
+ 
+		
+        <!-- UNITS -->
+	
+		
+		<!-- SKILLS --> 
+		<Loc Key="DES_SKILL_DEATH_EATER" Value="Death Eater" />
+		<Loc Key="DES_SKILL_DEATH_EATER_DES" Value="Death realm units under the command of the Death eater regain 50% health after a winning battle."/>
+ 		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2" Value="Lesser Life Stealing 1" />
+  		<Loc Key="DES_LESSER_LIFE_STEALING_ADDON2_DES" Value="For every point of failed resistance{ICON:ResistanceIconNormal} against the life stealing attack (the attacked unit gets + resistance equal to lvl of life steal), the defender loses -1{ICON:HitIconNormal} hits while the attacker gains +1{ICON:HitIconNormal}. Units killed mainly by life steal return as undead (Death immunity protects against this). The life steal is triggered before most other attacks." />
+    
+		<!-- BUILDINGS -->
+		
+		<!-- RES --> 
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_UNDEAD_HERO" Value="Undead Hero"/>
+		<Loc Key="DES_UNDEAD_HERO_DES" Value="You can call a fallen hero back into your service, but they will now be undead, thus they will no longer gain experience. They also gain the skill Lesser Life Stealing. You can only use the spell once per hero." />
+
+		<!-- Other-->
+			
+	</LOCALIZATION-DLC0_EN>
+</DB_LOCALIZATION>

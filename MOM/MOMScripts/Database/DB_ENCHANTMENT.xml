@@ -1,0 +1,2302 @@
+﻿<DB_ENCHANTMENT>	
+	<ENCH-EARTH_TO_MUD AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_EARTH_TO_MUD" Description="DES_ENCH_EARTH_TO_MUD_DES" Graphic="SpellEarthToMud"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_EarthToMud"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_EarthToMud"/>
+		<LifeTime VALUE="3"/>	
+		<EnchLastingEffect VALUE="Effect_EarthToMud"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-EARTH_TO_MUD>
+	<ENCH-RESIST_ELEMENTS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_RESIST_ELEMENTS" Description="DES_ENCH_RESIST_ELEMENTS_DES" Graphic="SpellResistElements"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-RESIST_ELEMENTS"/>	
+		<UpkeepCost VALUE="1"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-RESIST_ELEMENTS>
+	<ENCH-GIANT_STRENGTH AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_GIANT_STRENGTH" Description="DES_ENCH_GIANT_STRENGTH_DES" Graphic="SpellGiantStrength"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_GiantStrength"/>
+		<UpkeepCost VALUE="1"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-GIANT_STRENGTH>
+	<ENCH-WEB AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_WEB" Description="DES_WEB_DES" Graphic="SpellWeb"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_UnitUpdateMove"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Web"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-WEB>
+	<ENCH-WEB_NO_FLY AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_WEB_NO_FLY" Description="DES_WEB_NO_FLY_DES" Graphic="SpellWeb"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_UnitUpdateMove"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Web_NoFly"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-WEB_NO_FLY>
+	<ENCH-STONE_SKIN AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_STONE_SKIN" Description="DES_ENCH_STONE_SKIN_DES" Graphic="SpellStoneSkin"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-DEFENCE"/>
+		<UpkeepCost VALUE="1"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-STONE_SKIN>
+	<ENCH-NATURES_EYE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_NATURES_EYE" Description="DES_NATURES_EYE_DES" Graphic="EnchantmentNaturesEye"/>
+		<EnchantmentScript TriggerType="VisibilityRangeModifier" FIntData="9" Script="ECHI_SetVisibilityRange"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_NaturesEye"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_NaturesEye"/>
+		<UpkeepCost VALUE="1"/>
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-NATURES_EYE>
+	<ENCH-WATER_WALKING AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_WATER_WALKING" Description="DES_WATER_WALKING_DES" Graphic="SpellWaterWalking"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_UnitUpdateMove"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_UnitUpdateMove"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-CAN_SWIM"/>
+		<UpkeepCost VALUE="1"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-WATER_WALKING>
+	<ENCH-PATH_FINDING AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE"
+		 NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_PATH_FINDING" Description="DES_PATH_FINDING_DES" Graphic="SpellPathFinding"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_UnitUpdateMove"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_UnitUpdateMove"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-PATHFINDING"/>
+		<UpkeepCost VALUE="1"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-PATH_FINDING>
+	<ENCH-ELEMENTAL_ARMOR AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_ELEMENTAL_ARMOR" Description="DES_ENCH_ELEMENTAL_ARMOR_DES" Graphic="SpellElementalArmor"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-ELEMENTAL_ARMOR"/>
+		<UpkeepCost VALUE="5"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-ELEMENTAL_ARMOR>
+	<ENCH-IRON_SKIN AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_IRON_SKIN" Description="DES_ENCH_IRON_SKIN_DES" Graphic="SpellIronSkin"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="5" StringData="TAG-DEFENCE"/>
+		<UpkeepCost VALUE="5"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-IRON_SKIN>
+	<ENCH-ENTANGLE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_ENTANGLE" Description="DES_ENTANGLE_DES" Graphic="SpellEntangle"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_Entangle"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchCategory VALUE="Negative"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_NotFlyNotNonCorporeal"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-ENTANGLE>
+	<ENCH-NATURE_AWARENESS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_NATURE_AWARENESS" Description="DES_NATURE_AWARENESS_DES" Graphic="SpellNatureAwareness"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_VisibilityApplicator"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_VisibilityApplicator"/>
+		<EnchantmentScript TriggerType="WizardVisibilityModifier" Script="ESP_NatureAwareness"/>
+		<UpkeepCost VALUE="7"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-NATURE_AWARENESS>
+	<ENCH-REGENERATION AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_REGENERATION" Description="DES_REGENERATION_DES" Graphic="SpellRegeneration"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-REGENERATION"/>
+		<UpkeepCost VALUE="10" />
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-REGENERATION>
+	<ENCH-HERB_MASTERY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_HERB_MASTERY" Description="DES_HERB_MASTERY_DES" Graphic="SpellHerbMastery"/>
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ECH_HerbMastery"/>
+		<UpkeepCost VALUE="10"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-HERB_MASTERY>
+	<ENCH-CALL_LIGHTNING AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_CALL_LIGHTNING" Description="DES_CALL_LIGHTNING_DES" Graphic="SpellCallLightning"/>
+		<EnchantmentScript TriggerType="BattleTurnEndEffect" Script="ECH_CallLightning" FIntData="8" BattleAttackEffect="Piercing"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-CALL_LIGHTNING>
+	<ENCH-GAIAS_BLESSING AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_GAIAS_BLESSING" Description="DES_GAIAS_BLESSING_DES" Graphic="SpellGaiasBlessing"/>
+		<EnchantmentScript TriggerType="MaximumPopulationModifierMP" FIntData="1.50" Script="ECHIValueMP"/>
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="2.0" Script="ECHITakeValue"/>
+		<EnchantmentScript TriggerType="ProductionModifierMP" Script="ECHIAddProductionFromForestMP"/>
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ECH_CorruptionCleanAroundTown" FIntData="0.2" />
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ECH_GaiasBlessingTransmute" FIntData="0.1"/>
+		<LifeTime VALUE="-1"/>	
+		<UpkeepCost VALUE="3" />
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-GAIAS_BLESSING>
+	<ENCH-NATURES_WRATH_MAIN AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_NATURES_WRATH" Description="DES_NATURES_WRATH_DES" Graphic="SpellNaturesWrath"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_NaturesWrath"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_NaturesWrath"/>
+		<EnchantmentScript TriggerType="WizardOrGlobalToTownEnchantment" Script="ECH_NaturesWrathEnchCity"/>
+		<UpkeepCost VALUE="10"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Nature"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-NATURES_WRATH_MAIN>
+	<ENCH-NATURES_WRATH_CITY AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_NATURES_WRATH" Description="DES_NATURES_WRATH_DES" Graphic="SpellNaturesWrath"/>
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ECH_NatureWrathCity"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-NATURES_WRATH_CITY>
+	<ENCH-ELDRITCH_WEAPON AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_ELDRITCH_WEAPON" Description="DES_ELDRITCH_WEAPON_DES" Graphic="SpellEldritchWeapon"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_EldritchWeapon" FIntData="0.1"/>
+		<UpkeepCost VALUE="1" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-ELDRITCH_WEAPON>
+	<ENCH-WALL_OF_FIRE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_WALL_OF_FIRE" Description="DES_WALL_OF_FIRE_DES" Graphic="EnchantmentWallOfFire"/>
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_WallOfFireBattle"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_WallOfFireBattle"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_WallOfFireBattle"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<LifeTime VALUE="-1"/>	
+		<UpkeepCost VALUE="2" />
+		<Realm VALUE="Chaos"/>
+	</ENCH-WALL_OF_FIRE>
+	<ENCH-SHATTER AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_SHATTER" Description="DES_ENCH_SHATTER_DES" Graphic="SpellShatter"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Shatter"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-SHATTER>
+	<ENCH-WARP_CREATURE1 AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_WARP_CREATURE" Description="DES_ENCH_WARP_CREATURE_DES" Graphic="SpellWarpCreature"/>
+		<EnchantmentScript TriggerType="AttributeChangeMP" Script="ECH_WarpCreature1"/>
+		<LifeTime VALUE="-1"/>		
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-WARP_CREATURE1>
+	<ENCH-WARP_CREATURE2 AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_WARP_CREATURE" Description="DES_ENCH_WARP_CREATURE_DES" Graphic="SpellWarpCreature"/>
+		<EnchantmentScript TriggerType="AttributeChangeMP" Script="ECH_WarpCreature2"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-WARP_CREATURE2>
+	<ENCH-WARP_CREATURE3 AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_WARP_CREATURE" Description="DES_ENCH_WARP_CREATURE_DES" Graphic="SpellWarpCreature"/>
+		<EnchantmentScript TriggerType="AttributeChangeMP" Script="ECH_WarpCreature3"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-WARP_CREATURE3>
+	<ENCH-METAL_FIRES AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_METAL_FIRES" Description="DES_METAL_FIRES_DES" Graphic="SpellMetalFires"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_MetalFires"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_MetalFires"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-METAL_FIRES>
+	<ENCH-WARP_REALITY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_WARP_REALITY" Description="DES_WARP_REALITY_DES" Graphic="SpellWarpReality"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_WarpReality"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_WarpReality"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_NotFullChaosDef"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-WARP_REALITY>
+	<ENCH-FLAME_BLADE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_FLAME_BLADE" Description="DES_ENCH_FLAME_BLADE_DES" Graphic="SpellFlameBlade"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_FlameBlade"/>
+		<UpkeepCost VALUE="2" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-FLAME_BLADE>
+	<ENCH-IMMOLATION AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_IMMOLATION" Description="DES_IMMOLATION_DES" Graphic="SpellImmolation"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddSkill" StringData="SKILL-ENCH_IMMOLATION_4_ADDON2"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveSkill" StringData="SKILL-ENCH_IMMOLATION_4_ADDON2"/>	
+		<EnchantmentScript TriggerType="None" Script="ECH_Empty" />
+		<UpkeepCost VALUE="2" />		
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-IMMOLATION>
+	<ENCH-CHAOS_RIFT AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_CHAOS_RIFT" Description="DES_CHAOS_RIFT_DES" Graphic="EnchantmentChaosRift"/>
+		<EnchantmentScript TriggerType="EndTurnNeutralTownIncludedEffect" Script="ECH_ChaosRift" FIntData="8" BattleAttackEffect="Piercing"/>	
+		<UpkeepCost VALUE="10" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Effect_ChaosRiftLoop"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-CHAOS_RIFT>
+	<ENCH-METEOR_STORM_MAIN AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_METEOR_STORM" Description="DES_METEOR_STORM_DES" Graphic="EnchantmentMeteorStormMain"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_MeteorStorm"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_MeteorStorm"/>
+		<EnchantmentScript TriggerType="WizardOrGlobalToTownEnchantment" Script="ECH_MeteorStormMainCity"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_MeteorStormUnit"/>
+		<UpkeepCost VALUE="10"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Chaos"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-METEOR_STORM_MAIN>
+	<ENCH-METEOR_STORM_CITY AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_METEOR_STORM" Description="DES_METEOR_STORM_DES" Graphic="EnchantmentMeteorStormCity"/>
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ECH_MeteorStormCity"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-METEOR_STORM_CITY>
+	<ENCH-DOOM_MASTERY_WIZARD AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_DOOM_MASTERY" Description="DES_DOOM_MASTERY_DES" Graphic="SpellDoomMastery"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_DoomMasteryWizard"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_DoomMasteryWizard"/>
+		<EnchantmentScript TriggerType="WizardOrGlobalToTownEnchantment" Script="ECH_DoomMasteryWizard"/>
+		<UpkeepCost VALUE="3"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Chaos"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-DOOM_MASTERY_WIZARD>
+	<ENCH-DOOM_MASTERY_CITY AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_DOOM_MASTERY" Description="DES_DOOM_MASTERY_DES" Graphic="SpellDoomMastery"/>
+		<EnchantmentScript TriggerType="NewUnitModifier" Script="ECH_DoomMasteryUnit"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-DOOM_MASTERY_CITY>
+	<ENCH-CHAOS_SURGE_GLOBAL AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_CHAOS_SURGE" Description="DES_CHAOS_SURGE_DES" Graphic="EnchantmentChaosSurgeGlobal"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllChaosUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllChaosUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_ChaosSurgeUnit"/>
+		<UpkeepCost VALUE="40"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_IsChaosFantasticUnit"/>
+		<Realm VALUE="Chaos"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-CHAOS_SURGE_GLOBAL>
+	<ENCH-GREAT_WASTING AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_GREAT_WASTING" Description="DES_GREAT_WASTING_DES" Graphic="EnchantmentGreatWasting"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_GreatWastingCitiesUnrest"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_GreatWastingCitiesUnrest"/>
+		<EnchantmentScript TriggerType="WizardOrGlobalToTownEnchantment" Script="ECH_GreatWastingCitiesUnrest"/>
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ECH_GreatWastingCorruption"/>
+		<UpkeepCost VALUE="20"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Chaos"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-GREAT_WASTING>
+	<ENCH-GREAT_WASTING_CITY AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_GREAT_WASTING" Description="DES_GREAT_WASTING_DES" Graphic="EnchantmentGreatWasting"/>
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="1.0" Script="ECHI_GreateWastingUnrest"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-GREAT_WASTING_CITY>
+	
+	<ENCH-BLESS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_BLESS" Description="DES_ENCH_BLESS_DES" Graphic="SpellBless"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-BLESS"/>
+		<UpkeepCost VALUE="1" />		
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-BLESS>
+	<ENCH-ENDURANCE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_ENDURANCE" Description="DES_ENCH_ENDURANCE_DES" Graphic="SpellEndurance"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_UnitUpdateMove"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_UnitUpdateMove"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-MOVEMENT_POINTS"/>
+		<UpkeepCost VALUE="1" />		
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-ENDURANCE>
+	<ENCH-HOLY_WEAPON AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_HOLY_WEAPON" Description="DES_HOLY_WEAPON_DES" Graphic="SpellHolyWeapon"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_HolyWeapon"/>
+		<UpkeepCost VALUE="1" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-HOLY_WEAPON>
+	<ENCH-HOLY_ARMOR AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_HOLY_ARMOR" Description="DES_HOLY_ARMOR_DES" Graphic="SpellHolyArmor"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="2" StringData="TAG-DEFENCE"/>
+		<UpkeepCost VALUE="2" />		
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-HOLY_ARMOR>
+	<ENCH-HEROISM AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_HEROISM" Description="DES_HEROISM_DES" Graphic="SpellHeroism"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_Heroism"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_Heroism"/>
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ECH_Heroism"/>
+		<UpkeepCost VALUE="2" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-HEROISM>
+	<ENCH-TRUE_SIGHT AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_TRUE_SIGHT" Description="DES_TRUE_SIGHT_DES" Graphic="SpellTrueSight"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-ILLUSIONS_IMMUNITY"/>	
+		<UpkeepCost VALUE="2" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-TRUE_SIGHT>
+	<ENCH-PLANAR_SEAL AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_PLANAR_SEAL" Description="DES_PLANAR_SEAL_DES" Graphic="SpellPlanarSeal"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_SetAllowPlaneSwitchFalse"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_SetAllowPlaneSwitchTrue"/> 
+		<UpkeepCost VALUE="5" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-PLANAR_SEAL>
+	<ENCH-LIONHEART AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_LIONHEART" Description="DES_LIONHEART_DES" Graphic="SpellLionheart"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_LionHeart" />
+		<UpkeepCost VALUE="4" />		
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-LIONHEART>
+	<ENCH-PROSPERITY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_PROSPERITY" Description="DES_PROSPERITY_DES" Graphic="EnchantmentProsperity"/>
+		<EnchantmentScript TriggerType="GoldModifierMP" FIntData="2.0" Script="ECHIValueMP"/>	
+		<UpkeepCost VALUE="2" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-PROSPERITY>
+	<ENCH-ALTAR_OF_BATTLE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_ALTAR_OF_BATTLE" Description="DES_ALTAR_OF_BATTLE_DES" Graphic="EnchantmentAltarOfBattle"/>
+		<EnchantmentScript TriggerType="NewUnitModifier" FIntData="120.0" Script="ECH_SetStartExp"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AltarOfBattle"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AltarOfBattle"/>
+		<UpkeepCost VALUE="5" />		
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-ALTAR_OF_BATTLE>
+	<ENCH-PRAYER_GLOBAL AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" HideEnch="TRUE">
+		<DescriptionInfo Name="DES_PRAYER" Description="DES_PRAYER_DES" Graphic="SpellPrayer"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_PrayerGlobal"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_PrayerGlobal"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-PRAYER_GLOBAL>
+	<ENCH-PRAYER_POSITIVE AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_PRAYER" Description="DES_PRAYER_DES" Graphic="SpellPrayer"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_PrayerPositive"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllBattleUnitsAttributeDirty"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnUnits"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-PRAYER_POSITIVE>
+	<ENCH-PRAYER_NEGATIVE AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_PRAYER" Description="DES_PRAYER_DES" Graphic="SpellPrayer"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_PrayerNegative"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllBattleUnitsAttributeDirty"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_EnemyUnits"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Life"/>
+	</ENCH-PRAYER_NEGATIVE>
+	<ENCH-HEAVENLY_LIGHT AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_HEAVENLY_LIGHT" Description="DES_HEAVENLY_LIGHT_DES" Graphic="EnchantmentHeavenlyLight"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_HeavenlyLight"/>
+		<UpkeepCost VALUE="2" />
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_RealmLifeOrDeath"/>
+		<Realm VALUE="Life"/>
+	</ENCH-HEAVENLY_LIGHT>
+	<ENCH-TRUE_LIGHT_GLOBAL AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_TRUE_LIGHT" Description="DES_TRUE_LIGHT_DES" Graphic="SpellTrueLight"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_TrueLightGlobal"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_TrueLight"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_RealmLifeOrDeath"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="None"/>
+		<Realm VALUE="Life"/>
+	</ENCH-TRUE_LIGHT_GLOBAL>
+	<ENCH-TRUE_LIGHT_REALM_LIFE AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+	<!-- obsolete enchantment, not in use right now-->
+		<DescriptionInfo Name="DES_TRUE_LIGHT" Description="DES_TRUE_LIGHT_DES" Graphic="SpellTrueLight"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_TrueLightPositive"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-TRUE_LIGHT_REALM_LIFE>
+	<ENCH-TRUE_LIGHT_REALM_DEATH AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+	<!-- obsolete enchantment, not in use right now-->
+		<DescriptionInfo Name="DES_TRUE_LIGHT" Description="DES_TRUE_LIGHT_DES" Graphic="SpellTrueLight"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_TrueLightNegative"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Life"/>
+	</ENCH-TRUE_LIGHT_REALM_DEATH>
+	<ENCH-STREAM_OF_LIFE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_STREAM_OF_LIFE" Description="DES_STREAM_OF_LIFE_DES" Graphic="EnchantmentStreamOfLife"/>
+		<EnchantmentScript TriggerType="PopulationGrowModifierMP" FIntData="2.0" Script="ECHIValueMP"/>
+		<EnchantmentScript TriggerType="UnrestModifierMP" FIntData="0.0" Script="ECHFLValueMP"/>
+		<EnchantmentScript TriggerType="EndTurnEffect" FIntData="100.00" Script="ECHHeal"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_StreamOfLife"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_StreamOfLife"/>
+		<UpkeepCost VALUE="8" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-STREAM_OF_LIFE>
+	<ENCH-INSPIRATIONS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_INSPIRATIONS" Description="DES_INSPIRATIONS_DES" Graphic="EnchantmentInspirations"/>
+		<EnchantmentScript TriggerType="ProductionModifierMP" FIntData="2.0" Script="ECHIValueMP"/>
+		<UpkeepCost VALUE="2" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-INSPIRATIONS>
+	<ENCH-INVULNERABILITY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_INVULNERABILITY" Description="DES_INVULNERABILITY_DES" Graphic="SpellInvulnerability"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Invulnerablity" FIntData="2.0"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-WEAPON_IMMUNITY"/>
+		<UpkeepCost VALUE="5" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-INVULNERABILITY>
+	<ENCH-HIGH_PRAYER_GLOBAL AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" HideEnch="TRUE">
+		<DescriptionInfo Name="DES_HIGH_PRAYER" Description="DES_HIGH_PRAYER_DES" Graphic="SpellHighPrayer"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_HighPrayerGlobal"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_HighPrayerGlobal" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-HIGH_PRAYER_GLOBAL>
+	<ENCH-HIGH_PRAYER_POSITIVE AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_HIGH_PRAYER" Description="DES_HIGH_PRAYER_DES" Graphic="SpellHighPrayer"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_HighPrayerPositive"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllBattleUnitsAttributeDirty"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnUnits"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-HIGH_PRAYER_POSITIVE>
+	<ENCH-HIGH_PRAYER_NEGATIVE AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_HIGH_PRAYER" Description="DES_HIGH_PRAYER_DES" Graphic="SpellHighPrayer"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_HighPrayerNegative"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllBattleUnitsAttributeDirty"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_EnemyUnits"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Life"/>
+	</ENCH-HIGH_PRAYER_NEGATIVE>
+	<ENCH-RIGHTEOUSNESS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_RIGHTEOUSNESS" Description="DES_ENCH_RIGHTEOUSNESS_DES" Graphic="SpellRighteousness"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-RIGHTEOUSNESS"/>	
+		<UpkeepCost VALUE="2" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-RIGHTEOUSNESS>
+	<ENCH-CONSECRATION AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_CONSECRATION" Description="DES_CONSECRATION_DES" Graphic="EnchantmentConsecration"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_Consecration" />
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ECH_CorruptionCleanAroundTown" />
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_Empty" />
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_Consecration" />
+		<UpkeepCost VALUE="8" />
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-CONSECRATION>
+	<ENCH-CRUSADE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_CRUSADE" Description="DES_CRUSADE_DES" Graphic="SpellCrusade"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_Crusade"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_Crusade"/>
+		<UpkeepCost VALUE="10" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-CRUSADE>
+	<ENCH-CHARM_OF_LIFE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_CHARM_OF_LIFE" Description="DES_CHARM_OF_LIFE_DES" Graphic="SpellCharmOfLife"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllOwnUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllOwnUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChangeMP" Script="ECH_CharmOfLife"/>
+		<UpkeepCost VALUE="10" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-CHARM_OF_LIFE>
+	<ENCH-LIFE_FORCE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_LIFE_FORCE" Description="DES_LIFE_FORCE_DES" Graphic="SpellLifeForce"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddCounterMagic"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveCounterMagic"/>
+		<EnchantmentScript TriggerType="None" FIntData="500" />
+		<UpkeepCost VALUE="10"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-LIFE_FORCE>
+	<ENCH-TRANQUILITY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TRANQUILITY" Description="DES_TRANQUILITY_DES" Graphic="SpellTranquility"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddCounterMagic"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveCounterMagic"/>
+		<EnchantmentScript TriggerType="None" FIntData="500" />
+		<UpkeepCost VALUE="10"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-TRANQUILITY>
+	<ENCH-HOLY_ARMS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_HOLY_ARMS" Description="DES_HOLY_ARMS_DES" Graphic="SpellHolyArms"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllOwnUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllOwnUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChangeMP" Script="ECH_HolyArms"/>
+		<UpkeepCost VALUE="10" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnUnitsNotFantastic"/>
+		<Realm VALUE="Life"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-HOLY_ARMS>
+	<ENCH-JUST_CAUSE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_JUST_CAUSE" Description="DES_JUST_CAUSE_DES" Graphic="SpellJustCause"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_JustCause"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_JustCause"/>
+		<UpkeepCost VALUE="3" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-JUST_CAUSE>
+	
+	<ENCH-WEAKNESS AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_WEAKNESS" Description="DES_ENCH_WEAKNESS_DES" Graphic="SpellWeakness"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Weakness"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-WEAKNESS>
+	<ENCH-MANA_LEAK AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_MANA_LEAK" Description="DES_MANA_LEAK_DES" Graphic="SpellManaLeak"/>
+		<EnchantmentScript TriggerType="BattleTurnStartEffect" Script="ECH_ManaLeak" FIntData="5.0"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-MANA_LEAK>
+	<ENCH-DARK_RITUALS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_DARK_RITUALS" Description="DES_DARK_RITUALS_DES" Graphic="EnchantmentDarkRituals"/>
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="1.0" Script="ECHIAddValue"/>
+		<EnchantmentScript TriggerType="PopulationGrowModifierMP" FIntData="0.75" Script="ECHIValueMP"/>
+		<EnchantmentScript TriggerType="PowerModifier" FIntData="1" Script="ECHFAddValue"/>
+		<UpkeepCost VALUE="1"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Death"/>
+	</ENCH-DARK_RITUALS>
+	<ENCH-CLOUD_OF_SHADOW AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" HideEnch="TRUE">
+		<DescriptionInfo Name="DES_CLOUD_OF_SHADOW" Description="DES_CLOUD_OF_SHADOW_DES" Graphic="EnchantmentCloudOfShadow"/> 
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_EternalNight"/>
+		<LifeTime VALUE="-1"/>
+		<UpkeepCost VALUE="3"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Death"/>
+	</ENCH-CLOUD_OF_SHADOW>
+	<ENCH-ETERNAL_NIGHT AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" HideEnch="TRUE">
+		<DescriptionInfo Name="DES_ETERNAL_NIGHT" Description="DES_ETERNAL_NIGHT_DES" Graphic="SpellEternalNight"/>
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_EternalNight"/>
+		<LifeTime VALUE="-1"/>
+		<UpkeepCost VALUE="15"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Death"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-ETERNAL_NIGHT>
+	<ENCH-DARKNESS_BATTLE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_DARKNESS" Description="DES_DARKNESS_DES" Graphic="SpellDarkness"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_Darkness"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_RealmLifeOrDeath"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="None"/>
+		<Realm VALUE="Death"/>
+	</ENCH-DARKNESS_BATTLE>
+	<ENCH-DARKNESS_POSITIVE AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+	<!--obsolete ench, not in use right now-->
+		<DescriptionInfo Name="DES_DARKNESS" Description="DES_DARKNESS_DES" Graphic="SpellDarkness"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_DarknessPositive"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Death"/>
+	</ENCH-DARKNESS_POSITIVE>
+	<ENCH-DARKNESS_NEGATIVE AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+	<!--obsolete ench, not in use right now-->
+		<DescriptionInfo Name="DES_DARKNESS" Description="DES_DARKNESS_DES" Graphic="SpellDarkness"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_DarknessNegative"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-DARKNESS_NEGATIVE>
+	<ENCH-BLACK_PRAYER AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_BLACK_PRAYER" Description="DES_BLACK_PRAYER_DES" Graphic="SpellBlackPrayer"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_BlackPrayer"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_BlackPrayer"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_NotFullDeathDef"/>
+		<Realm VALUE="Death"/>
+	</ENCH-BLACK_PRAYER>
+	<ENCH-CLOAK_OF_FEAR AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_CLOAK_OF_FEAR" Description="DES_ENCH_CLOAK_OF_FEAR_DES" Graphic="SpellCloakOfFears"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-CAUSE_FEAR"/>	
+		<UpkeepCost VALUE="1"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Death"/>
+	</ENCH-CLOAK_OF_FEAR>
+	<ENCH-BLACK_SLEEP AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_BLACK_SLEEP" Description="DES_BLACK_SLEEP_DES" Graphic="SpellBlackSleep"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_BlackSleep"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-BLACK_SLEEP>
+	<ENCH-TERROR_WIZZARD AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_TERROR" Description="DES_TERROR_DES" Graphic="SpellTerror"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_DefaultApplicator"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_TerrorWizard"/>
+		<EnchantmentScript TriggerType="BattleTurnEndEffect" Script="ECH_TerrorWizard"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-TERROR_WIZZARD>
+	<ENCH-TERROR_UNIT AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_TERROR" Description="DES_TERROR_DES" Graphic="SpellTerror"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Terror"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-TERROR_UNIT>
+	<ENCH-BERSERK AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_BERSERK" Description="DES_ENCH_BERSERK_DES" Graphic="SpellBerserk"/>
+		<EnchantmentScript TriggerType="AttributeChangeMP" Script="ECH_Berserk"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Death"/>
+	</ENCH-BERSERK>
+	<ENCH-POSSESSION AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE" MindControl="TRUE">
+		<DescriptionInfo Name="DES_POSSESSION" Description="DES_POSSESSION_DES" Graphic="SpellPossession"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_MindControl"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_MindControl"/>
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="None"/>
+		<Realm VALUE="Death"/>
+	</ENCH-POSSESSION>
+	<ENCH-WALL_OF_DARKNESS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_WALL_OF_DARKNESS" Description="DES_WALL_OF_DARKNESS_DES" Graphic="EnchantmentWallOfDarkness"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_WallOfDarknessBattle"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_WallOfDarknessBattle"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_WallOfDarknessBattle"/>
+		<LifeTime VALUE="-1"/>	
+		<UpkeepCost VALUE="5"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Death"/>
+	</ENCH-WALL_OF_DARKNESS>
+	<ENCH-WRAITH_FORM AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_WRAITH_FORM" Description="DES_WRAITH_FORM_DES" Graphic="SpellWraithForm"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_WraithForm" />	
+		<UpkeepCost VALUE="3"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Death"/>
+	</ENCH-WRAITH_FORM>
+	<ENCH-EVIL_PRESENCE AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_EVIL_PRESENCE" Description="DES_EVIL_PRESENCE_DES" Graphic="SpellEvilPresence"/>
+		<EnchantmentScript TriggerType="PowerModifierMP" Script="ECHFValueMP"/>
+		<EnchantmentScript TriggerType="RebelsModifier" Script="ECHI_CancleReligiousUnrestMod"/>
+		<UpkeepCost VALUE="4"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-EVIL_PRESENCE>
+	<ENCH-FAMINE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_FAMINE" Description="DES_FAMINE_DES" Graphic="SpellFamine"/>
+		<EnchantmentScript TriggerType="FoodModifierMP" Script="ECHIValueMP" FIntData="0.5"/>	
+		<EnchantmentScript TriggerType="UnrestModifier" Script="ECHFL_FamineUnrest" FIntData="0.25"/>
+		<UpkeepCost VALUE="5"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-FAMINE>
+	<ENCH-WARP_NODE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_WARP_NODE" Description="DES_WARP_NODE_DES" Graphic="SpellWarpNode"/>
+		<EnchantmentScript TriggerType="PowerModifier" Script="ECHI_WarpNode" FIntData="5.0"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-WARP_NODE>
+	<ENCH-WRACK AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_WRACK" Description="DES_WRACK_DES" Graphic="SpellWrack"/>
+		<EnchantmentScript TriggerType="BattleTurnEndEffect" Script="ECH_Wrack" FIntData="1.0"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-WRACK>
+	<ENCH-CURSED_LANDS AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_CURSED_LANDS" Description="DES_CURSED_LANDS_DES" Graphic="SpellCursedLands"/>
+		<EnchantmentScript TriggerType="ProductionModifierMP" Script="ECHIValueMP" FIntData="0.5"/>	
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="1.0" Script="ECHIAddValue"/>
+		<UpkeepCost VALUE="2"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-CURSED_LANDS>
+	<ENCH-PESTILENCE AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_PESTILENCE" Description="DES_PESTILENCE_DES" Graphic="SpellPestilence"/>
+		<EnchantmentScript TriggerType="EndTurnNeutralTownIncludedEffect" Script="ECH_PestilencePopulationRemover"/>
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="2.0" Script="ECHIAddValue"/>
+		<UpkeepCost VALUE="5"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-PESTILENCE>
+	<ENCH-EVIL_OMENS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_EVIL_OMENS" Description="DES_EVIL_OMENS_DES" Graphic="EnchantmentEvilOmens"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_EvilOmens"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_EvilOmens"/>
+		<UpkeepCost VALUE="10"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-EVIL_OMENS>
+	<ENCH-ZOMBIE_MASTERY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_ZOMBIE_MASTERY" Description="DES_ZOMBIE_MASTERY_DES" Graphic="SpellZombieMastery"/>
+		<UpkeepCost VALUE="40"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Death"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-ZOMBIE_MASTERY>
+	
+	<ENCH-RESIST_MAGIC AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_RESIST_MAGIC" Description="DES_ENCH_RESIST_MAGIC_DES" Graphic="SpellResistMagic"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="5" StringData="TAG-RESIST"/>
+		<UpkeepCost VALUE="1"/>		
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-RESIST_MAGIC>
+	<ENCH-BLUR_GLOBAL AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_BLUR" Description="DES_BLUR_DES" Graphic="SpellBlur"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_OwnBattleUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_OwnBattleUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_Blur" FIntData="0.1"/>	
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnUnits"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-BLUR_GLOBAL>
+	<ENCH-BLUR AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_BLUR" Description="DES_BLUR_DES" Graphic="SpellBlur"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Blur" FIntData="0.1"/>		
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-BLUR>
+	<ENCH-CONFUSION AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_CONFUSION" Description="DES_CONFUSION_DES" Graphic="SpellConfusion"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_DefaultApplicator"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_Confusion"/>
+		<EnchantmentScript TriggerType="BattleTurnStartEffect" Script="ECH_Confusion"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-CONFUSION>
+	<ENCH-CONFUSION_POSSESSION HideEnch="TRUE" AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" MindControl="TRUE">
+		<DescriptionInfo Name="DES_CONFUSION_POSSESION" Description="DES_PLACEHOLDER" Graphic="SpellPossession"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_MindControl"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_MindControl"/>
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="None"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-CONFUSION_POSSESSION>
+	<ENCH-SPELL_LOCK AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_SPELL_LOCK" Description="DES_SPELL_LOCK_DES" Graphic="SpellSpellLock"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_SpellLock" FIntData="150" Tag="TAG-SPELL_LOCK"/>
+		<UpkeepCost VALUE="1"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-SPELL_LOCK>
+	<ENCH-COUNTER_MAGIC AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_COUNTER_MAGIC" Description="DES_COUNTER_MAGIC_DES" Graphic="SpellCounterMagic"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddCounterMagic"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveCounterMagic"/>
+		<EnchantmentScript TriggerType="None" FIntData="10" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-COUNTER_MAGIC>
+	<ENCH-VERTIGO AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_VERTIGO" Description="DES_VERTIGO_DES" Graphic="SpellVertigo"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Vertigo"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-VERTIGO>
+	<ENCH-GUARDIAN_WIND AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_GUARDIAN_WIND" Description="DES_ENCH_GUARDIAN_WIND_DES" Graphic="SpellGuardianWind"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-MISSILE_IMMUNITY"/>
+		<UpkeepCost VALUE="2"/>			
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-GUARDIAN_WIND>
+	<ENCH-FLIGHT AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_FLIGHT" Description="DES_ENCH_FLIGHT_DES" Graphic="SpellFlight"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_UnitUpdateMove"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_UnitUpdateMove"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Flight"/>
+		<UpkeepCost VALUE="3"/>		
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-FLIGHT>
+	<ENCH-WIND_MASTERY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_WIND_MASTERY" Description="DES_WIND_MASTERY_DES" Graphic="SpellWindMastery"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddWindMasteryOnWizards"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveWindMasteryFromWizards"/>
+		<UpkeepCost VALUE="5"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-WIND_MASTERY>
+	<ENCH-WIND_MASTERY_UNIT_POSITIVE AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_WIND_MASTERY" Description="DES_WIND_MASTERY_DES" Graphic="SpellWindMastery"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllOwnUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllOwnUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChangeMP" Script="ECH_WindMastery_Positive"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnShipUnits"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-WIND_MASTERY_UNIT_POSITIVE>
+	<ENCH-WIND_MASTERY_UNIT_NEGATIVE AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_WIND_MASTERY" Description="DES_WIND_MASTERY_DES" Graphic="SpellWindMastery"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllOwnUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllOwnUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChangeMP" Script="ECH_WindMastery_Negative"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnShipUnits"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-WIND_MASTERY_UNIT_NEGATIVE>
+	<ENCH-MIND_STORM AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_MIND_STORM" Description="DES_MIND_STORM_DES" Graphic="SpellMindStorm"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_MindStorm"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-MIND_STORM>
+	<ENCH-AURA_OF_MAJESTY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_AURA_OF_MAJESTY" Description="DES_AURA_OF_MAJESTY_DES" Graphic="EnchantmentAuraOfMajesty"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AuraOfMajesty"/>
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ECH_AuraOfMajesty"/>
+		<UpkeepCost VALUE="5"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-AURA_OF_MAJESTY>
+	<ENCH-STASIS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_STASIS" Description="DES_STASIS_DES" Graphic="SpellStasis"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Stasis"/>	
+		<EnchLastingEffect VALUE="Effect_StasisLoop"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-STASIS>	
+	<ENCH-HASTE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_HASTE" Description="DES_HASTE_DES" Graphic="SpellHaste"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_Haste"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_Haste"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Haste"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-HASTE>
+	<ENCH-MAGIC_IMMUNITY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_MAGIC_IMMUNITY" Description="DES_ENCH_MAGIC_IMMUNITY_DES" Graphic="SpellMagicImmunity"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-MAGIC_IMMUNITY"/>	
+		<UpkeepCost VALUE="5"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-MAGIC_IMMUNITY>
+	<ENCH-WIND_WALKING_OWNER AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE"
+				OnJoinWithUnit="SJOIN_WindWalking"
+				OnLeaveFromUnit="SLEAVE_WindWalking"
+				NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_WIND_WALKING" Description="DES_WIND_WALKING_DES" Graphic="SpellWindWalking"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_WindWalkingOwner"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_WindWalkingOwner"/>
+		<EnchantmentScript TriggerType="GroupChange" StringData="ENCH-WIND_WALKING_UNIT"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-WIND_WALKING"/>
+		<UpkeepCost VALUE="10"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-WIND_WALKING_OWNER>
+	<ENCH-WIND_WALKING_OWNER_SKILL AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE"
+				OnJoinWithUnit="SJOIN_WindWalking"
+				OnLeaveFromUnit="SLEAVE_WindWalking"
+				NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_WIND_WALKING" Description="DES_WIND_WALKING_DES" Graphic="SpellWindWalking"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_WindWalkingOwner"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_WindWalkingOwner"/>
+		<EnchantmentScript TriggerType="GroupChange" StringData="ENCH-WIND_WALKING_UNIT"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-WIND_WALKING"/>
+		<UpkeepCost VALUE="0"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-WIND_WALKING_OWNER_SKILL>
+	<ENCH-WIND_WALKING_UNIT AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_WIND_WALKING_UNIT" Description="DES_WIND_WALKING_UNIT_DES" Graphic="SpellWindWalking"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_UnitUpdateMove"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_UnitUpdateMove"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_WindWalking"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-WIND_WALKING_UNIT>
+	<ENCH-CREATURE_BINDING AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE" MindControl="TRUE">
+		<DescriptionInfo Name="DES_CREATURE_BINDING" Description="DES_CREATURE_BINDING_DES" Graphic="SpellCreatureBinding"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_MindControl"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_MindControl"/>
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-CREATURE_BINDING>
+	<ENCH-SPELL_WARD_NATURE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_SPELL_WARD" Description="DES_SPELL_WARD_NATURE_DES" Graphic="EnchantmentSpellWardNature"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_NatureProtection" />	
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_Empty" />	
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_NatureProtection" />
+		<UpkeepCost VALUE="5"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-SPELL_WARD_NATURE>
+	<ENCH-SPELL_WARD_SORCERY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_SPELL_WARD" Description="DES_SPELL_WARD_SORCERY_DES" Graphic="EnchantmentSpellWardSorcery"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_SorceryProtection" />	
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_Empty" />	
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_SorceryProtection" />	
+		<UpkeepCost VALUE="5"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-SPELL_WARD_SORCERY>
+	<ENCH-SPELL_WARD_CHAOS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_SPELL_WARD" Description="DES_SPELL_WARD_CHAOS_DES" Graphic="EnchantmentSpellWardChaos"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_ChaosProtection" />
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_Empty" />	
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_ChaosProtection" />
+		<UpkeepCost VALUE="5"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-SPELL_WARD_CHAOS>
+	<ENCH-SPELL_WARD_LIFE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_SPELL_WARD" Description="DES_SPELL_WARD_LIFE_DES" Graphic="EnchantmentSpellWardLife"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_LifeProtection" />
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_Empty" />	
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_LifeProtection" />
+		<UpkeepCost VALUE="5"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-SPELL_WARD_LIFE>
+	<ENCH-SPELL_WARD_DEATH AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_SPELL_WARD" Description="DES_SPELL_WARD_DEATH_DES" Graphic="EnchantmentSpellWardDeath"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_DeathProtection" />	
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_Empty" />	
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_DeathProtection" />
+		<UpkeepCost VALUE="5"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-SPELL_WARD_DEATH>
+	<ENCH-SPELL_WARD_ENFEEBLING_HEX AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_SPELL_WARD_FANTASTIC_UNITS_DEBUFF" Description="DES_SPELL_WARD_FANTASTIC_UNITS_DEBUFF_DES" Graphic="EnchantmentSpellWardEnfeeblingHex"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChangeMP" Script="ECH_SpellWardEnfeeblingHex"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="None"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_SpellWard"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-SPELL_WARD_ENFEEBLING_HEX>
+	<ENCH-SPELL_PLANE_SHIFT AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_PLANE_SHIFT" Description="DES_PLANE_SHIFT_DES" Graphic="SpellPlanarTravel"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-PLANE_SHIFTER"/>
+		<UpkeepCost VALUE="5" />
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-SPELL_PLANE_SHIFT>
+	<ENCH-SUPPRESS_MAGIC AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SUPPRESS_MAGIC" Description="DES_SUPPRESS_MAGIC_DES" Graphic="SpellSuppressMagic"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddCounterMagic"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveCounterMagic"/>
+		<EnchantmentScript TriggerType="None" FIntData="500" />
+		<UpkeepCost VALUE="50"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-SUPPRESS_MAGIC>
+	<ENCH-TIME_STOP AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_TIME_STOP" Description="DES_TIME_STOP_DES" Graphic="SpellTimeStop"/>				
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddTimeStop"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveTimeStop"/>
+		<EnchantmentScript TriggerType="None" FIntData="500" />
+		<UpkeepCost VALUE="200"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-TIME_STOP>
+	<ENCH-FLYING_FORTRESS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_FLYING_FORTRESS" Description="DES_FLYING_FORTRESS_DES" Graphic="EnchantmentFlyingFortress"/>
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_FlyingFortress"/>
+		<UpkeepCost VALUE="25"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-FLYING_FORTRESS>
+	
+	<ENCH-DETECT_MAGIC AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_DETECT_MAGIC" Description="DES_DETECT_MAGIC_DES" Graphic="EnchantmentDetectMagic"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_DefaultApplicator"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_DetectMagic"/>
+		<EnchantmentScript TriggerType="None" Script="ECH_DetectMagic"/>
+		<UpkeepCost VALUE="3"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Arcane"/>
+	</ENCH-DETECT_MAGIC>
+	<ENCH-AWARENESS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_AWARENESS" Description="DES_AWARENESS_DES" Graphic="SpellAwareness"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_VisibilityApplicator"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_VisibilityApplicator"/>
+		<EnchantmentScript TriggerType="WizardVisibilityModifier" Script="ESP_Awareness"/>
+		<UpkeepCost VALUE="3"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Arcane"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-AWARENESS>
+	<ENCH-STUN AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_STUN" Description="DES_STUN_DES" Graphic="SkillStun"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Stun"/>
+		<LifeTime VALUE="1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+	</ENCH-STUN>
+	<ENCH-GNOLL_GENERAL_BONUS AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_GNOLL_GENERAL_BONUS" Description="DES_GNOLL_GENERAL_BONUS_DES" Graphic="SkillGnollGeneral"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-MELEE_ATTACK"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-GNOLL_GENERAL_BONUS>
+	<ENCH-MUD AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_MUD_ATTACK" Description="DES_MUD_DES" Graphic="SkillMudAttack"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Mud" FIntData="1"/>
+		<LifeTime VALUE="1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+	</ENCH-MUD>
+	
+	
+	<!-- Buildings -->
+	<ENCH-FORTRESS_POWER AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_FORTRESS" Description="DES_BUILDING_FORTRESS_DES" Graphic="EnchantmentFortress"/>
+		<EnchantmentScript TriggerType="PowerModifier" Script="ECHFFortressPower"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-FORTRESS_POWER>
+	<ENCH-FORTRESS_LIGHTNING_BOLT_NATURE AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_FORTRESS_LIGHTNING_BOLT_NATURE" Description="DES_FORTRESS_LIGHTNING_BOLT_DES" Graphic="EnchantmentFortressLBNature"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_FortressLightningBolt"/>
+		<EnchantmentScript TriggerType="BattleWizardTowerEffect" Script="ECH_CallFortressBolt" BattleAttackEffect="Piercing"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-FORTRESS_LIGHTNING_BOLT_NATURE>
+	<ENCH-FORTRESS_LIGHTNING_BOLT_SORCERY AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_FORTRESS_LIGHTNING_BOLT_SORCERY" Description="DES_FORTRESS_LIGHTNING_BOLT_DES" Graphic="EnchantmentFortressLBSorcery"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_FortressLightningBolt"/>
+		<EnchantmentScript TriggerType="BattleWizardTowerEffect" Script="ECH_CallFortressBolt" BattleAttackEffect="Piercing"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-FORTRESS_LIGHTNING_BOLT_SORCERY>
+	<ENCH-FORTRESS_LIGHTNING_BOLT_DEATH AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_FORTRESS_LIGHTNING_BOLT_DEATH" Description="DES_FORTRESS_LIGHTNING_BOLT_DES" Graphic="EnchantmentFortressLBDeath"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_FortressLightningBolt"/>
+		<EnchantmentScript TriggerType="BattleWizardTowerEffect" Script="ECH_CallFortressBolt" BattleAttackEffect="Piercing"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Death"/>
+	</ENCH-FORTRESS_LIGHTNING_BOLT_DEATH>
+	<ENCH-FORTRESS_LIGHTNING_BOLT_LIFE AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_FORTRESS_LIGHTNING_BOLT_LIFE" Description="DES_FORTRESS_LIGHTNING_BOLT_DES" Graphic="EnchantmentFortressLBLife"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_FortressLightningBolt"/>
+		<EnchantmentScript TriggerType="BattleWizardTowerEffect" Script="ECH_CallFortressBolt" BattleAttackEffect="Piercing"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-FORTRESS_LIGHTNING_BOLT_LIFE>
+	<ENCH-FORTRESS_LIGHTNING_BOLT_CHAOS AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_FORTRESS_LIGHTNING_BOLT_CHAOS" Description="DES_FORTRESS_LIGHTNING_BOLT_DES" Graphic="EnchantmentFortressLBChaos"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_FortressLightningBolt"/>
+		<EnchantmentScript TriggerType="BattleWizardTowerEffect" Script="ECH_CallFortressBolt" BattleAttackEffect="Piercing"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-FORTRESS_LIGHTNING_BOLT_CHAOS>
+	<ENCH-FIGHTERS_GUILD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_FIGHTERS_GUILD" Description="DES_BUILDING_FIGHTERS_GUILD_DES" Graphic="EnchantmentFightersGuild"/>
+		<EnchantmentScript TriggerType="NewUnitXpModifier" FIntData="20" Script="ECHIAddValue"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-FIGHTERS_GUILD>
+	<ENCH-WAR_COLLEGE AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_WAR_COLLEGE" Description="DES_BUILDING_WAR_COLLEGE_DES" Graphic="EnchantmentWarCollege"/>
+		<EnchantmentScript TriggerType="NewUnitXpModifier" FIntData="61" Script="ECHIAddValue"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-WAR_COLLEGE>
+	<ENCH-ANIMISTS_GUILD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_ANIMISTS_GUILD" Description="DES_BUILDING_ANIMISTS_GUILD_DES" Graphic="EnchantmentAnimistsGuild"/>
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="1.0" Script="ECHITakeValue"/>
+		<EnchantmentScript TriggerType="FoodModifierMP" Script="ECHIAnimistsGuildFood"/>
+		<!-- Units garrisoned in this town heal at a basic rate of about 25% each turn.-->
+		<EnchantmentScript TriggerType="EndTurnEffect" FIntData="0.25" Script="ECHHeal"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-ANIMISTS_GUILD>
+	<ENCH-SAWMILL AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_SAWMILL" Description="DES_BUILDING_SAWMILL_DES" Graphic="EnchantmentSawmill"/>
+		<EnchantmentScript TriggerType="ProductionModifierMP" FIntData="1.25" Script="ECHIValueMP"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-SAWMILL>
+	<ENCH-LIBRARY AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_LIBRARY" Description="DES_BUILDING_LIBRARY_DES" Graphic="EnchantmentLibrary"/>
+		<EnchantmentScript TriggerType="ResearchModifier" FIntData="2" Script="ECHIAddValue"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-LIBRARY>
+	<ENCH-SAGES_GUILD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_SAGES_GUILD" Description="DES_BUILDING_SAGES_GUILD_DES" Graphic="EnchantmentSagesGuild"/>
+		<EnchantmentScript TriggerType="EndTurnPositiveDispelEffect" Script="ECHNightshadeUse" FIntData="50" />
+		<EnchantmentScript TriggerType="ResearchModifier" FIntData="3" Script="ECHIAddValue"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-SAGES_GUILD>
+	<ENCH-ALCHEMISTS_GUILD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_ALCHEMISTS_GUILD" Description="DES_BUILDING_ALCHEMISTS_GUILD_DES" Graphic="EnchantmentAlchemistsGuild"/>
+		<EnchantmentScript TriggerType="PowerModifier" FIntData="3" Script="ECHFAddValue"/>
+		<EnchantmentScript TriggerType="NewUnitModifier" Script="ECHEnchantedWeaponAdd"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-ALCHEMISTS_GUILD>
+	<ENCH-UNIVERSITY AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_UNIVERSITY" Description="DES_BUILDING_UNIVERSITY_DES" Graphic="EnchantmentUniversity"/>
+		<EnchantmentScript TriggerType="ResearchModifier" FIntData="5" Script="ECHIAddValue"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-UNIVERSITY>
+	<ENCH-ORACLE AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_ORACLE" Description="DES_BUILDING_ORACLE_DES" Graphic="EnchantmentOracle"/>
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="2.0" Script="ECHITakeValue"/>
+		<EnchantmentScript TriggerType="VisibilityRangeModifier" FIntData="6" Script="ECHI_SetVisibilityRange"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-ORACLE>
+	<ENCH-WIZARDS_GUILD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_WIZARDS_GUILD" Description="DES_BUILDING_WIZARDS_GUILD_DES" Graphic="EnchantmentWizardsGuild"/>
+		<EnchantmentScript TriggerType="ResearchModifier" FIntData="8" Script="ECHIAddValue"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-WIZARDS_GUILD>
+	<ENCH-SHRINE AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_SHRINE" Description="DES_BUILDING_SHRINE_DES" Graphic="EnchantmentShrine"/>
+		<EnchantmentScript TriggerType="EndTurnPositiveDispelEffect" Script="ECHNightshadeUse" FIntData="50" />
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="1.0" Script="ECHITakeValue"/>
+		<EnchantmentScript TriggerType="PowerModifierReligious" FIntData="1" Script="ECHFAddPowerReligious"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-SHRINE>
+	<ENCH-TEMPLE AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_TEMPLE" Description="DES_BUILDING_TEMPLE_DES" Graphic="EnchantmentTemple"/>
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="1.0" Script="ECHITakeValue"/>
+		<EnchantmentScript TriggerType="PowerModifierReligious" FIntData="2" Script="ECHFAddPowerReligious"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-TEMPLE>
+	<ENCH-PARTHENON AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_PARTHENON" Description="DES_BUILDING_PARTHENON_DES" Graphic="EnchantmentParthenon"/>
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="1.0" Script="ECHITakeValue"/>
+		<EnchantmentScript TriggerType="PowerModifierReligious" FIntData="3" Script="ECHFAddPowerReligious"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-PARTHENON>
+	<ENCH-CATHEDRAL AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_CATHEDRAL" Description="DES_BUILDING_CATHEDRAL_DES" Graphic="EnchantmentCathedral"/>
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="1.0" Script="ECHITakeValue"/>
+		<EnchantmentScript TriggerType="PowerModifierReligious" FIntData="4" Script="ECHFAddPowerReligious"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-CATHEDRAL>
+	<ENCH-MARKETPLACE AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_MARKETPLACE" Description="DES_BUILDING_MARKETPLACE_DES" Graphic="EnchantmentMarketplace"/>
+		<EnchantmentScript TriggerType="GoldModifierMP" FIntData="1.5" Script="ECHIValueMP"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-MARKETPLACE>
+	<ENCH-BANK AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_BANK" Description="DES_BUILDING_BANK_DES" Graphic="EnchantmentBank"/>
+		<EnchantmentScript TriggerType="GoldModifierMP" FIntData="1.5" Script="ECHIValueMP"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-BANK>
+	<ENCH-MERCHANTS_GUILD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_MERCHANTS_GUILD" Description="DES_BUILDING_MERCHANTS_GUILD_DES" Graphic="EnchantmentMerchantsGuild"/>
+		<EnchantmentScript TriggerType="GoldModifierMP" FIntData="2.0" Script="ECHIValueMP"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-MERCHANTS_GUILD>
+	<ENCH-GRANARY AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_GRANARY" Description="DES_BUILDING_GRANARY_DES" Graphic="EnchantmentGranary"/>
+		<EnchantmentScript TriggerType="FoodModifier" FIntData="2" Script="ECHIAddValue"/>
+		<EnchantmentScript TriggerType="MaximumPopulationModifier" FIntData="2" Script="ECHIAddValue"/>
+		<EnchantmentScript TriggerType="PopulationGrowModifier" FIntData="30" Script="ECHIAddValue"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-GRANARY>
+	<ENCH-FARMERS_MARKET AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_FARMERS_MARKET" Description="DES_BUILDING_FARMERS_MARKET_DES" Graphic="EnchantmentFarmersMarket"/>
+		<EnchantmentScript TriggerType="FoodModifier" FIntData="3" Script="ECHIAddValue"/>
+		<EnchantmentScript TriggerType="MaximumPopulationModifier" FIntData="3" Script="ECHIAddValue"/>
+		<EnchantmentScript TriggerType="PopulationGrowModifier" FIntData="30" Script="ECHIAddValue"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-FARMERS_MARKET>
+	<ENCH-FORESTERS_GUILD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_FORESTERS_GUILD" Description="DES_BUILDING_FORESTERS_GUILD_DES" Graphic="EnchantmentForestersGuild"/>
+		<EnchantmentScript TriggerType="FoodModifier" FIntData="2" Script="ECHIAddValue"/>
+		<EnchantmentScript TriggerType="ProductionModifierMP" FIntData="1.25" Script="ECHIValueMP"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-FORESTERS_GUILD>
+	<ENCH-MINERS_GUILD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_MINERS_GUILD" Description="DES_BUILDING_MINERS_GUILD_DES" Graphic="EnchantmentMinersGuild"/>
+		<EnchantmentScript TriggerType="ProductionModifierMP" FIntData="1.5" Script="ECHIValueMP"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-MINERS_GUILD>
+	<ENCH-MECHANICIANS_GUILD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_MECHANICIANS_GUILD" Description="DES_BUILDING_MECHANICIANS_GUILD_DES" Graphic="EnchantmentMechaniciansGuild"/>
+		<EnchantmentScript TriggerType="ProductionModifierMP" FIntData="1.5" Script="ECHIValueMP"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-MECHANICIANS_GUILD>
+	<ENCH-CITY_WALLS AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_BUILDING_CITY_WALLS" Description="DES_BUILDING_CITY_WALLS_DES" Graphic="EnchantmentCityWalls"/>
+		<EnchantmentScript TriggerType="VisibilityRangeModifier" FIntData="4" Script="ECHI_SetVisibilityRange"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-CITY_WALLS>
+	
+	<ENCH-DEATH_MOON AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_DEATH_MOON" Description="DES_DEATH_MOON_DES" Graphic="EnchantmentDeathMoon"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Death"/>
+	</ENCH-DEATH_MOON>
+	<ENCH-LIFE_MOON AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_LIFE_MOON" Description="DES_LIFE_MOON_DES" Graphic="EnchantmentLifeMoon"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+	</ENCH-LIFE_MOON>
+	<ENCH-CHAOS_MOON AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_CHAOS_MOON" Description="DES_CHAOS_MOON_DES" Graphic="EnchantmentChaosMoon"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-CHAOS_MOON>
+	<ENCH-NATURE_MOON AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_NATURE_MOON" Description="DES_NATURE_MOON_DES" Graphic="EnchantmentNatureMoon"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-NATURE_MOON>
+	<ENCH-SORCERY_MOON AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SORCERY_MOON" Description="DES_SORCERY_MOON_DES" Graphic="EnchantmentSorceryMoon"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-SORCERY_MOON>
+	<ENCH-TAKE_DEATH_MOON AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TAKE_DEATH_MOON" Description="DES_TAKE_DEATH_MOON_DES" Graphic="EnchantmentDeathMoon"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Death"/>
+	</ENCH-TAKE_DEATH_MOON>
+	<ENCH-TAKE_LIFE_MOON AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TAKE_LIFE_MOON" Description="DES_TAKE_LIFE_MOON_DES" Graphic="EnchantmentLifeMoon"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Life"/>
+	</ENCH-TAKE_LIFE_MOON>
+	<ENCH-TAKE_CHAOS_MOON AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TAKE_CHAOS_MOON" Description="DES_TAKE_CHAOS_MOON_DES" Graphic="EnchantmentChaosMoon"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-TAKE_CHAOS_MOON>
+	<ENCH-TAKE_NATURE_MOON AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TAKE_NATURE_MOON" Description="DES_TAKE_NATURE_MOON_DES" Graphic="EnchantmentNatureMoon"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-TAKE_NATURE_MOON>
+	<ENCH-TAKE_SORCERY_MOON AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TAKE_SORCERY_MOON" Description="DES_TAKE_SORCERY_MOON_DES" Graphic="EnchantmentSorceryMoon"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-TAKE_SORCERY_MOON>
+	<ENCH-BABY_BOOM AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BABY_BOOM" Description="DES_BABY_BOOM_DES" Graphic="EnchantmentBabyBoom"/>
+		<EnchantmentScript TriggerType="PopulationGrowModifier" Script="ECHIBabyBoom"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-BABY_BOOM>
+	<ENCH-PLAGUE AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_PLAGUE" Description="DES_PESTILENCE_DES" Graphic="EnchantmentPlague"/>
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ECHIPlague"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+	</ENCH-PLAGUE>
+	<ENCH-MANA_DRAIN AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_MANA_DRAIN" Description="DES_MANA_DRAIN_DES" Graphic="EnchantmentManaDrain"/>
+		<EnchantmentScript TriggerType="PowerModifier" Script="ECHIManaDrain"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+	</ENCH-MANA_DRAIN>
+	<ENCH-ADD_MANA_PER_TURN AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_ADD_MANA_PER_TURN" Description="DES_ADD_MANA_PER_TURN_DES" Graphic="EnchantmentAddManaPerTurn"/>
+		<EnchantmentScript TriggerType="ManaModifier" Script="ECHIAddResource"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-ADD_MANA_PER_TURN>
+	<ENCH-ADD_FOOD_PER_TURN AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_ADD_FOOD_PER_TURN" Description="DES_ADD_FOOD_PER_TURN_DES" Graphic="EnchantmentAddFoodPerTurn"/>
+		<EnchantmentScript TriggerType="FoodModifier" Script="ECHIAddResource"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-ADD_FOOD_PER_TURN>
+	<ENCH-ADD_GOLD_PER_TURN AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_ADD_GOLD_PER_TURN" Description="DES_ADD_GOLD_PER_TURN_DES" Graphic="EnchantmentAddGoldPerTurn"/>
+		<EnchantmentScript TriggerType="GoldModifier" Script="ECHIAddResource"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-ADD_GOLD_PER_TURN>
+	<ENCH-ADD_PRODUCTION_PER_TURN AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_ADD_PRODUCTION_PER_TURN" Description="DES_ADD_PRODUCTION_PER_TURN_DES" Graphic="EnchantmentAddProductionPerTurn"/>
+		<EnchantmentScript TriggerType="ProductionModifier" Script="ECHIAddResource"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-ADD_PRODUCTION_PER_TURN>
+	<ENCH-TAKE_MANA_PER_TURN AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TAKE_MANA_PER_TURN" Description="DES_TAKE_MANA_PER_TURN_DES" Graphic="EnchantmentTakeManaPerTurn"/>
+		<EnchantmentScript TriggerType="ManaModifier" Script="ECHITakeResource"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+	</ENCH-TAKE_MANA_PER_TURN>
+	<ENCH-TAKE_FOOD_PER_TURN AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TAKE_FOOD_PER_TURN" Description="DES_TAKE_FOOD_PER_TURN_DES" Graphic="EnchantmentTakeFoodPerTurn"/>
+		<EnchantmentScript TriggerType="FoodModifier" Script="ECHITakeResource"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+	</ENCH-TAKE_FOOD_PER_TURN>
+	<ENCH-TAKE_GOLD_PER_TURN AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TAKE_GOLD_PER_TURN" Description="DES_TAKE_GOLD_PER_TURN_DES" Graphic="EnchantmentTakeGoldPerTurn"/>
+		<EnchantmentScript TriggerType="GoldModifier" Script="ECHITakeResource"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+	</ENCH-TAKE_GOLD_PER_TURN>
+	<ENCH-TAKE_PRODUCTION_PER_TURN AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TAKE_PRODUCTION_PER_TURN" Description="DES_TAKE_PRODUCTION_PER_TURN_DES" Graphic="EnchantmentTakeProductionPerTurn"/>
+		<EnchantmentScript TriggerType="ProductionModifier" Script="ECHITakeResource"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+	</ENCH-TAKE_PRODUCTION_PER_TURN>
+	<ENCH-ADD_UNREST_PERCENTAGE AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_ADD_UNREST_PERCENTAGE" Description="DES_ADD_UNREST_PERCENTAGE_DES" Graphic="EnchantmentAddUnrestPercentage"/>
+		<EnchantmentScript TriggerType="UnrestModifierMP" Script="ECHFLAddUnrestPercenntage"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+	</ENCH-ADD_UNREST_PERCENTAGE>
+	<ENCH-TAKE_UNREST_PERCENTAGE AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TAKE_UNREST_PERCENTAGE" Description="DES_TAKE_UNREST_PERCENTAGE_DES" Graphic="EnchantmentTakeUnrestPercentage"/>
+		<EnchantmentScript TriggerType="UnrestModifierMP" Script="ECHFLTakeUnrestPercentage"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-TAKE_UNREST_PERCENTAGE>
+	<ENCH-ADD_REBELS AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_ADD_REBELS" Description="DES_ADD_REBELS_DES" Graphic="EnchantmentAddUnrestPercentage"/>
+		<EnchantmentScript TriggerType="RebelsModifier" Script="ECHIAddRebels"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+	</ENCH-ADD_REBELS>
+	<ENCH-TAKE_REBELS AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TAKE_REBELS" Description="DES_TAKE_REBELS_DES" Graphic="EnchantmentTakeUnrestPercentage"/>
+		<EnchantmentScript TriggerType="RebelsModifier" Script="ECHITakeRebels"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-TAKE_REBELS>
+	
+	
+	<ENCH-PRAYMASTER_UNIT AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_PRAYMASTER_UNIT" Description="DES_PRAYMASTER_UNIT_DES" Graphic="SkillPraymaster"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Praymaster"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-PRAYMASTER_UNIT>
+	<ENCH-LEADERSHIP_UNIT AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_LEADERSHIP_UNIT" Description="DES_LEADERSHIP_UNIT_DES" Graphic="SkillLeadership"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Leadership"/>	
+		<EnchantmentRequirementScript TriggerType="None" Script="REQ_NoFantasticUnit"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-LEADERSHIP_UNIT>
+	<ENCH-ARMSMASTER_UNIT AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_ARMSMASTER_UNIT" Description="DES_ARMSMASTER_UNIT_DES" Graphic="SkillArmsmaster"/>
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ECH_Armsmaster"/>	
+		<EnchantmentRequirementScript TriggerType="None" Script="REQ_NoFantasticUnit"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-ARMSMASTER_UNIT>
+	<ENCH-RESIST_TO_ALL_UNIT_1 AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_RESIST_TO_ALL_1" Description="DES_RESIST_TO_ALL_UNIT_1_DES" Graphic="SkillResistToAll" Param="+1"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" StringData="TAG-RESIST" FIntData="1.0"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-RESIST_TO_ALL_UNIT_1>
+	<ENCH-RESIST_TO_ALL_UNIT_2 AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_RESIST_TO_ALL_2" Description="DES_RESIST_TO_ALL_UNIT_2_DES" Graphic="SkillResistToAll" Param="+2"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" StringData="TAG-RESIST" FIntData="2.0"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-RESIST_TO_ALL_UNIT_2>
+	<ENCH-HOLY_BONUS_UNIT_1 AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_HOLY_BONUS_UNIT" Description="DES_HOLY_BONUS_UNIT_DES" Graphic="SkillHolyBonus" Param="+1"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_HolyBonus" FIntData="1.0"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-HOLY_BONUS_UNIT_1>
+	<ENCH-HOLY_BONUS_UNIT_2 AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_HOLY_BONUS_UNIT" Description="DES_HOLY_BONUS_UNIT_DES" Graphic="SkillHolyBonus" Param="+2"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_HolyBonus" FIntData="2.0"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-HOLY_BONUS_UNIT_2>
+	<ENCH-CURSED_UNIT AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_CURSED_UNIT" Description="DES_CURSED_UNIT_DES" Graphic="SkillCursed"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Cursed" FIntData="1.0"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+	</ENCH-CURSED_UNIT>
+	<!-- This ench only inform that unit is better, but real change is done in TINIT_Warlord script-->
+	<ENCH-WARLORD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_WARLORD" Description="DES_ENCH_WARLORD_DES" Graphic="SkillWarlord"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChangeMP" Script="ECH_None"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnUnitsNotFantastic"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-WARLORD>
+	<ENCH-FANTASTIC_WARLORD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_FANTASTIC_WARLORD" Description="DES_ENCH_FANTASTIC_WARLORD_DES" Graphic="SkillFantasticWarlord"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllOwnUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllOwnUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChangeMP" Script="ECH_FantasticWarlord" FIntData="1.0"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnFantasticUnit"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-FANTASTIC_WARLORD>
+	<ENCH-IMPROVED_WARLORD HideEnch="TRUE" NonCombatDisplay="TRUE" AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_IMPROVED_WARLORD" Description="DES_ENCH_IMPROVED_WARLORD_DES" Graphic="SkillImprovedWarlord"/>
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ECH_ImprovedWarlord"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-IMPROVED_WARLORD>
+	<!-- This ench only inform that unit is better, but real change is done in ENCH-IMPROVED_WARLORD script-->
+	<ENCH-IMPROVED_WARLORD_UNIT AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_IMPROVED_WARLORD" Description="DES_ENCH_IMPROVED_WARLORD_DES" Graphic="SkillImprovedWarlord"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChangeMP" Script="ECH_None"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnUnitsNotFantastic"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-IMPROVED_WARLORD_UNIT>
+	<ENCH-ANTI_MAGIC AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_ANTI_MAGIC" Description="DES_ENCH_ANTI_MAGIC_DES" Graphic="SkillAntiMagic"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllOwnUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AllOwnUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_AddTag" FIntData="3" StringData="TAG-RESIST"/>
+		<!--<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-REGENERATION"/>-->
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnUnitsNotFantastic"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-ANTI_MAGIC>
+	
+	<ENCH-MAGIC_NODE_CHAOS_COUNTER_MAGIC AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_MAGIC_NODE_CHAOS_COUNTER_MAGIC" Description="DES_MAGIC_NODE_CHAOS_COUNTER_MAGIC_DES" Graphic="EnchantmentChaosNodeCounterMagic"/>
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_MagicCounterBattle" FIntData="50"/>
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="None"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-MAGIC_NODE_CHAOS_COUNTER_MAGIC>
+	<ENCH-MAGIC_NODE_CHAOS_UNITS AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_MAGIC_NODE_CHAOS_UNITS" Description="DES_MAGIC_NODE_CHAOS_UNITS_DES" Graphic="EnchantmentChaosNodeUnits"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_BattleUnitAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_BattleUnitAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_NodeBonus"/>
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="Positive"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_RealmChaos"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-MAGIC_NODE_CHAOS_UNITS>
+	<ENCH-MAGIC_NODE_NATURE_COUNTER_MAGIC AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_MAGIC_NODE_NATURE_COUNTER_MAGIC" Description="DES_MAGIC_NODE_NATURE_COUNTER_MAGIC_DES" Graphic="EnchantmentNatureNodeCounterMagic"/>
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_MagicCounterBattle" FIntData="50" />
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="None"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-MAGIC_NODE_NATURE_COUNTER_MAGIC>
+	<ENCH-MAGIC_NODE_NATURE_UNITS AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_MAGIC_NODE_NATURE_UNITS" Description="DES_MAGIC_NODE_NATURE_UNITS_DES" Graphic="EnchantmentNatureNodeUnits"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_BattleUnitAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_BattleUnitAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_NodeBonus"/>
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="Positive"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_RealmNature"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-MAGIC_NODE_NATURE_UNITS>
+	<ENCH-MAGIC_NODE_SORCERY_COUNTER_MAGIC AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_MAGIC_NODE_SORCERY_COUNTER_MAGIC" Description="DES_MAGIC_NODE_SORCERY_COUNTER_MAGIC_DES" Graphic="EnchantmentSorceryNodeCounterMagic"/>
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_MagicCounterBattle" FIntData="50" />
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="None"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-MAGIC_NODE_SORCERY_COUNTER_MAGIC>
+	<ENCH-MAGIC_NODE_SORCERY_UNITS AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_MAGIC_NODE_SORCERY_UNITS" Description="DES_MAGIC_NODE_SORCERY_UNITS_DES" Graphic="EnchantmentSorceryNodeUnits"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_BattleUnitAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_BattleUnitAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_NodeBonus"/>
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="Positive"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_RealmSorcery"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-MAGIC_NODE_SORCERY_UNITS>
+	<ENCH-ARMAGEDDON AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_ARMAGEDDON" Description="DES_ARMAGEDDON_DES" Graphic="EnchantmentArmageddon"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_Armageddon"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_Armageddon"/>
+		<EnchantmentScript TriggerType="EndTurnEffect" Script="ESP_Armageddon"/>
+		<UpkeepCost VALUE="40" />
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Chaos"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-ARMAGEDDON>
+	<ENCH-ADD_ARMAGEDDON_UNREST AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_ARMAGEDDON" Description="DES_ARMAGEDDON_DES" Graphic="EnchantmentArmageddon"/>
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="2.0" Script="ECHIAddValue"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-ADD_ARMAGEDDON_UNREST>
+	<ENCH-REANIMATE_UNDEAD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_UNDEAD" Description="DES_UNDEAD_DES" Graphic="EnchantmentReanimateUndead"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-REANIMATED"/>
+		<EnchantmentScript TriggerType="AttributeChangeMP" Script="ECH_UndeadUpkeepModifier" FIntData="1.5"/>
+		<Realm VALUE="Death"/>
+	</ENCH-REANIMATE_UNDEAD>
+	<ENCH-ASTRAL_GATE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_ASTRAL_GATE" Description="DES_ASTRAL_GATE_DES" Graphic="EnchantmentAstralGate"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AstralGate"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_AstralGate"/>
+		<UpkeepCost VALUE="5" />
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Life"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-ASTRAL_GATE>
+	<ENCH-EARTH_GATE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_EARTH_GATE" Description="DES_EARTH_GATE_DES" Graphic="EnchantmentEarthGate"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_EarthGate"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_EarthGate"/>
+		<UpkeepCost VALUE="5" />
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Nature"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-EARTH_GATE>
+	
+	<!-- That two ENCH-INVISIBILITY is not a error. One is use for spell and do not have hide-->
+	<ENCH-INVISIBILITY_SKILL HideEnch="TRUE" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+        <DescriptionInfo Name="DES_INVISIBILITY" Description="DES_INVISIBILITY_DES" Graphic="SpellInvisibility"/>
+        <EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-INVISIBILITY"/>
+        <EnchantmentScript TriggerType="AttributeChange" Script="ECH_InvisibilityProtection" FIntData="0.1"/>
+        <UpkeepCost VALUE="0" />
+        <LifeTime VALUE="-1"/>
+        <Realm VALUE="Sorcery"/>
+    </ENCH-INVISIBILITY_SKILL>
+    <ENCH-INVISIBILITY_SPELL AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+        <DescriptionInfo Name="DES_INVISIBILITY" Description="DES_INVISIBILITY_DES" Graphic="SpellInvisibility"/>
+        <EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-INVISIBILITY"/>
+        <EnchantmentScript TriggerType="AttributeChange" Script="ECH_InvisibilityProtection" FIntData="0.1"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_Invisibility"/>
+        <UpkeepCost VALUE="10" />
+		<EnchCategory VALUE="Positive"/>
+        <LifeTime VALUE="-1"/>
+        <Realm VALUE="Sorcery"/>
+    </ENCH-INVISIBILITY_SPELL>
+	<ENCH-MASS_INVISIBILITY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+        <DescriptionInfo Name="DES_MASS_INVISIBILITY" Description="DES_MASS_INVISIBILITY_DES" Graphic="SpellMassInvisibility"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_BattleUnitsAttributeDirtyUpdateInvisibility"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_MassInvisibility" FIntData="0.1"/>	
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnUnits"/>
+		<EnchCategory VALUE="Positive"/>
+        <LifeTime VALUE="-1"/>
+        <Realm VALUE="Sorcery"/>
+    </ENCH-MASS_INVISIBILITY>
+	
+	<ENCH-TRADE_ALLIANCE NonCombatDisplay="TRUE" AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_TRADE_TREATY" Description="DES_TRADE_TREATY_DES" Graphic="EnchantmentTradeAlliance"/>
+		<EnchantmentScript TriggerType="GoldModifier" FIntData="5.0" Script="ECHIAddValue"/>
+		<EnchantmentScript TriggerType="GoldModifierMP" FIntData="5.0" Script="ECHI_AddPercentValue"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-TRADE_ALLIANCE>
+	<ENCH-RESEARCH_ALLIANCE NonCombatDisplay="TRUE" AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_RESEARCH_TREATY" Description="DES_RESEARCH_TREATY_DES" Graphic="EnchantmentResearchAlliance"/>
+		<EnchantmentScript TriggerType="ResearchModifier" FIntData="5.0" Script="ECHIAddValue"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-RESEARCH_ALLIANCE>
+	
+	<ENCH-TOWN_ON_COAST_WITH_RIVER AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">	
+		<DescriptionInfo Name="DES_TOWN_ON_COAST_WITH_RIVER" Description="DES_TOWN_ON_COAST_WITH_RIVER_DES" Graphic="EnchantmentTownOnCoastAndRiver"/>
+		<EnchantmentScript TriggerType="GoldModifierMP" FIntData="30.0" Script="ECHI_AddPercentValue"/>
+		<EnchantmentScript TriggerType="MaximumPopulationModifier" FIntData="3.00" Script="ECHIAddValue"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-TOWN_ON_COAST_WITH_RIVER>
+	<ENCH-TOWN_ON_COAST AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TOWN_ON_COAST" Description="DES_TOWN_ON_COAST_DES" Graphic="EnchantmentTownOnCoast"/>
+		<EnchantmentScript TriggerType="GoldModifierMP" FIntData="10.0" Script="ECHI_AddPercentValue"/>
+		<EnchantmentScript TriggerType="MaximumPopulationModifier" FIntData="1.0" Script="ECHIAddValue"/>		
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-TOWN_ON_COAST>
+	<ENCH-TOWN_ON_RIVER AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_TOWN_ON_RIVER" Description="DES_TOWN_ON_RIVER_DES" Graphic="EnchantmentTownOnRiver"/>
+		<EnchantmentScript TriggerType="GoldModifierMP" FIntData="20.0" Script="ECHI_AddPercentValue"/>
+		<EnchantmentScript TriggerType="MaximumPopulationModifier" FIntData="2.00" Script="ECHIAddValue"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-TOWN_ON_RIVER>
+	
+	<ENCH-COLDNESS AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_COLDNESS" Description="DES_COLDNESS_DES" Graphic="EnchantmentColdness"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="-1" StringData="TAG-MOVEMENT_POINTS"/>	
+		<UpkeepCost VALUE="0"/>
+		<LifeTime VALUE="2"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Nature"/>
+	</ENCH-COLDNESS>
+	
+	<!-- DLC2-->
+	<ENCH-MAGIC_COLLECTOR AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_MAGIC_COLLECTOR" Description="DES_BUILDING_MAGIC_COLLECTOR_DES" Graphic="EnchantmentMagicCollector"/>
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="1.0" Script="ECHITakeValue"/>
+		<EnchantmentScript TriggerType="PowerModifierNode" FIntData="8" Script="ECHFAdditionalNodePower"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Tech"/>
+	</ENCH-MAGIC_COLLECTOR>
+	<ENCH-MASS_SHIELD AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_MASS_SHIELD" Description="DES_MASS_SHIELD_DES" Graphic="SpellMassShield"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_MassShield"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_MassShield"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Tech"/>
+	</ENCH-MASS_SHIELD>
+	<ENCH-AFINITY_FOR_MINERALS AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_AFINITY_FOR_MINERALS" Description="DES_AFINITY_FOR_MINERALS_DES" Graphic="SkillAffinityForMinerals"/>
+		<EnchantmentScript TriggerType="PopulationGrowModifier" FIntData="5" Script="ECHI_AfinityForMinerals"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Tech"/>
+	</ENCH-AFINITY_FOR_MINERALS>
+	<ENCH-HERO_TRAINING AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_HERO_TRAINING" Description="DES_HERO_TRAINING_DES" Graphic="SpellHeroTraining"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_HeroTraining"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_HeroTraining"/>
+		<UpkeepCost VALUE="2" />
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Tech"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnHeroNonFantasyUnit"/>
+	</ENCH-HERO_TRAINING>
+	<ENCH-MAGIC_BULLET AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_MAGIC_BULLET" Description="DES_MAGIC_BULLET_DES" Graphic="SpellMagicBullet"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_MagicBullet" FIntData="2"/>
+		<UpkeepCost VALUE="1"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Tech"/>
+	</ENCH-MAGIC_BULLET>
+	<ENCH-TECH_DUNGEON_UNITS AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_TECH_DUNGEON_UNITS" Description="DES_TECH_DUNGEON_UNITS_DES" Graphic="EnchantmentTechDungeonUnits"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_BattleUnitAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_BattleUnitAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_MaxXP"/>
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="Positive"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_NeutralRealmTechAndSoultrapped"/>
+		<Realm VALUE="Chaos"/>
+	</ENCH-TECH_DUNGEON_UNITS>
+	<ENCH-STONEMASON AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_STONEMASON" Description="DES_STONEMASON_ENCH_DES" Graphic="SkillStonemason"/>
+		<EnchantmentScript TriggerType="ProductionModifier" FIntData="10.0" Script="ECHIAddValue"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+		<WizardTowerBonus VALUE="TRUE"/>
+	</ENCH-STONEMASON>
+	<ENCH-ENCHANTED_ARMOR Dlc="Dlc2" AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_ENCHANTED_ARMOR" Description="DES_ENCHANTED_ARMOR_DES" Graphic="EnchantmentEnchantedArmor"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="10" StringData="TAG-DEFENCE"/>
+		<LifeTime VALUE="2"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-ENCHANTED_ARMOR>
+	<ENCH-MASS_PIERCING Dlc="Dlc2" AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_MASS_PIERCING" Description="DES_MASS_PIERCING_DES" Graphic="SpellMassPiercing"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_MassPiercing"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_MassPiercing"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-MASS_PIERCING>
+	<ENCH-CASTING_BLOCK Dlc="Dlc2" AllowDispel="TRUE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_CASTING_BLOCK" Description="DES_CASTING_BLOCK_DES" Graphic="SpellCastingBlock"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_CastingBlock"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_CastingBlock"/>
+		<LifeTime VALUE="1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-CASTING_BLOCK>
+	
+	<!-- DLC 0 -->
+	<!-- Similar to Eternal Night but do not allow to dispel and without cost in mana-->
+	<ENCH-ETERNAL_NIGHT_NECROMANCER Dlc="Dlc0" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_DARKNESS" Description="DES_DARKNESS_DES" Graphic="SpellDarkness"/> <!-- Not a error. Is similar enchantment as Darkness.-->
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_EternalNight"/>
+		<LifeTime VALUE="-1"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Death"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-ETERNAL_NIGHT_NECROMANCER>
+
+	
+	
+	<!-- DLC3-->
+	<ENCH-FISHERMAN_HUT Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_FISHERMAN_HUT" Description="DES_BUILDING_FISHERMAN_HUT_DES" Graphic="EnchantmentFishermanHut"/>
+		<EnchantmentScript TriggerType="FoodModifier" FIntData="3" Script="ECHIAddValue"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-FISHERMAN_HUT>
+	
+	<ENCH-RAIDERS_HUT Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_BLUEORCS_RAIDERS_HUT" Description="DES_BUILDING_BLUEORCS_RAIDERS_HUT_DES" Graphic="EnchantmentRaidersHut"/>
+		<EnchantmentScript TriggerType="FoodModifier" FIntData="3" Script="ECHIAddValue"/>
+		<EnchantmentScript TriggerType="GoldModifier" FIntData="3" Script="ECHIAddValue"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-RAIDERS_HUT>
+	
+	<ENCH-INDENTURED_WORKERS_GUILD Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_BUILDING_BLUEORCS_INDENTURED_WORKERS_GUILD" Description="DES_BUILDING_BLUEORCS_INDENTURED_WORKERS_GUILD_DES" Graphic="EnchantmentIndenturedWorkersGuild"/>
+		<EnchantmentScript TriggerType="ProductionModifier" FIntData="10" Script="ECHIAddValue"/>
+		<EnchantmentScript TriggerType="RebelsModifier" FIntData="1.0" Script="ECHIAddValue"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-INDENTURED_WORKERS_GUILD>
+	
+	<ENCH-CONSTANT_STORM Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_CONSTANTSTORM" Description="DES_CONSTANTSTORM_DES" Graphic="EnchantmentConstantStorm"/>
+		<EnchantmentScript TriggerType="BattleTurnEndEffect" Script="ECH_ConstantStorm" FIntData="10" BattleAttackEffect="Piercing"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+	</ENCH-CONSTANT_STORM>
+	<ENCH-WIZARD_POWER_PEOPLE Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_POWER_PEOPLE" Description="DES_POWER_PEOPLE_ENCH_DES" Graphic="EnchantmentPowerPeople"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_PowerPeople"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_PowerPeople"/>
+		<EnchantmentScript TriggerType="WizardOrGlobalToTownEnchantment" Script="ECH_PowerPeoleEnchCity"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-WIZARD_POWER_PEOPLE>
+	<ENCH-POWER_PEOPLE_CITY Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_POWER_PEOPLE" Description="DES_POWER_PEOPLE_ENCH_DES" Graphic="EnchantmentPowerPeople"/>
+		<EnchantmentScript TriggerType="PowerModifier" FIntData="1" Script="ECHFAddBonusFromPoP"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-POWER_PEOPLE_CITY>
+	<ENCH-TACTITIAN Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_TACTITIAN" Description="DES_TACTITIAN_ENCH_DES" Graphic="EnchantmentTactician"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_Tactician"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+		<WorldEnchantment VALUE="TRUE"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnUnits"/>
+	</ENCH-TACTITIAN>
+	<ENCH-WATER_SPEED Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_WATER_SPEED" Description="DES_WATER_SPEED_DES" Graphic="EnchantmentWaterSpeed"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_WaterSpeed"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+		<WorldEnchantment VALUE="TRUE"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnCanSwimUnitsWorld"/>
+	</ENCH-WATER_SPEED>
+	<ENCH-ADMIRAL Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_ADMIRAL" Description="DES_ADMIRAL_DES" Graphic="EnchantmentAdmiral"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_Admiral"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+		<WorldEnchantment VALUE="TRUE"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnShipUnits"/>
+	</ENCH-ADMIRAL>
+	<ENCH-SEA_MASTER Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_SHIP_DISCOUNT" Description="DES_SHIP_DISCOUNT_DES" Graphic="SkillSeaMaster"/>
+		<EnchantmentScript TriggerType="WizardOrGlobalToTownEnchantment" Script="ECH_SeaMaster"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-SEA_MASTER>
+	<ENCH-SHIP_DISCOUNT Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_SHIP_DISCOUNT" Description="DES_SHIP_DISCOUNT_DES" Graphic="SkillSeaMaster"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChangeMP" Script="ECH_None"/> <!-- it's not mistake, this enchantment should only provide description info, mechanics in code -->
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-SHIP_DISCOUNT>
+	<ENCH-AMBUSH Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_AMBUSH" Description="DES_AMBUSH_ENCH_DES" Graphic="EnchantmentAmbush"/>
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ESP_Ambush"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-AMBUSH>
+	<ENCH-AMBUSH_UNIT Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_AMBUSH" Description="DES_AMBUSH_ENCH_DES" Graphic="EnchantmentAmbushUnit"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_Web"/>
+		<LifeTime VALUE="1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-AMBUSH_UNIT>
+	<ENCH-AMBUSH_WIZARD Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_AMBUSH" Description="DES_AMBUSH_ENCH_DES" Graphic="EnchantmentAmbushWizard"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_CastingBlock"/> <!-- not a mistake-->
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_CastingBlock"/> <!-- not a mistake-->
+		<LifeTime VALUE="1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="None"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-AMBUSH_WIZARD>
+	<ENCH-SHALLOW_WATER Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_SHALLOW_WATER" Description="DES_SHALLOW_WATER_DES" Graphic="EnchantmentShallowWater"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_BattleUnitAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_BattleUnitAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_ShallowWater"/>
+		<LifeTime VALUE="-1"/>
+		<EnchCategory VALUE="Positive"/>
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<Realm VALUE="Chaos"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_AnyUnitWithNoSwimFly"/>
+	</ENCH-SHALLOW_WATER>
+	<ENCH-SEA_HUNTER Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
+		<DescriptionInfo Name="DES_SEA_HUNTER" Description="DES_SEA_HUNTER_ENCH_DES" Graphic="EnchantmentSeaHunter"/>
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ESP_SeaHunter"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+		<WorldEnchantment VALUE="TRUE"/>
+	</ENCH-SEA_HUNTER>
+	<ENCH-SEA_HUNTER_WIZARD Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_SEA_HUNTER" Description="DES_SEA_HUNTER_ENCH_DES" Graphic="EnchantmentSeaHunterWizard"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EAPP_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_SeaHunter"/>
+		<LifeTime VALUE="1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+		<WorldEnchantment VALUE="TRUE"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_OwnUnits"/>
+	</ENCH-SEA_HUNTER_WIZARD>
+	<ENCH-WIND_CAVE Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_WIND_CAVE_ENCH" Description="DES_WIND_CAVE_ENCH_DES" Graphic="EnchantmentWindCave"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_BattleUnitAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_BattleUnitAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_WindCaveAttributeChange"/>
+		<EnchantmentScript TriggerType="BattleTurnEndEffect" Script="ECH_WindCaveAttack" FIntData="2"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Nature"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_Attacker"/>
+	</ENCH-WIND_CAVE>
+	<!-- This ench only inform player about spellcial objects-->
+	<ENCH-IMMOVABLE_OBJECTS Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_IMMOVABLE_OBJECTS" Description="DES_IMMOVABLE_OBJECTS_DES" Graphic="EnchantmentImmovableObjects"/>
+		<EnchantmentScript TriggerType="BattleTurnEndEffect" Script="ECH_None"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="None"/>
+		<Realm VALUE="None"/>
+	</ENCH-IMMOVABLE_OBJECTS>
+	<ENCH-PIRATE_CURSE AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_PIRATE_CURSE_ENCH" Description="DES_PIRATE_CURSE_ENCH_DES" Graphic="EnchantmentPirateCurse"/>
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ESP_PirateCurse" FIntData="20"/>	
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EAPP_AllBattleUnitsAttributeDirty"/>
+		<EnchantmentScript TriggerType="RemoteUnitAttributeChange" Script="ECH_PirateCurse"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Negative"/>
+		<Realm VALUE="Nature"/>
+		<OnRemoteTriggerFilter VALUE="EFILTER_Attacker"/>
+	</ENCH-PIRATE_CURSE>
+	<ENCH-MASS_WATER_WALKING_OWNER Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE"
+				OnJoinWithUnit="SJOIN_MassWaterWalking"
+				OnLeaveFromUnit="SLEAVE_MassWaterWalking">
+		<DescriptionInfo Name="DES_MASS_WATER_WALKING_UNIT" Description="DES_MASS_WATER_WALKING_DES" Graphic="EnchantmentMassWaterWalking"/>
+		<EnchantmentScript TriggerType="GroupChange" StringData="ENCH-MASS_WATER_WALKING_UNIT"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-CAN_SWIM"/>
+		<UpkeepCost VALUE="0"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-MASS_WATER_WALKING_OWNER>
+	<ENCH-MASS_WATER_WALKING_UNIT Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_MASS_WATER_WALKING_UNIT" Description="DES_MASS_WATER_WALKING_UNIT_DES" Graphic="EnchantmentMassWaterWalkingUnit"/>
+		<EnchantmentApplicationScript TriggerType="None" Script="EAPP_UnitUpdateMove"/>
+		<EnchantmentRemovalScript TriggerType="None" Script="EREM_UnitUpdateMove"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddTag" FIntData="1" StringData="TAG-CAN_SWIM"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="Sorcery"/>
+	</ENCH-MASS_WATER_WALKING_UNIT>
+	<ENCH-KLACKON_SUPREMACY Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE" >
+		<DescriptionInfo Name="DES_KLACKON_SUPREMACY_ENCH" Description="DES_KLACKON_SUPREMACY_ENCH_DES" Graphic="EnchantmentKlackonSupremacy"/>
+		<EnchantmentScript TriggerType="BattleStartEffect" Script="ESP_KlackonSupremacy"/>
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-KLACKON_SUPREMACY>
+	<ENCH-SHACKLE_MASTER_UNIT Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE">
+		<DescriptionInfo Name="DES_SHACKLED" Description="DES_SHACKLED_DES" Graphic="SkillShackleMaster"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECHF_AddTag" FIntData="0.1" StringData="TAG-MELEE_ATTACK_CHANCE"/>	
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECHF_AddTag" FIntData="0.1" StringData="TAG-RANGE_ATTACK_CHANCE"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-SHACKLE_MASTER_UNIT>
+	<ENCH-HIVEMIND_UNIT Dlc="Dlc3" AllowDispel="FALSE" RemoveWhenParentIDChange="TRUE">
+		<DescriptionInfo Name="DES_HIVEMIND_UNIT" Description="DES_HIVEMIND_UNIT_DES" Graphic="SkillHivemind"/>
+		<EnchantmentScript TriggerType="AttributeChange" Script="ECHF_AddTag" FIntData="0.1" StringData="TAG-DEFENCE_CHANCE"/>	
+		<LifeTime VALUE="-1"/>	
+		<EnchLastingEffect VALUE="Placeholder"/>
+		<EnchCategory VALUE="Positive"/>
+		<Realm VALUE="None"/>
+	</ENCH-HIVEMIND_UNIT>
+</DB_ENCHANTMENT>

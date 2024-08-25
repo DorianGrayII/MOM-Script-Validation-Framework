@@ -1,0 +1,170 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC2_EN Language="English">
+		<!-- DLC 2 descriptions -->
+
+		<!-- WIZARDS --> 
+		<Loc Key="DES_NINESEVEN" Value="Nineseven" />
+		<Loc Key="DES_NINESEVEN_DES" Value="It would be hard to tell now, with all the mechanical replacements, and techmagic trinkets obscuring most of the organic origin, but Nineseven was once an elven archmage and scholar. Throughout her eternal life, she became fascinated with the metalworks of the dwarves and the infinite possibilities of alchemy that can transmute. Some say she is the progenitor of techmagic, others claim she merely mastered it." />
+		<Loc Key="DES_NINESEVEN_QUOTE" Value="The flesh binds me no more, magic runs through my wires now. I am the Tech-Master and I shall be more!" />		
+		<Loc Key="DES_MORIQUE" Value="Morique" />
+		<Loc Key="DES_MORIQUE_DES" Value="Morique the demonsouled, or the possessed, is a dark elven sorceress of great, but dangerous power. As the moniker suggests, she shares her body with a powerful demon. Whether the union is one of mutual understanding, or parasitic infestation, remains unclear. Morique’s ambition does not end with taming her demon, with Death, Chaos at her fingertips she seeks to prove her ultimate dominance over all other Wizards, especially her demon rival, Tauron." />
+		<Loc Key="DES_MORIQUE_QUOTE" Value="I have mastered the infernal and We are now more powerful than any, one Wizard, can hope to be!" />
+		<Loc Key="DES_GRENDEL" Value="Grendel" />
+		<Loc Key="DES_GRENDEL_DES" Value="Grendel may be one of the greatest Wizards, certainly the best of his kind, but his firm belief is that might makes right. He often claims that anything can be beaten into submission, even magic itself. Grendel does of course use the very basics of the Arcane arts and does dabble in Nature when needed, but he relies mostly on the physical power of his troops." />
+		<Loc Key="DES_GRENDEL_QUOTE" Value="I'll make your heads sparkle without magic and then you'll see who's Master!" />
+
+		<Loc Key="DES_NINESEVEN_GREETINGS" Value="The customary formula requires me to greet you, although I see little sense in such civility considering our end game. I am Nineseven, we may speak now."/>
+		<Loc Key="DES_MORIQUE_GREETINGS" Value="We greet you, Wizard. We, no,  I am Morique and I am here to master this contest, but until the time comes, let us speak."/>
+		<Loc Key="DES_GRENDEL_GREETINGS" Value="Oh, Wizard. No funny stuff with me. I am Grendel, I will beat you."/>
+
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_1" Value="A most gracious greeting to you. I am Tauron... Mori, it's you. You always said you will challenge me here, but I always hoped it would not come to pass. But for now at least, my love, we may speak without malice."/>
+		<Loc Key="DES_TAURON_GREETINGS_MORIQUE_2" Value="Mori, my heart bleeds for what we must endure... Let us talk for now."/> 
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_1" Value="It is us, Morique, as we have said to you when our infernal paths parted, we, I, am here to show you my true power! Although now that you stand before me, my red devil, I am saddened that it must be so..."/>
+		<Loc Key="DES_MORIQUE_GREETINGS_TAURON_2" Value="My red devil, the final battle looms. Soon only blood will remain between us, and not in the good way..."/>
+
+
+		<!-- TRAITS -->
+        <Loc Key="DES_TECHMASTER" Value="Techmaster" />
+		<Loc Key="DES_TECHMASTER_DES" Value="Allows the Wizard to master the arcane powers of Techmagic, a mystical art that animates mechanical objects through rune magic, alchemy and the forbidden use of living souls. The Techmaster Wizard begins with a Drona Scout unit, as well as its summoning spell, and the Power Seeker spell. Additionally, they gain a +5% bonus to Research.\n\n-The Wizard must have at least 3 Spellbooks in two different Realms.\n\n-Techmaster costs 2 picks." />
+        <Loc Key="DES_DEMONOLOGIST" Value="Demonologist" />
+		<Loc Key="DES_DEMONOLOGIST_DES" Value="The Demonologist begins the game with the unit of a Lesser Shadow Demon at their command. They also gain a unique, summon Lesser Shadow Demon spell and the Possession spell.\n\n- The Wizard must have the Conjurer Trait.\n\n-The Wizard must have already selected at least 1 Death Spellbook and 1 Chaos Spellbook.\n\n-Demonologist costs 1 pick." />
+		<Loc Key="DES_MYRRAN_REFUGEE" Value="Myrran refugee" />
+		<Loc Key="DES_MYRRAN_REFUGEE_DES" Value="Allows the Wizard to begin the game with a Myrran race on Arcanus which gives a significant advantage, because Myrran races are typically stronger.\n\n-Myrran refugee costs 2 picks."/>
+		<Loc Key="DES_IMPROVED_WARLORD" Value="Veteran Warlord" />
+		<Loc Key="DES_IMPROVED_WARLORD_DES" Value="Allows the Wizard to become a Veteran Warlord, able to train their armies with greater efficiency. The veteran thus gives extra +1XP each turn to the non-fantastic units under their command and begins with a unit of a swordsman from the starting race.\n\n- The Wizard must have the Warlord Trait.\n\n-Veteran Warlord costs 1 pick."/>
+		<Loc Key="DES_ANTI_MAGIC" Value="Might makes right!" />
+		<Loc Key="DES_ANTI_MAGIC_DES" Value="The Wizard believes in the superiority of physical prowess over the smarts of magic. All non-fantastic units (including non-fantastic heroes) gain +3 to Resistance. They also gain Combat Regeneration, a new skill that allows units to heal in combat +2 HP per turn (the skill stacks with Regeneration).\n\n- The Wizard must have no more than 2 spellbooks.\n\n-Might makes right! costs 5 picks."/>
+
+		<!-- RACE --> 
+        <Loc Key="DES_SOULTRAPPED" Value="Soultrapped" />
+		<Loc Key="DES_SOULTRAPPED_DES" Value="The soultrapped are a race of constructs that fell victim to dwarven experimentation with dark rune magic, that bound sentient souls into the mechanical bodies, fuelled by organic matter. Or at least that is the official line. The soultrapped claim that their awakening came from a divine source and that they are not some by-product of another’s play. In either case, the soultrapped combine machine and magic in unsettling ways, but they are a race that prefers peace and prosperity to warfare." />
+		<Loc Key="DES_SOULTRAPPED_PRODUCTION" Value="Growth rate: very slow (base rate of -30 people/turn)\nBuilding restrictions: cannot build Merchants' Guild, War College, Oracle, Animists Guild and Shipyard\nOther modifiers: +4{ICON:ArmourIconNormal} armour, -1{ICON:ResistanceIconNormal} resistance, Wall Crusher skill for units.\nUnits cost x 2 production{ICON:ProductionIcon}.\nSoultrapped cities gain +5 population growth per every mineral in the city's catchment area.\nRacial units: {LINK:UNIT-SOUL_CANNON} Soul Cannon{ICON:SoulCannon}{END_LINK} {LINK:UNIT-SOUL_BOMBER} Yeet{ICON:Bomber}{END_LINK} {LINK:UNIT-SOUL_GOLEM} Soulless{ICON:FleshGolem}{END_LINK} {LINK:UNIT-SOUL_SUB_TRIREME} Subtrireme{ICON:Submarine}{END_LINK}" />
+		<Loc Key="DES_REALM_TECH" Value="Techmagic Realm" />
+		<Loc Key="DES_REALM_TECH_DES" Value="This unit serves the unique realm of Techmagic." />
+		
+        <!-- UNITS -->
+		<Loc Key="DES_TIMUR" Value="Timur the Deadshot" />
+		<Loc Key="DES_TIMUR1" Value="Fade the Deadshot" />
+		<Loc Key="DES_TIMUR2" Value="Albino the Deadshot" />
+		<Loc Key="DES_TIMUR3" Value="Pale the Deadshot" />
+		<Loc Key="DES_TIMUR4" Value="Floyd the Deadshot" />
+		<Loc Key="DES_TIMUR_DES" Value="Born as a blind albino, stripped of the dark elven gift for dark magic, {0} was shunned and despised by his people. But, this only made him more determined. He was taken in by an adoptive father, and together, they went on a perilous journey to prove that {0} can still be the most deadly assassin. Through techmagic his eye now sees beyond mortal boundaries and even though he still cannot wield dark magic, his techmagic sniper shot is a dark force of its own." />
+		<Loc Key="DES_BILLIE" Value="Billie the Gunslinger" />
+		<Loc Key="DES_BILLIE1" Value="Tipi the Gunslinger" />
+		<Loc Key="DES_BILLIE2" Value="Calamity the Gunslinger" />
+		<Loc Key="DES_BILLIE3" Value="Annie the Gunslinger" />
+		<Loc Key="DES_BILLIE4" Value="Jessi the Gunslinger" />
+		<Loc Key="DES_BILLIE_DES" Value="{0}, is a cheerful halfling youth liked by virtually anyone who meets her. After achieving the highest ranks amongst the slingers, and inspired by her sister, Teria, {0} went on a quest to find her own niche. The quest led her to discover the wonders of Techmagic and thus she became the very first gunslinger of Arcanus. Riding on her faithful boar, Nibbles, she is now one of the best guns for hire any Wizard could wish for." />		
+		<Loc Key="DES_OLDMANE" Value="Oldmane Ironjaw" />
+		<Loc Key="DES_OLDMANE1" Value="Hakuna Ironjaw" />
+		<Loc Key="DES_OLDMANE2" Value="Snarl Ironjaw" />
+		<Loc Key="DES_OLDMANE3" Value="Hidegnarl Ironjaw" />
+		<Loc Key="DES_OLDMANE4" Value="Gnarlfang Ironjaw" />
+		<Loc Key="DES_OLDMANE_DES" Value="{0}, was once the greatest, and eldest of gnoll generals, until his capture by the dark elves. The darklings tortured the warrior for years, depleting his body beyond recognition. And yet, by chance or fate, the cries of a young boy gave {0} the will to fight again, he escaped his captors, rescued his adopted son, Timur, and together they embarked on a journey of rebirth. Thus, through the use of techmagic, Oldmane was remade into the metal-flesh menace that is known today." />
+		<Loc Key="DES_MOMA_ILDE" Value="Moma and Ilde" />
+		<Loc Key="DES_MOMA_ILDE1" Value="Mama and Kiddo"  />
+		<Loc Key="DES_MOMA_ILDE2" Value="Muti und Liebli"/>
+		<Loc Key="DES_MOMA_ILDE3" Value="Mumsie and Gir" />
+		<Loc Key="DES_MOMA_ILDE4" Value="Mere and Pettit" />
+		<Loc Key="DES_MOMA_ILDE_DES" Value="The dwarven girl is young, but still a formidable runekeeper with a tragic tale. She lost her mother to a terrible lab accident involving Techmagic. Soon after the explosion that incinerated her mum, the girl found a wandering soultrapped, who seemed to recognise the little dwarf. The girl is convinced the soultrapped is her mother and has sworn to find a way to reverse whatever happened to her. Until then, {0} answer the call of those who wield powerful Techmagic, hoping that by serving them they will learn what they need." />
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS" Value="Lesser Shadow Demons"/>
+		<Loc Key="DES_DTH_LESS_SHADOW_DEMONS_DES" Value="Lesser Shadow Demons answer the call of a Demonologist and serve them faithfully. They can strike from the air{ICON:MovementFlyingIcon} with both melee{ICON:MeleeIconNormal} and magic range{ICON:DeathIcon}{ICON:RangedIconNormal} attack."/>
+
+        <Loc Key="DES_SOUL_SETTLER" Value="Soultrapped Settlers" />
+		<Loc Key="DES_SOUL_ENGINEERS" Value="Soultrapped Engineers" />
+		<Loc Key="DES_SOUL_ENGINEERS_DES" Value="Engineers are a non-combatant unit. They are specialists trained to build roads and can also aid you in toppling enemy walls. Soultrapped engineers can also heal constructs with the Repair skill." />
+		<Loc Key="DES_SOUL_SPEARMEN" Value="Soultrapped Spearbots"/>
+		<Loc Key="DES_SOUL_SWORDSMEN" Value="Soultrapped Swordbots" />
+		<Loc Key="DES_SOUL_HALBERDIERS" Value="Soultrapped Halberdiers" />
+		<Loc Key="DES_SOUL_CAVALRY" Value="Soultrapped Cavalry" />
+		<Loc Key="DES_SOUL_PRIESTS" Value="Soultrapped Tech-Priests" />       
+		<Loc Key="DES_SOUL_PRIESTS_DES" Value="Magic range attack unit with healing abilities. Unlike mages, who study spell-craft, priests gain their power from prayer and devotion to a deity. Tech-priests also have the ability to reconstruct fallen construct units in battle."/>
+		<Loc Key="DES_SOUL_BOMBER" Value="Yeet"/>
+		<Loc Key="DES_SOUL_BOMBER_DES" Value="The yeet is a peculiar soultrapped, shaped like a humanoid hand made for throwing. Its sole purpose in battle is to release the magbomb and thus exterminate the enemy in one, bombastic go!" />
+		<Loc Key="DES_SOUL_BOMB" Value="Magbomb"/>
+		<Loc Key="DES_SOUL_BOMB_DES" Value="The magbomb is fused with powerful Techmagic which makes it explode right in the face of the enemy! Unless they shoot it first, then it is just a round piece of animated metal..." />
+		<Loc Key="DES_SOUL_CANNON" Value="Soul Cannon" />
+		<Loc Key="DES_SOUL_CANNON_DES" Value="The soul cannon is a masterpiece of technology and magic bound is seamless synergy. It is a strong ranged unit of the soultrapped." />
+		<Loc Key="DES_SOUL_GOLEM" Value="Soulless" />
+		<Loc Key="DES_SOUL_GOLEM_DES" Value="The flesh golem is a soulless chunk of reanimated meat, driven by mysterious Techmagic forces employed by the soultrapped engineers and priests. Some say the flesh golem is an awful answer to the enslaved golems created by the dwarves..." />
+		<Loc Key="DES_SOUL_SUB_TRIREME" Value="Subtrireme" />
+		<Loc Key="DES_SOUL_SUB_TRIREME_DES" Value="The subtrireme can travel great distances under the surface of the seas. It is an autonomous soultrapped unit, but they do not mind serving as a transporter." />
+		<Loc Key="DES_CYBER_SPRITE_DES" Value="The tech sprite is an odd and alarming amalgamation of technical wonder and magical infusion. Where once this was a common sprite, the creature has become a tech-buzzing, flying, ranged servant of Techmagic Wizards." />
+		<Loc Key="DES_SCOUTING_PROBE_DES" Value="The drona scout, series 53N3X, is a piece of metal and glass brought to life by Techmagic. Under the direction of the Wizard, the drona can fly high and see further than most biological or even spectral beings." />
+        <Loc Key="DES_ENGINEERING_PROBE_DES" Value="A multipurpose drona, series 53N3X2, designed for flexibility of use. Its main designation is engineering, so it can build roads, but it is also faster than normal units and it can Meld with nodes." />
+
+		
+		<!-- SKILLS --> 
+        <Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH" Value="Techmagic Ranged Attack" />		
+		<Loc Key="DES_MAGICAL_RANGE_ATTACK_TECH_DES" Value="This unit's ranged attacks are magically imbued with Techmagic. They are accurate at any distance, suffering no penalties to hit chance{ICON:ToHitBonusIcon} based on range. The attack will completely bypass a target's Missile Immunity and Magic Immunity and it is Armour Piercing." /> 
+		<Loc Key="DES_DOUBLESHOT" Value="Double Shot" />
+		<Loc Key="DES_DOUBLESHOT_DES" Value="In true gunslinger fashion, the double shot allows the hero to shoot twice in their round, with a normal ranged attack." />
+		<Loc Key="DES_SUMMON_BOMB" Value="Release the Magbomb"/>
+		<Loc Key="DES_SUMMON_BOMB_DES" Value="Summons the magbomb, a one-shot unit that deals deadly damage, but is very fragile." />
+		<Loc Key="DES_BOMBER_BOOM" Value="Techsplosion"/>
+		<Loc Key="DES_BOMBER_BOOM_DES" Value="A powerful tech-fire explosion that damages itself as well as the target. Deals a 20-strength magical fire attack that hits each figure of the target unit." />
+		<Loc Key="DES_PIERCING_BITE" Value="Piercing Bite {0}" />
+		<Loc Key="DES_PIERCING_BITE_DES" Value="A ferocious, melee bite that deals piercing damage after its attack turn and after any counter attack." />
+		<Loc Key="DES_GNOLL_GENERAL" Value="Wolfrider Alpha" />
+		<Loc Key="DES_GNOLL_GENERAL_DES" Value="Gnoll army generals lead the wolf rider packs with great unity. As such, the hero receives a bonus of +1{ICON:ArmourIconNormal} armour for every two wolf rider units in their army. The wolf rider units in turn get a +1{ICON:MeleeIconNormal} melee attack in the presence of the alpha." />
+		<Loc Key="DES_GNOLL_GENERAL_BONUS_DES" Value="This unit is affected by the Wolfrider Alpha skill. The hero receives a bonus of +1{ICON:ArmourIconNormal} armour for every two wolf rider units in their army. The wolf rider units in turn get a +1{ICON:MeleeIconNormal} melee attack in the presence of the alpha." />
+		<Loc Key="DES_GNOLL_GENERAL_BONUS" Value="Wolfrider Alpha" />
+		<Loc Key="DES_MECHANICIAN" Value="Repair" />
+		<Loc Key="DES_MECHANICIAN_DES" Value="The skill allows the repair of mechanical constructs and increases natural healing of the construct units stacked with it to 50% of its maximum health each turn." />
+		<Loc Key="DES_LIGHTNING_WEAKNESS" Value="Lightning Vulnerability" />
+		<Loc Key="DES_LIGHTNING_WEAKNESS_DES" Value="The unit attracts lightning and is prone to its damage. When faced with a lightning-type attack, the owner of the weakness must defend against the amount of damage generated by the source increased by 100%." />
+		<Loc Key="DES_MINOR_REGENERATION" Value="Combat Regeneration" />
+		<Loc Key="DES_MINOR_REGENERATION_DES" Value="Quickens the body's natural healing process, allowing it to heal 2 hit{ICON:HitIconNormal} per combat turn. The skill does not work outside of battle. (The skill stacks with Regeneration)" />	
+		
+		<!-- RES --> 
+		<Loc Key="DES_RES_ORICHALCUM" Value="Orichalcum" />
+		<Loc Key="DES_RES_ORICHALCUM_DES" Value="Orichalcum is a rare resource, only obtainable after the depletion of a Tech Dungeon or by using Techmagic. Reduces the construction cost of buildings and units by 20% and adds +3 Power." />
+		
+		<!-- SPELLS ADN ENCH-->
+		<Loc Key="DES_SCOUTING_PROBE" Value="Drona Scout" />
+        <Loc Key="DES_SCOUTING_PROBE_SUMMON_DES" Value="Summons the drona scout, series 53N3X, a bizarre little construct fuelled by the sparkling souls of air elementals. It is a flying {ICON:MovementFlyingIcon} unit with very good scouting capabilities, but poor durability." />		
+		<Loc Key="DES_CYBER_SPRITE" Value="Tech Sprite" />
+		<Loc Key="DES_CYBER_SPRITE_SUMMON_DES" Value="Summon a unit of the tech sprites, odd flying {ICON:MovementFlyingIcon} fairies magically merged with mechanical elements and wielding a Techmagic ranged attack. The sprites will serve you until death, or the end of the battle." />
+		<Loc Key="DES_POWER_SEEKER" Value="Power Seeker" />
+		<Loc Key="DES_POWER_SEEKER_DES" Value="The powerful Techmagic spell seeks out all Power Nodes on the chosen plane and makes them visible on your map. Once discovered, the nodes will also become marked as explored and so their defenders can be inspected prior to entering." />
+		<Loc Key="DES_DETECT_MINERALS" Value="Extract Minerals" />
+		<Loc Key="DES_DETECT_MINERALS_DES" Value="The spell finds minerals hidden deep in the earth and brings them to the surface, thus allowing the Wizard to add a new resource on a chosen hex. A new mineral can only be spawned on a hex that is at least one tile away from another resource." />
+		<Loc Key="DES_TECHCARNATION" Value="Techincarnation" />
+		<Loc Key="DES_TECHCARNATION_DES" Value="The powerful spell of techincarnation calls into service the unusual champion referred to as Moma and Ilde. This dual hero answers to Wizards wielding Techmagic in exchange for enriching their knowledge of this new arcane art. The dual champion cannot be resurrected, only summoned again once lost (they are a fantastic hero, so will not be affected by spells targeting normal units and heroes)." />
+		<Loc Key="DES_MASS_SHIELD" Value="Mass Shielding" />
+		<Loc Key="DES_MASS_SHIELD_DES" Value="Mass Shielding gives all friendly units on the battlefield the Large Shield skill, unless they already have it. This provides +2{ICON:ArmourIconNormal} to armour against all ranged attacks." />
+		<Loc Key="DES_AFINITY_FOR_MINERALS" Value="Fuelled by Minerals" />
+		<Loc Key="DES_AFINITY_FOR_MINERALS_DES" Value="The soultrapped have a particular affinity for Minerals. Each mineral resource within a soultrapped city borders increases population growth by +5." />
+		<Loc Key="DES_RECONSTRUCT" Value="Reconstruct" />
+		<Loc Key="DES_RECONSTRUCT_DES" Value="The Reconstruct spell repairs fallen construct units, giving them back full health. But, the reconstructed unit will disappear after the battle ends, even if you use other spells to raise dead." />
+		<Loc Key="DES_RECONSTRUCT_NAME_DES" Value="Temporarily Reconstructed Unit" />
+		<Loc Key="DES_MAGIC_BULLET" Value="Magic Bullet" />
+		<Loc Key="DES_MAGIC_BULLET_DES" Value="Magic Bullet adds +2 Ammunition to a non-fantastic unit with normal range attack and makes the attack ignore weapon immunity. The bonus can increase natural max ammunition of the unit and can refill missing ammo. The bonus increases to +3 for Constructs." />
+		<Loc Key="DES_HERO_TRAINING" Value="Hero Training" />
+		<Loc Key="DES_HERO_TRAINING_DES" Value="Through the ingenuity of the Techmages, heroes gain greater understanding of the equipment they use and thus they become instantly trained. Every hero in the service of the Wizard becomes a captain." />
+		<Loc Key="DES_TECH_DUNGEON_UNITS" Value="Tech Dungeon" />
+		<Loc Key="DES_TECH_DUNGEON_UNITS_DES" Value="A Tech Dungeon is the lair of the rogue soultrapped. Within the lair the enemy soultrapped gain combat bonuses." />
+        <Loc Key="DES_ENGINEERING_PROBE" Value="Multidigger"/>
+		<Loc Key="DES_ENGINEERING_PROBE_SUMMON_DES" Value="Summons a dual purpose construct, series 53N3X2. Main unit designation: engineering probe. Secondary functions include: Meld function and increased movement." />
+        <Loc Key="DES_MASS_PIERCING_SPELL" Value="Sharp Exchange"/>
+        <Loc Key="DES_MASS_PIERCING_SPELL_DES" Value="Sharp exchange adds Armour Piercing effect (halves the effectiveness of the defender's armour rating) to all friendly units on the battlefield, but it requires the caster to sacrifice 5{ICON:HitIconNormal} health."/>
+        <Loc Key="DES_MASS_PIERCING" Value="Sharpened"/>
+        <Loc Key="DES_MASS_PIERCING_DES" Value="Sharpened units gain the Armour Piercing effect (halves the effectiveness of the defender's armour rating)."/>
+        <Loc Key="DES_FAIR_EXCHANGE" Value="Fair Exchange"/>
+        <Loc Key="DES_FAIR_EXCHANGE_DES" Value="Everything in life carries a price, so it is a matter of careful balancing. Those who mastered Fair Exchange grant their Wizard 5 Caster Skill for every 2 damage the unit receives."/>
+        <Loc Key="DES_ENCH_IMPROVED_WARLORD_DES" Value="The Veteran Warlord improves non-fantastic units under their command, so they gain +1XP per turn."/>
+        <Loc Key="DES_ENCH_ANTI_MAGIC_DES" Value="This unit refuses to be touched by magic and gains Magic Resistance (+3 Resistance) and Combat Regeneration (+2 Heal per turn in combat only) from their Wizard."/>
+        <Loc Key="DES_CASTING_BLOCK_SPELL" Value="Heart Sacrifice"/>
+        <Loc Key="DES_CASTING_BLOCK_SPELL_DES" Value="By sacrificing 2 health, the caster unit blocks the ability to cast spells in battle for the opposing Wizard for 1 turn."/>
+        <Loc Key="DES_CASTING_BLOCK" Value="Casting Blocked"/>	  
+        <Loc Key="DES_CASTING_BLOCK_DES" Value="The Wizard's Casting Skill is blocked for 1 turn."/>
+        <Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS" Value="Lesser Shadow Demons"/>	  
+        <Loc Key="DES_SUMMON_LESSER_SHADOW_DEMONS_DES" Value="Summons a unit of infernal, flying {ICON:MovementFlyingIcon} Lesser Shadow Demons to your service. They posses both melee {ICON:MeleeIconNormal} and magic ranged {ICON:DeathIcon}{ICON:RangedIconNormal} attack."/>
+
+
+		<!-- Other-->
+		<Loc Key="DES_HERO_TRAINING_TARGET" Value="Only hero units."/>
+		<Loc Key="DES_NORMAL_UNIT_WITH_RANGE_MISSILE_ATTACK" Value="Normal unit with ranged missile attack."/>
+		<Loc Key="DES_TECH_DUNGEON" Value="Tech Dungeon"/>		
+	</LOCALIZATION-DLC2_EN>
+</DB_LOCALIZATION>

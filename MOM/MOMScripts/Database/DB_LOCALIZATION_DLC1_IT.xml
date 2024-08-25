@@ -1,0 +1,111 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-DLC1_IT Language="Italiano">
+		<!-- DLC 1 descriptions --> 
+		<Loc Key="DES_RAASS" Value="Raa'ss" />
+		<Loc Key="DES_RAASS_DES" Value="Raa’ss è un potente Stregone draconiano pieno di rabbia e rancore che si manifestano in campagne di conquista. Padroneggia la magia del Caos e della Morte, e in qualità di 'Generale Fantastico' si avvale di evocazioni assai potenti. Si rifiuta di sfoggiare abiti umanoidi e disprezza il suo presunto gemello Sss’ra. Si ritiene che le vere origini di Raa’ss siano frutto della malizia, e che egli non sia altro che un riflesso del lato più oscuro di Sss’ra..." />
+		<Loc Key="DES_RAASS_QUOTE" Value="Prova a richiamarmi 'riflesso', se ne hai il coraggio!" />
+		
+		<Loc Key="DES_BIANKA" Value="Bianka" />
+		<Loc Key="DES_BIANKA_DES" Value="Bianka è ascesa ai ranghi più alti della nobiltà nanica grazie alla sua determinazione e ad un'eccelsa conoscenza della magia runica. In qualità di 'Muratrice', Bianka dimostra anche la sua incredibile affinità per la pietra. Nativa di Myrror, ella mira a dimostrare il proprio valore servendosi di ben tre diverse scuole magiche: Illusione, Caos e Natura. " />
+		<Loc Key="DES_BIANKA_QUOTE" Value="Il mio potere è nato dal tumulto, infuso nel potere delle rune e scolpito nella pietra. Niente può scalfirlo!" />
+		
+		<Loc Key="DES_TLACHTGA" Value="Tlachtga" />
+		<Loc Key="DES_TLACHTGA_DES" Value="Tlachtga ha appreso i segreti della magia Naturale da bambina, ed è cresciuta diventando uno dei più rinomati druidi delle sue oscure terre natie. La sua conoscenza degli aspetti meno benigni del circolo della vita l'ha condotta a Myrror, dove può domare e controllare la malizia della Natura. Ella è anche un'abile 'Evocatrice di Natura': le sue evocazioni sono meno costose ed inizia la partita affiancata da un'unità di Orsi da Guerra." />
+		<Loc Key="DES_TLACHTGA_QUOTE" Value="Il mio potere si fonde sul lato più oscuro della Natura... che non esiterà a cancellare qualsiasi ostacolo dalla mia strada!" />
+		
+		<Loc Key="DES_CORAX" Value="Corax" />
+		<Loc Key="DES_CORAX_DES" Value="In gioventù, Corax Biancapiuma percorse la via dell'oscurità e del crimine, ma afferma di essere stato persuaso dal padre a rinunciarvi per cercare l'illuminazione. Ha letteralmente cambiato le proprie piume prima di votarsi al servizio della Vita. Corax mira a diffondere la sua saggezza nei luoghi avvolti dall'oscurità, anche attraverso la forza, se necessario. In quanto 'Latore di Vita', può resuscitare i suoi sudditi caduti e dotarli di poteri curativi." />
+		<Loc Key="DES_CORAX_QUOTE" Value="Cerca la luce con me, empia creatura, poiché essa ti donerà pace e Potere." />
+
+		<Loc Key="DES_RAASS_GREETINGS" Value="Inchinati dinanzi a me, debole! Ora la diplomazia ci trattiene dallo scontro, ma ciò cambierà presto... e allora il sangue scorrerà a fiumi."/>
+		<Loc Key="DES_BIANKA_GREETINGS" Value="Buongiorno! Sono la runologa Bianka, anziana guida della mia stirpe. Spero che i nostri rapporti rimarranno amichevoli fino al momento della prova finale."/>
+		<Loc Key="DES_TLACHTGA_GREETINGS" Value="Ehilà, mi chiamo Tlachtga e mi piace la magia, haha. Godiamoci la partita, caro Stregone, e che vinca il miglior pelleverde. "/>
+		<Loc Key="DES_CORAX_GREETINGS" Value="Saluti, Stregone. Sono noto come Corax Biancapiuma e non cerco la violenza... almeno finché essa non diviene l'unica soluzione. "/>
+
+	    <Loc Key="DES_TOADSWORTH" Value="Rospaccio Doma-Cinghiali" />
+		<Loc Key="DES_TOADSWORTH1" Value="Giraccio Doma-Cinghiali" />
+		<Loc Key="DES_TOADSWORTH2" Value="Musoverde Doma-Cinghiali" />
+		<Loc Key="DES_TOADSWORTH3" Value="Gran Gobbo Doma-Cinghiali" />
+		<Loc Key="DES_TOADSWORTH4" Value="Pelorosso Doma-Cinghiali" />
+		<Loc Key="DES_TOADSWORTH_DES" Value="{0} è un eroe alquanto improbabile, divenuto campione nonostante ogni presagio gli riservasse un fato ben diverso. Noto anche come Towdi, ha trascorso anni nei panni di un umile servitore apparentemente privo di qualsivoglia talento. Nonostante ciò, forse grazie a fortuna, determinazione o ad un patto col diavolo, egli è oggi un abile domatore di cinghiali assai leale al maestro che lo degna del giusto rispetto." />
+		<Loc Key="DES_JOTUN" Value="Kolga il Troll dei Ghiacci" />
+		<Loc Key="DES_JOTUN1" Value="Imor il Troll dei Ghiacci" />
+		<Loc Key="DES_JOTUN2" Value="Fala il Troll dei Ghiacci" />
+		<Loc Key="DES_JOTUN3" Value="Gryla il Troll dei Ghiacci" />
+		<Loc Key="DES_JOTUN4" Value="Mjoll il Troll dei Ghiacci" />
+		<Loc Key="DES_JOTUN_DES" Value="{0}, conosciuta anche come 'La Maledetta', è un'eroina solitaria, per sempre isolata dal freddo gelo che avviluppa il suo corpo. Alcuni ritengono che serva gli Stregoni nella speranza che questi la salvino dalla sua maledizione. A prescindere da ciò, dopo decenni di isolamento, il troll ha imparato a sfruttare la sua trappola di ghiaccio per prestare servizio ad un degno padrone." />
+	    <Loc Key="DES_BJORN" Value="Bjorn Fiammoscura" />
+		<Loc Key="DES_BJORN1" Value="Bear Fiammoscura" />
+		<Loc Key="DES_BJORN2" Value="Niedzwiedz Fiammoscura" />
+		<Loc Key="DES_BJORN3" Value="Teddy Fiammoscura" />
+		<Loc Key="DES_BJORN4" Value="Grizzly Fiammoscura" />
+		<Loc Key="DES_BJORN_DES" Value="{0} è un feroce eroe bestiale che ha giocato col fuoco... e si è scottato. Le fiamme avrebbero consumato chiunque altro, ma {0} non è come gli altri. La sua mera forza di volontà gli ha permesso di sopravvivere e riemergere come creatura del Caos, congiunta alle fiamme cocenti che ora bramano la carne dei suoi nemici." />
+		
+		
+		<Loc Key="DES_GOBLINS" Value="Goblin" />
+		<Loc Key="DES_GOBLINS_DES" Value="I Goblin sono umanoidi verdi di bassa statura molto affini al regno della Natura e alla sua fauna selvatica. Alcuni non esitano a definirli primitivi, perché i Goblin preferiscono società tribali ed habitat naturali al progresso della civilizzazione. Sono abili domatori di bestie ed esperti conoscitori della magia druidica." />
+        <Loc Key="DES_GOBLINS_PRODUCTION" Value="Tasso di crescita: molto veloce (tasso base di +20 cittadini/turno)\nEdifici vietati: Gilda dei Saggi, Cantiere Navale, Partenone.\nAltri modificatori: -1 Armatura{ICON:ArmourIconNormal} e abilità 'Granpasso' alle unità basilari (ma non ai costrutti).\nColoni e arcieri costano x 0,8 produzione{ICON:ProductionIcon}.\nUnità razziali: {LINK:UNIT-GOB_BOAR_RIDER} Cavalcacinghiali {ICON:BoarRider}{END_LINK}, {LINK:UNIT-GOB_DRUIDS} Druidi {ICON:Druid}{END_LINK}, {LINK:UNIT-GOB_BEASTMASTER} \nSignore delle Belve {ICON:Beastmaster}{END_LINK}" />		
+
+		<Loc Key="DES_GOBLIN_SETTLERS" Value="Coloni - Goblin" />
+		<Loc Key="DES_GOBLIN_SPEARMEN" Value="Lancieri - Goblin" />
+		<Loc Key="DES_GOBLIN_SWORDSMEN" Value="Spadaccini - Goblin" />		
+		<Loc Key="DES_GOBLIN_BOWMEN" Value="Arcieri - Goblin" />
+		<Loc Key="DES_GOBLIN_SHAMANS" Value="Sciamani - Goblin" />
+		<Loc Key="DES_BOAR_RIDER" Value="Cavalcacinghiali" />
+		<Loc Key="DES_BOAR_RIDER_DES" Value="Un'unità di cavalleria goblin d'elite... o almeno così si autodefinisce. Gli estranei sono soliti descriverla come un gruppo scompagnato di gobbi semi-pazzoidi a cavallo di cinghiali feroci e ben addestrati." />
+		<Loc Key="DES_DRUIDS" Value="Druidi" />
+		<Loc Key="DES_DRUIDS_DES" Value="Speciale unità goblin dotata di attacchi a distanza magici. I druidi sono noti per la loro affinità Naturale, e possono richiamare Orsi da Guerra in loro soccorso." />
+		<Loc Key="DES_BEASTMASTER" Value="Signore delle Bestie" />
+		<Loc Key="DES_BEASTMASTER_DES" Value="Un'unità goblin d'elite, capace di volare e dotata di potenti attacchi a distanza. Essa afferma di poter domare anche la più feroce delle belve, eppure si avvale soltanto di un grasso ratto..." />
+
+		<Loc Key="DES_FANTASTIC_WARLORD" Value="Generale Fantastico"/>
+		<Loc Key="DES_TRAIT_FANTASTIC_WARLORD_DES" Value="La conoscenza delle creature magiche consente allo Stregone di aumentare di +1 {ICON:MeleeIconNormal}, {ICON:RangedIconNormal}, {ICON:ArmourIconNormal} e {ICON:ResistanceIconNormal} di tutte le creature da esso evocate.\n\n-Il tratto 'Generale Fantastico' costa 2 punti."/>
+		<Loc Key="DES_ENCH_FANTASTIC_WARLORD_DES" Value="La conoscenza delle creature magiche consente allo Stregone di aumentare di +1 {ICON:MeleeIconNormal}, {ICON:RangedIconNormal}, {ICON:ArmourIconNormal} e {ICON:ResistanceIconNormal} di tutte le creature da esso evocate."/>
+		<Loc Key="DES_STONEMASON" Value="Muratore"/>
+		<Loc Key="DES_STONEMASON_DES" Value="Il talento nelle arti edilizie consente allo Stregone di avvalersi subito di mura nella propria città capitale. Inoltre, la capitale ottiene +10{ICON:ProductionIcon} produzione, e tutte le unità della razza iniziale dello Stregone vengono dotate dell'abilità 'Ingegnere', che gli consente di costruire strade.\n\n-Il tratto 'Muratore' costa 1 punto."/>
+		<Loc Key="DES_LIFEBRINGER" Value="Latore di Vita"/>
+		<Loc Key="DES_LIFEBRINGER_DES" Value="La devozione dello Stregone per il regno della Vita gli consente di iniziare la partita avvalendosi di incantesimi di Resurrezione e Cura. Questo tratto riduce del -25% il costo degli incantesimi di Resurrezione, Cura e Cura di Massa. Inoltre, tutte le unità della razza iniziale dello Stregone possono curare le ferite.\n\n-Lo Stregone deve aver già selezionato almeno 4 Tomi della Vita.\n\n-Il tratto 'Latore di Vita' costa 1 punto."/>
+		<Loc Key="DES_HERO_MAGNET" Value="Cercasi Eroe!"/>
+		<Loc Key="DES_HERO_MAGNET_DES" Value="Aspettare che gli eroi si facciano vivi non è mai piacevole. Se ne vuoi uno subito, questo tratto fa per te. Inizia la partita con gli incantesimi 'Evocazione dell'Eroe' e 'Richiamo del Campione', il cui costo è ridotto del -25%.\n\n-Il tratto 'Cercasi Eroe!' costa 2 punti."/>
+		<Loc Key="DES_NATURE_SUMMONER" Value="Evocatore di Natura"/>
+		<Loc Key="DES_NATURE_SUMMONER_DES" Value="Il potere della Natura consente allo Stregone di iniziare la partita avvalendosi di un'unità di Orsi da Guerra.  Inoltre, riduce del 30% i costi di mantenimento delle evocazioni della Natura.\n\n-Lo Stregone non può selezionare i tratti 'Invocatore' ed 'Evocatore di Natura' assieme.\n\n-Lo Stregone deve aver già selezionato almeno 4 Tomi della Natura.\n\n-Il tratto 'Evocatore di Natura' costa 2 punti."/>
+
+
+		<Loc Key="DES_SUMMON_BOAR" Value="Il Verro"/>
+		<Loc Key="DES_SUMMON_BOAR_DES" Value="Richiama in battaglia un cinghiale furioso. Il verro è un formidabile combattente da mischia{ICON:MeleeIconNormal} capace di stordire le sue vittime."/>
+		<Loc Key="DES_DLC_BOAR" Value="Il Verro" />
+		<Loc Key="DES_DLC_BOAR_DES" Value="Un feroce cinghiale chiamato a combattere da abili domatori. Il verro è un formidabile combattente da mischia{ICON:MeleeIconNormal} capace di stordire le sue vittime." />		
+		<Loc Key="DES_SUMMON_FAT_RAT" Value="Ratto Obeso"/>
+		<Loc Key="DES_SUMMON_FAT_RAT_DES" Value="Chiama in battaglia un grasso ratto dotato di attacchi venefici. Il suo morso provoca 'Sanguinamento' e vederlo 'Causa Paura' al nemico."/>
+		<Loc Key="DES_DLC_FAT_RAT" Value="Ratto Obeso" />
+		<Loc Key="DES_DLC_FAT_RAT_DES" Value="Questo grosso ratto è un'infida creatura nativa di terre ben più buie di Myrror. Il suo morso provoca 'Sanguinamento' e vederlo 'Causa Paura' al nemico. " />
+
+		<Loc Key="DES_CURSED" Value="Anatema"/>
+		<Loc Key="DES_CURSED_DES" Value="'Anatema' riduce di -1 la Resistenza{ICON:ResistanceIconNormal} delle unità alleate e del suo portatore, ma anche quella delle unità nemiche (sul campo di battaglia) di -2."/>
+		<Loc Key="DES_CURSED_UNIT" Value="Anatema"/>
+		<Loc Key="DES_CURSED_UNIT_DES" Value="Questa unità è affetta dall'abilità 'Anatema'."/>
+		<Loc Key="DES_PEASANT" Value="Campagnolo"/>
+		<Loc Key="DES_PEASANT_DES" Value="L'eroe campagnolo trascorre il tempo libero coltivando la propria terra. Sente che è suo dovere servirti a titolo gratuito, e produce +2 Cibo per turno finché rimane al tuo servizio (+2 ogni 3 lvl)."/>
+		<Loc Key="DES_FOODIE" Value="Buongustaio"/>
+		<Loc Key="DES_FOODIE_DES" Value="Questo eroe ama il cibo, e accetta soltanto Cibo per il proprio mantenimento (3 per turno). Questo lo rende più forte (+1 attacco, +1 armatura, + 1 resistenza, +10% prob. di colpire. Una volta raggiunto il lvl massimo, questo bonus è aumentato di +2)."/>
+		<Loc Key="DES_BLEEDING_2_OWNER" Value="Sanguinamento"/>
+		<Loc Key="DES_BLEEDING_2_OWNER_DES" Value="Le unità colpite da 'Sanguinamento' subiscono danni pari al valore dell'abilità finché non superano un relativo tiro Resistenza{ICON:ResistanceIconNormal}."/>
+		<Loc Key="DES_BLEEDING_UNIT" Value="Sanguinamento"/>
+		<Loc Key="DES_BLEEDING_UNIT_DES" Value="Questa unità è affetta dall'abilità 'Sanguinamento'."/>
+		<Loc Key="DES_EARTH_WALKER" Value="Granpasso"/>
+		<Loc Key="DES_EARTH_WALKER_DES" Value="L'abilità 'Granpasso' consente alle unità di attraversare fango, deserti e tundra al costo di 1 punto movimento per casella."/>
+
+		<Loc Key="DES_RES_MAMMOTH" Value="Mammut"/>
+		<Loc Key="DES_RES_MAMMOTH_DES" Value="Enormi e pelosi mammiferi noti per le loro pregiate zanne e la molta carne. Fornisce +1 Cibo ({ICON:FoodIcon}) e +1 Oro ({ICON:GoldIcon}) alla città più vicina.\nSi può convertire in Selvaggina usando l'incantesimo 'Trasmutazione'."/>
+		<Loc Key="DES_STUN" Value="Stordimento"/>
+		<Loc Key="DES_STUN_DES" Value="Gli attacchi ravvicinati {ICON:MeleeIconNormal} e a distanza {ICON:RangedIconNormal} dell'unità nemica bersagliata vengono dimezzati, se questa non supera un tiro Resistenza {ICON:ResistanceIconNormal}."/>
+	
+		<Loc Key="DES_REALM_SYNERGY" Value="Sinergia" />
+		<Loc Key="DES_REALM_SYNERGY_DES" Value="Questa unità non appartiene ad un singolo regno, ma trae sostanza dalla Sinergia che li unisce tutti. Certe unità sono tipicamente evocate tramite abilità speciali." />
+		
+		<Loc Key="DES_SUMMON_WAR_BEARS" Value="Orsi da Guerra"/>
+		<Loc Key="DES_SUMMON_WAR_BEARS_DES" Value="Evoca un branco di feroci orsi da guerra sul campo di battaglia."/>
+		
+		<Loc Key="DES_STONEMASON_ENCH_DES" Value="Questa città è amministrata da un Muratore, dunque gode di Mura di Pietra e +10{ICON:ProductionIcon} produzione." />
+	</LOCALIZATION-DLC1_IT>
+</DB_LOCALIZATION>

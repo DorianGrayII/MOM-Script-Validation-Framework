@@ -1,0 +1,28 @@
+﻿<PROTOTYPE_RACE>			
+	<RACE Name="Race">		
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>		
+		<ProductionDescription Name="productionDescription" Type="string" Required="FALSE"/>		
+		<BaseRace Name="baseRace" Type="bool" Required="FALSE"/>
+		<ArcanusRace Name="arcanusRace" Type="bool" Required="FALSE"/>
+		<RepresentativeUnit Name="representativeUnit" Type="UNIT" Required="FALSE"/>
+		<VisualGroup Name="visualGroup" Type="string" Required="FALSE"/>				
+		<!-- Table of tension toward master race (in case this race is the one conquered by wizzard whose main race belong to the one from the table -->
+		<RaceTension Name="raceTension" Type="ArrayRACE_TENSION" Required="FALSE"/>	
+		<!-- Tension fallback is used in case table of conquered city (this race) does not contain master race,
+		this race will try to react on their masters as if they are "TensionFallback" race. 
+		If this fails, this race will try to react on master race as if they are their "TensionFallback" race.
+		If this fails, this race "TensionFallback" race will try to react to masters "TensionFallback" race. -->
+		<TensionFallback Name="tensionFallback" Type="RACE" Required="FALSE"/>
+		<!-- In case neither RaceTension nor TensionFallback can be satisfied, masters race TensionFallback2 is used.
+		If TensionFallback2 is not specified at this stage value of 0 is used -->
+		<TensionFallback2 Name="tensionFallback2" Type="FInt" Required="FALSE"/>
+		
+		<Dlc Name="dlc" Type="string" Required="FALSE"/>
+	</RACE>
+	
+	<RACE_TENSION Name="RaceTension">
+		<Race Name="race" Type="RACE" Required="TRUE"/>
+		<Value Name="value" Type="FInt" Required="TRUE"/>
+	</RACE_TENSION>
+	
+</PROTOTYPE_RACE>

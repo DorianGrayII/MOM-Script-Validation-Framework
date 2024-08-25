@@ -1,0 +1,15 @@
+﻿<DB_GAMEPLAY_CONFIGURATION>				
+    <GAMEPLAY_CONFIGURATION-DEFAULT >
+        <Option Name="Arcanus Chaos" Setting="6" />
+		<Option Name="Arcanus Nature" Setting="6" />
+		<Option Name="Arcanus Sorcery" Setting="4" />
+		<Option Name="Myrror Chaos" Setting="3" />
+		<Option Name="Myrror Nature" Setting="3" />
+		<Option Name="Myrror Sorcery" Setting="8" />
+		
+		<!-- Additional Power points value from volcano rised by spell -->
+		<Option Name="Volcano Spell Power Bonus" Setting="1" />
+		
+		<Option Name="Log Battle results" Setting="TRUE" />
+    </GAMEPLAY_CONFIGURATION-DEFAULT>	
+</DB_GAMEPLAY_CONFIGURATION>

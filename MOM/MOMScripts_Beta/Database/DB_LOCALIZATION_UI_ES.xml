@@ -1,0 +1,1510 @@
+﻿<DB_LOCALIZATION>
+	<LOCALIZATION-UI_ES Language="Español">	
+		<Loc Key="UI_LOADING" Value="Cargando..." />
+		<Loc Key="UI_CONTINUE" Value="Continuar"/>
+		<Loc Key="UI_NEW_GAME" Value="Nuevo Juego"/>
+		<Loc Key="UI_EDITOR" Value="Editor"/>
+		<Loc Key="UI_SETTINGS" Value="Ajustes"/>
+		<Loc Key="UI_EXIT" Value="Salir"/>
+		<Loc Key="UI_CLOSE" Value="Cerrar"/>
+		<Loc Key="UI_CANCEL" Value="Cancelar"/>
+		<Loc Key="UI_CONFIRM" Value="Confirmar"/>
+		<Loc Key="UI_VERSION" Value="VERSIÓN"/>
+		<Loc Key="UI_ENTER_NAME" Value="Introducir Nombre"/>
+		<Loc Key="UI_ENTER_NAME2" Value="Introducir Nuevo Nombre:"/>
+		<Loc Key="UI_ENTER_TEXT" Value="Introduce Texto..."/>
+		<Loc Key="UI_COMBAT" Value="Combate"/>
+		<Loc Key="UI_ATTACKERS" Value="Atacantes"/>
+		<Loc Key="UI_DEFENDERS" Value="Defensores"/>
+		<Loc Key="UI_DONT_ENGAGE" Value="No Involucrarse"/>
+		<Loc Key="UI_AUTO_COMBAT" Value="Auto Combate"/>
+		<Loc Key="UI_MANUAL_COMBAT" Value="Combate Manual"/>
+		<Loc Key="UI_OKAY" Value="Ok"/>
+		<Loc Key="UI_OK" Value="OK"/>
+		<Loc Key="UI_DETAILS" Value="Detalles"/>
+		<Loc Key="UI_TURN" Value="Turno"/>
+		<Loc Key="UI_OF_50" Value="de 50"/>
+		<Loc Key="UI_ADJUST_DIFFICULTY" Value="Ajustar Dificultad"/>
+		<Loc Key="UI_PRESETS" Value="Preselecciones"/>
+		<Loc Key="UI_SCORE_MULTIPLIER" Value="Multiplicador de Puntos:"/>
+		<Loc Key="UI_EASY_50" Value="Fácil (100%)"/>
+		<Loc Key="UI_NORMAL_100" Value="Normal (150%)"/>
+		<Loc Key="UI_HARD_150" Value="Difícil (200%)"/>
+		<Loc Key="UI_CUSTOM" Value="A Medida"/>
+		<Loc Key="UI_MAKE_A_SELECTION" Value="Haz una Selección..."/>
+		<Loc Key="UI_SELECT_AN_ADVENTURE" Value="Selecciona una Aventura"/>
+		<Loc Key="UI_SEARCH" Value="Buscar..."/>
+		<Loc Key="UI_BACK_TO_MODULES" Value="Volver a los Módulos"/>
+		<Loc Key="UI_EDIT_ADVENTURE" Value="Editar Aventura"/>
+		<Loc Key="UI_CLONE_TO_MODULE" Value="Selecciona un módulo para clonar:"/>
+		<Loc Key="UI_CLONE_ADVENTURE" Value="Clonar Aventura"/>
+		<Loc Key="UI_LEAVE" Value="Dejar"/>
+		<Loc Key="UI_ADVENTURE" Value="Aventura"/>
+		<Loc Key="UI_BATTLE" Value="Batalla"/>
+		<Loc Key="UI_TRADE" Value="Comercio"/>
+		<Loc Key="UI_ENCHANTMENT" Value="Encantamiento"/>
+		<Loc Key="UI_SPAWN_LOCATION" Value="Lugar de Aparición"/>
+		<Loc Key="UI_RELAY" Value="Relevo"/>
+		<Loc Key="UI_END" Value="Fin"/>
+		<Loc Key="UI_NODE_SEARCH" Value="Búsqueda de Nodo"/>
+		<Loc Key="UI_SELECT_AN_IMAGE" Value="Selecciona una Imagen"/>
+		<Loc Key="UI_IMAGE_INSTRUCTIONS" Value="Nota: El tamaño óptimo de la imagen es 1250x1500px. También se puede utilizar otros tamaños con relación de aspecto similar. Si se utiliza una imagen con una relación de aspecto diferente, la imagen se distorsionará.\n\nPara añadir nuevas imágenes a esta lista, colócalas en \ExternalAssets\AdventureGraphics, situado en la carpeta del juego.\n\nUtiliza .png o .jpg solamente!"/>
+		<Loc Key="UI_LOGIC_EDITOR" Value="Editor Lógico"/>
+		<Loc Key="UI_FILTERS" Value="Filtros"/>
+		<Loc Key="UI_PROCESSING" Value="Procesando"/>
+		<Loc Key="UI_RESULTS" Value="Resultados"/>
+		<Loc Key="UI_EXIT_LOGIC" Value="Salida Logica"/>
+		<Loc Key="UI_SELECT_MODULE" Value="Selecciona un Módulo"/>
+		<Loc Key="UI_EXIT_AND_SAVE" Value="Salir y Guardar"/>
+		<Loc Key="UI_EDIT_MODULE" Value="Editar Módulo"/>
+		<Loc Key="UI_END_TURN" Value="Fin de Turno"/>
+		<Loc Key="UI_PATCH_NOTES" Value="Notas del Parche"/>		
+		<Loc Key="UI_CHANGE_PROFILE" Value="Cambiar Perfil"/>		
+		<Loc Key="UI_HELLO_PLAYERNAME" Value="Hola, {0}"/>
+		<Loc Key="UI_PROFILES" Value="Perfiles"/>
+		<Loc Key="UI_SELECT" Value="Selecciona"/>
+		<Loc Key="UI_NEW_PROFILE" Value="Nuevo Perfil"/>
+		<Loc Key="UI_RENAME" Value="Renombra"/>
+		<Loc Key="UI_DELETE" Value="Elimina"/>
+		<Loc Key="UI_SELECT_WIZARD" Value="Seleccionar Mago"/>
+		<Loc Key="UI_MAGIC_AND_TRAITS" Value="Magia y Rasgos"/>
+		<Loc Key="UI_WORLD_QUALITY" Value="Calidad del Mundo"/>
+		<Loc Key="UI_BATTLE_SUMMARY" Value="Sumario de Batalla"/>
+		<Loc Key="UI_VICTORY" Value="Victoria!"/>
+		<Loc Key="UI_DEFEAT" Value="Derrota!"/>
+		<Loc Key="UI_YOUR_TURN" Value="Tu Turno!"/>
+		<Loc Key="UI_ENEMY_TURN" Value="Turno Enemigo!"/>
+		<Loc Key="UI_MELEE" Value="Cuerpo a Cuerpo:"/>
+		<Loc Key="UI_RANGED" Value="Alcance:"/>
+		<Loc Key="UI_ARMOUR" Value="Armadura:"/>
+		<Loc Key="UI_RESISTANCE" Value="Resistencia:"/>
+		<Loc Key="UI_FIGURES" Value="Datos:"/>
+		<Loc Key="UI_HITS" Value="Golpes:"/>
+		<Loc Key="UI_MOVEMENT" Value="Movimiento:"/>
+		<Loc Key="UI_UPKEEP" Value="Mantener:"/>
+		<Loc Key="UI_DISMISS" Value="Descartar"/>
+		<Loc Key="UI_ADD_A_NODE" Value="Añade un Nodo"/>
+		<Loc Key="UI_ACTIVE_GLOBAL_ENCHANTMENTS" Value="Encantamientos Globales Activos"/>
+		<Loc Key="UI_MAGIC" Value="Magia"/>
+		<Loc Key="UI_ALCHEMY" Value="Alquimia"/>
+		<Loc Key="UI_ALCHEMY_DES" Value="La Alquimia es el conocimiento de cómo convertir el Oro en Maná o viceversa. Los Magos con rasgo Alquimistas son capaces de convertir con una proporción de 1:1, los que no lo tienen sólo producirán la mitad de la sustancia seleccionada. "/>
+		<Loc Key="UI_TRANSMUTE_GOLD_TO_MANA" Value="Transmutar Oro en Maná"/>
+		<Loc Key="UI_TRANSMUTE_MANA_TO_GOLD" Value="Transmutar Maná en Oro"/>
+		<Loc Key="UI_TRANSMUTE" Value="Transmutar"/>
+		<Loc Key="UI_POWER" Value="Energía"/>
+		<Loc Key="UI_POWER_DES" Value="La Energía proviene de tu Fortaleza, Libros de Hechizos, Nodos Mágicos, Edificios Religiosos y de los habitantes de algunas razas. Se utiliza para generar Maná, investigar Hechizos y aumentar la Habilidad de Lanzamiento.\n\nPuedes ajustar como se asigna tu Energía para cada propósito clicando en los viales ."/>
+		<Loc Key="UI_POWER2_DES" Value="Se utiliza para generar Maná, investigar Hechizos y aumentar la Habilidad de Lanzamiento."/>
+		<Loc Key="UI_MANA" Value="Maná:"/>
+		<Loc Key="UI_RESEARCH" Value="Investigar"/>
+		<Loc Key="UI_RESEARCH_DES" Value="Afecta directamente a la velocidad de aprendizaje de nuevos Hechizos. Se puede aumentar asignando más Energía al vial verde, construyendo edificios como una Biblioteca, el Gremio de Sabios, la Universidad y el Gremio de Magos o contratando Héroes con la habilidad de Sabio."/>
+		<Loc Key="UI_SKILL" Value="Habilidad"/>
+		<Loc Key="UI_CASTING_SKILL" Value="Habilidad de Lanzamiento:"/>
+		<Loc Key="UI_CASTING_SKILL2" Value="Habilidad de Lanzamiento"/>
+		<Loc Key="UI_MANA_RESERVE" Value="Reserva de Maná:"/>
+		<Loc Key="UI_MANA_RESERVE2" Value="Reserva de Maná"/>
+		<Loc Key="UI_MANA_RESERVE_DES" Value="Puntos de Maná disponibles para lanzar Hechizos. Se pueden aumentar asignando puntos de Energía al Maná (vial amarillo)."/>
+		<Loc Key="UI_POWER_BASE" Value="Base de Energía:"/>
+		<Loc Key="UI_CASTING" Value="Lanzamiento:"/>
+		<Loc Key="UI_RESEARCHING" Value="Investigando:"/>
+		<Loc Key="UI_SUMMON_TO" Value="Invocar a:"/>
+		<Loc Key="UI_GLOBAL_TAXES_AND_UNREST" Value="Impuestos Globales y Agitación"/>
+		<Loc Key="UI_TOWNS" Value="Pueblos"/>
+		<Loc Key="UI_UNITS" Value="Unidades"/>
+		<Loc Key="UI_CITIZENS" Value="Ciudadanos"/>
+		<Loc Key="UI_ALL_CITIZENS" Value="Todos los Ciudadanos:"/>
+		<Loc Key="UI_FARMERS" Value="Campesinos"/>
+        <Loc Key="UI_FARMERS_DES" Value="Los campesinos alimentan a la población.\n-1 Comida {ICON:FoodIcon} es necesario para mantener a cada ciudadano.\n2 los excedentes de Alimentos se conviertene en 1 Oro {ICON:GoldIcon} al final del turno.\nCada campesino añade también 0,5 de producción {ICON:ProductionIcon}.\n\n-Nota: Sólo los campesinos que producen excedentes de Alimentos pueden convertirse en trabajadores.\n-El Déficit de alimentos en una ciudad provocará {COLOR:#42C100}hambruna {END_COLOR} y disminución de la población."/>
+		<Loc Key="UI_FARMERS_MIN" Value="No se puede reducir el número de campesinos por debajo del mínimo necesario para mantener la población de la ciudad."/>
+		<Loc Key="UI_WORKERS" Value="Trabajadores"/>
+		<Loc Key="UI_WORKERS_DES" Value="Trabajadores' el trabajo proporciona puntos de producción, que la ciudad utiliza para construir edificios y reclutar unidades.\n\n-Nota: Sólo los campesinos que producen excedentes de alimentos pueden convertirse en trabajadores."/>		
+		<Loc Key="UI_REBELS" Value="Rebeldes"/>
+		<Loc Key="UI_REBELS_DES" Value="Los Rebeldes no generan alimentos, oro ni producción en la ciudad, pero siguen consumiendo alimentos. A medida que aumentan los disturbios, aparecerán más rebeldes.\n\nLos rebeldes pueden reducirse mediante la construcción de edificios religiosos, hechizos de reducción de disturbios o una guarnición de unidades no fantásticas con una reducción de -1 rebelde por cada 2 unidades."/>
+		<Loc Key="UI_RESOURCES" Value="Recursos"/>
+		<Loc Key="UI_CONSTRUCTION_QUEUE" Value="Cola de Construcción"/>
+		<Loc Key="UI_BUY" Value="Comprar"/>
+		<Loc Key="UI_NEXT_IN_QUEUE" Value="Siguiente en la Cola:"/>
+		<Loc Key="UI_BUILD" Value="Construir"/>
+		<Loc Key="UI_CONSTRUCTION_MANAGER" Value="Centro de Construcción"/>
+		<Loc Key="UI_BUILDINGS" Value="Edificios"/>
+		<Loc Key="UI_REQUIRES" Value="Se Requiere:"/>
+		<Loc Key="UI_ALLOWS" Value="Permite:"/>
+		<Loc Key="UI_EQUIP_ITEMS" Value="Equipar Objetos"/>
+		<Loc Key="UI_FORTRESS_VAULT" Value="Bóveda de la Fortaleza"/>
+		<Loc Key="UI_RESEARCH_SPELLS" Value="Hechizos de Investigación"/>
+		<Loc Key="UI_RESEARCH_SPELLS2" Value="Hechizos de Investigación ({0})"/>
+		<Loc Key="UI_WORLD_SPELL" Value="Hechizo Mundial"/>
+		<Loc Key="UI_COMBAT_SPELL" Value="Hechizo de Combate"/>
+		<Loc Key="UI_SPELL_TYPE" Value="Tipo de Hechizo:"/>
+		<Loc Key="UI_TARGET" Value="Objetivo:"/>
+		<Loc Key="UI_SUMMON" Value="Invocar"/>
+		<Loc Key="UI_UNIT_ENCHANTMENT" Value="Encantamiento de la Unidad"/>
+		<Loc Key="UI_UNIT_CURSE" Value="Maldición de la Unidad"/>
+		<Loc Key="UI_TOWN_ENCHANTMENT" Value="Encantamiento del Poblado"/>
+		<Loc Key="UI_TOWN_CURSE" Value="Maldición del Poblado"/>
+		<Loc Key="UI_INSTANT" Value="Instantáneo"/>
+		<Loc Key="UI_CASTING_COST" Value="Coste de Lanzamiento:"/>
+		<Loc Key="UI_UPKEEP_COST2" Value="Coste de Mantenimiento:"/>
+		<Loc Key="UI_SELECT_A_SPELL" Value="Seleccionar un Hechizo"/>
+		<Loc Key="UI_YOUR_PROPERTY" Value="Tu Propiedad"/>
+		<Loc Key="UI_YOUR_OFFER" Value="Tu Oferta"/>
+		<Loc Key="UI_THEIR_PROPERTY" Value="Su Propiedad"/>
+		<Loc Key="UI_THEIR_OFFER" Value="Su Oferta"/>
+		<Loc Key="UI_MAINTENANCE" Value="Mantenimiento:"/>
+		<Loc Key="UI_ACCEPT" Value="Aceptar"/>
+		<Loc Key="UI_CHOICES" Value="Opciones"/>
+		<Loc Key="UI_VIDEO" Value="Video"/>
+		<Loc Key="UI_VIDEO_SETTINGS" Value="Ajustes de Vídeo"/>
+		<Loc Key="UI_AUDIO" Value="Audio"/>
+		<Loc Key="UI_AUDIO_SETTINGS" Value="Ajustes de Audio"/>
+		<Loc Key="UI_OTHER" Value="Otros"/>
+		<Loc Key="UI_OTHER_SETTINGS" Value="Otros Ajustes"/>
+		<Loc Key="UI_CREDITS" Value="Creditos"/>
+		<Loc Key="UI_RESOLUTION_OPTIONS" Value="Resolución"/>
+		<Loc Key="UI_REFRESH_RATE" Value="Límites de Frames"/>
+		<Loc Key="UI_REFRESH_CAP_NONE" Value="Nada"/>
+		<Loc Key="UI_REFRESH_CAP_30" Value="30 FPS"/>
+		<Loc Key="UI_REFRESH_CAP_60" Value="60 FPS"/>
+		<Loc Key="UI_MUSIC_VOLUME" Value="Volumen Música"/>
+		<Loc Key="UI_SFX_VOLUME" Value="Volumen SFX"/>
+		<Loc Key="UI_SELECT_RACE_AND_BANNER" Value="Selecciona la Raza y el Estandarte"/>
+		<Loc Key="UI_ARCANIAN_RACES" Value="Razas Arcanas"/>
+		<Loc Key="UI_MYRRAN_RACES" Value="Razas Myrran"/>
+		<Loc Key="UI_PRODUCTION_PER_FARMER" Value="Producción por Campesino:"/>
+		<Loc Key="UI_PRODUCTION_PER_WORKER" Value="Producción por Trabajador:"/>
+		<Loc Key="UI_PRODUCTION_PER_REBEL" Value="Producción por Rebelde:"/>
+		<Loc Key="UI_APPLIES_ENCHANTMENTS" Value="Aplicar Encantamientos:"/>
+		<Loc Key="UI_SHOW_ON_HUD" Value="Mostrar en HUD"/>
+		<Loc Key="UI_CAST_SPELLS" Value="Lanzar\nHechizos"/>
+		<Loc Key="UI_CAST_SPELLS2" Value="Lanzar Hechizos ({0})"/>
+		<Loc Key="UI_WARNING" Value="Advertencia"/>
+		<Loc Key="UI_FOOD_UPKEEP_FAILING" Value="Maestro, tus ciudades no producen suficiente comida para mantener a todas tus unidades. ¿Quizás puedas reasignar a los trabajadores para que produzcan más Alimentos?\n\n¡Si continúas, algunas unidades te abandonarán!"/>
+		<Loc Key="UI_MANA_UPKEEP_FAILING" Value="Maestro, tus ciudades no producen suficiente maná para mantener a todas tus unidades. ¿Quizás puedas reasignar tu Energía para aumentar la producción de Maná?\n\n¡Si continúas, algunas unidades te abandonarán!"/>
+		<Loc Key="UI_CAST" Value="Lanzar"/>
+		<Loc Key="UI_CASTING_TIME" Value="Tiempo de Lanzamiento:"/>
+		<Loc Key="UI_NEUTRAL_UNITS" Value="Unidades Neutrales"/>
+		<Loc Key="UI_SELECT_TARGET" Value="Seleccionar Objetivo"/>
+		<Loc Key="UI_ARTEFACTS" Value="Artefactos"/>
+		<Loc Key="UI_TOTAL_UPKEEP" Value="Mantenimiento Total"/> 
+		<Loc Key="UI_HEROES" Value="Heroes"/>
+		<Loc Key="UI_ARMIES" Value="Ejércitos"/>
+		<Loc Key="UI_SELECT_TARGET2" Value="Seleccionar Objetivo:"/>
+		<Loc Key="UI_CASTINGS_SPELL" Value="Lanzamiento de Hechizo"/>
+		<Loc Key="UI_UNUSED_ARTEFACTS" Value="Artefactos no Utilizados"/>
+		<Loc Key="UI_MANAGE_ARTEFACTS" Value="Gestionar Artefactos"/>
+		<Loc Key="UI_LOCATION_AWARD" Value="Adjudicar Ubicación"/>
+		<Loc Key="UI_SELECT_A_SPELL_WARD_TO_CAST" Value="Selecciona una Sala de Hechizos para lanzar"/>
+		<Loc Key="UI_NATURE_WARD" Value="Sala de la Naturaleza"/>
+		<Loc Key="UI_SORCERY_WARD" Value="Sala de Hechizos"/>
+		<Loc Key="UI_CHAOS_WARD" Value="Sala del Caos"/>
+		<Loc Key="UI_LIFE_WARD" Value="Sala de la Vida"/>
+		<Loc Key="UI_DEATH_WARD" Value="Sala de la Muerte"/>
+		<Loc Key="UI_SELECT_AN_ENCHANTMENT_TO_DISJUNCT" Value="Selecciona un encantamiento para desunir"/>
+		<Loc Key="UI_SELECT_TARGET_FOR_DRAIN_POWER" Value="Selecciona el objetivo para Drenar Energía"/>
+		<Loc Key="UI_SELECT_TARGET_FOR" Value="Selecciona el objetivo para "/>
+		<Loc Key="UI_LOSES" Value="pierde"/>
+		<Loc Key="UI_POINTS_OF_MANA" Value="punto(s) de Mana."/>
+		<Loc Key="UI_POINTS_OF_CASTING_SKILL" Value="punto(s) de Habilidad de Lanzamiento."/>
+		<Loc Key="UI_CREATE_ARTEFACT" Value="Crear Artefacto"/>
+		<Loc Key="UI_ENCHANT_ITEM" Value="Encantar un Objeto"/>
+		<Loc Key="UI_SWORD" Value="Espada"/>
+		<Loc Key="UI_WAND" Value="Vara"/>
+		<Loc Key="UI_MACE" Value="Maza"/>
+		<Loc Key="UI_MISC" Value="Varios"/>
+		<Loc Key="UI_AXE" Value="Hacha"/>
+		<Loc Key="UI_SHIELD" Value="Escudo"/>
+		<Loc Key="UI_BOW" Value="Arco"/>
+		<Loc Key="UI_CHAIN" Value="Cota de Malla"/>
+		<Loc Key="UI_STAFF" Value="Personal"/>
+		<Loc Key="UI_PLATE" Value="Armadura"/>
+		<Loc Key="UI_COST" Value="Coste:"/>
+		<Loc Key="UI_ONLY_FOUR_POWERS_MAY_BE_ENCHANTED_INTO_AN_ITEM" Value="Sólo se pueden encantar cuatro poderes en un objeto!"/>		
+		<Loc Key="UI_SHIFT_FAILED" Value="Cambio Fallido"/>
+		<Loc Key="UI_DESTINATION_INVALID" Value="Destino Invalido"/>
+		<Loc Key="UI_DESTINATION_OCCUPIED" Value="Destino Ocupado"/>
+		<Loc Key="UI_DESTINATION_UNAVAILABLE" Value="Destino no Disponible"/>
+		<Loc Key="UI_TARGETING_FAILED" Value="Objetivo Fallido"/>
+		<Loc Key="UI_TARGET_UNAVAILABLE" Value="Objetivo no Disponible"/>
+		<Loc Key="UI_LOADING_BATTLE" Value="Cargando Batalla..."/>
+		<Loc Key="UI_OPT_EN_ADVANCED" Value="Avanzado"/>
+		<Loc Key="UI_OPT_EN_BEGINNER" Value="Principiante"/>
+		<Loc Key="UI_OPT_EN_SKILLED" Value="Experto"/>
+		<Loc Key="UI_OPT_EN_MASTER" Value="Maestro"/>
+		<Loc Key="UI_OPT_EN_WEAK" Value="Débil - 0.5"/>
+		<Loc Key="UI_OPT_EN_NORMAL" Value="Normal - 1.0"/>
+		<Loc Key="UI_OPT_EN_POWERFUL" Value="Potente - 1.5"/>
+		<Loc Key="UI_OPT_EN_MIGHTY" Value="Poderoso - 2.0"/>
+		<Loc Key="UI_OPT_EN_OVERPOWERING" Value="Dominante - 2.5"/>
+		<Loc Key="UI_BACK" Value="Atrás"/>
+		<Loc Key="UI_NEW_OUTPOST_FOUNDED" Value="Fundar un nuevo Puesto de Avanzada"/>
+		<Loc Key="UI_ALL_TOWNS" Value="Todas las Poblaciones"/>
+		<Loc Key="UI_AMMO" Value="Munición:"/>
+		<Loc Key="UI_CASTS" Value="lanza"/>
+		<Loc Key="UI_MELEE2" Value="Ataque Cuerpo a Cuerpo"/>
+		<Loc Key="UI_MELEE2_DES" Value="Representa el número de tiradas de ataque que cada figura realiza durante una sola acción de ataque cuerpo a cuerpo.\n\n{ICON:MeleeIconAdded} representa una bonificación debida a hechizos o habilidades especiales.\n\n {ICON:MeleeIconMissing} representa un negativo."/>
+		<Loc Key="UI_MELEE3_DES" Value="Representa el número de tiradas de ataque que cada figura realiza durante una sola acción de ataque cuerpo a cuerpo."/>
+		<Loc Key="UI_RANGED2" Value="Ataque a Distancia"/>
+		<Loc Key="UI_RANGED2_DES" Value="Representa el número de tiradas de ataque que cada figura realiza durante una sola acción de ataque a distancia.\n\n{ICON:RangedIconAdded} representa una bonificación debida a hechizos o habilidades especiales.\n\n{ICON:RangedIconMissing} representa un negativo."/>
+		<Loc Key="UI_RANGED3_DES" Value="Representa el número de tiradas de ataque que cada figura realiza durante una sola acción de ataque a distancia."/>
+		<Loc Key="UI_ARMOUR2" Value="Armadura"/>
+		<Loc Key="UI_ARMOUR2_DES" Value="Representa el número de tiradas de defensa que cada figura realiza durante una sola acción de defensa. Las tiradas de defensa se realizan para reducir el daño de los ataques cuerpo a cuerpo y a distancia, así como de algunos hechizos ofensivos.\n\n{ICON:ArmourIconAdded} representa una bonificación debida a hechizos o habilidades especiales.\n\n {ICON:ArmourIconMissing} representa un negativo."/>
+		<Loc Key="UI_ARMOUR3_DES" Value="Representa el número de tiradas de defensa que cada figura realiza durante una sola acción de defensa. Las tiradas de defensa se realizan para reducir el daño de los ataques cuerpo a cuerpo y a distancia, así como de algunos hechizos ofensivos."/>
+		<Loc Key="UI_RESIST2" Value="Resistencia"/>
+		<Loc Key="UI_RESIST2_DES" Value="Representa la capacidad de resistir los efectos negativos de los ataques y hechizos enemigos. Cada punto aumenta la posibilidad de resistir dichos efectos en un 10%.\n\n{ICON:ResistanceIconAdded} representa una bonificación debida a hechizos o habilidades especiales.\n\n {ICON:ResistanceIconMissing} representa un negativo."/>
+		<Loc Key="UI_RESIST3_DES" Value="Representa la capacidad de resistir los efectos negativos de los ataques y hechizos enemigos. Cada punto aumenta la posibilidad de resistir dichos efectos en un 10%."/>
+		<Loc Key="UI_FIGURES2" Value="Número de Figuras"/>
+		<Loc Key="UI_FIGURES2_DES" Value="Representa el número de personajes o entidades individuales que forman la unidad. Cualquiera que falte reducirá la eficacia en combate de la unidad.\n\n{ICON:FigureIconMissing} representa las figuras que faltan.\n\nLas figuras que faltan se recuperarán gradualmente entre los turnos terrestres."/>
+		<Loc Key="UI_FIGURES3_DES" Value="Representa el número de personajes o entidades individuales que forman la unidad. Cualquiera que falte reducirá la eficacia en combate de la unidad."/>
+		<Loc Key="UI_HITS2" Value="Golpes por Figura"/>
+		<Loc Key="UI_HITS2_DES" Value="Representa el número de impactos que puede recibir cada figura antes de morir o ser destruida. El daño se asigna a la figura superior.\n\n{ICON:HitIconAdded} representa una bonificación debida a hechizos o habilidades especiales - todas las figuras tienen sus Puntos de Vida aumentados.\n\n{ICON:HitIconMissing} representa un punto de daño recibido por una figura superior.\n\nLa mayoría de las unidades recuperan sus Puntos de Vida gradualmente entre los turnos terrestres o pueden curarse mediante hechizos u otros efectos."/>
+		<Loc Key="UI_HITS3_DES" Value="Representa el número de impactos que puede recibir cada figura antes de morir o ser destruida. "/>
+		<Loc Key="UI_AMMO2" Value="Municiones"/>
+		<Loc Key="UI_AMMO2_DES" Value="Indica cuántos disparos puede hacer la unidad (esto también se aplica a las unidades con ataques mágicos a distancia).\nUna vez agotada la Munición, la unidad sólo puede realizar ataques cuerpo a cuerpo."/>
+		<Loc Key="UI_MANA2" Value="Maná"/>
+		<Loc Key="UI_MANA2_DES" Value="Maná actual, ten en cuenta que su habilidad de lanzamiento{ICON:CastingSkillIcon} puede limitar la cantidad que puedes usar en combate."/>
+		<Loc Key="UI_MOVEMENT2" Value="Movimiento"/>
+		<Loc Key="UI_MOVEMENT2_DES" Value="El número de puntos de movimiento que se pueden gastar en el viaje a través de las losetas del mapa por tierra cada turno, pero también el número de puntos de acción durante la batalla.\n\n{ICON:MovementWalkingIcon} Movimiento Terrestre\n\n{ICON:MovementSwimmingIcon} Movimiento por Agua \n\n{ICON:MovementFlyingIcon} Movimiento Aéreo"/>
+		<Loc Key="UI_MOVEMENT3_DES" Value="El número de puntos de movimiento que se pueden gastar en el viaje a través de las losetas del mapa por tierra cada turno, pero también el número de puntos de acción durante la batalla."/>
+		<Loc Key="UI_UPKEEP2" Value="Mantener"/>
+		<Loc Key="UI_UPKEEP2_DES" Value="Indica el coste de mantenimiento de la unidad en Oro {ICON:GoldIcon}, Comida {ICON:FoodIcon} y/o Maná {ICON:ManaIcon} cada turno. Si no se puede pagar el coste, la unidad se disolverá."/>
+		<Loc Key="UI_TOTAL_HEALTH" Value="Salud total de la Unidad"/>
+		<Loc Key="UI_TOTAL_HEALTH_DES" Value="Muestra el porcentaje de salud total de la unidad."/>
+		<Loc Key="UI_CASTING_SKILL2_DES" Value="Indica el coste máximo de los hechizos que puedes lanzar durante este combate. También influye en la cantidad máxima de Maná{ICON:ManaIcon} que puedes añadir a la potencia de un hechizo (para los hechizos que pueden ser potenciados)."/>
+		<Loc Key="UI_CASTING_SKILL3_DES" Value="En el mapa de terrestre, la Habilidad de Lanzamiento indica la cantidad máxima de Maná que se puede gastar para lanzar hechizos cada turno.\n\nEn combate, determina el coste de lanzamiento y la reserva de Maná máximos que puedes utilizar durante toda una batalla."/>
+		<Loc Key="UI_CASTING_SKILL_PROGRESS" Value="Progreso de la Habilidad de Lanzamiento"/>
+		<Loc Key="UI_CASTING_SKILL_PROGRESS_DES" Value="Cada nuevo punto de nivel de lanzamiento cuesta su nivel de lanzamiento actual x2.\n\nUna vez que la barra de progreso se complete, obtendrás +1 en nivel de lanzamiento.\n\nPara mejorar tu  nivel de lanzamiento, invierte puntos de poder en la mejora de habilidades de lanzamiento (frasco rojo)."/>
+		<Loc Key="UI_CASTING_RANGE" Value="Alcance de Lanzamiento"/>
+		<Loc Key="UI_CASTING_RANGE_DES" Value="Un multiplicador que afecta al coste de Maná en tus hechizos en la batalla. Cuanto más lejos esté el combate de la fortaleza del Mago, mayor será el multiplicador."/>
+		<Loc Key="UI_SAVE_GAME" Value="Salvar Juego"/>
+		<Loc Key="UI_LOAD_GAME" Value="Cargar Juego"/>
+		<Loc Key="UI_QUIT_TO_MENU" Value="Salir al Menú"/>
+		<Loc Key="UI_QUIT_GAME" Value="Salir del Juego"/>
+		<Loc Key="UI_THE_ARMIES_OF" Value="Los Ejércitos de "/>
+		<Loc Key="UI_BASE_VALUE" Value="Valor Base"/>
+		<Loc Key="UI_TOTAL_VALUE" Value="Valor Total"/>
+		<Loc Key="UI_A_MERCHANT_ARRIVES" Value="Llega un comerciante y ofrece magia {0} en venta. El precio es sólo {1} una pieza de Oro."/>
+		<Loc Key="UI_GOLD_INCOME" Value="Oro"/>
+		<Loc Key="UI_GOLD_INCOME_DES" Value="Muestra tu reserva de Oro actual y los ingresos por turno. Si la reserva de Oro cae por debajo de 0, las unidades se disolverán para reducir el gasto."/>
+		<Loc Key="UI_MANA_INCOME" Value="Maná"/>
+		<Loc Key="UI_MANA_INCOME_DES" Value="Muestra tu reserva de Maná actual y los ingresos por turno. Si la reserva de Maná cae por debajo de 0, las unidades se disolverán para reducir el gasto."/>
+		<Loc Key="UI_FOOD" Value="Comida"/>
+		<Loc Key="UI_FOOD_DES" Value="Necesario para mantener a tus ciudadanos y unidades básicas."/>
+		<Loc Key="UI_FOOD_INCOME" Value="Comida producida/consumida"/>
+		<Loc Key="UI_FOOD_INCOME_DES" Value="Se utiliza para alimentar a tus ejércitos. Si el suministro de Alimentos cae por debajo de 0, las unidades se disolverán. El exceso no se almacena - cada 2 excedentes de Comida se convierten en 1 de Oro al final del turno."/>
+		<Loc Key="UI_FOOD_INCOME2_DES" Value="La comida se utiliza para alimentar a la población de la ciudad y a tus ejércitos. No se almacena.\n\nSi la oferta de alimentos no satisface la demanda, la ciudad pasará hambre y su población disminuirá.\nCada 2 excedentes de Comida se convierten siempre en 1 de Oro {ICON:GoldIcon}"/>
+		<Loc Key="UI_FAME" Value="Fama"/>
+		<Loc Key="UI_FAME_DES" Value="La fama es tu reputación. Los héroes son más propensos a unirse a Magos famosos y los mercaderes son más propensos a ofrecerles artefactos. La Fama también disminuye el coste de mantenimiento de las tropas en 1 de Oro por cada punto de Fama."/>
+		<Loc Key="UI_GOLD" Value="Oro"/>
+		<Loc Key="UI_GOLD_DES" Value="Se utiliza para el mantenimiento de las unidades, la compra de nuevas unidades o edificios, la contratación de héroes. La fama reduce el coste de mantenimiento de las unidades."/>
+		<Loc Key="UI_GOLD_PER_TURN" Value="Oro por turno"/>
+		<Loc Key="UI_GOLD_DETAILS_FOOD" Value="Comida a Oro"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_RESOURCES" Value="Ciudades - Recursos"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_TAXES" Value="Ciudades - Tasas"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_UPKEEP" Value="Ciudades - Mantenimiento"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_PRODUCTION" Value="Ciudades - Producción"/>
+		<Loc Key="UI_GOLD_DETAILS_TOWN_INCOME" Value="Ciudades - Otros Ingresos"/>
+		<Loc Key="UI_GOLD_DETAILS_UNITS_UPKEEP" Value="Unidades - Mantenimiento"/>
+		<Loc Key="UI_GOLD_DETAILS_UNITS_UPKEEP_FAME" Value="Fama - Mantenimiento de Unidades"/>
+		<Loc Key="UI_GOLD_DETAILS_UNITS_INCOME" Value="Unidades - Ingresos"/>
+		<Loc Key="UI_GOLD_DETAILS_ROAD_NETWORK" Value="Red de Caminos - Ingresos"/>
+		<Loc Key="UI_FOOD_DETAILS_TOWN_INCOME" Value="Ciudades - Otros Ingresos"/>		
+		<Loc Key="UI_FOOD_DETAILS_UNITS_INCOME" Value="Unidades - Ingresos"/>
+		<Loc Key="UI_FOOD_DETAILS_UNITS_UPKEEP" Value="Mantenimiento"/>
+		<Loc Key="UI_FOOD_DETAILS_CHEAT" Value="Trampa"/>
+		<Loc Key="UI_MANA_DETAILS_POWER" Value="De la energía"/>
+		<Loc Key="UI_MANA_DETAILS_INCOME_BONUS" Value="Bonus"/>
+		<Loc Key="UI_MANA_DETAILS_TOWN_UPKEEP" Value="Ciudades - Mantenimiento"/>
+		<Loc Key="UI_MANA_DETAILS_TOWN_INCOME" Value="Ciudades - Ingresos"/>
+		<Loc Key="UI_MANA_DETAILS_UNITS_UPKEEP" Value="Unidades - Mantenimiento"/>		
+		<Loc Key="UI_MANA_DETAILS_UNITS_INCOME" Value="Unidades - Ingresos"/>
+		<Loc Key="UI_MANA_CHANNELER_DISCOUNT" Value="Descontar canalizador"/>
+		<Loc Key="UI_MANA_CONJUER_DISCOUNT" Value="Descuento de mago"/>
+		<Loc Key="UI_MANA_NATURE_SUMMONER_DISCOUNT" Value="Descuento para Invocador de Naturaleza"/>
+		<Loc Key="UI_MANA_DETAILS_ENCHANTMENTS" Value="Encantamientos"/>
+		<Loc Key="UI_MANA_DETAILS_CHEAT" Value="Trampa"/>
+		<Loc Key="UI_MANA_DETAILS_ENCHANTMENTS_DISCOUNT" Value="Descontar encantamientos"/>
+		<Loc Key="UI_POWER_DETAILS_TOWN_INCOME" Value="Ciudades - Ingresos"/>
+		<Loc Key="UI_POWER_DETAILS_NODE_INCOME" Value="Nodos - Ingresos"/>
+		<Loc Key="UI_POWER_DETAILS_VOLCANO_INCOME" Value="Volcán - Ingresos"/>
+		<Loc Key="UI_POWER_DETAILS_CHEAT" Value="Trampa"/>
+		<Loc Key="UI_RESEARCH_DETAILS_POWER" Value="Energía"/>
+		<Loc Key="UI_RESEARCH_DETAILS_SAGE_MASTERY" Value="Maestría Sabia - Ingresos"/>
+		<Loc Key="UI_RESEARCH_DETAILS_TOWN_INCOME" Value="Ciudades - Ingresos"/>
+		<Loc Key="UI_RESEARCH_DETAILS_UNITS_INCOME" Value="Unidades - Ingresos"/>
+		<Loc Key="UI_RESEARCH_DETAILS_CHEAT" Value="Trampa"/>
+		<Loc Key="UI_PRODUCTION" Value="Producción"/>
+		<Loc Key="UI_PRODUCTION_DES" Value="Los puntos de producción se utilizan para construir edificios y entrenar unidades. Cuantos más puntos de producción produzcan tus ciudadanos, más rápido avanzará la construcción."/>
+		<Loc Key="UI_PRODUCTION2_DES" Value="Se utiliza para construir edificios y unidades entrenadas."/>
+		<Loc Key="UI_PRODUCTION_PER_TURN" Value="Producción por turno"/>
+		<Loc Key="UI_SUMMONING_LOCATION" Value="Lugar de Invocación"/>
+		<Loc Key="UI_SUMMONING_LOCATION_DES" Value="Aquí es donde se encuentra tu Círculo de Invocación, y donde aparecerán las unidades invocadas.\n\nLa ubicación de tu Círculo de Invocación puede cambiarse lanzando el hechizo Círculo de Invocación."/>
+		<Loc Key="UI_CURRENTLY_CASTING" Value="Actualmente se está haciendo un Lanzamiento"/>
+		<Loc Key="UI_CURRENTLY_CASTING_DES" Value="Muestra el hechizo que se está lanzando actualmente. Dependiendo de tu Habilidad de Lanzamiento y del coste de Maná del hechizo elegido, el lanzamiento puede tardar más de 1 turno. Se te notificará cuando el hechizo esté listo."/>
+		<Loc Key="UI_CURRENTLY_RESEARCHING" Value="Actualmente Investigando"/>
+		<Loc Key="UI_CURRENTLY_RESEARCHING_DES" Value="Muestra tu enfoque de investigación actual. La velocidad de investigación depende directamente de los Puntos de Investigación, que se generan asignando Puntos de Energía a la Investigación (frasco verde)."/>
+		<Loc Key="UI_VALUE" Value="Valor:"/>
+		<Loc Key="UI_SET_AMOUNT" Value="Cantidad Establecida"/>
+		<Loc Key="UI_SELECT_A_UNIT_OR_BUILDING" Value="Selecciona un edificio en la columna de la izquierda o una unidad en la columna de la derecha para ver los detalles."/>
+		<Loc Key="UI_POPULATION" Value="Población"/>
+		<Loc Key="UI_POPULATION_DES" Value="Número de personas que habitan esta ciudad y su crecimiento por turno.\n\nA cada 1000 se le puede asignar un trabajo de granjero o trabajador en el panel de ciudadanos.\n\nPoblación máxima mostrada es el máximo inicial y puede ser modificado por varios factores, como hechizos o edificios."/>
+		<Loc Key="UI_UNREST" Value="Malestar"/>
+		<Loc Key="UI_UNREST_DES" Value="El porcentaje de disturbios en esta ciudad, tiene en cuenta los disturbios globales, así como cualquier otra modificación. Los disturbios generan rebeldes.\n\nLos disturbios se modifican por la tasa de impuestos, las tensiones raciales (basado en la ubicación de tu Fortaleza), encantamientos persistentes y guarnición."/>
+		<Loc Key="UI_CITIZENS_DES" Value="El número de ciudadanos se basa en la población (1 por cada 1000. Los ciudadanos por defecto son campesinos que cultivan Alimentos {ICON:FoodIcon} pero se le puede asignar una tarea de un trabajador para aumentar la producción {ICON:ProductionIcon}. Los disturbios también pueden hacer que los ciudadanos se conviertan en rebeldes que se niegan a trabajar y no producen nada."/>
+		<Loc Key="UI_INCOME_FROM_TAXES" Value="Ingresos por impuestos"/>
+		<Loc Key="UI_INCOME_FROM_TAXES_DES" Value="{COLOR:#910D0D}La tasa de impuestos se establece para TODAS tus ciudades.{END_COLOR}\n\nEsta es la cantidad total de oro que recibes de los impuestos de todas tus ciudades por turno .\nLos ingresos se basan en la tasa impositiva y el número de ciudadanos. Los impuestos altos aumentan el malestar global."/>
+		<Loc Key="UI_GLOBAL_UNREST" Value="Malestar Global"/>
+		<Loc Key="UI_GLOBAL_UNREST_DES" Value="Muestra el porcentaje de ciudadanos descontentos con el tipo impositivo actual (se añade a los cálculos de malestar de cada ciudad)."/>
+		<Loc Key="UI_ON" Value="en"/>
+		<Loc Key="UI_BELONGING_TO" Value="perteneciente a"/>
+		<Loc Key="UI_ITEM_PAY_TO_TRANSFER" Value="Para enviar este objeto al héroe elegido, tienes que usar tus poderes mágicos.\nEl coste es:"/>
+		<Loc Key="UI_YOUR_MANA_RESERVE_IS" Value="Tu reserva de Maná es:"/>
+		<Loc Key="UI_YOU_DO_NOT_HAVE_ENOUGH_MANA" Value="¡No tienes suficiente Maná!"/>
+		<Loc Key="UI_CASTING_SPELL_BLAST_INFO" Value="Para contrarrestar este hechizo, debes pagar tanto maná como el que el mago ya haya invertido en él."/>
+		<Loc Key="UI_EQUIP_ARTEFACTS" Value="Equipar Artefactos"/>
+		<Loc Key="UI_QUIT_WITH_SAVE" Value="Guardar y Salir"/>
+		<Loc Key="UI_QUIT_WITHOUT_SAVE" Value="Salir sin Guardar"/>
+		<Loc Key="UI_QUIT_GAME_DESCRIPTION" Value="¿Quieres guardar tu juego?"/>
+		<Loc Key="UI_SAVE" Value="Guardar"/>
+		<Loc Key="UI_ENTER_SAVE_NAME" Value="Introduce el Nombre Guardado"/>
+		<Loc Key="UI_LOAD" Value="Cargar"/>
+		<Loc Key="UI_UNKNOWN_COST" Value="???"/>
+		<Loc Key="UI_SPECIAL" Value="???"/>
+		<Loc Key="UI_BONUSES" Value="Bonificaciones"/>
+		<Loc Key="UI_SPELLS" Value="Hechizos"/>
+		<Loc Key="UI_LIFE" Value="Vida"/>
+		<Loc Key="UI_DEATH" Value="Muerte"/>
+		<Loc Key="UI_NATURE" Value="Natural"/>
+		<Loc Key="UI_SORCERY" Value="Hechicería"/>
+		<Loc Key="UI_CHAOS" Value="Caos"/>
+		<Loc Key="UI_REQUIRED" Value="Requerido"/>
+		<Loc Key="UI_ENTER_NAME_ERROR" Value="Por favor introduce el nombre del Mago."/>
+		<Loc Key="UI_NAME_AND_PORTRAIT" Value="Retrato y Nombre"/>
+		<Loc Key="UI_NAME" Value="Nombre:"/>
+		<Loc Key="UI_NEXT" Value="Siguiente"/>
+		<Loc Key="UI_TRAITS_AND_MAGIC" Value="Rasgos y Libros de Hechizos Mágicos"/>
+		<Loc Key="UI_PICKS" Value="Selecciones:"/>
+		<Loc Key="UI_SPELLS_TO_PICK" Value="Hechizos para elegir:"/>
+		<Loc Key="UI_COMMON" Value="Común:"/>
+		<Loc Key="UI_COMMON2" Value="Común"/>
+		<Loc Key="UI_UNCOMMON" Value="Poco común:"/>
+		<Loc Key="UI_UNCOMMON2" Value="Poco común"/>
+		<Loc Key="UI_RARE" Value="Raro:"/>
+		<Loc Key="UI_RARE2" Value="Raro"/>
+		<Loc Key="UI_VERYRARE" Value="Muy raro"/>
+		<Loc Key="UI_ENCHANTMENTS_YOU_CONTROL" Value="Encantamientos que Controlas"/>
+		<Loc Key="UI_NO_INFORMATION_AVAILABLE" Value="No hay Información Disponible"/>
+		<Loc Key="UI_UNITS_DISBANDED" Value="Unidades Disueltas"/>
+		<Loc Key="UI_UNITS_DISBANDED_DES" Value="¡Maestro, tengo tristes noticias! Algunas unidades han desertado de tu ejército por falta de Oro, Comida o Maná."/>
+		<Loc Key="UI_THE_CITIES_OF" Value="Las Ciudades de {0}"/>
+		<Loc Key="UI_GO_TO_CITY" Value="Ir a la Ciudad"/>
+		<Loc Key="UI_START_EVENT" Value="Iniciar Evento"/>
+		<Loc Key="UI_START_SCRIPT" Value="Iniciar Guión"/>
+		<Loc Key="UI_INVALID_TARGET" Value="Objetivo Invalido"/>
+		<Loc Key="UI_USE_PICKS_ERROR" Value="Necesitas usar todos tus selecciones para continuar"/>		
+		<Loc Key="UI_LIFE_AND_DEATH_ERROR" Value="No puedes seleccionar tanto la magia de la Vida como la de la Muerte"/>
+		<Loc Key="UI_SELECT_MORE_SPELLS" Value="Necesitas seleccionar más hechizos para este reino."/>
+		<Loc Key="UI_HISTORY" Value="Historia"/>
+		<Loc Key="UI_MIRROR" Value="Espejo"/>
+		<Loc Key="UI_TRAITS" Value="Rasgos"/>
+		<Loc Key="UI_TRAITS_DES" Value="Habilidades especiales del mago. Se pueden adquirir nuevos rasgos al despejar lugares muy difíciles.\n\nEl número de rasgos está limitado a 6."/>
+		<Loc Key="UI_WEALTH" Value="Riqueza"/>
+		<Loc Key="UI_ARMY_STAT" Value="Fuerza del Ejército"/>
+		<Loc Key="UI_RESEARCH_STAT" Value="Investigación"/>
+		<Loc Key="UI_MAGIC_STAT" Value="Poder Mágico"/>
+		<Loc Key="UI_TOWNS_STAT" Value="Numero de Ciudades"/>
+		<Loc Key="UI_TIME" Value="Tiempo"/>
+		<Loc Key="UI_HISTORY_OF_WIZARDS_POWER" Value="Historia del poder del Mago"/>
+		<Loc Key="UI_HELP_MYRRAN_RACES" Value="Razas Myrran"/>
+		<Loc Key="UI_HELP_MYRRAN_RACES_DES" Value="Las Razas Myrran sólo pueden ser seleccionadas si el Mago tiene el rasgo Myrran."/>
+		<Loc Key="UI_VERSUS" Value="VS."/>
+		<Loc Key="UI_SEND_FAMILIAR" Value="Envía a un Familiar"/>
+		<Loc Key="UI_COMMAND_PERSONALLY" Value="Mando Personal"/>
+		<Loc Key="UI_COMBAT_TEXT1" Value="Familiar dice: Maestro, si me dejas comandar tus tropas, estos son los resultados que predigo:;"/>
+		<Loc Key="UI_COMBAT_TEXT2" Value="¿Quieres tomar el mando personalmente, dejarlo en manos de tu familiar o tal vez no participar en absoluto?"/>
+		<Loc Key="UI_COMBAT_TEXT3" Value="Permitir a tu familiar utilizar Maná {ICON:ManaIcon} para aumentar tus posibilidades de victoria."/>
+		<Loc Key="UI_DRAW" Value="¡Empate!"/>
+		<Loc Key="UI_RETREAT" Value="¡Retirada!"/>
+		<Loc Key="UI_INDEPENDENT" Value="Independiente"/>
+		<Loc Key="UI_ENCHANTMENTS" Value="Encantamientos"/>
+		<Loc Key="UI_YES" Value="Si"/>
+		<Loc Key="UI_NO" Value="No"/>
+		<Loc Key="UI_CAN_BE_DISPELLED" Value="Se puede disipar"/>
+		<Loc Key="UI_DURATION" Value="Duración"/>
+		<Loc Key="UI_CONTROLLER" Value="Controlador"/>
+		<Loc Key="UI_UPKEEP_COST" Value="Coste de Mantenimiento"/>
+		<Loc Key="UI_GLOBAL" Value="Global"/>
+		<Loc Key="UI_NORMAL_WEAPON" Value="Arma Normal"/>
+		<Loc Key="UI_NORMAL_WEAPON_DES" Value="Esta unidad está equipada con un arma normal que no proporciona bonificaciones adicionales."/>
+		<Loc Key="UI_ENCHANTED_WEAPON" Value="Arma Encantada"/>
+		<Loc Key="UI_ENCHANTED_WEAPON_DES" Value="Esta unidad tiene un arma encantada por un hechizo o su habilidad especial."/>
+		<Loc Key="UI_SKILLS" Value="Habilidades"/>
+		<Loc Key="UI_SKILLS_DES" Value="Las habilidades son capacidades especiales que dan a las unidades una ventaja específica."/>
+		<Loc Key="UI_ENCHANTMENTS_DES" Value="Los encantamientos son efectos positivos o negativos aplicados con hechizos mágicos. No todos los encantamientos se pueden disipar."/>
+		<Loc Key="UI_BUILDING_CONSTRUCTED_IN" Value = "Edificio construido en {0}"/>
+		<Loc Key="UI_BUILDING_DEMOLISHED_IN" Value = "Edificio destruido en {0}"/>
+		<Loc Key="UI_TURNS" Value = "{0} Turnos"/>
+		<Loc Key="UI_FOOD_PRODUCTION_INCREASED_IN" Value = "La producción de alimentos aumentó en {0}"/>
+		<Loc Key="UI_FOOD_PRODUCTION_DECREASED_IN" Value = "La producción de alimentos disminuyó en {0}"/>
+		<Loc Key="UI_CITY_ACQUIRED" Value = "Ciudad adquirida"/>
+		<Loc Key="UI_CITY_LOST" Value = "Ciudad perdida"/>
+		<Loc Key="UI_FAME_INCREASED" Value = "La fama aumenta"/>
+		<Loc Key="UI_FAME_DECREASED" Value = "La fama disminuye"/>
+		<Loc Key="UI_GOLD_GAINED" Value = "Oro ganado"/>
+		<Loc Key="UI_GOLD_LOST" Value = "Oro perdido"/>
+		<Loc Key="UI_MANA_GAINED" Value = "Maná ganado"/>
+		<Loc Key="UI_MANA_LOST" Value = "Maná perdido"/>
+		<Loc Key="UI_POPULATION_GAINED_IN" Value = "Población ganada en {0}"/>
+		<Loc Key="UI_POPULATION_LOST_IN" Value = "Población perdida en {0}"/>
+		<Loc Key="UI_POWER_INCREASED" Value = "Energía aumentada en {0}"/>
+		<Loc Key="UI_POWER_DECREASED" Value = "Energía disminuida en {0}"/>
+		<Loc Key="UI_PRODUCTION_BOOST_IN " Value = "Impulso a la producción en {0}"/>
+		<Loc Key="UI_PRODUCTION_SETBACK_IN" Value = "Retroceso de la producción en {0}"/>
+		<Loc Key="UI_UNREST_INCREASED_IN" Value="El malestar aumentó en {0}"/>
+		<Loc Key="UI_UNREST_DECREASED_IN" Value="El malestar disminuyó en {0}"/>
+		<Loc Key="UI_RESEARCH_BOOST" Value = "Impulso a la investigación"/>
+		<Loc Key="UI_RESEARCH_SETBACK" Value = "Retroceso a la investigación"/>
+		<Loc Key="UI_ENCHANTMENT_APPLIED" Value = "Encantamiento aplicado"/>
+		<Loc Key="UI_ENCHANTMENT_REMOVED" Value = "Encantamiento eliminado"/>
+		<Loc Key="UI_SPELL_LEARNED" Value = "Hechizo aprendido"/>
+		<Loc Key="UI_SPELLBOOK_ACQUIRED" Value = "Libro de Hechizos adquirido"/>
+		<Loc Key="UI_HERO_JOINED" Value = "El Héroe se ha unido"/>
+		<Loc Key="UI_HERO_LEFT" Value = "El Héroe se fue"/>
+		<Loc Key="UI_ITEM_GAINED" Value = "Artículo ganado"/>
+		<Loc Key="UI_ITEM_LOST" Value = "Artículo perdido"/>
+		<Loc Key="UI_A_RESOURCE_HAS_BEEN_DISCOVERED_NEAR" Value = "Descubierto cerca de {0}"/>
+		<Loc Key="UI_A_RESOURCE_HAS_BEEN_DESTROYED_NEAR" Value = "Destruido cerca de {0}"/>
+		<Loc Key="UI_UNIT_RECRUITED" Value = "Unidad reclutada"/>
+		<Loc Key="UI_UNIT_DISBANDED" Value = "Unidad disuelta"/>
+		<Loc Key="UI_TRAIT_GAINED" Value = "Rascgo obtenido"/>
+		<Loc Key="UI_HERO_ABILITIES_IMPROVED" Value = "Habilidades del héroe mejoradas"/>
+		<Loc Key="UI_HERO_ABILITIES_IMPAIRED" Value = "Habilidades del héroe deterioradas"/>
+		<Loc Key="UI_UNIT_ABILITIES_IMPROVED" Value = "Habilidades de la unidad mejoradas"/>
+		<Loc Key="UI_UNIT_ABILITIES_IMPAIRED" Value = "Habilidades de la unidad deterioradas"/>
+		<Loc Key="UI_UNIT_DIED" Value = "Unidad Muerta"/>
+		<Loc Key="UI_HERO_DIED" Value = "Héroe Muerto"/>
+		<Loc Key="UI_SAVE_OR_DISCARD" Value="Estás saliendo del editor. ¿Deseas guardar los cambios o descartarlos?"/>
+		<Loc Key="UI_DISCARD_AND_EXIT" Value="Descartar y Salir"/>
+		<Loc Key="UI_SAVE_AND_EXIT" Value="Guardar y Salir"/>
+		<Loc Key="UI_STAY_AND_EDIT" Value="Permanecer y Editar"/>
+		<Loc Key="UI_GLOBAL_ENCHANTMENTS" Value="Encantamientos Globales"/>
+		<Loc Key="UI_CHANCE_TO_HIT" Value="Posibilidad de Acierto"/>
+		<Loc Key="UI_CHANCE_TO_HIT_MELEE" Value="Posibilidad de Acierto - Cuerpo a Cuerpo"/>
+		<Loc Key="UI_CHANCE_TO_HIT_MELEE_DES" Value="Representa la probabilidad de éxito de una sola tirada de ataque cuerpo a cuerpo."/>
+		<Loc Key="UI_CHANCE_TO_HIT_RANGED" Value="Posibilidad de Acierto - Alcance"/>
+		<Loc Key="UI_CHANCE_TO_HIT_RANGED_DES" Value="Representa la probabilidad de éxito de una sola tirada de ataque a distancia."/>
+		<Loc Key="UI_CHANCE_TO_DEFEND" Value="Posibilidad de Defensa"/>
+		<Loc Key="UI_CHANCE_TO_DEFEND_DES" Value="Representa la probabilidad de éxito de una sola tirada de defensa para evitar un solo punto de daño de un ataque convencional entrante."/>
+		<Loc Key="UI_CHANCE_TO_RESIST" Value="Posibilidad de Resistir"/>
+		<Loc Key="UI_CHANCE_TO_RESIST_DES" Value="Representa la probabilidad acumulada de resistir los efectos negativos de los ataques y hechizos enemigos."/>
+		<Loc Key="UI_REJECT" Value="Rechazar"/>
+		<Loc Key="UI_HIRE" Value="Contratar"/>
+		<Loc Key="UI_INVALID_NEW_TOWN_LOCATION" Value="La ubicación que has elegido para tu nueva ciudad no es válida.\n\n- La distancia mínima entre ciudades debe ser de {0} baldosas, y\n\n- No se pueden construir ciudades en las baldosas de agua."/>
+		<Loc Key="UI_MONEY_UPKEEP_FAILING" Value="Te estás quedando sin Oro. Para mantener tu saldo por encima de 0, puede que tengas que aumentar los impuestos, reasignar trabajadores y/o vender edificios y unidades.\n\nSi continúas, te verás obligado a vender unidades y/o edificios. "/>
+		<Loc Key="UI_COMBAT_OUTCOMES" Value="Resultados del Combate"/>
+		<Loc Key="UI_COMBAT_OUTCOMES_DES" Value="Muestra los posibles resultados de la batalla y la probabilidad - desde la derrota total hasta la victoria impecable. Se hará una tirada para determinar el resultado."/>
+		<Loc Key="UI_SUMMONS_UNITS" Value="Unidades Convocadas:"/>
+		<Loc Key="UI_SAVE_SUCCESSFUL" Value = "Guardado con Éxito"/>
+		<Loc Key="UI_ERROR" Value = "Error"/>
+		<Loc Key="UI_SET_SAVE_NAME" Value = "Por favor introduce un nombre de guardado"/>
+		<Loc Key="UI_SPELLBOOKS" Value = "Libro de Hechizos"/>
+		<Loc Key="UI_LIFE_SPELLBOOKS" Value = "Libro de Hechizos de la Vida"/>
+		<Loc Key="UI_DEATH_SPELLBOOKS" Value = "Libro de Hechizos de la Muerte"/>
+		<Loc Key="UI_NATURE_SPELLBOOKS" Value = "Libro de Hechizos de la Naturaleza"/>
+		<Loc Key="UI_SORCERY_SPELLBOOKS" Value = "Libro de Hechizos de Brujería"/>
+		<Loc Key="UI_CHAOS_SPELLBOOKS" Value = "Libro de Hechizos del Caos"/>
+		<Loc Key="UI_ALL_SPELLBOOKS" Value = "Todos los Libros de Hechizos"/>
+		<Loc Key="UI_SETTLEMENT_CONQUERED" Value = "Maestro, has conquistado este asentamiento. ¡Ahora, puedes decidir su destino!"/>
+		<Loc Key="UI_HAMLET_CONQUERED" Value = "Maestro, has conquistado esta aldea. ¡Ahora, puedes decidir su destino!"/>
+		<Loc Key="UI_VILLAGE_CONQUERED" Value = "Maestro, has conquistado esta villa . ¡Ahora, puedes decidir su destino!"/>
+		<Loc Key="UI_TOWN_CONQUERED" Value = "Maestro, has conquistado este poblado. ¡Ahora, puedes decidir su destino!"/>
+		<Loc Key="UI_CITY_CONQUERED" Value = "Maestro, has conquistado esta ciudad. ¡Ahora, puedes decidir su destino!"/>		
+		<Loc Key="UI_TOWN_CONQUERED2" Value = "¿Cuáles son tus órdenes?"/>
+		<Loc Key="UI_RAZE_OUTCOME" Value = "{0} es destruido."/>
+		<Loc Key="UI_KEEP_OUTCOME" Value = "{0} está bajo tu control."/>
+		<Loc Key="UI_RAZE_TOWN" Value = "Arrasar {0}"/>
+		<Loc Key="UI_KEEP_TOWN" Value = "Mantener {0}"/>
+		<Loc Key="UI_RAZE" Value = "Arrasar"/>
+		<Loc Key="UI_KEEP" Value = "Mantener"/>
+		<Loc Key="UI_NEARBY_RESOURCES" Value = "Recursos cercanos:"/>
+		<Loc Key="UI_OUTPOST_CONQUERED" Value = "Maestro, has conquistado este puesto de avanzada. Desafortunadamente, fue destruido durante la escaramuza."/>
+		<Loc Key="UI_HAS_LEVELED_UP" Value = "{0} ¡has subido de nivel!"/>
+		<Loc Key="UI_CANNOT_BUILD_CITY_WATER" Value = "No se pueden construir ciudades sobre el agua"/>
+		<Loc Key="UI_CANNOT_BUILD_CITY_LOCATION" Value = "Lugar de la ciudad inadecuado - la baldosa está ocupada por otra localización."/>
+		<Loc Key="UI_CANNOT_BUILD_CITY_PROXIMITY" Value = "Lugar de la ciudad inadecuado - hay una ciudad existente dentro de {0} baldosas."/>
+		<Loc Key="UI_MAXIMUM_POPULATION" Value = "Población máxima:"/>
+		<Loc Key="UI_MAX" Value = "Máximo:"/>
+		<Loc Key="UI_PRODUCTION_BONUS" Value = "Bonificación por producción:"/>
+		<Loc Key="UI_CHOOSE_SPELL_COST" Value = "Elige el Coste del Hechizo"/>
+		<Loc Key="UI_CONFIRM_DISBAND" Value = "¿Estás seguro de que quieres disolver esta unidad?"/>
+		<Loc Key="UI_DISBAND" Value = "Disolver"/>
+		<Loc Key="UI_FAME_AWARDED" Value = "Tu Fama aumenta en"/>
+		<Loc Key="UI_FAME_LOST" Value = "Tu Fama disminuye en"/>
+		<Loc Key="UI_COUNTER_MAGIC" Value = "Hechizo Contrarrestado"/>
+		<Loc Key="UI_SPELL_COUNTERED" Value = "Tu hechizo ha sido contrarrestado por un encantamiento existente."/>
+		<Loc Key="UI_UHH" Value = "Uhh..."/>
+		<Loc Key="UI_GAME_SAVED" Value = "Juego Guardado"/>
+		<Loc Key="UI_DISCARD" Value = "Descartar"/>
+		<Loc Key="UI_DISCARD_SPELL_SURE" Value = "¿Estás seguro de que quieres descartar este hechizo? El Maná que has pagado por él se perderá."/>
+		<Loc Key="UI_NOTIFICATION_CONSTRUCTION_COMPLETE" Value = "Construcción Completa"/>
+		<Loc Key="UI_NOTIFICATION_CONSTRUCTION_COMPLETE_DES" Value = "{0} ha terminado la construcción.\n{ICON:LMB} Ver ciudad.\n{ICON:RMB} Despedir."/>
+		<Loc Key="UI_NOTIFICATION_SUMMON_COMPLETE" Value = "Invocación Completa"/>
+		<Loc Key="UI_NOTIFICATION_SUMMON_COMPLETE_DES" Value = "Has terminado de invocar {0}.\n{ICON:LMB} Ver {0}.\n{ICON:RMB} Despedir."/>
+		<Loc Key="UI_NOTIFICATION_TOWN_LOST" Value = "Ciudad Perdida"/>
+		<Loc Key="UI_NOTIFICATION_TOWN_LOST_DES" Value = "Has perdido {0}.\n{ICON:LMB} Mostrar ciudad.\n{ICON:RMB} Despedir."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_BLOCKED" Value = "Hechizo Bloqueado"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_BLOCKED_DES" Value = "Uno de tus oponentes ha intentado atacarte con un hechizo pero tu encantamiento protector ha bloqueado el intento.\n{ICON:RMB} Descartar."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_TOWN" Value = "Población Afectada"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_TOWN_DES" Value = "Un oponente ha lanzado un hechizo sobre {0}.\n{ICON:LMB} Mostrar la ciudad.\n{ICON:RMB} Descartar."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_UNIT" Value = "Unidad Afectada"/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_UNIT_DES" Value = "Un oponente ha lanzado un hechizo sobre una de tus unidades.\n{ICON:LMB} Mostrar unidad.\n{ICON:RMB} Descartar."/>
+		<Loc Key="UI_NOTIFICATION_RESEARCH_AVAILABLE" Value = "Investigación Disponible"/>
+		<Loc Key="UI_NOTIFICATION_RESEARCH_AVAILABLE_DES" Value = "Puedes empezar a investigar un nuevo hechizo.\n{ICON:LMB} Investigación Abierta.\n{ICON:RMB} Descartar."/>
+		<Loc Key="UI_NOTIFICATION_OUTPOST_TO_TOWN" Value = "Puesto de Avanzada Expandido"/>
+		<Loc Key="UI_NOTIFICATION_OUTPOST_TO_TOWN_DES" Value = "Puesto de Avanzada {0} ha crecido lo suficiente como para convertirse en una Aldea. Ahora puedes dirigir su producción.\n{ICON:LMB} Ver poblado.\n{ICON:RMB} Descartar."/>
+		<Loc Key="UI_NOTIFICATION_CASTING_COMPLETE_DES" Value = "Tu hechizo está listo.\n{ICON:LMB} Lanzar hechizo.\n{ICON:RMB} Descartar."/>		
+		<Loc Key="UI_NOTIFICATION_CRAFTING_COMPLETE_DES" Value = "Tu artefacto está listo.\n{ICON:LMB} Ver.\n{ICON:RMB} Descartar."/>	
+		<Loc Key="UI_NOTIFICATION_UNIT_LEVEL_UP_DES" Value = "Has {0} subido de nivel.\n{ICON:LMB} Ver.\n{ICON:RMB} Descartar."/>
+		<Loc Key="UI_NOTIFICATION_STARVATION" Value = "Necesidad"/>
+		<Loc Key="UI_NOTIFICATION_STARVATION_DES" Value = "No se produce suficiente Comida {0} y tu población está disminuyendo.\n{ICON:LMB} Ver.\n{ICON:RMB} Descartar."/>
+		<Loc Key="UI_NOTIFICATION_RAISED_UNDEAD" Value = "Unidad de Muertos Vivientes Resucitada"/>
+		<Loc Key="UI_NOTIFICATION_RAISED_UNDEAD_DES" Value = "{0} ¡ha resucitado de entre los muertos y se une a tu ejército!\n{ICON:LMB} Ver.\n{ICON:RMB} Descartar."/>
+		<Loc Key="UI_NOTIFICATION_QUEUE_COMPLETE" Value = "Cola Completa"/>
+		<Loc Key="UI_NOTIFICATION_QUEUE_COMPLETE_DES" Value = "Cola de construcción {0} está vacía, esta ciudad ahora construirá Viviendas..\n{ICON:LMB} Ver ciudad.\n{ICON:RMB} Descartar."/>
+		<Loc Key="UI_BUTTON_GAME" Value = "Opciones de Juego({0})"/>
+		<Loc Key="UI_BUTTON_GAME2" Value = "Opciones de Juego"/>
+		<Loc Key="UI_BUTTON_DIPLOMACY" Value = "Diplomacia ({0})"/>
+		<Loc Key="UI_BUTTON_DIPLOMACY2" Value = "Diplomacia"/>
+		<Loc Key="UI_BUTTON_MAGIC" Value = "Magia ({0})"/>
+		<Loc Key="UI_BUTTON_MAGIC2" Value = "Magia"/>
+		<Loc Key="UI_BUTTON_ARMIES" Value = "Ejércitos ({0})"/>
+		<Loc Key="UI_BUTTON_ARMIES2" Value = "Ejércitos"/>
+		<Loc Key="UI_BUTTON_CITIES" Value = "Ciudades ({0})"/>
+		<Loc Key="UI_BUTTON_CITIES2" Value = "Ciudades"/>
+		<Loc Key="UI_BUTTON_INFO" Value = "Información del Mago ({0})"/>
+		<Loc Key="UI_BUTTON_INFO2" Value = "Información del Mago"/>
+		<Loc Key="UI_BUTTON_ARCANUS" Value = "Ver Plano de Arcanus ({0})"/>
+		<Loc Key="UI_BUTTON_MYRROR" Value = "Ver Plano de Myrror ({0})"/>
+		<Loc Key="UI_BUTTON_SURVEYOR" Value = "Alternar Modo Topógrafo ({0})"/>
+		<Loc Key="UI_SELL" Value = "Vender"/>
+		<Loc Key="UI_SELL_BUILDING_SURE" Value = "¿Estás seguro de que deseas vender este edificio por {ICON:GoldIcon}{0}?"/>
+		<Loc Key="UI_SELL_BUILDING_STOP_CRAFT" Value="Si vendes este edificio dejará de producir su {0}."/>
+		<Loc Key="UI_WELCOME" Value="Bienvenido, {0}"/>
+		<Loc Key="UI_WELCOME_DES" Value="Te doy la bienvenida, oh gran {0}!\nSi pudieras dedicar un momento de tu tiempo a tu humilde servidor, me gustaría presentarte a los manipuladores del mundo que he preparado para tu llegada.\n\n(ACTIVAR TUTORIALES)"/>
+		<Loc Key="UI_CAN_NOT_SELL" Value="No puedes vender tu {0}."/>
+		<Loc Key="UI_CAN_NOT_SELL_DEPENDENCY" Value="No puedes vender este edificio porque {0} dependes de él."/>
+		<Loc Key="UI_CAN_NOT_SELL_ENCHANTMENT" Value="No puedes vender este edificio porque es el resultado de un encantamiento activo."/>
+		<Loc Key="UI_CONFIRM_RAZE_FAME_COST" Value="¿Estás seguro de que deseas arrasar esta ciudad? Te costará {0} Fama."/>
+		<Loc Key="UI_CONFIRM_RAZE_OUTPOST" Value="¿Estás seguro de que deseas arrasar este puesto de avanzada? Ten en cuenta que no recuperarás las unidades de colonos."/>
+		<Loc Key="UI_RELATIONS" Value="Relaciones"/>
+		<Loc Key="UI_TREATIES" Value="Tratados"/>
+		<Loc Key="UI_PERSONALITY" Value="Personalidad"/>
+		<Loc Key="UI_OBJECTIVE" Value="Objectivo"/>		
+		<Loc Key="UI_NO_UNKNOW_LOCATIONS" Value="En el rango del hechizo no había lugares desconocidos."/>		
+		<Loc Key="UI_INVALID_SPELL_TARGET" Value="Esta unidad no es un objetivo válido para el hechizo\n(El objetivo podría ser inmune al tipo de hechizo lanzado, o el efecto ya está presente en el objetivo)."/>
+		<Loc Key="UI_ENCH_INVALID_SPELL_TARGET_" Value="Sólo se permite una copia de este encantamiento en el objetivo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_BATTLE" Value="No hay ningún objetivo disponible para este hechizo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_WIZARD" Value="No hay ningún mago al que puedas apuntar con este hechizo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_RAISE_DEAD" Value="No hay unidades que puedan ser resucitadas con este hechizo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_ANIMATE_DEAD" Value="No hay unidades que puedan ser resucitadas con este hechizo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_GLOBAL" Value="No hay unidades que puedan ser afectadas por este hechizo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_HEX" Value="Esta no es una ubicación válida para este hechizo."/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET_HEX_OR_GLOBAL" Value="No hay ningún objetivo disponible para este hechizo o la ubicación seleccionada no es válida."/>
+		<Loc Key="UI_HERO_LIMIT" Value="Límite de Héroes alcanzado."/>
+		<Loc Key="UI_INFO" Value = "Información"/>
+		
+		<Loc Key="UI_SPECIAL_ACTIONS" Value="Acciones Especiales"/>
+		<Loc Key="UI_BUILD_OUTPOST" Value="Construir un Puesto Avanzado ({KEY_ACTION:UI_BUILD_OUTPOST2})"/>
+		<Loc Key="UI_BUILD_OUTPOST_DES" Value="Construye un Puesto Avanzado que se convertirá en Aldea después de varios turnos. Se requiere una unidad con la habilidad Colono para realizar esta acción."/>
+		<Loc Key="UI_BUILD_ROAD" Value="Construir Carretera ({KEY_ACTION:UI_BUILD_ROAD2})"/>
+		<Loc Key="UI_BUILD_ROAD_DES" Value="Las carreteras reducen los costes de movimiento terrestres y aumentan los ingresos en las ciudades conectadas. Se requiere una unidad con habilidad de Ingeniero para realizar esta acción."/>
+		<Loc Key="UI_INSTANT2" Value="(Al instante)"/>
+		<Loc Key="UI_MELD_WITH_NODE" Value="Fusión con el Nodo ({KEY_ACTION:UI_MELD_WITH_NODE2})"/>
+		<Loc Key="UI_MELD_WITH_NODE_DES" Value="Intenta obtener el control del nodo mágico. Tu unidad será destruida independientemente de que la fusión tenga éxito o no. Se requiere una unidad con la habilidad Melder para realizar esta acción."/>
+		<Loc Key="UI_UPGRADE_NODE" Value="Actualizar nodo ({KEY_ACTION:UI_MELD_WITH_NODE2})"/>
+		<Loc Key="UI_CHANCE" Value="Casualidad:"/>
+		<Loc Key="UI_PURIFY" Value="Purificar ({KEY_ACTION:UI_PURIFY2})"/>
+		<Loc Key="UI_PURIFY_DES" Value="Elimina la Corrupción en esta baldosa, devolviéndola a su estado natural. Se requiere una unidad con la habilidad Purificador para realizar esta acción."/>
+		<Loc Key="UI_HELD_BY" Value="En poder de {0}"/>
+		
+		<Loc Key="UI_TOGGLE_GUARD" Value="Guardia ({0})"/>
+		<Loc Key="UI_TOGGLE_GUARD_DES" Value="Ordena a este ejército que haga guardia. No te pedirán más órdenes hasta que retires la orden de guardia o aparezca un enemigo en su rango de visión."/>
+		<Loc Key="UI_TOGGLE_SKIP" Value="Espera ({0})"/>
+		<Loc Key="UI_TOGGLE_SKIP_DES" Value="Ordena a este ejército que espere órdenes hasta el siguiente turno."/>
+		<Loc Key="UI_BUTTON_BUILD" Value="Acciones Especiales"/>
+		<Loc Key="UI_BUTTON_BUILD_DES" Value="Permite realizar una acción especial (construir un puesto avanzado, construir una carretera, fusionarse con un nodo o purificar una baldosa corrupta), siempre que el ejército contenga una unidad capaz de realizar dicha acción."/>
+		<Loc Key="UI_BUTTON_TRAVEL" Value="Viaje"/>
+		<Loc Key="UI_BUTTON_TRAVEL_DES" Value="Permite al ejército viajar a otro plano, siempre que posea la habilidad correspondiente."/>
+		<Loc Key="UI_TOOLTIP_CAPITAL" Value="Ciudad Capital"/>
+		<Loc Key="UI_TOOLTIP_CAPITAL_DES" Value="Tu fortaleza se encuentra en esta ciudad. Si la pierdes, serás desterrado o derrotado."/>
+		<Loc Key="UI_UNEXPLORED" Value="Inexplorado"/>
+		<Loc Key="UI_FIGURES_DIED" Value="Figura(s) muerta"/>
+		<Loc Key="UI_RECEIVED" Value="recibido"/>
+		<Loc Key="UI_UNIT_DESTROYED" Value="unidad destruida"/>
+		<Loc Key="UI_BUTTON_COMBAT_LOG" Value="Registro de combate ({0})"/>
+		<Loc Key="UI_COMBAT_LOG_DMG" Value="({0} dmg)"/>
+		<Loc Key="UI_COMBAT_LOG_NO_FIGURES" Value="(recibido {0})"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURE" Value="1 figura muerta (recibido {0})"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURES" Value="{1} figuras muertas (recibido {0})"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURE_RESURRECTED" Value="{1} recibido {0} (1 figura resucitada)"/>
+		<Loc Key="UI_COMBAT_LOG_FIGURES_RESURRECTED" Value="{2} recibido {0} ({1} figuras resucitadas)"/>
+		<Loc Key="UI_HP_GAINED" Value="{ICON:HitIconNormal}{0}"/>
+		<Loc Key="UI_HP_LOST" Value="{ICON:HitIconMissing}{0}"/>
+		<Loc Key="UI_VS" Value="VS"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT" Value="&lt;#{3}&gt;{0}&lt;/color&gt; lanzar {1} en &lt;#{4}&gt;{2}&lt;/color&gt; {5}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_BATTLEFIELD" Value="&lt;#{2}&gt;{0}&lt;/color&gt; lanzar {1} en el campo de batalla"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST" Value="&lt;#{2}&gt;{0}&lt;/color&gt; lanzar {1}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT2_VS" Value="&lt;#{3}&gt;{0}&lt;/color&gt; vs &lt;#{4}&gt;{2}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT2_FRIENDLY" Value="&lt;#{3}&gt;{0}&lt;/color&gt; ayudas &lt;#{4}&gt;{2}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_UNIT2" Value="&lt;#{3}&gt;{0}&lt;/color&gt; lanza {1} en &lt;#{4}&gt;{2}'s &lt;/color&gt;unidades"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST_BATTLEFIELD2" Value="&lt;#{2}&gt;{0}&lt;/color&gt; lanza {1} en el campo de batalla"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_CAST2" Value="&lt;#{2}&gt;{0}&lt;/color&gt; lanzar {1}"/>
+		<Loc Key="UI_COMBAT_LOG_SPELL_COUNTERED" Value ="{0} ha sido contrarrestado"/>
+		<Loc Key="UI_COMBAT_LOG_TURN" Value="&lt;#{1}&gt;{0}'s&lt;/color&gt; turno"/>
+		<Loc Key="UI_COMBAT_LOG_WALL_DESTROYED" Value="Se destruye un segmento de la muralla de la ciudad"/>
+		<Loc Key="UI_COMBAT_LOG_WALL_ATTACK" Value="&lt;#{1}&gt;{0}'s&lt;/color&gt; atacar las murallas de la ciudad"/>
+		<Loc Key="UI_COMBAT_LOG_DESTROYED" Value="&lt;#{1}&gt;{0}'s&lt;/color&gt; destruido"/>
+		<Loc Key="UI_WIZARD_CASTS" Value="{0} lanzar"/>
+		<Loc Key="UI_BUTTON_RETREAT" Value="Huir"/>
+		<Loc Key="UI_BUTTON_AUTO_COMBAT" Value="Autocombate"/>
+		<Loc Key="UI_POWER_INCOME" Value="Ingresos por Energía"/>
+		<Loc Key="UI_POWER_INCOME_DES" Value="Muestra la producción de Energía en esta ciudad..\n\nLa Energía se utiliza para generar Maná, investigar hechizos y aumentar la Habilidad de Lanzamiento.\n\nPuedes ajustar cómo se asigna tu Energía para cada propósito en la pantalla de Magia."/>
+		<Loc Key="UI_RESEARCH_INCOME" Value="Ingresos por Investigación"/>
+		<Loc Key="UI_RESEARCH_INCOME_DES" Value="Muestra la producción de Investigación en esta ciudad."/>
+		<Loc Key="UI_GOLD_INCOME2" Value="Ingreso de Oro"/>
+		<Loc Key="UI_GOLD_INCOME2_DES" Value="La producción de Oro de la ciudad procede principalmente de los impuestos (por lo que el crecimiento de la población repercutirá en ella).\n\nLos ingresos también pueden incrementarse mediante el comercio de bienes, recursos (minerales), edificios y algunos tipos de terreno (litoral y río)."/>
+		<Loc Key="UI_NO_RESOURCES" Value="No hay recursos valiosos cerca."/>
+		<Loc Key="UI_ENCHANTMENTS_ON_WORLD" Value="Encantamientos en el Mundo"/>
+		<Loc Key="UI_ENCHANTMENTS_ON_YOU" Value="Encantamiento para Tí"/>
+		<Loc Key="UI_ON_WORLD" Value="En el Mundo"/>
+		<Loc Key="UI_ON_YOU" Value="Sobre Tí"/>
+		<Loc Key="UI_YOU_CONTROL" Value="Tú Controlas"/>
+		<Loc Key="UI_ALL_SPELLS" Value="Todos los Hechizos"/>
+		<Loc Key="UI_LIFE_SPELLS" Value="Hechizos de Vida"/>
+		<Loc Key="UI_NATURE_SPELLS" Value="Hechizos Naturales"/>
+		<Loc Key="UI_CHAOS_SPELLS" Value="Hechizos del Caos"/>
+		<Loc Key="UI_DEATH_SPELLS" Value="Hechizos de Muerte"/>
+		<Loc Key="UI_SORCERY_SPELLS" Value="Hechizos de Brujería"/>
+		<Loc Key="UI_ARCANE_SPELLS" Value="Hechizos Arcanos"/>
+		<Loc Key="UI_WORLD_SPELLS" Value="Hechizos del Mundo"/>
+		<Loc Key="UI_COMBAT_SPELLS" Value="Hechizos de Combate"/>
+		<Loc Key="UI_HERO_RECRUIT" Value="A este héroe le gustaría unirse a ti a cambio de 100 {ICON:GoldIcon}"/>
+		<Loc Key="UI_HERO_JOIN" Value="Gracias por liberarme, me uniré con gusto a tu causa, si ese es tu deseo..."/>
+		<Loc Key="UI_JOIN" Value="Unirse"/>
+		<Loc Key="UI_RIVAL_WIZARD" Value="Mago Rival"/>
+		<Loc Key="UI_CITY_RESOURCES" Value="Recursos de la Ciudad"/>
+		<Loc Key="UI_SURVEYOR" Value="Topógrafo"/>
+		<Loc Key="UI_BEGIN" Value="Empezar"/>
+		<Loc Key="UI_DEFENDERS_NEEDED" Value="Se Necesitan Defensas"/>
+		<Loc Key="UI_RESET_TUTORIALS" Value="Reiniciar Tutoriales"/>
+		<Loc Key="UI_DISABLE_TUTORIALS" Value="Desactivar Tutoriales"/>
+		<Loc Key="UI_DELETE_SAVE" Value="Borrar Guardado"/>
+		<Loc Key="UI_DELETE_SAVE_DESCRIPTION" Value="¿Estás seguro de que quieres borrar este archivo guardado?"/>
+		<Loc Key="UI_UNKNOWN_TOWN_UNITS" Value="Defensores desconocidos"/>
+		<Loc Key="UI_UNKNOWN_WIZARD" Value="Desconocido"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT" Value="Hechizos de Lanzamiento"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE1" Value="Este libro contiene todos los hechizos que has aprendido hasta ahora, oh Sabio."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE2" Value="Puede que haya que pasar muchas páginas para encontrar el hechizo que buscas, pero puedes ver los hechizos de un dominio específico, sólo tienes que usar estos marcadores."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE3" Value="Para lanzar un hechizo, primero hay que seleccionarlo en la página de la izquierda. Si se puede realizar el lanzamiento, verás aquí el botón Lanzar."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE4" Value="Algunos hechizos sólo se pueden lanzar mientras se está en el mapa del mundo, otros - sólo durante el combate. Esto se indica aquí:"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE5" Value="El lanzamiento requiere energía mágica llamada Maná {ICON:ManaIcon}. Cada hechizo cuesta Maná para ser lanzado y algunos efectos necesitan Maná cada turno para su mantenimiento."/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE6" Value="En el mapa del mundo, el tiempo de lanzamiento depende de tu Habilidad de Lanzamiento {ICON:CastingSkillIcon} - cuanto más alta sea la habilidad, más Maná podrás gastar en cada turno. Con una habilidad lo suficientemente alta, ¡incluso algunos hechizos del mundo pueden ser lanzados instantáneamente!"/>
+		<Loc Key="UI_CASTING_SPELLS_TUT_PAGE7" Value="En combate, el lanzamiento es siempre instantáneo, pero tu Habilidad de Lanzamiento limita la cantidad de Maná que puedes gastar durante todo el encuentro."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT" Value="Controles del Mapa"/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE1A" Value="¡Gracias, su magnificencia! Sólo me tomará un momento."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE1B" Value="Mueve el mapa con"/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE1C" Value="o {ICON:MMB}"/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE2A" Value="Haz clic con el botón izquierdo del ratón para seleccionar una unidad o ubicación."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE2B" Value="Haz clic con el botón derecho para mover el ejército seleccionado en el mapa."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE3" Value="Cada ejército necesita órdenes en cada turno, así que si quieres que esperen donde están, diles que esperen o que hagan guardia."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE4A" Value="Haz doble clic en tu ciudad para verla y gestionar su producción."/>
+		<Loc Key="UI_MAP_CONTROLS_TUT_PAGE4B" Value="Hagamos eso ahora, Alteza."/>
+		<Loc Key="UI_MAGIC_TUT" Value="Magia"/>
+		<Loc Key="UI_MAGIC_TUT_PAGE1" Value="Esta área te permite asignar tus puntos de Energía, ver encantamientos y utilizar la Alquimia para convertir el Maná en Oro y viceversa."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE2" Value="Estos frascos, tu Grandeza, muestran qué proporción de tu Energía {ICON:PowerIcon} se utiliza para cada propósito: aumentar tu reserva de Maná {ICON:ManaIcon}, investigar hechizos {ICON:ResearchIcon} o mejorar tu Habilidad de Lanzamiento {ICON:CastingSkillIcon}."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE3" Value="Siempre puedes ajustar estas proporciones haciendo clic en los frascos. Si haces clic en el candado, el valor se bloqueará."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE4" Value="Tanto tú como tus rivales podréis lanzar varios encantamientos, que afectarán a las unidades, a las ciudades, al mundo y a vosotros mismos. Puedes verlos aquí."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE5" Value="La mayoría de los encantamientos que controlas te cuestan Maná en cada turno para mantenerlos, puedes cancelarlos con el {ICON:ButtonCancel} botón."/>
+		<Loc Key="UI_MAGIC_TUT_PAGE6" Value="Si te sobra Oro o Maná, la Alquimia te permite convertir uno en el otro."/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT" Value="¡Se Necesitan Defensores!"/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT_PAGE1" Value="Excelencia, como su asesor me siento obligado a señalar que algunos de tus pueblos no se defienden."/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT_PAGE2" Value="Incluso en tiempos de paz puede haber bandidos merodeando. Si otro ejército entra en una ciudad no defendida, ¡está inmediatamente perdida!"/>
+		<Loc Key="UI_DEFENDERS_NEEDED_TUT_PAGE3" Value="Considera la posibilidad de entrenar a una unidad o invocar a una criatura mágica para que te defienda. A veces, incluso una sola unidad, con la ayuda de tus poderosos hechizos, puede evitar un desastre."/>
+		<Loc Key="UI_OUTPOSTS_TUT" Value="Puesto Avanzado"/>
+		<Loc Key="UI_OUTPOSTS_TUT_PAGE1" Value="Todos los asentamientos recién encontrados son inicialmente puestos de avanzada y necesitan algún tiempo para evolucionar hasta convertirse en un poblado. Hasta entonces, no se pueden asignar órdenes de producción."/>
+		<Loc Key="UI_OUTPOSTS_TUT_PAGE2" Value="La rapidez con la que un puesto avanzado se convierte en poblado depende del terreno, de los recursos cercanos y de un poco de suerte - aquí se muestra el progreso."/>
+		<Loc Key="UI_OUTPOSTS_TUT_PAGE3" Value="Es aconsejable mantener algunas defensas - ¡los poblados no defendidos son presa fácil para los bandidos y los Magos rivales!"/>
+		<Loc Key="UI_PREBATTLE_TUT" Value="Batalla"/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE1" Value="Veo que estás considerando una escaramuza, Maestro - ¡excelente! Déjame decirte lo que puede ocurrir."/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE2" Value="Aquí se muestran tus fuerzas y las de tu oponente - puedes ver la fuerza de cada unidad pasando tu varita sobre ella."/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE3" Value="Aquí, puedes ver las probabilidades que creo que tú, el más Grande, tienes en esta batalla."/>
+		<Loc Key="UI_PREBATTLE_TUT_PAGE4" Value="Considera tus posibilidades y decide qué hacer ahora - toma el mando de tus unidades personalmente, déjame dirigir tus fuerzas (autocombate) o no participes."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT" Value="Investigación de Hechizos"/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE1" Value="Los hechizos son una parte esencial de tu lucha por la supremacía arcana - al fin y al cabo, vas a convertirte en un Maestro de la Magia."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE2" Value="Para ampliar tu selección de hechizos, tienes que investigar. La selección está limitada a 8 hechizos, habrá nuevos disponibles a medida que avances. "/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE3" Value="Recuerda que el Hechizo de Maestría es tu objetivo final y sólo aparecerá después de que hayas investigado la mayoría de tus otros hechizos. Adquirir nuevos Libros de Hechizos te dará nuevos hechizos para investigar."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE4" Value="La investigación lleva tiempo - cuánto, depende del número de puntos de Investigación {ICON:ResearchIcon} que produces y la complejidad del hechizo. Los hechizos más potentes suelen llevar más tiempo."/>
+		<Loc Key="UI_RESEARCHING_SPELLS_TUT_PAGE5" Value="Ahora, selecciona un hechizo de la página de la izquierda y podrás ver los detalles en la derecha. Haz clic en el botón Investigar para confirmar. Se te notificará cuando el trabajo esté completo."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT" Value="Gestión de la Ciudad"/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE1" Value="Esta, Excelencia, es tu gloriosa ciudad. Te mostraré rápidamente los alrededores, si me lo permites."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE2" Value="La sección de Impuestos Globales y Descontento te permite decidir cuán altos son los impuestos para todas las ciudades. Los impuestos altos producen más Oro {ICON:GoldIcon}, pero también más malestar {ICON:UnrestIcon}. Los ciudadanos descontentos se convierten en rebeldes y no trabajan."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE3" Value="Esta sección muestra todas tus ciudades, junto con su producción actual, Oro {ICON:GoldIcon} estos te traen, población {ICON:PopulationIcon} y malestar {ICON:UnrestIcon}."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE4" Value="Aquí puedes encontrar las unidades que están actualmente estacionadas en esta ciudad. Es una buena idea mantener algunos defensores. Si tu capital es conquistada, ¡puedes perderlo todo!"/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE5" Value="El panel de Ciudadanos te permite asignar trabajos a la población de esta ciudad. Cualquier ciudadano que no sea trabajador, será por defecto un campesino."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE6" Value="Esta sección muestra los recursos que hay en la zona de influencia de la ciudad. Estos recursos proporcionan varias bonificaciones y siempre es bueno tenerlos."/>
+		<Loc Key="UI_TOWN_MANAGEMENT_TUT_PAGE7" Value="Este panel te muestra la cola de construcción de esta ciudad. La velocidad de producción depende de los puntos de producción {ICON:ProductionIcon} generado por tus ciudadanos. También puedes utilizar el Oro para acelerar las cosas."/>
+		<Loc Key="UI_CONSTRUCTION_TUT" Value="Construcción"/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE1" Value="Este lugar te permite establecer una cola de construcción para esta ciudad - elige entre edificios (a la izquierda) o unidades (a la derecha)."/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE2A" Value="Pasa tu varita mágica por encima de un edificio o unidad para obtener más información sobre su finalidad o características."/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE2B" Value="Haz clic para añadir un elemento a la cola de construcción."/>
+		<Loc Key="UI_CONSTRUCTION_TUT_PAGE3" Value="Los edificios y unidades en gris tienen prerrequisitos - requieren que haya otras estructuras en la ciudad antes de que puedas construirlos."/>
+		<Loc Key="UI_OPT_ULTRALOW" Value="Ultrabajo"/>
+		<Loc Key="UI_OPT_HIGH" Value="Alto"/>
+		<Loc Key="UI_OPT_MEDIUM" Value="Medio"/>
+		<Loc Key="UI_OPT_LOW" Value="Bajo"/>
+		<Loc Key="UI_STOP_CASTING_TITLE" Value="Parar lanzamientos"/>
+		<Loc Key="UI_STOP_CASTING_DESC" Value="¿Seguro que quieres dejar de hacer lanzamientos {0} y perder {1} el Maná invertido?"/>
+		<Loc Key="UI_STOP_CASTING" Value="Parar lanzamientos"/>
+		<Loc Key="UI_TILE_CORRUPTED" Value="Baldosa corrupta"/>
+		<Loc Key="UI_ROOM_ENEMYDEFEATED" Value="¡Enemigo Derrotado!"/>
+		<Loc Key="UI_ROOM_UNITSUMMONED" Value="{0} Convocado"/>
+		<Loc Key="UI_ROOM_SPELLRESEARCHED" Value="Hechizo Investigado:"/>
+		<Loc Key="UI_ROOM_SPELLRESEARCHED2" Value="{0}"/>
+		<Loc Key="UI_ROOM_DEFEATBYWIZARD" Value = "Derrotado por {0}"/>
+		<Loc Key="UI_ROOM_DEFEATBYNEUTRALS" Value = "Derrotado por neutrales"/>
+		<Loc Key="UI_UNIT_MOVEMENT_PROMPT" Value = "¡Las unidades están a la espera de recibir órdenes!"/>
+		<Loc Key="UI_SPELL_CAST_PROMPT" Value = "¡Tienes un hechizo preparado!"/>
+		<Loc Key="UI_GROUND_MOVEMENT" Value = "Movimiento Terrestre"/>
+		<Loc Key="UI_GROUND_MOVEMENT_DES" Value = "Caminar permite a la unidad moverse por las baldosas del suelo"/>
+		<Loc Key="UI_GROUND_ONLY_MOVEMENT" Value = "Sólo Movimiento Terrestre"/>
+		<Loc Key="UI_GROUND_ONLY_MOVEMENT_DES" Value = "Esta unidad no puede moverse por encima de las baldosas de agua."/>
+		<Loc Key="UI_WATER_MOVEMENT" Value = "Movimiento por Agua"/>
+		<Loc Key="UI_WATER_MOVEMENT_DES" Value = "Nadar permite que las unidades se muevan sobre las baldosas de agua."/>
+		<Loc Key="UI_WATER_ONLY_MOVEMENT" Value = "Sólo Movimiento por Agua"/>
+		<Loc Key="UI_WATER_ONLY_MOVEMENT_DES" Value = "Esta unidad no puede moverse sobre las baldosas de tierra."/>
+		<Loc Key="UI_FLYING_MOVEMENT" Value = "Volando"/>
+		<Loc Key="UI_FLYING_MOVEMENT_DES" Value = "Las unidades voladoras ignoran los costes de movimiento del terreno y no pueden ser atacadas cuerpo a cuerpo a menos que la unidad atacante esté volando o posea un Ataque de Aliento, un Ataque de Mirada o un Ataque de Lanzamiento. Las unidades terrestres pueden tomar represalias contra una unidad voladora cuando son atacadas."/>
+		<Loc Key="UI_CITY_MANAGER_TUT" Value = "Administrador de la Ciudad"/>
+		<Loc Key="UI_CITY_MANAGER_TUT_PAGE1" Value = "Aquí puedes ver de un vistazo todas las ciudades que te pertenecen, Maestro."/>
+		<Loc Key="UI_CITY_MANAGER_TUT_PAGE2" Value = "Al hacer clic en una ciudad puedes ver su ubicación en el mundo, así como los encantamientos que la afectan."/>
+		<Loc Key="UI_HERO_EQUIP_TUT" Value = "Equipamiento de Artefactos"/>
+		<Loc Key="UI_HERO_EQUIP_TUT_PAGE1" Value = "Todos los artefactos (objetos mágicos) que creas, que adquieres buscando en ruinas o guaridas, o que compras a mercaderes, se guardan aquí, en la bóveda de tu Fortaleza."/>
+		<Loc Key="UI_HERO_EQUIP_TUT_PAGE2" Value = "Pueden ser equipados por los héroes (si empleas alguno), siempre que tengan una ranura de equipo que coincida con el tipo de objeto. Basta con arrastrar y soltar un objeto sobre un héroe para equiparlo."/>
+		<Loc Key="UI_HERO_EQUIP_TUT_PAGE3" Value = "Cualquier objeto que consideres que no te es útil, puede ser destruido para ganar Maná, o intercambiado con Magos rivales."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT" Value = "Información de la Unidad"/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE1" Value = "Aquí puedes encontrar información detallada sobre una unidad concreta"/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE2" Value = "Tus estadísticas, puntos de vida, movimiento, mantenimiento y otros detalles se muestran en el panel central."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE3" Value = "A la izquierda puedes comprobar la raza de la unidad, los puntos de experiencia, el Libro de Hechizos (para los lanzadores) y los objetos equipados (para los héroes)."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE4" Value = "Si consideras que el mantenimiento de una unidad es demasiado caro, puedes disolverla pulsando este botón."/>
+		<Loc Key="UI_UNIT_INFORMATION_TUT_PAGE5" Value = "Y por último, en esta zona puedes ver las habilidades especiales de la unidad, así como los encantamientos que les afectan."/>
+		<Loc Key="UI_FANTASTIC_UNIT" Value = "Unidad Fantástica"/>
+		<Loc Key="UI_FANTASTIC_UNIT_DES" Value = "Se trata de una unidad fantástica - que ha sido invocada, creada o transformada por la magia. Las unidades fantásticas no ganan puntos de experiencia, no reciben bonificaciones de liderazgo de los héroes y no reducen los disturbios en las ciudades como lo hacen las unidades normales, pero sus ataques anulan la inmunidad a las armas de otras unidades."/>
+		<Loc Key="UI_ARMY_MANAGER_TUT" Value = "Jefe del Ejército"/>
+		<Loc Key="UI_ARMY_MANAGER_TUT_PAGE1" Value = "Aquí puedes ver todos los ejércitos que sirven bajo tu bandera, los héroes contratados y los objetos mágicos no utilizados."/>
+		<Loc Key="UI_ARMY_MANAGER_TUT_PAGE2" Value = "Selecciona un ejército para ver en qué lugar del mundo se encuentra."/>
+		<Loc Key="UI_VIEW_ARMY" Value = "Ver Ejército"/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT" Value = "Espejo, Gráfico y Victoria"/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE1" Value = "El Espejo muestra la información más importante sobre ti, oh gran Mago."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE2" Value = "Los rasgos, que son tus habilidades especiales, se muestran aquí. A veces se pueden adquirir nuevos rasgos como tesoros al limpiar lugares muy difíciles."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE3" Value = "Tus Libros de Hechizos, que te permiten investigar y lanzar hechizos de tus correspondientes dominios, están aquí. Estos también pueden obtenerse de los tesoros."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE4" Value = "Si quieres saber cómo se compara tu poder con el de los Magos rivales, haz clic en el botón Historial. Sólo puedes ver el poder de los Magos con los que ya te has encontrado."/>
+		<Loc Key="UI_MIRROR_AND_GRAPH_TUT_PAGE5" Value = "La sección de Victoria te mostrará tu progreso para reclamar el título de Maestro de la Magia y por lo tanto - ganar el juego."/>
+		<Loc Key="UI_NO_VALID_TARGET" Value = "Objetivo no Válido"/>
+		<Loc Key="UI_SPELL_NO_VALID_TARGET" Value = "No hay ningún objetivo disponible para este hechizo. Tendrás que descartar el hechizo o cambiarlo por otro si no hay un objetivo válido disponible al final de este turno."/>
+		<Loc Key="UI_AUTOSAVE" Value = "Guardado Automático"/>
+		<Loc Key="UI_AUTOSAVE_FREQUENCY_OFF" Value = "Apagar"/>
+		<Loc Key="UI_AUTOSAVE_FREQUENCY_ONE" Value = "Cada turno"/>
+		<Loc Key="UI_AUTOSAVE_FREQUENCY" Value = "Cada {0} turnos"/>
+		<Loc Key="UI_BATTLE_TUT" Value = "Batalla"/>		
+		<Loc Key="UI_BATTLE_TUT_PAGE1" Value = "Veo que has elegido dirigir tus tropas personalmente, oh Grandioso. ¿Unas palabras de consejo de mi parte, si me lo permites...?"/>		
+		<Loc Key="UI_BATTLE_TUT_PAGE2" Value = "El grupo defensor está a la izquierda y el grupo atacante a la derecha. Los defensores siempre van primero y ganan si no son derrotados en 50 turnos."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE3" Value = "Durante tu turno, puedes dar órdenes a las unidades que controlas en cualquier orden. Cada unidad tiene un número limitado de acciones ({ICON:MovementIcon}) que se utiliza tanto para el movimiento como para el ataque."/>		
+		<Loc Key="UI_BATTLE_TUT_PAGE4" Value = "Los Magos que participan en la batalla pueden lanzar hechizos una vez por turno. Tú también puedes hacerlo, siempre que tengas suficiente Maná, energía de hechizo y los hechizos adecuados, por supuesto. Haz clic en este botón para ver tu Libro de Hechizos."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE5" Value = "A veces las fuerzas enemigas pueden ser demasiado fuertes y puede ser prudente retirarse en lugar de enfrentarse a la muerte. Ten en cuenta que la huida también puede acarrear grandes pérdidas."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE6" Value = "Si necesitas explicaciones adicionales sobre la mecánica de la batalla, mira las notas que he preparado para ti."/>
+		<Loc Key="UI_BATTLE_TUT_PAGE7" Value = "Ah, casi lo olvido - si deseas obtener información detallada sobre cualquier unidad, haz clic en ella con {ICON:LMB}.\n\nBuena suerte, Maestro!"/>
+		<Loc Key="UI_NOT_AVAILABLE" Value = "N/A"/>
+		<Loc Key="UI_DIFF_WIZARD_PICKS" Value = "Tus Selecciones de Mago"/>
+		<Loc Key="UI_DIFF_WIZARD_PICKS_DES" Value = "Cuántos puntos puedes gastar en libros de Hechizos y rasgos de Mago."/>
+		<Loc Key="UI_DIFF_STARTING_GOLD" Value = "Oro Inicial"/>
+		<Loc Key="UI_DIFF_STARTING_GOLD_DES" Value = "Cuánto Oro {ICON:GoldIcon} tendrás a tu disposición al comienzo del juego."/>
+		<Loc Key="UI_DIFF_AI_SKILL" Value = "Habilidad de la IA"/>
+		<Loc Key="UI_DIFF_AI_SKILL_DES" Value = "Cómo de bien los jugadores controlados el ordenador harán uso de sus recursos disponibles y lo inteligentes que será su comportamiento durante las batallas.\n\nTen en cuenta que en el nivel Hábil, la IA será muy agresiva y puede que se requieran muchos sobornos para no ir a la guerra de inmediato.\n\nEn el nivel Maestro, los magos enemigos comenzarán el juego con muy malas relaciones contigo y probablemente te declararán la guerra casi de inmediato. Puedes intentar sobornar, pero más temprano que tarde, la guerra seguirá siendo inevitable."/>
+		<Loc Key="UI_DIFF_NEUTRAL_ARMIES" Value = "Ejércitos Neutrales"/>
+		<Loc Key="UI_DIFF_NEUTRAL_ARMIES_DES" Value = "Fuerza y frecuencia de aparición de los ejércitos neutrales que recorren el mundo."/>
+		<Loc Key="UI_DIFF_LAIR_DEFENCE" Value = "Defensa de la Guarida"/>
+		<Loc Key="UI_DIFF_LAIR_DEFENCE_DES" Value = "Fuerza de los ejércitos neutrales que defienden las guaridas."/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS" Value = "Eventos Especiales"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_DES" Value = "Eventos especiales que ocurren en el mundo, desde un terremoto hasta un regalo al azar. Elige entre:\nOriginal Antiguo sin Modificar - eventos como los que había en el juego original, sin intervención del jugador.\nOriginal Actualizado - modificado para dar al jugador opciones en los eventos.\nEventos Originales Nuevos y Actualizados, creados para el remake."/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_NONE" Value = "Ninguno"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_ORIGINAL" Value = "Original Antiguo sin Modificar"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_ORIGINAL_MODIFIED" Value = "Original Actualizado"/>
+		<Loc Key="UI_DIFF_SPECIAL_EVENTS_ORIGINAL_AND_NEW" Value = "Eventos Nuevos y Actualizados"/>
+		<Loc Key="UI_DIFF_MAGIC_INTENSITY" Value = "Intensidad de la Magia"/>
+		<Loc Key="UI_DIFF_MAGIC_INTENSITY_DES" Value = "Cuánta Energia {ICON:PowerIcon} se obtiene para cada nodo de energía controlado."/>
+		<Loc Key="UI_BATTLE_MP_TERRAIN_COSTS" Value = "Coste de Movimiento en Batalla"/>
+		<Loc Key="UI_BATTLE_MP_TERRAIN_COSTS_DES" Value = "Establece el coste máximo del movimiento sobre terreno difícil en la batalla."/>
+		<Loc Key="UI_ALL_TERRAIN_COST_1" Value = "Todas las baldosas cuestan 1"/>
+		<Loc Key="UI_MAX_COST_2" Value = "El coste máximo es de 2"/>
+		<Loc Key="UI_FULL_TERRAIN_COST" Value = "Coste total"/>	
+		<Loc Key="UI_WORLD_SIZE" Value = "Tamaño del Mundo"/>	
+		<Loc Key="UI_WORLD_SIZE_DES" Value = "Tamaño de los planos Arcanus y Myrror.\n\nPlanos pequeños - 1408 hexes\nPlanos medios - 2080 hexes\nPlanos grandes - 2880 hexes"/>
+		<Loc Key="UI_ADD_HERO" Value = "Añadir héroe inicial"/>
+		<Loc Key="UI_ADD_HERO_DES" Value = "Comenzarás tu juego con el héroe seleccionado en tu ejército."/>
+		<Loc Key="UI_BSHAN" Value = "B'shan"/>
+		<Loc Key="UI_V_SMALL" Value = "Muy pequeño"/>
+		<Loc Key="UI_SMALL" Value = "Pequeño"/>
+		<Loc Key="UI_MEDIUM" Value = "Medio"/>
+		<Loc Key="UI_LARGE" Value = "Grande"/>
+		<Loc Key="UI_INITIAL_ECONOMY" Value = "Economía inicial"/>
+		<Loc Key="UI_INITIAL_ECONOMY_DES" Value = "En configuración fácil, comenzarás el juego con un granero, un santuario y un colono adicional en tu capital.\n\nEn configuración media, comenzarás con un granero y un colono adicional.\n \nEn configuración dura, comienzas sin extras."/>
+		<Loc Key="UI_EASY" Value="Fácil"/>
+		<Loc Key="UI_NORMAL" Value="Normal"/>
+		<Loc Key="UI_HARD" Value="Difícil"/>
+		<Loc Key="UI_AI_WIZARDS" Value="Número de magos de la IA"/>
+		<Loc Key="UI_AI_WIZARDS_DES" Value="A cuántos oponentes controlados por el ordenador te enfrentarás durante el juego."/>		
+		<Loc Key="UI_CURRENT_TURN" Value = "Turno actual:"/>
+		<Loc Key="UI_JANUARY" Value = "Enero"/>
+		<Loc Key="UI_FEBRUARY" Value = "Febrero"/>
+		<Loc Key="UI_MARCH" Value = "Marzo"/>
+		<Loc Key="UI_APRIL" Value = "Abril"/>
+		<Loc Key="UI_MAY" Value = "Mayo"/>
+		<Loc Key="UI_JUNE" Value = "Junio"/>
+		<Loc Key="UI_JULY" Value = "Julio"/>
+		<Loc Key="UI_AUGUST" Value = "Agosto"/>
+		<Loc Key="UI_SEPTEMBER" Value = "Septiembre"/>
+		<Loc Key="UI_OCTOBER" Value = "Octubre"/>
+		<Loc Key="UI_NOVEMBER" Value = "Noviembre"/>
+		<Loc Key="UI_DECEMBER" Value = "Diciembre"/>
+		<Loc Key="UI_STARVATION" Value = "Inanición!"/>
+		<Loc Key="UI_STARVATION2" Value = "Inanición"/>
+		<Loc Key="UI_STARVATION_DES" Value = "Esta ciudad utiliza más Alimentos de los que produce y su población está disminuyendo. Aumenta la producción de Alimentos asignando más personas a la agricultura o construyendo edificios que produzcan Alimentos."/>
+		<Loc Key="UI_HUD2_TUT" Value = "Otras Informaciones Útiles"/>
+		<Loc Key="UI_HUD2_TUT_PAGE1" Value = "Veo que ya has encontrado el botón de Fin de Turno, Excelencia.\nPero todavía hay algunos manipuladores útiles para llamar tu atención."/>
+		<Loc Key="UI_HUD2_TUT_PAGE2" Value = "Primero, el topógrafo. Esta práctica herramienta te dirá todo de una baldosa sobre el que pases el ratón. Pulsa {ICON:Tab} para acceder rápidamente a ella."/>
+		<Loc Key="UI_HUD2_TUT_PAGE3" Value = "También debes saber cómo cambiar la vista entre Arcanus y Myrror. Pulsa {ICON:P} o utiliza este botón, sólo ten en cuenta que pasará un tiempo antes de que tus unidades puedan viajar libremente entre planos."/>
+		<Loc Key="UI_HUD2_TUT_PAGE4" Value = "Tu objetivo es convertirte en Maestro de la Magia. Para ello, tienes que eliminar a los Magos rivales o ser el primero en lanzar el Hechizo de Maestría."/>
+		<Loc Key="UI_HUD2_TUT_PAGE5" Value = "Si necesitas más detalles sobre un elemento concreto, sólo tienes que situar tu varita sobre él o pulsar {ICON:RMB}."/>
+		<Loc Key="UI_DISMISS_UNIT" Value = "Disolver Unidad"/>
+		<Loc Key="UI_DISMISS_UNIT_DES" Value = "Elimina permanentemente esta unidad de tu ejército."/>
+		<Loc Key="UI_HERO_EQUIPMENT" Value = "Equipamiento del Héroe"/>
+		<Loc Key="UI_HERO_EQUIPMENT_DES" Value = "Permite asignar artefactos a este personaje."/>
+		<Loc Key="UI_SPELLBOOK" Value = "Libro de Hechizos"/>
+		<Loc Key="UI_SPELLBOOK_DES" Value = "Ver los hechizos que puede lanzar este personaje."/>
+		<Loc Key="DES_MOVEMENT_ALLOWANCE" Value = "Asignación de Movimiento"/>
+		<Loc Key="DES_MOVEMENT_ALLOWANCE_DES" Value = "Se utiliza para moverse, atacar y lanzar hechizos.\nEl ataque cuerpo a cuerpo cuesta el 50% del máximo de una unidad {ICON:MovementIcon}.\nEl ataque a distancia cuesta 10 {ICON:MovementIcon} y lanzar un hechizo cuesta todo el resto de {ICON:MovementIcon}.\n\nMientras la unidad tenga al menos 1 {ICON:MovementIcon}, puede realizar una acción."/>
+		<Loc Key="DES_BUTTON_WAIT" Value = "Fin de Turno ({0})"/>
+		<Loc Key="DES_BUTTON_WAIT_DES" Value = "Omite las acciones restantes de todas tus unidades y termina tu turno."/>
+		<Loc Key="DES_BUTTON_NEXT_UNIT" Value = "Siguiente Unidad ({0})"/>
+		<Loc Key="DES_BUTTON_NEXT_UNIT_DES" Value = "Selecciona la siguiente unidad a la que aún le quede capacidad de movimiento."/>
+		<Loc Key="UI_BUTTON_MOVE" Value = "Continuar Movimiento ({0})"/>
+		<Loc Key="UI_BUTTON_MOVE_DES" Value = "Ordena a este ejército que lleve a cabo cualquier movimiento previamente planeado."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT" Value = "Fortaleza Perdida"/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE1" Value = "¡Una desgracia, Maestro! ¡Fuerzas hostiles han conquistado tu capital y han destruido tu fortaleza y tu círculo de invocación!"/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE2" Value = "Veo que ya has empezado a lanzar el Hechizo del Retorno, que construirá una nueva fortaleza en una de las ciudades que te quedan."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE3" Value = "En caso de que no controles ninguna ciudad, tienes 10 turnos para conquistar una o serás derrotado."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE4" Value = "Si necesitas generar Maná para el hechizo, utiliza la alquimia, rompe un objeto mágico o intenta encontrar cristales de Maná en el botín."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE5" Value = "Recuerda - hasta que no recuperes tu fortaleza, no podrás lanzar ningún otro hechizo y ya no recogerás Energía e Investigación de tus nodos y edificios."/>
+		<Loc Key="UI_FORTRESS_LOST_TUT_PAGE6" Value = "¡Mucha suerte, Maestro! ¡No dejes que este pequeño contratiempo te detenga en tu camino hacia la victoria!"/>
+		<Loc Key="UI_WIZARD_STARTED_SOM" Value = "{0} ¡ha comenzado a lanzar el Hechizo de Maestría!"/>
+		<Loc Key="UI_YOU_STARTED_SOM" Value = "¡Has comenzado a lanzar el Hechizo de Maestría!"/>
+		<Loc Key="UI_SPELLBOOKS_TOOLTIP_DES" Value = "Los libros de hechizos te permiten investigar nuevos hechizos de tus dominios. Además:\n- {INDENT:5%}Cada libro de hechizos agrega +1 de poder {ICON:PowerIcon}{END_INDENT}\n- {INDENT:5%}Cada libro de hechizos inicial agrega +2 en habilidad de lanzamiento {ICON:CastingSkillIcon}{END_INDENT}\n- {INDENT:5%}Cada libro de hechizos por encima del 6 agrega +5% a los puntos de investigación {ICON:ResearchIcon} invertidos en descifrar los hechizos de ese dominio, y también reduce su coste de lanzamiento en -5%."/>
+		<Loc Key="UI_TOOLTIP_WORLD_SPELL" Value = "Hechizo del Mundo"/>
+		<Loc Key="UI_TOOLTIP_WORLD_SPELL_DES" Value = "Se puede lanzar durante tu turno en el mapa del mundo."/>
+		<Loc Key="UI_TOOLTIP_COMBAT_SPELL" Value = "Hechizo de Combate"/>
+		<Loc Key="UI_TOOLTIP_COMBAT_SPELL_DES" Value = "Este tipo de hechizo puede lanzarse durante el combate y su efecto no persiste cuando éste termina."/>
+		<Loc Key="UI_CAST_SPELLS3" Value = "Hechizos de Lanzamiento"/>
+		<Loc Key="UI_TOOLTIP_NATURE" Value = "Hechizo Natural"/>
+		<Loc Key="UI_TOOLTIP_LIFE" Value = "Hechizo de la Vida"/>
+		<Loc Key="UI_TOOLTIP_DEATH" Value = "Hechizo de la Muerte"/>
+		<Loc Key="UI_TOOLTIP_CHAOS" Value = "Hechizo del Caos"/>
+		<Loc Key="UI_TOOLTIP_SORCERY" Value = "Hechizo de Brujería"/>
+		<Loc Key="UI_TOOLTIP_ARCANE" Value = "Hechizo Arcano"/>
+		<Loc Key="UI_TOOLTIP_SUMMON" Value = "Invocar"/>
+		<Loc Key="UI_TOOLTIP_SUMMON_DES" Value = "Invoca una unidad que seguirá tus órdenes. En el mapa del mundo, la unidad aparecerá en la ubicación del Círculo de Invocación, mientras que en el combate - junto a unidades aliadas."/>
+		<Loc Key="UI_TOOLTIP_ENCHANTMENT" Value = "Encantamiento"/>
+		<Loc Key="UI_TOOLTIP_ENCHANTMENT_DES" Value = "Los encantamientos son efectos duraderos que se aplican a un objetivo específico o al mundo. Cuando se lanzan desde el mapa del mundo, suelen requerir Maná para su mantenimiento, cuando se lanzan en combate, el mantenimiento no es necesario, pero el efecto termina una vez concluida la batalla."/>
+		<Loc Key="UI_TOOLTIP_INSTANT" Value = "Instantáneo"/>
+		<Loc Key="UI_TOOLTIP_INSTANT_DES" Value = "Los hechizos instantáneos resuelven sus efectos inmediatamente y no requieren mantenimiento."/>
+		<Loc Key="UI_TOOLTIP_CASTING_COST" Value = "Coste de Lanzamiento"/>
+		<Loc Key="UI_TOOLTIP_CASTING_COST_DES" Value = "Maná {ICON:ManaIcon} coste para lanzar este hechizo. Para los hechizos que se pueden lanzar tanto desde el mapa del mundo como durante el combate, estos costes suelen ser diferentes, porque el coste de los hechizos de batalla puede verse afectado por el rango de lanzamiento {ICON:CastingRangeIcon} (la distancia de la fortaleza del Mago)."/>
+		<Loc Key="UI_TOOLTIP_TARGET" Value = "Objetivo"/>
+		<Loc Key="UI_TOOLTIP_TARGET_DES" Value = "Indica sobre quién o qué se puede utilizar el hechizo. Nota: En ocasiones, el objetivo puede tener inmunidad a un tipo de hechizo concreto."/>
+		<Loc Key="UI_TOOLTIP_CASTING_TIME" Value = "Tiempo de Lanzamiento"/>
+		<Loc Key="UI_TOOLTIP_CASTING_TIME_DES" Value = "Muestra cuántos turnos se necesitan para completar el lanzamiento de este hechizo. El tiempo de lanzamiento depende de tu Habilidad de Lanzamiento {ICON:CastingSkillIcon}, tu Maná actual{ICON:ManaIcon} reservas y la complejidad del hechizo."/>
+		<Loc Key="UI_TOOLTIP_UPKEEP_COST" Value = "Coste de Mantenimiento "/>
+		<Loc Key="UI_TOOLTIP_UPKEEP_COST_DES" Value = "Cantidad de Maná {ICON:ManaIcon} por turno necesario para mantener la unidad invocada o el encantamiento (Los rasgos de los Magos, como el Canalizador y el Conjurador, pueden afectar a esto).\nSi no se puede pagar el coste, la unidad se disuelve o se anula el encantamiento."/>
+		<Loc Key="UI_TOOLTIP_COMMON_SPELL" Value = "Hechizo Común"/>
+		<Loc Key="UI_TOOLTIP_UNCOMMON_SPELL" Value = "Hechizo poco Común"/>
+		<Loc Key="UI_TOOLTIP_RARE_SPELL" Value = "Hechizo Raro"/>
+		<Loc Key="UI_TOOLTIP_VRARE_SPELL" Value = "Hechizo muy Raro"/>
+		<Loc Key="UI_SCORE_MULTIPLIER2" Value = "Multiplicador de Puntos"/>
+		<Loc Key="UI_SCORE_MULTIPLIER_DES" Value = "Cuando el juego termine, tu puntuación se multiplicará por este valor."/>
+		<Loc Key="UI_INSUFFICIENT_CASTING_SKILL" Value = "Insuficiente {ICON:CastingSkillIcon}"/>
+		<Loc Key="UI_INSUFFICIENT_MANA" Value = "Insuficiente {ICON:ManaIcon}"/>		
+		<Loc Key="UI_ISSUE_ENCOUNTERED" Value = "Error"/>
+		<Loc Key="UI_ISSUE_ENCOUNTERED_DES" Value = "Se ha encontrado un problema crítico. Se han desactivado los guardados posteriores para garantizar que no se anulen los guardados válidos anteriores. Utiliza F8 para enviarnos un informe de error si quieres. Por favor, reinicia la aplicación antes de continuar (los guardados anteriores no funcionarán correctamente si no reinicias)."/>		
+		<Loc Key="UI_REPORT_A_BUG" Value = "Informar de un Error"/>		
+		<Loc Key="UI_REPORT_A_BUG1" Value="Utiliza este formulario para informar de un problema con el juego. Una captura de pantalla del juego, el último archivo guardado y el registro se adjuntarán a este informe junto con tu comentario y se enviarán a nuestro control de errores. No se recogerá ninguna información personal."/>
+		<Loc Key="UI_REPORT_A_BUG2" Value="Por favor, describe el problema con tanto detalle como puedas en el campo de abajo. Si es posible, incluye los pasos sobre cómo reproducirlo, ya que esto mejora en gran medida la posibilidad de poder solucionar el problema."/>
+		<Loc Key="UI_REPORT_A_BUG3" Value="Gracias por tomarte el tiempo de escribir este informe."/>
+		<Loc Key="UI_REPORT_A_BUG4" Value="- Agradecimiento del equipo de MuHa Games"/>
+		<Loc Key="UI_TITLE" Value="Título"/>
+		<Loc Key="UI_BUG_DESC_HERE" Value="La descripción del error va aquí."/>
+		<Loc Key="UI_SEND" Value="Enviar"/>		
+		<Loc Key="UI_SELECT_CATEGORY" Value="Selecciona una Categoría"/>	
+		<Loc Key="UI_BUTTON_BUG_REPORT" Value="Informar de un Error"/>	
+		<Loc Key="UI_BUTTON_BUG_REPORT2" Value="Informar de un Error ({0})"/>	
+		<Loc Key="UI_EARTH_GATE_TARGET" Value="Portal de la Tierra - Selecciona la Ciudad de Destino"/>	
+		<Loc Key="UI_MANA_TRADE_DES" Value="Energía mágica utilizada para lanzar hechizos."/>	
+		<Loc Key="UI_FLEE" Value="Huir"/>	
+		<Loc Key="UI_VICTORY2" Value="Victoria"/>
+		<Loc Key="UI_VICTORY_PROGRESS" Value="Progreso de Victoria"/>
+		<Loc Key="UI_ELIMINATE_ALL_RIVALS" Value="Eliminar a todos los rivales"/>
+		<Loc Key="UI_OR" Value="O"/>
+		<Loc Key="UI_RESEARCH_AND_CAST_SOM" Value="Investiga y lanza el Hechizo de Maestría"/>
+		<Loc Key="UI_PAUSE_MENU" Value="Menú de Pausa"/>
+		<Loc Key="UI_ALCHEMY_TUT" Value="Alquimia"/>
+		<Loc Key="UI_ALCHEMY_TUT_PAGE1" Value="Si te quedas sin Oro {ICON:GoldIcon} pero tienes un excedente de Maná {ICON:ManaIcon} (o viceversa), ¿por qué no convertir uno en el otro?"/>
+		<Loc Key="UI_ALCHEMY_TUT_PAGE2" Value="El Oro y el Maná son necesarios para mantener tus edificios y unidades, quedarse sin alguno de ellos significa pérdidas."/>
+		<Loc Key="UI_ALCHEMY_TUT_PAGE3" Value="Dirígete a tu panel de Magia y Transmuta tu recurso sobrante. Puede que no sea una solución permanente, pero te dará tiempo para encontrar una."/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_COST" Value="Coste de Investigación"/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_COST_DES" Value="Número de puntos de investigación necesarios para completar este hechizo."/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_TIME" Value="Tiempo de Investigación"/>
+		<Loc Key="UI_TOOLTIP_RESEARCH_TIME_DES" Value="Número de turnos que tardarás en investigar este hechizo, en función del número de puntos de investigación que produzcas en cada turno."/>
+		<Loc Key="UI_TOOLTIP_CASTING_SKILL_COST" Value="Coste de la Habilidad de Lanzamiento"/>
+		<Loc Key="UI_TOOLTIP_CASTING_SKILL_COST_DES" Value="Indica cuánta Habilidad de Lanzamiento se utilizará para lanzar este hechizo."/>
+		<Loc Key="UI_GAME_OPTIONS" Value="Opciones de Juego"/>
+		<Loc Key="UI_OPT_CRASH" Value="Choque / congelación / bloqueo blando"/>
+		<Loc Key="UI_OPT_BUG" Value="Error"/>
+		<Loc Key="UI_OPT_GAMEPLAY-BALANCE" Value="Jugabilidad - Balance"/>
+		<Loc Key="UI_OPT_GAMEPLAY-OTHER" Value="Jugabilidad - Otros"/>
+		<Loc Key="UI_OPT_OTHER" Value="Otro Tema"/>
+		<Loc Key="UI_SENDING" Value="Enviando..."/>
+		<Loc Key="UI_NONE" Value="---"/>
+		<Loc Key="UI_SMASH_ARTEFACT" Value="Artefacto de Ruptura"/>
+		<Loc Key="UI_SMASH_ARTEFACT_DES" Value="¿Estás seguro de que quieres destruir {0}?\n\n{1} {ICON:ManaIcon} se añadirá a tu reserva de Maná."/>
+		<Loc Key="UI_NODE_TUT" Value="Nodos Mágicos"/>
+		<Loc Key="UI_NODE_TUT_PAGE1" Value="¡Maestro, hemos encontrado un nodo de poder! ¿Qué es esto?, te preguntas."/>
+		<Loc Key="UI_NODE_TUT_PAGE2" Value="El nodo mágico es un lugar lleno de poder mágico. Quien lo controla, puede aprovechar este Poder y obtenerlo para sí mismo."/>
+		<Loc Key="UI_NODE_TUT_PAGE3" Value="Los nodos son de tres tipos: Naturaleza, Caos y Hechicería, siempre están protegidos por criaturas mágicas y barreras de hechizos de su dominio."/>
+		<Loc Key="UI_NODE_TUT_PAGE4" Value="Para conquistar un nodo neutral, primero hay que derrotar a sus protectores y luego realizar una acción especial llamada fusión."/>
+		<Loc Key="UI_NODE_TUT_PAGE5" Value="Sólo dos criaturas pueden fusionarse - el Espíritu Mágico y el Espíritu Guardián. Estos pueden ser invocados con el hechizo apropiado."/>
+		<Loc Key="UI_NODE_TUT_PAGE6" Value="Ten en cuenta que incluso un nodo fusionado puede ser tomado por el espíritu de un Mago rival."/>
+		<Loc Key="UI_PRESS_F8_TO_REPORT" Value="Presiona F8 para informar de un error"/>
+		<Loc Key="UI_GO_TO_UNIT" Value="Ir a la Unidad"/>
+		<Loc Key="UI_EARTH_GATE_NO_MP" Value="Para utilizar el Portal de Tierra, cada unidad seleccionada debe tener al menos 1 punto de movimiento."/>
+		<Loc Key="UI_BUTTON_USE_EARTH_GATE" Value="Utilizar el Portal de Tierra"/>
+		<Loc Key="UI_BUTTON_USE_EARTH_GATE_DES" Value="Teletransporta instantáneamente a las unidades a otra ciudad del mismo plano con el encantamiento Portal de Tierra por el coste de 1 punto de movimiento."/>
+		<Loc Key="UI_EXP" Value="EXP"/> <!--experience points-->
+		<Loc Key="UI_EXPERIENCE" Value="Experiencia:"/>
+		<Loc Key="UI_CAPITAL_LOST1" Value="¡Desgracia, Maestro! ¡Fuerzas hostiles han conquistado tu capital y han destruido tu fortaleza y tu círculo de invocación!\n\nVeo que ya has empezado a lanzar el Hechizo del Retorno, te permitirá construir una nueva fortaleza en una de las ciudades que te quedan.\n\nEn caso de que no controles ninguna ciudad, tienes 10 turnos para conquistar una o serás derrotado."/>
+		<Loc Key="UI_CAPITAL_LOST2" Value="Hasta que no recuperes tu fortaleza, no podrás generar Maná, realizar investigaciones, aumentar tu poder de hechizo o lanzar cualquier otro hechizo.\n\nSi no tienes suficiente Maná para completar el Hechizo de Retorno, utiliza la Alquimia, destroza un objeto mágico o intenta encontrar cristales de Maná en guaridas y ruinas.\n\nMucha suerte, Maestro. No dejes que este pequeño contratiempo te detenga en tu camino hacia la victoria."/>
+		<Loc Key="UI_YOU_ARE_BANISHED" Value="!Desterrado!"/>
+		<Loc Key="UI_YOU_ARE_BANISHED_DES" Value="¡Estás desterrado y has perdido todos tus pueblos! Si no logras conquistar o construir otro pueblo antes de que se acabe el tiempo, serás derrotado."/>
+		<Loc Key="DES_SAVE_WARNING" Value="Aviso de Guardado Incompatible"/>
+		<Loc Key="DES_SAVE_WARNING_DES" Value="Este archivo de guardado ha sido creado con una versión diferente del juego. Es posible que no se cargue correctamente o que tengas problemas al jugar.\n\nVersión guardada: {0}\n\nVersión actual: {1}"/>
+		<Loc Key="UI_YOU_CAN_CAST_ONLY_ONCE_PER_TURN" Value="Sólo puedes lanzar hechizos una vez por ronda."/>
+		<Loc Key="UI_UNIT_YOU_CAN_CAST_ONLY_ONCE_PER_TURN" Value="Esta unidad ha utilizado toda su Asignación de Movimiento {ICON:MovementIcon} no puede lanzar un hechizo hasta su siguiente turno. "/>
+		<Loc Key="UI_SUMMONING_SPELLS" Value="Hechizos de Invocación"/>
+		<Loc Key="UI_UNIT_SPELLS" Value="Hechizos de Unidad"/>
+		<Loc Key="UI_OTHER_SPELLS" Value="Otros Hechizos"/>
+		<Loc Key="UI_BUTTON_BATTLE_HELP" Value="Ayuda"/>
+		<Loc Key="UI_BATTLE_HELP" Value="Ayuda en Batalla"/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS" Value="Hechizos de Lanzamiento"/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS1" Value="Para lanzar un hechizo, haz clic en el botón del Libro de Hechizos en la parte inferior central del HUD. Si tu ejército tiene unidades que lancen hechizos, tendrás la opción de seleccionarlas aquí."/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS2" Value="Lanzar hechizos durante el combate funciona un poco diferente que lanzarlos en el mapa."/>
+		<Loc Key="UI_BATTLE_HELP_CASTING_SPELLS3" Value="{ICON:BulletPoint}{INDENT:5%}Tienes una sola acción de conjuración cada ronda.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Para lanzar un hechizo, necesitas tener suficiente Maná {ICON:ManaIcon} y Habilidad de Conjuración {ICON:CastingSkillIcon}.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}La cantidad de Maná necesaria para lanzar un hechizo depende mucho de la distancia de lanzamiento. {ICON:CastingRangeIcon} - la distancia del campo de batalla a tu fortaleza. Cuanto más lejos - más caro es el hechizo. Los costes de Maná se pagan de tu reserva de Maná personal..{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}La Habilidad de Conjuración limita el coste total de los hechizos que puedes lanzar durante la batalla. El coste de la Habilidad de Conjuración es igual al coste base de Maná del hechizo (por lo que no se tiene en cuenta la distancia a la fortaleza). La reserva de Maná de la Habilidad de Conjuración se repone en cada combate.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Si el hechizo no es contrarrestado o resistido, sus efectos se aplican instantáneamente.{END_INDENT}\n{ICON:BulletPoint}{INDENT:5%}Las criaturas invocadas durante el combate se destruyen cuando termina la batalla y se disipan los encantamientos aplicados a las unidades.{END_INDENT}"/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS" Value="Ataques cuerpo a cuerpo"/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS1" Value="Al estar junto a una unidad enemiga puedes realizar un ataque cuerpo a cuerpo. Normalmente durante un ataque cuerpo a cuerpo, la unidad defensora realiza un contraataque al mismo tiempo, lo que significa que las unidades se infligen daño entre sí simultáneamente (¡es posible que tanto la unidad atacante como la defensora sean eliminadas!)."/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS2" Value="Cada tipo de ataque tiene una iniciativa determinada. Los Ataques Especiales (como Lanzamiento o Aliento de Fuego) pueden tener una iniciativa diferente y asignar su daño adicional antes o después de que se inflija el daño cuerpo a cuerpo normal. El daño de un ataque especial puede eliminar a la unidad enemiga antes de que pueda responder."/>
+		<Loc Key="UI_BATTLE_HELP_MELEE_ATTACKS3" Value="Las unidades voladoras no pueden ser atacadas cuerpo a cuerpo por una unidad que camina o nada, a no ser que el atacante posea un determinado ataque especial (Ataque de Aliento, Ataque de Lanzamiento o Ataque de Mirada). Sin embargo, la unidad cuerpo a cuerpo puede realizar un contraataque cuando es atacada por una unidad voladora."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS" Value="Ataques a Distancia"/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS1" Value="Las unidades con Ataque a Distancia {ICON:RangedIconNormal} y que dispongan de municiones {ICON:AmmoIcon} pueden realizar un ataque a distancia contra un objetivo que esté al menos a dos casillas de distancia. El objetivo debe ser visible y no estar detrás del Muro de la Oscuridad. Los ataques a Distancia no provocan respuesta por parte de la unidad atacada."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS2" Value="Los ataques físicos a distancia (como misiles {ICON:MissileIcon} o rocas {ICON:BoulderIcon}) se vuelven menos efectivos con la distancia, sufriendo -10% de Probabilidad de Impacto {ICON:ToHitRangedBonusIcon} cada 3 casillas de distancia."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS3" Value="Las unidades de largo alcance, como la Catapulta o el Barco de Guerra, sufren un máximo de -10% de Probabilidad de Impacto {ICON:ToHitRangedBonusIcon} por distancia."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS4" Value="Los ataques mágicos a distancia {ICON:LifeIcon} {ICON:DeathIcon} {ICON:NatureIcon} {ICON:ChaosIcon} {ICON:SorceryIcon} {ICON:TechIcon} no sufren penalizaciones de distancia."/>
+		<Loc Key="UI_BATTLE_HELP_RANGED_ATTACKS5" Value="Es posible que la mayoría de los ataques especiales, como los Ataques de Mirada o Ataques de Aliento, no se realicen con un ataque a distancia. Por lo general, se aplicarán en los Ataques de Contacto."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE" Value="Capacidad de Movimiento"/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE1" Value="La Capacidad de Movimiento {ICON:MovementIcon} se basa en los Puntos de Movimiento de la unidad en el mapa. En combate, se usan tanto para moverse como para atacar."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE2" Value="El coste de movimiento por tierra {ICON:MovementWalkingIcon} depende de la casilla a la que la unidad intente entrar. Algunos terrenos tienen un coste de movimiento mayor que 1. Es posible entrar en una casilla que cueste más que la Capacidad de Movimiento restante de la unidad {ICON:MovementIcon} si ese movimiento agota la Capacidad de Movimiento de la unidad."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE3" Value="Los Movimientos por agua {ICON:MovementSwimmingIcon} y aire {ICON:MovementFlyingIcon} siempre cuestan 1 punto de Capacidad de Movimiento {ICON:MovementIcon}. Las unidades que solo tienen movimiento por agua no pueden realizar movimientos sobre casillas de tierra."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE4" Value="El coste de iniciar un ataque cuerpo a cuerpo es igual a la mitad de la Capacidad máxima de Movimiento de la unidad {ICON:MovementIcon}, o de la Capacidad de Movimiento {ICON:MovementIcon} que quede después de mover la unidad, lo que sea mayor. Es posible realizar dos ataques cuerpo a cuerpo en el mismo turno, si la unidad no mueve. Las unidades pueden moverse antes o después de atacar."/>
+		<Loc Key="UI_BATTLE_HELP_MOVEMENT_ALLOWANCE5" Value="El coste de realizar un ataque a distancia es de 10 puntos de Capacidad de Movimiento {ICON:MovementIcon} o cualquier punto de Capacidad de Movimiento restante {ICON:MovementIcon}, lo que sea mayor. Se puede mover la unidad y realizar un ataque a distancia durante el resto de su Capacidad de Movimiento {ICON:MovementIcon}."/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE" Value="Armadura y Resistencia"/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE1" Value="Armadura {ICON:ArmourIconNormal} y Resistencia {ICON:ResistanceIconNormal} se usan para anular los efectos de los ataques del enemigo."/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE2" Value="Armadura {ICON:ArmourIconNormal} funciona contra ataques cuerpo a cuerpo y a distancia de todo tipo, pero también contra hechizos de impacto que causan daño directo, como el Rayo de Fuego."/>
+		<Loc Key="UI_BATTLE_HELP_ARMOUR_AND_RESISTANCE3" Value="Resistencia {ICON:ResistanceIconNormal} funciona contra hechizos enemigos duraderos que afecten a la unidad, como Sueño Negro. Dependiendo del hechizo o encantamiento, se deberá realizar una tirada de Resistencia solo una vez (al ser objetivo), cada turno (al intentar cancelar el efecto) o nunca."/>
+		<Loc Key="UI_BANISHED_CANNOT_CAST" Value="Estás desterrado y no puedes lanzar ningún hechizo hasta que completes el Hechizo del Retorno."/>
+		<Loc Key="UI_YOU_HAVE_WON" Value="¡Has vencido! Has demostrado ser superior a todos los Magos."/>
+		<Loc Key="UI_YOU_ARE_MASTER_OF_MAGIC" Value="Lanzas el antiguo Hechizo de Maestría y destierras  de tus reinos a los demás rivales restantes. El codiciado título de Maestro de la Magia es ahora incuestionablemente tuyo. Que tu mágico reinado sea eterno y magnánimo."/>
+		<Loc Key="UI_YOU_ARE_MASTER_OF_MAGIC2" Value="Has desterrado de tus reinos a los magos rivales. El codiciado título de Maestro de la Magia es ahora incuestionablemente tuyo. Que tu mágico reinado sea eterno y magnánimo."/>
+		<Loc Key="UI_NO_SUMMONING_CIRCLE_UNIT_DES" Value="No puedes lanzar este hechizo porque no tienes el Círculo de Invocación o el objetivo no es una unidad."/>
+		<Loc Key="UI_NO_SUMMONING_CIRCLE_HERO_DES" Value="No puedes lanzar este hechizo porque no tienes el Círculo de Invocación o el objetivo no es una unidad de heroe."/>
+		<Loc Key="UI_ATTACK" Value="Ataque"/>
+		<Loc Key="UI_ATTACKER" Value="Atacante"/>
+		<Loc Key="UI_DEFENSE" Value="Defensa"/>
+		<Loc Key="UI_DEFENDER" Value="Defensor"/>
+		<Loc Key="UI_GOLD_TRADE_DES" Value="El oro es el lenguaje universal del comercio."/>	
+		<Loc Key="UI_INTERESTED" Value="Interesado"/>	
+		<Loc Key="UI_INTERESTED_DES" Value="La otra parte está interesada en adquirir este artículo y está dispuesta a pagar un poco más por él."/>	
+		<Loc Key="UI_NOT_INTERESTED" Value="No interesado"/>	
+		<Loc Key="UI_NOT_INTERESTED_DES" Value="La otra parte no tiene mucho interés en adquirir este artículo. Todavía están dispuestos a comprarlo, pero pagarán menos por él."/>	
+		<Loc Key="UI_FIRE_BREATH" Value="Aliento de Fuego 3"/>	
+		<Loc Key="UI_OF_THE" Value="de los"/> <!--used in hall of fame, ie. Merlin of the Klackons-->		
+		<Loc Key="UI_HALL_OF_FAME" Value="Salón de la Fama"/>	
+		<Loc Key="UI_RARITY" Value="Rareza"/>	
+		<Loc Key="UI_BATTLE_OUTCOME1" Value="Derrota Total"/>	
+		<Loc Key="UI_BATTLE_OUTCOME1_DES" Value="Tu ejército PERDERÁ la batalla y NO habrá supervivientes."/>
+		<Loc Key="UI_BATTLE_OUTCOME2" Value="Victoria - Fuertes pérdidas"/>
+		<Loc Key="UI_BATTLE_OUTCOME2_DES" Value="Tu ejército GANARÁ la batalla, pero muchas unidades MORIRÁN y las que sobrevivan probablemente estarán gravemente HERIDAS."/>
+		<Loc Key="UI_BATTLE_OUTCOME3" Value="Victoria - Moderadas pérdidas"/>	
+		<Loc Key="UI_BATTLE_OUTCOME3_DES" Value="Tu ejército GANARÁ la batalla, pero es posible que varias unidades MUERAN y las que sobrevivan probablemente resulten HERIDAS."/>
+		<Loc Key="UI_BATTLE_OUTCOME4" Value="Victoria - Pequeñas pérdidas"/>	
+		<Loc Key="UI_BATTLE_OUTCOME4_DES" Value="Tu ejército GANARÁ la batalla, pero algunas unidades serán HERIDAS y otras pueden MORIR."/> 
+		<Loc Key="UI_BATTLE_OUTCOME5" Value="Victoria - Pérdidas insignificantes"/>	
+		<Loc Key="UI_BATTLE_OUTCOME5_DES" Value="Tu ejército GANARÁ la batalla, sin perder ninguna unidad, pero algunas unidades pueden sufrir heridas leves."/>
+		<Loc Key="UI_SAVE_FAILED" Value="Guardado Fallido"/>
+		<Loc Key="UI_GAME_IS_DAMAGED_CANNOT_SAVE" Value="Maestro, lo siento mucho, pero los datos del juego actual están corruptos y no se pueden guardar."/>
+		<Loc Key="UI_HAS_BEEN_DEFEATED_BY" Value="ha sido derrotado!\nDesterrado por "/> <!--used when another wizard gets defeated, ie. Tauron has been defeated by Merlin-->
+		<Loc Key="UI_NEUTRAL_ARMIES" Value="Ejércitos Neutrales"/>
+		<Loc Key="UI_WORLD_CASTING_SKILL" Value="Habilidad de Conjuración"/>
+		<Loc Key="UI_WORLD_CASTING_SKILL_DES" Value="Muestra cuánto Maná aún se puede gastar en lanzar hechizos este turno.\nSi un hechizo cuesta menos que tu Habilidad de Conjuración máxima, se puede lanzar instantáneamente, siempre que te quede suficiente Habilidad de Conjuración y Maná."/>
+		<Loc Key="UI_CANCEL_ENCHANTMENT" Value="Cancelar Encantamiento"/>
+		<Loc Key="UI_PRODUCTION_TURNS_LEFT" Value="Turnos Restantes"/>
+		<Loc Key="UI_PRODUCTION_TURNS_LEFT_DES" Value="Muestra el número de turnos restantes para completar esta tarea de producción.\n\nNota: Los bienes de vivienda y comercio son proyectos en curso de duración indefinida y continuarán hasta que se cancelen."/>
+		<Loc Key="UI_PRODUCTION_BUY" Value="Comprar"/>
+		<Loc Key="UI_PRODUCTION_BUY_DES" Value="Paga la cantidad indicada de Oro para reducir el tiempo de producción a 1 turno."/>
+		<Loc Key="UI_TRADE_TUT" Value="Comercio"/>
+		<Loc Key="UI_TRADE_TUT_PAGE1" Value="Este es el panel de comercio, donde puedes intercambiar varios productos con Magos rivales u ofrecerlos durante los eventos."/>
+		<Loc Key="UI_TRADE_TUT_PAGE2" Value="Estas secciones muestran los artículos que están disponibles para comerciar, el lado izquierdo es el tuyo, el lado derecho es del otro Mago."/>
+		<Loc Key="UI_TRADE_TUT_PAGE3" Value="Las secciones centrales muestran artículos actualmente seleccionados para intercambio o regalo. Utiliza el botón izquierdo del ratón para arrastrar y soltar elementos y colocarlos en la sección de ofertas."/>
+		<Loc Key="UI_TRADE_TUT_PAGE4" Value="El valor de cada oferta depende de los artículos pero se modifica en función del interés de la otra parte en vender o adquirir los bienes seleccionados."/>
+		<Loc Key="UI_TRADE_TUT_PAGE5" Value="Este interés se muestra por pequeñas flechas verdes y rojas al lado del precio."/>
+		<Loc Key="UI_TRADE_TUT_PAGE6" Value="La otra parte aceptará negociar si el valor de tu oferta es igual o superior al valor de su oferta."/>
+		<Loc Key="UI_TRADE_TUT_PAGE7" Value="Ofrecer un mejor trato o dar regalos al otro Mago aumentará ligeramente su relación contigo."/>
+		<Loc Key="UI_MANAGED_BY_FAMILIAR" Value="Gestionado por familiar"/>
+		<Loc Key="UI_TOOLTIP_MANAGED_BY_FAMILIAR" Value="Gestionado por familiar"/>
+		<Loc Key="UI_TOOLTIP_MANAGED_BY_FAMILIAR_DES" Value="Tu familiar administrará la producción de la ciudad.\n\nConstruirá:\nLa unidad defensiva más fuerte disponible, si el recuento de unidades actual es inferior a 1 + townPop/5\nEdificio de producción de alimentos disponible, si la ciudad tiene más del 50% de la población trabajando como agricultores\nY edificios económicos (Alimentos, Producción u Oro), siempre que la población sea inferior a 5.\nDespues, cualquier edificio más barato disponible hasta que se agote la lista y se establezca por defecto en viviendas.\n\nPuedes cambiar/añadir tus propias elecciones y el familiar las priorizará."/>
+		<Loc Key="UI_CAST_SPELL" Value="Conjurar Hechizo"/>
+		<Loc Key="UI_MOVE_ARMY" Value="Mover Ejército"/>
+		<Loc Key="UI_PICK_RESEARCH" Value="Elegir Investigación"/>
+		<Loc Key="UI_AI_ANIMATION_SPEED" Value="Velocidad de animación – Unidades IA"/>
+		<Loc Key="UI_BACKGROUND" Value="- Trasfondo"/>
+		<Loc Key="UI_CLICK_TO_DISMANTLE" Value="Desmantelar por Maná"/>
+		<Loc Key="UI_YOU_HAVE_NO_BATTLE_SPELLS" Value="No tienes hechizos de batalla en tu libro de hechizos."/>
+		<Loc Key="UI_NODE_POWER" Value="Poder:"/>
+		<Loc Key="UI_RESEARCH2" Value="Investigación:"/>
+		<Loc Key="UI_TOOLTIP_CUSTOM_WIZARD" Value="Mago Personalizado"/>
+		<Loc Key="UI_TOOLTIP_ARMY_SIZE" Value="Tamaño del Ejército"/>
+		<Loc Key="UI_TOOLTIP_ARMY_SIZE_DES" Value="Muestra el número actual y máximo de unidades en el ejército.\n\nCuando el ejército está completo, ninguna unidad puede unirse, pero aún será posible invocar o apoderarse de unidades enemigas durante el combate."/>
+		<Loc Key="UI_TOOLTIP_NO_UNCOMMON" Value="Hechizos poco comunes"/>
+		<Loc Key="UI_TOOLTIP_NO_UNCOMMON_DES" Value="Los hechizos poco comunes no están disponibles porque tu Mago no tiene suficientes libros de hechizos en este reino.\n\nPara seleccionar hechizos poco comunes necesitas al menos 10 libros de hechizos."/>
+		<Loc Key="UI_TOOLTIP_NO_RARE" Value="Hechizos Raros"/>
+		<Loc Key="UI_TOOLTIP_NO_RARE_DES" Value="Los hechizos raros no están disponibles porque tu Mago no tiene suficientes libros de hechizos en este reino.\n\nPara seleccionar hechizos raros necesitas al menos 11 libros de hechizos."/>
+		<Loc Key="UI_AFFORDABLE_SPELLS" Value="Hechizos asequibles"/>
+		<Loc Key="UI_MELEE_WEAPON" Value="Arma cuerpo a cuerpo"/>
+		<Loc Key="UI_MELEE_WEAPON_DES" Value="Puede llevar espada, hacha o maza."/>
+		<Loc Key="UI_MELEE_RANGED_WEAPON" Value="Arma cuerpo a cuerpo o a Distancia"/>
+		<Loc Key="UI_MELEE_RANGED_WEAPON_DES" Value="Puede llevar espada, hacha, maza, arco o una ballesta."/>
+		<Loc Key="UI_STAFF_WEAPON" Value="Arma de Conjurador"/>
+		<Loc Key="UI_STAFF_WEAPON_DES" Value="Puede llevar bastón o varita."/>
+		<Loc Key="UI_MELEE_CASTER_WEAPON" Value="Arma cuerpo a cuerpo o Arma de Conjurador"/>
+		<Loc Key="UI_MELEE_CASTER_WEAPON_DES" Value="Puede llevar espada, hacha, maza, bastón o varita."/>
+		<Loc Key="UI_ARMOR_SLOT" Value="Armadura"/>
+		<Loc Key="UI_ARMOR_SLOT_DES" Value="Puede llevar escudo, cota de malla o armadura."/>
+		<Loc Key="UI_MISC_SLOT" Value="Artículo variado"/>
+		<Loc Key="UI_MISC_SLOT_DES" Value="Puede llevar joyas, capa, yelmo, guantelete u orbe."/>
+		<Loc Key="UI_SELECT_LANGUAGE" Value="Elegir Idioma"/>
+		<Loc Key="UI_SUMMONING_CIRCLE_LOCATION" Value="Círculo de Invocación - Nueva Ubicación"/>
+		<Loc Key="UI_SUMMONING_CIRCLE_LOCATION_DES" Value="Tu círculo de invocación se ha movido a {0} porque {1} ha sido conquistado o destruido.\n{ICON:LMB} Mostrar ciudad.\n{ICON:RMB} Despedir."/>
+		<Loc Key="UI_SOM_PLAYER_CASTING_INFO" Value="Su Alteza,\n\n¡Si logras lanzar este hechizo saldrás victorioso! Pero ten en cuenta que otros magos lo saben y harán todo lo posible para detenerte."/>
+		<Loc Key="UI_SOM_ENEMY_CASTING_INFO" Value="Su Alteza,\n\n¡Si {0} lanza este hechizo, saldrá victorioso y todos los demás magos serán eliminados! ¡Haz lo que puedas para detener a este mago, antes de que sea demasiado tarde!"/>
+		<Loc Key="UI_HAS_BEEN_BANISHED" Value="ha sido desterrado por"/>
+		<Loc Key="UI_WIZARD_BANISHED_INFO" Value="Maestro,\n\nUno de tus oponentes ha perdido su Fortaleza y ahora está desterrado. Debe lanzar el Hechizo del Retorno y antes de hacerlo, no puede lanzar ninguno más. ¿Quizás podrías explotar su vulnerabilidad a tu favor?"/>
+		<Loc Key="UI_FOLLOW_ENEMY_MOVEMENT" Value="Seguir el Movimiento Enemigo"/>
+		<Loc Key="UI_DEVELOPED_BY" Value="Desarrollado por"/>
+		<Loc Key="UI_LEAD_PROGRAMMER" Value="Programador Principal"/>
+		<Loc Key="UI_PROGRAMMERS" Value="Programadores"/>
+		<Loc Key="UI_UI_AND_ART_LEAD" Value="IU &amp; Jefe de Arte"/>
+		<Loc Key="UI_2D_ARTISTS" Value="Artistas 2D"/>
+		<Loc Key="UI_3D_ARTISTS" Value="Artistas 3D"/>
+		<Loc Key="UI_WRITING_AND_LEAD_QUEST_DESIGN" Value="Diseño Narrativo"/>
+		<Loc Key="UI_QUEST_DESIGN_ASSISTANT" Value="Asistente de Diseño de Misiones"/>
+		<Loc Key="UI_LEAD_GAME_DESIGN" Value="Jefe de Diseño de Juego"/>
+		<Loc Key="UI_LEAD_QA" Value="Jefe QA"/>
+		<Loc Key="UI_ADDITIONAL_QA" Value="QA adicional"/>
+		<Loc Key="UI_MUSIC" Value="Música"/>
+		<Loc Key="UI_PUBLISHED_BY" Value="Publicado Por"/>
+		<Loc Key="UI_PRODUCERS" Value="Productores"/>
+		<Loc Key="UI_THANK_YOU_FOR_PLAYING" Value="¡Gracias por jugar!"/>
+		<Loc Key="UI_ENEMY_TURN2" Value="Turno del enemigo"/>
+		<Loc Key="UI_WIZARD_DEFEATED" Value="{0} ¡Derrotado!"/>
+		<Loc Key="UI_WIZARDS_DEFEATED" Value="¡Magos Derrotados!"/>
+		<Loc Key="UI_END_GAME" Value="Finalizar Partida"/>
+		<Loc Key="UI_KEEP_PLAYING" Value="Sigue Jugando"/>
+		<Loc Key="UI_ROAD" Value="Carretera"/>
+		<Loc Key="UI_START_CONVERSATION" Value="Iniciar conversación"/>
+		<Loc Key="UI_CHECK_WIZARDS_DETAILS" Value="Ver detalles del Mago"/>
+		<Loc Key="UI_LOADING_HINT1" Value="Pista: Tus unidades pueden resultar muertas o heridas cuando se retiran de una batalla contra un enemigo más fuerte."/>
+		<Loc Key="UI_LOADING_HINT2" Value="Pista: Los Rebeldes no contribuyen a la producción de su ciudad, pero siguen gastando comida."/>
+		<Loc Key="UI_LOADING_HINT3" Value="Pista: Si te falta oro, pero tienes mucho maná (o viceversa) - utiliza Alquimia para convertir uno en el otro."/>
+		<Loc Key="UI_LOADING_HINT4" Value="Pista: Algunas unidades pueden ser inmunes a ciertos tipos de ataque o magia - revisa sus estadísticas para más detalles."/>
+		<Loc Key="UI_LOADING_HINT5" Value="Pista: Los nodos Mágicos otorgan poderosos encantamientos a unidades fantásticas del tipo del nodo (¡incluidas las que tú controlas!)."/>
+		<Loc Key="UI_LOADING_HINT6" Value="Pista: Los nodos Mágicos tratan de disipar todos los hechizos que lanzas a menos que pertenezcan al dominio de ese nodo."/>
+		<Loc Key="UI_LOADING_HINT7" Value="Pista: Cuando no seas capaz de pagar el mantenimiento de una unidad debido a la escasez de oro, maná o alimentos, tus unidades te abandonarán."/>
+		<Loc Key="UI_LOADING_HINT8" Value="Pista: Las unidades Voladoras no pueden ser objetivo de ataques cuerpo a cuerpo normales a menos que el atacante esté volando o posea un Ataque de Aliento, Ataque de Mirada o Ataque de Lanzamiento."/>
+		<Loc Key="UI_LOADING_HINT9" Value="Pista: Otros magos entrarán inmediatamente en guerra con cualquiera que comience a lanzar Hechizos de maestría, sin importar cuán amistosas hayan sido sus relaciones antes."/>
+		<Loc Key="UI_LOADING_HINT10" Value="Pista: ten cuidado cuando muevas tus unidades cerca de ciudades que pertenecen a otros magos. Tales acciones empeorarán tus relaciones y eventualmente pueden conducir a la guerra."/>
+		<Loc Key="UI_LOADING_HINT11" Value="Pista: Recuerda que si las cosas van mal, puedes lanzar el hechizo Retroceder en el Tiempo (también conocido como hechizo Cargar Partida)."/>
+		<Loc Key="UI_LOADING_HINT12" Value="Pista: Cada ciudad tiene un alcance de 2 hexágonos que no cambia a lo largo del juego. Establécete donde te sea más beneficioso."/>
+		<Loc Key="UI_LOADING_HINT13" Value="Pista: la mayoría de las unidades (excepto las que pertenecen al reino de la Muerte) pueden sanar de forma natural y recuperar el 5 % de los puntos de vida por turno, incluso cuando se mueven."/>
+		<Loc Key="UI_LOADING_HINT14" Value="Pista: Perder tu capital es un duro golpe, mantenla bien defendida."/>
+		<Loc Key="UI_LOADING_HINT15" Value="Pista: Tu fortaleza en la capital puede disparar rayos mágicos contra los enemigos, el poder de los rayos depende del número y tipo de tus libros de hechizos."/>
+		<Loc Key="UI_LOADING_HINT16" Value="Pista: Conquistar un nodo mágico es solo el primer paso - envía un Espíritu Mágico o un Espíritu Guardián para que se fusione con él y puedas aprovechar el poder del nodo."/>
+		<Loc Key="UI_LOADING_HINT17" Value="Pista: Una de las formas de reducir los disturbios en las ciudades es mantener unidades no fantásticas en la guarnición de la ciudad."/>
+		<Loc Key="UI_LOADING_HINT18" Value="Pista: Los recursos especiales de algunos terrenos se pueden cambiar por otros con el hechizo Transmutar."/>
+		<Loc Key="UI_LOADING_HINT19" Value="Pista: Puedes tener hasta 6 héroes. Puedes descartar cualquiera que no te guste y esperar a que se ofrezca otro o lanzar uno de los hechizos de invocación de héroes para obtener uno nuevo."/>
+		<Loc Key="UI_LOADING_HINT20" Value="Pista: Durante la batalla, el tipo de terreno NO afecta la defensa de una unidad, la probabilidad de impacto o la visibilidad."/>
+		<Loc Key="UI_LOADING_HINT21" Value="Pista: Las unidades invisibles solo pueden ser atacadas por unidades que estén justo a su lado."/>
+		<Loc Key="UI_LOADING_HINT22" Value="Pista: Las unidades fantásticas no ganan experiencia ni reducen los disturbios en las ciudades en las que se encuentran."/>
+		<Loc Key="UI_LOADING_HINT23" Value="Pista: Al comienzo del combate siempre tendrás tu habilidad de lanzamiento completa, sin importar lo que hayas lanzado antes en este turno."/>
+		<Loc Key="UI_COMBAT_SPEED" Value="Velocidad de combate"/>
+		<Loc Key="UI_COMBAT_SPEED_DES" Value="Velocidad de animación de unidades y efectos."/>
+		<Loc Key="UI_IMPORT" Value="Importar Texto del Módulo"/>
+		<Loc Key="UI_EXPORT" Value="Exportar Texto del Módulo"/>
+		<Loc Key="UI_BUNDLE_MODE" Value="Modo agrupado"/>
+		<Loc Key="UI_SINGLE_MODE" Value="Modo sencillo"/>
+		<Loc Key="UI_WHICH_FORM_OF_EXPORT" Value="Nota - Las herramientas de importación/exportación no son adecuadas para copiar módulos y dárselos a otros jugadores, ya que los archivos de salida no contienen todos los datos de eventos, solo texto.\n\nSelecciona qué forma de exportación deseas utilizar:\n\nModo sencillo - exporta solo el módulo seleccionado manteniendo la estructura del texto.\n\nModo Agrupado - todos los módulos elegidos se exportan como un Paquete agrupado preparado para la localización."/>
+		<Loc Key="UI_WHICH_FORM_OF_IMPORT" Value="Nota - Las herramientas de importación/exportación no son adecuadas para copiar módulos y dárselos a otros jugadores, ya que los archivos de salida no contienen todos los datos de eventos, solo texto.\n\nSelecciona qué forma de importación deseas utilizar:\n\nModo sencillo - importa solo el módulo seleccionado manteniendo la estructura del texto.\n\modo Agrupado - importa el texto del archivo bundleblock."/>
+		<Loc Key="UI_SPECIAL_THANKS" Value="Gracias de corazón..."/>
+		<Loc Key="UI_SPECIAL_THANKS_DES1" Value="a nuestros moderadores de Discord:"/>
+		<Loc Key="UI_SPECIAL_THANKS_DES2" Value="a nuestros dedicados seguidores de MuHa, así como a los grandes fans de Master of Magic que tan bien nos han acogido."/>
+		<Loc Key="UI_SPECIAL_THANKS_DES3" Value="también a todos y cada uno de los betatesters y a todas las personas que echaron una mano aportando sugerencias invaluables para ayudarnos a mejorar este juego. ¡Os queremos a todos!"/>
+		<Loc Key="UI_MELDED_BY" Value="Fusionado por {0}"/>
+		<Loc Key="UI_IMPORTED_MODULE" Value="Importación de módulo completada."/>
+		<Loc Key="UI_IMPORT_ERROR" Value="Error: el módulo no se ha importado correctamente. Echa un vistazo a output_log.txt para ver los errores."/>
+		<Loc Key="UI_IMPORTED_MODULE_BLOCK" Value="Importación de módulo completada."/>
+		<Loc Key="UI_IMPORT_MODULE_BLOCK_WITH_ERRORS" Value="Error: el paquete de módulos no se ha importado correctamente. Echa un vistazo a output_log.txt para ver los errores."/>
+		<Loc Key="UI_EXPORTED_MODULE" Value="Exportación de módulo completada."/>
+		<Loc Key="UI_EXPORT_ERROR" Value="Error: el módulo no se ha exportado."/>
+		<Loc Key="UI_EXPORTED_MODULE_BLOCK" Value="Exportación de módulo completada."/>
+		<Loc Key="UI_EXPORT_MODULE_BLOCK_WITH_ERRORS" Value="Error: el paquete de módulos no se ha exportado."/>
+		<Loc Key="UI_QUICK_START" Value="Inicio rápido"/>
+		<Loc Key="UI_MANA_INVESTED" Value="Maná invertido:"/>
+		<Loc Key="UI_WIZARD_NOT_CASTING" Value="Nada a lo que lanzar"/>
+		<Loc Key="UI_WIZARD_NOT_CASTING_DES" Value="Este mago no está lanzando ningún hechizo en este momento. No hay nada a lo que lanzar aquí..."/>
+		<Loc Key="UI_HOTKEYS" Value="Teclas de acceso rápido"/>
+		<Loc Key="UI_NEXT_UNIT" Value="Siguiente unidad"/>
+		<Loc Key="UI_SHOW_HIDE_SURVEYOR" Value="Topógrafo"/>
+		<Loc Key="UI_END_TURN2" Value="Confirmar Fin de turno"/>
+		<Loc Key="UI_MOVE_CAMERA_NORTH" Value="Mover cámara al norte"/>
+		<Loc Key="UI_MOVE_CAMERA_WEST" Value="Mover cámara al oeste"/>
+		<Loc Key="UI_MOVE_CAMERA_SOUTH" Value="Mover cámara al sur"/>
+		<Loc Key="UI_MOVE_CAMERA_EAST" Value="Mover cámara al este"/>
+		<Loc Key="UI_CHANGE_PLANE" Value="Cambiar plano"/>
+		<Loc Key="UI_OPEN_RESEARCH" Value="Investigación abierta"/>
+		<Loc Key="UI_OPEN_PAUSE_MENU" Value="Cancelar/Abrir menú de pausa"/>
+		<Loc Key="UI_BUILD_OUTPOST2" Value="Construir puesto avanzado (colonos)"/>
+		<Loc Key="UI_BUILD_ROAD2" Value="Construir carretera (ingenieros)"/>
+		<Loc Key="UI_TOGGLE_GUARD2" Value="Guardia (ejército)"/>
+		<Loc Key="UI_TOGGLE_SKIP2" Value="Saltar (ejército)"/>
+		<Loc Key="UI_CONTINUE_MOVEMENT" Value="Continuar movimiento (ejército)"/>
+		<Loc Key="UI_COMBAT_LOGBOOK" Value="Informe de combate"/>
+		<Loc Key="UI_CREATE_BUG_REPORT" Value="Crear informe de error"/>
+		<Loc Key="UI_OPEN_WIZARD_INFO" Value="Abrir información del asistente"/>
+		<Loc Key="UI_OPEN_CITY_MANAGER" Value="Abrir administrador de la ciudad"/>
+		<Loc Key="UI_OPEN_ARMY_MANAGER" Value="Abrir administrador del ejército"/>
+		<Loc Key="UI_OPEN_DIPLOMACY" Value="Diplomacia abierta"/>
+		<Loc Key="UI_OPEN_MAGIC" Value="Abrir magia"/>
+		<Loc Key="UI_CAST_SPELLS4" Value="Lanzar hechizos"/>
+		<Loc Key="UI_NOTIFICATION_GROUP_DROWN" Value="Unidades destruidas"/>
+		<Loc Key="UI_NOTIFICATION_GROUP_DROWN_DES" Value="Las unidades de tu ejército fueron destruidas porque no tenían el tipo de movimiento necesario para la casilla en la que se encontraban.\n{ICON:LMB} Ver ciudad.\n{ICON:RMB}."/>
+		<Loc Key="UI_NUMBER_OF_TRAITS_PICKED" Value="{0} de 6 características seleccionadas."/> <!--ie. 3 de 6 rasgos elegidos -->
+		<Loc Key="UI_ENCH_DUPLICATE" Value="Este héroe tiene encantamientos activos que se cancelarán si equipas este objeto:"/>
+		<Loc Key="UI_ENCHANTED_ROAD" Value="Camino Encantado"/>		
+		<Loc Key="UI_SUCCESS" Value="¡Éxito!"/>
+		<Loc Key="UI_ENCHANTMENT_DISPELLED" Value="¡Hechizo disipado!"/>
+		<Loc Key="UI_ENCHANTMENT_REMOVED_SUCCESSFULLY" Value="Maestro, ¡buenas noticias! {COLOR:#00a710}{0}{END_COLOR} se ha disipado correctamente."/>
+		<Loc Key="UI_ENCHANTMENTS_REMOVED_SUCCESSFULLY" Value="Maestro, ¡buenas noticias! {COLOR:#00a710}{0}{END_COLOR} se han disipado correctamente."/>
+		<Loc Key="UI_AI_ENCHANTMENT_REMOVED_SUCCESSFULLY" Value="Maestro, el mago enemigo ha usado su magia y ha disipado {COLOR:#c84c26}{0}{END_COLOR}."/>
+		<Loc Key="UI_AI_ENCHANTMENT_REMOVED_SUCCESSFULLY_FROM" Value="Maestro, el mago enemigo ha usado su magia y ha disipado {COLOR:#c84c26}{0}{END_COLOR} de {COLOR:#c84c26}{1}{END_COLOR}."/>
+		<Loc Key="UI_DISPEL_FAILED" Value="Disipación fallida"/>
+		<Loc Key="UI_FAILED_TO_REMOVE_ENCHANTMENT" Value="Lo siento Maestro, pero el intento de disipar {COLOR:#c84c26}{0}{END_COLOR} ha fallado."/>
+		<Loc Key="UI_AI_FAILED_TO_REMOVE_ENCHANTMENT" Value="Maestro, el mago enemigo ha intentado disipar {COLOR:#c84c26}{0}{END_COLOR} pero ha fallado."/>
+		<Loc Key="UI_NO_ENCHANTMENTS_REMOVED" Value="Lo siento Maestro, pero tu hechizo no ha podido eliminar ningún encantamiento."/>
+		<Loc Key="UI_AI_NO_ENCHANTMENTS_REMOVED" Value="Maestro, el mago enemigo ha intentado disipar un encantamiento pero ha fallado."/>
+		<Loc Key="UI_HERO_SUMMONING_FAILED" Value="Invocación de Héroe fallida."/>
+		<Loc Key="UI_HERO_LIST_FULL" Value="Lo siento Maestro, pero el intento de invocar a un héroe ha fallado. Tu ejército no puede emplear más de 6 héroes."/>
+		<Loc Key="UI_HERO_NOT_AVAILABLE" Value="Lo siento Maestro, pero el intento de invocar a un héroe ha fallado. No hay más héroes vivos que puedan venir a servirte."/>
+		<Loc Key="UI_SPELLBLAST_SUCCESSFUL" Value="Maestro, ¡buenas noticias! Has logrado disparar con éxito {COLOR:#c84c26}{0}{END_COLOR} antes de que tu enemigo termine de lanzarlo."/>
+		<Loc Key="UI_SPELLBLAST_INSUFFICIENT_MANA" Value="No tienes suficiente maná para lanzar este hechizo."/>
+		<Loc Key="UI_SPELL_READY" Value="Hechizo listo"/>
+		<Loc Key="UI_SPELL_READY_DES" Value="Tienes un hechizo listo para ser lanzado. Decide qué hacer con él antes de comenzar a lanzar otro."/>
+		<Loc Key="UI_MATCH_OFFER" Value="Igualar"/> <!--used in trade transfer when transferring money or mana: match offer of the other wizard-->
+		<Loc Key="UI_TRADED_QTY" Value="Cantidad negociada:"/>
+		<Loc Key="UI_SELECT_AN_ENCHANTMENT_TO_BIND" Value="Selecciona un encantamiento"/>
+		<Loc Key="UI_AUTOSAVE_ERROR" Value="Error de Autoguardado"/>
+		<Loc Key="UI_FILE_WRITE_FORBIDDEN" Value="Error al guardar: el sistema operativo ha bloqueado la escritura en el archivo guardado. Esto puede deberse a un software externo (como antivirus o firewall) o problemas de hardware."/>
+		<Loc Key="UI_COMBAT_TEXT4" Value="¿Cuáles son sus órdenes, Majestad?"/>
+		<Loc Key="UI_ZOOM_IN" Value="Acercar"/>
+		<Loc Key="UI_ZOOM_OUT" Value="Alejar"/>
+		<Loc Key="UI_NOTIFICATION_AI_CASTS_SPELL" Value="¡Un mago rival ha lanzado un hechizo.!"/>
+		<Loc Key="UI_FOCUS_ON_UNITS_BATTLE" Value="Centrar la cámara en la unidad durante la batalla"/>
+		<Loc Key="UI_AUTO_END_TURN" Value="Auto-finalización de Turno"/>
+		<Loc Key="UI_AUTO_END_TURN_BATTLE" Value="Auto-finalización de Turno en la batalla"/>
+		<Loc Key="UI_PLAYER_ANIMATION_SPEED" Value="Velocidad de animación - Unidades del jugador"/>
+		<Loc Key="UI_CAMERA_FOLLOW" Value="Seguimiento de cámara"/>
+		<Loc Key="UI_MAP_EDGESCROLLING" Value="Desplazamiento a través del borde del mapa"/>
+		<Loc Key="UI_NUMBER_OF_NEUTRAL_TOWNS" Value="Número de Ciudades Neutrales"/>
+		<Loc Key="UI_NUMBER_OF_NEUTRAL_TOWNS_DES" Value="Establece cuántas ciudades neutrales quieres que estén presentes en el mundo."/>
+		<Loc Key="UI_FEW" Value="Pocas"/>
+		<Loc Key="UI_AVERAGE" Value="Intermedias"/>
+		<Loc Key="UI_MANY" Value="Muchas"/>
+		<Loc Key="UI_CEO" Value="Director ejecutivo"/>
+        <Loc Key="UI_CFO" Value="Director financiero"/>
+        <Loc Key="UI_CMO" Value="Director de Marketing"/>
+        <Loc Key="UI_TECHNICAL_DIRECTOR" Value="Director técnico"/>
+        <Loc Key="UI_CREATIVE_DIRECTOR" Value="Director creativo"/>
+        <Loc Key="UI_EXECUTIVE_PRODUCER" Value="Productor ejecutivo"/>
+        <Loc Key="UI_SENIOR_PRODUCER" Value="Productor sénior"/>
+        <Loc Key="UI_ASSISTANT_PRODUCER" Value="Asistente de producción"/>
+        <Loc Key="UI_ADDITIONAL_PRODUCTION" Value="Producción adicional"/>
+        <Loc Key="UI_SENIOR_BRAND_MANAGER" Value="Manager de marca"/>
+        <Loc Key="UI_JUNIOR_BRAND_MANAGER" Value="Manager de marca junior"/>
+        <Loc Key="UI_SOCIAL_MEDIA_STRATEGIST" Value="Estratega de redes sociales"/>
+        <Loc Key="UI_COMMUNITY_MANAGER" Value="Community Manager"/>
+        <Loc Key="UI_MEDIA_RELATIONS" Value="Relaciones con los medios"/>
+        <Loc Key="UI_MEDIA_RELATIONS_FOR_SPAIN_AND_LATIN_AMERICA" Value="Relaciones con los Medios de España y Latinoamérica"/>
+        <Loc Key="UI_PRODUCCIÓN_DISEÑO" Value="Diseño de producción"/>
+        <Loc Key="UI_PRODUCTION_ART_ASSISTANT" Value="Asistente artístico de producción"/>
+        <Loc Key="UI_E_COMMERCE" Value="E-Commerce"/>
+        <Loc Key="UI_MANUAL_LAYOUT" Value="Diseño del manual"/>
+        <Loc Key="UI_OPERATIONS_LEAD" Value="Líder de operaciones"/>
+        <Loc Key="UI_OPERATIONS_TEAM" Value="Equipo de operaciones"/>
+        <Loc Key="UI_HEAD_OF_ACCOUNTS" Value="Jefe de cuentas"/>
+        <Loc Key="UI_ADMIN_ASSISTANT" Value="Admin Assistant"/>
+        <Loc Key="UI_CUSTOMER_SUPPORT_STAFF" Value="Personal de atención al cliente"/>
+        <Loc Key="UI_WEB_DEVELOPMENT" Value="Desarrollo web"/>
+        <Loc Key="UI_CEO_MATRIX_GAMES_LLC" Value="CEO, Matrix Games LLC"/>
+        <Loc Key="UI_PROJECT_MANAGER" Value="Manager de Proyecto"/>
+        <Loc Key="UI_TORIN_ALREADY_IN_SERVICE" Value="¡Ya tienes a este poderoso Héroe a tu servicio, Maestro!"/>
+		<Loc Key="UI_REPEAT" Value="Repetir"/>
+		<Loc Key="UI_TOOLTIP_REPEAT" Value="Repetir la producción de esta unidad indefinidamente."/>
+		<Loc Key="UI_AI_ENCHANTMENTS_REMOVED_SUCCESSFULLY_FROM_GLOBAL" Value="Maestro, el mago enemigo ha usado su magia y ha disipado {COLOR:#c84c26}{0}{END_COLOR}."/>
+		<Loc Key="UI_THE_PROGRAMMER" Value="Programador"/>
+        <Loc Key="UI_ADDITIONAL_CODING" Value="Codificación original"/>
+        <Loc Key="UI_FANMADE_LOCALISATION" Value="Traducción hecha por fans"/>
+        <Loc Key="UI_ITALIAN" Value="Enrico Pizzolato - Italiano"/>
+		<Loc Key="UI_NOTIFICATION_AI_CASTS_GLOBAL_SPELL_DES" Value="¡Un mago rival ha lanzado un hechizo global!\n{ICON:LMB} Mostrar detalles.\n{ICON:RMB} Seguir."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_ARMY_DES" Value="¡Un mago rival ha hechizado a uno de tus ejércitos!\n{ICON:LMB} Mostrar ejército.\n{ICON:RMB} Seguir."/>
+		<Loc Key="UI_NOTIFICATION_SPELL_ON_WIZARD_DES" Value="¡Un mago rival te ha hechizado!\n{ICON:LMB} Mostrar detalles.\n{ICON:RMB} Seguir."/>
+		<Loc Key="UI_BUTTON_AUTO_COMBAT_SPELLCASTING" Value="Autocombate - Lanzamiento de hechizos"/>
+		<Loc Key="UI_GREAT_UNSUMMONING_OUTCOME" Value="Número de unidades no invocadas: {0}"/>
+		<Loc Key="UI_DEATH_WISH_OUTCOME" Value="Número de unidades eliminadas por Deseo de Muerte: {0}"/>
+		<Loc Key="UI_CHANGE_CASTING_TITLE" Value="Cambiando Lanzamiento de Hechizo"/>
+		<Loc Key="UI_CHANGE_CASTING_DES" Value="Estás lanzando {0} y ya has invertido {1} Mana. Si cambias el hechizo, se perderá este Maná. ¿Estás seguro?"/>
+		<Loc Key="UI_CHANGE_CASTING" Value="Cambiar"/>
+		<Loc Key="UI_MODS" Value="Mods"/>
+		<Loc Key="UI_MOD_MANAGER" Value="Mod Manager"/>
+		<Loc Key="UI_MOVE_UP" Value="Arriba"/>
+		<Loc Key="UI_MOVE_DOWN" Value="Abajo"/>
+		<Loc Key="UI_PUBLISH" Value="Publicar"/>
+		<Loc Key="UI_VISIBILITY" Value="Visibilidad"/>
+		<Loc Key="UI_UPLOADING" Value="Subir"/>
+		<Loc Key="UI_NIGHTSHADE_DISPEL_SUCCESS" Value="El sabio en {0} usó Sombra Nocturna para desvanecer a {1}."/>
+		<Loc Key="UI_NIGHTSHADE_DISPEL_FAILURE" Value="El sabio en {0} intentó lanzar un poderoso encantamiento con Sombra Nocturna pero falló."/>
+		<Loc Key="UI_ADDITIONAL_CONTENT" Value="Contenido adicional"/>
+		<Loc Key="UI_SAVE_DLC1" Value="DLC Contenido"/>
+		<Loc Key="UI_SAVE_DLC1_DES" Value="Esta partida salvada utiliza contenido 'Through the Myrror'."/> <!--do not localise the 'Through the Myrror' part - this is the DLC title and should stay in English -->
+		<Loc Key="UI_ASSIGN_KEY" Value="Asignar una nueva tecla a"/>
+		<Loc Key="UI_ROAD_PLANNING" Value="Trazar una ruta para construir la carretera. {ICON:LMB} para confirmar, {ICON:RMB} para cancelar."/>
+		<Loc Key="UI_NOT_ASSIGNED" Value="[No asignada]"/> <!-- hotkey not assigned -->
+		<Loc Key="UI_DEFAULTS" Value="Por defecto"/> <!-- reset to default hotkeys -->
+		<Loc Key="DES_SAVE_VERSION_INFO" Value="Guardar información de la versión"/>
+		<Loc Key="DES_SAVE_VERSION_INFO_DES" Value="Este archivo guardado se ha creado con una versión diferente del juego, pero aún debería cargarse correctamente.\n\nVersión guardada: {0}\n\nVersión actual: {1}"/>
+		<Loc Key="UI_PURIFY2" Value="Purificar"/>
+		<Loc Key="UI_MELD_WITH_NODE2" Value="Fusionar con el nodo"/>
+		<Loc Key="UI_ACTIVE_ENCH_WARNING" Value="Advertencia de encantamiento activo"/>
+		<Loc Key="UI_ACTIVE_ENCH_WARNING_DES" Value="Hay un encantamiento activo que es muy probable que destruya cualquier puesto avanzado recién construido."/>
+		<Loc Key="UI_COMBAT_LOG_FORTRESS_BOLT" Value="La Fortaleza ataca &lt;#{1}&gt;{0}&lt;/color&gt; con '{2}'"/>
+		<Loc Key="UI_ENCHANT_ITEM_LIMITS" Value="Los ítems pueden tener hasta 5 poderes, incluido uno garantizado y 4 agregados en la creación."/>
+		<Loc Key="UI_FAME_STAT" Value="Fama"/>
+		<Loc Key="UI_GOLD_INCOME_STAT" Value="Ingresos de Oro"/>
+		<Loc Key="UI_FOOD_INCOME_STAT" Value="Ingresos de Comida"/>
+		<Loc Key="UI_MANA_INCOME_STAT" Value="Ingresos de Maná"/>
+		<Loc Key="UI_REFRESH_CAP_120" Value="120 FPS"/>
+		<Loc Key="UI_REFRESH_CAP_144" Value="144 FPS"/>
+		<Loc Key="UI_REFRESH_CAP_160" Value="160 FPS"/>
+		<Loc Key="UI_THROUGH_THE_MYRROR" Value="Through the Myrror"/>
+		<Loc Key="UI_THROUGH_THE_MYRROR_DES" Value="Habilita o deshabilita el contenido adicional añadido en la actualización Through the Myrror."/> <!--do not localise the 'Through the Myrror' part - this is the DLC title and should stay in English -->
+		<Loc Key="DES_SAVE_WARNING_DLC_DES" Value="Este archivo guardado se ha creado con una versión de juego diferente o una configuración de DLC diferente. La carga no será posible.\n\nVersión guardada: {0}\n\nVersión actual: {1}{2}"/>
+		<Loc Key="UI_NEUTRAL" Value="Neutral"/>
+		<Loc Key="UI_MAGIC_NODES" Value="Nodos Mágicos"/>
+		<Loc Key="UI_TOWERS_OF_WIZARDRY" Value="Torres de Magia"/>
+		<Loc Key="UI_ARCANUS_PLANE" Value="Plano de Arcanus"/>
+		<Loc Key="UI_MYRROR_PLANE" Value="Plano de Myrror"/>
+		<Loc Key="UI_TERRAIN_FEATURES" Value="Características del terreno"/>
+		<Loc Key="UI_BUTTON_BIG_MAP" Value="Cartógrafo ({0})"/>
+		<Loc Key="UI_OPEN_CARTOGRAPHER" Value="Abrir cartógrafo"/>
+		<Loc Key="UI_FASTER_LOADING" Value="Carga rápida"/>
+		<Loc Key="UI_FASTER_LOADING_DES" Value="Alterna el modo de carga más rápido, lo que reduce los tiempos de carga de las partidas existentes. ¡Ten en cuenta que esta es una función experimental y utiliza mucho espacio en el disco duro!"/>
+		<Loc Key="UI_NONE2" Value="Nada"/>
+		<Loc Key="UI_MOD_DUPLICATION_NONE_WILL_BE_LOADED" Value="Se han detectado dos mods con el mismo nombre y no se pueden cargar. Sal del juego y desinstala el mod duplicado antes de continuar. Puedes encontrar más detalles sobre los conflictos de mods en el GameLog."/>
+		<Loc Key="UI_SAVE_DLC2_DES" Value="Este juego guardado usa el contenido de 'Rise of the Soultrapped'."/> do not localise the 'Rise of the Soultrapped' part - this is the DLC title and should stay in English -->
+		<Loc Key="UI_HIGH_UNREST" Value="Descontento elevado"/>
+		<Loc Key="UI_HIGH_UNREST_DES" Value="Los disturbios en esta ciudad han superado el 30%. Reduce la tasa de impuestos, construye edificios religiosos o mantén más unidades no fantásticas de guarnición."/>
+		<Loc Key="UI_DISPLAY" Value="Visualización"/> <!--for listing available display screens in settings, ie. Display 1-->
+		<Loc Key="UI_CHANGE_NEED_RESTART" Value="Los cambios en visualización se aplicarán después de que se reinicie el juego."/>
+		<Loc Key="UI_RISE_OF_THE_SOULTRAPPED" Value="Rise of the Soultrapped"/>
+		<Loc Key="UI_RISE_OF_THE_SOULTRAPPED_DES" Value="Habilitar o deshabilitar el contenido adicional agregado con la actualización Rise of the Soultrapped."/>
+		<Loc Key="UI_TOOLTIP_TECH" Value = "Hechizo Tecnomágico"/>
+		<Loc Key="UI_TECH_SPELLS" Value = "Hechizos Tecnomágicos"/>
+		<Loc Key="UI_MOD_REQ_FAILED1" Value="Mod: {0} no cumple el requisito: {1}"/>
+		<Loc Key="UI_MOD_REQ_FAILED2" Value="Mod: {0} debe ser posterior a su requisito: {1}"/>
+		<Loc Key="UI_MOD_REQ_FAILED3" Value="Mod: {0} requisito inactivo: {1}"/>
+		<Loc Key="UI_NOT_ENOUGH_SPACE_OR_ICON_TOO_BIG" Value="El icono del mod es demasiado grande o el usuario ha excedido su cuota de Steam Cloud. Elimina algunos elementos e inténtalo de nuevo."/>
+		<Loc Key="UI_SPELLS_AND_SKILLS" Value="Habilidades y hechizos"/>
+		<Loc Key="UI_FREE_ADDONS" Value="Addons gratuitos"/>
+		<Loc Key="UI_FREE_ADDONS_DES" Value="Habilita o deshabilita el contenido adicional agregado con varias actualizaciones gratuitas.\nLos addons gratuitos pueden incluir varios contenidos adicionales, como opciones de configuración adicionales o incluso asistentes gratuitos.\n\nAlgunos de los contenidos incluyen: \n\n-Configuración de crecimiento de la población.\n-Se necesita aumentar la distancia para construir ciudades."/>
+		<Loc Key="UI_SAVE_DLC0_DES" Value="Esta partida guardada usa contenido de addons gratuitos."/>
+		<Loc Key="UI_CONSTRUCT_UNIT" Value="Constructo"/>
+		<Loc Key="UI_CONSTRUCT_UNIT_DES" Value="Esta es un constructo: una unidad mecánica o aumentada mecánicamente."/>
+		<Loc Key="UI_NOT_ENOUGHT_HP" Value="Este hechizo requiere que el lanzador sacrifique más puntos de vida de los que tiene actualmente."/>
+		<Loc Key="UI_SPELLCASTING_BLOCKED" Value="Tu lanzamiento de hechizos está bloqueado por un encantamiento."/>
+		<Loc Key="UI_TOWN_MAP_ALWAYS_ON" Value="Mapa de la Ciudad siempre arriba"/>
+		<Loc Key="UI_MODS_RESTART_REQUIRED" Value="Reinicio requerido.\nHas cambiado la configuración de mods.\nDebes reiniciar el juego para que los cambios surtan efecto."/>
+		<Loc Key="UI_MID_GAME_AWAKE" Value="Amenaza Soultrapped a mitad de partida"/>
+		<Loc Key="UI_MID_GAME_AWAKE_DES" Value="Permite que aparezcan mazmorras tecnológicas adicionales durante a mitad de partida. Estas mazmorras producirán ejércitos itinerantes con ejércitos de Soultrapped que supondrán un peligro adicional. Son más agresivas que las unidades itinerantes típicas y buscarán a los magos más fuertes.\n\nIntensidad reducida: genera algunas mazmorras tecnológicas al final del juego (turno 300).\n\nIntensidad normal: genera algunas mazmorras tecnológicas a la mitad de la partida (turno 250).\n\nIntensidad aumentada: genera muchas mazmorras tecnológicas a principios de la mitad de la partida (turno 150).\n\nIntensidad máxima: genera muchas mazmorras tecnológicas al principio del juego (turno 100)."/>
+		<Loc Key="UI_MID_LATE" Value="Intensidad reducida"/>
+		<Loc Key="UI_MID_AWAKENING" Value="Intensidad normal"/>
+		<Loc Key="UI_MID_STORM" Value="Intensidad aumentada"/>
+		<Loc Key="UI_MID_APOCALYPSE" Value="Intensidad máxima"/>
+		<Loc Key="UI_DLC_DIFERENCES_DETECTED" Value="\n\nDLC: Diferencias de DLC detectadas."/>
+		<Loc Key="UI_DIFFICULTY_SETTINGS" Value="Configuración de dificultad"/>
+		<Loc Key="UI_SEE_DIFFICULTY" Value="Ver dificultad"/>
+		<Loc Key="UI_WORLD_FAV" Value="Favoritos mundiales"/>
+		<Loc Key="UI_WORLD_FAV_DES" Value="Una lista de los hechizos mundiales favoritos."/>
+		<Loc Key="UI_BATTLE_FAV" Value="Favoritos de batalla"/>
+		<Loc Key="UI_BATTLE_FAV_DES" Value="Una lista de los hechizos de batalla favoritos."/>
+		<Loc Key="UI_QUICK_SAVE" Value="Guardado rápido"/>
+		<Loc Key="UI_QUICK_LOAD" Value="Cargado rápido"/>
+		<Loc Key="UI_TOWN_DISTANCE" Value="Distancia mínima entre ciudades"/>
+		<Loc Key="UI_TOWN_DISTANCE_DES" Value="Establece la distancia mínima entre ciudades. Esta configuración no afecta el área de influencia de las ciudades."/>
+		<Loc Key="UI_TOWN_DISTANCE_4" Value="4 casillas"/>
+		<Loc Key="UI_TOWN_DISTANCE_5" Value="5 casillas"/>
+		<Loc Key="UI_CLICK_TO_ADD_FAV" Value="Haz clic para agregar este hechizo a favoritos."/>
+		<Loc Key="UI_QUICK_SAVE_SUCCESS" Value="Guardado rápido con éxito."/>
+		<Loc Key="UI_LOADING_HINT24" Value="Sugerencia: puedes usar F5 para guardar rápido y F6 para cargar rápidamente una partida. Las teclas de acceso rápido se pueden cambiar en Configuración."/>
+		<Loc Key="UI_SOULTRAPPED_LAIR" Value="Tecnomazmorras"/>
+		<Loc Key="UI_OUR_TOWN_GROW_MULTIPLIER" Value="Crecimiento de población - ciudades propias"/>
+		<Loc Key="UI_OUR_TOWN_GROW_MULTIPLIER_DES" Value="Te permite aumentar el crecimiento de la población en las ciudades que controlas con el multiplicador seleccionado."/>
+		<Loc Key="UI_TOWN_GROW_MULTIPLIER_1_25" Value="x1.25"/>
+		<Loc Key="UI_TOWN_GROW_MULTIPLIER_1_5" Value="x1.5"/>
+		<Loc Key="UI_FOE_TOWN_GROW_MULTIPLIER" Value="Crecimiento de población - ciudades enemigas"/>
+		<Loc Key="UI_FOE_TOWN_GROW_MULTIPLIER_DES" Value="Te permite aumentar el crecimiento de la población en las ciudades que controlan tus enemigos según el multiplicador seleccionado."/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER" Value="Densidad de guarida"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_DES" Value="Establece el número de guaridas y mazmorras que aparecen en el mapa mundial al comienzo del juego."/>
+		<Loc Key="UI_LAIR_NONE" Value="Ninguna"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_1" Value="Algunas (10%)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_25" Value="Pocas (25%)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_5" Value="Reducidas a la mitad (50%)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_0_7" Value="Reducidas (70%)"/>
+		<Loc Key="UI_LAIR_NUMBER_MULTIPLIER_1" Value="Normal (100%)"/>
+		<Loc Key="UI_NEW_MODULE" Value="Nuevo Módulo"/>
+		<Loc Key="UI_CLONE_MODULE" Value="Clonar módulo seleccionado"/>
+		<Loc Key="UI_RENAME_MODULE" Value="Cambiar nombre del módulo seleccionado"/>
+		<Loc Key="UI_IMPORT_MODULE" Value="Importar módulo"/>
+		<Loc Key="UI_EXPORT_MODULE" Value="Exportar módulo seleccionado"/>
+		<Loc Key="UI_TEST_MODULE" Value="Probar módulo seleccionado"/>
+		<Loc Key="UI_TEST_MODULE_DES" Value="Comprueba si el módulo seleccionado contiene aventuras."/>
+		<Loc Key="UI_DELETE_MODULE" Value="Eliminar módulo seleccionado"/>
+		<Loc Key="UI_NEW_ADVENTURE" Value="Nueva aventura"/>
+		<Loc Key="UI_CLONE_ADVENTURE2" Value="Clonar aventura seleccionada"/>
+		<Loc Key="UI_CLONE_ADVENTURE_TO_MODULE" Value="Clonar aventura a otro módulo"/>
+		<Loc Key="UI_RENAME_ADVENTURE" Value="Cambiar nombre de aventura seleccionada"/>
+		<Loc Key="UI_DELETE_ADVENTURE" Value="Borrar aventura seleccionada"/>
+		<Loc Key="UI_SAVE_ADVENTURE" Value="Guardar cambios"/>
+		<Loc Key="UI_SEARCH_FOR_NODE" Value="Buscar número de nodo"/>
+		<Loc Key="UI_SORT_BY" Value="Ordenar por"/>
+		<Loc Key="UI_SORT_BY_NAME" Value="Nombre"/>
+		<Loc Key="UI_SORT_BY_RACE" Value="Raza"/>
+		<Loc Key="UI_SORT_BY_POPULATION" Value="Población"/>
+		<Loc Key="UI_SORT_BY_FOOD_INCOME" Value="Ingreso de alimentos"/>
+		<Loc Key="UI_SORT_BY_GOLD_INCOME" Value="Ingreso de oro"/>
+		<Loc Key="UI_SORT_BY_PRODUCTION_INCOME" Value="Producción"/>
+		<Loc Key="UI_SORT_BY_REBELS" Value="Número de rebeldes"/>
+		<Loc Key="UI_SORT_BY_DATE" Value="Fecha de adquisición"/>
+		<Loc Key="UI_SELECT_VISIBILITY" Value="Seleccionar visibilidad"/>
+		<Loc Key="UI_PUBLIC" Value="Pública"/>
+		<Loc Key="UI_FRIENDS_ONLY" Value="Solo amigos"/>
+		<Loc Key="UI_PRIVATE" Value="Privada"/>
+		<Loc Key="UI_FULLSCREEN_MODE" Value="Pantalla completa"/>
+		<Loc Key="UI_ARCANUS_GAMMA" Value="Arcanus Gamma"/>
+		<Loc Key="UI_MYRROR_GAMMA" Value="Myrror Gamma"/>
+		<Loc Key="UI_WIZARD_RETURNED" Value="Regresa el Mago"/>
+		<Loc Key="UI_WIZARD_RETURNED_DES" Value="Maestro, {0} ha terminado de lanzar el Hechizo del Retorno. Su fortaleza y Círculo de Invocación han vuelto y ahora pueden lanzar otros hechizos."/>
+		<Loc Key="UI_DESCRIPTION_TOO_LONG" Value="La descripción del mod supera el límite de caracteres de Steam Workshop (~7000 caracteres). Se ha truncado para permitir la carga."/>
+		<Loc Key="UI_TOWN_GROW_MULTIPLIER_1" Value="x1.0"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER" Value="Coste de habilidad de lanzamiento"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_DES" Value="Esta opción reduce los puntos de habilidad de lanzamiento necesarios para aumentar la habilidad de lanzamiento. Por lo tanto, una reducción del 10% reducirá el coste de 100 a 90 y así sucesivamente."/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_1" Value="Reducción de coste (10%)"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_25" Value="Reducción de coste (25%)"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_5" Value="Reducción de coste (50%)"/>
+		<Loc Key="UI_CASTING_SKILL_MULTIPLIER_0_75" Value="Reducción de coste (75%)"/>
+		<Loc Key="UI_THIS_GAME_LACK_QUICK_SAVE" Value="¡No hay ningún archivo de guardado rápido para cargar!"/>
+		<Loc Key="UI_WATER_LAIR_NUMBER_MULTIPLIER" Value ="Densidad de Guarida de Agua"/>
+		<Loc Key="UI_WATER_LAIR_NUMBER_MULTIPLIER_DES" Value="Establece el número de guaridas de agua que aparecen en el mapa mundial al comienzo del juego."/>
+		<Loc Key="UI_OF" Value ="de"/>
+		<Loc Key="UI_SPELL_ALREADY_ACTIVE" Value="Este hechizo ya está activo en el campo de batalla."/>
+		<Loc Key="UI_TOOLTIP_GLOBALSGRID" Value="Mostrar/Ocultar Encantamiento Global"/>
+		<Loc Key="UI_TOOLTIP_GLOBALSGRID_DES" Value="Este panel muestra encantamientos que te afectan a ti y al mundo."/>
+		<Loc Key="UI_BANISHED_WIZARD" Value="Mago desterrado"/>
+		<Loc Key="UI_BANISHED_WIZARD_DES" Value="Este mago ha perdido su Fortaleza y su Círculo de Invocación. No puede lanzar ningún hechizo que no sea el Hechizo de Retorno."/>
+		<Loc Key="UI_SEA_HARVEST_FAILED" Value="Cosecha fallida"/>
+		<Loc Key="UI_SEA_HARVEST_FAILED_DES" Value="La cosecha marina ha fallado."/>
+		<Loc Key="UI_SKILL_GAINED" Value="Habilidad adquirida"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_TAX" Value="De impuestos"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_TENSION" Value="De tensiones raciales"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_ENCHANTMENTS" Value="De encantamientos"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_ENCHANTMENTS_MULTIPLIER" Value="De encantamientos (%)"/>
+		<Loc Key="UI_TOWN_UNREST_FROM_TRAITS" Value="De rasgos"/>
+		<Loc Key="UI_TOWN_REBEL_REDUCTION_FROM_WIZARD" Value="Reducción de rebeldes (mago)"/>
+		<Loc Key="UI_TOWN_REBEL_REDUCTION_FROM_GARRISON" Value="Reducción de rebeldes (guarnición)"/>
+		<Loc Key="UI_TOWN_FOOD_PRODUCTION" Value="De producción"/>
+		<Loc Key="UI_TOWN_FOOD_RESOURCE_BONUS" Value="De bonus de recursos"/>
+		<Loc Key="UI_TOWN_FOOD_ENCHANTMENTS" Value="De encantamientos"/>
+		<Loc Key="UI_TOWN_FOOD_ENCHANTMENT_MULTIPLIER" Value="De encantamientos (%)"/>
+		<Loc Key="UI_TOWN_RESEARCH_FROM_ENCHANTMENTS" Value="De encantamientos"/>
+		<Loc Key="UI_TOWN_POWER_FROM_RELIGIOUS" Value="De edificios religiosos"/>
+		<Loc Key="UI_TOWN_POWER_FROM_DARK_RITUAL" Value="De Rituales Oscuros"/>
+		<Loc Key="UI_TOWN_POWER_FROM_LIFE_AND_DEATH_MOON" Value="De la Luna Buena/Mala"/>
+		<Loc Key="UI_TOWN_POWER_FROM_TRAITS" Value="De rasgos"/>
+		<Loc Key="UI_TOWN_POWER_FROM_POPULATION" Value="De población"/>
+		<Loc Key="UI_TOWN_POWER_FROM_RESOURCES" Value="De recursos"/>
+		<Loc Key="UI_TOWN_POWER_FROM_POWER_NODES" Value="De nodos mágicos"/>
+		<Loc Key="UI_TOWN_POWER_FROM_ENCHANTMENTS" Value="De encantamientos"/>
+		<Loc Key="UI_TOWN_POWER_FROM_ENCHANTMENT_MULTIPLIERS" Value="De encantamientos (%)"/>
+		<Loc Key="UI_TOWN_PRODUCTION_BASE" Value="Producción base"/>
+		<Loc Key="UI_TOWN_PRODUCTION_AREA_BONUS" Value="Bonus de área"/>
+		<Loc Key="UI_TOWN_PRODUCTION_ENCHANTMENT_BONUS" Value="Bonus de encantamiento"/>
+		<Loc Key="UI_TOWN_PRODUCTION_ENCHANTMENT_MULTIPLIER_BONUS" Value="Bonus multiplicador de encantamiento"/>
+		<Loc Key="UI_REQUIREMENTS_NOT_MET" Value="Al menos un elemento se ha eliminado de la cola, porque su requisito previo no se ha cumplido y no está en la cola de construcción anterior."/>
+		<Loc Key="UI_SEA_HARVEST_SUCCESS" Value="Buena cosecha"/>
+		<Loc Key="UI_SEA_HARVEST_SUCCESS_DES" Value="Recolectas la generosidad del océano y obtienes: {0}{ICON:CastingSkillIcon} puntos de progreso en habilidad de lanzamiento, {1}{ICON:ManaIcon} de maná, y {2}{ICON:GoldIcon} de oro ."/>
+		<Loc Key="UI_CITY_LOOTED" Value="Ataque a la ciudad"/>
+		<Loc Key="UI_CITY_LOOTED_DES" Value="¡Antes de que la ciudad sea arrasada, los piratas arrasan las calles, saqueando todo lo que pueden agarrar y llamar tesoro!"/>
+		<Loc Key="UI_TRADE_HAPPINESS" Value="Felicidad comercial"/>
+		<Loc Key="UI_TRADE_HAPPINESS_DES" Value="Muestra lo feliz que está el otro mago con este intercambio. Si el valor de tu oferta es menor que el de ellos, es posible que aún acepten el intercambio, pero la relación empeorará. Del mismo modo, la relación mejorará si el valor de tu oferta es mayor que la de ellos.\nLa probabilidad del otro mago de aceptar un trato desfavorable se basa en su relación contigo y su miedo hacia ti. La felicidad de una oferta comercial está determinada por el estatus económico y el avance de la investigación del otro mago."/>
+		<Loc Key="UI_CASTING_SKILL_GAINED" Value="Habilidad de lanzamiento ganada"/>
+		<Loc Key="UI_CASTING_SKILL_LOST" Value="Habilidad de lanzamiento perdida"/>
+		<Loc Key="UI_KRAKEN_LAIR" Value="Guarida Kraken"/>
+		<Loc Key="UI_SAVE_DLC3_DES" Value="Esta partida guardada usa contenido de 'Scourge of the Seas'."/> <!--do not localise the 'Scourge of the Seas' part - this is the DLC title and should stay in English -->
+		<Loc Key="UI_BUTTON_RESOURCES" Value="Mostrar/Ocultar recursos ({0})"/>
+		<Loc Key="UI_SHOW_HIDE_RESOURCES" Value="Mostrar/Ocultar recursos"/>
+		<Loc Key="UI_EXTREME" Value="Extremo (250%)"/> <!--game difficulty level-->
+		<Loc Key="UI_REBELS_FROM_UNREST" Value="From unrest ({0}{ICON:PopulationIcon} x {1}{ICON:UnrestIcon})"/>
+		<Loc Key="UI_REBELS_MODIFIER_FROM_ENCHANTMENTS" Value="From enchantments and buildings"/>
+		<Loc Key="UI_SCOURGE_OF_THE_SEAS" Value="Scourge of the Seas"/>
+		<Loc Key="UI_SCOURGE_OF_THE_SEAS_DES" Value="Habilitar o deshabilitar el contenido adicional agregado con la actualización Scourge of the Seas."/>
+		<Loc Key="UI_CANNOT_MOVE_QUEUE_ITEM" Value="Este elemento de la cola no se puede mover porque primero debe crearse su requisito previo."/>
+	</LOCALIZATION-UI_ES>
+</DB_LOCALIZATION>

@@ -1,0 +1,67 @@
+﻿<PROTOTYPE_SUBRACE>
+	
+	<E_WEAPON_SLOT Type="enum" Name="EWeaponSlot">
+		<None/>
+		<Melee/>
+		<Ranged/>
+		<SpellCaster/>
+		<Melee_SpellCaster/>
+		<Armour/>
+		<Miscellaneous/>
+	</E_WEAPON_SLOT>
+	<SUBRACE_AUDIO Name="SubraceAudio">
+		<Move Name="move" Type="string" Required="FALSE"/>
+		<AttackMelee Name="attackMelee" Type="string" Required="FALSE"/>
+		<AttackRanged Name="attackRanged" Type="string" Required="FALSE"/>
+		<AttackRangedHit Name="attackRangedHit" Type="string" Required="FALSE"/>
+		<GetHit Name="getHit" Type="string" Required="FALSE"/>
+		<Die Name="die" Type="string" Required="FALSE"/>
+		<Build Name="build" Type="string" Required="FALSE"/>		
+	</SUBRACE_AUDIO>
+	<SUBRACE Name="Subrace">
+		<DescriptionInfo Name="descriptionInfo" Type="DESCRIPTION_INFO" Required="FALSE"/>
+		<!-- optional model name, variable allowing to decouple 2d art name stored in description infor from 3d model name for modding purposes -->
+		<OptionalModel3dName Name="model3d" Type="string" Required="FALSE"/>
+		<Race Name="race" Type="RACE" Required="TRUE"/>		
+		<Marker Name="marker" Type="string" Required="FALSE"/>
+		<OriginalScaleValue Name="originalScaleValue" Type="int" Required="FALSE"/>
+		<Tags Name="tags" Type="ArrayCOUNTED_TAG" Required="FALSE"/>
+		
+		<NaturalHealing Name="naturalHealing" Type="bool" Required="FALSE"/>
+		<GainsXP Name="gainsXP" Type="bool" Required="FALSE"/>				
+		<Unresurrectable Name="unresurrectable" Type="bool" Required="FALSE"/>				
+		<Skills Name="skills" Type="ArraySKILL" Required="FALSE"/>
+		<SpellPack Name="spellPack" Type="ArraySPELL_PACK" Required="FALSE"/>	
+		<Audio Name="audio" Type="SUBRACE_AUDIO" Required="FALSE"/>	
+		<Dlc Name="dlc" Type="string" Required="FALSE"/>
+		<!-- optional variable which allows to override strategic percepted value of the unit for the purpose of various game mechanics.
+			Units either require this value come from cached (simulated) file or can be provided manually here in StrategicValueOverride.
+			Units which have this value provided will be skipped during simulaitons making them faster, 
+			Simulated values are stored within [Install Directory]/MoM/ExternalAssets.
+			Unit value can be anywhere between 1 and 4500.
+			NOTE! This is important value used by AI to value unit, scale, plan, construct etc. 
+			Invalid/to large values may result in some locations failing to produce defenders.-->
+		<StrategicValueOverride Name="strategicValueOverride" Type="int" Required="FALSE"/>
+		<FixedDeathDir Name="fixedDeathDir" Type="bool" Required="FALSE"/>
+		<Selfdestructing Name="selfdestructing" Type="bool" Required="FALSE"/>
+	</SUBRACE>
+	
+	<UNIT Name="Unit" Extends="Subrace">
+		<Figures Name="figures" Type="int" Required="TRUE"/>
+		<RequiredBuildings Name="requiredBuildings" Type="ArrayBUILDING" Required="FALSE"/>
+		<ConstructionCost Name="constructionCost" Type="int" Required="FALSE"/>
+		<PopulationCost Name="populationCost" Type="int" Required="FALSE"/>
+	</UNIT>
+	
+	<HERO Name="Hero" Extends="Subrace">
+		<AlterName Name="alterName" Type="Arraystring" Required="FALSE"/>
+		<Champion Name="champion" Type="bool" Required="FALSE"/>
+		<RecruitmentCost Name="recruitmentCost" Type="int" Required="TRUE"/>
+		<RecruitmentMinFame Name="recruitmentMinFame" Type="int" Required="TRUE"/>
+		<RecruitmentMinBooks Name="recruitmentMinBooks" Type="ArrayCOUNTED_TAG" Required="FALSE"/>
+		<SkillPacks Name="skillPacks" Type="ArraySKILL_PACK" Required="FALSE"/>
+		<EquipmentSlot Name="equipmentSlot" Type="ArrayARTEFACT_SLOT" Required="TRUE"/>
+	</HERO>
+
+	
+</PROTOTYPE_SUBRACE>

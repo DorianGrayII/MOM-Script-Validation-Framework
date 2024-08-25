@@ -1,0 +1,57 @@
+﻿<DB_WIZARD>
+  <WIZARD-MY_CUSTOM_WIZARD>
+    <DescriptionInfo Name="DES_MY_CUSTOM_WIZARD" Description="DES_MY_CUSTOM_WIZARD_DES" Graphic="MyCustomWizardPortrait"/>
+    <Quote VALUE="DES_MY_CUSTOM_WIZARD_QUOTE" />
+    <PersonalGreeting VALUE="DES_MY_CUSTOM_WIZARD_GREETINGS" />
+    <Icon VALUE="MyCustomWizardPortrait" />
+    <Background VALUE="MyCustomWizardBg2" />
+      
+<!--
+  Some of the relevant Wizard Tags include:
+  
+    TAG-DEATH_MAGIC_BOOK
+    TAG-LIFE_MAGIC_BOOK
+    TAG-NATURE_MAGIC_BOOK
+    TAG-CHAOS_MAGIC_BOOK
+    TAG_SORCERY_MAGIC_BOOK
+    TAG-TECH_BOOK (dlc2)
+  
+-->
+    <Tags Amount="1" Tag="TAG-LIFE_MAGIC_BOOK" />
+    <Tags Amount="3" Tag="TAG-NATURE_MAGIC_BOOK" />
+    <Tags Amount="4" Tag="TAG-CHAOS_MAGIC_BOOK" />
+    <Tags Amount="1" Tag="TAG-SORCERY_MAGIC_BOOK" />
+      
+<!--
+  Some of the possible Wizard Traits include:
+  
+    TRAIT-ALCHEMY
+    TRAIT-ARCHMAGE
+    TRAIT-ARTIFICER
+    TRAIT-CHANNELER 
+    TRAIT-CHAOS_MASTERY
+    TRAIT-CHARISMATIC
+    TRAIT-CONJURER
+    TRAIT-DIVINE_POWER
+    TRAIT-FAMOUS
+    TRAIT-INFERNAL_POWER
+    TRAIT-MANA_FOCUSING
+    TRAIT-MYRRAN
+    TRAIT-NATURE_MASTERY
+    TRAIT-NODE_MASTERY
+    TRAIT-RUNEMASTER
+    TRAIT-SAGE_MASTERY
+    TRAIT-SORCERY_MASTERY
+    TRAIT-WARLORD
+    TRAIT-FANTASTIC_WARLORD
+    TRAIT-STONEMASON
+    TRAIT-LIFEBRINGER
+    TRAIT-HERO_MAGNET
+    TRAIT-NATURE_SUMMONER
+    
+-->
+    <Trait VALUE="TRAIT-STONEMASON" />
+    <Trait VALUE="TRAIT-ARCHMAGE" />
+    <Trait VALUE="TRAIT-NODE_MASTERY" />
+  </WIZARD-MY_CUSTOM_WIZARD>
+</DB_WIZARD>

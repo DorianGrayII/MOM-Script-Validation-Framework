@@ -1,0 +1,250 @@
+﻿<DB_TRAIT>
+
+	<TRAIT-ALCHEMY Cost="2">
+		<DescriptionInfo Name="DES_ALCHEMY" Description="DES_ALCHEMY_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_Alchemy"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_ALCHEMY"/>
+	</TRAIT-ALCHEMY>
+	<TRAIT-ARCHMAGE Cost="1">
+		<DescriptionInfo Name="DES_ARCHMAGE" Description="DES_ARCHMAGE_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_Archmage"/>
+		<InitialScript VALUE="TINIT_Archmage"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_ARCHMAGE"/>
+	</TRAIT-ARCHMAGE>
+	<TRAIT-ARTIFICER Cost="1">
+		<DescriptionInfo Name="DES_ARTIFICER" Description="DES_ARTIFICER_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_Artificer"/>
+		<StartingSpells VALUE="SPELL-CREATE_ARTEFACT"/>
+		<StartingSpells VALUE="SPELL-ENCHANT_ITEM"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_ARTIFICER"/>
+	</TRAIT-ARTIFICER>
+	<TRAIT-CHANNELER Cost="2">
+		<DescriptionInfo Name="DES_CHANNELER" Description="DES_CHANNELER_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_Channeler"/>
+		<InitialScript VALUE="TINIT_Channeler"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_CHANNELER"/>
+	</TRAIT-CHANNELER>
+	<TRAIT-CHAOS_MASTERY Cost="1">
+		<DescriptionInfo Name="DES_CHAOS_MASTERY" Description="DES_CHAOS_MASTERY_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_ChaosMastery"/>
+		<InitialScript VALUE="TINIT_ChaosMastery"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_CHAOS_MASTERY"/>
+	</TRAIT-CHAOS_MASTERY>
+	<TRAIT-CHARISMATIC Cost="1">
+		<DescriptionInfo Name="DES_CHARISMATIC" Description="DES_CHARISMATIC_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_Charismatic"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_CHARISMATIC"/>
+	</TRAIT-CHARISMATIC>
+	<TRAIT-CONJURER Cost="1">
+		<DescriptionInfo Name="DES_CONJURER" Description="DES_CONJURER_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_Conjunrer"/>
+		<InitialScript VALUE="TINIT_Conjunrer"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_CONJURER"/>
+	</TRAIT-CONJURER>
+	<TRAIT-DIVINE_POWER Cost="2">
+		<DescriptionInfo Name="DES_DIVINE_POWER" Description="DES_DIVINE_POWER_DES" Graphic="IconPlaceholder"/>		
+		<PrerequisiteScript VALUE="TPRE_DivinePower"/>
+		<InitialScript VALUE="TINIT_DivineInfernalPower"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_DIVINE_POWER"/>
+	</TRAIT-DIVINE_POWER>
+	<TRAIT-FAMOUS Cost="2">
+		<DescriptionInfo Name="DES_FAMOUS" Description="DES_FAMOUS_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_Famus"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_FAMOUS"/>
+	</TRAIT-FAMOUS>
+	<TRAIT-INFERNAL_POWER Cost="2">
+		<DescriptionInfo Name="DES_INFERNAL_POWER" Description="DES_INFERNAL_POWER_DES" Graphic="IconPlaceholder"/>		
+		<PrerequisiteScript VALUE="TPRE_InfernalPower"/>
+		<InitialScript VALUE="TINIT_DivineInfernalPower"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_INFERNAL_POWER"/>
+	</TRAIT-INFERNAL_POWER>
+	<TRAIT-MANA_FOCUSING Cost="1">
+		<DescriptionInfo Name="DES_MANA_FOCUSING" Description="DES_MANA_FOCUSING_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_ManaFocusing"/>
+		<InitialScript VALUE="TINIT_ManaFocusing"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_MANA_FOCUSING"/>
+	</TRAIT-MANA_FOCUSING>
+	<TRAIT-MYRRAN RewardExclusion="TRUE" Cost="2">
+		<DescriptionInfo Name="DES_MYRRAN" Description="DES_MYRRAN_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_Myrran"/>
+		<RaceFilteringScript VALUE="TRAC_Myrran"/>
+		<InitialScript VALUE="TINIT_Myrran"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_MYRRAN"/>
+	</TRAIT-MYRRAN>
+	<TRAIT-NATURE_MASTERY Cost="1">
+		<DescriptionInfo Name="DES_NATURE_MASTERY" Description="DES_NATURE_MASTERY_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_NatureMastery"/>
+		<InitialScript VALUE="TINIT_NatureMastery"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_NATURE_MASTERY"/>
+	</TRAIT-NATURE_MASTERY>
+	<TRAIT-NODE_MASTERY Cost="1">
+		<DescriptionInfo Name="DES_NODE_MASTERY" Description="DES_NODE_MASTERY_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_NodeMastery"/>
+		<InitialScript VALUE="TINIT_NodeMaster"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_NODE_MASTERY"/>
+	</TRAIT-NODE_MASTERY>
+	<TRAIT-RUNEMASTER Cost="1">
+		<DescriptionInfo Name="DES_RUNEMASTER" Description="DES_RUNEMASTER_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_Runemaster"/>
+		<InitialScript VALUE="TINIT_Runemaster"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_RUNEMASTER"/>
+	</TRAIT-RUNEMASTER>
+	<TRAIT-SAGE_MASTERY Cost="1">
+		<DescriptionInfo Name="DES_SAGE_MASTERY" Description="DES_SAGE_MASTERY_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_SageMaster"/>
+		<InitialScript VALUE="TINIT_SageMaster"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_SAGE_MASTERY"/>
+	</TRAIT-SAGE_MASTERY>
+	<TRAIT-SORCERY_MASTERY Cost="1">
+		<DescriptionInfo Name="DES_SORCERY_MASTERY" Description="DES_SORCERY_MASTERY_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_SorceryMastery"/>
+		<InitialScript VALUE="TINIT_SorceryMastery"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_SORCERY_MASTERY"/>
+	</TRAIT-SORCERY_MASTERY>
+	<TRAIT-WARLORD Cost="2">
+		<DescriptionInfo Name="DES_WARLORD" Description="DES_WARLORD_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_Warlord"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_WARLORD"/>
+	</TRAIT-WARLORD>
+	<TRAIT-FANTASTIC_WARLORD Dlc="Dlc1" Cost="1">
+		<DescriptionInfo Name="DES_FANTASTIC_WARLORD" Description="DES_TRAIT_FANTASTIC_WARLORD_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_FantasticWorlord"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_FANTASTIC_WARLORD"/>
+	</TRAIT-FANTASTIC_WARLORD>
+	<TRAIT-STONEMASON Dlc="Dlc1" Cost="1">
+		<DescriptionInfo Name="DES_STONEMASON" Description="DES_STONEMASON_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_Stonemason"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_STONEMASON"/>
+	</TRAIT-STONEMASON>
+	<TRAIT-LIFEBRINGER Dlc="Dlc1" Cost="1">
+		<DescriptionInfo Name="DES_LIFEBRINGER" Description="DES_LIFEBRINGER_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_Lifebringer"/>
+		<InitialScript VALUE="TINIT_Lifebringer"/>
+		<StartingSpells VALUE="SPELL-RESURRECTION"/>
+		<StartingSpells VALUE="SPELL-HEALING"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_LIFEBRINGER"/>
+	</TRAIT-LIFEBRINGER>
+	<TRAIT-HERO_MAGNET Dlc="Dlc1" Cost="1">
+		<DescriptionInfo Name="DES_HERO_MAGNET" Description="DES_HERO_MAGNET_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_HeroMagnet"/>
+		<StartingSpells VALUE="SPELL-SUMMON_HERO"/>
+		<StartingSpells VALUE="SPELL-SUMMON_CHAMPION"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_HERO_MAGNET"/>
+	</TRAIT-HERO_MAGNET>
+	<TRAIT-NATURE_SUMMONER Dlc="Dlc1" Cost="1">
+		<DescriptionInfo Name="DES_NATURE_SUMMONER" Description="DES_NATURE_SUMMONER_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_NatureSummoner"/>
+		<InitialScript VALUE="TINIT_NatureSummoner"/>
+		<StartingSpells VALUE="SPELL-WAR_BEARS"/>
+		<StartingSpells VALUE="SPELL-SPRITES"/>
+		<StartingSpells VALUE="SPELL-GIANT_SPIDERS"/>
+		<StartingSpells VALUE="SPELL-COCKATRICES"/>
+		<StartingSpells VALUE="SPELL-BASILISK"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_NATURE_SUMMONER"/>
+	</TRAIT-NATURE_SUMMONER>
+	<TRAIT-TECHMASTER Dlc="Dlc2" Cost="2">
+		<DescriptionInfo Name="DES_TECHMASTER" Description="DES_TECHMASTER_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_TechMaster"/>
+		<InitialScript VALUE="TINIT_TechMaster"/>
+		<StartingSpells VALUE="SPELL-TECH_SCOUTING_PROBE"/>
+		<StartingSpells VALUE="SPELL-POWER_SEEKER"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_TECHMASTER"/>
+	</TRAIT-TECHMASTER>
+	<TRAIT-DEMONOLOGIST Dlc="Dlc2" Cost="1">
+		<DescriptionInfo Name="DES_DEMONOLOGIST" Description="DES_DEMONOLOGIST_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_Demonologist"/>
+		<InitialScript VALUE="TINIT_Demonologist"/>
+		<StartingSpells VALUE="SPELL-POSSESSION"/>
+		<StartingSpells VALUE="SPELL-SUMMON_LESSER_SHADOW_DEMONS"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_DEMONOLOGIST"/>
+	</TRAIT-DEMONOLOGIST>
+	<TRAIT-MYRRAN_REFUGEE RewardExclusion="TRUE" Dlc="Dlc2" Cost="2">
+		<DescriptionInfo Name="DES_MYRRAN_REFUGEE" Description="DES_MYRRAN_REFUGEE_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_MyrranRefugee"/>
+		<RaceFilteringScript VALUE="TRAC_Myrran"/>
+		<InitialScript VALUE="TINIT_Myrran"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_MYRRAN_REFUGEE"/>
+	</TRAIT-MYRRAN_REFUGEE>
+	<TRAIT-IMPROVED_WARLORD Dlc="Dlc2" Cost="1">
+		<DescriptionInfo Name="DES_IMPROVED_WARLORD" Description="DES_IMPROVED_WARLORD_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_ImprovedWarlord"/>
+		<InitialScript VALUE="TINIT_ImprovedWarlord"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_IMPROVED_WARLORD"/>
+	</TRAIT-IMPROVED_WARLORD>
+	<TRAIT-ANTI_MAGIC Dlc="Dlc2" Cost="5">
+		<DescriptionInfo Name="DES_ANTI_MAGIC" Description="DES_ANTI_MAGIC_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_AntiMagic"/>
+		<InitialScript VALUE="TINIT_AntiMagic"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_ANTI_MAGIC"/>
+	</TRAIT-ANTI_MAGIC>
+	<TRAIT-ORCOMANCER Dlc="Dlc0" Cost="2">
+		<DescriptionInfo Name="DES_ORCOMANCER" Description="DES_ORCOMANCER_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_Orcomancer"/>
+		<RaceFilteringScript VALUE="TRAC_Orcs"/>
+		<InitialScript VALUE="TINIT_Orcomancer"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_ORCOMANCER"/>
+	</TRAIT-ORCOMANCER>
+	<TRAIT-NECROMANCER Dlc="Dlc0" Cost="1">
+		<DescriptionInfo Name="DES_NECROMANCER" Description="DES_NECROMANCER_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_Necromancer"/>
+		<InitialScript VALUE="TINIT_Necromancer"/>
+		<StartingSpells VALUE="SPELL-UNDEAD_HERO"/>
+		<StartingSpells VALUE="SPELL-DARKNESS"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_NECROMANCER"/>
+	</TRAIT-NECROMANCER>
+	<TRAIT-DEATH_EATER Dlc="Dlc0" Cost="2">
+		<DescriptionInfo Name="DES_TRAIT_DEATH_EATER" Description="DES_TRAIT_DEATH_EATER_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_DeathEater"/>
+		<InitialScript VALUE="TINIT_DeathEater"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_DEATH_EATER"/>
+	</TRAIT-DEATH_EATER>
+	
+	<TRAIT-KLACKON_SUPREMACY Dlc="Dlc3" Cost="2">
+		<DescriptionInfo Name="DES_KLACKON_SUPREMACY" Description="DES_KLACKON_SUPREMACY_DES" Graphic="IconPlaceholder"/>
+		<PrerequisiteScript VALUE="TPRE_KlackonSupremacy"/>
+		<RaceFilteringScript VALUE="TRAC_Klackon"/>
+		<InitialScript VALUE="TINIT_KlackonSupremacy"/>
+		<Tags Amount="1" Tag="TAG-KLACKON_SUPREMACY"/>
+	</TRAIT-KLACKON_SUPREMACY>
+	
+	<TRAIT-SWIFT_SEALEGS Dlc="Dlc3" Cost="2"> <!-- Trait contains old Water Speed and Admiral Trait-->
+		<DescriptionInfo Name="DES_SWIFT_SEALEGS" Description="DES_SWIFT_SEALEGS_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_SwiftSealegs"/>
+		<Tags Amount="1" Tag="TAG-TRAIT_SWIFT_SEALEGS"/>
+	</TRAIT-SWIFT_SEALEGS>
+
+	<TRAIT-POWER_PEOPLE Dlc="Dlc3" Cost="2">
+		<DescriptionInfo Name="DES_POWER_PEOPLE" Description="DES_POWER_PEOPLE_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_PeoplePower"/>
+		<Tags Amount="1" Tag="TAG-POWER_PEOPLE"/>
+	</TRAIT-POWER_PEOPLE>
+	
+	<TRAIT-THE_PIRATE Dlc="Dlc3" Cost="3">
+		<DescriptionInfo Name="DES_THE_PIRATE" Description="DES_THE_PIRATE_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_ThePirate"/>
+		<Tags Amount="1" Tag="TAG-THE_PIRATE"/>
+	</TRAIT-THE_PIRATE>
+	<TRAIT-TACTITIAN Dlc="Dlc3" Cost="2">
+		<DescriptionInfo Name="DES_TACTITIAN" Description="DES_TACTITIAN_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_Tactitan"/>
+		<Tags Amount="1" Tag="TAG-TACTITIAN"/>
+	</TRAIT-TACTITIAN>
+	<TRAIT-SEA_HUNTER Dlc="Dlc3" Cost="1">
+		<DescriptionInfo Name="DES_SEA_HUNTER" Description="DES_SEA_HUNTER_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_SeaHunter"/>
+		<Tags Amount="1" Tag="TAG-SEA_HUNTER"/>
+	</TRAIT-SEA_HUNTER>
+	
+	<!-- it is a award for clearing boss lairs, its do not show as a pick up-->
+	<TRAIT-WATER_BOSS_1 Dlc="Dlc3" Cost="-1" RewardExclusion="TRUE">
+		<DescriptionInfo Name="DES_WATER_BOSS_1" Description="DES_WATER_BOSS_1_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_WaterBoss1"/>
+		<Tags Amount="1" Tag="TAG-WATER_BOSS_1"/>
+	</TRAIT-WATER_BOSS_1>
+	<TRAIT-WATER_BOSS_2 Dlc="Dlc3" Cost="-1" RewardExclusion="TRUE">
+		<DescriptionInfo Name="DES_WATER_BOSS_2" Description="DES_WATER_BOSS_2_DES" Graphic="IconPlaceholder"/>
+		<InitialScript VALUE="TINIT_WaterBoss2"/>
+		<Tags Amount="1" Tag="TAG-WATER_BOSS_2"/>
+	</TRAIT-WATER_BOSS_2>
+	
+</DB_TRAIT>

@@ -1,0 +1,83 @@
+﻿<DB_UNIT_LVL>
+	<XP_TO_LVL-COST_UNIT>
+		<ExpReq VALUE="0"/>
+		<ExpReq VALUE="20"/>
+		<ExpReq VALUE="60"/>
+		<ExpReq VALUE="120"/>		
+	</XP_TO_LVL-COST_UNIT>
+	<XP_TO_LVL-COST_HERO>
+		<ExpReq VALUE="0"/>
+		<ExpReq VALUE="20"/>
+		<ExpReq VALUE="60"/>
+		<ExpReq VALUE="120"/>
+		<ExpReq VALUE="200"/>
+		<ExpReq VALUE="300"/>
+		<ExpReq VALUE="450"/>
+		<ExpReq VALUE="600"/>
+		<ExpReq VALUE="1000"/>
+	</XP_TO_LVL-COST_HERO>
+
+	<UNIT_LVL-RECRUIT Level="1" >
+		<DescriptionInfo Name="DES_LVL_RECRUIT" Description="DES_LVL_RECRUIT_DES" Graphic="IconExpRecruit"/>	
+		<UnitClass VALUE="TAG-NORMAL_CLASS"/>
+	</UNIT_LVL-RECRUIT>
+	<UNIT_LVL-REGULAR Level="2">
+		<DescriptionInfo Name="DES_LVL_REGULAR" Description="DES_LVL_REGULAR_DES" Graphic="IconExpRegular"/>	
+		<UnitClass VALUE="TAG-NORMAL_CLASS"/>
+	</UNIT_LVL-REGULAR>
+	<UNIT_LVL-VETERAN Level="3">
+		<DescriptionInfo Name="DES_LVL_VETERAN" Description="DES_LVL_VETERAN_DES" Graphic="IconExpVeteran"/>	
+		<UnitClass VALUE="TAG-NORMAL_CLASS"/>
+	</UNIT_LVL-VETERAN>
+	<UNIT_LVL-ELITE Level="4">
+		<DescriptionInfo Name="DES_LVL_ELITE" Description="DES_LVL_ELITE_DES" Graphic="IconExpElite"/>	
+		<UnitClass VALUE="TAG-NORMAL_CLASS"/>
+	</UNIT_LVL-ELITE>
+	<UNIT_LVL-ULTRA_ELITE Level="5">
+		<DescriptionInfo Name="DES_LVL_ULTRA_ELITE" Description="DES_LVL_ULTRA_ELITE_DES" Graphic="IconExpUltraElite"/>	
+		<UnitClass VALUE="TAG-NORMAL_CLASS"/>
+	</UNIT_LVL-ULTRA_ELITE>
+	<UNIT_LVL-CHAMPION Level="6">
+		<DescriptionInfo Name="DES_LVL_CHAMPION" Description="DES_LVL_CHAMPION_DES" Graphic="IconExpChampion"/>	
+		<UnitClass VALUE="TAG-NORMAL_CLASS"/>
+	</UNIT_LVL-CHAMPION>
+	
+	
+
+	<UNIT_LVL-HERO Level="1">
+		<DescriptionInfo Name="DES_LVL_HERO" Description="DES_LVL_HERO_DES" Graphic="IconExpHero"/>	
+		<UnitClass VALUE="TAG-HERO_CLASS"/>
+	</UNIT_LVL-HERO>
+	<UNIT_LVL-MYRMIDON Level="2">
+		<DescriptionInfo Name="DES_LVL_MYRMIDON" Description="DES_LVL_MYRMIDON_DES" Graphic="IconExpMyrmidon"/>	
+		<UnitClass VALUE="TAG-HERO_CLASS"/>
+	</UNIT_LVL-MYRMIDON>
+	<UNIT_LVL-CAPTAIN Level="3">
+		<DescriptionInfo Name="DES_LVL_CAPTAIN" Description="DES_LVL_CAPTAIN_DES" Graphic="IconExpCaptain"/>	
+		<UnitClass VALUE="TAG-HERO_CLASS"/>
+	</UNIT_LVL-CAPTAIN>
+	<UNIT_LVL-COMMANDER Level="4"> 
+		<DescriptionInfo Name="DES_LVL_COMMANDER" Description="DES_LVL_COMMANDER_DES" Graphic="IconExpCommander"/>	
+		<UnitClass VALUE="TAG-HERO_CLASS"/>
+	</UNIT_LVL-COMMANDER>
+	<UNIT_LVL-CHAMPION_HERO Level="5">
+		<DescriptionInfo Name="DES_LVL_CHAMPION_HERO" Description="DES_LVL_CHAMPION_HERO_DES" Graphic="IconExpChampionHero"/>	
+		<UnitClass VALUE="TAG-HERO_CLASS"/>
+	</UNIT_LVL-CHAMPION_HERO>
+	<UNIT_LVL-LORD Level="6">
+		<DescriptionInfo Name="DES_LVL_LORD" Description="DES_LVL_LORD_DES" Graphic="IconExpLord"/>	
+		<UnitClass VALUE="TAG-HERO_CLASS"/>
+	</UNIT_LVL-LORD>
+	<UNIT_LVL-GRAND_LORD Level="7">
+		<DescriptionInfo Name="DES_LVL_GRAND_LORD" Description="DES_LVL_GRAND_LORD_DES" Graphic="IconExpGrandLord"/>	
+		<UnitClass VALUE="TAG-HERO_CLASS"/>
+	</UNIT_LVL-GRAND_LORD>
+	<UNIT_LVL-SUPER_HERO Level="8">
+		<DescriptionInfo Name="DES_LVL_SUPER_HERO" Description="DES_LVL_SUPER_HERO_DES" Graphic="IconExpSuperHero"/>	
+		<UnitClass VALUE="TAG-HERO_CLASS"/>
+	</UNIT_LVL-SUPER_HERO>
+	<UNIT_LVL-DEMI_GOD Level="9">
+		<DescriptionInfo Name="DES_LVL_DEMI_GOD" Description="DES_LVL_DEMI_GOD_DES" Graphic="IconExpDemiGod"/>	
+		<UnitClass VALUE="TAG-HERO_CLASS"/>
+	</UNIT_LVL-DEMI_GOD>
+</DB_UNIT_LVL>

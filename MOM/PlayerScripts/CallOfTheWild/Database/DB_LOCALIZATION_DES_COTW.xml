@@ -1,0 +1,19 @@
+﻿<DB_LOCALIZATION>
+  <LOCALIZATION-COTW_DES_EN Language="English">
+    <Loc Key="DES_CALL_OF_THE_WILD" Value="Call of the Wild"/>
+    <Loc Key="DES_CALL_OF_THE_WILD_DES" Value="Summons one of the following random creatures onto the battlefield:
+&lt;align=left&gt;{ICON:BulletPoint}Two fearsome War Bears&lt;/align&gt;
+&lt;align=left&gt;{ICON:BulletPoint}A raging Boar&lt;/align&gt;
+&lt;align=left&gt;{ICON:BulletPoint}A poison dealing Fat Rat&lt;/align&gt;"/>
+    <Loc Key="DES_COFTW_SUMMON_WAR_BEAR" Value="War Bear"/>
+    <Loc Key="DES_COFTW_SUMMON_WAR_BEAR_DES" Value="Summons a pair of fearsome war bears onto the battlefield. Specialized in melee{ICON:MeleeIconNormal} combat and will obey the Wizard's command until death or banishment."/>
+    <Loc Key="DES_COFTW_SUMMON_BOAR" Value="The Boar"/>
+    <Loc Key="DES_COFTW_SUMMON_BOAR_DES" Value="Summons a raging boar into battle. The boar is a formidable melee{ICON:MeleeIconNormal} fighter and can also Stun its enemy."/>
+    <Loc Key="DES_COFTW_BOAR" Value="The Boar" />
+    <Loc Key="DES_COFTW_BOAR_DES" Value="A rampaging boar called upon into combat by the most skillful boar tamers. The boar is a formidable melee{ICON:MeleeIconNormal} fighter and can also Stun its enemy." />
+    <Loc Key="DES_COFTW_SUMMON_FAT_RAT" Value="A Fat Rat"/>
+    <Loc Key="DES_COFTW_SUMMON_FAT_RAT_DES" Value="Summons a poison dealing, fat rat into battle. Their bite will cause Bleeding and their ugly visage can Cause Fear in the enemy."/>
+    <Loc Key="DES_COFTW_FAT_RAT" Value="A Fat Rat" />
+    <Loc Key="DES_COFTW_FAT_RAT_DES" Value="A fat rat is an unseemingly devious creature hailing from darker lands than even Myrror. Their bite will cause Bleeding and their ugly visage can Cause Fear in the enemy. " />
+  </LOCALIZATION-COTW_DES_EN>
+</DB_LOCALIZATION>
