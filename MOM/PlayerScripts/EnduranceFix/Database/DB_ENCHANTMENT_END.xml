@@ -1,18 +1,18 @@
 ﻿<DB_ENCHANTMENT>
 
-  <ENCH-ENDURANCE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
-    <DescriptionInfo Name="DES_ENDURANCE" Description="DES_ENCH_ENDURANCE_DES" Graphic="SpellEndurance"/>
-    <!-- changed from EAPP_UnitUpdateMove -->
-    <EnchantmentApplicationScript TriggerType="None" Script="EAPP_Endurance"/>
-    <!-- changed from EREM_UnitUpdateMove -->
-    <EnchantmentRemovalScript TriggerType="None" Script="EREM_Endurance"/>
-    <!-- changed from ECH_AddTag -->
-    <EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddEndurance" FIntData="1" StringData="TAG-MOVEMENT_POINTS"/>
-    <UpkeepCost VALUE="1" />
-    <LifeTime VALUE="-1"/>
-    <EnchLastingEffect VALUE="Placeholder"/>
-    <EnchCategory VALUE="Positive"/>
-    <Realm VALUE="Life"/>
-  </ENCH-ENDURANCE>
+    <ENCH-ENDURANCE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+        <DescriptionInfo Name="DES_ENDURANCE" Description="DES_ENCH_ENDURANCE_DES" Graphic="SpellEndurance"/>
+        <!-- changed from EAPP_UnitUpdateMove -> EAPP_Endurance -->
+        <EnchantmentApplicationScript TriggerType="None" Script="EAPP_Endurance"/>
+        <!-- changed from EREM_UnitUpdateMove -> EREM_Endurance -->
+        <EnchantmentRemovalScript TriggerType="None" Script="EREM_Endurance"/>
+        <!-- changed from ECH_AddTag -> ECH_AddEndurance -->
+        <EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddEndurance" FIntData="1" StringData="TAG-MOVEMENT_POINTS"/>
+        <UpkeepCost VALUE="1" />
+        <LifeTime VALUE="-1"/>
+        <EnchLastingEffect VALUE="Placeholder"/>
+        <EnchCategory VALUE="Positive"/>
+        <Realm VALUE="Life"/>
+    </ENCH-ENDURANCE>
 
 </DB_ENCHANTMENT>

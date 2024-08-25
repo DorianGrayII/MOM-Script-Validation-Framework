@@ -6,20 +6,24 @@
     <title>[Util] Endurance Fix</title>
 
     <description>
+Endurance Spell Fix: v1.0.8
+
+Dependencies: UserUtility (requires the installation of this Mod prior to use)
+
 This is a fix to the Endurance spell which should also convey a construction bonus when cast on engineers, effectively DOUBLING their construction rate.
 
 See https://masterofmagic.fandom.com/wiki/Endurance
 
 This Mod corrects the oversight and adds the missing Engineering construction bonus.
 
-Logging can be controlled via the 'bLoggingEnabled' variable in the following script file:
+Verbose logging can be controlled via the 'bLoggingEnabled' variable in the following script file:
 
 EnchantmentScripts_END.cs
 
     </description>
 
     <author>DorianGray</author>
-    <version>1.0.6</version>
+    <version>1.0.8</version>
     <icon>end:endurance.png</icon>
 
 </ModSettings>

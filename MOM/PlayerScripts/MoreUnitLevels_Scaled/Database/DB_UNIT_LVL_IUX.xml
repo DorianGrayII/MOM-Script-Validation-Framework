@@ -1,111 +1,162 @@
 ﻿<DB_UNIT_LVL>
-  <XP_TO_LVL-COST_UNIT>	
-    <ExpReq VALUE="0"/>
-    <ExpReq VALUE="20"/>
-    <ExpReq VALUE="40"/>
-    <ExpReq VALUE="60"/>
-    <ExpReq VALUE="100"/>
-    <ExpReq VALUE="160"/>
-    <ExpReq VALUE="240"/>
-    <ExpReq VALUE="340"/>
-    <ExpReq VALUE="460"/>
-    <ExpReq VALUE="600"/>
-    <ExpReq VALUE="760"/>
-    <ExpReq VALUE="940"/>
-    <ExpReq VALUE="1140"/>
-    <ExpReq VALUE="1360"/>
-    <ExpReq VALUE="1600"/>
-    <ExpReq VALUE="1860"/>
-    <ExpReq VALUE="2140"/>
-    <ExpReq VALUE="2440"/>
-    <ExpReq VALUE="2760"/>
-  </XP_TO_LVL-COST_UNIT>
 
-  <UNIT_LVL-RECRUIT Level="1" >
-    <DescriptionInfo Name="DES_LVL_RECRUIT" Description="DES_LVL_RECRUIT_DES" Graphic="IconExpRecruit"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-RECRUIT>
-  <UNIT_LVL-RECRUIT1 Level="2" >
-    <DescriptionInfo Name="DES_LVL_RECRUIT1" Description="DES_LVL_RECRUIT1_DES" Graphic="IconExpRegular"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-RECRUIT1>
-  <UNIT_LVL-RECRUIT2 Level="3" >
-    <DescriptionInfo Name="DES_LVL_RECRUIT2" Description="DES_LVL_RECRUIT2_DES" Graphic="IconExpRegular"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-RECRUIT2>	
-  
-  <UNIT_LVL-REGULAR Level="4">
-    <DescriptionInfo Name="DES_LVL_REGULAR" Description="DES_LVL_REGULAR_DES" Graphic="IconExpRegular"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-REGULAR>
-  <UNIT_LVL-REGULAR1 Level="5">
-    <DescriptionInfo Name="DES_LVL_REGULAR1" Description="DES_LVL_REGULAR1_DES" Graphic="IconExpRegular"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-REGULAR1>
-  <UNIT_LVL-REGULAR2 Level="6">
-    <DescriptionInfo Name="DES_LVL_REGULAR2" Description="DES_LVL_REGULAR2_DES" Graphic="IconExpRegular"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-REGULAR2>	
-  
-  <UNIT_LVL-VETERAN Level="7">
-    <DescriptionInfo Name="DES_LVL_VETERAN" Description="DES_LVL_VETERAN_DES" Graphic="IconExpVeteran"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-VETERAN>
-  <UNIT_LVL-VETERAN1 Level="8">
-    <DescriptionInfo Name="DES_LVL_VETERAN1" Description="DES_LVL_VETERAN1_DES" Graphic="IconExpVeteran"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-VETERAN1>
-  <UNIT_LVL-VETERAN2 Level="9">
-    <DescriptionInfo Name="DES_LVL_VETERAN2" Description="DES_LVL_VETERAN2_DES" Graphic="IconExpVeteran"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-VETERAN2>	
-  
-  <UNIT_LVL-ELITE Level="10">
-    <DescriptionInfo Name="DES_LVL_ELITE" Description="DES_LVL_ELITE_DES" Graphic="IconExpElite"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-ELITE>
-  <UNIT_LVL-ELITE1 Level="11">
-    <DescriptionInfo Name="DES_LVL_ELITE1" Description="DES_LVL_ELITE1_DES" Graphic="IconExpElite"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-ELITE1>
-  <UNIT_LVL-ELITE2 Level="12">
-    <DescriptionInfo Name="DES_LVL_ELITE2" Description="DES_LVL_ELITE2_DES" Graphic="IconExpElite"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-ELITE2>	
-  
-  <UNIT_LVL-ULTRA_ELITE Level="13">
-    <DescriptionInfo Name="DES_LVL_ULTRA_ELITE" Description="DES_LVL_ULTRA_ELITE_DES" Graphic="IconExpUltraElite"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-ULTRA_ELITE>
-  <UNIT_LVL-ULTRA_ELITE1 Level="14">
-    <DescriptionInfo Name="DES_LVL_ULTRA_ELITE1" Description="DES_LVL_ULTRA_ELITE1_DES" Graphic="IconExpUltraElite"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-ULTRA_ELITE1>
-  <UNIT_LVL-ULTRA_ELITE2 Level="15">
-    <DescriptionInfo Name="DES_LVL_ULTRA_ELITE2" Description="DES_LVL_ULTRA_ELITE2_DES" Graphic="IconExpUltraElite"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-ULTRA_ELITE2>
-  
-  <UNIT_LVL-CHAMPION Level="16">
-    <DescriptionInfo Name="DES_LVL_CHAMPION" Description="DES_LVL_CHAMPION_DES" Graphic="IconExpChampion"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-CHAMPION>
-  <UNIT_LVL-CHAMPION1 Level="17">
-    <DescriptionInfo Name="DES_LVL_CHAMPION1" Description="DES_LVL_CHAMPION1_DES" Graphic="IconExpChampion"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-CHAMPION1>
-  <UNIT_LVL-CHAMPION2 Level="18">
-    <DescriptionInfo Name="DES_LVL_CHAMPION2" Description="DES_LVL_CHAMPION2_DES" Graphic="IconExpChampion"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-CHAMPION2>
-  
-  <UNIT_LVL-GRAND_CHAMPION Level="19">
-    <DescriptionInfo Name="DES_LVL_GRAND_CHAMPION" Description="DES_LVL_CHAMPION_DES" Graphic="IconExpChampion"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-GRAND_CHAMPION>
-  <UNIT_LVL-GRAND_CHAMPION1 Level="20">
-    <DescriptionInfo Name="DES_LVL_GRAND_CHAMPION1" Description="DES_LVL_CHAMPION1_DES" Graphic="IconExpChampion"/>	
-    <UnitClass VALUE="TAG-NORMAL_CLASS"/>
-  </UNIT_LVL-GRAND_CHAMPION1>	
+    <!-- Default Values
+
+    <XP_TO_LVL-COST_UNIT>
+        <ExpReq VALUE="0"/>   Recruit Lvl1
+        <ExpReq VALUE="20"/>  Regular Lvl2
+        <ExpReq VALUE="60"/>  Veteran Lvl3
+        <ExpReq VALUE="120"/> Elite   Lvl4
+    </XP_TO_LVL-COST_UNIT>
+    
+    <XP_TO_LVL-COST_HERO>
+        <ExpReq VALUE="0"/>
+        <ExpReq VALUE="20"/> 20
+        <ExpReq VALUE="60"/> 40
+        <ExpReq VALUE="120"/> 60
+        <ExpReq VALUE="200"/> 80
+        <ExpReq VALUE="300"/> 100
+        <ExpReq VALUE="450"/> 150
+        <ExpReq VALUE="600"/> 150
+        <ExpReq VALUE="1000"/> 400
+    </XP_TO_LVL-COST_HERO>
+    
+-->
+    <XP_TO_LVL-COST_UNIT>
+        <ExpReq VALUE="0"/>
+        <ExpReq VALUE="20"/>
+        <ExpReq VALUE="40"/>
+        <!-- Regular -->
+        <ExpReq VALUE="60"/>
+        <ExpReq VALUE="100"/>
+        <ExpReq VALUE="160"/>
+        <!-- Veteran -->
+        <ExpReq VALUE="240"/>
+        <ExpReq VALUE="340"/>
+        <ExpReq VALUE="460"/>
+        <!-- Elite -->
+        <ExpReq VALUE="600"/>
+        <ExpReq VALUE="760"/>
+        <ExpReq VALUE="940"/>
+        <ExpReq VALUE="1140"/>
+        <ExpReq VALUE="1360"/>
+        <ExpReq VALUE="1600"/>
+        <ExpReq VALUE="1860"/>
+        <ExpReq VALUE="2140"/>
+        <ExpReq VALUE="2440"/>
+    </XP_TO_LVL-COST_UNIT>
+
+    <UNIT_LVL-RECRUIT1 Level="1" >
+        <DescriptionInfo Name="DES_LVL_RECRUIT1" Description="DES_LVL_RECRUIT1_DES" Graphic="IconExpRecruit"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-RECRUIT1>
+    <UNIT_LVL-RECRUIT2 Level="2" >
+        <DescriptionInfo Name="DES_LVL_RECRUIT2" Description="DES_LVL_RECRUIT2_DES" Graphic="IconExpRecruit"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-RECRUIT2>
+    <UNIT_LVL-RECRUIT3 Level="3" >
+        <DescriptionInfo Name="DES_LVL_RECRUIT3" Description="DES_LVL_RECRUIT3_DES" Graphic="IconExpRecruit"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-RECRUIT3>
+
+    <UNIT_LVL-REGULAR1 Level="4">
+        <DescriptionInfo Name="DES_LVL_REGULAR1" Description="DES_LVL_REGULAR1_DES" Graphic="IconExpRegular"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-REGULAR1>
+    <UNIT_LVL-REGULAR2 Level="5">
+        <DescriptionInfo Name="DES_LVL_REGULAR2" Description="DES_LVL_REGULAR1_DES" Graphic="IconExpRegular"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-REGULAR2>
+    <UNIT_LVL-REGULAR3 Level="6">
+        <DescriptionInfo Name="DES_LVL_REGULAR3" Description="DES_LVL_REGULAR2_DES" Graphic="IconExpRegular"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-REGULAR3>
+
+    <UNIT_LVL-VETERAN1 Level="7">
+        <DescriptionInfo Name="DES_LVL_VETERAN1" Description="DES_LVL_VETERAN1_DES" Graphic="IconExpVeteran"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-VETERAN1>
+    <UNIT_LVL-VETERAN2 Level="8">
+        <DescriptionInfo Name="DES_LVL_VETERAN2" Description="DES_LVL_VETERAN2_DES" Graphic="IconExpVeteran"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-VETERAN2>
+    <UNIT_LVL-VETERAN3 Level="9">
+        <DescriptionInfo Name="DES_LVL_VETERAN3" Description="DES_LVL_VETERAN3_DES" Graphic="IconExpVeteran"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-VETERAN3>
+
+    <UNIT_LVL-ELITE1 Level="10">
+        <DescriptionInfo Name="DES_LVL_ELITE1" Description="DES_LVL_ELITE1_DES" Graphic="IconExpElite"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-ELITE1>
+    <UNIT_LVL-ELITE2 Level="11">
+        <DescriptionInfo Name="DES_LVL_ELITE2" Description="DES_LVL_ELITE2_DES" Graphic="IconExpElite"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-ELITE2>
+    <UNIT_LVL-ELITE3 Level="12">
+        <DescriptionInfo Name="DES_LVL_ELITE3" Description="DES_LVL_ELITE3_DES" Graphic="IconExpElite"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-ELITE3>
+
+    <UNIT_LVL-ULTRA_ELITE1 Level="13">
+        <DescriptionInfo Name="DES_LVL_ULTRA_ELITE1" Description="DES_LVL_ULTRA_ELITE1_DES" Graphic="IconExpUltraElite"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-ULTRA_ELITE1>
+    <UNIT_LVL-ULTRA_ELITE2 Level="14">
+        <DescriptionInfo Name="DES_LVL_ULTRA_ELITE2" Description="DES_LVL_ULTRA_ELITE2_DES" Graphic="IconExpUltraElite"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-ULTRA_ELITE2>
+    <UNIT_LVL-ULTRA_ELITE3 Level="15">
+        <DescriptionInfo Name="DES_LVL_ULTRA_ELITE3" Description="DES_LVL_ULTRA_ELITE3_DES" Graphic="IconExpUltraElite"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-ULTRA_ELITE3>
+
+    <UNIT_LVL-CHAMPION1 Level="16">
+        <DescriptionInfo Name="DES_LVL_CHAMPION1" Description="DES_LVL_CHAMPION1_DES" Graphic="IconExpChampion"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-CHAMPION1>
+    <UNIT_LVL-CHAMPION2 Level="17">
+        <DescriptionInfo Name="DES_LVL_CHAMPION2" Description="DES_LVL_CHAMPION2_DES" Graphic="IconExpChampion"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-CHAMPION2>
+    <UNIT_LVL-CHAMPION3 Level="18">
+        <DescriptionInfo Name="DES_LVL_CHAMPION3" Description="DES_LVL_CHAMPION3_DES" Graphic="IconExpChampion"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-CHAMPION3>
+
+    <UNIT_LVL-GRAND_CHAMPION1 Level="19">
+        <DescriptionInfo Name="DES_LVL_GRAND_CHAMPION1" Description="DES_LVL_GRAND_CHAMPION1_DES" Graphic="IconExpChampion"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-GRAND_CHAMPION1>
+    <UNIT_LVL-GRAND_CHAMPION2 Level="20">
+        <DescriptionInfo Name="DES_LVL_GRAND_CHAMPION2" Description="DES_LVL_GRAND_CHAMPION2_DES" Graphic="IconExpChampion"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-GRAND_CHAMPION2>
+
+    <!-- These are the defaults, but have to be included as well and overwritten to use the updated values -->
+    <UNIT_LVL-RECRUIT Level="1" >
+        <DescriptionInfo Name="DES_LVL_RECRUIT1" Description="DES_LVL_RECRUIT1_DES" Graphic="IconExpRecruit"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-RECRUIT>
+    <UNIT_LVL-REGULAR Level="4">
+        <DescriptionInfo Name="DES_LVL_REGULAR1" Description="DES_LVL_REGULAR1_DES" Graphic="IconExpRegular"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-REGULAR>
+    <UNIT_LVL-VETERAN Level="7">
+        <DescriptionInfo Name="DES_LVL_VETERAN1" Description="DES_LVL_VETERAN1_DES" Graphic="IconExpVeteran"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-VETERAN>
+    <UNIT_LVL-ELITE Level="10">
+        <DescriptionInfo Name="DES_LVL_ELITE1" Description="DES_LVL_ELITE1_DES" Graphic="IconExpElite"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-ELITE>
+    <UNIT_LVL-ULTRA_ELITE Level="13">
+        <DescriptionInfo Name="DES_LVL_ULTRA_ELITE1" Description="DES_LVL_ULTRA_ELITE1_DES" Graphic="IconExpUltraElite"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-ULTRA_ELITE>
+    <UNIT_LVL-CHAMPION Level="16">
+        <DescriptionInfo Name="DES_LVL_CHAMPION1" Description="DES_LVL_CHAMPION1_DES" Graphic="IconExpChampion"/>
+        <UnitClass VALUE="TAG-NORMAL_CLASS"/>
+    </UNIT_LVL-CHAMPION>
 
 </DB_UNIT_LVL>

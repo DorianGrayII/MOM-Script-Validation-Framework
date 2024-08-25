@@ -1,0 +1,18 @@
+﻿<DB_BUILDING>
+    <BUILDING-BARRACKS>
+        <DescriptionInfo Name="DES_BUILDING_BARRACKS" Description="DES_BUILDING_BARRACKS_DES" Graphic="BuildingBarracks"/>
+        <BuildCost VALUE="30"/>
+        <UpkeepCost VALUE="0"/>
+        <Enchantments VALUE="ENCH-BARRACKS"/>
+        <Tags VALUE="TAG-MILITARY"/>
+    </BUILDING-BARRACKS>
+
+    <BUILDING-ARMORERS_GUILD>
+        <DescriptionInfo Name="DES_BUILDING_ARMORERS_GUILD" Description="DES_BUILDING_ARMORERS_GUILD_DES" Graphic="BuildingArmorersGuild"/>
+        <ParentBuildingRequired VALUE="BUILDING-FIGHTERS_GUILD"/>
+        <BuildCost VALUE="350"/>
+        <UpkeepCost VALUE="4"/>
+        <Enchantments VALUE="ENCH-ARMORERS_GUILD"/>
+        <Tags VALUE="TAG-MILITARY"/>
+    </BUILDING-ARMORERS_GUILD>
+</DB_BUILDING>

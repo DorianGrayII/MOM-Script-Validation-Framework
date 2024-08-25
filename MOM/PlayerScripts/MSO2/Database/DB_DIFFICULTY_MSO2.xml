@@ -8,13 +8,14 @@
      Hard    uses Collection 3 (209% Score Multiplier)
      Extreme uses Collection 4 (247% Score Multiplier)
 
-     Collection="0" used to avoid being in existing collection
+     Collection="0" & "5" used to avoid being in an existing collection
 -->
     <DIFFICULTY-WIZARD_PICKS
             Name="UI_DIFF_WIZARD_PICKS"
             FullValue="10">
         <TooltipName VALUE="UI_DIFF_WIZARD_PICKS"/>
         <TooltipDescription VALUE="UI_DIFF_WIZARD_PICKS_DES"/>
+        <Setting Title="16" Value="16" Difficulty="-70" Collection="0"/>
         <Setting Title="15" Value="15" Difficulty="-50" Collection="0"/>
         <Setting Title="14" Value="14" Difficulty="-30" Collection="0"/>
         <Setting Title="13" Value="13" Difficulty="-10" Collection="0"/>
@@ -28,6 +29,8 @@
             FullValue="20">
       <TooltipName VALUE="UI_ADD_HERO"/>
       <TooltipDescription VALUE="UI_ADD_HERO_DES"/>
+      <Setting Title="UI_MYSTIC_X" Value="HERO-MYSTIC_X" Difficulty="-90" Collection="0"/>
+      <Setting Title="UI_YRAMRAG" Value="HERO-YRAMRAG" Difficulty="-90" Collection="0"/>
       <Setting Title="UI_SHALLA" Value="HERO-SHALLA" Difficulty="-90" Collection="0"/>
       <Setting Title="UI_SPYDER" Value="HERO-SPYDER" Difficulty="-90" Collection="0"/>
       <Setting Title="UI_SHIN_BO" Value="HERO-SHIN_BO" Difficulty="-90" Collection="0"/>
@@ -107,7 +110,8 @@
         <TooltipName VALUE="UI_LAIR_NUMBER_MULTIPLIER"/>
         <TooltipDescription VALUE="UI_LAIR_NUMBER_MULTIPLIER_DES"/>
         <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_1" Value="1.0" Difficulty="10" Collection="1"/>
-        <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_7" Value="0.7" Difficulty="10" Collection="2"/>
+        <!-- Fixes Difficulty, now set to "20" -->
+        <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_7" Value="0.7" Difficulty="20" Collection="2"/>
         <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_5" Value="0.5" Difficulty="40" Collection="2"/>
         <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_25" Value="0.25" Difficulty="60" Collection="3"/>
         <Setting Title="UI_LAIR_NUMBER_MULTIPLIER_0_1" Value="0.1" Difficulty="80" Collection="3"/>

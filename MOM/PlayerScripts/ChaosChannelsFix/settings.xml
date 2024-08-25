@@ -20,14 +20,14 @@ CHAOS_CHANNELS2 (Flight) will skip the following:
 - Ship Units
 - Units that already have Flight
 
-CHAOS_CHANNELS1 (Demonskin) can be applied to all units and is the defacto default.
+CHAOS_CHANNELS1 (Demonskin) can be applied to all units and is the de facto default.
 
 Additionally, each of the unit skills will have its own unit icon displayable in the panel above the unit.
 
     </description>
 
     <author>DorianGray</author>
-    <version>1.0.6</version>
+    <version>1.0.8</version>
     <icon>ccf:ccf.png</icon>
 
 </ModSettings>

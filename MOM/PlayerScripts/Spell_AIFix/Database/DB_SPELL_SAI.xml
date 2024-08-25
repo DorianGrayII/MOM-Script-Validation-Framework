@@ -1,0 +1,132 @@
+﻿<DB_SPELL>
+    <SPELL-DISPEL_MAGIC_TRUE BattleCost="10">
+        <ChangeableCost MaxMultipier="5" CostPerPoint="1" DesType="DES_CHANGEABLE_COST_DISPEL_POWER"/>
+        <DescriptionInfo Name="DES_DISPEL_MAGIC_TRUE" Description="DES_DISPEL_MAGIC_TRUE_DES" Graphic="SpellDispelMagicTrue"/>
+        <ResearchCost VALUE="40"/>
+        <Realm VALUE="Sorcery"/>
+        <Rarity VALUE="Common"/>
+        <TargetType VALUE="TARGET_TYPE-UNIT"/>
+        <TargetingScript VALUE="STAR_Dispel_Any_Unit"/>
+        <BattleScript VALUE="SBG_DispelMagic"/>
+        <FIntData VALUE="30"/>
+        <!-- change from SBAI_DispelMagic -->
+        <AIBattleEvaluationScript VALUE="SBAI_DispelMagicTrue"/>
+        <DispelingSpell VALUE="TRUE"/>
+        <CastEffect VALUE="Effect_DispelMagic"/>
+        <AudioEffect VALUE="SpellDispelMagic"/>
+        <InvalidTarget VALUE=""/>
+    </SPELL-DISPEL_MAGIC_TRUE>
+
+    <ShipComponent>
+        <InternalName>Lasers</InternalName>
+
+        <Stats>
+            <EffectType>Threat</EffectType>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.2</Value>
+        </Stats>
+        <Stats>
+            <EffectType>BeamManufacturingCost</EffectType>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>5</Value>
+        </Stats>
+        <Stats>
+            <EffectType>Mass</EffectType>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>HullMassScaleMod</Special>
+                <ValueParam>5</ValueParam>
+                <ValueParam>0.01</ValueParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>BeamWeapon</EffectType>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>1</Value>
+        </Stats>
+        <Stats>
+            <EffectType>BeamAttack</EffectType>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>2</Value>
+        </Stats>
+        <Prerequ>
+            <Techs>
+                <Option>Tech_ArmedShuttles</Option>
+            </Techs>
+        </Prerequ>
+    </ShipComponent>
+
+    <ShipComponent>
+        <InternalName>ParticleBeam</InternalName>
+
+        <Stats>
+            <EffectType>Threat</EffectType>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>0.2</Value>
+        </Stats>
+        <Stats>
+            <EffectType>BeamManufacturingCost</EffectType>
+            <Scope>Queue</Scope>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>5</Value>
+        </Stats>
+        <Stats>
+            <EffectType>Mass</EffectType>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <ValueType>Special</ValueType>
+            <SpecialValue>
+                <Special>HullMassScaleMod</Special>
+                <ValueParam>5</ValueParam>
+                <ValueParam>0.01</ValueParam>
+            </SpecialValue>
+        </Stats>
+        <Stats>
+            <EffectType>BeamWeapon</EffectType>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>1</Value>
+        </Stats>
+        <Stats>
+            <EffectType>BeamAttack</EffectType>
+            <Target>
+                <TargetType>Ship</TargetType>
+            </Target>
+            <BonusType>Flat</BonusType>
+            <Value>2</Value>
+        </Stats>
+        <Prerequ>
+            <Techs>
+                <Option>Tech_SpaceWeapons</Option>
+            </Techs>
+        </Prerequ>
+    </ShipComponent>
+
+</DB_SPELL>

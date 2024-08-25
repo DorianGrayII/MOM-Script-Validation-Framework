@@ -1,8 +1,8 @@
 /**********************************
  *
  * Author:  Dorian Gray
- * Date:    Feb 23, 2024
- * Version: 1.0.3
+ * Date:    May 19, 2024
+ * Version: 1.0.4
  *
  **********************************/
 
@@ -20,11 +20,11 @@ using MOMScripts_CMF;
 
 namespace GameScript_CMF
 {
-    using static UserUtility_CMF.Utility;
+    using static UserUtility.Utility;
     public class GameplayScripts : ScriptBase
     {
         /// <summary>
-        /// enables verbose counter magic logging
+        /// enables verbose logging
         /// </summary>
         private const bool bLoggingEnabled = true;
         /// <summary>
@@ -429,31 +429,26 @@ namespace GameScript_CMF
         /// <param name="battle"></param>
         /// <param name="spell"></param>
         /// <param name="spellCaster"></param>
-        /// <returns>true is spell is countered</returns>
+        /// <returns>true if spell is countered</returns>
         public static bool CounterMagicBattle(Battle battle, Spell spell, ISpellCaster spellCaster)
         {
-            bool bCounterMagicActive = false;
+            bool bCounterMagicActive = (battle != null) ? (battle.battleCounterMagic > 0) : false;
             bool bSimulated = false;
             if (battle != null)
             {
-                bCounterMagicActive = battle.battleCounterMagic > 0;
                 bSimulated = battle.simulation;
-
-                if (bLoggingEnabled && !bSimulated)
-                {
-                    Debug.LogFormat("[CounterMagicBattle] battleCounterMagic:{0}", battle.battleCounterMagic);
-                }
             }
             else
             {
                 Debug.LogWarning("[CounterMagicBattle] battle == null");
+                return false;
             }
 
             PlayerWizard playerWizard = spellCaster is BattleUnit ? (spellCaster as BattleUnit).GetWizardOwner() : spellCaster as PlayerWizard;
 
             // are we fighting on a Node and does playerWizard have Node Mastery?
 
-            if (battle != null && battle.gDefender != null &&
+            if (battle.gDefender != null &&
                 battle.gDefender.GetLocationHost() != null &&
                 battle.gDefender.GetLocationHost().locationType == ELocationType.Node)
             {

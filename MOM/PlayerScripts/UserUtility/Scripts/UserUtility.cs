@@ -1,12 +1,11 @@
 /**********************************
  *
  * Author:  Dorian Gray
- * Date:    Feb 23 2024
- * Version: 1.0.13
+ * Date:    May 19, 2024
+ * Version: 1.0.16
  *
  **********************************/
 
-#if !USE_DEBUG_SCRIPT || !UNITY_EDITOR
 
 using System.Collections.Generic;
 using DBDef;
@@ -18,7 +17,7 @@ using MOM;
 /// </summary>
 /// <remarks>
 /// Some thought was made into the method naming convention, rather it should be generic and opaque or informative.
-/// Ultimately, I decided to be somewhat more informative.  As a result the followning patters were adopted.
+/// Ultimately, I decided to be somewhat more informative.  As a result the following patters were adopted.
 /// 
 /// GetNameID - formatted Name and ID
 /// GetOwnerNameID - (formatted Name and ID) both belonging to the Wizard Owner
@@ -30,19 +29,17 @@ using MOM;
 /// 
 /// Why all the null checks?
 ///    The purpose of these helper function arose from logging arguments, which could be null and a normal argument value.
-///    I wanted a set of functions I coulc quickly utilize where I did not have to null-check upfront and it would handle for me.
+///    I wanted a set of functions I could quickly utilize where I did not have to null-check upfront and it would handle for me.
 ///    At the same time, I wanted to see in the log when null values were passed, so went with the explicit "{null} string.
 /// 
 /// </remarks>
-/// <warning>
-/// You will have to change the following namespace name
-/// </warning>
 
-namespace UserUtility_FON
+namespace UserUtility
 {
     public static class Utility
     {
         static readonly int iHumanID = global::MOM.PlayerWizard.HumanID();
+        static readonly int iInvalidWizardID = global::MOM.PlayerWizard.InvalidWizardID();
 
         #region PlayerWizard helpers
 
@@ -50,7 +47,7 @@ namespace UserUtility_FON
         /// Determines if target is Human
         /// </summary>
         /// <param name="wizard">target</param>
-        /// <returns>True if target is a Human Player</returns>
+        /// <returns>true if target is a Human Player.</returns>
         public static bool IsHuman(PlayerWizard wizard)
         {
             // Note - PlayerWizard.GetID and PlayerWizard.GetOwnerID returns same value
@@ -61,7 +58,7 @@ namespace UserUtility_FON
         /// Generates a formatted string containing the target's name and ID
         /// </summary>
         /// <param name="wizard">target</param>
-        /// <returns>Returns the formatted string or {null} on error.</returns
+        /// <returns>formatted string or {null} on error.</returns>
         public static string GetNameID(PlayerWizard wizard)
         {
             string str = "{null}";
@@ -76,11 +73,11 @@ namespace UserUtility_FON
         }
 
         /// <summary>
-        /// Checks the target for the trait attribute.
+        /// Checks the wizard for the trait attribute.
         /// </summary>
         /// <param name="wizard">target</param>
-        /// <param name="trait"></param>
-        /// <returns></returns>
+        /// <param name="trait">the trait to locate</param>
+        /// <returns>true if trait if found in wizard's List<Trait> container.</Trait></returns>
         public static bool HasTrait(PlayerWizard wizard, DBEnum.TRAIT trait)
         {
             bool bRetVal = false;
@@ -102,7 +99,7 @@ namespace UserUtility_FON
         /// Generates a formatted string containing the target's name and Wizard Owner ID
         /// </summary>
         /// <param name="ie">target</param>
-        /// <returns>Returns the formatted string or {null} on error.</returns
+        /// <returns>formatted string or {null} on error.</returns>
         public static string GetNameOwnerID(IEnchantable ie)
         {
             string str = "{null}";
@@ -130,9 +127,18 @@ namespace UserUtility_FON
         /// Checks the polymorphic target as being flagged as 'simulated' by game engine.
         /// </summary>
         /// <param name="ie">target, expects a MOM.Unit, BattleUnit or Battle</param>
-        /// <returns>True if simulation flag is set.</returns>
+        /// <returns>true if simulation flag is set.</returns>
         public static bool IsSimulated(IEnchantable ie)
         {
+            /*
+             * 	IEnchantable can be one of (BaseUnit),
+	         *    (BattlePlayer),
+	         *    (GameManager),
+	         *    (Location),
+	         *    (PlayerWizard)
+             *    
+             *    But only the following, below have a simulation data member
+             */
             bool bRetVal = false;
 
             if (ie != null)
@@ -163,10 +169,10 @@ namespace UserUtility_FON
         #region ISpellCaster helpers
 
         /// <summary>
-        /// 
+        /// Tests if target is owned by Human player
         /// </summary>
         /// <param name="target"></param>
-        /// <returns>True if Owner of target is Human Player</returns>
+        /// <returns>true if Owner of target is Human Player.</returns>
         public static bool IsOwnerHuman(ISpellCaster target)
         {
             return (target != null) ? (target.GetWizardOwnerID() == iHumanID) : false;
@@ -176,7 +182,7 @@ namespace UserUtility_FON
         /// Generates a formatted string containing the target's name and owning Wizard's ID
         /// </summary>
         /// <param name="caster">target</param>
-        /// <returns>Returns the formatted string or {null} on error.</returns
+        /// <returns>formatted string or {null} on error.</returns>
         public static string GetNameOwnerID(ISpellCaster caster)
         {
             string str = "{null}";
@@ -198,7 +204,7 @@ namespace UserUtility_FON
         /// Can be used on the following: Artefact, Building, Enchantment, Location, Plane, Race, Resource, Skill, Spell, Subrace, Tag, Terrain, Town, Trait, Wizard
         /// </summary>
         /// <param name="descriptionInfo">target</param>
-        /// <returns>Returns the formatted string or {null} on error.</returns
+        /// <returns>formatted string or {null} on error.</returns>
         public static string GetName(IDescriptionInfoType descriptionInfo)
         {
             string str = "{null}";
@@ -216,8 +222,8 @@ namespace UserUtility_FON
         /// Generates a formatted string containing the target's localized name and an int value such as Spell Cost
         /// </summary>
         /// <param name="descriptionInfo">target</param>
-        /// <param name="iValue"></param>
-        /// <returns>Returns the formatted string or {null} on error.</returns>
+        /// <param name="iValue">user provided variable to be included in formatted string</param>
+        /// <returns>formatted string or {null} on error.</returns>
         public static string GetEnchantmentName(IDescriptionInfoType descriptionInfo, int iValue)
         {
             string str = "{null}";
@@ -239,7 +245,7 @@ namespace UserUtility_FON
         /// name and owner ID data.
         /// </summary>
         /// <param name="ei">target</param>
-        /// <returns>Returns the formatted string or {null} on error.</returns
+        /// <returns>formatted string or {null} on error.</returns>
         public static string GetOwnerAsWizardNameID(EnchantmentInstance ei)
         {
             string str = "{null}";
@@ -261,7 +267,7 @@ namespace UserUtility_FON
         /// Generates a formated string containing the target's name and Owner's ID
         /// </summary>
         /// <param name="ei">target</param>
-        /// <returns>Returns the formatted string or {null} on error.</returns
+        /// <returns>formatted string or {null} on error.</returns>
         public static string GetNameOwnerID(EnchantmentInstance ei)
         {
             string str = "{null}";
@@ -285,7 +291,7 @@ namespace UserUtility_FON
         /// Generates a formatted string containing the target's localized name
         /// </summary>
         /// <param name="ei">target</param>
-        /// <returns>Returns the formatted string or {null} on error.</returns
+        /// <returns>formatted string or {null} on error.</returns>
         public static string GetEnchantmentName(EnchantmentInstance ei)
         {
             string str = "{null}";
@@ -304,7 +310,7 @@ namespace UserUtility_FON
         /// name and owner ID data.
         /// </summary>
         /// <param name="ei">target</param>
-        /// <returns>Returns the formatted string or {null} on error.</returns
+        /// <returns>formatted string or {null} on error.</returns>
         public static string GetOwnerAsBattleUnitNameID(EnchantmentInstance ei)
         {
             string str = "{null}";
@@ -323,7 +329,7 @@ namespace UserUtility_FON
         /// Determines if owner exists as a BattleUnit
         /// </summary>
         /// <param name="ei">target</param>
-        /// <returns>target's owner as BattleUnit or null</returns>
+        /// <returns>BattleUnit containing target's owner or null if not found.</returns>
         public static BattleUnit GetOwnerAsBattleUnit(EnchantmentInstance ei)
         {
             BattleUnit bu = null;
@@ -340,7 +346,7 @@ namespace UserUtility_FON
         /// Determines if owner exists as an ISpellCaster
         /// </summary>
         /// <param name="ei">target</param>
-        /// <returns>target's owner as ISpellCaster or null</returns>
+        /// <returns>ISpellCaster containing the target's owner or null if not found.</returns>
         public static ISpellCaster GetOwnerAsISpellCaster(EnchantmentInstance ei)
         {
             ISpellCaster spellCaster = null;
@@ -354,40 +360,40 @@ namespace UserUtility_FON
         }
 
         /// <summary>
-        /// Obtains polymorphic owner as a PlayerWizard object for the target
+        /// Obtains the owner PlayerWizard object from a polymorphic target
         /// </summary>
-        /// <param name="ei">target</param>
-        /// <returns>target's owner as PlayerWizard or null</returns>
+        /// <param name="ei">target as PlayerWizard, BattleUnit or IEnchantable->BattlePlayer</param>
+        /// <returns>PlayerWizard containing target's owner or null if not found.</returns>
         public static PlayerWizard GetOwnerAsPlayerWizard(EnchantmentInstance ei)
         {
-            PlayerWizard caster = null;
+            PlayerWizard playerWizard = null;
             if (ei != null)
             {
                 Entity owner = ei.owner?.GetEntity();
                 if (owner is PlayerWizard)
                 {
-                    caster = owner as PlayerWizard;
+                    playerWizard = owner as PlayerWizard;
                 }
                 else if (owner is BattleUnit)
                 {
-                    caster = (owner as BattleUnit).GetWizardOwner();
+                    playerWizard = (owner as BattleUnit).GetWizardOwner();
                 }
                 else if ((owner as IEnchantable) is BattlePlayer)
                 {
-                    caster = ((owner as IEnchantable) as BattlePlayer).GetWizardOwner();
+                    playerWizard = ((owner as IEnchantable) as BattlePlayer).GetWizardOwner();
                 }
             }
-            return caster;
+            return playerWizard;
         }
 
         /// <summary>
-        /// 
+        /// Obtains the Owner's Wizard ID from a polymorphic type
         /// </summary>
-        /// <param name="ei">target</param>
-        /// <returns>Wizard Owner ID</returns>
+        /// <param name="ei">target as a PlayWizard, BattleUnit or IEnchantable->BattlePlayer</param>
+        /// <returns>int containing the Owner's Wizard ID or iInvalidWizardID if not found.</returns>
         public static int GetWizardOwnerID(EnchantmentInstance ei)
         {
-            int iID = 0;
+            int iID = iInvalidWizardID;
             if (ei != null)
             {
                 Entity owner = ei.owner?.GetEntity();
@@ -413,10 +419,10 @@ namespace UserUtility_FON
 
         #region Spell helpers
         /// <summary>
-        /// Generates a formatted string containing the target's localized name
+        /// Generates a formatted string containing the Spell's localized name
         /// </summary>
         /// <param name="spell">target</param>
-        /// <returns>Returns the formatted string or {null} on error.</returns
+        /// <returns>the formatted string or {null} on error.</returns>
         public static string GetSpellName(Spell spell)
         {
             string str = "{null}";
@@ -430,11 +436,11 @@ namespace UserUtility_FON
         }
 
         /// <summary>
-        /// 
+        /// Generates a formatted string containing the spell's localized name and user provided iSpellCost
         /// </summary>
         /// <param name="spell"></param>
         /// <param name="iSpellCost"></param>
-        /// <returns></returns>
+        /// <returns>the formatted string or {null} on error.</returns>
         public static string GetSpellName(Spell spell, int iSpellCost)
         {
             string str = "{null}";
@@ -448,10 +454,10 @@ namespace UserUtility_FON
         }
 
         /// <summary>
-        /// Generates a formatted string containing the target's localized name and battle cost
+        /// Generates a formatted string containing the spell's localized name and battle cost
         /// </summary>
         /// <param name="spell"></param>
-        /// <returns>Returns the formatted string or {null} on error.</return
+        /// <returns>the formatted string or {null} on error.</returns>
         public static string GetSpellNameBattleCost(Spell spell)
         {
             string str = "{null}";
@@ -468,20 +474,27 @@ namespace UserUtility_FON
         #region BaseUnit helpers
 
         /// <summary>
-        /// 
+        /// Test if target belongs to a Human player
         /// </summary>
         /// <param name="bu">target</param>
-        /// <returns>True if target's owner is a Human Player</returns>
+        /// <returns>true if target's owner is a Human Player</returns>
         public static bool IsOwnerHuman(BaseUnit bu)
         {
-            return (bu.GetWizardOwnerID() == iHumanID);
+            bool bRetVal = false;
+
+            if (bu != null)
+            {
+               bRetVal = (bu.GetWizardOwnerID() == iHumanID);
+            }
+
+            return bRetVal;
         }
 
         /// <summary>
         /// Generates a formatted string containing the target's localized name
         /// </summary>
         /// <param name="bu">target</param>
-        /// <returns>Returns the formatted string or {null} on error.</returns>
+        /// <returns>formatted string or {null} on error.</returns>
         public static string GetName(BaseUnit bu)
         {
             string str = "{null}";
@@ -498,7 +511,7 @@ namespace UserUtility_FON
         /// Generates a formatted string containing the target's name and owning Wizard's ID
         /// </summary>
         /// <param name="bu">target</param>
-        /// <returns>Returns the formatted string or {null} on error.</returns
+        /// <returns>formatted string or {null} on error.</returns>
         public static string GetNameOwnerID(BaseUnit bu)
         {
             string str = "{null}";
@@ -519,7 +532,7 @@ namespace UserUtility_FON
         /// Generates a formatted string containing the Wizard name and ID
         /// </summary>
         /// <param name="data">target</param>
-        /// <returns>Returns the formatted string or {null} on error.</returns
+        /// <returns>formatted string or {null} on error.</returns>
         public static string GetWizardNameID(SpellCastData data)
         {
             string str = "{null}";
@@ -540,10 +553,10 @@ namespace UserUtility_FON
         }
 
         /// <summary>
-        /// 
+        /// Generates a formatted string containing the caster name and the owning Wizard's ID
         /// </summary>
         /// <param name="data"></param>
-        /// <returns>Returns the formatted string or {null} on error.</returns>
+        /// <returns>the formatted string or {null} on error.</returns>
         public static string GetCasterNameOwnerID(SpellCastData data)
         {
             string str = "{null}";
@@ -570,7 +583,7 @@ namespace UserUtility_FON
         /// </summary>
         /// <param name="traitList">target</param>
         /// <param name="trait">value</param>
-        /// <returns>True if trait is found</returns>
+        /// <returns>true if trait is found</returns>
         public static bool HasTrait(List<Trait> traitList, Trait trait)
         {
             return traitList != null ? (traitList.Find(o => o == trait) != null) : false;
@@ -580,7 +593,7 @@ namespace UserUtility_FON
         /// Local version of IsEngineer that uses GetBase instead of GetFinal 
         /// </summary>
         /// <param name="baseUnit">target</param>
-        /// <returns>True if target contains the ENGINEER_UNIT tag</returns
+        /// <returns>true if target contains the ENGINEER_UNIT tag</returns>
         public static bool IsEngineer(BaseUnit baseUnit)
         {
             return GetBaseValue(baseUnit, DBEnum.TAG.ENGINEER_UNIT) > 0;
@@ -591,29 +604,29 @@ namespace UserUtility_FON
         /// </summary>
         /// <param name="baseUnit">target</param>
         /// <param name="targetTag">attribute</param>
-        /// <returns>FInt containing attribute value</returns>
+        /// <returns>FInt containing the attribute value or FInt.ZERO if not found</returns>
         public static FInt GetBaseValue(BaseUnit baseUnit, DBEnum.TAG targetTag)
         {
             return baseUnit != null ? baseUnit.GetAttributes().GetBase(targetTag) : FInt.ZERO;
         }
 
         /// <summary>
-        /// Operates the same as string.IsNullOrEmpty, with exception that that type is an array
+        /// Operates the same as string.IsNullOrEmpty, with exception that the input type is an array
         /// </summary>
-        /// <typeparam name="T"></typeparam>
+        /// <typeparam name="T">The type of the elements in the array</typeparam>
         /// <param name="array">target</param>
-        /// <returns>True if the array parameter is null or has a length of zero; otherwise, False.</returns>
+        /// <returns>true if the array parameter is null or has a length of zero; otherwise, false.</returns>
         public static bool IsNullOrEmpty<T>(this T[] array)
         {
             return array == null || array.Length == 0;
         }
 
         /// <summary>
-        /// Operates the same as string.IsNullOrEmpty, with exception that that type is ICollection
+        /// Operates the same as string.IsNullOrEmpty, with exception that the input type is a ICollection
         /// </summary>
-        /// <typeparam name="T"></typeparam>
+        /// <typeparam name="T">The type of the elements in the collection</typeparam>
         /// <param name="collection">target</param>
-        /// <returns>True if the ICollection parameter is null or has a length of zero; otherwise, False.</returns>
+        /// <returns>true if the ICollection parameter is null or has a length of zero; otherwise, false.</returns>
         public static bool IsNullOrEmpty<T>(this ICollection<T> collection)
         {
             return collection == null || collection.Count == 0;
@@ -622,15 +635,16 @@ namespace UserUtility_FON
         #endregion
 
 
-        #region EnchAlreadyOnObject
+        #region EnchAlreadyOnObject replacement
 
         /// <summary>
         /// A complete rewrite of the original version supplied by Muha that was O(n^3).
+        /// While this rewrite is O(n + m)
         /// </summary>
-        /// <param name="spellCaster"></param>
+        /// <param name="spellCaster">ignored, but is required to match the original function signature</param>
         /// <param name="spell"></param>
-        /// <param name="target">Expects ISkillable and/or IEnchantable</param>
-        /// <returns></returns>
+        /// <param name="target">Expects object as ISkillable or IEnchantable</param>
+        /// <returns>true if target already enchanted with the spell</returns>
         public static bool EnchAlreadyOnObject(ISpellCaster spellCaster, Spell spell, object target)
         {
             bool bResult = false;
@@ -661,8 +675,8 @@ namespace UserUtility_FON
         /// </summary>
         /// <param name="spell"></param>
         /// <param name="target"></param>
-        /// <returns></returns>
-        public static bool EnchantAlreadyOnIEnchantable(Spell spell, IEnchantable target)
+        /// <returns>true if target is already enchanted with the spell</returns>
+        private static bool EnchantAlreadyOnIEnchantable(Spell spell, IEnchantable target)
         {
             bool bRetVal = false;
 
@@ -681,6 +695,7 @@ namespace UserUtility_FON
                         targetEnchSet.Add(eiTarget.source.Get());
                     }
 
+                    // note - the following is purported to be O(n + m)
                     if (targetEnchSet.IsSupersetOf(spellEnchSet))
                     {
                         bRetVal = true;
@@ -695,8 +710,8 @@ namespace UserUtility_FON
         /// </summary>
         /// <param name="spell"></param>
         /// <param name="target"></param>
-        /// <returns></returns>
-        public static bool EnchantAlreadyOnISkillable(Spell spell, ISkillable target)
+        /// <returns>true if target is already enchanted with the spell</returns>
+        private static bool EnchantAlreadyOnISkillable(Spell spell, ISkillable target)
         {
             bool bRetVal = false;
 
@@ -732,4 +747,3 @@ namespace UserUtility_FON
 
     }
 }
-#endif

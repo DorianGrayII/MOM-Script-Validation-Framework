@@ -1,8 +1,8 @@
 /**********************************
  *
  * Author:  Dorian Gray
- * Date:    Feb 23, 2024
- * Version: 1.0.7
+ * Date:    May 1, 2024
+ * Version: 1.0.8
  *
  **********************************/
 
@@ -30,7 +30,7 @@ namespace MOMScripts_CCF
 
             if (unit == null)
             {
-                Debug.LogWarning("SWG_ChaosChannels is not targeting unit on world map.");
+                Debug.LogWarning("SWG_ChaosChannels is not targeting MOM.Unit type on world map.");
                 return false;
             }
 

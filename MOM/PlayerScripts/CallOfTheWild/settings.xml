@@ -13,12 +13,12 @@ Summons one of the following random creatures onto the battlefield for use by th
 - A Boar
 - A Fat Rat
 
-The overall intent was to give the Nature realm with a little more early-game play options.
+The overall intent was to provide the Nature realm a little more early-game play options.
 
     </description>
 
     <author>DorianGray</author>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <icon>cotw:cow_256.jpg</icon>
 
 </ModSettings>

@@ -1,0 +1,15 @@
+﻿<DB_ENCHANTMENT>
+
+    <ENCH-FLIGHT AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
+        <DescriptionInfo Name="DES_FLIGHT" Description="DES_ENCH_FLIGHT_DES" Graphic="SpellFlight"/>
+        <EnchantmentApplicationScript TriggerType="None" Script="EAPP_UnitUpdateMove"/>
+        <EnchantmentRemovalScript TriggerType="None" Script="EREM_UnitUpdateMove"/>
+        <EnchantmentScript TriggerType="AttributeChange" Script="ECH_Flight"/>
+        <UpkeepCost VALUE="3"/>
+        <LifeTime VALUE="-1"/>
+        <EnchLastingEffect VALUE="Placeholder"/>
+        <EnchCategory VALUE="Positive"/>
+        <Realm VALUE="Sorcery"/>
+    </ENCH-FLIGHT>
+
+</DB_ENCHANTMENT>

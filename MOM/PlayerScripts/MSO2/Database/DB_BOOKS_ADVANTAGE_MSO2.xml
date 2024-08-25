@@ -1,0 +1,17 @@
+<DB_BOOKS_ADVANTAGE>
+
+    <BOOKS_ADVANTAGE-BOOK16 BookCount="16">
+        <ResearchLimit Rarity="Common" Count="10"/>
+        <ResearchLimit Rarity="Uncommon" Count="10"/>
+        <ResearchLimit Rarity="Rare" Count="10"/>
+        <ResearchLimit Rarity="VeryRare" Count="10"/>
+        <StartingSpells Rarity="Common" Count="10"/>
+        <StartingSpells Rarity="Uncommon" Count="2"/>
+        <StartingSpells Rarity="Rare" Count="1"/>
+        <!--<StartingArcaneSpells Rarity="Common" Count="2"/>-->
+        <GuaranteedSpells Rarity="Uncommon" Count="1"/>
+        <Bonus CastingDiscount="0.50" ResearchDiscount="0.50"/>
+        <RewardLimit VALUE="VeryRare"/>
+    </BOOKS_ADVANTAGE-BOOK16>
+
+</DB_BOOKS_ADVANTAGE>

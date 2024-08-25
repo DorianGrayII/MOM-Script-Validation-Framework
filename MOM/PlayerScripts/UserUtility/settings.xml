@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>usr</prefix>
+    <name>User Utility</name>
+    <title>[Util] User Utility</title>
+
+    <description>
+User Utility : v1.0.16
+
+This is a utility class containing a set of useful user methods, to include the following:
+
+- EnchAlreadyOnObject(ISpellCaster spellCaster, Spell spell, object target) : bool
+( complete rewrite of original with O(N+M) instead of O(N^3) )
+- GetBaseValue(BaseUnit baseUnit, DBEnum.TAG targetTag) : FInt
+- GetCasterNameOwnerID(SpellCastData data) : string
+- GetEnchantmentName(EnchantmentInstance ei) : string
+- GetName(BaseUnit bu) : string
+- GetNameID(PlayerWizard wizard) : string
+- GetNameOwnerID(BaseUnit bu) : string
+- GetOwnerAsBattleUnit(EnchantmentInstance ei) : BattleUnit
+- GetSpellNameBattleCost(Spell spell) : string 
+- GetWizardNameID(SpellCastData data) : string
+- HasTrait(PlayerWizard wizard, DBEnum.TRAIT trait) : bool
+- IsEngineer(BaseUnit baseUnit) : bool
+- IsHuman(PlayerWizard wizard) : bool
+- IsNullOrEmpty(this ICollection collection) : bool
+- IsNullOrEmpty(this T[] array) : bool 
+- IsOwnerHuman(BaseUnit bu) : bool
+- IsSimulated(IEnchantable ie) : bool
+
+and more...
+
+    </description>
+
+    <author>DorianGray</author>
+    <version>1.0.16</version>
+    <icon>usr:utility.png</icon>
+
+</ModSettings>

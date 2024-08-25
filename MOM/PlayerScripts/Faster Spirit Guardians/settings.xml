@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>fsg</prefix>
+    <name>Faster Spirits</name>
+    <title>[Unit] Faster Spirits</title>
+
+    <description>
+Faster Spirits (Magic Spirit, Spirit Guardian)
+
+In the original, these units only had 1 movement point (MP), but were incorporeal, which treated tiles as only costing 0.5 MPs.
+
+This effectively allowed them to move 2 tiles per turn.
+
+When transitioned to the remake, they got +1 added to their MPs, but incorporeal was nerfed.
+
+So, the effective movement rates remained the same (while doubling map sizes) - which makes for a very slow game.
+
+To address, this Mod changes their base movements to the following:
+- Magic Spirit : 2 MPs -> 3 MPs
+- Guardian Spirit : 2 MPs -> 4 MPs
+
+    </description>
+
+    <author>DorianGray</author>
+    <version>1.0.1</version>
+    <icon>fsg:spirit.png</icon>
+
+</ModSettings>

@@ -2,7 +2,7 @@
  *
  * Author:  Dorian Gray
  * Date:    May 1, 2024
- * Version: 1.0.2
+ * Version: 1.0.3
  *
  **********************************/
 
@@ -303,14 +303,12 @@ namespace MOMScripts_IUX
 
         public static object ACTPass_UnitLevelUp(ISkillable source, Skill _1, SkillScript _2, NetDictionary<DBReference<Tag>, FInt> retAttribute)
         {
-            if (!(source is MOM.BaseUnit))
+            BaseUnit bu = source as MOM.BaseUnit;
+            if (bu != null)
             {
-                return null;
+
+                GetUnitLevelBonus(bu.GetLevel(), retAttribute);
             }
-
-            BaseUnit unit = source as MOM.BaseUnit;
-
-            GetUnitLevelBonus(unit.GetLevel(), retAttribute);
             return null;
         }
     }

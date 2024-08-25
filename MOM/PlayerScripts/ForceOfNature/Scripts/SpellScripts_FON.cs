@@ -1,8 +1,8 @@
 /**********************************
  *
  * Author:  Dorian Gray
- * Date:    Feb 23, 2024
- * Version: 1.0.2
+ * Date:    May 19, 2024
+ * Version: 1.0.3
  *
  **********************************/
 
@@ -20,7 +20,7 @@ using WorldCode;
 
 namespace MOMScripts_FON
 {
-    using static UserUtility_FON.Utility;
+    using static UserUtility.Utility;
 
     public class SpellScripts : ScriptBase
     {
@@ -29,28 +29,28 @@ namespace MOMScripts_FON
 
         public static int SWAI_ForceOfNature(ISpellCaster source, object target, Spell spell)
         {
+            int iRetVal = 0;
             MOM.Unit unit = target as MOM.Unit;
 
             if (unit == null)
             {
                 Debug.LogError("Spell " + spell.dbName + " target is invalid");
-                return 0;
+                return iRetVal;
             }
 
             int buValue = unit.GetWorldUnitValue();
-            int value = 0;
 
             //Average spell value based on target
-            value = unit.GetModifiedWorldUnitValue(TAG.MELEE_ATTACK, (FInt)2.0) -
+            iRetVal = unit.GetModifiedWorldUnitValue(TAG.DEFENCE, (FInt)3.0) -
                          buValue;
 
 #if (UNITY_EDITOR && DEBUG_SPELLS)
             Debug.Log(spell.dbName + " with script " +
-                spell.aiWorldEvaluationScript.ToString() + " give SpellAI value " + value +
+                spell.aiWorldEvaluationScript.ToString() + " give SpellAI value " + iRetVal +
                 " on unit " + unit.GetDBName().ToString());
 #endif
 
-            return value;
+            return iRetVal;
         }
 
 
@@ -68,9 +68,9 @@ namespace MOMScripts_FON
             List<DBReference<Skill>> potentialSkills = new List<DBReference<Skill>>();
 
             // This would be SKILL-FORCE_OF_NATURE1, SKILL-FORCE_OF_NATURE2, SKILL-FORCE_OF_NATURE3
-            foreach (string i in spell.stringData)
+            foreach (string str in spell.stringData)
             {
-                potentialSkills.Add(DataBase.Get(i, true) as Skill);
+                potentialSkills.Add(DataBase.Get(str, true) as Skill);
             }
 
             // Can only have one of the three, so return if unit has any already

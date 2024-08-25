@@ -56,7 +56,7 @@ Sorcery Node is supposed to be using foodProd=2.0
         <Foliage VALUE="FOLIAGE_SET-DECOR_TREES1"/>
         <MinimapColor VALUE="918c69" />
     </TERRAIN-GRASS_LAND>
-    <TERRAIN-GRASS_LAND2 MovementCost="1" TerrainType="GrassLand">
+    <TERRAIN-GRASS_LAND2 TerrainType="GrassLand" MovementCost="1" RoadCost="3">
         <DescriptionInfo Name="DES_GRASS_LAND2" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
         <TerrainGraphic
             Diffuse="Diffuse/Arcanus/Grassland2_D.png"
@@ -84,7 +84,7 @@ Sorcery Node is supposed to be using foodProd=2.0
         <Foliage VALUE="FOLIAGE_SET-DECOR_TREES2"/>
         <MinimapColor VALUE="918c69" />
     </TERRAIN-GRASS_LAND2>
-    <TERRAIN-GRASS_LAND3 MovementCost="1" TerrainType="GrassLand">
+    <TERRAIN-GRASS_LAND3 TerrainType="GrassLand" MovementCost="1" RoadCost="3">
         <DescriptionInfo Name="DES_GRASS_LAND3" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
         <TerrainGraphic
             Diffuse="Diffuse/Arcanus/Grassland3_D.png"
@@ -111,7 +111,7 @@ Sorcery Node is supposed to be using foodProd=2.0
         <Foliage VALUE="FOLIAGE_SET-DECOR_STONES1"/>
         <MinimapColor VALUE="918c69" />
     </TERRAIN-GRASS_LAND3>
-    <TERRAIN-GRASS_LAND4 MovementCost="1" TerrainType="GrassLand">
+    <TERRAIN-GRASS_LAND4 TerrainType="GrassLand" MovementCost="1" RoadCost="3">
         <DescriptionInfo Name="DES_GRASS_LAND4" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
         <TerrainGraphic
             Diffuse="Diffuse/Arcanus/Grassland4_D.png"
@@ -137,7 +137,7 @@ Sorcery Node is supposed to be using foodProd=2.0
         <TransmuteTo VALUE="TERRAIN-FOREST4"/>
         <MinimapColor VALUE="918c69" />
     </TERRAIN-GRASS_LAND4>
-    <TERRAIN-GRASS_LAND5 MovementCost="1" TerrainType="GrassLand">
+    <TERRAIN-GRASS_LAND5 TerrainType="GrassLand" MovementCost="1" RoadCost="3">
         <DescriptionInfo Name="DES_GRASS_LAND5" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
         <TerrainGraphic
             Diffuse="Diffuse/Arcanus/Grassland5_D.png"
@@ -163,7 +163,7 @@ Sorcery Node is supposed to be using foodProd=2.0
         <TransmuteTo VALUE="TERRAIN-FOREST5"/>
         <MinimapColor VALUE="918c69" />
     </TERRAIN-GRASS_LAND5>
-    <TERRAIN-GRASS_LAND6 MovementCost="1" TerrainType="GrassLand">
+    <TERRAIN-GRASS_LAND6 TerrainType="GrassLand" MovementCost="1" RoadCost="3">
         <DescriptionInfo Name="DES_GRASS_LAND6" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
         <TerrainGraphic
             Diffuse="Diffuse/Arcanus/Grassland6_D.png"
@@ -190,7 +190,7 @@ Sorcery Node is supposed to be using foodProd=2.0
         <MinimapColor VALUE="918c69" />
     </TERRAIN-GRASS_LAND6>
 
-    <TERRAIN-MAGIC_GRASS_LAND MovementCost="1" TerrainType="GrassLand">
+    <TERRAIN-MAGIC_GRASS_LAND TerrainType="GrassLand" MovementCost="1" RoadCost="3">
         <DescriptionInfo Name="DES_MAGIC_GRASS_LAND" Description="DES_PLACEHOLDER_DES" Graphic="DefaultCoast"/>
         <TerrainGraphic
             Diffuse="Diffuse/Arcanus/GrasslandMagic1_D.png"

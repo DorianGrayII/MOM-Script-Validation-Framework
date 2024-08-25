@@ -886,7 +886,7 @@ namespace MOMScripts
                 {
                     // add a Hero
                     List<Hero> heroesList = new List<Hero>(DataBase.GetType<Hero>());
-                    heroesList = heroesList.FindAll(o => !o.champion && !MOM.Unit.HeroInUseByWizard(o, wizard.GetID()) && o.GetTag(TAG.EVENT_ONLY_UNIT) == 0);
+                    heroesList = heroesList.FindAll(o => !o.champion && !MOM.Unit.HeroInUseByWizard(o, wizard.GetID()) && o.GetTag(TAG.EVENT_ONLY_UNIT) == FInt.ZERO);
                     heroesList.RandomSort();
 
                     for (int i = 0; i < heroesList.Count; i++)

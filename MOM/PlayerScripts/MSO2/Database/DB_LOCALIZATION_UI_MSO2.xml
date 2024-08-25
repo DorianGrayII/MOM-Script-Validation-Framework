@@ -23,6 +23,8 @@
         <Loc Key="UI_SHIN_BO" Value="Shin Bo the Assassin"/>
         <Loc Key="UI_SPYDER" Value="Spyder the Rogue"/>
         <Loc Key="UI_SHALLA" Value="Shalla the Amazon"/>
+        <Loc Key="UI_YRAMRAG" Value="Yramrag the Warlock"/>
+        <Loc Key="UI_MYSTIC_X" Value="Mystic X the Unknown"/>
         <Loc Key="UI_TOWN_DISTANCE_6" Value="6 tiles"/>
         <Loc Key="UI_TOWN_DISTANCE_7" Value="7 tiles"/>
         <Loc Key="UI_TOWN_DISTANCE_8" Value="8 tiles"/>
@@ -40,5 +42,5 @@
         <Loc Key="UI_WORLD_SIZE_DES" Value = "Size of the Arcanus and Myrror planes.\n\nSmall planes - 2816 hexes\nMedium planes - 4160 hexes\nLarge planes - 6144 hexes"/>
 <!-- following is to provide more descriptive string than default -->
         <Loc Key="UI_MSO2_CASTING_SKILL_MULTIPLIER_0" Value ="Cost Reduction (0%)" />
-   </LOCALIZATION-UI_EN_MSO2>
+    </LOCALIZATION-UI_EN_MSO2>
 </DB_LOCALIZATION>

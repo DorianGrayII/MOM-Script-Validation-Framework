@@ -1,0 +1,39 @@
+﻿<DB_SUBRACE>
+    <UNIT-H_ELF_LONGBOWMEN Figures="6" ConstructionCost="80">
+        <DescriptionInfo Name="DES_LONGBOWMEN" Description="DES_LONGBOWMEN_DES" Graphic="HighElfLongbowman" />
+        <Race VALUE="RACE-HIGH_ELVES"/>
+        <Marker VALUE="IconLongbowman"/>
+
+        <Tags Amount="2" Tag="TAG-MOVEMENT_POINTS"/>
+        <Tags Amount="1" Tag="TAG-CAN_WALK"/>
+
+        <Tags Amount="2" Tag="TAG-UPKEEP_GOLD"/>
+        <Tags Amount="1" Tag="TAG-UPKEEP_FOOD"/>
+        <NaturalHealing VALUE="TRUE"/>
+        <GainsXP VALUE="TRUE"/>
+
+        <Tags Amount="1" Tag="TAG-MELEE_ATTACK"/>
+        <Tags Amount="4" Tag="TAG-RANGE_ATTACK"/>
+        <Tags Amount="8" Tag="TAG-AMMUNITION"/>
+        <Tags Amount="2" Tag="TAG-DEFENCE"/>
+        <Tags Amount="6" Tag="TAG-RESIST"/>
+        <Tags Amount="1" Tag="TAG-HIT_POINTS"/>
+        <Tags Amount="0.3" Tag="TAG-MELEE_ATTACK_CHANCE"/>
+        <Tags Amount="0.3" Tag="TAG-RANGE_ATTACK_CHANCE"/>
+        <Tags Amount="0.3" Tag="TAG-DEFENCE_CHANCE"/>
+        <Tags Amount="1" Tag="TAG-NORMAL_CLASS"/>
+
+        <Skills VALUE="SKILL-UNIT_LEVEL"/>
+        <Skills VALUE="SKILL-MELEE_ATTACK"/>
+        <Skills VALUE="SKILL-NORMAL_RANGE_ATTACK"/>
+        <Skills VALUE="SKILL-LONG_RANGE"/>
+        <Skills VALUE="SKILL-TO_HIT_10"/>
+        <Skills VALUE="SKILL-FORESTER"/>
+
+        <RequiredBuildings VALUE="BUILDING-BARRACKS"/>
+        <RequiredBuildings VALUE="BUILDING-SAWMILL"/>
+        <Tags Amount="1" Tag="TAG-RANGED_UNIT"/>
+        <Tags Amount="1" Tag="TAG-TOWN_DEFENDER_3"/>
+        <Audio Move="HighElfLongbowmanMove" AttackMelee="HighElfLongbowmanAttackMelee" AttackRanged="HighElfLongbowmanAttackRanged" AttackRangedHit="HighElfLongbowmanAttackRangedHit" GetHit="HighElfLongbowmanGetHit" Die="HighElfLongbowmanDie" />
+    </UNIT-H_ELF_LONGBOWMEN>
+</DB_SUBRACE>

@@ -3,31 +3,46 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <prefix>vtv</prefix>
     <name>Variable Terrain Values</name>
-    <title>Variable Terrain Values</title>
+    <title>[Util] Variable Terrain Values</title>
 
     <description>
 This Mod introduces a level of variability to terrain attributes, while maintaining an overall average value of the original defaults.
+
 Additionally, transforming terrain is slightly modified to insure that the new terrain values falls in same value-class range as the previous.
 You will never get a worse terrain value-class, and potentially, a slightly better one, when using the "Change Terrain" spell.
 
 New minimap colors for Magic Nodes
-------------------
+-------------------
 - Nature Node (bright green)
 - Chaos Node (bright red)
 - Sorcery Node (bright blue)
 
 DB_TERRAIN.xml bug fixes - there are a number of bugs that have been reported. Many have been fixed in this Mod until they are addressed via official release.
-------------------
+-------------------
 - Wrong Terrain Color, when used, in MinimapColor
-- Overspawning of MAGIC_FOREST and MAGIC_GRASS_LAND terrain
-- Incorrect foodProduction values for MAGIC_FOREST(Nature Nodes) and MAGIC_GRASS_LAND(Sorcery Nodes)
--   can only be partially fixed as game still uses incorrect foodProd=2.5 for Sorcery Node
-- ECHIAddProductionFromForestMP corrected to use current Forest Production values (in lieu of hardcoded 0.3)
+- Overspawning of MAGIC_FOREST and 
+    MAGIC_GRASS_LAND terrain
+- Incorrect FoodProduction values for 
+    MAGIC_FOREST(Nature Nodes) and 
+    MAGIC_GRASS_LAND(Sorcery Nodes)
+-   can only be partially fixed as game 
+    still uses incorrect foodProd=2.5 for 
+    Sorcery Nodes
+- ECHIAddProductionFromForestMP corrected 
+    to use current Forest Production values 
+    (in lieu of the hard-coded 0.3)
+- Added missing "RoadCost" attributes for 
+    consistency; however, can find no example 
+    of "RoadCost" actually being used in 
+    Assembly-CSharp.dll
+-     instead, appears to use:
+         MovementCost * 2.4 for "RoadCost" 
+    (see EngineerManager.CalculateWorkDiff())
 
     </description>
 
     <author>DorianGray</author>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <icon>vtv:vtv.png</icon>
 
 </ModSettings>

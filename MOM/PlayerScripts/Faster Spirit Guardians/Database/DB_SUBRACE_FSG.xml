@@ -1,0 +1,65 @@
+﻿<DB_SUBRACE>
+    <UNIT-ARC_MAGIC_SPIRIT Figures="1">
+        <DescriptionInfo Name="DES_ARC_MAGIC_SPIRIT" Description="DES_ARC_MAGIC_SPIRIT_DES" Graphic="MagicSpirit" />
+        <Race VALUE="RACE-REALM_ARCANE"/>
+        <Marker VALUE="IconMagicSpirit"/>
+
+        <Tags Amount="3" Tag="TAG-MOVEMENT_POINTS"/>
+        <Tags Amount="1" Tag="TAG-CAN_WALK"/>
+        <Tags Amount="1" Tag="TAG-CAN_SWIM"/>
+
+        <Tags Amount="1" Tag="TAG-UPKEEP_MANA"/>
+        <NaturalHealing VALUE="TRUE"/>
+        <GainsXP VALUE="FALSE"/>
+
+        <Tags Amount="5" Tag="TAG-MELEE_ATTACK"/>
+        <Tags Amount="4" Tag="TAG-DEFENCE"/>
+        <Tags Amount="8" Tag="TAG-RESIST"/>
+        <Tags Amount="10" Tag="TAG-HIT_POINTS"/>
+        <Tags Amount="0.3" Tag="TAG-MELEE_ATTACK_CHANCE"/>
+        <Tags Amount="0.3" Tag="TAG-DEFENCE_CHANCE"/>
+        <Tags Amount="1" Tag="TAG-FANTASTIC_CLASS"/>
+        <Tags Amount="1" Tag="TAG-SIGHT_RANGE_BONUS"/>
+
+        <Skills VALUE="SKILL-MELEE_ATTACK"/>
+        <Skills VALUE="SKILL-ENCHANTED_WEAPON1"/>
+        <Skills VALUE="SKILL-NON_CORPOREAL"/>
+        <Skills VALUE="SKILL-SCOUTING"/>
+        <Skills VALUE="SKILL-MELD"/>
+
+        <Tags Amount="1" Tag="TAG-MELEE_UNIT"/>
+        <Audio Move="MagicSpiritMove" AttackMelee="MagicSpiritAttackMelee" AttackRanged="MagicSpiritAttackRanged" AttackRangedHit="MagicSpiritAttackRangedHit" GetHit="MagicSpiritGetHit" Die="MagicSpiritDie"/>
+    </UNIT-ARC_MAGIC_SPIRIT>
+
+    <UNIT-LIF_GUARDIAN_SPIRIT Figures="1">
+        <DescriptionInfo Name="DES_LIF_GUARDIAN_SPIRIT" Description="DES_LIF_GUARDIAN_SPIRIT_DES" Graphic="GuardianSpirit" />
+        <Race VALUE="RACE-REALM_LIFE"/>
+        <Marker VALUE="IconGuardianSpirit"/>
+
+        <Tags Amount="4" Tag="TAG-MOVEMENT_POINTS"/>
+        <Tags Amount="1" Tag="TAG-CAN_WALK"/>
+        <Tags Amount="1" Tag="TAG-CAN_SWIM"/>
+
+        <Tags Amount="1" Tag="TAG-UPKEEP_MANA"/>
+        <NaturalHealing VALUE="TRUE"/>
+        <GainsXP VALUE="FALSE"/>
+
+        <Tags Amount="10" Tag="TAG-MELEE_ATTACK"/>
+        <Tags Amount="4" Tag="TAG-DEFENCE"/>
+        <Tags Amount="10" Tag="TAG-RESIST"/>
+        <Tags Amount="10" Tag="TAG-HIT_POINTS"/>
+        <Tags Amount="0.3" Tag="TAG-MELEE_ATTACK_CHANCE"/>
+        <Tags Amount="0.3" Tag="TAG-DEFENCE_CHANCE"/>
+
+        <Tags Amount="1" Tag="TAG-FANTASTIC_CLASS"/>
+
+        <Skills VALUE="SKILL-MELEE_ATTACK"/>
+        <Skills VALUE="SKILL-ENCHANTED_WEAPON1"/>
+        <Skills VALUE="SKILL-NON_CORPOREAL"/>
+        <Skills VALUE="SKILL-RESIST_TO_ALL_GROUP_1"/>
+        <Skills VALUE="SKILL-MELD_ADVANCED"/>
+
+        <Tags Amount="1" Tag="TAG-MELEE_UNIT"/>
+        <Audio Move="GuardianSpiritMove" AttackMelee="GuardianSpiritAttackMelee" GetHit="GuardianSpiritGetHit" Die="GuardianSpiritDie" />
+    </UNIT-LIF_GUARDIAN_SPIRIT>
+</DB_SUBRACE>

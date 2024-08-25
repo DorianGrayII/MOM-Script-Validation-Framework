@@ -3575,6 +3575,8 @@ namespace MOMScripts
         static public void ECH_GiantStrength(IEnchantable target, EnchantmentScript es, EnchantmentInstance instance, NetDictionary<DBReference<Tag>, FInt> ret)
         {
             ret.AddFinal((Tag)TAG.MELEE_ATTACK, 1);
+            // following needs to be fixed with
+            // if (ret.GetFinal((Tag)TAG.THROW_BONUS) > 1)
             ret.AddFinal((Tag)TAG.THROW_BONUS, 1);
         }
 

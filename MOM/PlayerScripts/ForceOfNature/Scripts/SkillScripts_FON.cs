@@ -25,7 +25,7 @@ namespace MOMScripts_FON
         /// <param name="source"> unit producing damage/attack </param>
         /// <param name="skill"> skill used to attack </param>
         /// <param name="skillScript"> skillScript used </param>
-        /// <param name="retAttribute"> dictionary of the curent attribute library </param>
+        /// <param name="retAttribute"> dictionary of the current attribute library </param>
         /// <returns> change data </returns>
         public static object ACTPass_ForceOfNature1(ISkillable source, Skill skill, SkillScript skillScript, NetDictionary<DBReference<Tag>, FInt> retAttribute)
         {

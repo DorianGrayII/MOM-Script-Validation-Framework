@@ -1,8 +1,11 @@
-﻿<DB_ENCHANTMENT>
+﻿<DB_ENCHANTMENT>    
     <ENCH-COUNTER_MAGIC AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE">
         <DescriptionInfo Name="DES_COUNTER_MAGIC" Description="DES_COUNTER_MAGIC_DES" Graphic="SpellCounterMagic"/>
         <EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddCounterMagic"/>
+        <!-- changed from EREM_RemoveCounterMagic -->
         <EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveCounterMagic2"/>
+        <!-- following line is for testing -->
+        <EnchantmentScript TriggerType="BattleStartEffect" Script="ECH_StartBattleCounterMagic" />
         <EnchantmentScript TriggerType="BattleEndEffect" Script="ECH_EndBattleCounterMagic" />
         <EnchantmentScript TriggerType="None" FIntData="10" />
         <LifeTime VALUE="-1"/>
@@ -13,6 +16,7 @@
     <ENCH-LIFE_FORCE AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
         <DescriptionInfo Name="DES_LIFE_FORCE" Description="DES_LIFE_FORCE_DES" Graphic="SpellLifeForce"/>
         <EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddCounterMagic"/>
+        <!-- changed from EREM_RemoveCounterMagic -->
         <EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveCounterMagic2"/>
         <EnchantmentScript TriggerType="None" FIntData="500" />
         <UpkeepCost VALUE="10"/>
@@ -25,6 +29,7 @@
     <ENCH-TRANQUILITY AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
         <DescriptionInfo Name="DES_TRANQUILITY" Description="DES_TRANQUILITY_DES" Graphic="SpellTranquility"/>
         <EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddCounterMagic"/>
+        <!-- changed from EREM_RemoveCounterMagic -->
         <EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveCounterMagic2"/>
         <EnchantmentScript TriggerType="None" FIntData="500" />
         <UpkeepCost VALUE="10"/>
@@ -37,6 +42,7 @@
     <ENCH-SUPPRESS_MAGIC AllowDispel="TRUE" RemoveWhenParentIDChange="TRUE" NonCombatDisplay="TRUE">
         <DescriptionInfo Name="DES_SUPPRESS_MAGIC" Description="DES_SUPPRESS_MAGIC_DES" Graphic="SpellSuppressMagic"/>
         <EnchantmentApplicationScript TriggerType="None" Script="EAPP_AddCounterMagic"/>
+        <!-- changed from EREM_RemoveCounterMagic -->
         <EnchantmentRemovalScript TriggerType="None" Script="EREM_RemoveCounterMagic2"/>
         <EnchantmentScript TriggerType="None" FIntData="500" />
         <UpkeepCost VALUE="50"/>

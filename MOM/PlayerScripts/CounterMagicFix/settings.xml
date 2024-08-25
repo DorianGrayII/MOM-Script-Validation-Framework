@@ -30,7 +30,7 @@ Set the 'bLoggingEnabled' variable to 'false' in the following script files:
     </description>
 
     <author>DorianGray</author>
-    <version>0.9.6</version>
+    <version>0.9.8</version>
     <icon>cmf:cmf.png</icon>
 
 </ModSettings>

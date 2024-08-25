@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>hem</prefix>
+    <name>High Elven Mage Movement Fix</name>
+    <title>[Unit] High Elven Mage Movement Fix</title>
+
+    <description>
+High Elven Mage Movement Fix
+
+This is a fix to the High Elven Magicians base movement rate.
+
+In the original, High Elven Magicians had a base movement rate of '2', as described here: https://masterofmagic.fandom.com/wiki/High_Elf_Magicians
+
+While doubling the movement to '4' did not feel appropriate, increasing their movement to '3' was warranted.
+
+    </description>
+
+    <author>DorianGray</author>
+    <version>1.0.2</version>
+    <icon>hem:highelvenmage.png</icon>
+
+</ModSettings>

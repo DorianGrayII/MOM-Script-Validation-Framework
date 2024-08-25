@@ -1,8 +1,8 @@
 /**********************************
  *
  * Author:  Dorian Gray
- * Date:    Feb 23, 2024
- * Version: 1.0.4
+ * Date:    May 19, 2024
+ * Version: 1.0.5
  *
  **********************************/
 
@@ -22,7 +22,7 @@ using System.Collections.Generic;
 
 namespace MOMScripts_CMF
 {
-    using static UserUtility_CMF.Utility;
+    using static UserUtility.Utility;
 
     public class EnchantmentScripts : ScriptBase
     {
@@ -32,7 +32,7 @@ namespace MOMScripts_CMF
         private static int[] rgCounterMagicPool = new int[2];
 
         /// <summary>
-        /// enables verbose counter magic logging
+        /// enables verbose logging
         /// </summary>
         private const bool bLoggingEnabled = true;
 
@@ -173,6 +173,29 @@ namespace MOMScripts_CMF
             SetCounterMagicPool(0, CM_TYPE.CM_AI);
             SetCounterMagicPool(0, CM_TYPE.CM_HUMAN);
         }
+
+        // for testing ...
+        public static void ECH_StartBattleCounterMagic(IEnchantable target, EnchantmentScript es, EnchantmentInstance ei, object data)
+        {
+            bool bSimulated = IsSimulated(target);
+
+            if (bLoggingEnabled && !bSimulated)
+            {
+                PlayerWizard wizard = GetOwnerAsPlayerWizard(ei);
+                string strCaster = string.Empty;
+                strCaster = wizard != null ? GetNameID(wizard) : GetOwnerAsBattleUnitNameID(ei);
+
+                string strTarget    = GetNameOwnerID(target);
+                string strEnchName  = GetEnchantmentName(ei);
+
+                Debug.LogFormat("  invoking [ECH_StartBattleCounterMagic] Caster:{0} Target:{1} ei:{2} ...",
+                                 strCaster, strTarget, strEnchName);
+            }
+
+            // SetCounterMagicPool(0, CM_TYPE.CM_AI);
+            // SetCounterMagicPool(0, CM_TYPE.CM_HUMAN);
+        }
+
 
         /// <summary>
         /// 

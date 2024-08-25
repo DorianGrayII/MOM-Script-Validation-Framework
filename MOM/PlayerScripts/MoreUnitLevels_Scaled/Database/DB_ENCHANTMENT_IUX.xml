@@ -1,0 +1,26 @@
+﻿<DB_ENCHANTMENT>
+    <ENCH-BARRACKS AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+        <DescriptionInfo Name="DES_BUILDING_BARRACKS" Description="DES_BUILDING_BARRACKS_DES" Graphic="BuildingBarracks"/>
+        <EnchantmentScript TriggerType="NewUnitXpModifier" FIntData="20" Script="ECHIAddValue"/>
+        <EnchCategory VALUE="Positive"/>
+        <Realm VALUE="None"/>
+    </ENCH-BARRACKS>
+    <ENCH-FIGHTERS_GUILD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+        <DescriptionInfo Name="DES_BUILDING_FIGHTERS_GUILD" Description="DES_BUILDING_FIGHTERS_GUILD_DES" Graphic="EnchantmentFightersGuild"/>
+        <EnchantmentScript TriggerType="NewUnitXpModifier" FIntData="60" Script="ECHIAddValue"/>
+        <EnchCategory VALUE="Positive"/>
+        <Realm VALUE="None"/>
+    </ENCH-FIGHTERS_GUILD>
+    <ENCH-ARMORERS_GUILD AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+        <DescriptionInfo Name="DES_BUILDING_ARMORERS_GUILD" Description="DES_BUILDING_ARMORERS_GUILD_DES" Graphic="BuildingArmorersGuild"/>
+        <EnchantmentScript TriggerType="NewUnitXpModifier" FIntData="100" Script="ECHIAddValue"/>
+        <EnchCategory VALUE="Positive"/>
+        <Realm VALUE="None"/>
+    </ENCH-ARMORERS_GUILD>
+    <ENCH-WAR_COLLEGE AllowDispel="FALSE" RemoveWhenParentIDChange="FALSE" NonCombatDisplay="TRUE">
+        <DescriptionInfo Name="DES_BUILDING_WAR_COLLEGE" Description="DES_BUILDING_WAR_COLLEGE_DES" Graphic="EnchantmentWarCollege"/>
+        <EnchantmentScript TriggerType="NewUnitXpModifier" FIntData="240" Script="ECHIAddValue"/>
+        <EnchCategory VALUE="Positive"/>
+        <Realm VALUE="None"/>
+    </ENCH-WAR_COLLEGE>
+</DB_ENCHANTMENT>

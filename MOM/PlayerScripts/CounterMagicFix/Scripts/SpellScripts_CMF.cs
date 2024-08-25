@@ -1,8 +1,8 @@
 /**********************************
  *
  * Author:  Dorian Gray
- * Date:    Feb 23, 2024
- * Version: 1.0.8
+ * Date:    May 19, 2024
+ * Version: 1.0.11
  *
  **********************************/
 
@@ -21,260 +21,20 @@ using GameScript;
 
 namespace GameScript_CMF
 {
-    using static UserUtility_CMF.Utility;
+    using static UserUtility.Utility;
 
     public class SpellScripts : ScriptBase
     {
         static MHRandom random = MHRandom.Get();
 
         /// <summary>
-        /// enables verbose counter magic logging
+        /// enables verbose logging
         /// </summary>
         private const bool bLoggingEnabled = true;
         /// <summary>
         /// controls rather spell battle costs will be range-adjusted or not
         /// </summary>
         private const bool bCMBattleCostByDistance = false;
-
-        public static int SBAI_DispelMagic(SpellCastData data, object target, Spell spell)
-        {
-            BattleUnit bu = target as BattleUnit;
-            if (bu == null)
-            {
-                return 0;
-            }
-
-            int buValue = bu.GetBattleUnitValue();
-
-            int value = 0;
-            int evaluationValue = 0;
-
-            foreach (EnchantmentInstance e in bu.GetEnchantments())
-            {
-                DBReference<Enchantment> ench = e.source;
-                if ((ench.Get().enchCategory == EEnchantmentCategory.Negative &&
-                    bu.ownerID == data.GetWizardID()) ||
-                    (ench.Get().enchCategory == EEnchantmentCategory.Positive &&
-                    bu.ownerID != data.GetWizardID()))
-                {
-                    evaluationValue++;
-                }
-            }
-            if (evaluationValue == 0)
-            {
-#if (UNITY_EDITOR && DEBUG_SPELLS)
-                Debug.Log(spell.dbName + " with script " +
-                    spell.aiBattleEvaluationScript.ToString() + " give SpellAI value " + 0 +
-                    " on unit " + bu.GetDBName().ToString());
-#endif
-                return 0;
-            }
-
-            switch (evaluationValue)
-            {
-                case 1:
-                    value = (buValue * (FInt)0.5).ToInt();
-                    break;
-                case 2:
-                    value = (buValue * (FInt)0.7).ToInt();
-                    break;
-                case 3:
-                    value = (buValue * (FInt)0.9).ToInt();
-                    break;
-                case 4:
-                    value = (buValue * (FInt)1.1).ToInt();
-                    break;
-
-                default:
-                    value = (buValue * (FInt)1.3).ToInt();
-                    break;
-            }
-
-            FInt fValue = FInt.ZERO;
-            if (spell.fIntData != null && spell.fIntData.Length > 0)
-            {
-                fValue = spell.fIntData[0] / 10;
-            }
-
-            value *= fValue.ToInt();
-
-#if (UNITY_EDITOR && DEBUG_SPELLS)
-            Debug.Log(spell.dbName + " with script " +
-                spell.aiBattleEvaluationScript.ToString() + " give SpellAI value " + value +
-                " on unit " + bu.GetDBName().ToString());
-#endif
-
-            return value;
-        }
-
-        public static int SBAI_DisenchantTrue(SpellCastData data, object target, Spell spell)
-        {
-            //ToDo: AI do not know how to use it
-            //ToDo: Check with coder.
-            Debug.Log("Spell " + spell.dbName + " is not check for AI use yet.");
-            return 0;
-
-            /*
-            Battle battle = target as Battle;
-            if (battle == null)
-            {
-                Debug.LogError("Spell " + spell.dbName + " target is invalid");
-                return 0;
-            }
-
-            if (data.caster == null)
-            {
-                Debug.LogError("Spell " + spell.dbName + " source is invalid");
-                return 0;
-            }
-
-            int value = 0;
-            float fUnitEnchValue = 0.1f;
-            int locEnchValue = 200;
-
-
-            List<EnchantmentInstance> eiList;
-            List<BattleUnit> enemyUnitList;
-            List<BattleUnit> friendlyUnitList;
-            BattlePlayer enemyWizard;
-            BattlePlayer friendlyWizard;
-            if (data.caster.GetWizardOwner().GetID() == battle.attacker.GetID())
-            {
-                enemyUnitList     = battle.defenderUnits;
-                friendlyUnitList  = battle.attackerUnits;
-                enemyWizard    = battle.defender;
-                friendlyWizard = battle.attacker;
-            }
-            else
-            {
-                enemyUnitList     = battle.attackerUnits;
-                friendlyUnitList  = battle.defenderUnits;
-                enemyWizard    = battle.attacker;
-                friendlyWizard = battle.defender;
-            }
-
-            foreach (BattleUnit u in enemyUnitList)
-            {
-                eiList = u.GetEnchantments();
-
-                for (int i = eiList.Count - 1; i >= 0; i--)
-                {
-                    if (eiList.Count <= i)
-                    {
-                        continue;
-                    }
-
-                    //Dispel only ench that allow to dispel.
-                    if (eiList[i].source.Get().allowDispel)
-                    {
-
-                        //Disenchant only positive ench on enemy unit.
-                        if (eiList[i].source.Get().enchCategory == EEnchantmentCategory.Positive)
-                        {
-                            value += (int)(u.GetFakePower() * fUnitEnchValue);
-                        }
-                    }
-                }
-            }
-            foreach (BattleUnit u in friendlyUnitList)
-            {
-                eiList = u.GetEnchantments();
-
-                for (int i = eiList.Count - 1; i >= 0; i--)
-                {
-                    if (eiList.Count <= i)
-                    {
-                        continue;
-                    }
-
-                    //Dispel only ench that allow to dispel.
-                    if (eiList[i].source.Get().allowDispel == false)
-                    {
-                        continue;
-                    }
-
-                    //Disenchant only negative ench on own unit
-                    if (eiList[i].source.Get().enchCategory == EEnchantmentCategory.Negative)
-                    {
-                        value += (int)(u.GetFakePower() * fUnitEnchValue);
-                    }
-                }
-            }
-
-            //remove enchantment from location
-            eiList = battle.GetEnchantments();
-
-            for (int i = eiList.Count - 1; i >= 0; i--)
-            {
-                if (eiList.Count <= i)
-                {
-                    continue;
-                }
-
-                //Dispel only ench that allow to dispel.
-                if (eiList[i].source.Get().allowDispel)
-                {
-                    //Disenchant only negative ench on own battle if own by enemy. Disenchant only positive ench on battle if own by caster.
-                    if ((eiList[i].owner.GetEntity() == data.caster.GetWizardOwner() && eiList[i].source.Get().enchCategory == EEnchantmentCategory.Negative) ||
-                        (eiList[i].owner.GetEntity() != data.caster.GetWizardOwner() && eiList[i].source.Get().enchCategory == EEnchantmentCategory.Positive))
-                    {
-                        value += locEnchValue;
-                    }
-                }
-            }
-            //remove enchantment from enemy wizard
-            eiList = enemyWizard.GetEnchantments();
-
-            for (int i = eiList.Count - 1; i >= 0; i--)
-            {
-                if (eiList.Count <= i)
-                {
-                    continue;
-                }
-
-                //Dispel only ench that allow to dispel.
-                if (eiList[i].source.Get().allowDispel)
-                {
-                    //Disenchant only negative ench on own battle if own by enemy. Disenchant only positive ench on battle if own by caster.
-                    if ((eiList[i].owner.GetEntity() == data.caster.GetWizardOwner() && eiList[i].source.Get().enchCategory == EEnchantmentCategory.Negative) ||
-                        (eiList[i].owner.GetEntity() != data.caster.GetWizardOwner() && eiList[i].source.Get().enchCategory == EEnchantmentCategory.Positive))
-                    {
-                        value += locEnchValue;
-                    }
-                }
-            }
-
-            //remove enchantment from friendly wizard
-            eiList = friendlyWizard.GetEnchantments();
-
-            for (int i = eiList.Count - 1; i >= 0; i--)
-            {
-                if (eiList.Count <= i)
-                {
-                    continue;
-                }
-
-                //Dispel only ench that allow to dispel.
-                if (eiList[i].source.Get().allowDispel)
-                {
-
-                    //Disenchant only negative ench on own battle if own by enemy. Disenchant only positive ench on battle if own by caster.
-                    if ((eiList[i].owner.GetEntity() == data.caster.GetWizardOwner() && eiList[i].source.Get().enchCategory == EEnchantmentCategory.Negative) ||
-                        (eiList[i].owner.GetEntity() != data.caster.GetWizardOwner() && eiList[i].source.Get().enchCategory == EEnchantmentCategory.Positive))
-                    {
-                        value += locEnchValue;
-                    }
-                }
-            }
-
-#if (UNITY_EDITOR && DEBUG_SPELLS)
-            Debug.Log(spell.dbName + " with script " +
-                spell.aiBattleEvaluationScript.ToString() + " give SpellAI value " + (int)value);
-#endif
-
-            return value;
-            */
-        }
 
         /// <summary>
         /// Modified version of SBG_DispelMagic
@@ -285,7 +45,7 @@ namespace GameScript_CMF
         /// <param name="target">target as BattleUnit</param>
         /// <param name="spell"></param>
         /// <returns></returns>
-        public static bool SBG_DispelMagic2(SpellCastData data, object target, Spell spell)
+        public static bool SBG_DispelMagic(SpellCastData data, object target, Spell spell)
         {
             /*
              *  Note:
@@ -294,10 +54,9 @@ namespace GameScript_CMF
             BattleUnit bu = target as BattleUnit;
             if (bu == null)
             {
-                Debug.LogWarning("[SBG_DispelMagic2] is not targeting unit in battle");
+                Debug.LogError("[SBG_DispelMagic] Spell " + spell.dbName + " target object is not a BattleUnit type");
                 return false;
             }
-
 
             ISpellCaster spellCaster = data.caster;
             string strCaster         = GetCasterNameOwnerID(data);
@@ -318,11 +77,11 @@ namespace GameScript_CMF
 
                 if (bPlayerDispeller)
                 {
-                    Debug.LogFormat("  invoking [SBG_DispelMagic2]    Spell:{0} castBy:{1} ...", GetSpellNameBattleCost(spell), strCaster);
+                    Debug.LogFormat("  invoking [SBG_DispelMagic]    Spell:{0} castBy:{1} ...", GetSpellNameBattleCost(spell), strCaster);
                 }
                 else
                 {
-                    Debug.LogFormat("  AI invoking [SBG_DispelMagic2] Spell:{0} castBy:{1} ...", GetSpellNameBattleCost(spell), strCaster);
+                    Debug.LogFormat("  AI invoking [SBG_DispelMagic] Spell:{0} castBy:{1} ...", GetSpellNameBattleCost(spell), strCaster);
                 }
             }
 
@@ -349,11 +108,7 @@ namespace GameScript_CMF
             List<EnchantmentInstance> unitEnchList = bu.GetEnchantments();
             PlayerWizard buOwner                   = bu.GetWizardOwner();
 
-            bool bIsUnitOwnerHuman = false;
-            if (buOwner != null)
-            {
-                bIsUnitOwnerHuman = buOwner.IsHuman;
-            }
+            bool bIsUnitOwnerHuman = (buOwner != null) ? buOwner.IsHuman : false;
 
             if (bLoggingEnabled && !bSimulated)
             {
@@ -380,7 +135,7 @@ namespace GameScript_CMF
                         continue;
                     }
 
-                    // returns the first occurance in the array
+                    // returns the first occurrence in the array
                     EnchantmentScript esSpellLock = Array.Find(ench.scripts, o => o.tag == (Tag)TAG.SPELL_LOCK);
 
                     if (esSpellLock != null)
@@ -389,7 +144,8 @@ namespace GameScript_CMF
                         {
                             if (!bSimulated)
                             {
-                                if (spellCaster == GameManager.GetHumanWizard())
+                            //    if (spellCaster == GameManager.GetHumanWizard())
+                            if (spellCaster.GetWizardOwner() == GameManager.GetHumanWizard()) // player is casting dispel
                                 {
                                     string message = DBUtils.Localization.Get("UI_ENCHANTMENT_REMOVED_SUCCESSFULLY", true, unitEnchList[i].source.Get().GetDILocalizedName());
                                     PopupGeneral.OpenPopup(null, "UI_SUCCESS", message, "UI_OK");
@@ -403,7 +159,7 @@ namespace GameScript_CMF
                             }
 
                             bu.RemoveEnchantment(unitEnchList[i]);
-                            //If unit have spell lock and other ench on it, you need to dispel
+                            //If unit have spell lock and other enchantments on it, you need to dispel
                             // spelllock first and in another dispel use rest.
 
                             break;
@@ -416,7 +172,7 @@ namespace GameScript_CMF
                 string removedEnch = string.Empty;
                 for (int i = unitEnchList.Count - 1; i >= 0; i--)
                 {
-                    // Dispel only ench that allow to dispel.
+                    // Dispel only enchantments that allow to dispel.
                     if (unitEnchList[i].source.Get().allowDispel == false)
                     {
                         continue;
@@ -427,7 +183,7 @@ namespace GameScript_CMF
                         continue;
                     }
 
-                    // Dispel only negative ench on own ba. Dispel only positive ench on enemy ba.
+                    // Dispel only negative enchantments on own ba. Dispel only positive enchantments on enemy ba.
                     if ((buOwner == wizDispeller && unitEnchList[i].source.Get().enchCategory == EEnchantmentCategory.Negative) ||
                         (buOwner != wizDispeller && unitEnchList[i].source.Get().enchCategory != EEnchantmentCategory.Negative))
                     {
@@ -520,9 +276,11 @@ namespace GameScript_CMF
             List<BattleUnit> enemyUnitList = data.GetEnemyUnits();
 
 //            List<EnchantmentInstance> eiList;
-            string removedEnch = string.Empty;
+            string strRemovedEnchs = string.Empty;
 
-            removedEnch = DispelEnchantsFromUnits(ownerUnitList, playerWizardAsCaster, dispelCost);
+            strRemovedEnchs = DispelEnchantsFromFriendlyUnits(ownerUnitList, playerWizardAsCaster, dispelCost);
+
+            #region replacedBy_DispelEnchantsFromFriendlyUnits
 
             /*
             for (int i = ownerUnitList.Count - 1; i >= 0; i--)
@@ -546,7 +304,7 @@ namespace GameScript_CMF
                         continue;
                     }
 
-                    // Dispel only ench that allow to dispel.
+                    // Dispel only enchantments that allow to dispel.
                     if (eiList[j].source.Get().allowDispel == false)
                     {
                         continue;
@@ -575,8 +333,12 @@ namespace GameScript_CMF
                 }
             }
             */
+            #endregion
 
-            removedEnch = DispelEnchantsFromUnits2(enemyUnitList, playerWizardAsCaster, playerWizard, dispelCost, removedEnch);
+            strRemovedEnchs = DispelEnchantsFromEnemyUnits(enemyUnitList, playerWizardAsCaster, playerWizard, dispelCost, strRemovedEnchs);
+
+            #region replacedBy_DispelEnchantsFromEnemyUnits
+
             /*
             for (int i = enemyUnitList.Count - 1; i >= 0; i--)
             {
@@ -601,7 +363,7 @@ namespace GameScript_CMF
                             continue;
                         }
 
-                        // Dispel only ench that allow to dispel.
+                        // Dispel only enchantments that allow to dispel.
                         if (eiList[j].source.Get().allowDispel == false)
                         {
                             continue;
@@ -647,7 +409,7 @@ namespace GameScript_CMF
                             continue;
                         }
 
-                        //Dispel only ench that allow to dispel.
+                        //Dispel only enchantments that allow to dispel.
                         if (eiList[j].source.Get().allowDispel == false)
                         {
                             continue;
@@ -672,6 +434,8 @@ namespace GameScript_CMF
                 }
             }
             */
+            #endregion
+
             if (data.battle != null)
             {
                 bool bSimulated = data.battle.simulation;
@@ -681,8 +445,9 @@ namespace GameScript_CMF
                     return true;
                 }
 
-                removedEnch = DispelEnchantsFromBattle(data, playerWizardAsCaster, dispelCost, removedEnch);
+                strRemovedEnchs = DispelEnchantsFromBattle(data.battle, playerWizardAsCaster, data.GetPlayerWizard(), dispelCost, strRemovedEnchs);
 
+                #region replacedByPreviousFunction
                 /*
                 eiList = data.battle.GetEnchantments();
 
@@ -705,7 +470,7 @@ namespace GameScript_CMF
                             }
                         }
 
-                        //Dispel only ench that allow to dispel.
+                        //Dispel only enchantments that allow to dispel.
                         if (eiList[i].source.Get().allowDispel == false)
                         {
                             continue;
@@ -724,6 +489,7 @@ namespace GameScript_CMF
                     }
                 }
                 */
+                #endregion
 
                 if (!bSimulated)
                 {
@@ -732,16 +498,16 @@ namespace GameScript_CMF
                     {
                         if (spellCaster.GetWizardOwner() == GameManager.GetHumanWizard())
                         {
-                            if (!string.IsNullOrEmpty(removedEnch))
+                            if (!string.IsNullOrEmpty(strRemovedEnchs))
                             {
-                                if (removedEnch.Contains(", ")) //different text for 1 and more than 1 enchantments removed
+                                if (strRemovedEnchs.Contains(", ")) //different text for 1 and more than 1 enchantments removed
                                 {
-                                    string message = DBUtils.Localization.Get("UI_ENCHANTMENTS_REMOVED_SUCCESSFULLY", true, removedEnch);
+                                    string message = DBUtils.Localization.Get("UI_ENCHANTMENTS_REMOVED_SUCCESSFULLY", true, strRemovedEnchs);
                                     PopupGeneral.OpenPopup(null, "UI_SUCCESS", message, "UI_OK");
                                 }
                                 else
                                 {
-                                    string message = DBUtils.Localization.Get("UI_ENCHANTMENT_REMOVED_SUCCESSFULLY", true, removedEnch);
+                                    string message = DBUtils.Localization.Get("UI_ENCHANTMENT_REMOVED_SUCCESSFULLY", true, strRemovedEnchs);
                                     PopupGeneral.OpenPopup(null, "UI_SUCCESS", message, "UI_OK");
                                 }
                             }
@@ -752,9 +518,9 @@ namespace GameScript_CMF
                         }
                         else
                         {
-                            if (!string.IsNullOrEmpty(removedEnch))
+                            if (!string.IsNullOrEmpty(strRemovedEnchs))
                             {
-                                string message = DBUtils.Localization.Get("UI_AI_ENCHANTMENTS_REMOVED_SUCCESSFULLY_FROM_GLOBAL", true, removedEnch);
+                                string message = DBUtils.Localization.Get("UI_AI_ENCHANTMENTS_REMOVED_SUCCESSFULLY_FROM_GLOBAL", true, strRemovedEnchs);
                                 PopupGeneral.OpenPopup(null, "UI_ENCHANTMENT_DISPELLED", message, "UI_OK");
                             }
                             else
@@ -767,203 +533,6 @@ namespace GameScript_CMF
             }
             return true;
         }
-
-        #region cyclomatic complexity helpers
-        public static string DispelEnchantsFromUnits(List<BattleUnit> ownerUnitList, PlayerWizard wizard, FInt fDispelCost)
-        {
-            string strRetVal = string.Empty;
-
-            for (int i = ownerUnitList.Count - 1; i >= 0; i--)
-            {
-                if (ownerUnitList.Count <= i)
-                {
-                    continue;
-                }
-
-                List<EnchantmentInstance> eiList = ownerUnitList[i].GetEnchantments();
-
-                for (int j = eiList.Count - 1; j >= 0; j--)
-                {
-                    if (ownerUnitList.Count <= i)
-                    {
-                        continue;
-                    }
-
-                    if (eiList.Count <= j)
-                    {
-                        continue;
-                    }
-
-                    // Dispel only ench that allow to dispel.
-                    if (eiList[j].source.Get().allowDispel)
-                    {
-                        if (eiList[j].source.Get().enchCategory == EEnchantmentCategory.Negative)
-                        {
-                            bool bSimulated = ownerUnitList[i].simulated;
-                            if (GetDispelSuccess(wizard, eiList[j], fDispelCost, bSimulated))
-                            {
-                                if (!bSimulated)
-                                {
-                                    string newRemEch = eiList[j].source.Get().GetDILocalizedName();
-                                    strRetVal = strRetVal.Length > 0 ? strRetVal + ", " + newRemEch : newRemEch;
-                                }
-
-                                ownerUnitList[i].RemoveEnchantment(eiList[j].source.Get());
-                            }
-                        }
-                    }
-                }
-            }
-
-            return strRetVal;
-        }
-
-        public static string DispelEnchantsFromUnits2(List<BattleUnit> enemyUnitList, PlayerWizard wizard, PlayerWizard wiz, FInt fDispelCost, string str)
-        {
-            string strRetVal = str;
-
-            for (int i = enemyUnitList.Count - 1; i >= 0; i--)
-            {
-                if (enemyUnitList.Count <= i)
-                {
-                    continue;
-                }
-
-                List<EnchantmentInstance> eiList = enemyUnitList[i].GetEnchantments();
-
-                if (enemyUnitList[i].isSpellLock)
-                {
-                    for (int j = 0; j < eiList.Count; j++)
-                    {
-                        if (enemyUnitList.Count <= i)
-                        {
-                            continue;
-                        }
-
-                        if (eiList.Count <= j)
-                        {
-                            continue;
-                        }
-
-                        // Dispel only ench that allow to dispel.
-                        if (eiList[j].source.Get().allowDispel == false)
-                        {
-                            continue;
-                        }
-
-                        Enchantment ench = eiList[j].source.Get();
-
-                        if (ench.scripts == null)
-                        {
-                            continue;
-                        }
-
-                        EnchantmentScript esSpellLock = Array.Find(eiList[j].source.Get().scripts, o => o.tag == (Tag)TAG.SPELL_LOCK);
-                        if (esSpellLock != null)
-                        {
-                            bool bSimulated = enemyUnitList[i].simulated;
-                            if (GetDispelSuccess(wizard, eiList[j], fDispelCost, esSpellLock.fIntData, bSimulated))
-                            {
-                                if (!bSimulated)
-                                {
-                                    string newRemEch = eiList[j].source.Get().GetDILocalizedName();
-                                    strRetVal = strRetVal.Length > 0 ? strRetVal + ", " + newRemEch : newRemEch;
-                                }
-
-                                enemyUnitList[i].RemoveEnchantment(eiList[j].source);
-                            }
-
-                            break;
-                        }
-                    }
-                }
-                else // isSpellLock == false
-                {
-                    for (int j = eiList.Count - 1; j >= 0; j--)
-                    {
-                        if (enemyUnitList.Count <= i)
-                        {
-                            continue;
-                        }
-
-                        if (eiList.Count <= j)
-                        {
-                            continue;
-                        }
-
-                        //Dispel only ench that allow to dispel.
-                        if (eiList[j].source.Get().allowDispel)
-                        {
-                            if (eiList[j].owner != wiz)
-                            {
-                                bool bSimulated = enemyUnitList[i].simulated;
-
-                                if (GetDispelSuccess(wizard, eiList[j], fDispelCost, bSimulated))
-                                {
-                                    if (!bSimulated)
-                                    {
-                                        string newRemEch = eiList[j].source.Get().GetDILocalizedName();
-                                        strRetVal = strRetVal.Length > 0 ? strRetVal + ", " + newRemEch : newRemEch;
-                                    }
-
-                                    enemyUnitList[i].RemoveEnchantment(eiList[j].source.Get());
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-            return strRetVal;
-        }
-
-        public static string DispelEnchantsFromBattle(SpellCastData data, PlayerWizard wizard, FInt fDispelCost, string str)
-        {
-            string strRetVal = str;
-            bool bSimulated  = data.battle.simulation;
-            PlayerWizard wiz = data.GetPlayerWizard();
-
-            List<EnchantmentInstance> eiList = data.battle.GetEnchantments();
-
-            for (int i = eiList.Count - 1; i >= 0; i--)
-            {
-                if (eiList.Count <= i)
-                {
-                    continue;
-                }
-
-                if (eiList[i].owner != wiz)
-                {
-                    //check if caster is a unit
-                    BattleUnit bu = eiList[i].owner?.GetEntity() as BattleUnit;
-                    if (bu != null)
-                    {
-                        if (bu.GetWizardOwner() == wiz)
-                        {
-                            continue;
-                        }
-                    }
-
-                    //Dispel only ench that allow to dispel.
-                    if (eiList[i].source.Get().allowDispel)
-                    {
-                        if (GetDispelSuccess(wizard, eiList[i], fDispelCost, bSimulated))
-                        {
-                            if (!bSimulated)
-                            {
-                                string newRemEch = eiList[i].source.Get().GetDILocalizedName();
-                                strRetVal = strRetVal.Length > 0 ? strRetVal + ", " + newRemEch : newRemEch;
-                            }
-
-                            data.battle.RemoveEnchantment(eiList[i].source.Get());
-                        }
-                    }
-                }
-            }
-
-            return strRetVal;
-        }
-
-        #endregion
 
         /// <summary>
         /// Specialized version of SBW_ApplyBattleEnchantment
@@ -978,7 +547,7 @@ namespace GameScript_CMF
             Battle b = target as Battle;
             if (b == null)
             {
-                Debug.LogError("Spell " + spell.dbName + " is not targeting battle, while using script to do so");
+                Debug.LogError("Spell " + spell.dbName + " is not targeting Battle type");
                 return false;
             }
 
@@ -1050,7 +619,7 @@ namespace GameScript_CMF
             EnchantmentInstance ei = target as EnchantmentInstance;
             if (ei == null)
             {
-                Debug.LogError("Spell " + spell.dbName + " is not targeting EnchantmentInstance");
+                Debug.LogError("Spell " + spell.dbName + " is not targeting EnchantmentInstance object type");
                 return false;
             }
 
@@ -1073,7 +642,8 @@ namespace GameScript_CMF
             if (GetDispelSuccess(spellCasterOwner, ei, dispelStr))
             {
                 //success
-                if (spellCaster == GameManager.GetHumanWizard())
+                // if (spellCaster == GameManager.GetHumanWizard())
+                if (spellCaster.GetWizardOwner() == GameManager.GetHumanWizard())
                 {
                     string message = DBUtils.Localization.Get("UI_ENCHANTMENT_REMOVED_SUCCESSFULLY", true, ei.source.Get().GetDILocalizedName());
                     PopupGeneral.OpenPopup(null, "UI_SUCCESS", message, "UI_OK");
@@ -1089,7 +659,8 @@ namespace GameScript_CMF
             else
             {
                 //failure
-                if (spellCaster == GameManager.GetHumanWizard())
+                //if (spellCaster == GameManager.GetHumanWizard())
+                if (spellCaster.GetWizardOwner() == GameManager.GetHumanWizard())
                 {
                     string message = DBUtils.Localization.Get("UI_FAILED_TO_REMOVE_ENCHANTMENT", true, ei.source.Get().GetDILocalizedName());
                     PopupGeneral.OpenPopup(null, "UI_DISPEL_FAILED", message, "UI_OK");
@@ -1107,12 +678,12 @@ namespace GameScript_CMF
         {
             if (!(target is Vector3i))
             {
-                Debug.LogError("Spell " + spell.dbName + " is not targeting Vector3i");
+                Debug.LogError("Spell " + spell.dbName + " is not targeting Vector3i object type");
                 return false;
             }
 
             FInt fDispelCost;
-            if (spell != null)
+            if ((spell != null) && (spell.fIntData != null) && (spell.fIntData.Length > 0))
             {
                 fDispelCost = spell.fIntData[0];
             }
@@ -1134,7 +705,7 @@ namespace GameScript_CMF
             }
 
 
-            Vector3i position = (Vector3i)target;
+            Vector3i targetPosn = (Vector3i)target;
             PlayerWizard spellCasterOwner = source.GetWizardOwner();
 
             //remove enchantment from units
@@ -1145,7 +716,7 @@ namespace GameScript_CMF
 
             foreach (MOM.Group group in groupList)
             {
-                if (!group.IsDistanceTo_Zero(position, plane))
+                if (!group.IsDistanceTo_Zero(targetPosn, plane))
                 {
                     continue;
                 }
@@ -1227,7 +798,7 @@ namespace GameScript_CMF
             }
 
             //remove enchantment from location
-            MOM.Location location = GameManager.Get().registeredLocations.Find(o => o.IsDistanceTo_Zero(position, plane));
+            MOM.Location location = GameManager.Get().registeredLocations.Find(o => o.IsDistanceTo_Zero(targetPosn, plane));
             if (location == null)
             {
                 return true;
@@ -1241,7 +812,7 @@ namespace GameScript_CMF
                 //Dispel only ench that allow to dispel.
                 if (eiList[i].source.Get().allowDispel)
                 {
-                    //Disenchant only negative ench on own unit. Disenchant only positive ench on enemy unit.
+                    //Disenchant only negative enchantments on own unit. Disenchant only positive enchantments on enemy unit.
                     if ((iLocationOwnerID == spellCasterOwner.ID && eiList[i].source.Get().enchCategory == EEnchantmentCategory.Negative) ||
                         (iLocationOwnerID != spellCasterOwner.ID && eiList[i].source.Get().enchCategory == EEnchantmentCategory.Positive))
                     {
@@ -1257,7 +828,8 @@ namespace GameScript_CMF
                 }
             }
 
-            if (spellCaster == GameManager.GetHumanWizard()) //player is casting dispel
+//            if (spellCaster == GameManager.GetHumanWizard()) //player is casting dispel
+            if (spellCaster.GetWizardOwner() == GameManager.GetHumanWizard())
             {
                 if (!string.IsNullOrEmpty(removedEnch))
                 {
@@ -1283,23 +855,32 @@ namespace GameScript_CMF
 
         public static bool GetDispelSuccess(PlayerWizard spellCasterAsWizard, EnchantmentInstance ei, FInt fDispelCost)
         {
-            // Dispel SpellLock first then other ench
+            // Dispel SpellLock first then other enchantments
             return GetDispelSuccess(spellCasterAsWizard, ei, fDispelCost, (FInt)ei.dispelCost, false);
         }
 
+        /// <summary>
+        /// Overloaded GetDispelSuccess method
+        /// </summary>
+        /// <param name="spellCasterAsWizard"></param>
+        /// <param name="ei"></param>
+        /// <param name="fDispelCost"></param>
+        /// <param name="bSimulated"></param>
+        /// <returns></returns>
         public static bool GetDispelSuccess(PlayerWizard spellCasterAsWizard, EnchantmentInstance ei, FInt fDispelCost, bool bSimulated)
         {
-            // Dispel SpellLock first then other ench
+            // Dispel SpellLock first then other enchantments
             return GetDispelSuccess(spellCasterAsWizard, ei, fDispelCost, (FInt)ei.dispelCost, bSimulated);
         }
 
         /// <summary>
-        /// 
+        /// Overladed GetDispelSuccess method
         /// </summary>
-        /// <param name="spellCasterAsWizard">the Dispeller</param>
+        /// <param name="spellCasterAsWizard">can be null</param>
         /// <param name="ei"></param>
         /// <param name="dispelCost"></param>
         /// <param name="spellCost"></param>
+        /// <param name="bSimulated"></param>
         /// <returns></returns>
         public static bool GetDispelSuccess(PlayerWizard spellCasterAsWizard, EnchantmentInstance ei, FInt dispelCost, FInt spellCost, bool bSimulated = false)
         {
@@ -1359,7 +940,11 @@ namespace GameScript_CMF
 
         #region EnchAlreadyOnObject Fix
         /*
-        static public bool STAR_Friendly_Unit(SpellCastData data, object target, Spell spell)
+         * Following may need to be uncommented to ensure the optimized 'EnchAlreadyOnObject' method is called
+         * 
+         */
+         /*
+        public static bool STAR_Friendly_Unit(SpellCastData data, object target, Spell spell)
         {
             MOM.Unit   u  = target as MOM.Unit;
             BattleUnit bu = target as BattleUnit;
@@ -1407,7 +992,7 @@ namespace GameScript_CMF
             return false;
         }
 
-        static public bool STAR_FriendlyNormal_Unit(SpellCastData data, object target, Spell spell)
+        public static bool STAR_FriendlyNormal_Unit(SpellCastData data, object target, Spell spell)
         {
             //var w = data.GetPlayerWizard();
             MOM.Unit   u  = target as MOM.Unit;
@@ -1454,7 +1039,7 @@ namespace GameScript_CMF
             return false;
         }
 
-        static public bool STAR_FriendlyNormalUnitNormalRange(SpellCastData data, object target, Spell spell)
+        public static bool STAR_FriendlyNormalUnitNormalRange(SpellCastData data, object target, Spell spell)
         {
             //var w = data.GetPlayerWizard();
             MOM.Unit   u  = target as MOM.Unit;
@@ -1506,7 +1091,7 @@ namespace GameScript_CMF
             return false;
         }
 
-        static public bool STAR_FriendlyNormalUnitOrHeroNormalRange(SpellCastData data, object target, Spell spell)
+        public static bool STAR_FriendlyNormalUnitOrHeroNormalRange(SpellCastData data, object target, Spell spell)
         {
             //var w = data.GetPlayerWizard();
             MOM.Unit   u  = target as MOM.Unit;
@@ -1558,7 +1143,7 @@ namespace GameScript_CMF
             }
             return false;
         }
-        static public bool STAR_FriendlyNonFantastic_Unit(SpellCastData data, object target, Spell spell)
+        public static bool STAR_FriendlyNonFantastic_Unit(SpellCastData data, object target, Spell spell)
         {
             //var w = data.GetPlayerWizard();
             MOM.Unit   u  = target as MOM.Unit;
@@ -1607,7 +1192,7 @@ namespace GameScript_CMF
             return false;
         }
 
-        static public int SBAI_Web(SpellCastData data, object target, Spell spell)
+        public static int SBAI_Web(SpellCastData data, object target, Spell spell)
         {
             BattleUnit targetBu = target as BattleUnit;
             if (targetBu == null) 
@@ -1651,7 +1236,7 @@ namespace GameScript_CMF
             return value.ToInt();
         }
 
-        static public bool STAR_EnemyBattlePlayer(SpellCastData data, object target, Spell spell)
+        public static bool STAR_EnemyBattlePlayer(SpellCastData data, object target, Spell spell)
         {
             BattlePlayer bp = target as BattlePlayer;
             if (bp != null)
@@ -1677,7 +1262,228 @@ namespace GameScript_CMF
 
             return false;
         }
-        */
+       */
+        #endregion
+
+        #region cyclomatic complexity helpers
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ownerUnitList"></param>
+        /// <param name="playerWizardAsCaster">can be null</param>
+        /// <param name="fDispelCost"></param>
+        /// <returns>string containing dispelled enchantments</returns>
+        private static string DispelEnchantsFromFriendlyUnits(List<BattleUnit> ownerUnitList, PlayerWizard playerWizardAsCaster, FInt fDispelCost)
+        {
+            string strRetVal = string.Empty;
+
+            for (int i = ownerUnitList.Count - 1; i >= 0; i--)
+            {
+                if (ownerUnitList.Count <= i)
+                {
+                    continue;
+                }
+
+                List<EnchantmentInstance> eiList = ownerUnitList[i].GetEnchantments();
+
+                for (int j = eiList.Count - 1; j >= 0; j--)
+                {
+                    if (ownerUnitList.Count <= i)
+                    {
+                        continue;
+                    }
+
+                    if (eiList.Count <= j)
+                    {
+                        continue;
+                    }
+
+                    // Dispel only enchantments that allows dispel.
+                    if (eiList[j].source.Get().allowDispel)
+                    {
+                        if (eiList[j].source.Get().enchCategory == EEnchantmentCategory.Negative)
+                        {
+                            bool bSimulated = ownerUnitList[i].simulated;
+                            if (GetDispelSuccess(playerWizardAsCaster, eiList[j], fDispelCost, bSimulated))
+                            {
+                                if (!bSimulated)
+                                {
+                                    string newRemEch = eiList[j].source.Get().GetDILocalizedName();
+                                    strRetVal = strRetVal.Length > 0 ? strRetVal + ", " + newRemEch : newRemEch;
+                                }
+
+                                ownerUnitList[i].RemoveEnchantment(eiList[j].source.Get());
+                            }
+                        }
+                    }
+                }
+            }
+
+            return strRetVal;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="enemyUnitList"></param>
+        /// <param name="playerWizardAsCaster">can be null</param>
+        /// <param name="playerWizardDispeller"></param>
+        /// <param name="fDispelCost"></param>
+        /// <param name="strEnchants"></param>
+        /// <returns>updated string containing dispelled enchantments</returns>
+        private static string DispelEnchantsFromEnemyUnits(List<BattleUnit> enemyUnitList, PlayerWizard playerWizardAsCaster, PlayerWizard playerWizardDispeller, FInt fDispelCost, string strEnchants)
+        {
+            string strRetVal = strEnchants;
+
+            for (int i = enemyUnitList.Count - 1; i >= 0; i--)
+            {
+                if (enemyUnitList.Count <= i)
+                {
+                    continue;
+                }
+
+                List<EnchantmentInstance> eiList = enemyUnitList[i].GetEnchantments();
+
+                if (enemyUnitList[i].isSpellLock)
+                {
+                    for (int j = 0; j < eiList.Count; j++)
+                    {
+                        if (enemyUnitList.Count <= i)
+                        {
+                            continue;
+                        }
+
+                        if (eiList.Count <= j)
+                        {
+                            continue;
+                        }
+
+                        Enchantment ench = eiList[j].source.Get();
+
+                        // Dispel only enchantments that allows dispel.
+                        if (ench.allowDispel)
+                        {
+                            if (ench.scripts == null)
+                            {
+                                continue;
+                            }
+
+                            EnchantmentScript esSpellLock = Array.Find(ench.scripts, o => o.tag == (Tag)TAG.SPELL_LOCK);
+                            if (esSpellLock != null)
+                            {
+                                bool bSimulated = enemyUnitList[i].simulated;
+                                if (GetDispelSuccess(playerWizardAsCaster, eiList[j], fDispelCost, esSpellLock.fIntData, bSimulated))
+                                {
+                                    if (!bSimulated)
+                                    {
+                                        string newRemEch = ench.GetDILocalizedName();
+                                        strRetVal = strRetVal.Length > 0 ? strRetVal + ", " + newRemEch : newRemEch;
+                                    }
+
+                                    enemyUnitList[i].RemoveEnchantment(ench);
+                                }
+
+                                break;
+                            }
+                        }
+                    }
+                }
+                else // isSpellLock == false
+                {
+                    for (int j = eiList.Count - 1; j >= 0; j--)
+                    {
+                        if (enemyUnitList.Count <= i)
+                        {
+                            continue;
+                        }
+
+                        if (eiList.Count <= j)
+                        {
+                            continue;
+                        }
+
+                        Enchantment ench = eiList[j].source.Get();
+                        //Dispel only enchantments that allows dispel.
+                        if (ench.allowDispel)
+                        {
+                            if (eiList[j].owner != playerWizardDispeller)
+                            {
+                                bool bSimulated = enemyUnitList[i].simulated;
+
+                                if (GetDispelSuccess(playerWizardAsCaster, eiList[j], fDispelCost, bSimulated))
+                                {
+                                    if (!bSimulated)
+                                    {
+                                        string newRemEch = ench.GetDILocalizedName();
+                                        strRetVal = strRetVal.Length > 0 ? strRetVal + ", " + newRemEch : newRemEch;
+                                    }
+
+                                    enemyUnitList[i].RemoveEnchantment(ench);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            return strRetVal;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="data"></param>
+        /// <param name="playerWizardAsCaster"></param>
+        /// <param name="fDispelCost"></param>
+        /// <param name="strEnchants"></param>
+        /// <returns></returns>
+        private static string DispelEnchantsFromBattle(Battle battle, PlayerWizard playerWizardAsCaster, PlayerWizard playerWizardDispeller, FInt fDispelCost, string strEnchants)
+        {
+            string strRetVal = strEnchants;
+            bool bSimulated  = battle.simulation;
+
+            List<EnchantmentInstance> eiList = battle.GetEnchantments();
+
+            for (int i = eiList.Count - 1; i >= 0; i--)
+            {
+                if (eiList.Count <= i)
+                {
+                    continue;
+                }
+
+                if (eiList[i].owner != playerWizardDispeller)
+                {
+                    //check if caster is a unit
+                    BattleUnit bu = eiList[i].owner?.GetEntity() as BattleUnit;
+                    if (bu != null)
+                    {
+                        if (bu.GetWizardOwner() == playerWizardDispeller)
+                        {
+                            continue;
+                        }
+                    }
+
+                    Enchantment ench = eiList[i].source.Get();
+                    //Dispel only enchantments that allow dispel.
+                    if (ench.allowDispel)
+                    {
+                        if (GetDispelSuccess(playerWizardAsCaster, eiList[i], fDispelCost, bSimulated))
+                        {
+                            if (!bSimulated)
+                            {
+                                string strRemovedEnchs = ench.GetDILocalizedName();
+                                strRetVal = strRetVal.Length > 0 ? strRetVal + ", " + strRemovedEnchs : strRemovedEnchs;
+                            }
+
+                            battle.RemoveEnchantment(ench);
+                        }
+                    }
+                }
+            }
+
+            return strRetVal;
+        }
+
         #endregion
     }
 }

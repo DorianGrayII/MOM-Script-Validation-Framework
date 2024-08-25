@@ -1,8 +1,8 @@
 /**********************************
  *
  * Author:  Dorian Gray
- * Date:    Feb 23, 2024
- * Version: 1.0.0
+ * Date:    May 19, 2024
+ * Version: 1.0.2
  *
  **********************************/
 
@@ -15,71 +15,66 @@ using DBEnum;
 using MHUtils;
 using MOM;
 using UnityEngine;
+using WorldCode;
 
 
 namespace GameScript_ETM
 {
-    using static UserUtility_ETM.Utility;
+    using static UserUtility.Utility;
 
     public class SpellScripts : ScriptBase
     {
         /// <summary>
         /// enables verbose counter magic logging
         /// </summary>
-        const bool bLoggingEnabled = false;
+        private const bool bLoggingEnabled = true;
 
         #region EarthToMud
         public static int SBAI_EarthToMud(SpellCastData data, object target, Spell spell)
         {
-            if (target == null)
-            {
-                Debug.LogError("  [SBAI_EarthToMud] - target == null");
-                return 0;
-            }
-
-            BattleUnit     bu   = target as BattleUnit;
-
-            if (bu != null)
-            {
-                Debug.LogWarningFormat("  [SBAI_EarthToMud] - target is BattleUnit:{0}", GetNameOwnerID(bu));
-            }
-
-            FInt distance = spell.fIntData[0];
-            int value = 0;
-
+            int iRetVal = 0;
             Vector3i pos = (Vector3i)target;
+            if (pos == null)
+            {
+                Debug.LogError("  [SBAI_EarthToMud] target == null");
+                return iRetVal;
+            }
+
+            int iDistance = spell.fIntData[0].ToInt();
+
             Battle battle = data.battle;
 
-            foreach (BattleUnit unit in battle.GetAllUnits())
+            List<BattleUnit> buList = battle.GetAllUnits();
+            foreach (BattleUnit bu in buList)
             {
-                if (HexCoordinates.HexDistance(unit.GetPosition(), pos) < distance &&
-                    unit.attributes.DoesNotContains((Tag)TAG.TELEPORTING) &&
-                    unit.attributes.DoesNotContains((Tag)TAG.CAN_FLY) &&
-                    unit.attributes.DoesNotContains((Tag)TAG.NON_CORPOREAL) &&
-                    unit.attributes.DoesNotContains((Tag)TAG.EARTH_WALKER) &&
-                    unit.GetEnchantments().Find(o => o.source == (Enchantment)ENCH.EARTH_TO_MUD) == null)
+                if (HexCoordinates.HexDistance(bu.GetPosition(), pos) < iDistance &&
+                    bu.attributes.DoesNotContains((Tag)TAG.TELEPORTING) &&
+                    bu.attributes.DoesNotContains((Tag)TAG.CAN_FLY) &&
+                    bu.attributes.DoesNotContains((Tag)TAG.NON_CORPOREAL) &&
+                    bu.attributes.DoesNotContains((Tag)TAG.EARTH_WALKER) &&
+                    bu.GetEnchantments().Find(o => o.source == (Enchantment)ENCH.EARTH_TO_MUD) == null)
                 {
-                    if (unit.ownerID == data.GetWizardID())
+                    if (bu.ownerID == data.GetWizardID())
                     {
-                        value -= unit.GetBattleUnitValue();
+                        iRetVal -= bu.GetBattleUnitValue();
                     }
                     else
                     {
-                        value += unit.GetBattleUnitValue();
+                        iRetVal += bu.GetBattleUnitValue();
                     }
                 }
             }
-#if (UNITY_EDITOR && DEBUG_SPELLS)
-            Debug.Log(spell.dbName + " SBAI_ script value " + (int)value);
-#endif
+
             if (bLoggingEnabled)
             {
 #pragma warning disable CS0162 // Unreachable code detected
-                Debug.LogFormat("  [SBAI_EarthToMud]  Returning:{0}", value);
+
+                Debug.Log(spell.dbName + " with script " +
+                          spell.aiBattleEvaluationScript.ToString() + " give SpellAI value " + iRetVal);
 #pragma warning restore CS0162 // Unreachable code detected
             }
 
-            return value;
+            return iRetVal;
         }
 
         public static bool SBH_MassSlow(SpellCastData data, object target, Spell spell)
@@ -108,22 +103,22 @@ namespace GameScript_ETM
                 pos = (Vector3i)target;
             }
 
-            FInt distance = spell.fIntData[0];
+            int iDistance = spell.fIntData[0].ToInt();
 
             if ((data.battle != null) && (pos != Vector3i.invalid))
             {
-                foreach (BattleUnit v in data.battle.GetAllUnits())
+                foreach (BattleUnit battleUnit in data.battle.GetAllUnits())
                 {
-                    if (HexCoordinates.HexDistance(v.GetPosition(), pos) <= distance &&
-                        v.attributes.DoesNotContains((Tag)TAG.TELEPORTING) &&
-                        v.attributes.DoesNotContains((Tag)TAG.CAN_FLY) &&
-                        v.attributes.DoesNotContains((Tag)TAG.NON_CORPOREAL) &&
-                        v.GetSkills().Find(o => o == (Skill)SKILL.EARTH_WALKER) == null &&
-                        v.GetEnchantments().Find(o => o.source == (Enchantment)ENCH.EARTH_TO_MUD) == null)
+                    if (HexCoordinates.HexDistance(battleUnit.GetPosition(), pos) <= iDistance &&
+                        battleUnit.attributes.DoesNotContains((Tag)TAG.TELEPORTING) &&
+                        battleUnit.attributes.DoesNotContains((Tag)TAG.CAN_FLY) &&
+                        battleUnit.attributes.DoesNotContains((Tag)TAG.NON_CORPOREAL) &&
+                        battleUnit.GetSkills().Find(o => o == (Skill)SKILL.EARTH_WALKER) == null &&
+                        battleUnit.GetEnchantments().Find(o => o.source == (Enchantment)ENCH.EARTH_TO_MUD) == null)
                     {
                         foreach (Enchantment en in spell.enchantmentData)
                         {
-                            v.AddEnchantment(en, data.caster as Entity, en.lifeTime, null, spell.worldCost);
+                            battleUnit.AddEnchantment(en, data.caster as Entity, en.lifeTime, null, spell.worldCost);
                         }
                     }
                 }
@@ -132,7 +127,6 @@ namespace GameScript_ETM
             return false;
         }
         #endregion
-
     }
 }
 

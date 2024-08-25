@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>hem</prefix>
+    <name>High Elven Longbowmen Fix</name>
+    <title>[Unit] High Elven Longbowmen Fix</title>
+
+    <description>
+High Elven Longbowmen "Long Range" Fix.
+
+When I played the original back in 1994, the Elven Longbowmen unit had the Long Range skill.  The skill never appeared in the UI, but was documented as almost a hidden feature of the unit.
+
+Missile units also received 2 shots a turn (which is another story).
+
+This is a fix to restore the "Long Range" skill to the venerated Elven Longbowmen, the best High Elven unit and arguably, the best ranged unit in the game.
+
+This Mod gives players a chance to see for themselves the impact of the Elven Archer with the "Long Range" skill restored makes.
+
+    </description>
+
+    <author>DorianGray</author>
+    <version>1.0.1</version>
+    <icon>hem:highelvenlongbowmen.png</icon>
+
+</ModSettings>

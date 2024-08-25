@@ -7,8 +7,8 @@
     <ProjectGuid>{F89BED4B-6659-470F-86B5-ACC785C1B0CF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MOMClassLibrary</RootNamespace>
-    <AssemblyName>MOMClassLibrary</AssemblyName>
+    <RootNamespace>MOMScriptLibrary</RootNamespace>
+    <AssemblyName>MOMScriptLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -22,8 +22,9 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>MOMClassLibrary.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
+    <NoWarn>CA1709</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -86,16 +87,19 @@
     <Compile Include="PlayerScripts\CounterMagicFix\Scripts\EnchantmentScripts_CMF.cs" />
     <Compile Include="PlayerScripts\CounterMagicFix\Scripts\GameplayScripts_CMF.cs" />
     <Compile Include="PlayerScripts\CounterMagicFix\Scripts\SpellScripts_CMF.cs" />
-    <Compile Include="PlayerScripts\CounterMagicFix\Scripts\UserUtility_CMF.cs" />
     <Compile Include="PlayerScripts\EarthToMud_AIFix\Scripts\SpellScripts_ETM.cs" />
-    <Compile Include="PlayerScripts\EarthToMud_AIFix\Scripts\UserUtility_ETM.cs" />
     <Compile Include="PlayerScripts\EnduranceFix\Scripts\EnchantmentScripts_END.cs" />
-    <Compile Include="PlayerScripts\EnduranceFix\Scripts\UserUtility_END.cs" />
+    <Compile Include="PlayerScripts\FlightFix\Scripts\EnchantmentScripts_FLT.cs" />
     <Compile Include="PlayerScripts\ForceOfNature\Scripts\SkillScripts_FON.cs" />
     <Compile Include="PlayerScripts\ForceOfNature\Scripts\SpellScripts_FON.cs" />
-    <Compile Include="PlayerScripts\ForceOfNature\Scripts\UserUtility_FON.cs" />
+    <Compile Include="PlayerScripts\MoreUnitLevels_Scaled\Scripts\EnchantmentScripts_IUX.cs" />
     <Compile Include="PlayerScripts\MoreUnitLevels_Scaled\Scripts\SkillScripts_IUX.cs" />
+    <Compile Include="PlayerScripts\MoreUnitLevels_Scaled\Scripts\SpellScripts_IUX.cs" />
     <Compile Include="PlayerScripts\MoreUnitLevels_Scaled\Scripts\TraitScripts_IUX.cs" />
+    <Compile Include="PlayerScripts\Spell_AIFix\Scripts\BattleAIScripts_SAI.cs" />
+    <Compile Include="PlayerScripts\Spell_AIFix\Scripts\BattleAutoResolveScripts_SAI.cs" />
+    <Compile Include="PlayerScripts\Spell_AIFix\Scripts\SpellScripts_SAI.cs" />
+    <Compile Include="PlayerScripts\UserUtility\Scripts\UserUtility.cs" />
     <Compile Include="PlayerScripts\VariableTerrainValues\Scripts\EnchantmentScripts_vtv.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -103,13 +107,19 @@
     <Content Include="MOMScripts\Database\DB_ARTEFACT.xml" />
     <Content Include="MOMScripts\Database\DB_BOOKS_ADVANTAGE.xml" />
     <Content Include="MOMScripts\Database\DB_BUDGET_SCALING.xml" />
-    <Content Include="MOMScripts\Database\DB_BUILDING.xml" />
+    <Content Include="MOMScripts\Database\DB_BUILDING.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="MOMScripts\Database\DB_DIFFICULTY.xml" />
-    <Content Include="MOMScripts\Database\DB_ENCHANTMENT.xml" />
+    <Content Include="MOMScripts\Database\DB_ENCHANTMENT.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="MOMScripts\Database\DB_GAMEPLAY_CONFIGURATION.xml" />
     <Content Include="MOMScripts\Database\DB_GROUP.xml" />
     <Content Include="MOMScripts\Database\DB_LANGUAGE.xml" />
-    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DES.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DES.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_DES_CN.xml" />
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_DES_DE.xml" />
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_DES_ES.xml" />
@@ -138,7 +148,9 @@
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC2_IT.xml" />
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC2_PL.xml" />
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC3.xml" />
-    <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI_CN.xml" />
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI_DE.xml" />
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI_ES.xml" />
@@ -148,12 +160,18 @@
     <Content Include="MOMScripts\Database\DB_LOCATION.xml" />
     <Content Include="MOMScripts\Database\DB_PLANE.xml" />
     <Content Include="MOMScripts\Database\DB_RACE.xml" />
-    <Content Include="MOMScripts\Database\DB_SKILL.xml" />
+    <Content Include="MOMScripts\Database\DB_SKILL.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="MOMScripts\Database\DB_SOUND.xml" />
     <Content Include="MOMScripts\Database\DB_SOUND_DLC1.xml" />
     <Content Include="MOMScripts\Database\DB_SOUND_DLC2.xml" />
-    <Content Include="MOMScripts\Database\DB_SPELL.xml" />
-    <Content Include="MOMScripts\Database\DB_SUBRACE.xml" />
+    <Content Include="MOMScripts\Database\DB_SPELL.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="MOMScripts\Database\DB_SUBRACE.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="MOMScripts\Database\DB_TAG.xml" />
     <Content Include="MOMScripts\Database\DB_TAG_QUEST.xml" />
     <Content Include="MOMScripts\Database\DB_TAX.xml" />
@@ -214,6 +232,10 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="PlayerScripts\CounterMagicFix\settings.xml" />
+    <Content Include="PlayerScripts\DwarvenEngineerFix\Database\DB_SKILL_DWE.xml" />
+    <Content Include="PlayerScripts\DwarvenEngineerFix\Database\DB_SUBRACE_DWE.xml" />
+    <Content Include="PlayerScripts\DwarvenEngineerFix\dwe.jpg" />
+    <Content Include="PlayerScripts\DwarvenEngineerFix\settings.xml" />
     <Content Include="PlayerScripts\EarthToMud_AIFix\earthtomud.png" />
     <Content Include="PlayerScripts\EarthToMud_AIFix\settings.xml" />
     <Content Include="PlayerScripts\EnduranceFix\Database\DB_ENCHANTMENT_END.xml" />
@@ -221,6 +243,13 @@
     <Content Include="PlayerScripts\EnduranceFix\settings.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="PlayerScripts\Faster Spirit Guardians\Database\DB_SUBRACE_FSG.xml" />
+    <Content Include="PlayerScripts\Faster Spirit Guardians\settings.xml" />
+    <Content Include="PlayerScripts\Faster Spirit Guardians\spirit.png" />
+    <Content Include="PlayerScripts\FlightFix\Database\DB_ENCHANTMENT_FLT.xml" />
+    <Content Include="PlayerScripts\FlightFix\Database\DB_LOCALIZATION_DES_FLT.xml" />
+    <Content Include="PlayerScripts\FlightFix\Flight.png" />
+    <Content Include="PlayerScripts\FlightFix\settings.xml" />
     <Content Include="PlayerScripts\ForceOfNature\Database\DB_LOCALIZATION_DES_FON.xml" />
     <Content Include="PlayerScripts\ForceOfNature\Database\DB_LOCALIZATION_UI_FON.xml" />
     <Content Include="PlayerScripts\ForceOfNature\Database\DB_SKILL_FON.xml" />
@@ -233,15 +262,32 @@
     <Content Include="PlayerScripts\ForceOfNature\Images\skillForceOfNature.png" />
     <Content Include="PlayerScripts\ForceOfNature\Images\SpellForceOfNature.png" />
     <Content Include="PlayerScripts\ForceOfNature\settings.xml" />
-    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\Database\DB_LOCALIZATION_DES_IUX.xml" />
-    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\Database\DB_TRAIT_IUX.xml" />
+    <Content Include="PlayerScripts\HighElfLongbowmenFix\Database\DB_SUBRACE_HEL.xml" />
+    <Content Include="PlayerScripts\HighElfLongbowmenFix\highelvenlongbowmen.png" />
+    <Content Include="PlayerScripts\HighElfLongbowmenFix\settings.xml" />
+    <Content Include="PlayerScripts\HighElfMageFix\Database\DB_SUBRACE_HEM.xml" />
+    <Content Include="PlayerScripts\HighElfMageFix\highelvenmage.png" />
+    <Content Include="PlayerScripts\HighElfMageFix\settings.xml" />
+    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\Database\DB_BUILDING_IUX.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\Database\DB_ENCHANTMENT_IUX.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\Database\DB_LOCALIZATION_DES_IUX.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="PlayerScripts\MoreUnitLevels_Scaled\Database\DB_UNIT_LVL_IUX.xml" />
     <Content Include="PlayerScripts\MoreUnitLevels_Scaled\iux-readme.txt" />
-    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\iux.png" />
-    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\settings.xml" />
+    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\iux_scaled.png" />
+    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\MoreUnitLevels%28scaled%29.jpg" />
+    <Content Include="PlayerScripts\MoreUnitLevels_Scaled\settings.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="PlayerScripts\MSO2\Database\DB_BOOKS_ADVANTAGE_MSO2.xml" />
     <Content Include="PlayerScripts\MSO2\Database\DB_DIFFICULTY_MSO2.xml" />
     <Content Include="PlayerScripts\MSO2\Database\DB_LOCALIZATION_UI_MSO2.xml" />
-    <Content Include="PlayerScripts\MSO2\Database\DB_TAX_MSO2.xml" />
+    <Content Include="PlayerScripts\MSO2\Database\DB_LOCALIZATION_DES_MSO2.xml" />
     <Content Include="PlayerScripts\MSO2\mso2.jpg" />
     <Content Include="PlayerScripts\MSO2\settings.xml" />
     <Content Include="PlayerScripts\MyCustomWizard\Database\DB_LOCALIZATION_DES_MCW.xml" />
@@ -254,6 +300,13 @@
     <Content Include="PlayerScripts\MyCustomWizard\mcw.jpg" />
     <Content Include="PlayerScripts\MyCustomWizard\My Custom Wizard.txt" />
     <Content Include="PlayerScripts\MyCustomWizard\settings.xml" />
+    <Content Include="PlayerScripts\Spell_AIFix\aI_fix.jpg" />
+    <Content Include="PlayerScripts\Spell_AIFix\Database\DB_SPELL_SAI.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="PlayerScripts\Spell_AIFix\settings.xml" />
+    <Content Include="PlayerScripts\UserUtility\settings.xml" />
+    <Content Include="PlayerScripts\UserUtility\utility.png" />
     <Content Include="PlayerScripts\VariableTerrainValues\Database\DB_LOCALIZATION_DES_VTV.xml" />
     <Content Include="PlayerScripts\VariableTerrainValues\Database\DB_TERRAIN_VTV.xml" />
     <Content Include="PlayerScripts\VariableTerrainValues\settings.xml" />

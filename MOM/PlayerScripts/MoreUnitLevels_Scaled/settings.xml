@@ -6,26 +6,31 @@
     <title>[Util] More Unit Levels (Scaled)</title>
 
     <description>
-NOTE: this Mod serves as a replacement and is NOT compatible with "More Unit Levels".  It will need to be disabled or uninstalled.
+NOTE: this Mod serves as a replacement and is NOT compatible with "More Unit Levels".  "More Unit Levels" will need to be disabled or un-installed.
 
-Based off of the "Increased Unit XP" Mod by Kilgore; however, with maximum attributes increase at max level scaled to approximately 200% (in most cases) of baseline values.
-
-For example (SCALED max increase vs UNSCALED vs baseline)
-- Resist (+6 vs +10 (lvl 20) vs +5 (lvl 6))
-- Melee Attack (+6 vs +10 (lvl 20) vs +3 (lvl 6))
-- Range Attack (ditto)
-- Throw Bonus (ditto)
-- FireBreath Bonus (ditto)
-- Defense (+4 vs +7 (lvl 20) vs +2 (lvl 6))
-- HitPoints (+4 vs +6 (lvl 20) vs +2 (lvl 6))
-- Attack Chance (+0.4 vs +0.4 (lvl 20) vs +0.3 (lvl 6)) (remains same as prevous mod)
+Originally based off of the "Increased Unit XP" Mod by Kilgore; however, with the maximum attributes increase at max level scaled to approximately 200% (with the exception of Resistance) of baseline values. Resistance was intentionally scaled back from the source Mod.
 
 This Mod increases the base number of levels a unit can obtain (in most cases) to 18.
-
 However, Level 19 and 20 are obtainable with Warlord trait and/or the Crusade Spell.
+
+Accordingly, the following buildings have been scaled:
+- The Barracks XP bonus is scaled from +0 -> +20 XP
+- The Fighter's Guild XP bonus is scaled from +20 -> +60 XP
+- The Armorer's Guild XP bonus is scaled from +0 -> +100 XP
+- The War College XP bonus is scaled from +60 -> +240 XP
+- The cumulative XP bonus for all four buildings is +420 XP (20 + 60 + 100 + 240),
+     such that all new units will start as a "Veteran(Lvl 8)", or greater.
+
+And finally, the following spells / traits have been scaled:
+- The Warlord trait and Crusade spell have been scaled from +1 -> +2 unit levels.
+- The Heroism spell has been scaled by adjusting unit level bestowed from Elite(Lvl 4) -> Elite(Lvl 10).
+
+It is highly recommended that the powerTrainingData is rebuilt after installation of this Mod.
+(see iux-readme.txt)
+
     </description>
     <author>DorianGray</author>
-    <version>1.0.2</version>
-    <icon>iux:iux.png</icon>
+    <version>1.0.9</version>
+    <icon>iux:iux_scaled.png</icon>
 
 </ModSettings>

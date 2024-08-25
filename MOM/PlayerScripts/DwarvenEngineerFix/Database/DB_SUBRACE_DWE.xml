@@ -1,0 +1,34 @@
+﻿<DB_SUBRACE>
+    <UNIT-DWRF_ENGINEERS Figures="6" ConstructionCost="40">
+        <DescriptionInfo Name="DES_DWARF_ENGINEERS" Description="DES_ENGINEERS_DES" Graphic="DwarfEngineer" />
+        <Race VALUE="RACE-DWARVES"/>
+        <Marker VALUE="IconEngineer"/>
+
+        <Tags Amount="3" Tag="TAG-MOVEMENT_POINTS"/>
+        <Tags Amount="1" Tag="TAG-CAN_WALK"/>
+
+        <Tags Amount="1" Tag="TAG-UPKEEP_GOLD"/>
+        <Tags Amount="1" Tag="TAG-UPKEEP_FOOD"/>
+        <NaturalHealing VALUE="TRUE"/>
+        <GainsXP VALUE="TRUE"/>
+
+        <Tags Amount="1" Tag="TAG-MELEE_ATTACK"/>
+        <Tags Amount="1" Tag="TAG-DEFENCE"/>
+        <Tags Amount="8" Tag="TAG-RESIST"/>
+        <Tags Amount="3" Tag="TAG-HIT_POINTS"/>
+        <Tags Amount="0.3" Tag="TAG-MELEE_ATTACK_CHANCE"/>
+        <Tags Amount="0.3" Tag="TAG-DEFENCE_CHANCE"/>
+        <Tags Amount="1" Tag="TAG-NORMAL_CLASS"/>
+
+        <Skills VALUE="SKILL-UNIT_LEVEL"/>
+        <Skills VALUE="SKILL-MELEE_ATTACK"/>
+        <Skills VALUE="SKILL-MOUNTAINEER"/>
+        <Skills VALUE="SKILL-WALL_CRUSHER"/>
+        <Skills VALUE="SKILL-DWARVEN_ENGINEER"/>
+
+        <RequiredBuildings VALUE="BUILDING-BUILDERS_HALL"/>
+        <Tags Amount="1" Tag="TAG-CONSTRUCTION_UNIT"/>
+        <Tags Amount="1" Tag="TAG-MYRRAN_UNIT"/>
+        <Audio Move="DwarfEngineerMove" AttackMelee="DwarfEngineerAttackMelee" Build="DwarfEngineerBuild" GetHit="DwarfEngineerGetHit" Die="DwarfEngineerDie" />
+    </UNIT-DWRF_ENGINEERS>
+</DB_SUBRACE>

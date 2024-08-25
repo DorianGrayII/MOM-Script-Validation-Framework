@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>sai</prefix>
+    <name>Spell AI Fix</name>
+    <title>[Util] Spell AI Fix</title>
+
+    <description>
+This is a fix to the AI's usage of various spells as follows:
+
+SBAI_EarthToMud:
+- removes check for ELEMENTAL_ARMOR
+- removes check for RESIST_ELEMENTS
+- adds check for EARTH_WALKER
+
+SBH_MassSlow:
+- adds check for target parameter passed as BattleUnit
+- adds check for target parameter passed as HexCoordinates
+- adds check for Vector3i.invalid
+
+General fixes to address compiler performance warning(s):
+- Warning CA1800 - a variable, is cast multiple times.
+
+see https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2015/code-quality/ca1800-do-not-cast-unnecessarily
+    </description>
+
+    <author>DorianGray</author>
+    <version>1.0.0</version>
+    <icon>sai:ai_fix.jpg</icon>
+
+</ModSettings>

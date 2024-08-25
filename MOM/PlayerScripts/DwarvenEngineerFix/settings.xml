@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>dwe</prefix>
+    <name>Dwarven Engineer Mod</name>
+    <title>[Unit] Dwarven Engineer Mod</title>
+
+    <description>
+Dwarven Engineer Mod
+
+This is a fix to the Dwarven Engineer construction rate.
+
+In the original - "The Dwarves have a racial advantage that allows them to construct roads at twice the normal rate. This allows Dwarven Engineer to quickly form a network of Roads across their entire empire."
+(see - https://masterofmagic.fandom.com/wiki/Roads)
+
+However, this feature was overlooked in the current remake and the Dwarven Engineer receives no road building construction bonus. To address, this Mod attempts to correct the oversight. 
+
+The Dwarven Engineer is assigned a unique DWARVEN_ENGINEER_SKILL that allows it to complete road construction at double the normal rate.
+
+    </description>
+
+    <author>DorianGray</author>
+    <version>1.0.2</version>
+    <icon>dwe:dwe.jpg</icon>
+
+</ModSettings>

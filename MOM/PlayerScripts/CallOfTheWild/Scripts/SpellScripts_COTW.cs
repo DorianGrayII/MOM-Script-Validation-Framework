@@ -1,8 +1,8 @@
 /**********************************
  *
  * Author:  Dorian Gray
- * Date:    Feb 23, 2024
- * Version: 1.0.2
+ * Date:    May 10, 2024
+ * Version: 1.0.3
  *
  **********************************/
 
@@ -26,7 +26,7 @@ namespace MOMScripts_COTW
             //summon chosen creature on v3i position
             if (spell == null || spell.stringData == null || spell.stringData.Length < 1)
             {
-                Debug.LogError("Spell " + spell.dbName + " miss summon info to work with");
+                Debug.LogError("Spell " + spell.dbName + " missing spell or script stringData");
                 return false;
             }
 

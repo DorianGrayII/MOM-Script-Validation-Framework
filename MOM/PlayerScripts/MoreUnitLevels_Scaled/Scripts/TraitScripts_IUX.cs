@@ -2,7 +2,7 @@
  *
  * Author:  Dorian Gray
  * Date:    May 1, 2024
- * Version: 1.0.2
+ * Version: 1.0.3
  *
  **********************************/
 
@@ -17,7 +17,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
-using Group = MOM.Group;
 
 namespace MOMScripts_IUX
 {
@@ -29,6 +28,6 @@ namespace MOMScripts_IUX
             w.AddEnchantment((Enchantment)ENCH.WARLORD, w as IEnchantable);
         }
     }
-
 }
+
 #endif

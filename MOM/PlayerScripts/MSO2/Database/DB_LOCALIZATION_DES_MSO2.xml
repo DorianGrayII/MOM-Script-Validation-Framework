@@ -1,0 +1,6 @@
+﻿<DB_LOCALIZATION>
+    <LOCALIZATION-DES_MSO2_EN Language="English">
+        <Loc Key="DES_BUILDING_SAWMILL_DES" Value="A sawmill will turn wood into deadly weaponry.\n\nEffects: Increases production by +25%{ICON:ProductionIcon} and adds a flat 0.1 bonus while producing the Housing project.\n\nREQUIRES A FOREST WITHIN RANGE" />
+        <Loc Key="DES_BUILDING_BUILDERS_HALL_DES" Value="The builders' hall is a core building where your workers may gain knowledge of the craft.\n\nEffects: Adds a flat 0.15 bonus while producing the Housing project. Unlock building path (if race allows it). " />
+    </LOCALIZATION-DES_MSO2_EN>
+</DB_LOCALIZATION>

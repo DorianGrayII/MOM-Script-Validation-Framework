@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ModSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <prefix>flt</prefix>
+    <name>Flight Fix</name>
+    <title>[Util] Flight Fix</title>
+
+    <description>
+Flight Spell Fix: v1.0.0
+
+Dependencies: UserUtility (requires the installation of this Mod prior to use)
+
+This is a fix to the Flight spell and changes the minimum movement allowance provided by the spell from 3 to 4.
+
+This is the case where Muha did not appropriately scale movement to the larger map sizes in their remake.
+
+In oMoM - A unit affected by the Flight spell has a minimum Movement Allowance of Air 3, regardless of how much it had before this spell was cast. This only applies to units that had fewer than 3 MP before being affected by the spell."
+
+See https://masterofmagic.fandom.com/wiki/Flight
+
+    </description>
+
+    <author>DorianGray</author>
+    <version>1.0.0</version>
+    <icon>flt:flight.png</icon>
+
+</ModSettings>

@@ -6,11 +6,12 @@
     <title>More Starting Options 2</title>
 
     <description>
-This is a cleanup/fix of the previous Mod by eddieballgame
+This is an Enhancement, cleanup and fix of the previous Mod by eddieballgame
 ==========================
 
 New Starting Spellbook Options
 -------------------------
+- Added 16 Spellbooks (Difficulty -70)
 - Added 15 Spellbooks (Difficulty -50)
 - Added 14 Spellbooks (Difficulty -30)
 - Added 13 Spellbooks (Difficulty -10)
@@ -40,6 +41,8 @@ New Starting Hero Options
 - "Shin Bo the Assassin" (new) (Diff -90)
 - "Spyder the Rogue" (new) (Diff -90)
 - "Shalla the Amazon" (new) (Diff -90)
+- "Yramrag the Warlock" (new) (Diff -90)
+- "Mystic X the Unknown" (new) (Diff -90)
 
 New Town Distance Options
 -------------------------
@@ -57,15 +60,10 @@ New Town Growth Options
 -----------------------
 - Added Town Growth x2.0 multiplier
 
-New (in-game) Tax Incomes and Rebellion rates
----------------------------------------------
-- Added Income of 3.5 with Rebellion of 0.70
-- Added Income of 4.0 with Rebellion of 0.80
-- Added Income of 4.5 with Rebellion of 0.90
     </description>
 
     <author>DorianGray</author>
-    <version>1.0.14</version>
+    <version>1.0.16</version>
     <icon>mso2:mso2.jpg</icon>
 
 </ModSettings>

@@ -1,8 +1,8 @@
 /**********************************
  *
  * Author:  Dorian Gray
- * Date:    Feb 19, 2024
- * Version: 1.0.4
+ * Date:    May 19, 2024
+ * Version: 1.0.7
  *
  **********************************/
 
@@ -18,23 +18,24 @@ using UnityEngine;
 
 namespace MOMScripts_END
 {
-    using static UserUtility_END.Utility;
+    using static UserUtility.Utility;
 
     public class EnchantmentScripts : ScriptBase
     {
         /// <summary>
-        /// enables verbose counter magic logging
+        /// enables verbose logging
         /// </summary>
-        const bool bLoggingEnabled = true;
+        private const bool bLoggingEnabled = true;
 
 
         public static void ECH_AddTag(IEnchantable target, EnchantmentScript es, EnchantmentInstance ei, NetDictionary<DBReference<Tag>, FInt> ret)
         {
-            if (bLoggingEnabled && !IsSimulated(target))
+            bool bSimulated = IsSimulated(target);
+            if (bLoggingEnabled && !bSimulated)
             {
                 Debug.LogFormat("  invoking ECH_AddTag:{0} es:{1} ei:{2} ... ",
                                  GetNameOwnerID(target), (es != null) ? es.script : "{null}", (ei != null) ? ei.nameID : "{null}");
-
+      // Following is for detailed debugging ...
       //          Debug.LogFormat("StackTrace: '{0}'", Environment.StackTrace);
             }
 
@@ -52,6 +53,7 @@ namespace MOMScripts_END
 
 
         /// <summary>
+        /// A specialized version of ECH_AddTag, specific to the Endurance spell
         /// EnchantmentScript TriggerType="AttributeChange" Script="ECH_AddEndurance" FIntData="1" StringData="TAG-MOVEMENT_POINTS"
         /// </summary>
         /// <param name="target"></param>
@@ -80,7 +82,8 @@ namespace MOMScripts_END
                     // Get current value for TAG.ENGINEER_UNIT
                     FInt fEngVal = ret.GetFinal((Tag)TAG.ENGINEER_UNIT);
 
-                    // if Engineer, this value will be >= 1
+                    // if Engineer, this value will be = 1
+                    // if using the Dwarven Engineer Mod, it will be = 2
                     if (fEngVal >= 1)
                     {
                         // double the engineering construction rate
@@ -88,7 +91,7 @@ namespace MOMScripts_END
 
                         if (bLoggingEnabled && !bSimulated)
                         {
-                            // verify the value is being set
+                            // verify the value is being set correctly
                             FInt fNewEngVal = ret.GetFinal((Tag)TAG.ENGINEER_UNIT);
                             Debug.LogFormat("    eng val:{0}->{1}", fEngVal.ToInt(), fNewEngVal.ToInt());
                         }
@@ -102,17 +105,19 @@ namespace MOMScripts_END
         }
 
         /// <summary>
+        /// Specialized version of the EAPP_UnitUpdateMove, specific to the Endurance Spell
         /// EnchantmentApplicationScript TriggerType="None" Script="EAPP_Endurance"
         /// </summary>
-        /// <param name="target"></param>
+        /// <param name="target">as MOM.Unit or BattleUnit</param>
         /// <param name="e"></param>
         /// <param name="ei"></param>
         public static void EAPP_Endurance(IEnchantable target, Enchantment e, EnchantmentInstance ei)
         {
+            bool bSimulated = IsSimulated(target);
             MOM.Unit unit = target as MOM.Unit;
             if (unit != null)
             {
-                if (bLoggingEnabled && !unit.simulationUnit)
+                if (bLoggingEnabled && !bSimulated)
                 {
                     Debug.LogFormat("  invoking EAPP_Endurance:{0} e:{1} ei:{2} ... ", 
                                     GetNameOwnerID(target), GetName(e), GetNameOwnerID(ei) );
@@ -125,7 +130,7 @@ namespace MOMScripts_END
             BattleUnit bu = target as BattleUnit;
             if (bu != null)
             {
-                if (bLoggingEnabled && !bu.simulated)
+                if (bLoggingEnabled && !bSimulated)
                 {
                     Debug.LogFormat("  invoking EAPP_Endurance:{0} e:{1} ei:{2} ... ", 
                                     GetNameOwnerID(target), GetName(e), GetNameOwnerID(ei) );
@@ -146,20 +151,18 @@ namespace MOMScripts_END
         }
 
         /// <summary>
+        /// Specialized version of EREM_UnitUpdateMove, specific to the Endurance Spell
         /// EnchantmentRemovalScript TriggerType="None" Script="EREM_Endurance"
         /// </summary>
-        /// <param name="target"></param>
+        /// <param name="target">as MOM.Unit or BattleUnit</param>
         /// <param name="e"></param>
         /// <param name="ei"></param>
         public static void EREM_Endurance(IEnchantable target, Enchantment e, EnchantmentInstance ei)
         {
-            _ = e;
-            _ = ei;
-
+            bool bSimulated = IsSimulated(target);
             MOM.Unit u = target as MOM.Unit;
             if (u != null)
             {
-                bool bSimulated = u.simulationUnit;
                 if (bLoggingEnabled && !bSimulated)
                 {
                     Debug.LogFormat("  invoking EREM_Endurance Target:{0} ... ", 
@@ -178,7 +181,6 @@ namespace MOMScripts_END
             BattleUnit bu = target as BattleUnit;
             if (bu != null)
             {
-                bool bSimulated = bu.simulated;
                 if (bLoggingEnabled && !bSimulated)
                 {
                     Debug.LogFormat("  invoking EREM_Endurance Target:{0} ... ", 

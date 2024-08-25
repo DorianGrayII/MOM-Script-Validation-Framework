@@ -1,45 +1,62 @@
 ﻿<DB_LOCALIZATION>
-  <LOCALIZATION-DES_IUX_EN Language="English">
-    <Loc Key="DES_LVL_RECRUIT" Value="Recruit (Lvl 1)"/>
-    <Loc Key="DES_LVL_RECRUIT1" Value="Recruit (Lvl 2)"/>
-    <Loc Key="DES_LVL_RECRUIT2" Value="Recruit (Lvl 3)"/>
-    <Loc Key="DES_LVL_REGULAR" Value="Regular (Lvl 4)"/>
-    <Loc Key="DES_LVL_REGULAR1" Value="Regular (Lvl 5)"/>
-    <Loc Key="DES_LVL_REGULAR2" Value="Regular (Lvl 6)"/>
-    <Loc Key="DES_LVL_VETERAN" Value="Veteran (Lvl 7)"/>
-    <Loc Key="DES_LVL_VETERAN1" Value="Veteran (Lvl 8)"/>
-    <Loc Key="DES_LVL_VETERAN2" Value="Veteran (Lvl 9)"/>
-    <Loc Key="DES_LVL_ELITE" Value="Elite (Lvl 10)"/>
-    <Loc Key="DES_LVL_ELITE1" Value="Elite (Lvl 11)"/>
-    <Loc Key="DES_LVL_ELITE2" Value="Elite (Lvl 12)"/>
-    <Loc Key="DES_LVL_ULTRA ELITE" Value="Ultra Elite (Lvl 13)"/>
-    <Loc Key="DES_LVL_ULTRA ELITE1" Value="Ultra Elite (Lvl 14)"/>
-    <Loc Key="DES_LVL_ULTRA ELITE2" Value="Ultra Elite (Lvl 15)"/>
-    <Loc Key="DES_LVL_CHAMPION" Value="Champion (Lvl 16)"/>
-    <Loc Key="DES_LVL_CHAMPION1" Value="Champion (Lvl 17)"/>
-    <Loc Key="DES_LVL_CHAMPION2" Value="Champion (Lvl 18)"/>
-    <Loc Key="DES_LVL_GRAND CHAMPION" Value="Grand Champion (Lvl 19)"/>
-    <Loc Key="DES_LVL_GRAND CHAMPION1" Value="Grand Champion (Lvl 20)"/>
+    <LOCALIZATION-DES_IUX_EN Language="English">
+        
+        <Loc Key="DES_LVL_RECRUIT1" Value="Recruit (Lvl 1)"/>
+        <Loc Key="DES_LVL_RECRUIT2" Value="Recruit (Lvl 2)"/>
+        <Loc Key="DES_LVL_RECRUIT3" Value="Recruit (Lvl 3)"/>
+        
+        <Loc Key="DES_LVL_REGULAR1" Value="Regular (Lvl 4)"/>
+        <Loc Key="DES_LVL_REGULAR2" Value="Regular (Lvl 5)"/>
+        <Loc Key="DES_LVL_REGULAR3" Value="Regular (Lvl 6)"/>
+        
+        <Loc Key="DES_LVL_VETERAN1" Value="Veteran (Lvl 7)"/>
+        <Loc Key="DES_LVL_VETERAN2" Value="Veteran (Lvl 8)"/>
+        <Loc Key="DES_LVL_VETERAN3" Value="Veteran (Lvl 9)"/>
+        
+        <Loc Key="DES_LVL_ELITE1" Value="Elite (Lvl 10)"/>
+        <Loc Key="DES_LVL_ELITE2" Value="Elite (Lvl 11)"/>
+        <Loc Key="DES_LVL_ELITE3" Value="Elite (Lvl 12)"/>
+        
+        <Loc Key="DES_LVL_ULTRA_ELITE1" Value="Ultra Elite (Lvl 13)"/>
+        <Loc Key="DES_LVL_ULTRA_ELITE2" Value="Ultra Elite (Lvl 14)"/>
+        <Loc Key="DES_LVL_ULTRA_ELITE3" Value="Ultra Elite (Lvl 15)"/>
+        
+        <Loc Key="DES_LVL_CHAMPION1" Value="Champion (Lvl 16)"/>
+        <Loc Key="DES_LVL_CHAMPION2" Value="Champion (Lvl 17)"/>
+        <Loc Key="DES_LVL_CHAMPION3" Value="Champion (Lvl 18)"/>
+        
+        <Loc Key="DES_LVL_GRAND_CHAMPION1" Value="Grand Champion (Lvl 19)"/>
+        <Loc Key="DES_LVL_GRAND_CHAMPION2" Value="Grand Champion (Lvl 20)"/>
 
-    <Loc Key="DES_LVL_RECRUIT_DES" Value="The Recruit (Lvl 1) has received no battle training."/>
-    <Loc Key="DES_LVL_RECRUIT1_DES" Value="The Recruit (Lvl 2) has primitive experience and receives the following bonuses:\n\n+4% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_RECRUIT2_DES" Value="The Recruit (Lvl 3) has mastered fundamental fighting techniques and receives the following bonuses:\n\n+1 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+8% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_REGULAR_DES" Value="The Regular (Lvl 4) has mastered basic fighting techniques and receives the following bonuses:\n\n+1 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+1 to {ICON:ArmourIconNormal}\n\n+1 to {ICON:ResistanceIconNormal}\n\n+12% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_REGULAR1_DES" Value="The Regular (Lvl 5) has mastered basic fighting techniques and receives the following bonuses:\n\n+1 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+1 to {ICON:HitIconNormal}\n\n+1 to {ICON:ArmourIconNormal}\n\n+1 to {ICON:ResistanceIconNormal}\n\n+14% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_REGULAR2_DES" Value="The Regular (Lvl 6) has mastered basic fighting techniques and receives the following bonuses:\n\n+2 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+1 to {ICON:HitIconNormal}\n\n+1 to {ICON:ArmourIconNormal}\n\n+1 to {ICON:ResistanceIconNormal}\n\n+16% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_VETERAN_DES" Value="The Veteran (Lvl 7) has mastered advanced fighting techniques and receives the following bonuses:\n\n+2 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+1 to {ICON:HitIconNormal}\n\n+1 to {ICON:ArmourIconNormal}\n\n+2 to {ICON:ResistanceIconNormal}\n\n+18% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_VETERAN1_DES" Value="The Veteran (Lvl 8) has mastered advanced fighting techniques and receives the following bonuses:\n\n+2 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+1 to {ICON:HitIconNormal}\n\n+1 to {ICON:ArmourIconNormal}\n\n+2 to {ICON:ResistanceIconNormal}\n\n+20% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_VETERAN2_DES" Value="The Veteran (Lvl 9) has mastered advanced fighting techniques and receives the following bonuses:\n\n+3 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+1 to {ICON:HitIconNormal}\n\n+2 to {ICON:ArmourIconNormal}\n\n+2 to {ICON:ResistanceIconNormal}\n\n+22% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_ELITE_DES" Value="The Elite (Lvl 10) has extensive combat experience and receives the following bonuses:\n\n+3 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+2 to {ICON:HitIconNormal}\n\n+2 to {ICON:ArmourIconNormal}\n\n+3 to {ICON:ResistanceIconNormal}\n\n+24% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_ELITE1_DES" Value="The Elite (Lvl 11) has extensive combat experience and receives the following bonuses:\n\n+3 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+2 to {ICON:HitIconNormal}\n\n+2 to {ICON:ArmourIconNormal}\n\n+3 to {ICON:ResistanceIconNormal}\n\n+26% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_ELITE2_DES" Value="The Elite (Lvl 12) has extensive combat experience and receives the following bonuses:\n\n+4 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+2 to {ICON:HitIconNormal}\n\n+2 to {ICON:ArmourIconNormal}\n\n+3 to {ICON:ResistanceIconNormal}\n\n+28% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_ULTRA ELITE_DES" Value="The Ultra Elite (Lvl 13) has exceptional combat experience and receives the following bonuses:\n\n+4 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+2 to {ICON:HitIconNormal}\n\n+2 to {ICON:ArmourIconNormal}\n\n+4 to {ICON:ResistanceIconNormal}\n\n+30% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_ULTRA ELITE1_DES" Value="The Ultra Elite (Lvl 14) has exceptional combat experience and receives the following bonuses:\n\n+4 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+2 to {ICON:HitIconNormal}\n\n+3 to {ICON:ArmourIconNormal}\n\n+4 to {ICON:ResistanceIconNormal}\n\n+32% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_ULTRA ELITE2_DES" Value="The Ultra Elite (Lvl 15) has exceptional combat experience and receives the following bonuses:\n\n+5 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+3 to {ICON:HitIconNormal}\n\n+3 to {ICON:ArmourIconNormal}\n\n+4 to {ICON:ResistanceIconNormal}\n\n+34% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_CHAMPION_DES" Value="The Champion (Lvl 16) has exceptional combat experience and receives the following bonuses:\n\n+5 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+3 to {ICON:HitIconNormal}\n\n+3 to {ICON:ArmourIconNormal}\n\n+5 to {ICON:ResistanceIconNormal}\n\n+36% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_CHAMPION1_DES" Value="The Champion (Lvl 17) has exceptional combat experience and receives the following bonuses:\n\n+5 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+3 to {ICON:HitIconNormal}\n\n+3 to {ICON:ArmourIconNormal}\n\n+5 to {ICON:ResistanceIconNormal}\n\n+38% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_CHAMPION2_DES" Value="The Champion (Lvl 18) has exceptional combat experience and receives the following bonuses:\n\n+6 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+3 to {ICON:HitIconNormal}\n\n+3 to {ICON:ArmourIconNormal}\n\n+5 to {ICON:ResistanceIconNormal}\n\n+40% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_GRAND CHAMPION_DES" Value="The Grand Champion (Lvl 19) is the 2nd highest rank that a unit can achieve and receives the following bonuses:\n\n+6 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+3 to {ICON:HitIconNormal}\n\n+4 to {ICON:ArmourIconNormal}\n\n+6 to {ICON:ResistanceIconNormal}\n\n+40% to {ICON:ToHitBonusIcon}"/>
-    <Loc Key="DES_LVL_GRAND CHAMPION1_DES" Value="The Grand Champion (Lvl 20) is highest rank that a unit can achieve and receives the following bonuses:\n\n+6 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+4 to {ICON:HitIconNormal}\n\n+4 to {ICON:ArmourIconNormal}\n\n+6 to {ICON:ResistanceIconNormal}\n\n+40% to {ICON:ToHitBonusIcon}"/>
-  </LOCALIZATION-DES_IUX_EN>
+        <Loc Key="DES_LVL_RECRUIT1_DES" Value="The Recruit (Lvl 1) has received no battle training."/>
+        <Loc Key="DES_LVL_RECRUIT2_DES" Value="The Recruit (Lvl 2) has primitive experience and receives the following bonuses:\n\n+4% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_RECRUIT3_DES" Value="The Recruit (Lvl 3) has mastered fundamental fighting techniques and receives the following bonuses:\n\n+1 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+8% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_REGULAR1_DES" Value="The Regular (Lvl 4) has mastered basic fighting techniques and receives the following bonuses:\n\n+1 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+1 to {ICON:ArmourIconNormal}\n\n+1 to {ICON:ResistanceIconNormal}\n\n+12% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_REGULAR2_DES" Value="The Regular (Lvl 5) has mastered basic fighting techniques and receives the following bonuses:\n\n+1 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+1 to {ICON:HitIconNormal}\n\n+1 to {ICON:ArmourIconNormal}\n\n+1 to {ICON:ResistanceIconNormal}\n\n+14% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_REGULAR3_DES" Value="The Regular (Lvl 6) has mastered basic fighting techniques and receives the following bonuses:\n\n+2 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+1 to {ICON:HitIconNormal}\n\n+1 to {ICON:ArmourIconNormal}\n\n+1 to {ICON:ResistanceIconNormal}\n\n+16% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_VETERAN1_DES" Value="The Veteran (Lvl 7) has mastered advanced fighting techniques and receives the following bonuses:\n\n+2 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+1 to {ICON:HitIconNormal}\n\n+1 to {ICON:ArmourIconNormal}\n\n+2 to {ICON:ResistanceIconNormal}\n\n+18% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_VETERAN2_DES" Value="The Veteran (Lvl 8) has mastered advanced fighting techniques and receives the following bonuses:\n\n+2 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+1 to {ICON:HitIconNormal}\n\n+1 to {ICON:ArmourIconNormal}\n\n+2 to {ICON:ResistanceIconNormal}\n\n+20% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_VETERAN3_DES" Value="The Veteran (Lvl 9) has mastered advanced fighting techniques and receives the following bonuses:\n\n+3 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+1 to {ICON:HitIconNormal}\n\n+2 to {ICON:ArmourIconNormal}\n\n+2 to {ICON:ResistanceIconNormal}\n\n+22% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_ELITE1_DES" Value="The Elite (Lvl 10) has extensive combat experience and receives the following bonuses:\n\n+3 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+2 to {ICON:HitIconNormal}\n\n+2 to {ICON:ArmourIconNormal}\n\n+3 to {ICON:ResistanceIconNormal}\n\n+24% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_ELITE2_DES" Value="The Elite (Lvl 11) has extensive combat experience and receives the following bonuses:\n\n+3 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+2 to {ICON:HitIconNormal}\n\n+2 to {ICON:ArmourIconNormal}\n\n+3 to {ICON:ResistanceIconNormal}\n\n+26% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_ELITE3_DES" Value="The Elite (Lvl 12) has extensive combat experience and receives the following bonuses:\n\n+4 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+2 to {ICON:HitIconNormal}\n\n+2 to {ICON:ArmourIconNormal}\n\n+3 to {ICON:ResistanceIconNormal}\n\n+28% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_ULTRA_ELITE1_DES" Value="The Ultra Elite (Lvl 13) has exceptional combat experience and receives the following bonuses:\n\n+4 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+2 to {ICON:HitIconNormal}\n\n+2 to {ICON:ArmourIconNormal}\n\n+4 to {ICON:ResistanceIconNormal}\n\n+30% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_ULTRA_ELITE2_DES" Value="The Ultra Elite (Lvl 14) has exceptional combat experience and receives the following bonuses:\n\n+4 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+2 to {ICON:HitIconNormal}\n\n+3 to {ICON:ArmourIconNormal}\n\n+4 to {ICON:ResistanceIconNormal}\n\n+32% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_ULTRA_ELITE3_DES" Value="The Ultra Elite (Lvl 15) has exceptional combat experience and receives the following bonuses:\n\n+5 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+3 to {ICON:HitIconNormal}\n\n+3 to {ICON:ArmourIconNormal}\n\n+4 to {ICON:ResistanceIconNormal}\n\n+34% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_CHAMPION1_DES" Value="The Champion (Lvl 16) has exceptional combat experience and receives the following bonuses:\n\n+5 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+3 to {ICON:HitIconNormal}\n\n+3 to {ICON:ArmourIconNormal}\n\n+5 to {ICON:ResistanceIconNormal}\n\n+36% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_CHAMPION2_DES" Value="The Champion (Lvl 17) has exceptional combat experience and receives the following bonuses:\n\n+5 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+3 to {ICON:HitIconNormal}\n\n+3 to {ICON:ArmourIconNormal}\n\n+5 to {ICON:ResistanceIconNormal}\n\n+38% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_CHAMPION3_DES" Value="The Champion (Lvl 18) has exceptional combat experience and receives the following bonuses:\n\n+6 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+3 to {ICON:HitIconNormal}\n\n+3 to {ICON:ArmourIconNormal}\n\n+5 to {ICON:ResistanceIconNormal}\n\n+40% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_GRAND_CHAMPION1_DES" Value="The Grand Champion (Lvl 19) is the 2nd highest rank that a unit can achieve and receives the following bonuses:\n\n+6 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+3 to {ICON:HitIconNormal}\n\n+4 to {ICON:ArmourIconNormal}\n\n+6 to {ICON:ResistanceIconNormal}\n\n+40% to {ICON:ToHitBonusIcon}"/>
+        <Loc Key="DES_LVL_GRAND_CHAMPION2_DES" Value="The Grand Champion (Lvl 20) is highest rank that a unit can achieve and receives the following bonuses:\n\n+6 to {ICON:MeleeIconNormal} and {ICON:RangedIconNormal}\n\n+4 to {ICON:HitIconNormal}\n\n+4 to {ICON:ArmourIconNormal}\n\n+6 to {ICON:ResistanceIconNormal}\n\n+40% to {ICON:ToHitBonusIcon}"/>
+
+        <Loc Key="DES_BUILDING_BARRACKS_DES" Value="The barracks are one of the core military buildings that will allow you to build a proper army. Barracks allow a city to train and organize military units.\n\nEffects: Increases the XP of new normal units by +20, cumulative with the XP bonuses provided by other buildings." />
+        <Loc Key="DES_BUILDING_FIGHTERS_GUILD_DES" Value="A fighters' guild teaches troops basic fighting techniques.\n\nEffects: Increases the XP of new normal units by +60, cumulative with the XP bonuses provided by other buildings." />
+        <Loc Key="DES_BUILDING_ARMORERS_GUILD_DES" Value="An armorers' guild provides troops with training in fighting techniques and basic battle tactics.\n\nEffects: Increases the XP of new normal units by +100, cumulative with the XP bonuses provided by other buildings." />
+        <Loc Key="DES_BUILDING_WAR_COLLEGE_DES" Value="A war college teaches advanced battle strategy and tactics to your soldiers.\n\nEffects: Increases the XP of new normal units by +240, cumulative with the XP bonuses provided by other buildings." />
+        <!-- following adds icons to the building description -->
+        <Loc Key="DES_BUILDING_ANIMISTS_GUILD_DES" Value="A place for the contemplation and reverence of natural, earthly forces.\n\nEffects: Adds +1{ICON:FoodIcon} Food per Farmer, reduces unrest by additional -1{ICON:UnrestIcon}Rebel; allows the use of nightshade and doubles the healing rate of units inside the city." />
+
+        <Loc Key="DES_HEROISM_DES" Value="An ally is anointed with the Power of Life itself. The target normal unit immediately becomes Elite(Lvl 10) (Commander for heroes)."/>
+
+    </LOCALIZATION-DES_IUX_EN>
 </DB_LOCALIZATION>
