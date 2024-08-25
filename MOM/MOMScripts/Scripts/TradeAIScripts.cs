@@ -288,6 +288,9 @@ namespace MOMScripts
         }
         static public float ValueScale(object o, int advantageIfAcquired)
         {
+            // TODO
+            // Warning	CA2233	Correct the potential overflow in the operation 'advantageIfAcquired--1' in 'TradeAIScripts.ValueScale(object, int)'.
+
             switch (advantageIfAcquired)
             {
                 case 1:

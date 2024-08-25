@@ -712,6 +712,8 @@ namespace MOMScripts
                 if (tag.parent != (Tag)TAG.MAGIC_BOOK) continue;
                 if (kvp.Value >= spellBooks)
                 {
+                    // TODO
+                    // correct potential overflow
                     realms--;
                     if (realms == 0)
                         return true;

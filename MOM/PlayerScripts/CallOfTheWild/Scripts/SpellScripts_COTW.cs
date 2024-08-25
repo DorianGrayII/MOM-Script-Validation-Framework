@@ -30,6 +30,12 @@ namespace MOMScripts_COTW
                 return false;
             }
 
+            if (!(target is Vector3i))
+            {
+                Debug.LogError("Target is not a location");
+                return false;
+            }
+
             List<DBReference<DBDef.Unit>> units = new List<DBReference<DBDef.Unit>>();
 
             foreach (string unitName in spell.stringData)
@@ -47,17 +53,13 @@ namespace MOMScripts_COTW
             // just grab the 1st one
             DBDef.Unit unit = units[0].Get();
 
-            //             if (!(target is Vector3i))
-            //             {
-            //                 Debug.LogError("Target is not a location");
-            //                 return false;
-            //             }
             Vector3i pos = (Vector3i)target;
-            //             if (!data.battle.IsLocationEmpty(pos))
-            //             {
-            //                 Debug.LogError("Target location occupied");
-            //                 return false;
-            //             }
+            
+            if (!data.battle.IsLocationEmpty(pos))
+            {
+                Debug.LogError("Target location occupied");
+                return false;
+            }
 
             if (data.battle != null)
             {
