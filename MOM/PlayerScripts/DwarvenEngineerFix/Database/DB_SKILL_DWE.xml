@@ -1,6 +1,8 @@
 ﻿<DB_SKILL>
+    <!-- following is completely new skill added by mod -->
     <SKILL-DWARVEN_ENGINEER NonCombatDisplay="TRUE">
         <DescriptionInfo Name="DES_SKILL_ENGINEER" Description="DES_SKILL_ENGINEER_DES" Graphic="SkillEngineer"/>
+        <!-- the FIntParams in the following establishes the engineering rate and is changed from the default SKILL-ENGINEER -->
         <SkillApplicationScript Priority="0" TriggerType="None" ActivatorMainScript="SAPP_AddTag" StringData="TAG-ENGINEER_UNIT" FIntParam="2.0"/>
         <SkillRemovalScript Priority="0" TriggerType="None" ActivatorMainScript="SREM_RemoveTag" StringData="TAG-ENGINEER_UNIT" FIntParam="2.0"/>
     </SKILL-DWARVEN_ENGINEER>

@@ -24,6 +24,7 @@
         <Skills VALUE="SKILL-MELEE_ATTACK"/>
         <Skills VALUE="SKILL-MOUNTAINEER"/>
         <Skills VALUE="SKILL-WALL_CRUSHER"/>
+        <!-- following is added my mod to access new skill -->
         <Skills VALUE="SKILL-DWARVEN_ENGINEER"/>
 
         <RequiredBuildings VALUE="BUILDING-BUILDERS_HALL"/>

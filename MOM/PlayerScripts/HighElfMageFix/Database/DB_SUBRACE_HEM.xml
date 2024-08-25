@@ -4,6 +4,7 @@
         <Race VALUE="RACE-HIGH_ELVES"/>
         <Marker VALUE="IconMagician"/>
 
+        <!-- following changed from 2->3 by mod -->
         <Tags Amount="3" Tag="TAG-MOVEMENT_POINTS"/>
         <Tags Amount="1" Tag="TAG-CAN_WALK"/>
 

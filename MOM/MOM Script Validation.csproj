@@ -148,6 +148,12 @@
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC2_IT.xml" />
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC2_PL.xml" />
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC3.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC3_CN.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC3_DE.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC3_ES.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC3_FR.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC3_IT.xml" />
+    <Content Include="MOMScripts\Database\DB_LOCALIZATION_DLC3_PL.xml" />
     <Content Include="MOMScripts\Database\DB_LOCALIZATION_UI.xml">
       <SubType>Designer</SubType>
     </Content>
@@ -166,6 +172,7 @@
     <Content Include="MOMScripts\Database\DB_SOUND.xml" />
     <Content Include="MOMScripts\Database\DB_SOUND_DLC1.xml" />
     <Content Include="MOMScripts\Database\DB_SOUND_DLC2.xml" />
+    <Content Include="MOMScripts\Database\DB_SOUND_DLC3.xml" />
     <Content Include="MOMScripts\Database\DB_SPELL.xml">
       <SubType>Designer</SubType>
     </Content>

@@ -4,6 +4,7 @@
         <Race VALUE="RACE-REALM_ARCANE"/>
         <Marker VALUE="IconMagicSpirit"/>
 
+        <!-- following changed from 2->3 by mod -->
         <Tags Amount="3" Tag="TAG-MOVEMENT_POINTS"/>
         <Tags Amount="1" Tag="TAG-CAN_WALK"/>
         <Tags Amount="1" Tag="TAG-CAN_SWIM"/>
@@ -36,6 +37,7 @@
         <Race VALUE="RACE-REALM_LIFE"/>
         <Marker VALUE="IconGuardianSpirit"/>
 
+        <!-- following changed from 2->4 by mod -->
         <Tags Amount="4" Tag="TAG-MOVEMENT_POINTS"/>
         <Tags Amount="1" Tag="TAG-CAN_WALK"/>
         <Tags Amount="1" Tag="TAG-CAN_SWIM"/>

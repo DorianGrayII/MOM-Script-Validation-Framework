@@ -26,6 +26,7 @@
         <Skills VALUE="SKILL-UNIT_LEVEL"/>
         <Skills VALUE="SKILL-MELEE_ATTACK"/>
         <Skills VALUE="SKILL-NORMAL_RANGE_ATTACK"/>
+        <!-- following is added by mod -->
         <Skills VALUE="SKILL-LONG_RANGE"/>
         <Skills VALUE="SKILL-TO_HIT_10"/>
         <Skills VALUE="SKILL-FORESTER"/>
